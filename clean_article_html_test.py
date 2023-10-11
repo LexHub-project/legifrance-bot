@@ -11,8 +11,10 @@ Lorsque les cinq territoires mentionnés à l'article <a href='/affichCodeArticl
 2° Les territoires des autres Etats membres de l'Union européenne vis-à-vis des territoires mentionnés aux 2° à 5° de l'article L. 112-4.</p><p></p>
 """,
             {
-                "LEGIARTI000044597999": "article-l112-4",
-                "LEGIARTI000044597993": "article-l112-2",
+                "LEGITEXT000044595989": {
+                    "LEGIARTI000044597999": "article-l112-4",
+                    "LEGIARTI000044597993": "article-l112-2",
+                }
             },
         )
         == """
