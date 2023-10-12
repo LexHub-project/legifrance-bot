@@ -1,9 +1,9 @@
-from clean_article_html import clean_article_html
+from render_to_markdown import _clean_article_html
 
 
 def test_clean_article_html():
     assert (
-        clean_article_html(
+        _clean_article_html(
             """
 <p></p><p><br/>
 Lorsque les cinq territoires mentionnés à l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000044595989&idArticle=LEGIARTI000044597999&dateTexte=&categorieLien=cid' title='Code des impositions sur les biens et services - art. L112-4 (V)'>L. 112-4 </a>sont regardés comme distincts pour une imposition donnée, sont assimilés à des territoires tiers au sens de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000044595989&idArticle=LEGIARTI000044597993&dateTexte=&categorieLien=cid' title='Code des impositions sur les biens et services - art. L112-2 (V)'>L. 112-2 </a>:<br/><br/>
