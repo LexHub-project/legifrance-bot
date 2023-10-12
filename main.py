@@ -35,7 +35,13 @@ for i, c in enumerate(codes):
     if c["etat"] == "VIGUEUR":
         print(f"{i}: {c['cid']} - {c['titre']}")
 
-code_cids = ["LEGITEXT000044595989", "LEGITEXT000006072051"]
+code_cids = [
+    "LEGITEXT000044595989",
+    "LEGITEXT000006072051",
+    "LEGITEXT000006074073",
+    "LEGITEXT000006071191",
+    "LEGITEXT000006074228",
+]
 
 
 ArticleJSON = dict
@@ -95,15 +101,16 @@ def fetch_article_with_history(cid: str, ids: set[str]) -> ArticleJSON:
 
 
 def fetch_articles(tm: CodeJSON) -> list[ArticleJSON]:
-    print(f"{tm['cid']} - {tm['title']}")
-
     ids = sorted(list(_yield_article_ids(tm)), key=lambda x: x[0])
     grouped_by_cid = [
         (cid, {i[1] for i in with_same_cid})
         for (cid, with_same_cid) in itertools.groupby(ids, key=lambda x: x[0])
     ]
 
-    return [fetch_article_with_history(cid, ids) for (cid, ids) in tqdm(grouped_by_cid)]
+    return [
+        fetch_article_with_history(cid, ids)
+        for (cid, ids) in tqdm(grouped_by_cid, desc=f"{tm['cid']} - {tm['title']}")
+    ]
 
 
 def get_commits(article: ArticleJSON) -> dict[str, Commit]:
