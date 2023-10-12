@@ -29,6 +29,9 @@ class LegifranceClient:
                 "scope": "openid",
             },
         )
+
+        assert res.status_code == 200, res
+
         content = json.loads(res.content)
         self._token = content["access_token"]
         self._token_expires_at = time() + content["expires_in"] - 1
@@ -40,6 +43,7 @@ class LegifranceClient:
     def _build_headers(self):
         if not self._is_token_valid():
             self._get_token()
+
         return {
             "Authorization": f"Bearer {self._token}",
             "accept": "application/json",
@@ -58,6 +62,9 @@ class LegifranceClient:
             ),
             headers=self._build_headers(),
         )
+
+        assert res.status_code == 200, res
+
         return json.loads(res.content)["results"]
 
     def get_tm(self, cid: str):
@@ -67,12 +74,18 @@ class LegifranceClient:
             json.dumps({"textId": cid, "nature": "CODE", "date": date_str}),
             headers=self._build_headers(),
         )
+
+        assert res.status_code == 200, res
+
         return json.loads(res.content)
 
     def get_article(self, cid: str):
         res = requests.post(
-            URL_BASE + "/consult/getArticle",
+            URL_BASE + "/consult/getArticleByCid",
             json.dumps({"cid": cid}),
             headers=self._build_headers(),
         )
+
+        assert res.status_code == 200, res.content
+
         return json.loads(res.content)

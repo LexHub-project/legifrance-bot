@@ -9,10 +9,11 @@ from datetime import datetime
 from typing import Generator, Tuple
 
 import pytz
-from clean_article_html import clean_article_html
-from client import LegifranceClient
 from dotenv import load_dotenv
 from tqdm import tqdm
+
+from clean_article_html import clean_article_html
+from client import LegifranceClient
 
 load_dotenv()
 
@@ -36,11 +37,12 @@ for i, c in enumerate(codes):
         print(f"{i}: {c['cid']} - {c['titre']}")
 
 code_cids = [
-    "LEGITEXT000044595989",
+    "LEGITEXT000006070208",
+    "LEGITEXT000006070239",
     "LEGITEXT000006072051",
     "LEGITEXT000006074073",
-    "LEGITEXT000006071191",
     "LEGITEXT000006074228",
+    "LEGITEXT000044595989",
 ]
 
 
@@ -60,6 +62,15 @@ class StateAtCommit:
     title: str
     timestamp: int
     full_code_texts: list[Tuple[str, str]]
+
+
+def fetch_tm(code_cid: str) -> CodeJSON:
+    tm = client.get_tm(code_cid)
+
+    with open(f"{CACHE_DIR}/codes/{tm['cid']}.json", "w") as f:
+        f.write(json.dumps(tm, indent=4))
+
+    return tm
 
 
 def _yield_article_ids(tm: CodeJSON) -> Generator[Tuple[str, str], None, None]:
@@ -116,29 +127,36 @@ def fetch_articles(tm: CodeJSON) -> list[ArticleJSON]:
 def get_commits(article: ArticleJSON) -> dict[str, Commit]:
     commits = {}
     for version in article["listArticle"]:
-        modifs = version["lienModifications"]
-        timestamp: int = version["dateDebut"]
-        textCids: list[str] = sorted({m["textCid"] for m in modifs})
+        # TODO: not sure what to do with MODIFIE_MORT_NE
+        if version["etat"] != "MODIFIE_MORT_NE":
+            modifs = version["lienModifications"]
+            timestamp: int = version["dateDebut"]
+            textCids: list[str] = sorted({m["textCid"] for m in modifs})
 
-        if len(textCids) == 0:
-            textCids = ["???"]
+            if len(textCids) == 0:
+                textCids = ["???"]
+                # TODO
+
+            commitId = f"{timestamp}-{'-'.join(textCids)}"
+
             # TODO
+            # TODO add nota?
+            commitTitle = "Modifications par " + " & ".join(
+                {
+                    m["textTitle"] if m["textTitle"] is not None else "?TODO?"
+                    for m in modifs
+                }
+            )
+            text = version["texteHtml"]
 
-        commitId = f"{timestamp}-{'-'.join(textCids)}"
-
-        # TODO
-        # TODO add nota?
-        commitTitle = "Modifications par " + " & ".join(
-            {m["textTitle"] if m["textTitle"] is not None else "?TODO?" for m in modifs}
-        )
-        text = version["texteHtml"]
-
-        assert commitId not in commits
-        commits[commitId] = Commit(
-            title=commitTitle,
-            timestamp=timestamp,
-            article_changes={version["cid"]: text},
-        )
+            assert (
+                commitId not in commits
+            ), f"cid: {version['cid']} commitId: {commitId}"
+            commits[commitId] = Commit(
+                title=commitTitle,
+                timestamp=timestamp,
+                article_changes={version["cid"]: text},
+            )
 
     return commits
 
@@ -193,7 +211,6 @@ def header_to_anchor(s: str) -> str:
 def print_tm(
     tm: CodeJSON,
     commits: list[Commit],
-    text_to_cid_to_anchor: dict[str, dict[str, str]],
     file,
     level=1,
 ) -> None:
@@ -206,15 +223,13 @@ def print_tm(
         if article["etat"] != "ABROGE":
             print(header(level + 1, article_to_header_text(article)), file=file)
             print(
-                clean_article_html(
-                    last_text(commits, article["cid"]), text_to_cid_to_anchor
-                ),
+                last_text(commits, article["cid"]),
                 file=file,
             )
             print("\n", file=file)
 
     for section in tm["sections"]:
-        print_tm(section, commits, text_to_cid_to_anchor, file=file, level=level + 1)
+        print_tm(section, commits, file=file, level=level + 1)
 
     if "commentaire" in tm and tm["commentaire"] is not None:
         print(tm["commentaire"], file=file)
@@ -239,21 +254,33 @@ def process(
         for tm in code_tms
     }
 
-    for i in tqdm(range(0, len(sorted_commits) - 1), desc="Processing"):
+    cleaned_commits = [
+        Commit(
+            title=c.title,
+            timestamp=c.timestamp,
+            article_changes={
+                article_cid: clean_article_html(text, text_to_cid_to_anchor)
+                for article_cid, text in c.article_changes.items()
+            },
+        )
+        for c in tqdm(sorted_commits, "Cleaning HTML")
+    ]
+
+    for i in tqdm(range(0, len(cleaned_commits) - 1), desc="Processing"):
         full_code_texts = []
         for tm in code_tms:
             f = io.StringIO()
-            print_tm(tm, sorted_commits[: (i + 1)], text_to_cid_to_anchor, file=f)
+            print_tm(tm, cleaned_commits[: (i + 1)], file=f)
             full_code_texts.append((tm["title"], f.getvalue()))
 
         yield StateAtCommit(
-            title=sorted_commits[i].title,
-            timestamp=sorted_commits[i].timestamp,
+            title=cleaned_commits[i].title,
+            timestamp=cleaned_commits[i].timestamp,
             full_code_texts=full_code_texts,
         )
 
 
-code_tms = [client.get_tm(c) for c in code_cids]
+code_tms = [fetch_tm(c) for c in tqdm(code_cids, "Getting TM")]
 articles = [a for tm in code_tms for a in fetch_articles(tm)]
 commits = list(process(code_tms, articles))
 
