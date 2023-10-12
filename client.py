@@ -1,8 +1,8 @@
-import requests
 import json
 from datetime import datetime
 from time import time
 
+import requests
 
 URL_BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
 
@@ -10,7 +10,7 @@ URL_BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
 class LegifranceClient:
     _client_id: str
     _client_secret: str
-    _token: str
+    _token: str | None
     _token_expires_at: float
 
     def __init__(self, client_id: str, client_secret: str):
@@ -58,7 +58,7 @@ class LegifranceClient:
             ),
             headers=self._build_headers(),
         )
-        return json.loads(res.content)   
+        return json.loads(res.content)["results"]
 
     def get_tm(self, cid: str):
         date_str = datetime.now().strftime("%Y-%m-%d")

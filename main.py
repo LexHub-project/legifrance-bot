@@ -1,15 +1,18 @@
-import requests
-import json
-from tqdm import tqdm
-from datetime import datetime
-from typing import Generator
-import os
 import io
-from dotenv import load_dotenv
+import itertools
+import json
+import math
+import os
 import subprocess
-import pytz
-from client import LegifranceClient
+from dataclasses import dataclass
+from datetime import datetime
+from typing import Generator, Tuple
 
+import pytz
+from clean_article_html import clean_article_html
+from client import LegifranceClient
+from dotenv import load_dotenv
+from tqdm import tqdm
 
 load_dotenv()
 
@@ -26,16 +29,34 @@ client = LegifranceClient(CLIENT_ID, CLIENT_SECRET)
 OUTPUT_REPO_PATH = "../legifrance"
 
 
-l = client.get_codes_list()
+codes = client.get_codes_list()
 
-for i, c in enumerate(l["results"]):
+for i, c in enumerate(codes):
     if c["etat"] == "VIGUEUR":
-        print(f"{i}: {c['titre']} - {c['cid']}")
+        print(f"{i}: {c['cid']} - {c['titre']}")
 
-code = "LEGITEXT000044595989"
+code_cids = ["LEGITEXT000044595989", "LEGITEXT000006072051"]
 
 
-def _yield_article_ids(tm):
+ArticleJSON = dict
+CodeJSON = dict
+
+
+@dataclass
+class Commit:
+    title: str
+    timestamp: int
+    article_changes: dict[str, str]
+
+
+@dataclass
+class StateAtCommit:
+    title: str
+    timestamp: int
+    full_code_texts: list[Tuple[str, str]]
+
+
+def _yield_article_ids(tm: CodeJSON) -> Generator[Tuple[str, str], None, None]:
     if len(tm["articles"]) > 0:
         for article in tm["articles"]:
             yield (article["cid"], article["id"])
@@ -45,7 +66,7 @@ def _yield_article_ids(tm):
             yield from _yield_article_ids(section)
 
 
-def _fetch_and_cache_article_with_history(path: str, cid: str):
+def _fetch_and_cache_article_with_history(path: str, cid: str) -> ArticleJSON:
     article = client.get_article(cid)
 
     with open(path, "w") as f:
@@ -54,15 +75,16 @@ def _fetch_and_cache_article_with_history(path: str, cid: str):
     return article
 
 
-def fetch_article_with_history(cid: str, id: str):
+def fetch_article_with_history(cid: str, ids: set[str]) -> ArticleJSON:
     path = f"{CACHE_DIR}/articles/{cid}.json"
 
     try:
         with open(path, "r") as f:
             article = json.load(f)
 
-            ids = {a["id"] for a in article["listArticle"]}
-            if id not in ids:
+            existing_ids = {a["id"] for a in article["listArticle"]}
+
+            if len(ids.difference(existing_ids)) > 0:
                 print(f"Outdated {cid}, refetching")
                 return _fetch_and_cache_article_with_history(path, cid)
 
@@ -72,88 +94,102 @@ def fetch_article_with_history(cid: str, id: str):
         return _fetch_and_cache_article_with_history(path, cid)
 
 
-def fetch_articles(tm):
-    return [
-        fetch_article_with_history(cid, i)
-        for (cid, i) in tqdm(list(_yield_article_ids(tm)))
+def fetch_articles(tm: CodeJSON) -> list[ArticleJSON]:
+    print(f"{tm['cid']} - {tm['title']}")
+
+    ids = sorted(list(_yield_article_ids(tm)), key=lambda x: x[0])
+    grouped_by_cid = [
+        (cid, {i[1] for i in with_same_cid})
+        for (cid, with_same_cid) in itertools.groupby(ids, key=lambda x: x[0])
     ]
 
+    return [fetch_article_with_history(cid, ids) for (cid, ids) in tqdm(grouped_by_cid)]
 
-def get_commits(article):
+
+def get_commits(article: ArticleJSON) -> dict[str, Commit]:
     commits = {}
     for version in article["listArticle"]:
         modifs = version["lienModifications"]
-        date = version["dateDebut"]
-        textCids = sorted({m["textCid"] for m in modifs})
+        timestamp: int = version["dateDebut"]
+        textCids: list[str] = sorted({m["textCid"] for m in modifs})
 
         if len(textCids) == 0:
-            textCids = {"???"}
+            textCids = ["???"]
             # TODO
 
-        commitId = f"{date}-{'-'.join(textCids)}"
+        commitId = f"{timestamp}-{'-'.join(textCids)}"
+
         # TODO
         # TODO add nota?
         commitTitle = "Modifications par " + " & ".join(
             {m["textTitle"] if m["textTitle"] is not None else "?TODO?" for m in modifs}
         )
-        text = version["texteHtml"]  # TODO html?
+        text = version["texteHtml"]
 
         assert commitId not in commits
-        commits[commitId] = {
-            "commitTitle": commitTitle,
-            "articles": {version["cid"]: text},
-            "date": date,
-        }
+        commits[commitId] = Commit(
+            title=commitTitle,
+            timestamp=timestamp,
+            article_changes={version["cid"]: text},
+        )
 
     return commits
 
 
-def merge_commits(all_commits):
-    merged = {}
+def merge_commits(all_commits: list[dict[str, Commit]]) -> dict[str, Commit]:
+    merged: dict[str, Commit] = {}
     for partial in all_commits:
-        for commitId, c in partial.items():
-            if commitId in merged:
-                assert merged[commitId]["date"] == c["date"]
+        for commit_id, c in partial.items():
+            if commit_id in merged:
+                assert merged[commit_id].timestamp == c.timestamp
                 # TODO: humans ...
-                # assert merged[commitId]['commitTitle'] == c['commitTitle'], merged[commitId]['commitTitle']  + " !== " + c['commitTitle']
+                # assert merged[commit_id].title == c.title, merged[commit_id].title  + " !== " + c.title
 
-                for articleCid, text in c["articles"].items():
-                    assert articleCid not in merged[commitId]["articles"]
-                    merged[commitId]["articles"][articleCid] = text
+                for article_cid, text in c.article_changes.items():
+                    assert article_cid not in merged[commit_id].article_changes, (
+                        commit_id,
+                        article_cid,
+                        text,
+                    )
+                    merged[commit_id].article_changes[article_cid] = text
 
             else:
-                merged[commitId] = c
+                merged[commit_id] = c
 
     return merged
 
 
-def last_text(commits: list[dict], cid):
+def last_text(commits: list[Commit], cid: str) -> str:
     for c in reversed(commits):
-        if cid in c["articles"]:
-            return c["articles"][cid]
+        if cid in c.article_changes:
+            return c.article_changes[cid]
 
+    # BUG / TODO
+    # https://github.com/LexHub-project/legifrance-bot/issues/22
+    # raise KeyError(cid)
     return "<TODO>"
 
 
-from clean_article_html import clean_article_html
-
-
-def header(level, text):
+def header(level: int, text: str) -> str:
     # TODO, for now limited to level 6
     return ("#" * min(level, 6)) + " " + text
 
 
-def article_to_header_text(article):
+def article_to_header_text(article: ArticleJSON) -> str:
     return f"Article {article['num']}"
 
 
-def header_to_anchor(s: str):
+def header_to_anchor(s: str) -> str:
     return s.strip().lower().replace(" ", "-")
 
 
 def print_tm(
-    tm, commits, text_to_cid_to_anchor: dict[str, dict[str, str]], file, level=1
-):
+    tm: CodeJSON,
+    commits: list[Commit],
+    text_to_cid_to_anchor: dict[str, dict[str, str]],
+    file,
+    level=1,
+) -> None:
     if tm["etat"] == "ABROGE":
         return
 
@@ -179,10 +215,12 @@ def print_tm(
     # TODO
 
 
-def process(tm: dict, articles: list[dict]) -> Generator[str, None, None]:
+def process(
+    code_tms: list[CodeJSON], articles: list[ArticleJSON]
+) -> Generator[StateAtCommit, None, None]:
     all_commits = [get_commits(a) for a in articles]
     merged = merge_commits(all_commits)
-    sorted_commits = sorted(merged.values(), key=lambda c: c["date"])
+    sorted_commits = sorted(merged.values(), key=lambda c: c.timestamp)
 
     text_to_cid_to_anchor = {
         tm["cid"]: {
@@ -191,27 +229,26 @@ def process(tm: dict, articles: list[dict]) -> Generator[str, None, None]:
             )
             for article in articles
         }
+        for tm in code_tms
     }
 
-    for i in range(0, len(sorted_commits) - 1):
-        f = io.StringIO()
-        print_tm(tm, sorted_commits[: (i + 1)], text_to_cid_to_anchor, file=f)
+    for i in tqdm(range(0, len(sorted_commits) - 1), desc="Processing"):
+        full_code_texts = []
+        for tm in code_tms:
+            f = io.StringIO()
+            print_tm(tm, sorted_commits[: (i + 1)], text_to_cid_to_anchor, file=f)
+            full_code_texts.append((tm["title"], f.getvalue()))
 
-        date = sorted_commits[i]["date"] / 1000  # TODO ms vs s
-        title = sorted_commits[i]["commitTitle"]
-
-        yield (f.getvalue(), date, title)
-
-
-tm = client.get_tm(code)
-# for debugging
-with open("code.json", "w") as f:
-    f.write(json.dumps(tm, indent=4))
-
-articles = fetch_articles(tm)
-commits = process(tm, articles)
+        yield StateAtCommit(
+            title=sorted_commits[i].title,
+            timestamp=sorted_commits[i].timestamp,
+            full_code_texts=full_code_texts,
+        )
 
 
+code_tms = [client.get_tm(c) for c in code_cids]
+articles = [a for tm in code_tms for a in fetch_articles(tm)]
+commits = list(process(code_tms, articles))
 
 
 subprocess.run(["rm", "-rf", OUTPUT_REPO_PATH])
@@ -220,15 +257,19 @@ subprocess.run(["git", "init", OUTPUT_REPO_PATH])
 
 tz = pytz.timezone("UTC")
 
-for (full_code_text, date, title) in commits:
-    with open(f"{OUTPUT_REPO_PATH}/{tm['title']}.md", "w") as f:
-        f.write(full_code_text)
+for c in commits:
+    for title, full_text in c.full_code_texts:
+        with open(f"{OUTPUT_REPO_PATH}/{title}.md", "w") as f:
+            f.write(full_text)
 
-    date_dt = datetime.fromtimestamp(date, tz)
+    # TODO ms vs s
+    date_dt = datetime.fromtimestamp(math.floor(c.timestamp / 1000), tz)
 
     # TODO
     if date_dt.year >= 2038:
         date_dt = datetime(2038, 1, 1)
+    if date_dt.year <= 1969:
+        date_dt = datetime(1970, 1, 2)  # GitHub doesn't like Jan 1
 
     date_str = date_dt.isoformat()
     date_with_format_str = "format:iso8601:" + date_str
@@ -244,7 +285,7 @@ for (full_code_text, date, title) in commits:
             "--date",
             date_with_format_str,
             "-m",
-            title,
+            c.title,
         ],
         env=env,
         cwd=OUTPUT_REPO_PATH,
