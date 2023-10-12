@@ -25,8 +25,6 @@ client = LegifranceClient(CLIENT_ID, CLIENT_SECRET)
 
 OUTPUT_REPO_PATH = "../legifrance"
 
-URL_BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
-
 
 l = client.get_codes_list()
 
