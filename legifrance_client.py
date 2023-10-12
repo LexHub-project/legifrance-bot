@@ -4,6 +4,8 @@ from time import time
 
 import requests
 
+from commits import ArticleJSON, CodeJSON
+
 URL_BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
 
 
@@ -19,7 +21,7 @@ class LegifranceClient:
         self._token = None
         self._token_expires_at = time()
 
-    def _get_token(self):
+    def _refresh_token(self) -> None:
         res = requests.post(
             "https://oauth.piste.gouv.fr/api/oauth/token",
             data={
@@ -37,12 +39,12 @@ class LegifranceClient:
         self._token_expires_at = time() + content["expires_in"] - 1
         print("@LegifranceClient: Authenticated")
 
-    def _is_token_valid(self):
+    def _is_token_valid(self) -> bool:
         return self._token is not None and self._token_expires_at > time()
 
-    def _build_headers(self):
+    def _build_headers(self) -> dict[str, str]:
         if not self._is_token_valid():
-            self._get_token()
+            self._refresh_token()
 
         return {
             "Authorization": f"Bearer {self._token}",
@@ -50,7 +52,7 @@ class LegifranceClient:
             "Content-Type": "application/json",
         }
 
-    def get_codes_list(self):
+    def fetch_codes_list(self):
         res = requests.post(
             URL_BASE + "/list/code",
             json.dumps(
@@ -67,7 +69,7 @@ class LegifranceClient:
 
         return json.loads(res.content)["results"]
 
-    def get_tm(self, cid: str):
+    def fetch_tm(self, cid: str) -> CodeJSON:
         date_str = datetime.now().strftime("%Y-%m-%d")
         res = requests.post(
             URL_BASE + "/consult/legi/tableMatieres",
@@ -79,7 +81,7 @@ class LegifranceClient:
 
         return json.loads(res.content)
 
-    def get_article(self, cid: str):
+    def fetch_article(self, cid: str) -> ArticleJSON:
         res = requests.post(
             URL_BASE + "/consult/getArticleByCid",
             json.dumps({"cid": cid}),
