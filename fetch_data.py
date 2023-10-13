@@ -14,10 +14,7 @@ load_dotenv()
 
 
 CLIENT_ID = os.environ.get("CLIENT_ID", None)
-assert CLIENT_ID
-
 CLIENT_SECRET = os.environ.get("CLIENT_SECRET", None)
-assert CLIENT_SECRET
 
 client = LegifranceClient(CLIENT_ID, CLIENT_SECRET)
 
