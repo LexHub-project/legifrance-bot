@@ -1,4 +1,4 @@
-from commits import merge_titles, dedupe_texts
+from commits import merge_titles, dedupe_modifs
 
 
 def test_merge_titles():
@@ -27,15 +27,15 @@ def test_merge_titles():
     )
 
 
-def test_dedupe_texts():
+def test_dedupe_modifs():
     # returns unique if twice the exact same
-    assert dedupe_texts([("a", "b"), ("a", "b")]) == [("a", "b")]
+    assert dedupe_modifs([("a", "b"), ("a", "b")]) == [("a", "b")]
     # returns both if different cids
-    assert dedupe_texts([("a", "b"), ("c", "d")]) == [("a", "b"), ("c", "d")]
+    assert dedupe_modifs([("a", "b"), ("c", "d")]) == [("a", "b"), ("c", "d")]
     # merge titles if same cid
     t1 = "D\u00e9cret n\u00b02023-198 du 23 mars 2023 - art. 1"
     t2 = "D\u00e9cret n\u00b02023-198 du 23 mars 2023 - art. 2"
-    assert dedupe_texts(
+    assert dedupe_modifs(
         [
             (
                 "JORFTEXT000047340945",

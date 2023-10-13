@@ -18,9 +18,9 @@ def merge_titles(titles: list[str]) -> str:
     return merge_titles([t1[match.a : match.a + match.size]] + titles[2:])
 
 
-def dedupe_texts(texts: list[Tuple[str, str]]) -> list[Tuple[str, str]]:
+def dedupe_modifs(modifs: list[Tuple[str, str]]) -> list[Tuple[str, str]]:
     deduped = {}
-    for textCid, textTitle in texts:
+    for textCid, textTitle in modifs:
         if textCid in deduped.keys():
             deduped[textCid] = merge_titles([deduped[textCid], textTitle])
         else:
@@ -31,29 +31,13 @@ def dedupe_texts(texts: list[Tuple[str, str]]) -> list[Tuple[str, str]]:
 
 @dataclass
 class Commit:
-    title: str
-    texts: list[Tuple[str, str]]  # [(textCid, textTitle)]
+    modifs: list[Tuple[str, str]]  # [(textCid, textTitle)]
     timestamp: int
     article_changes: dict[str, str]
 
-    def __post_init__(self):
-        self.build_title()
-
-    def build_title(self):
-        self.title = "Modifications par " + " & ".join([t[1] for t in self.texts])
-
-    def merge(self, other: "Commit"):
-        assert self.timestamp == other.timestamp
-        self.text = dedupe_texts(self.texts + other.texts)
-
-        for article_cid, text in other.article_changes.items():
-            assert article_cid not in self.article_changes, (
-                article_cid,
-                text,
-            )
-            self.article_changes[article_cid] = text
-
-        self.build_title()
+    @property
+    def title(self):
+        return "Modifications par " + " & ".join([t[1] for t in self.modifs])
 
 
 @dataclass
@@ -68,10 +52,13 @@ def _commits_for_article(article: ArticleJSON) -> dict[str, Commit]:
     for version in article["listArticle"]:
         # TODO: not sure what to do with MODIFIE_MORT_NE
         if version["etat"] != "MODIFIE_MORT_NE":
-            modifs = version["lienModifications"]
             timestamp: int = version["dateDebut"]
-            textCids: list[str] = sorted({m["textCid"] for m in modifs})
-            texts = [(m["textCid"], m["textTitle"]) for m in modifs]
+            modifs = [
+                (lm["textCid"], lm["textTitle"]) for lm in version["lienModifications"]
+            ]
+            textCids: list[str] = sorted(
+                {m["textCid"] for m in version["lienModifications"]}
+            )
 
             if len(textCids) == 0:
                 textCids = ["???"]
@@ -79,26 +66,15 @@ def _commits_for_article(article: ArticleJSON) -> dict[str, Commit]:
 
             commitId = f"{timestamp}-{'-'.join(sorted(textCids))}"
 
-            # TODO
-            # TODO add nota?
-            commitTitle = "Modifications par " + " & ".join(
-                sorted(
-                    {
-                        m["textTitle"] if m["textTitle"] is not None else "?TODO?"
-                        for m in modifs
-                    }
-                )
-            )
             text = version["texteHtml"]
 
             assert (
                 commitId not in commits
             ), f"cid: {version['cid']} commitId: {commitId}"
             commits[commitId] = Commit(
-                title=commitTitle,
                 timestamp=timestamp,
                 article_changes={version["cid"]: text},
-                texts=texts,
+                modifs=modifs,
             )
 
     return commits
@@ -109,8 +85,16 @@ def _merge_commits(all_commits: list[dict[str, Commit]]) -> dict[str, Commit]:
     for partial in all_commits:
         for commit_id, c in partial.items():
             if commit_id in merged:
-                merged[commit_id].merge(c)
-
+                assert merged[commit_id].timestamp == c.timestamp
+                for article_cid, text in c.article_changes.items():
+                    assert article_cid not in merged[commit_id].article_changes, (
+                        article_cid,
+                        text,
+                    )
+                    merged[commit_id].article_changes[article_cid] = text
+                merged[commit_id].text = dedupe_modifs(
+                    merged[commit_id].modifs + c.modifs
+                )
             else:
                 merged[commit_id] = c
 
