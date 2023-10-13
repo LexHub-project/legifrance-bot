@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Décret 54-1037 1954-10-22 art. 4 JORF 28 octobre 1954 & Loi du 13 décembre 1926, v. init.
+Modifications par Loi du 13 décembre 1926, v. init. & Décret 54-1037 1954-10-22 art. 4 JORF 28 octobre 1954
 ```
 
 # Text

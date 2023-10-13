@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi 1926-12-13 JORF 15 décembre 1926 & Loi 77-507 1977-05-18 art. 2, art. 3, art. 5, JORF 19 mai 1977 & Loi n°86-1320 du 30 décembre 1986 - art. 25 () JORF 31 décembre 1986
+Modifications par Loi 77-507 1977-05-18 & Loi n°86-1320 du 30 décembre 1986 & Loi 1926-12-13 JORF 15 décembre 1926
 ```
 
 # Text

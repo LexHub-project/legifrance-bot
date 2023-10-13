@@ -5,8 +5,8 @@
 
 # Title
 ```
-Modifications par Loi 77-507 1977-05-18 art. 2, art. 3, art. 5 JORF 19 mai 1977 & Loi du 13 décembre 1926, v. init. & Ordonnance n°2009-717
- du 18 juin 2009 - art. 5
+Modifications par Loi du 13 décembre 1926, v. init. & Loi 77-507 1977-05-18 & Ordonnance n°2009-717
+ du 18 juin 2009
 ```
 
 # Text

@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi du 13 décembre 1926, v. init. & Loi n°2006-10 du 5 janvier 2006 - art. 43 () JORF 6 janvier 2006 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7
+Modifications par Loi du 13 décembre 1926, v. init. & janvier 2006 & Ordonnance n° 2010-1307 du 28 octobre 2010
 ```
 
 # Text

@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi 1926-12-13 JORF 15 décembre 1926 & Loi 77-507 1977-05-18 art. 2, art. 3, art. 5, JORF 19 mai 1977
+Modifications par Loi 77-507 1977-05-18 art. 2, art. 3, art. 5, JORF 19 mai 1977 & Loi 1926-12-13 JORF 15 décembre 1926
 ```
 
 # Text

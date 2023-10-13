@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Décret n°59-626 du 12 mai 1959, art 10 v. init. & Loi du 13 décembre 1926, v. init.
+Modifications par Loi du 13 décembre 1926, v. init. & mai 1959
 ```
 
 # Text

@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi 1926-12-13 JORF 15 décembre 1926 & Loi n°97-1051 du 18 novembre 1997 - art. 46 () JORF 19 novembre 1997
+Modifications par Loi n°97-1051 du 18 novembre 1997 - art. 46 () JORF 19 novembre 1997 & Loi 1926-12-13 JORF 15 décembre 1926
 ```
 
 # Text
