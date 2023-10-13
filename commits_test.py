@@ -1,4 +1,4 @@
-from commits import ModificatorText, merge_titles, dedupe_modifs
+from commits import TextCidAndTitle, merge_titles, dedupe_modifs
 
 
 def test_merge_titles():
@@ -31,36 +31,36 @@ def test_dedupe_modifs():
     # returns unique if twice the exact same
     assert dedupe_modifs(
         [
-            ModificatorText(textCid="a", textTitle="b"),
-            ModificatorText(textCid="a", textTitle="b"),
+            TextCidAndTitle(textCid="a", textTitle="b"),
+            TextCidAndTitle(textCid="a", textTitle="b"),
         ]
-    ) == [ModificatorText(textCid="a", textTitle="b")]
+    ) == [TextCidAndTitle(textCid="a", textTitle="b")]
     # returns both if different cids
     assert dedupe_modifs(
         [
-            ModificatorText(textCid="a", textTitle="b"),
-            ModificatorText(textCid="c", textTitle="d"),
+            TextCidAndTitle(textCid="a", textTitle="b"),
+            TextCidAndTitle(textCid="c", textTitle="d"),
         ]
     ) == [
-        ModificatorText(textCid="a", textTitle="b"),
-        ModificatorText(textCid="c", textTitle="d"),
+        TextCidAndTitle(textCid="a", textTitle="b"),
+        TextCidAndTitle(textCid="c", textTitle="d"),
     ]
     # merge titles if same cid
     t1 = "D\u00e9cret n\u00b02023-198 du 23 mars 2023 - art. 1"
     t2 = "D\u00e9cret n\u00b02023-198 du 23 mars 2023 - art. 2"
     assert dedupe_modifs(
         [
-            ModificatorText(
+            TextCidAndTitle(
                 textCid="JORFTEXT000047340945",
                 textTitle=t1,
             ),
-            ModificatorText(
+            TextCidAndTitle(
                 textCid="JORFTEXT000047340945",
                 textTitle=t2,
             ),
         ],
     ) == [
-        ModificatorText(
+        TextCidAndTitle(
             textCid="JORFTEXT000047340945", textTitle=merge_titles([t1, t2])
         )
     ]

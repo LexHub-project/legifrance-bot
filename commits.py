@@ -19,12 +19,12 @@ def merge_titles(titles: list[str]) -> str:
 
 
 @dataclass
-class ModificatorText:
+class TextCidAndTitle:
     textCid: str
     textTitle: str
 
 
-def dedupe_modifs(modifs: list[ModificatorText]) -> list[ModificatorText]:
+def dedupe_modifs(modifs: list[TextCidAndTitle]) -> list[TextCidAndTitle]:
     deduped = {}
     for modif in modifs:
         if modif.textCid in deduped.keys():
@@ -39,13 +39,13 @@ def dedupe_modifs(modifs: list[ModificatorText]) -> list[ModificatorText]:
 
 @dataclass
 class Commit:
-    modifs: list[Tuple[str, str]]  # [(textCid, textTitle)]
+    modifs: list[TextCidAndTitle]  # [(textCid, textTitle)]
     timestamp: int
     article_changes: dict[str, str]
 
     @property
     def title(self):
-        return "Modifications par " + " & ".join([t[1] for t in self.modifs])
+        return "Modifications par " + " & ".join([t.textTitle for t in self.modifs])
 
 
 @dataclass
@@ -62,7 +62,7 @@ def _commits_for_article(article: ArticleJSON) -> dict[str, Commit]:
         if version["etat"] != "MODIFIE_MORT_NE":
             timestamp: int = version["dateDebut"]
             modifs = [
-                ModificatorText(textCid=lm["textCid"], textTitle=lm["textTitle"])
+                TextCidAndTitle(textCid=lm["textCid"], textTitle=lm["textTitle"])
                 for lm in version["lienModifications"]
             ]
             textCids: list[str] = sorted(
