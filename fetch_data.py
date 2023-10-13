@@ -92,6 +92,7 @@ def _fetch_tms_from_network(cids: list[str]) -> Generator[CodeJSON, None, None]:
         tm = client.fetch_tm(cid)
 
         del tm["executionTime"]
+        del tm["fileSize"]
 
         with open(_tm_path(cid), "w") as f:
             f.write(json.dumps(tm, indent=4))
