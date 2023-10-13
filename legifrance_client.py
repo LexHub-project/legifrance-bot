@@ -3,25 +3,27 @@ from datetime import datetime
 from time import time
 
 import requests
-
 from commits import ArticleJSON, CodeJSON
 
 URL_BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
 
 
 class LegifranceClient:
-    _client_id: str
-    _client_secret: str
+    _client_id: str | None
+    _client_secret: str | None
     _token: str | None
     _token_expires_at: float
 
-    def __init__(self, client_id: str, client_secret: str):
+    def __init__(self, client_id: str | None, client_secret: str | None):
         self._client_id = client_id
         self._client_secret = client_secret
         self._token = None
         self._token_expires_at = time()
 
     def _refresh_token(self) -> None:
+        assert self._client_id
+        assert self._client_secret
+
         res = requests.post(
             "https://oauth.piste.gouv.fr/api/oauth/token",
             data={
