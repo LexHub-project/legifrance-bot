@@ -18,15 +18,23 @@ def merge_titles(titles: list[str]) -> str:
     return merge_titles([t1[match.a : match.a + match.size]] + titles[2:])
 
 
-def dedupe_modifs(modifs: list[Tuple[str, str]]) -> list[Tuple[str, str]]:
-    deduped = {}
-    for textCid, textTitle in modifs:
-        if textCid in deduped.keys():
-            deduped[textCid] = merge_titles([deduped[textCid], textTitle])
-        else:
-            deduped[textCid] = textTitle
+@dataclass
+class ModificatorText:
+    textCid: str
+    textTitle: str
 
-    return list(deduped.items())
+
+def dedupe_modifs(modifs: list[ModificatorText]) -> list[ModificatorText]:
+    deduped = {}
+    for modif in modifs:
+        if modif.textCid in deduped.keys():
+            deduped[modif.textCid].textTitle = merge_titles(
+                [deduped[modif.textCid].textTitle, modif.textTitle]
+            )
+        else:
+            deduped[modif.textCid] = modif
+
+    return list(deduped.values())
 
 
 @dataclass
@@ -54,7 +62,8 @@ def _commits_for_article(article: ArticleJSON) -> dict[str, Commit]:
         if version["etat"] != "MODIFIE_MORT_NE":
             timestamp: int = version["dateDebut"]
             modifs = [
-                (lm["textCid"], lm["textTitle"]) for lm in version["lienModifications"]
+                ModificatorText(textCid=lm["textCid"], textTitle=lm["textTitle"])
+                for lm in version["lienModifications"]
             ]
             textCids: list[str] = sorted(
                 {m["textCid"] for m in version["lienModifications"]}
