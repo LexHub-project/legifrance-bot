@@ -28,7 +28,7 @@ def test_snapshot(snapshot):
     states = list(_process(code_tms, articles))
 
     snapshots = {
-        f"{i}_{title}.md": _state_at_commit_to_md(s, text)
+        f"{str(i).zfill(3)}_{title}.md": _state_at_commit_to_md(s, text)
         for i, s in enumerate(states)
         for title, text in s.full_code_texts
     }
