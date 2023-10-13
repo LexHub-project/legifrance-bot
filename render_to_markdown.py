@@ -1,6 +1,6 @@
 import io
 from typing import Generator
-
+import re
 from tqdm import tqdm
 
 from commits import ArticleJSON, CodeJSON, Commit, StateAtCommit
@@ -33,13 +33,17 @@ def _last_text(commits: list[Commit], cid: str) -> str:
 def _clean_article_html(html: str, text_to_cid_to_anchor: dict[str, dict[str, str]]):
     html = html.replace("<p></p>", "")
 
-    for text_cid, article_cid_to_anchor in text_to_cid_to_anchor.items():
-        for article_cid, anchor in article_cid_to_anchor.items():
-            look_for = f"/affichCodeArticle.do?cidTexte={text_cid}&idArticle={article_cid}&dateTexte=&categorieLien=cid"
+    look_for = r"/affichCodeArticle\.do\?cidTexte=(LEGI[A-Z0-9]+)&idArticle=(LEGI[A-Z0-9]+)&dateTexte=&categorieLien=cid"
+    matches = re.finditer(look_for, html)
+    for match in matches:
+        text_cid = match.group(1)
+        article_cid = match.group(2)
+        try:
+            anchor = text_to_cid_to_anchor[text_cid][article_cid]
             replace = f"#{anchor}"
-
-            html = html.replace(look_for, replace)
-
+            html = html.replace(match.group(0), replace)
+        except KeyError:
+            pass
     return html
 
 
