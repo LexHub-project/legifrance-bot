@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Décret 54-1037 1954-10-22 art. 3 JORF 23 octobre 1954 & Loi du 13 décembre 1926, v. init. & Ordonnance 58-1358 1958-12-27 art. 4 JORF 30 décembre 1958
+Modifications par Loi du 13 décembre 1926, v. init. & Décret 54-1037 1954-10-22 & Ordonnance 58-1358 1958-12-27
 ```
 
 # Text

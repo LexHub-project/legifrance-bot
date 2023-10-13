@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi 95-116 1995-02-04 art. 88 I 1° JORF 5 février 1995 & Loi du 13 décembre 1926, v. init.
+Modifications par Loi du 13 décembre 1926, v. init. & Loi 95-116 1995-02-04 art. 88 I 1° JORF 5 février 1995
 ```
 
 # Text

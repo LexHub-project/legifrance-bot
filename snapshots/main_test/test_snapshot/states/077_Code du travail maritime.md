@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par LOI du 13 décembre 1926 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7 & Ordonnance n°2004-691 du 12 juillet 2004 - art. 13 () JORF 14 juillet 2004 & Ordonnance n°2020-1162 du 23 septembre 2020 - art. 3
+Modifications par LOI du 13 décembre 1926 & Ordonnance n°2004-691 du 12 juillet 2004 - art. 13 () JORF 14 juillet 2004 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7 & Ordonnance n°2020-1162 du 23 septembre 2020 - art. 3
 ```
 
 # Text

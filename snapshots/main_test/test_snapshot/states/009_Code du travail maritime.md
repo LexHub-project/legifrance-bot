@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi du 13 décembre 1926, v. init. & Ordonnance n°58-1358 du 27 décembre 1958, art 6 v. init.
+Modifications par Loi du 13 décembre 1926, v. init. & Ordonnance n°58-1358 du 27 décembre 1958,
 ```
 
 # Text

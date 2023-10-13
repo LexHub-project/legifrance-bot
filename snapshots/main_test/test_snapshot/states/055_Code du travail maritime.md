@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi du 13 décembre 1926, v. init. & Loi n°96-151 du 26 février 1996 - art. 23 () JORF 27 février 1996
+Modifications par Loi du 13 décembre 1926, v. init. & Loi n°96-151 du 26 février 1996
 ```
 
 # Text

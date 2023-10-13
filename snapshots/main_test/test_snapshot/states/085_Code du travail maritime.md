@@ -5,8 +5,7 @@
 
 # Title
 ```
-Modifications par Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7 & Ordonnance n°2009-717
- du 18 juin 2009 - art. 6
+Modifications par Ordonnance n°2009-717 & Ordonnance n° 2010-1307 du 28 octobre 2010
 ```
 
 # Text

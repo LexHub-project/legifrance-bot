@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi du 13 décembre 1926, v. init. & Loi n°2006-10 du 5 janvier 2006 - art. 45 () JORF 6 janvier 2006
+Modifications par Loi du 13 décembre 1926, v. init. & Loi n°2006-10 du 5 janvier 2006
 ```
 
 # Text

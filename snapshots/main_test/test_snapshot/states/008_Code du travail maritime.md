@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Décret n°59-1337 du 20 novembre 1959 - art. 1 (Ab) JORF 25 novembre 1959 & Loi 1926-12-13 JORF 15 décembre 1926
+Modifications par Décret n°59-1337 du 20 novembre 1959 & Loi 1926-12-13 JORF 15 décembre 1926
 ```
 
 # Text

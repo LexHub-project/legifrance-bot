@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par LOI n° 2016-816 du 20 juin 2016 - art. 16 (V) & Loi du 13 décembre 1926, v. init. & Loi n°96-151 du 26 février 1996 - art. 23 () JORF 27 février 1996 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7
+Modifications par Loi du 13 décembre 1926, v. init. & Loi n°96-151 du 26 février 1996 - art. 23 () JORF 27 février 1996 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7 & LOI n° 2016-816 du 20 juin 2016 - art. 16 (V)
 ```
 
 # Text

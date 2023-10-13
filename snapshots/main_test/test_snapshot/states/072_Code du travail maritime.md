@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi 1926-12-13 JORF 15 décembre 1926 & Loi n°2002-73 du 17 janvier 2002 - art. 203 () JORF 18 janvier 2002
+Modifications par Loi n°2002-73 du 17 janvier 2002  203 () JORF 18 janvier 2002 & Loi 1926-12-13 JORF 15 décembre 1926
 ```
 
 # Text

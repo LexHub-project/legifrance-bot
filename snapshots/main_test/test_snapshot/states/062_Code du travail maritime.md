@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Code du travail maritime (V) & Loi n°97-1051 du 18 novembre 1997 - art. 46 () JORF 19 novembre 1997
+Modifications par Loi n°97-1051 du 18 novembre 1997 - art. 46 () JORF 19 novembre 1997 & Code du travail maritime (V)
 ```
 
 # Text

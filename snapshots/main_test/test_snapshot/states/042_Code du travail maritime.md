@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Décret 54-1037 1954-10-22 art. 1 JORF 23 octobre 1954 & Loi du 13 décembre 1926, v. init. & Ordonnance 58-1358 1958-12-27 art. 2 JORF 30 décembre 1958 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7
+Modifications par Loi du 13 décembre 1926, v. init. & Décret 54-1037 1954-10-22 art. 1 JORF 23 octobre 1954 & Ordonnance 58-1358 1958-12-27 art. 2 JORF 30 décembre 1958 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7
 ```
 
 # Text

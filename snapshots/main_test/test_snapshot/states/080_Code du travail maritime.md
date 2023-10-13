@@ -5,8 +5,8 @@
 
 # Title
 ```
-Modifications par LOI n°2013-619
- du 16 juillet 2013 - art. 31 & Loi du 13 décembre 1926, v. init. & Loi n°2006-10 du 5 janvier 2006 - art. 48 () JORF 6 janvier 2006 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7
+Modifications par Loi du 13 décembre 1926, v. init. & Loi n°2006-10 du 5 janvier 2006 - art. 48 () JORF 6 janvier 2006 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7 & LOI n°2013-619
+ du 16 juillet 2013 - art. 31
 ```
 
 # Text

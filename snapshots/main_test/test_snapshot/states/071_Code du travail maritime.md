@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Loi du 13 décembre 1926, v. init. & Loi n°2002-73 du 17 janvier 2002 - art. 203 () JORF 18 janvier 2002 & Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7
+Modifications par Loi du 13 décembre 1926, v. init. & Loi n°2002-73 du 17 janvier 2002 & Ordonnance n° 2010-1307 du 28 octobre 2010
 ```
 
 # Text

@@ -5,7 +5,7 @@
 
 # Title
 ```
-Modifications par Décret n°55-691 du 20 mai 1955, art 1 v. init. & Loi du 13 décembre 1926, v. init.
+Modifications par Loi du 13 décembre 1926, v. init. & Décret n°55-691 du 20 mai 1955, art 1 v. init.
 ```
 
 # Text
