@@ -97,6 +97,7 @@ def generate_markdown(
                 article_cid: _clean_article_html(text, text_to_cid_to_anchor)
                 for article_cid, text in c.article_changes.items()
             },
+            texts=c.texts,
         )
         for c in tqdm(sorted_commits, "Cleaning HTML")
     ]
