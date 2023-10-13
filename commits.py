@@ -37,10 +37,12 @@ def _commits_for_article(article: ArticleJSON) -> dict[str, Commit]:
             # TODO
             # TODO add nota?
             commitTitle = "Modifications par " + " & ".join(
-                {
-                    m["textTitle"] if m["textTitle"] is not None else "?TODO?"
-                    for m in modifs
-                }
+                sorted(
+                    {
+                        m["textTitle"] if m["textTitle"] is not None else "?TODO?"
+                        for m in modifs
+                    }
+                )
             )
             text = version["texteHtml"]
 

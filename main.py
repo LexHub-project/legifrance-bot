@@ -5,7 +5,6 @@ from datetime import datetime
 from typing import Generator
 
 import pytz
-
 from commits import ArticleJSON, CodeJSON, StateAtCommit, get_commits
 from fetch_data import fetch_articles, fetch_tms
 from render_to_markdown import generate_markdown
@@ -29,20 +28,20 @@ def _process(
     yield from generate_markdown(code_tms, articles, commits)
 
 
-def _build_git_repo_and_push(commits: list[StateAtCommit]):
+def _build_git_repo_and_push(states: list[StateAtCommit]):
     subprocess.run(["rm", "-rf", OUTPUT_REPO_PATH])
     subprocess.run(["mkdir", OUTPUT_REPO_PATH])
     subprocess.run(["git", "init", OUTPUT_REPO_PATH])
 
     tz = pytz.timezone("UTC")
 
-    for c in commits:
-        for title, full_text in c.full_code_texts:
+    for s in states:
+        for title, full_text in s.full_code_texts:
             with open(f"{OUTPUT_REPO_PATH}/{title}.md", "w") as f:
                 f.write(full_text)
 
         # TODO ms vs s
-        date_dt = datetime.fromtimestamp(math.floor(c.timestamp / 1000), tz)
+        date_dt = datetime.fromtimestamp(math.floor(s.timestamp / 1000), tz)
 
         # TODO
         if date_dt.year >= 2038:
@@ -64,7 +63,7 @@ def _build_git_repo_and_push(commits: list[StateAtCommit]):
                 "--date",
                 date_with_format_str,
                 "-m",
-                c.title,
+                s.title,
             ],
             env=env,
             cwd=OUTPUT_REPO_PATH,
@@ -96,6 +95,6 @@ def _build_git_repo_and_push(commits: list[StateAtCommit]):
 if __name__ == "__main__":
     code_tms = list(fetch_tms(code_cids))
     articles = [a for tm in code_tms for a in fetch_articles(tm)]
-    commits = list(_process(code_tms, articles))
+    states = list(_process(code_tms, articles))
 
-    _build_git_repo_and_push(commits)
+    _build_git_repo_and_push(states)
