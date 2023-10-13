@@ -77,7 +77,7 @@ def _commits_for_article(article: ArticleJSON) -> dict[str, Commit]:
                 textCids = ["???"]
                 # TODO
 
-            commitId = f"{timestamp}-{'-'.join(textCids)}"
+            commitId = f"{timestamp}-{'-'.join(sorted(textCids))}"
 
             # TODO
             # TODO add nota?
