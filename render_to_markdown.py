@@ -1,9 +1,10 @@
 import io
-from typing import Generator
 import re
-from tqdm import tqdm
+from datetime import datetime
+from typing import Generator
 
 from commits import ArticleJSON, CodeJSON, Commit, StateAtCommit
+from tqdm import tqdm
 
 
 def _header(level: int, text: str) -> str:
@@ -19,15 +20,13 @@ def _header_to_anchor(s: str) -> str:
     return s.strip().lower().replace(" ", "-")
 
 
-def _last_text(commits: list[Commit], cid: str) -> str:
+def _last_text(commits: list[Commit], cid: str) -> str | None:
     for c in reversed(commits):
         if cid in c.article_changes:
             return c.article_changes[cid]
 
-    # BUG / TODO
-    # https://github.com/LexHub-project/legifrance-bot/issues/22
-    # raise KeyError(cid)
-    return "<TODO>"
+    # There is no text yet
+    return None
 
 
 def _clean_article_html(html: str, text_to_cid_to_anchor: dict[str, dict[str, str]]):
@@ -47,25 +46,37 @@ def _clean_article_html(html: str, text_to_cid_to_anchor: dict[str, dict[str, st
     return html
 
 
+def _has_been_created(tm: dict, timestamp: int) -> bool:
+    if tm.get("nature", None) == "CODE":
+        return True
+
+    return timestamp >= int(
+        datetime.strptime(tm["dateDebut"], "%Y-%m-%d").timestamp() * 1000
+    )
+
+
 def _tm_to_markdown(
     tm: CodeJSON,
     commits: list[Commit],
     file,
     level=1,
 ) -> None:
-    if tm["etat"] == "ABROGE":
+    if tm["etat"] == "ABROGE" or not _has_been_created(tm, commits[-1].timestamp):
         return
 
     print(_header(level, tm["title"]), file=file)
 
     for article in tm["articles"]:
         if article["etat"] != "ABROGE":
-            print(_header(level + 1, _article_to_header_text(article)), file=file)
-            print(
-                _last_text(commits, article["cid"]),
-                file=file,
-            )
-            print("\n", file=file)
+            text = _last_text(commits, article["cid"])
+
+            if text is not None:
+                print(_header(level + 1, _article_to_header_text(article)), file=file)
+                print(
+                    text,
+                    file=file,
+                )
+                print("\n", file=file)
 
     for section in tm["sections"]:
         _tm_to_markdown(section, commits, file=file, level=level + 1)
