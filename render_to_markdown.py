@@ -29,7 +29,12 @@ def _last_text(commits: list[Commit], cid: str) -> str | None:
     return None
 
 
-def _clean_article_html(html: str, text_to_cid_to_anchor: dict[str, dict[str, str]]):
+def _clean_article_html(
+    html: str | None, text_to_cid_to_anchor: dict[str, dict[str, str]]
+):
+    if html is None:
+        return None
+
     html = html.replace("<p></p>", "")
 
     look_for = r"/affichCodeArticle\.do\?cidTexte=(LEGI[A-Z0-9]+)&idArticle=(LEGI[A-Z0-9]+)&dateTexte=&categorieLien=cid"
@@ -43,10 +48,11 @@ def _clean_article_html(html: str, text_to_cid_to_anchor: dict[str, dict[str, st
             html = html.replace(match.group(0), replace)
         except KeyError:
             pass
-    return html
+
+    return html.strip()
 
 
-def _has_been_created(tm: dict, timestamp: int) -> bool:
+def _has_been_created(tm: CodeJSON, timestamp: int) -> bool:
     if tm.get("nature", None) == "CODE":
         return True
 
@@ -55,19 +61,25 @@ def _has_been_created(tm: dict, timestamp: int) -> bool:
     )
 
 
+def _is_article_en_vigeur(article: ArticleJSON, timestamp: int) -> bool:
+    # ["etat"] != "ABROGE"
+    return True
+
+
 def _tm_to_markdown(
     tm: CodeJSON,
     commits: list[Commit],
     file,
     level=1,
 ) -> None:
+    # TODO
     if tm["etat"] == "ABROGE" or not _has_been_created(tm, commits[-1].timestamp):
         return
 
     print(_header(level, tm["title"]), file=file)
 
     for article in tm["articles"]:
-        if article["etat"] != "ABROGE":
+        if _is_article_en_vigeur(article, commits[-1].timestamp):
             text = _last_text(commits, article["cid"])
 
             if text is not None:
@@ -103,11 +115,11 @@ def generate_markdown(
     cleaned_commits = [
         Commit(
             timestamp=c.timestamp,
+            modified_by=c.modified_by,
             article_changes={
                 article_cid: _clean_article_html(text, text_to_cid_to_anchor)
                 for article_cid, text in c.article_changes.items()
             },
-            modifs=c.modifs,
         )
         for c in tqdm(sorted_commits, "Cleaning HTML")
     ]
@@ -116,6 +128,10 @@ def generate_markdown(
         full_code_texts = []
         for tm in code_tms:
             f = io.StringIO()
+
+            print("=" * 6 + f" {i} " + "=" * 6)
+            print(cleaned_commits[i])
+            print("\n\n")
             _tm_to_markdown(tm, cleaned_commits[: (i + 1)], file=f)
             full_code_texts.append((tm["title"], f.getvalue()))
 
