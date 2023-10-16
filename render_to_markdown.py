@@ -2,6 +2,7 @@ import io
 from typing import Generator
 import re
 from tqdm import tqdm
+from datetime import datetime
 
 from commits import ArticleJSON, CodeJSON, Commit, StateAtCommit
 
@@ -47,13 +48,25 @@ def _clean_article_html(html: str, text_to_cid_to_anchor: dict[str, dict[str, st
     return html
 
 
+def _is_tm_active(tm: CodeJSON, timestamp: int) -> bool:
+    try:
+        start = datetime.fromisoformat(tm["dateDebut"] + " 00:00")
+        end = datetime.fromisoformat(tm["dateFin"] + " 23:59")
+        ts = datetime.fromtimestamp(timestamp / 1000)
+        has_content = len(tm["articles"]) > 0 or len(tm["sections"]) > 0
+        return start <= ts and (end is not None and ts <= end) and has_content
+    except KeyError:
+        return True
+
+
 def _tm_to_markdown(
     tm: CodeJSON,
     commits: list[Commit],
     file,
+    timestamp: int,
     level=1,
 ) -> None:
-    if tm["etat"] == "ABROGE":
+    if not _is_tm_active(tm, timestamp):
         return
 
     print(_header(level, tm["title"]), file=file)
@@ -68,7 +81,9 @@ def _tm_to_markdown(
             print("\n", file=file)
 
     for section in tm["sections"]:
-        _tm_to_markdown(section, commits, file=file, level=level + 1)
+        _tm_to_markdown(
+            section, commits, file=file, timestamp=timestamp, level=level + 1
+        )
 
     if "commentaire" in tm and tm["commentaire"] is not None:
         print(tm["commentaire"], file=file)
@@ -105,7 +120,12 @@ def generate_markdown(
         full_code_texts = []
         for tm in code_tms:
             f = io.StringIO()
-            _tm_to_markdown(tm, cleaned_commits[: (i + 1)], file=f)
+            _tm_to_markdown(
+                tm,
+                cleaned_commits[: (i + 1)],
+                file=f,
+                timestamp=cleaned_commits[i].timestamp,
+            )
             full_code_texts.append((tm["title"], f.getvalue()))
 
         yield StateAtCommit(

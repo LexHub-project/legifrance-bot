@@ -1,4 +1,4 @@
-from render_to_markdown import _clean_article_html
+from render_to_markdown import _clean_article_html, _is_tm_active
 
 
 def test_clean_article_html():
@@ -24,3 +24,11 @@ Lorsque les cinq territoires mentionnés à l'article <a href='#article-l112-4' 
 2° Les territoires des autres Etats membres de l'Union européenne vis-à-vis des territoires mentionnés aux 2° à 5° de l'article L. 112-4.</p>
 """
     )
+
+
+def test_is_tm_active():
+    tm = {"dateDebut": "1926-05-12", "dateFin": "1971-01-02", "articles": [0, 1]}
+    assert _is_tm_active(tm, 0)
+    assert not _is_tm_active(tm, 1697451195000)
+    assert not _is_tm_active(tm, -5364619761000)
+    assert _is_tm_active({}, 1697451194000)
