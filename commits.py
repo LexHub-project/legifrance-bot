@@ -1,51 +1,40 @@
-from dataclasses import dataclass
-from typing import Tuple
-from difflib import SequenceMatcher
+import itertools
 import re
+from dataclasses import dataclass
+from difflib import SequenceMatcher
+from typing import Generator, Tuple
 
 ArticleJSON = dict
 CodeJSON = dict
 
 
-def merge_titles(titles: list[str]) -> str:
-    if len(titles) == 1:
-        cleaned = re.sub(r"-?\s?art(icle)?\.?", "", titles[0])
-        return cleaned.strip()
-    t1, t2 = titles[0], titles[1]
-    match = SequenceMatcher(None, t1, t2).find_longest_match()
-    if match.size == 0:
-        return t1 + " & " + merge_titles(titles[1:])
-    return merge_titles([t1[match.a : match.a + match.size]] + titles[2:])
-
-
 @dataclass
 class TextCidAndTitle:
-    textCid: str
-    textTitle: str
-
-
-def dedupe_modifs(modifs: list[TextCidAndTitle]) -> list[TextCidAndTitle]:
-    deduped = {}
-    for modif in modifs:
-        if modif.textCid in deduped.keys():
-            deduped[modif.textCid].textTitle = merge_titles(
-                [deduped[modif.textCid].textTitle, modif.textTitle]
-            )
-        else:
-            deduped[modif.textCid] = modif
-
-    return list(deduped.values())
+    cid: str
+    title: str
 
 
 @dataclass
 class Commit:
-    modifs: list[TextCidAndTitle]  # [(textCid, textTitle)]
+    modified_by: list[TextCidAndTitle]
     timestamp: int
-    article_changes: dict[str, str]
+
+    # None means abrogated
+    article_changes: dict[str, str | None]
 
     @property
     def title(self):
-        return "Modifications par " + " & ".join([t.textTitle for t in self.modifs])
+        return "Modifications par " + " & ".join([t.title for t in self.modified_by])
+
+    @property
+    def merge_id(self) -> str:
+        modified_by_cids: list[str] = sorted({m.cid for m in self.modified_by})
+
+        assert len(modified_by_cids) > 0
+        # modified_by_cids = ["???"]
+        # TODO
+
+        return f"{self.timestamp}-{'-'.join(modified_by_cids)}"
 
 
 @dataclass
@@ -55,62 +44,87 @@ class StateAtCommit:
     full_code_texts: list[Tuple[str, str]]
 
 
-def _commits_for_article(article: ArticleJSON) -> dict[str, Commit]:
-    commits = {}
+def _merge_titles(titles: list[str]) -> str:
+    if len(titles) == 1:
+        cleaned = re.sub(r"-?\s?art(icle)?\.?", "", titles[0])
+        return cleaned.strip()
+    t1, t2 = titles[0], titles[1]
+    match = SequenceMatcher(None, t1, t2).find_longest_match()
+    if match.size == 0:
+        return t1 + " & " + _merge_titles(titles[1:])
+    return _merge_titles([t1[match.a : match.a + match.size]] + titles[2:])
+
+
+def _dedupe_modified_by(
+    modified_by: list[TextCidAndTitle],
+) -> Generator[TextCidAndTitle, None, None]:
+    sorted_by_cid = sorted(modified_by, key=lambda m: m.cid)
+
+    for cid, group in itertools.groupby(sorted_by_cid, key=lambda m: m.cid):
+        yield TextCidAndTitle(cid=cid, title=_merge_titles([m.title for m in group]))
+
+
+def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     for version in article["listArticle"]:
-        # TODO: not sure what to do with MODIFIE_MORT_NE
-        if version["etat"] != "MODIFIE_MORT_NE":
-            timestamp: int = version["dateDebut"]
-            modifs = [
-                TextCidAndTitle(textCid=lm["textCid"], textTitle=lm["textTitle"])
-                for lm in version["lienModifications"]
-            ]
-            textCids: list[str] = sorted(
-                {m["textCid"] for m in version["lienModifications"]}
+        timestamp_start: int = version["dateDebut"]
+        timestamp_end: int = version["dateFin"]
+
+        modified_by = [
+            TextCidAndTitle(cid=lm["textCid"], title=lm["textTitle"])
+            for lm in version["lienModifications"]
+            # if
+        ]
+
+        # TODO: 2 commits in 1 version? What about other states
+        # TRANSFERE	51
+        # ABROGE_DIFF	38
+        # PERIME
+
+        yield Commit(
+            timestamp=timestamp_start,
+            modified_by=modified_by,
+            article_changes={version["cid"]: version["texteHtml"]},
+        )
+
+        if version["etat"] == "ABROGE":
+            yield Commit(
+                timestamp=timestamp_end,
+                modified_by=modified_by,
+                article_changes={version["cid"]: None},
             )
 
-            if len(textCids) == 0:
-                textCids = ["???"]
-                # TODO
 
-            commitId = f"{timestamp}-{'-'.join(sorted(textCids))}"
+def _merge_commits(all_commits: list[Commit]) -> Generator[Commit, None, None]:
+    sorted_by_id = sorted(all_commits, key=lambda c: c.merge_id)
 
-            text = version["texteHtml"]
+    for _, group in itertools.groupby(sorted_by_id, key=lambda c: c.merge_id):
+        to_merge = list(group)
 
-            assert (
-                commitId not in commits
-            ), f"cid: {version['cid']} commitId: {commitId}"
-            commits[commitId] = Commit(
-                timestamp=timestamp,
-                article_changes={version["cid"]: text},
-                modifs=modifs,
-            )
+        timestamps = {c.timestamp for c in to_merge}
+        assert len(timestamps) == 1
+        timestamp = timestamps.pop()
 
-    return commits
+        modified_by = list(
+            _dedupe_modified_by([m for c in to_merge for m in c.modified_by])
+        )
 
+        article_changes: dict[str, str | None] = {}
+        for c in to_merge:
+            for cid, text in c.article_changes.items():
+                assert (
+                    cid not in article_changes
+                ), f"{cid} already changed in commit {article_changes}"
 
-def _merge_commits(all_commits: list[dict[str, Commit]]) -> dict[str, Commit]:
-    merged: dict[str, Commit] = {}
-    for partial in all_commits:
-        for commit_id, c in partial.items():
-            if commit_id in merged:
-                assert merged[commit_id].timestamp == c.timestamp
-                for article_cid, text in c.article_changes.items():
-                    assert article_cid not in merged[commit_id].article_changes, (
-                        article_cid,
-                        text,
-                    )
-                    merged[commit_id].article_changes[article_cid] = text
-                merged[commit_id].text = dedupe_modifs(
-                    merged[commit_id].modifs + c.modifs
-                )
-            else:
-                merged[commit_id] = c
+                article_changes[cid] = text
 
-    return merged
+        yield Commit(
+            timestamp=timestamp,
+            modified_by=modified_by,
+            article_changes=article_changes,
+        )
 
 
 def get_commits(articles: list[ArticleJSON]) -> list[Commit]:
-    all_commits = [_commits_for_article(a) for a in articles]
+    all_commits = [c for a in articles for c in _commits_for_article(a)]
     merged = _merge_commits(all_commits)
-    return sorted(merged.values(), key=lambda c: c.timestamp)
+    return sorted(merged, key=lambda c: c.timestamp)

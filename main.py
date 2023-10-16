@@ -96,6 +96,7 @@ def _build_git_repo_and_push(states: list[StateAtCommit]):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="legifrance-bot")
     parser.add_argument("-c", "--code")
+    parser.add_argument("--push", action="store_true")
 
     args = parser.parse_args()
     if args.code is not None:
@@ -105,4 +106,5 @@ if __name__ == "__main__":
     articles = [a for tm in code_tms for a in fetch_articles(tm)]
     states = list(_process(code_tms, articles))
 
-    _build_git_repo_and_push(states)
+    if args.push:
+        _build_git_repo_and_push(states)
