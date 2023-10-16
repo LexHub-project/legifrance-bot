@@ -1,3 +1,4 @@
+import argparse
 import math
 import os
 import subprocess
@@ -93,6 +94,13 @@ def _build_git_repo_and_push(states: list[StateAtCommit]):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(prog="legifrance-bot")
+    parser.add_argument("-c", "--code")
+
+    args = parser.parse_args()
+    if args.code is not None:
+        code_cids = [args.code]
+
     code_tms = list(fetch_tms(code_cids))
     articles = [a for tm in code_tms for a in fetch_articles(tm)]
     states = list(_process(code_tms, articles))
