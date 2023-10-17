@@ -3,8 +3,9 @@ import re
 from datetime import datetime
 from typing import Generator
 
-from commits import ArticleJSON, CodeJSON, Commit, StateAtCommit
 from tqdm import tqdm
+
+from commits import ArticleJSON, CodeJSON, Commit, StateAtCommit
 
 
 def _header(level: int, text: str) -> str:
@@ -53,6 +54,7 @@ def _clean_article_html(
 
 
 def _has_been_created(tm: CodeJSON, timestamp: int) -> bool:
+    # TODO
     if tm.get("nature", None) == "CODE":
         return True
 
@@ -63,6 +65,7 @@ def _has_been_created(tm: CodeJSON, timestamp: int) -> bool:
 
 def _is_article_en_vigeur(article: ArticleJSON, timestamp: int) -> bool:
     # ["etat"] != "ABROGE"
+    # TODO
     return True
 
 
