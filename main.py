@@ -6,6 +6,7 @@ from datetime import datetime
 from typing import Generator
 
 import pytz
+
 from commits import ArticleJSON, CodeJSON, StateAtCommit, get_commits
 from fetch_data import fetch_articles, fetch_tms
 from render_to_markdown import generate_markdown
@@ -95,8 +96,14 @@ def _build_git_repo_and_push(states: list[StateAtCommit]):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="legifrance-bot")
-    parser.add_argument("-c", "--code")
-    parser.add_argument("--push", action="store_true")
+    parser.add_argument(
+        "-c", "--code", help="Select a single code to process instead of all of them"
+    )
+    parser.add_argument(
+        "--push",
+        action="store_true",
+        help="If selected, will build the git repo and push",
+    )
 
     args = parser.parse_args()
     if args.code is not None:
