@@ -58,9 +58,11 @@ def _is_tm_in_force(tm: CodeJSON, timestamp: int) -> bool:
     if tm.get("nature", None) == "CODE":
         return True  # root
     start_timestamp = int(
-        datetime.strptime(tm["dateDebut"], "%Y-%m-%d").timestamp() * 1000
+        datetime.fromisoformat(f"{tm['dateDebut']} 00:00").timestamp() * 1000
     )
-    end_timestamp = int(datetime.strptime(tm["dateFin"], "%Y-%m-%d").timestamp() * 1000)
+    end_timestamp = int(
+        datetime.fromisoformat(f"{tm['dateFin']} 23:59").timestamp() * 1000
+    )
 
     return start_timestamp <= timestamp <= end_timestamp
 
