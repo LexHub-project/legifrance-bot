@@ -9,6 +9,7 @@ import pytz
 
 from commits import ArticleJSON, CodeJSON, StateAtCommit, get_commits
 from fetch_data import fetch_articles, fetch_tms
+from tm import patch_tm_multiple_paths
 from render_to_markdown import generate_markdown
 
 OUTPUT_REPO_PATH = "../legifrance"
@@ -27,7 +28,8 @@ def _process(
     code_tms: list[CodeJSON], articles: list[ArticleJSON]
 ) -> Generator[StateAtCommit, None, None]:
     commits = get_commits(articles)
-    yield from generate_markdown(code_tms, articles, commits)
+    patched_code_tms = [patch_tm_multiple_paths(tm, articles) for tm in code_tms]
+    yield from generate_markdown(patched_code_tms, articles, commits)
 
 
 def _build_git_repo_and_push(states: list[StateAtCommit]):
