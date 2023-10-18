@@ -57,7 +57,9 @@ def _dedupe_modified_by(
     sorted_by_cid = sorted(modified_by, key=lambda m: m.cid)
 
     for cid, group in itertools.groupby(sorted_by_cid, key=lambda m: m.cid):
-        yield TextCidAndTitle(cid=cid, title=_merge_titles([m.title for m in group]))
+        yield TextCidAndTitle(
+            cid=cid, title=_merge_titles(list({m.title for m in group}))
+        )
 
 
 def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
