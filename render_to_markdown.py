@@ -53,20 +53,14 @@ def _clean_article_html(
     return html.strip()
 
 
-def _has_been_created(tm: CodeJSON, timestamp: int) -> bool:
-    # TODO
+def _is_tm_in_force(tm: CodeJSON, timestamp: int) -> bool:
     if tm.get("nature", None) == "CODE":
-        return True
+        return True  # root
 
-    return timestamp >= int(
-        datetime.strptime(tm["dateDebut"], "%Y-%m-%d").timestamp() * 1000
-    )
+    start_timestamp = datetime.fromisoformat(f"{tm['dateDebut']} 00:00").timestamp()
+    end_timestamp = datetime.fromisoformat(f"{tm['dateFin']} 23:59").timestamp()
 
-
-def _is_article_en_vigeur(article: ArticleJSON, timestamp: int) -> bool:
-    # ["etat"] != "ABROGE"
-    # TODO
-    return True
+    return start_timestamp <= timestamp / 1000 <= end_timestamp
 
 
 def _tm_to_markdown(
@@ -75,23 +69,21 @@ def _tm_to_markdown(
     file,
     level=1,
 ) -> None:
-    # TODO
-    if tm["etat"] == "ABROGE" or not _has_been_created(tm, commits[-1].timestamp):
+    if not _is_tm_in_force(tm, commits[-1].timestamp):
         return
 
     print(_header(level, tm["title"]), file=file)
 
     for article in tm["articles"]:
-        if _is_article_en_vigeur(article, commits[-1].timestamp):
-            text = _last_text(commits, article["cid"])
+        text = _last_text(commits, article["cid"])
 
-            if text is not None:
-                print(_header(level + 1, _article_to_header_text(article)), file=file)
-                print(
-                    text,
-                    file=file,
-                )
-                print("\n", file=file)
+        if text is not None:
+            print(_header(level + 1, _article_to_header_text(article)), file=file)
+            print(
+                text,
+                file=file,
+            )
+            print("\n", file=file)
 
     for section in tm["sections"]:
         _tm_to_markdown(section, commits, file=file, level=level + 1)
@@ -131,7 +123,6 @@ def generate_markdown(
         full_code_texts = []
         for tm in code_tms:
             f = io.StringIO()
-
             print("=" * 6 + f" {i} " + "=" * 6)
             print(cleaned_commits[i])
             print("\n\n")
