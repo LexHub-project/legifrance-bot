@@ -1,8 +1,8 @@
-import io
-import re
+from __future__ import annotations
+
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Generator, Tuple
+from typing import Generator
 
 from tqdm import tqdm
 
@@ -10,23 +10,27 @@ from commits import ArticleJSON, CodeJSON, Commit
 
 
 @dataclass
+class CodeArticle:
+    id: str
+    cid: str
+    num: str
+    text: str
+
+
+@dataclass
+class CodeTree:
+    id: str
+    cid: str
+    title: str
+    sections: list[CodeTree]
+    articles: list[CodeArticle]
+
+
+@dataclass
 class StateAtCommit:
     title: str
     timestamp: int
-    full_code_texts: list[Tuple[str, str]]
-
-
-def _header(level: int, text: str) -> str:
-    # TODO, for now limited to level 6
-    return ("#" * min(level, 6)) + " " + text
-
-
-def _article_to_header_text(article: ArticleJSON) -> str:
-    return f"Article {article['num']}"
-
-
-def _header_to_anchor(s: str) -> str:
-    return s.strip().lower().replace(" ", "-")
+    code_trees: list[CodeTree]
 
 
 def _last_text(commits: list[Commit], cid: str) -> str | None:
@@ -36,29 +40,6 @@ def _last_text(commits: list[Commit], cid: str) -> str | None:
 
     # There is no text yet
     return None
-
-
-def _clean_article_html(
-    html: str | None, text_to_cid_to_anchor: dict[str, dict[str, str]]
-):
-    if html is None:
-        return None
-
-    html = html.replace("<p></p>", "")
-
-    look_for = r"/affichCodeArticle\.do\?cidTexte=(LEGI[A-Z0-9]+)&idArticle=(LEGI[A-Z0-9]+)&dateTexte=&categorieLien=cid"
-    matches = re.finditer(look_for, html)
-    for match in matches:
-        text_cid = match.group(1)
-        article_cid = match.group(2)
-        try:
-            anchor = text_to_cid_to_anchor[text_cid][article_cid]
-            replace = f"#{anchor}"
-            html = html.replace(match.group(0), replace)
-        except KeyError:
-            pass
-
-    return html.strip()
 
 
 def _is_tm_in_force(tm: CodeJSON, timestamp: int) -> bool:
@@ -71,74 +52,45 @@ def _is_tm_in_force(tm: CodeJSON, timestamp: int) -> bool:
     return start_timestamp <= timestamp / 1000 <= end_timestamp
 
 
-def _tm_to_markdown(
+def _tm_to_code_tree(
     tm: CodeJSON,
     commits: list[Commit],
-    file,
-    level=1,
-) -> None:
+) -> CodeTree | None:
     if not _is_tm_in_force(tm, commits[-1].timestamp):
-        return
+        return None
 
-    print(_header(level, tm["title"]), file=file)
-
+    articles = []
     for article in tm["articles"]:
         text = _last_text(commits, article["cid"])
 
         if text is not None:
-            print(_header(level + 1, _article_to_header_text(article)), file=file)
-            print(
-                text,
-                file=file,
+            articles.append(
+                CodeArticle(article["id"], article["cid"], article["num"], text)
             )
-            print("\n", file=file)
 
+    sections = []
     for section in tm["sections"]:
-        _tm_to_markdown(section, commits, file=file, level=level + 1)
+        tree = _tm_to_code_tree(section, commits)
+
+        if tree is not None:
+            sections.append(tree)
 
     if "commentaire" in tm and tm["commentaire"] is not None:
-        print(tm["commentaire"], file=file)
-    # assert False, tm
-    # TODO
+        print(tm["commentaire"])
+        # TODO
+
+    return CodeTree(tm["id"], tm["cid"], tm["title"], sections, articles)
 
 
-def generate_markdown(
-    code_tms: list[CodeJSON], articles: list[ArticleJSON], sorted_commits: list[Commit]
+def generate_commit_state(
+    codes: list[CodeJSON], commits: list[Commit]
 ) -> Generator[StateAtCommit, None, None]:
-    text_to_cid_to_anchor = {
-        tm["cid"]: {
-            article["listArticle"][0]["cid"]: _header_to_anchor(
-                _article_to_header_text(article["listArticle"][0])
-            )
-            for article in articles
-        }
-        for tm in code_tms
-    }
-
-    cleaned_commits = [
-        Commit(
-            timestamp=c.timestamp,
-            modified_by=c.modified_by,
-            article_changes={
-                article_cid: _clean_article_html(text, text_to_cid_to_anchor)
-                for article_cid, text in c.article_changes.items()
-            },
-        )
-        for c in tqdm(sorted_commits, "Cleaning HTML")
-    ]
-
-    for i in tqdm(range(0, len(cleaned_commits) - 1), desc="Processing"):
-        full_code_texts = []
-        for tm in code_tms:
-            f = io.StringIO()
-            print("=" * 6 + f" {i} " + "=" * 6)
-            print(cleaned_commits[i])
-            print("\n\n")
-            _tm_to_markdown(tm, cleaned_commits[: (i + 1)], file=f)
-            full_code_texts.append((tm["title"], f.getvalue()))
+    for i in tqdm(range(0, len(commits) - 1), desc="Converting to Code Tree"):
+        code_trees = [_tm_to_code_tree(tm, commits[: (i + 1)]) for tm in codes]
+        assert None not in code_trees
 
         yield StateAtCommit(
-            title=cleaned_commits[i].title,
-            timestamp=cleaned_commits[i].timestamp,
-            full_code_texts=full_code_texts,
+            title=commits[i].title,
+            timestamp=commits[i].timestamp,
+            code_trees=code_trees,
         )

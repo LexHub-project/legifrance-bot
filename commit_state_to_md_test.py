@@ -1,36 +1,24 @@
-from to_commit_state import _clean_article_html
+from commit_state_to_md import _resolve_links
 
 
-def test_clean_article_html():
+def test_resolve_links():
     assert (
-        _clean_article_html(
+        _resolve_links(
             """
-<p></p><p><br/>
+<p><br/>
 Lorsque les cinq territoires mentionnés à l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000044595989&idArticle=LEGIARTI000044597999&dateTexte=&categorieLien=cid' title='Code des impositions sur les biens et services - art. L112-4 (V)'>L. 112-4 </a>sont regardés comme distincts pour une imposition donnée, sont assimilés à des territoires tiers au sens de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000044595989&idArticle=LEGIARTI000044597993&dateTexte=&categorieLien=cid' title='Code des impositions sur les biens et services - art. L112-2 (V)'>L. 112-2 </a>:<br/><br/>
 1° Chacun de ces territoires vis-à-vis des autres ;<br/><br/>
-2° Les territoires des autres Etats membres de l'Union européenne vis-à-vis des territoires mentionnés aux 2° à 5° de l'article L. 112-4.</p><p></p>
+2° Les territoires des autres Etats membres de l'Union européenne vis-à-vis des territoires mentionnés aux 2° à 5° de l'article L. 112-4.</p>
 """,
             {
-                "LEGITEXT000044595989": {
-                    "LEGIARTI000044597999": "article-l112-4",
-                    "LEGIARTI000044597993": "article-l112-2",
-                }
+                "LEGIARTI000044597999": "#article-l112-4",
+                "LEGIARTI000044597993": "#article-l112-2",
             },
         )
-        == """<p><br/>
+        == """
+<p><br/>
 Lorsque les cinq territoires mentionnés à l'article <a href='#article-l112-4' title='Code des impositions sur les biens et services - art. L112-4 (V)'>L. 112-4 </a>sont regardés comme distincts pour une imposition donnée, sont assimilés à des territoires tiers au sens de l'article <a href='#article-l112-2' title='Code des impositions sur les biens et services - art. L112-2 (V)'>L. 112-2 </a>:<br/><br/>
 1° Chacun de ces territoires vis-à-vis des autres ;<br/><br/>
-2° Les territoires des autres Etats membres de l'Union européenne vis-à-vis des territoires mentionnés aux 2° à 5° de l'article L. 112-4.</p>"""
-    )
-
-
-def test_clean_article_html_strip():
-    assert (
-        _clean_article_html(
-            """
-    Le marin est tenu
-""",
-            {},
-        )
-        == """Le marin est tenu"""
+2° Les territoires des autres Etats membres de l'Union européenne vis-à-vis des territoires mentionnés aux 2° à 5° de l'article L. 112-4.</p>
+"""
     )
