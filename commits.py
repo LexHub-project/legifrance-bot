@@ -67,6 +67,8 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
         if version["etat"] != "MODIFIE_MORT_NE":
             timestamp_start: int = version["dateDebut"]
             timestamp_end: int = version["dateFin"]
+            if timestamp_start == timestamp_end:
+                timestamp_end += 1
 
             modified_by = [
                 TextCidAndTitle(cid=lm["textCid"], title=lm["textTitle"])
