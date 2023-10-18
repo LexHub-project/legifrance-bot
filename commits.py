@@ -2,7 +2,7 @@ import itertools
 import re
 from dataclasses import dataclass
 from difflib import SequenceMatcher
-from typing import Generator, Tuple
+from typing import Generator
 
 ArticleJSON = dict
 CodeJSON = dict
@@ -35,13 +35,6 @@ class Commit:
         # TODO
 
         return f"{self.timestamp}-{'-'.join(modified_by_cids)}"
-
-
-@dataclass
-class StateAtCommit:
-    title: str
-    timestamp: int
-    full_code_texts: list[Tuple[str, str]]
 
 
 def _merge_titles(titles: list[str]) -> str:

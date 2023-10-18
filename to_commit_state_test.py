@@ -1,4 +1,4 @@
-from render_to_markdown import _clean_article_html
+from to_commit_state import _clean_article_html
 
 
 def test_clean_article_html():

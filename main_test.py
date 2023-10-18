@@ -1,7 +1,8 @@
 import pytest
-from commits import StateAtCommit
+
 from fetch_data import fetch_articles, fetch_tms
 from main import _process
+from to_commit_state import StateAtCommit
 
 
 def _state_at_commit_to_md(s: StateAtCommit, text: str):

@@ -1,11 +1,19 @@
 import io
 import re
+from dataclasses import dataclass
 from datetime import datetime
-from typing import Generator
+from typing import Generator, Tuple
 
 from tqdm import tqdm
 
-from commits import ArticleJSON, CodeJSON, Commit, StateAtCommit
+from commits import ArticleJSON, CodeJSON, Commit
+
+
+@dataclass
+class StateAtCommit:
+    title: str
+    timestamp: int
+    full_code_texts: list[Tuple[str, str]]
 
 
 def _header(level: int, text: str) -> str:

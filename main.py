@@ -7,10 +7,10 @@ from typing import Generator
 
 import pytz
 
-from commits import ArticleJSON, CodeJSON, StateAtCommit, get_commits
+from commits import ArticleJSON, CodeJSON, get_commits
 from fetch_data import fetch_articles, fetch_tms
 from tm import patch_tm_multiple_paths
-from render_to_markdown import generate_markdown
+from to_commit_state import StateAtCommit, generate_markdown
 
 OUTPUT_REPO_PATH = "../legifrance"
 

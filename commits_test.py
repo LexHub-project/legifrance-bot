@@ -1,4 +1,5 @@
 import pytest
+
 from commits import TextCidAndTitle, _dedupe_modified_by, _merge_titles
 
 
