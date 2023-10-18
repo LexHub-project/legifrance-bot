@@ -16,7 +16,11 @@ def _get_tm_by_path(tm: CodeJSON, path: list[str]) -> CodeJSON:
 
 
 def _format_path(titresTm):
-    return "/".join([t["cid"] for t in titresTm])
+    raw_path = [t["cid"] for t in titresTm]
+    filtered_path = list(
+        dict.fromkeys(raw_path)
+    )  # can have duplicates, eg LEGIARTI000006812669
+    return "/".join(filtered_path)
 
 
 def _are_paths_valid(
@@ -26,14 +30,18 @@ def _are_paths_valid(
     missing = []
 
     for path in paths:
-        section = _get_tm_by_path(tm, path.split("/"))
-        found = [a for a in section["articles"] if a["cid"] == article_cid]
-        if len(found) == 1:
-            valid.append(path)
-        elif len(found) == 0:
-            missing.append(path)
-        else:
-            raise ValueError(f"Found {len(found)} articles for {article_cid}")
+        try:
+            section = _get_tm_by_path(tm, path.split("/"))
+            found = [a for a in section["articles"] if a["cid"] == article_cid]
+            if len(found) >= 1:
+                # can be more, eg LEGIARTI000006841453 in LEGITEXT000006070666
+                valid.append(path)
+            else:
+                missing.append(path)
+
+        except KeyError:
+            print(f"Path {path} not found in tm {article_cid}")
+            # TODO handle this case eg LEGIARTI000006812892
 
     return valid, missing
 
