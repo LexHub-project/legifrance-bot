@@ -14,6 +14,11 @@ class TextCidAndTitle:
     title: str
 
 
+empty_text_cid_and_title = TextCidAndTitle(
+    cid="", title="un texte d’une portée générale"
+)
+
+
 @dataclass
 class Commit:
     modified_by: list[TextCidAndTitle]
@@ -31,8 +36,6 @@ class Commit:
         modified_by_cids: list[str] = sorted({m.cid for m in self.modified_by})
 
         assert len(modified_by_cids) > 0
-        # modified_by_cids = ["???"]
-        # TODO
 
         return f"{self.timestamp}-{'-'.join(modified_by_cids)}"
 
@@ -59,32 +62,35 @@ def _dedupe_modified_by(
 
 def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     for version in article["listArticle"]:
-        timestamp_start: int = version["dateDebut"]
-        timestamp_end: int = version["dateFin"]
+        if version["etat"] != "MODIFIE_MORT_NE":
+            timestamp_start: int = version["dateDebut"]
+            timestamp_end: int = version["dateFin"]
 
-        modified_by = [
-            TextCidAndTitle(cid=lm["textCid"], title=lm["textTitle"])
-            for lm in version["lienModifications"]
-            # if
-        ]
+            modified_by = [
+                TextCidAndTitle(cid=lm["textCid"], title=lm["textTitle"])
+                for lm in version["lienModifications"]
+                # if
+            ]
+            if len(modified_by) == 0:
+                modified_by = [empty_text_cid_and_title]
 
-        # TODO: 2 commits in 1 version? What about other states
-        # TRANSFERE	51
-        # ABROGE_DIFF	38
-        # PERIME
+            # TODO: 2 commits in 1 version? What about other states
+            # TRANSFERE	51
+            # ABROGE_DIFF	38
+            # PERIME
 
-        yield Commit(
-            timestamp=timestamp_start,
-            modified_by=modified_by,
-            article_changes={version["cid"]: version["texteHtml"]},
-        )
-
-        if version["etat"] == "ABROGE":
             yield Commit(
-                timestamp=timestamp_end,
+                timestamp=timestamp_start,
                 modified_by=modified_by,
-                article_changes={version["cid"]: None},
+                article_changes={version["cid"]: version["texteHtml"]},
             )
+
+            if version["etat"] == "ABROGE":
+                yield Commit(
+                    timestamp=timestamp_end,
+                    modified_by=modified_by,
+                    article_changes={version["cid"]: None},
+                )
 
 
 def _merge_commits(all_commits: list[Commit]) -> Generator[Commit, None, None]:
