@@ -47,15 +47,16 @@ def test_snapshot(snapshot, states: list[StateAtCommit], to_files):
     )
 
 
-# def test_no_empty_commits(states: list[StateAtCommit]):
-#     for i, (first, second) in enumerate(zip(states[:-1], states[1:])):
-#         assert len(first.full_code_texts) == 1
-#         assert len(second.full_code_texts) == 1
+@pytest.mark.parametrize("to_files", [to_one_file_per_code, to_one_file_per_article])
+def test_no_empty_commits(states: list[StateAtCommit], to_files):
+    for i, (first, second) in enumerate(zip(states[:-1], states[1:])):
+        assert len(first.code_trees) == 1
+        assert len(second.code_trees) == 1
 
-#         # Same code name
-#         assert first.full_code_texts[0][0] == second.full_code_texts[0][0]
+        # Same code
+        assert first.code_trees[0].cid == second.code_trees[0].cid
 
-#         # Different text
-#         assert (
-#             first.full_code_texts[0][1] != second.full_code_texts[0][1]
-#         ), f"Text in commits {_render_commit_num(i)}, {_render_commit_num(i+1)} is the same"
+        # Different text
+        assert to_files(first) != to_files(
+            second
+        ), f"Text in commits {_render_commit_num(i)}, {_render_commit_num(i+1)} is the same"
