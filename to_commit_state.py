@@ -85,7 +85,7 @@ def _tm_to_code_tree(
 def generate_commit_states(
     codes: list[CodeJSON], commits: list[Commit]
 ) -> Generator[StateAtCommit, None, None]:
-    for i in tqdm(range(0, len(commits) - 1), desc="Converting to Code Tree"):
+    for i in tqdm(range(0, len(commits)), desc="Converting to Code Tree"):
         code_trees = [_tm_to_code_tree(tm, commits[: (i + 1)]) for tm in codes]
         assert None not in code_trees
 

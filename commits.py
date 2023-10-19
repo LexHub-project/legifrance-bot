@@ -126,7 +126,7 @@ def _clean_html(html: str | None) -> str | None:
 
     lines = html.strip().split("\n")
 
-    return "\n\n".join([l.strip() for l in lines])
+    return "\n\n".join([line.strip() for line in lines])
 
 
 def _clean_commits(commits: list[Commit]):
