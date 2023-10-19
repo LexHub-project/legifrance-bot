@@ -2,7 +2,7 @@ import itertools
 import re
 from dataclasses import dataclass
 from difflib import SequenceMatcher
-from typing import Generator, Tuple
+from typing import Generator
 
 ArticleJSON = dict
 CodeJSON = dict
@@ -35,13 +35,6 @@ class Commit:
         # TODO
 
         return f"{self.timestamp}-{'-'.join(modified_by_cids)}"
-
-
-@dataclass
-class StateAtCommit:
-    title: str
-    timestamp: int
-    full_code_texts: list[Tuple[str, str]]
 
 
 def _merge_titles(titles: list[str]) -> str:
@@ -124,7 +117,23 @@ def _merge_commits(all_commits: list[Commit]) -> Generator[Commit, None, None]:
         )
 
 
+def _clean_html(html: str | None) -> str | None:
+    if html is None:
+        return None
+
+    return html.replace("<p></p>", "").strip()
+
+
+def _clean_commits(commits: list[Commit]):
+    for commit in commits:
+        for cid in commit.article_changes:
+            commit.article_changes[cid] = _clean_html(commit.article_changes[cid])
+
+
 def get_commits(articles: list[ArticleJSON]) -> list[Commit]:
-    all_commits = [c for a in articles for c in _commits_for_article(a)]
-    merged = _merge_commits(all_commits)
-    return sorted(merged, key=lambda c: c.timestamp)
+    commits = [c for a in articles for c in _commits_for_article(a)]
+    commits = sorted(_merge_commits(commits), key=lambda c: c.timestamp)
+
+    _clean_commits(commits)
+
+    return commits

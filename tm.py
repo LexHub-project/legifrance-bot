@@ -1,8 +1,10 @@
-from commits import ArticleJSON, CodeJSON
 from copy import deepcopy
+from typing import Tuple
+
+from commits import ArticleJSON, CodeJSON
 
 
-def _get_tm_by_path(tm: CodeJSON, path: [str]) -> CodeJSON:
+def _get_tm_by_path(tm: CodeJSON, path: list[str]) -> CodeJSON:
     if len(path) == 0:
         return tm
 
@@ -17,7 +19,9 @@ def _format_path(titresTm):
     return "/".join([t["cid"] for t in titresTm])
 
 
-def _are_paths_valid(tm: CodeJSON, paths: [str], article_cid: str) -> ([str], [str]):
+def _are_paths_valid(
+    tm: CodeJSON, paths: set[str], article_cid: str
+) -> Tuple[list[str], list[str]]:
     valid = []
     missing = []
 
@@ -34,7 +38,7 @@ def _are_paths_valid(tm: CodeJSON, paths: [str], article_cid: str) -> ([str], [s
     return valid, missing
 
 
-def patch_tm_multiple_paths(tm: CodeJSON, articles: [ArticleJSON]) -> CodeJSON:
+def patch_tm_multiple_paths(tm: CodeJSON, articles: list[ArticleJSON]) -> CodeJSON:
     patched_tm = deepcopy(tm)
 
     for article in articles:
