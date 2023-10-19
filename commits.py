@@ -56,35 +56,36 @@ def _dedupe_modified_by(
 
 def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     for version in article["listArticle"]:
-        if version["etat"] != "MODIFIE_MORT_NE":
-            timestamp_start: int = version["dateDebut"]
-            timestamp_end: int = version["dateFin"]
-            if timestamp_start == timestamp_end:
-                timestamp_end += 1
+        if version["etat"] == "MODIFIE_MORT_NE":
+            continue
+        timestamp_start: int = version["dateDebut"]
+        timestamp_end: int = version["dateFin"]
+        if timestamp_start == timestamp_end:
+            timestamp_end += 1
 
-            modified_by = [
-                TextCidAndTitle(cid=lm["textCid"], title=lm["textTitle"])
-                for lm in version["lienModifications"]
-                # if
-            ]
+        modified_by = [
+            TextCidAndTitle(cid=lm["textCid"], title=lm["textTitle"])
+            for lm in version["lienModifications"]
+            # if
+        ]
 
-            # TODO: 2 commits in 1 version? What about other states
-            # TRANSFERE	51
-            # ABROGE_DIFF	38
-            # PERIME
+        # TODO: 2 commits in 1 version? What about other states
+        # TRANSFERE	51
+        # ABROGE_DIFF	38
+        # PERIME
 
+        yield Commit(
+            timestamp=timestamp_start,
+            modified_by=modified_by,
+            article_changes={version["cid"]: version["texteHtml"]},
+        )
+
+        if version["etat"] == "ABROGE":
             yield Commit(
-                timestamp=timestamp_start,
+                timestamp=timestamp_end,
                 modified_by=modified_by,
-                article_changes={version["cid"]: version["texteHtml"]},
+                article_changes={version["cid"]: None},
             )
-
-            if version["etat"] == "ABROGE":
-                yield Commit(
-                    timestamp=timestamp_end,
-                    modified_by=modified_by,
-                    article_changes={version["cid"]: None},
-                )
 
 
 def _merge_commits(all_commits: list[Commit]) -> Generator[Commit, None, None]:
