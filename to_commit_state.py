@@ -6,7 +6,7 @@ from typing import Generator
 
 from tqdm import tqdm
 
-from commits import ArticleJSON, CodeJSON, Commit
+from commits import CodeJSON, Commit
 
 
 @dataclass
