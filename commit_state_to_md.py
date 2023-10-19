@@ -82,15 +82,18 @@ def _to_one_file_per_code(tree: CodeTree, uri_map: dict[str, str], level=1):
     return f.getvalue()
 
 
-def _build_uri_maps_one_file_per_code(trees: list[CodeTree]):
+def _build_uri_maps_one_file_per_code(trees: list[CodeTree], code: str | None = None):
     map: dict[str, str] = {}
 
-    # TODO: links accross codes https://github.com/LexHub-project/legifrance-bot/issues/39
     for tree in trees:
-        for article in tree.articles:
-            map[article.cid] = _header_to_anchor(_article_to_header_text(article))
+        code_uri = "/" + slugify(tree.title) + ".md" if code is None else code
 
-        map |= _build_uri_maps_one_file_per_code(tree.sections)
+        for article in tree.articles:
+            map[article.cid] = code_uri + _header_to_anchor(
+                _article_to_header_text(article)
+            )
+
+        map |= _build_uri_maps_one_file_per_code(tree.sections, code_uri)
 
     return map
 
