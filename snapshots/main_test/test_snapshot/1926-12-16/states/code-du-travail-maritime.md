@@ -43,12 +43,14 @@ Les conditions générales d'engagement doivent être tenues, par l'armateur, à
 
 ### Article 13
 Le contrat d'engagement est visé par l'autorité maritime.
-    L'autorité maritime ne peut régler les conditions de l'engagement. Toutefois, elle a le droit de refuser son visa lorsque le contrat contient une clause contraire aux dispositions d'ordre public inscrites dans la présente loi.
+
+L'autorité maritime ne peut régler les conditions de l'engagement. Toutefois, elle a le droit de refuser son visa lorsque le contrat contient une clause contraire aux dispositions d'ordre public inscrites dans la présente loi.
 
 
 ### Article 14
 L'engagement maritime est mentionné sur un livret qui est délivré gratuitement au marin par l'autorité maritime et qui reste en sa possession.
-    Le livret ne doit contenir aucune appréciation des services rendus.
+
+Le livret ne doit contenir aucune appréciation des services rendus.
 
 
 ## Titre 3 : Des obligations du marin envers l'armateur et de la réglementation du travail à bord des navires
@@ -95,13 +97,16 @@ Ne sont pas considérés comme portant atteinte à la règle du repos hebdomadai
 ## Titre 3 : Obligations du marin envers l'armateur et réglementation du travail à bord des navires
 ### Article 27
 A la mer, et sur les rades foraines, le personnel du pont et celui de la machine marchent par quart.
-    Chaque quart du personnel des machines doit comprendre au moins un homme par trois fourneaux, sauf les exceptions à cette règle, déterminées par décret en Conseil d'Etat. L'armateur ou le capitaine est tenu de faire connaître aux marins qui vont s'engager, et de déclarer lors de la confection du rôle d'équipage, à la suite des conditions d'engagement, la composition de l'équipage, le nombre des fourneaux devant être mis en service dans la chaufferie et, s'il y a lieu, les éléments prévus au règlement d'administration publique ci-dessus mentionné et servant de base au calcul de l'effectif.
-    Le chauffeur, pendant son quart, ne doit pas être distrait du service de la chauffe, si ce n'est pour les besoins urgents de la machine.    A chaque quart, le personnel des machines, de concert avec celui du pont, assure l'enlèvement des escarbilles.
+
+Chaque quart du personnel des machines doit comprendre au moins un homme par trois fourneaux, sauf les exceptions à cette règle, déterminées par décret en Conseil d'Etat. L'armateur ou le capitaine est tenu de faire connaître aux marins qui vont s'engager, et de déclarer lors de la confection du rôle d'équipage, à la suite des conditions d'engagement, la composition de l'équipage, le nombre des fourneaux devant être mis en service dans la chaufferie et, s'il y a lieu, les éléments prévus au règlement d'administration publique ci-dessus mentionné et servant de base au calcul de l'effectif.
+
+Le chauffeur, pendant son quart, ne doit pas être distrait du service de la chauffe, si ce n'est pour les besoins urgents de la machine.    A chaque quart, le personnel des machines, de concert avec celui du pont, assure l'enlèvement des escarbilles.
 
 
 ### Article 28
 Sauf les exceptions et dérogations prévues à l'article 30 ci-après, un repos complet d'une journée par semaine doit être accordé au marin lorsque l'engagement maritime est d'une durée supérieure à six jours.    Sauf décision contraire du capitaine, le dimanche est le jour consacré au repos hebdomadaire.
-    Les dispositions du présent article ne sont pas applicables aux engagements à la pêche.
+
+Les dispositions du présent article ne sont pas applicables aux engagements à la pêche.
 
 
 ## Titre 4 : Des obligations de l'armateur envers le marin
@@ -287,8 +292,10 @@ Des décrets en Conseil d'Etat détermineront les stipulations que devront conte
 #### Section 2 : Suspension et rétention des salaires
 ##### Article 48
 Le marin qui, étant de service, s'absente sans autorisation ou qui se trouve absent, sans autorisation, au moment où il doit prendre son service, perd le droit aux salaires afférents au temps de son absence.
-   L'armateur peut, s'il y a lieu, réclamer des dommages-intérêts pour le préjudice qu'aura pu lui causer le marin qui, étant de service, s'absente du bord sans autorisation, ou le marin qui n'étant pas de service, s'absente du bord en inobservation des mesures prises par le capitaine, conformément aux dispositions de l'article 19.
-    Le marin perd son salaire à partir du moment où il a été privé de sa liberté comme inculpé en raison d'une infraction à la loi pénale.
+
+L'armateur peut, s'il y a lieu, réclamer des dommages-intérêts pour le préjudice qu'aura pu lui causer le marin qui, étant de service, s'absente du bord sans autorisation, ou le marin qui n'étant pas de service, s'absente du bord en inobservation des mesures prises par le capitaine, conformément aux dispositions de l'article 19.
+
+Le marin perd son salaire à partir du moment où il a été privé de sa liberté comme inculpé en raison d'une infraction à la loi pénale.
 
 
 ##### Article 50
@@ -298,8 +305,10 @@ L'inexécution des obligations qui incombent au marin, soit en vertu des lois, d
 #### Section 3 : Lieux et époques de liquidation et paiement des salaires
 ##### Article 52
 Si la liquidation des salaires a lieu dans un port de France, le payement en est effectué immédiatement au marin ou à ses ayants droit.
-    Si la liquidation des salaires a lieu dans un port étranger, les salaires sont payés en France au marin ou à ses ayants droit. Toutefois, l'autorité maritime pourra prescrire le payement d'un acompte.
-    Au cas d'un retard de payement imputable à l'armateur, le marin peut réclamer des dommages-intérêts.
+
+Si la liquidation des salaires a lieu dans un port étranger, les salaires sont payés en France au marin ou à ses ayants droit. Toutefois, l'autorité maritime pourra prescrire le payement d'un acompte.
+
+Au cas d'un retard de payement imputable à l'armateur, le marin peut réclamer des dommages-intérêts.
 
 
 ##### Article 57
@@ -309,9 +318,12 @@ Toute transaction sur le montant du décompte des salaires est nulle si elle n'e
 #### Section 4 : Avances, acomptes, délégations
 ##### Article 58
 Aucune avance de salaires ne peut être faite au marin qu'en présence et sous le contrôle de l'autorité maritime.
-    Les avances, quel qu'en soit le montant, ne sont imputables sur les salaires ou parts à échoir au marin que jusqu'à concurrence de :
- trois mois de salaires pour les voiliers effectuant une navigation au long cours dépassant le cap Horn ou le cap de Bonne-Espérance ; deux mois pour les voiliers de long cours ne dépassant pas les caps, et un mois pour toutes les autres navigations. Les règlements prévus à l'article 34 détermineront pour la navigation de grande pêche, le montant des avances qui peuvent être accordées aux marins. La partie de l'avance dépassant les sommes ainsi fixées reste acquise au marin à titre de prime d'engagement ou avance perdue.
-    Toutefois, des avances peuvent être accordées, au-delà des maxima prévus au paragraphe précédent, sous forme de délégation.
+
+Les avances, quel qu'en soit le montant, ne sont imputables sur les salaires ou parts à échoir au marin que jusqu'à concurrence de :
+
+trois mois de salaires pour les voiliers effectuant une navigation au long cours dépassant le cap Horn ou le cap de Bonne-Espérance ; deux mois pour les voiliers de long cours ne dépassant pas les caps, et un mois pour toutes les autres navigations. Les règlements prévus à l'article 34 détermineront pour la navigation de grande pêche, le montant des avances qui peuvent être accordées aux marins. La partie de l'avance dépassant les sommes ainsi fixées reste acquise au marin à titre de prime d'engagement ou avance perdue.
+
+Toutefois, des avances peuvent être accordées, au-delà des maxima prévus au paragraphe précédent, sous forme de délégation.
 
 
 #### Section 5 : Dettes des marins
@@ -335,8 +347,10 @@ Les marins ont droit à la nourriture ou à une allocation équivalente pendant 
 
 #### Article 76
 Nul ne peut introduire de boissons alcooliques à bord sans l'autorisation du capitaine.    Il est interdit d'embarquer, pour la consommation de l'équipage, officiers compris, une quantité de boissons alcooliques supérieure à une quantité réglementaire qui est déterminée, pour chaque genre de navigation, par un arrêté ministériel.
-   Toute boisson alcoolique introduite contrairement aux dispositions du paragraphe 1er du présent article est confisquée par le capitaine et est vendue par l'autorité maritime au profit de la caisse des invalides, sans préjudice des sanctions disciplinaires ou pénales.
-    Toute boisson alcoolique conservée à bord contrairement aux dispositions du paragraphe 2 du présent article est saisie par toute autorité ayant qualité pour constater les infractions à la police ou à la sécurité de la navigation, ou par les agents de l'administration des douanes, et est vendue au profit de la caisse des invalides, sans préjudice des sanctions disciplinaires ou pénales.
+
+Toute boisson alcoolique introduite contrairement aux dispositions du paragraphe 1er du présent article est confisquée par le capitaine et est vendue par l'autorité maritime au profit de la caisse des invalides, sans préjudice des sanctions disciplinaires ou pénales.
+
+Toute boisson alcoolique conservée à bord contrairement aux dispositions du paragraphe 2 du présent article est saisie par toute autorité ayant qualité pour constater les infractions à la police ou à la sécurité de la navigation, ou par les agents de l'administration des douanes, et est vendue au profit de la caisse des invalides, sans préjudice des sanctions disciplinaires ou pénales.
 
 
 ## Titre 6 : Dispositions spéciales applicables à certaines catégories de marins
