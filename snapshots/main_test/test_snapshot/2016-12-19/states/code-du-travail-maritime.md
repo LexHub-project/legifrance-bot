@@ -12,6 +12,10 @@ En cas de rupture du voyage par le fait de l'armateur ou de son représentant, s
 
 
 #### Section 3 : Des lieux et époques de liquidation et du paiement des salaires
+##### Article 54
+Lors du débarquement du marin mettant fin à son contrat d'engagement, l'autorité chargée de l'inspection du travail maritime reçoit les déclarations des parties sur le règlement des salaires. Il est fait mention au rôle d'équipage et sur le livret professionnel du marin de la déclaration faite, sans indication de somme.   En aucun lieu, il ne peut être utilisé de moyens de paiement ayant pour objet de suppléer ou de remplacer les signes monétaires ayant cours légal. Si le paiement est fait à l'étranger en monnaie étrangère, il est effectué, sous le contrôle de l'autorité consulaire, au taux de change fixé pour les opérations de chancellerie.
+
+
 ### Chapitre 2 : De la nourriture et du couchage
 #### Article 75
 Il est interdit à tout armateur de charger à forfait le capitaine ou un membre quelconque de l'état-major de la nourriture de l'équipage.
@@ -19,6 +23,8 @@ Il est interdit à tout armateur de charger à forfait le capitaine ou un membre
 
 ## Titre 6 : Dispositions spéciales applicables à certaines catégories de marins
 ### Chapitre 2 : Dispositions spéciales applicables aux marins âgés de moins de dix-huit ans.
+#### Article 113
+Le travail de nuit est interdit aux marins âgés de moins de dix-huit ans ainsi qu'aux jeunes gens âgés de moins de dix-huit ans qui accomplissent des stages d'initiation ou d'application en milieu professionnel dans le cadre d'un enseignement alterné ou d'un enseignement professionnel. Les services de quart de nuit de 20 heures à 5 heures sont considérés comme travail de nuit.   Un repos de neuf heures consécutives doit être accordé aux intéressés. Ce repos comprend obligatoirement la période qui se situe entre minuit et cinq heures du matin.   Des dérogations aux dispositions des alinéas précédents peuvent être accordées par l'inspecteur du travail maritime, après avis du médecin des gens de mer, lorsque la formation le justifie.   Pour les jeunes gens en formation âgés de moins de quinze ans le travail de nuit est interdit entre 20 heures et 6 heures.   Les marins âgés de moins de dix-huit ans, ainsi que les jeunes gens âgés de moins de dix-huit ans qui accomplissent des stages d'initiation ou d'application en milieu professionnel dans le cadre d'un enseignement alterné ou d'un enseignement professionnel dans le service de la machine, ne peuvent être compris dans les services de quart.
 
 
 ## Titre 9 : Dispositions diverses

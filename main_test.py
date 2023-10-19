@@ -1,3 +1,7 @@
+from __future__ import annotations
+
+import datetime
+
 import pytest
 
 from commit_state_to_md import to_one_file_per_article, to_one_file_per_code
@@ -5,10 +9,14 @@ from fetch_data import fetch_articles, fetch_tms
 from main import CID_CODE_DU_TRAVAIL_MARITIME, _process
 from to_commit_state import StateAtCommit
 
+DATE_STR_FMT = "%Y-%m-%d"
 
-def _state_at_commit_metadata_to_md(s: StateAtCommit):
+
+def _state_at_commit_metadata_to_md(s: StateAtCommit, date_str: str):
+    assert len(s.code_trees) == 1
+
     return f"""
-# Timestamp
+# Last Commit Timestamp
 ```
 {s.timestamp}
 ```
@@ -17,6 +25,9 @@ def _state_at_commit_metadata_to_md(s: StateAtCommit):
 ```
 {s.title}
 ```
+
+# Link To Primary Source at test date
+https://www.legifrance.gouv.fr/codes/texte_lc/{s.code_trees[0].cid}/{date_str}/
 """.strip()
 
 
@@ -33,13 +44,43 @@ def states() -> list[StateAtCommit]:
     return list(_process(code_tms, articles))
 
 
-@pytest.mark.parametrize("to_files", [to_one_file_per_code, to_one_file_per_article])
-def test_snapshot(snapshot, states: list[StateAtCommit], to_files):
-    snapshots: dict[str, str] = {}
-    for i, s in enumerate(states):
-        snapshots[f"{_render_commit_num(i)}"] = to_files(s) | {
-            "_meta.md": _state_at_commit_metadata_to_md(s)
-        }
+DATE_FOR_ONE_ARTICLE_PER_FILE = "2023-10-19"
+
+
+def _state_at_date_str(states: list[StateAtCommit], date_str: str):
+    timestamp = int(
+        datetime.datetime.strptime(date_str, DATE_STR_FMT)
+        .replace(tzinfo=datetime.timezone.utc)
+        .timestamp()
+        * 1000
+    )
+    return [s for s in states if s.timestamp <= timestamp][-1]
+
+
+@pytest.mark.parametrize(
+    "date_str", [DATE_FOR_ONE_ARTICLE_PER_FILE, "2016-12-20", "2016-12-19"]
+)
+def test_snapshot(snapshot, states: list[StateAtCommit], date_str: str):
+    state = _state_at_date_str(states, date_str)
+
+    snapshots = to_one_file_per_code(state) | {
+        "_meta.md": _state_at_commit_metadata_to_md(state, date_str)
+    }
+
+    snapshot.assert_match_dir(
+        snapshots,
+        "states",
+    )
+
+
+def test_one_file_per_article(snapshot, states: list[StateAtCommit]):
+    state = _state_at_date_str(states, DATE_FOR_ONE_ARTICLE_PER_FILE)
+
+    snapshots: dict[str, str] = to_one_file_per_article(state) | {
+        "_meta.md": _state_at_commit_metadata_to_md(
+            state, DATE_FOR_ONE_ARTICLE_PER_FILE
+        )
+    }
 
     snapshot.assert_match_dir(
         snapshots,
