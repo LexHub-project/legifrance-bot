@@ -1,0 +1,1470 @@
+{
+    "executionTime": 0,
+    "listArticle": [
+        {
+            "id": "LEGIARTI000027804775",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "I. \u2013 Les copies mentionn\u00e9es au I de l'article L. 47 A sont transmises, sous forme de fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants : 1\u00b0 Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et/ ou Fin de ligne ; 2\u00b0 Ils peuvent \u00eatre de type mono ou multistructures ; 3\u00b0 La longueur des enregistrements peut \u00eatre fixe ou variable, avec ou sans s\u00e9parateur de zone ; 4\u00b0 Le caract\u00e8re s\u00e9parateur de zone \u00e9ventuellement utilis\u00e9 est unique et non \u00e9quivoque dans chaque fichier. II. \u2013 Chaque fichier remis est obligatoirement accompagn\u00e9 d'une description, qui pr\u00e9cise : 1\u00b0 Le nom, la nature et la signification de chaque zone ; 2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ; 3\u00b0 Toutes les informations techniques n\u00e9cessaires au traitement des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9, le type de structure, la longueur des enregistrements, les caract\u00e8res s\u00e9parateur de zone et s\u00e9parateur d'enregistrement. III. \u2013 Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes : 1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou EBCDIC ; 2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. Le signe est indiqu\u00e9 par le premier caract\u00e8re \u00e0 partir de la gauche. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9 ; 3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces ; 4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. Les heures sont exprim\u00e9es au format HH : MM : SS. IV. \u2013 En accord avec le service v\u00e9rificateur, d'autres solutions d'\u00e9change peuvent \u00eatre retenues dans la mesure o\u00f9 elles sont de nature \u00e0 faciliter le traitement des donn\u00e9es transmises. V. \u2013 Les copies de fichiers sont remises sur des disques optiques de type CD ou DVD non r\u00e9inscriptibles, cl\u00f4tur\u00e9s de telle sorte qu'ils ne puissent plus recevoir de donn\u00e9es et utilisant le syst\u00e8me de fichiers UDF et/ ou ISO 9660. En accord avec le service v\u00e9rificateur, d'autre supports pourront \u00eatre utilis\u00e9s. VI. \u2013 Les copies des fichiers mentionn\u00e9es au I de l'article L. 47 A sont transmises, au choix du contribuable sous forme de : 1\u00b0 Fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants : a. Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et/ ou Fin de ligne ; b. La longueur des enregistrements peut \u00eatre fixe ou variable ; c. Les zones sont obligatoirement s\u00e9par\u00e9es par une tabulation ou le caract\u00e8re \" | \" ; 2\u00b0 Fichiers structur\u00e9s, cod\u00e9s en XML, respectant la structure du fichier XSD dont les sp\u00e9cifications sont consultables sur internet sur le site public http :// www. impots. gouv. fr/ . VII. \u2013 1\u00b0 Conform\u00e9ment au premier alin\u00e9a du I de l'article L. 47 A, l'ensemble des donn\u00e9es comptables et des \u00e9critures retrac\u00e9es dans tous les journaux comptables au titre d'un exercice est remis dans un fichier unique, d\u00e9nomm\u00e9 fichier des \u00e9critures comptables, dans lequel les \u00e9critures sont class\u00e9es par ordre chronologique de validation. Ce fichier est constitu\u00e9 des \u00e9critures apr\u00e8s op\u00e9rations d'inventaire, hors \u00e9critures de centralisation et hors \u00e9critures de solde des comptes de charges et de produits. Il comprend les \u00e9critures de reprise des soldes de l'exercice ant\u00e9rieur et contient, pour chaque \u00e9criture, l'ensemble des donn\u00e9es comptables figurant dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les dix-huit premi\u00e8res informations devant obligatoirement correspondre, dans l'ordre, \u00e0 celles list\u00e9es dans le tableau suivant : INFORMATION NOM DU CHAMP TYPE DE CHAMP 1. Le code journal de l'\u00e9criture comptable JournalCode Alphanum\u00e9rique 2. Le libell\u00e9 journal de l'\u00e9criture comptable JournalLib Alphanum\u00e9rique 3. Le num\u00e9ro sur une s\u00e9quence continue de l'\u00e9criture comptable EcritureNum Alphanum\u00e9rique 4. La date de comptabilisation de l'\u00e9criture comptable EcritureDate Date 5. Le num\u00e9ro de compte, dont les trois premiers caract\u00e8res doivent correspondre \u00e0 des chiffres respectant les normes du plan comptable fran\u00e7ais CompteNum Alphanum\u00e9rique 6. Le libell\u00e9 de compte, conform\u00e9ment \u00e0 la nomenclature du plan comptable fran\u00e7ais CompteLib Alphanum\u00e9rique 7. Le num\u00e9ro de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) CompAuxNum Alphanum\u00e9rique 8. Le libell\u00e9 de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) CompAuxLib Alphanum\u00e9rique 9. La r\u00e9f\u00e9rence de la pi\u00e8ce justificative PieceRef Alphanum\u00e9rique 10. La date de la pi\u00e8ce justificative PieceDate Date 11. Le libell\u00e9 de l'\u00e9criture comptable EcritureLib Alphanum\u00e9rique 12. Le montant au d\u00e9bit Debit Num\u00e9rique 13. Le montant au cr\u00e9dit Credit Num\u00e9rique 14. Le lettrage de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) EcritureLet Alphanum\u00e9rique 15. La date de lettrage (\u00e0 blanc si non utilis\u00e9) DateLet Date 16. La date de validation de l'\u00e9criture comptable ValidDate Date 17. Le montant en devise (\u00e0 blanc si non utilis\u00e9) Montantdevise Num\u00e9rique 18. L'identifiant de la devise (\u00e0 blanc si non utilis\u00e9) Idevise Alphanum\u00e9rique 2\u00b0 Si les informations \" d\u00e9bit \" et \" cr\u00e9dit \" ne sont pas pr\u00e9sentes dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les informations 12 et 13 peuvent \u00eatre respectivement remplac\u00e9es par \" montant \" et \" sens \", sur le mod\u00e8le suivant : INFORMATION NOM DU CHAMP TYPE DE CHAMP 12. Le montant Montant Num\u00e9rique 13. Le sens Sens Alphanum\u00e9rique 3\u00b0 Pour chaque exercice, les premiers num\u00e9ros d'\u00e9critures comptables du fichier correspondent aux \u00e9critures de reprise des soldes de l'exercice ant\u00e9rieur ; 4\u00b0 Pour les fichiers \u00e0 plat, la premi\u00e8re ligne du fichier comporte le nom des champs, comme d\u00e9fini dans le tableau mentionn\u00e9 au 1\u00b0 ou 2\u00b0. VIII. \u2013 1\u00b0 Conform\u00e9ment au deuxi\u00e8me alin\u00e9a du I de l'article L. 47 A, l'ensemble des donn\u00e9es comptables et des \u00e9critures retrac\u00e9es dans tous les journaux comptables au titre d'un exercice est remis dans un fichier unique, d\u00e9nomm\u00e9 fichier des \u00e9critures comptables, dans lequel les \u00e9critures sont class\u00e9es par ordre chronologique de validation. Ce fichier est constitu\u00e9 des \u00e9critures apr\u00e8s op\u00e9rations d'inventaire, hors \u00e9critures de centralisation et hors \u00e9critures de solde des comptes de charges et de produits. Il comprend les \u00e9critures de reprise des soldes de l'exercice ant\u00e9rieur ; 2\u00b0 Pour chaque exercice, les premiers num\u00e9ros d'\u00e9criture comptable du fichier correspondent aux \u00e9critures de reprise des soldes de l'exercice ant\u00e9rieur ; 3\u00b0 Lorsque le contribuable, imposable \u00e0 l'imp\u00f4t sur le revenu dans la cat\u00e9gorie des b\u00e9n\u00e9fices non commerciaux ou dans celle des b\u00e9n\u00e9fices agricoles, tient une comptabilit\u00e9 selon les r\u00e8gles du droit commercial, le fichier des \u00e9critures comptables contient, pour chaque \u00e9criture, l'ensemble des donn\u00e9es comptables figurant dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les dix-huit premi\u00e8res informations devant obligatoirement correspondre, dans l'ordre, \u00e0 celles list\u00e9es dans le tableau suivant : INFORMATION NOM DU CHAMP TYPE DE CHAMP 1. Le code journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) JournalCode Alphanum\u00e9rique 2. Le libell\u00e9 journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) JournalLib Alphanum\u00e9rique 3. Le num\u00e9ro sur une s\u00e9quence continue de l'\u00e9criture comptable EcritureNum Alphanum\u00e9rique 4. La date de comptabilisation de l'\u00e9criture comptable EcritureDate Date 5. Le num\u00e9ro de compte (\u00e0 blanc si non utilis\u00e9) CompteNum Alphanum\u00e9rique 6. Le libell\u00e9 de compte CompteLib Alphanum\u00e9rique 7. Le num\u00e9ro de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) CompAuxNum Alphanum\u00e9rique 8. Le libell\u00e9 de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) CompAuxLib Alphanum\u00e9rique 9. La r\u00e9f\u00e9rence de la pi\u00e8ce justificative PieceRef Alphanum\u00e9rique 10. La date de la pi\u00e8ce justificative PieceDate Date 11. Le libell\u00e9 de l'\u00e9criture comptable EcritureLib Alphanum\u00e9rique 12. Le montant au d\u00e9bit Debit Num\u00e9rique 13. Le montant au cr\u00e9dit Credit Num\u00e9rique 14. Le lettrage de l'\u00e9criture (\u00e0 blanc si non utilis\u00e9) EcritureLet Alphanum\u00e9rique 15. La date de lettrage (\u00e0 blanc si non utilis\u00e9) DateLet Date 16. La date de validation de l'\u00e9criture comptable ValidDate Date 17. Le montant en devise (\u00e0 blanc si non utilis\u00e9) Montantdevise Num\u00e9rique 18. L'identifiant de la devise (\u00e0 blanc si non utilis\u00e9) Idevise Alphanum\u00e9rique 4\u00b0 Si les informations \" d\u00e9bit \" et \" cr\u00e9dit \" ne sont pas pr\u00e9sentes dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les informations 12 et 13 peuvent \u00eatre respectivement remplac\u00e9es par \" montant \" et \" sens \", sur le mod\u00e8le suivant : INFORMATION NOM DU CHAMP TYPE DE CHAMP 12. Le montant Montant Num\u00e9rique 13. Le sens Sens Alphanum\u00e9rique 5\u00b0 Lorsque le contribuable, imposable \u00e0 l'imp\u00f4t sur le revenu dans la cat\u00e9gorie des b\u00e9n\u00e9fices agricoles, tient une comptabilit\u00e9 de tr\u00e9sorerie retra\u00e7ant les recettes et les d\u00e9penses professionnelles, le fichier des \u00e9critures comptables contient, pour chaque \u00e9criture, l'ensemble des donn\u00e9es comptables figurant dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les vingt et une premi\u00e8res informations devant obligatoirement correspondre, dans l'ordre, \u00e0 celles list\u00e9es dans le tableau suivant : INFORMATION NOM DU CHAMP TYPE DE CHAMP 1. Le code journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) JournalCode Alphanum\u00e9rique 2. Le libell\u00e9 journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) JournalLib Alphanum\u00e9rique 3. Le num\u00e9ro sur une s\u00e9quence continue de l'\u00e9criture comptable EcritureNum Alphanum\u00e9rique 4. La date de comptabilisation de l'\u00e9criture comptable EcritureDate Date 5. Le num\u00e9ro de compte (\u00e0 blanc si non utilis\u00e9) CompteNum Alphanum\u00e9rique 6. Le libell\u00e9 de compte CompteLib Alphanum\u00e9rique 7. Le num\u00e9ro de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) CompAuxNum Alphanum\u00e9rique 8. Le libell\u00e9 de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) CompAuxLib Alphanum\u00e9rique 9. La r\u00e9f\u00e9rence de la pi\u00e8ce justificative PieceRef Alphanum\u00e9rique 10. La date de la pi\u00e8ce justificative PieceDate Date 11. Le libell\u00e9 de l'\u00e9criture comptable EcritureLib Alphanum\u00e9rique 12. Le montant au d\u00e9bit Debit Num\u00e9rique 13. Le montant au cr\u00e9dit Credit Num\u00e9rique 14. Le lettrage de l'\u00e9criture (\u00e0 blanc si non utilis\u00e9) EcritureLet Alphanum\u00e9rique 15. La date de lettrage (\u00e0 blanc si non utilis\u00e9) DateLet Date 16. La date de validation de l'\u00e9criture comptable ValidDate Date 17. Le montant en devise (\u00e0 blanc si non utilis\u00e9) Montantdevise Num\u00e9rique 18. L'identifiant de la devise (\u00e0 blanc si non utilis\u00e9) Idevise Alphanum\u00e9rique 19. La date de r\u00e8glement DateRglt Date 20. Le mode de r\u00e8glement ModeRglt Alphanum\u00e9rique 21. La nature de l'op\u00e9ration (\u00e0 blanc si non utilis\u00e9) NatOp Alphanum\u00e9rique 6\u00b0 Si les informations \" d\u00e9bit \" et \" cr\u00e9dit \" ne sont pas pr\u00e9sentes dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les informations 12 et 13 peuvent \u00eatre respectivement remplac\u00e9es par \" montant \" et \" sens \", sur le mod\u00e8le suivant : INFORMATION NOM DU CHAMP TYPE DE CHAMP 12. Le montant Montant Num\u00e9rique 13. Le sens Sens Alphanum\u00e9rique 7\u00b0 Lorsque le contribuable, imposable \u00e0 l'imp\u00f4t sur le revenu dans la cat\u00e9gorie des b\u00e9n\u00e9fices non commerciaux, tient une comptabilit\u00e9 de tr\u00e9sorerie retra\u00e7ant les recettes et les d\u00e9penses professionnelles, le fichier des \u00e9critures comptables contient, pour chaque \u00e9criture, l'ensemble des donn\u00e9es comptables figurant dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les vingt-deux premi\u00e8res informations devant obligatoirement correspondre, dans l'ordre, \u00e0 celles list\u00e9es dans le tableau suivant : INFORMATION NOM DU CHAMP TYPE DE CHAMP 1. Le code journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) JournalCode Alphanum\u00e9rique 2. Le libell\u00e9 journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) JournalLib Alphanum\u00e9rique 3. Le num\u00e9ro sur une s\u00e9quence continue de l'\u00e9criture comptable EcritureNum Alphanum\u00e9rique 4. La date de comptabilisation de l'\u00e9criture comptable EcritureDate Date 5. Le num\u00e9ro de compte (\u00e0 blanc si non utilis\u00e9) CompteNum Alphanum\u00e9rique 6. Le libell\u00e9 de compte CompteLib Alphanum\u00e9rique 7. Le num\u00e9ro de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) CompAuxNum Alphanum\u00e9rique 8. Le libell\u00e9 de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) CompAuxLib Alphanum\u00e9rique 9. La r\u00e9f\u00e9rence de la pi\u00e8ce justificative PieceRef Alphanum\u00e9rique 10. La date de la pi\u00e8ce justificative PieceDate Date 11. Le libell\u00e9 de l'\u00e9criture comptable EcritureLib Alphanum\u00e9rique 12. Le montant au d\u00e9bit Debit Num\u00e9rique 13. Le montant au cr\u00e9dit Cr\u00e9dit Num\u00e9rique 14. Le lettrage de l'\u00e9criture (\u00e0 blanc si non utilis\u00e9) EcritureLet Alphanum\u00e9rique 15. La date de lettrage (\u00e0 blanc si non utilis\u00e9) DateLet Date 16. La date de validation de l'\u00e9criture comptable ValidDate Date 17. Le montant en devise (\u00e0 blanc si non utilis\u00e9) Montantdevise Num\u00e9rique 18. L'identifiant de la devise (\u00e0 blanc si non utilis\u00e9) Idevise Alphanum\u00e9rique 19. La date de r\u00e8glement DateRglt Date 20. Le mode de r\u00e8glement ModeRglt Alphanum\u00e9rique 21. La nature de l'op\u00e9ration (\u00e0 blanc si non utilis\u00e9) NatOp Alphanum\u00e9rique 22. L'identification du client (\u00e0 blanc si non utilis\u00e9) IdClient Alphanum\u00e9rique 8\u00b0 Si les informations \" d\u00e9bit \" et \" cr\u00e9dit \" ne sont pas pr\u00e9sentes dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les informations 12 et 13 peuvent \u00eatre respectivement remplac\u00e9es par \" montant \" et \" sens \", sur le mod\u00e8le suivant : INFORMATION NOM DU CHAMP TYPE DE CHAMP 12. Le montant Montant Num\u00e9rique 13. Le sens Sens Alphanum\u00e9rique 9\u00b0 Pour les fichiers \u00e0 plat, la premi\u00e8re ligne du fichier comporte le nom des champs, comme d\u00e9fini dans les tableaux mentionn\u00e9s aux 3\u00b0 \u00e0 8\u00b0. IX. \u2013 Le fichier des \u00e9critures comptables est nomm\u00e9 selon la nomenclature suivante : SirenFECAAAAMMJJ, o\u00f9 \" Siren \" est le Siren du contribuable mentionn\u00e9 \u00e0 l'article L. 47 A et AAAAMMJJ la date de cl\u00f4ture de l'exercice comptable. X. \u2013 Les fichiers comprenant l'information 13 \" Sens \" doivent obligatoirement r\u00e9pondre \u00e0 l'une des deux conditions suivantes : 1\u00b0 la valeur \" D \" indique un montant au d\u00e9bit, la valeur \" C \" indique un montant au cr\u00e9dit ; 2\u00b0 la valeur \" + 1 \" indique un montant au d\u00e9bit, la valeur \"-1 \" indique un montant au cr\u00e9dit. Lorsque les valeurs utilis\u00e9es sont \" + 1/-1 \", il est imp\u00e9ratif que celles-ci soient enregistr\u00e9es sans espace entre les deux caract\u00e8res, c'est-\u00e0-dire entre le \" + ou-\" et le \" 1 \". XI. \u2013 Chaque fichier remis est accompagn\u00e9 d'une description, qui pr\u00e9cise : 1\u00b0 Le nom, la nature et la signification de chaque zone ; 2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ; 3\u00b0 Toutes les informations techniques n\u00e9cessaires \u00e0 l'exploitation des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9s, le type de structure, la longueur des enregistrements. XII. \u2013 Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes : 1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou jeu de caract\u00e8res unicode, norme ISO/ CEI 10646, de type UTF-8 ; 2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9. Les valeurs num\u00e9riques peuvent \u00eatre sign\u00e9es. Le signe est indiqu\u00e9 soit par le premier caract\u00e8re \u00e0 partir de la gauche, soit par le dernier caract\u00e8re figurant \u00e0 droite de la partie d\u00e9cimale ; 3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces pour les zones de longueur fixe ; 4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. XIII. \u2013 Les copies des fichiers des \u00e9critures comptables sont remises selon les modalit\u00e9s d\u00e9finies en accord avec le service v\u00e9rificateur. Par d\u00e9rogation au 1\u00b0 des VII et VIII et en accord avec le service v\u00e9rificateur, lorsque la volum\u00e9trie des donn\u00e9es est trop \u00e9lev\u00e9e, le fichier peut \u00eatre scind\u00e9 en plusieurs parties. Dans ce cas, tous les fichiers respectent le format et les normes d\u00e9finis par le pr\u00e9sent article et sont remis simultan\u00e9ment. De plus, pour les fichiers \u00e0 plat, tous les fichiers comportent sur la premi\u00e8re ligne d'enregistrement le nom des champs d\u00e9finis dans le pr\u00e9sent article. XIV. \u2013 1\u00b0 Par d\u00e9rogation au 1\u00b0 des VII et VIII, le service v\u00e9rificateur peut demander que les contribuables mentionn\u00e9s au 2\u00b0 remettent plusieurs fichiers des \u00e9critures comptables. Le premier fichier est constitu\u00e9 des \u00e9critures centralis\u00e9es et le ou les suivants des \u00e9critures d\u00e9taill\u00e9es correspondantes. Dans ce cas, les fichiers pr\u00e9cit\u00e9s respectent le format et les normes d\u00e9finis par le pr\u00e9sent article. De plus, pour les fichiers \u00e0 plat, les fichiers pr\u00e9cit\u00e9s comportent sur la premi\u00e8re ligne d'enregistrement le nom des champs d\u00e9finis dans le pr\u00e9sent article ; 2\u00b0 Le 1\u00b0 s'applique aux contribuables autres que ceux soumis au r\u00e9gime d\u00e9fini \u00e0 l' article 50-0 du code g\u00e9n\u00e9ral des imp\u00f4ts lorsque leur chiffre d'affaires de l'exercice exc\u00e8de 152,4 millions d'euros, s'il s'agit d'entreprises dont le commerce principal est de vendre des marchandises, objets, fournitures et denr\u00e9es \u00e0 emporter ou \u00e0 consommer sur place ou de fournir le logement, ou 76,2 millions d'euros, s'il s'agit d'autres entreprises. Il s'applique \u00e9galement aux contribuables mentionn\u00e9s \u00e0 l'article L. 13 AA .",
+            "texteHtml": "<p>I. \u2013 Les copies mentionn\u00e9es au I de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069583&idArticle=LEGIARTI000006315024&dateTexte=&categorieLien=cid'>L. 47 A </a>sont transmises, sous forme de fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants : </p><p>1\u00b0 Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et/ ou Fin de ligne ; </p><p>2\u00b0 Ils peuvent \u00eatre de type mono ou multistructures ; </p><p>3\u00b0 La longueur des enregistrements peut \u00eatre fixe ou variable, avec ou sans s\u00e9parateur de zone ; </p><p>4\u00b0 Le caract\u00e8re s\u00e9parateur de zone \u00e9ventuellement utilis\u00e9 est unique et non \u00e9quivoque dans chaque fichier. </p><p>II. \u2013 Chaque fichier remis est obligatoirement accompagn\u00e9 d'une description, qui pr\u00e9cise : </p><p>1\u00b0 Le nom, la nature et la signification de chaque zone ; </p><p>2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ; </p><p>3\u00b0 Toutes les informations techniques n\u00e9cessaires au traitement des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9, le type de structure, la longueur des enregistrements, les caract\u00e8res s\u00e9parateur de zone et s\u00e9parateur d'enregistrement. </p><p>III. \u2013 Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes : </p><p>1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou EBCDIC ; </p><p>2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. Le signe est indiqu\u00e9 par le premier caract\u00e8re \u00e0 partir de la gauche. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9 ; </p><p>3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces ; </p><p>4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. Les heures sont exprim\u00e9es au format HH : MM : SS. </p><p>IV. \u2013 En accord avec le service v\u00e9rificateur, d'autres solutions d'\u00e9change peuvent \u00eatre retenues dans la mesure o\u00f9 elles sont de nature \u00e0 faciliter le traitement des donn\u00e9es transmises. </p><p>V. \u2013 Les copies de fichiers sont remises sur des disques optiques de type CD ou DVD non r\u00e9inscriptibles, cl\u00f4tur\u00e9s de telle sorte qu'ils ne puissent plus recevoir de donn\u00e9es et utilisant le syst\u00e8me de fichiers UDF et/ ou ISO 9660. </p><p>En accord avec le service v\u00e9rificateur, d'autre supports pourront \u00eatre utilis\u00e9s. </p><p>VI. \u2013 Les copies des fichiers mentionn\u00e9es au I de l'article L. 47 A sont transmises, au choix du contribuable sous forme de : </p><p>1\u00b0 Fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants : </p><p>a. Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et/ ou Fin de ligne ; </p><p>b. La longueur des enregistrements peut \u00eatre fixe ou variable ; </p><p>c. Les zones sont obligatoirement s\u00e9par\u00e9es par une tabulation ou le caract\u00e8re \" | \" ; </p><p>2\u00b0 Fichiers structur\u00e9s, cod\u00e9s en XML, respectant la structure du fichier XSD dont les sp\u00e9cifications sont consultables sur internet sur le site public <a shape='rect' href='http://www.impots.gouv.fr/' target='_blank'> http :// www. impots. gouv. fr/</a>. </p><p>VII. \u2013 1\u00b0 Conform\u00e9ment au premier alin\u00e9a du I de l'article L. 47 A, l'ensemble des donn\u00e9es comptables et des \u00e9critures retrac\u00e9es dans tous les journaux comptables au titre d'un exercice est remis dans un fichier unique, d\u00e9nomm\u00e9 fichier des \u00e9critures comptables, dans lequel les \u00e9critures sont class\u00e9es par ordre chronologique de validation. Ce fichier est constitu\u00e9 des \u00e9critures apr\u00e8s op\u00e9rations d'inventaire, hors \u00e9critures de centralisation et hors \u00e9critures de solde des comptes de charges et de produits. Il comprend les \u00e9critures de reprise des soldes de l'exercice ant\u00e9rieur et contient, pour chaque \u00e9criture, l'ensemble des donn\u00e9es comptables figurant dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les dix-huit premi\u00e8res informations devant obligatoirement correspondre, dans l'ordre, \u00e0 celles list\u00e9es dans le tableau suivant : </p><center><table border='1'><tbody><tr><th>INFORMATION </th><th>NOM DU CHAMP </th><th>TYPE DE CHAMP </th></tr><tr><td align='center'>1. Le code journal de l'\u00e9criture comptable </td><td align='center'>JournalCode </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>2. Le libell\u00e9 journal de l'\u00e9criture comptable </td><td align='center'>JournalLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>3. Le num\u00e9ro sur une s\u00e9quence continue de l'\u00e9criture comptable </td><td align='center'>EcritureNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>4. La date de comptabilisation de l'\u00e9criture comptable </td><td align='center'>EcritureDate </td><td align='center'>Date </td></tr><tr><td align='center'>5. Le num\u00e9ro de compte, dont les trois premiers caract\u00e8res doivent correspondre \u00e0 des chiffres respectant les normes du plan comptable fran\u00e7ais </td><td align='center'>CompteNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>6. Le libell\u00e9 de compte, conform\u00e9ment \u00e0 la nomenclature du plan comptable fran\u00e7ais </td><td align='center'>CompteLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>7. Le num\u00e9ro de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompAuxNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>8. Le libell\u00e9 de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompAuxLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>9. La r\u00e9f\u00e9rence de la pi\u00e8ce justificative </td><td align='center'>PieceRef </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>10. La date de la pi\u00e8ce justificative </td><td align='center'>PieceDate </td><td align='center'>Date </td></tr><tr><td align='center'>11. Le libell\u00e9 de l'\u00e9criture comptable </td><td align='center'>EcritureLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>12. Le montant au d\u00e9bit </td><td align='center'>Debit </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>13. Le montant au cr\u00e9dit </td><td align='center'>Credit </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>14. Le lettrage de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>EcritureLet </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>15. La date de lettrage (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>DateLet </td><td align='center'>Date </td></tr><tr><td align='center'>16. La date de validation de l'\u00e9criture comptable </td><td align='center'>ValidDate </td><td align='center'>Date </td></tr><tr><td align='center'>17. Le montant en devise (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>Montantdevise </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>18. L'identifiant de la devise (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>Idevise </td><td align='center'>Alphanum\u00e9rique </td></tr></tbody></table></center><p>2\u00b0 Si les informations \" d\u00e9bit \" et \" cr\u00e9dit \" ne sont pas pr\u00e9sentes dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les informations 12 et 13 peuvent \u00eatre respectivement remplac\u00e9es par \" montant \" et \" sens \", sur le mod\u00e8le suivant : </p><center><table border='1'><tbody><tr><th>INFORMATION </th><th>NOM DU CHAMP </th><th>TYPE DE CHAMP </th></tr><tr><td align='center'>12. Le montant </td><td align='center'>Montant </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>13. Le sens </td><td align='center'>Sens </td><td align='center'>Alphanum\u00e9rique </td></tr></tbody></table></center><p>3\u00b0 Pour chaque exercice, les premiers num\u00e9ros d'\u00e9critures comptables du fichier correspondent aux \u00e9critures de reprise des soldes de l'exercice ant\u00e9rieur ; </p><p>4\u00b0 Pour les fichiers \u00e0 plat, la premi\u00e8re ligne du fichier comporte le nom des champs, comme d\u00e9fini dans le tableau mentionn\u00e9 au 1\u00b0 ou 2\u00b0. </p><p>VIII. \u2013 1\u00b0 Conform\u00e9ment au deuxi\u00e8me alin\u00e9a du I de l'article L. 47 A, l'ensemble des donn\u00e9es comptables et des \u00e9critures retrac\u00e9es dans tous les journaux comptables au titre d'un exercice est remis dans un fichier unique, d\u00e9nomm\u00e9 fichier des \u00e9critures comptables, dans lequel les \u00e9critures sont class\u00e9es par ordre chronologique de validation. Ce fichier est constitu\u00e9 des \u00e9critures apr\u00e8s op\u00e9rations d'inventaire, hors \u00e9critures de centralisation et hors \u00e9critures de solde des comptes de charges et de produits. Il comprend les \u00e9critures de reprise des soldes de l'exercice ant\u00e9rieur ; </p><p>2\u00b0 Pour chaque exercice, les premiers num\u00e9ros d'\u00e9criture comptable du fichier correspondent aux \u00e9critures de reprise des soldes de l'exercice ant\u00e9rieur ; </p><p>3\u00b0 Lorsque le contribuable, imposable \u00e0 l'imp\u00f4t sur le revenu dans la cat\u00e9gorie des b\u00e9n\u00e9fices non commerciaux ou dans celle des b\u00e9n\u00e9fices agricoles, tient une comptabilit\u00e9 selon les r\u00e8gles du droit commercial, le fichier des \u00e9critures comptables contient, pour chaque \u00e9criture, l'ensemble des donn\u00e9es comptables figurant dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les dix-huit premi\u00e8res informations devant obligatoirement correspondre, dans l'ordre, \u00e0 celles list\u00e9es dans le tableau suivant : </p><center><table border='1'><tbody><tr><th>INFORMATION </th><th>NOM DU CHAMP </th><th>TYPE DE CHAMP </th></tr><tr><td align='center'>1. Le code journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>JournalCode </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>2. Le libell\u00e9 journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>JournalLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>3. Le num\u00e9ro sur une s\u00e9quence continue de l'\u00e9criture comptable </td><td align='center'>EcritureNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>4. La date de comptabilisation de l'\u00e9criture comptable </td><td align='center'>EcritureDate </td><td align='center'>Date </td></tr><tr><td align='center'>5. Le num\u00e9ro de compte (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompteNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>6. Le libell\u00e9 de compte </td><td align='center'>CompteLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>7. Le num\u00e9ro de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompAuxNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>8. Le libell\u00e9 de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompAuxLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>9. La r\u00e9f\u00e9rence de la pi\u00e8ce justificative </td><td align='center'>PieceRef </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>10. La date de la pi\u00e8ce justificative </td><td align='center'>PieceDate </td><td align='center'>Date </td></tr><tr><td align='center'>11. Le libell\u00e9 de l'\u00e9criture comptable </td><td align='center'>EcritureLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>12. Le montant au d\u00e9bit </td><td align='center'>Debit </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>13. Le montant au cr\u00e9dit </td><td align='center'>Credit </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>14. Le lettrage de l'\u00e9criture (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>EcritureLet </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>15. La date de lettrage (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>DateLet </td><td align='center'>Date </td></tr><tr><td align='center'>16. La date de validation de l'\u00e9criture comptable </td><td align='center'>ValidDate </td><td align='center'>Date </td></tr><tr><td align='center'>17. Le montant en devise (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>Montantdevise </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>18. L'identifiant de la devise (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>Idevise </td><td align='center'>Alphanum\u00e9rique </td></tr></tbody></table></center><p>4\u00b0 Si les informations \" d\u00e9bit \" et \" cr\u00e9dit \" ne sont pas pr\u00e9sentes dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les informations 12 et 13 peuvent \u00eatre respectivement remplac\u00e9es par \" montant \" et \" sens \", sur le mod\u00e8le suivant : </p><center><table border='1'><tbody><tr><th>INFORMATION </th><th>NOM DU CHAMP </th><th>TYPE DE CHAMP </th></tr><tr><td align='center'>12. Le montant </td><td align='center'>Montant </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>13. Le sens </td><td align='center'>Sens </td><td align='center'>Alphanum\u00e9rique </td></tr></tbody></table></center><p>5\u00b0 Lorsque le contribuable, imposable \u00e0 l'imp\u00f4t sur le revenu dans la cat\u00e9gorie des b\u00e9n\u00e9fices agricoles, tient une comptabilit\u00e9 de tr\u00e9sorerie retra\u00e7ant les recettes et les d\u00e9penses professionnelles, le fichier des \u00e9critures comptables contient, pour chaque \u00e9criture, l'ensemble des donn\u00e9es comptables figurant dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les vingt et une premi\u00e8res informations devant obligatoirement correspondre, dans l'ordre, \u00e0 celles list\u00e9es dans le tableau suivant : </p><center><table border='1'><tbody><tr><th>INFORMATION </th><th>NOM DU CHAMP </th><th>TYPE DE CHAMP </th></tr><tr><td align='center'>1. Le code journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>JournalCode </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>2. Le libell\u00e9 journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>JournalLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>3. Le num\u00e9ro sur une s\u00e9quence continue de l'\u00e9criture comptable </td><td align='center'>EcritureNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>4. La date de comptabilisation de l'\u00e9criture comptable </td><td align='center'>EcritureDate </td><td align='center'>Date </td></tr><tr><td align='center'>5. Le num\u00e9ro de compte (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompteNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>6. Le libell\u00e9 de compte </td><td align='center'>CompteLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>7. Le num\u00e9ro de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompAuxNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>8. Le libell\u00e9 de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompAuxLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>9. La r\u00e9f\u00e9rence de la pi\u00e8ce justificative </td><td align='center'>PieceRef </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>10. La date de la pi\u00e8ce justificative </td><td align='center'>PieceDate </td><td align='center'>Date </td></tr><tr><td align='center'>11. Le libell\u00e9 de l'\u00e9criture comptable </td><td align='center'>EcritureLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>12. Le montant au d\u00e9bit </td><td align='center'>Debit </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>13. Le montant au cr\u00e9dit </td><td align='center'>Credit </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>14. Le lettrage de l'\u00e9criture (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>EcritureLet </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>15. La date de lettrage (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>DateLet </td><td align='center'>Date </td></tr><tr><td align='center'>16. La date de validation de l'\u00e9criture comptable </td><td align='center'>ValidDate </td><td align='center'>Date </td></tr><tr><td align='center'>17. Le montant en devise (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>Montantdevise </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>18. L'identifiant de la devise (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>Idevise </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>19. La date de r\u00e8glement </td><td align='center'>DateRglt </td><td align='center'>Date </td></tr><tr><td align='center'>20. Le mode de r\u00e8glement </td><td align='center'>ModeRglt </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>21. La nature de l'op\u00e9ration (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>NatOp </td><td align='center'>Alphanum\u00e9rique </td></tr></tbody></table></center><p>6\u00b0 Si les informations \" d\u00e9bit \" et \" cr\u00e9dit \" ne sont pas pr\u00e9sentes dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les informations 12 et 13 peuvent \u00eatre respectivement remplac\u00e9es par \" montant \" et \" sens \", sur le mod\u00e8le suivant : </p><center><table border='1'><tbody><tr><th>INFORMATION </th><th>NOM DU CHAMP </th><th>TYPE DE CHAMP </th></tr><tr><td align='center'>12. Le montant </td><td align='center'>Montant </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>13. Le sens </td><td align='center'>Sens </td><td align='center'>Alphanum\u00e9rique </td></tr></tbody></table></center><p>7\u00b0 Lorsque le contribuable, imposable \u00e0 l'imp\u00f4t sur le revenu dans la cat\u00e9gorie des b\u00e9n\u00e9fices non commerciaux, tient une comptabilit\u00e9 de tr\u00e9sorerie retra\u00e7ant les recettes et les d\u00e9penses professionnelles, le fichier des \u00e9critures comptables contient, pour chaque \u00e9criture, l'ensemble des donn\u00e9es comptables figurant dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les vingt-deux premi\u00e8res informations devant obligatoirement correspondre, dans l'ordre, \u00e0 celles list\u00e9es dans le tableau suivant : </p><center><table border='1'><tbody><tr><th>INFORMATION </th><th>NOM DU CHAMP </th><th>TYPE DE CHAMP </th></tr><tr><td align='center'>1. Le code journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>JournalCode </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>2. Le libell\u00e9 journal de l'\u00e9criture comptable (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>JournalLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>3. Le num\u00e9ro sur une s\u00e9quence continue de l'\u00e9criture comptable </td><td align='center'>EcritureNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>4. La date de comptabilisation de l'\u00e9criture comptable </td><td align='center'>EcritureDate </td><td align='center'>Date </td></tr><tr><td align='center'>5. Le num\u00e9ro de compte (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompteNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>6. Le libell\u00e9 de compte </td><td align='center'>CompteLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>7. Le num\u00e9ro de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompAuxNum </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>8. Le libell\u00e9 de compte auxiliaire (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>CompAuxLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>9. La r\u00e9f\u00e9rence de la pi\u00e8ce justificative </td><td align='center'>PieceRef </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>10. La date de la pi\u00e8ce justificative </td><td align='center'>PieceDate </td><td align='center'>Date </td></tr><tr><td align='center'>11. Le libell\u00e9 de l'\u00e9criture comptable </td><td align='center'>EcritureLib </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>12. Le montant au d\u00e9bit </td><td align='center'>Debit </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>13. Le montant au cr\u00e9dit </td><td align='center'>Cr\u00e9dit </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>14. Le lettrage de l'\u00e9criture (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>EcritureLet </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>15. La date de lettrage (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>DateLet </td><td align='center'>Date </td></tr><tr><td align='center'>16. La date de validation de l'\u00e9criture comptable </td><td align='center'>ValidDate </td><td align='center'>Date </td></tr><tr><td align='center'>17. Le montant en devise (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>Montantdevise </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>18. L'identifiant de la devise (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>Idevise </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>19. La date de r\u00e8glement </td><td align='center'>DateRglt </td><td align='center'>Date </td></tr><tr><td align='center'>20. Le mode de r\u00e8glement </td><td align='center'>ModeRglt </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>21. La nature de l'op\u00e9ration (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>NatOp </td><td align='center'>Alphanum\u00e9rique </td></tr><tr><td align='center'>22. L'identification du client (\u00e0 blanc si non utilis\u00e9) </td><td align='center'>IdClient </td><td align='center'>Alphanum\u00e9rique </td></tr></tbody></table></center><p>8\u00b0 Si les informations \" d\u00e9bit \" et \" cr\u00e9dit \" ne sont pas pr\u00e9sentes dans le syst\u00e8me informatis\u00e9 comptable de l'entreprise, les informations 12 et 13 peuvent \u00eatre respectivement remplac\u00e9es par \" montant \" et \" sens \", sur le mod\u00e8le suivant : </p><center><table border='1'><tbody><tr><th>INFORMATION </th><th>NOM DU CHAMP </th><th>TYPE DE CHAMP </th></tr><tr><td align='center'>12. Le montant </td><td align='center'>Montant </td><td align='center'>Num\u00e9rique </td></tr><tr><td align='center'>13. Le sens </td><td align='center'>Sens </td><td align='center'>Alphanum\u00e9rique </td></tr></tbody></table></center><p>9\u00b0 Pour les fichiers \u00e0 plat, la premi\u00e8re ligne du fichier comporte le nom des champs, comme d\u00e9fini dans les tableaux mentionn\u00e9s aux 3\u00b0 \u00e0 8\u00b0. </p><p>IX. \u2013 Le fichier des \u00e9critures comptables est nomm\u00e9 selon la nomenclature suivante : </p><p>SirenFECAAAAMMJJ, o\u00f9 \" Siren \" est le Siren du contribuable mentionn\u00e9 \u00e0 l'article L. 47 A et AAAAMMJJ la date de cl\u00f4ture de l'exercice comptable. </p><p>X. \u2013 Les fichiers comprenant l'information 13 \" Sens \" doivent obligatoirement r\u00e9pondre \u00e0 l'une des deux conditions suivantes : </p><p>1\u00b0 la valeur \" D \" indique un montant au d\u00e9bit, la valeur \" C \" indique un montant au cr\u00e9dit ; </p><p>2\u00b0 la valeur \" + 1 \" indique un montant au d\u00e9bit, la valeur \"-1 \" indique un montant au cr\u00e9dit. </p><p>Lorsque les valeurs utilis\u00e9es sont \" + 1/-1 \", il est imp\u00e9ratif que celles-ci soient enregistr\u00e9es sans espace entre les deux caract\u00e8res, c'est-\u00e0-dire entre le \" + ou-\" et le \" 1 \". </p><p>XI. \u2013 Chaque fichier remis est accompagn\u00e9 d'une description, qui pr\u00e9cise : </p><p>1\u00b0 Le nom, la nature et la signification de chaque zone ; </p><p>2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ; </p><p>3\u00b0 Toutes les informations techniques n\u00e9cessaires \u00e0 l'exploitation des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9s, le type de structure, la longueur des enregistrements. </p><p>XII. \u2013 Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes : </p><p>1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou jeu de caract\u00e8res unicode, norme ISO/ CEI 10646, de type UTF-8 ; </p><p>2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9. Les valeurs num\u00e9riques peuvent \u00eatre sign\u00e9es. Le signe est indiqu\u00e9 soit par le premier caract\u00e8re \u00e0 partir de la gauche, soit par le dernier caract\u00e8re figurant \u00e0 droite de la partie d\u00e9cimale ; </p><p>3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces pour les zones de longueur fixe ; </p><p>4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. </p><p>XIII. \u2013 Les copies des fichiers des \u00e9critures comptables sont remises selon les modalit\u00e9s d\u00e9finies en accord avec le service v\u00e9rificateur. </p><p>Par d\u00e9rogation au 1\u00b0 des VII et VIII et en accord avec le service v\u00e9rificateur, lorsque la volum\u00e9trie des donn\u00e9es est trop \u00e9lev\u00e9e, le fichier peut \u00eatre scind\u00e9 en plusieurs parties. </p><p>Dans ce cas, tous les fichiers respectent le format et les normes d\u00e9finis par le pr\u00e9sent article et sont remis simultan\u00e9ment. De plus, pour les fichiers \u00e0 plat, tous les fichiers comportent sur la premi\u00e8re ligne d'enregistrement le nom des champs d\u00e9finis dans le pr\u00e9sent article. </p><p>XIV. \u2013 1\u00b0 Par d\u00e9rogation au 1\u00b0 des VII et VIII, le service v\u00e9rificateur peut demander que les contribuables mentionn\u00e9s au 2\u00b0 remettent plusieurs fichiers des \u00e9critures comptables. Le premier fichier est constitu\u00e9 des \u00e9critures centralis\u00e9es et le ou les suivants des \u00e9critures d\u00e9taill\u00e9es correspondantes. </p><p>Dans ce cas, les fichiers pr\u00e9cit\u00e9s respectent le format et les normes d\u00e9finis par le pr\u00e9sent article. De plus, pour les fichiers \u00e0 plat, les fichiers pr\u00e9cit\u00e9s comportent sur la premi\u00e8re ligne d'enregistrement le nom des champs d\u00e9finis dans le pr\u00e9sent article ; </p><p>2\u00b0 Le 1\u00b0 s'applique aux contribuables autres que ceux soumis au r\u00e9gime d\u00e9fini \u00e0 l'<a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006302438&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 50-0 (V)'>article 50-0 </a>du code g\u00e9n\u00e9ral des imp\u00f4ts lorsque leur chiffre d'affaires de l'exercice exc\u00e8de 152,4 millions d'euros, s'il s'agit d'entreprises dont le commerce principal est de vendre des marchandises, objets, fournitures et denr\u00e9es \u00e0 emporter ou \u00e0 consommer sur place ou de fournir le logement, ou 76,2 millions d'euros, s'il s'agit d'autres entreprises. </p><p>Il s'applique \u00e9galement aux contribuables mentionn\u00e9s \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069583&idArticle=LEGIARTI000021648183&dateTexte=&categorieLien=cid' title='Livre des proc\u00e9dures fiscales - art. L13 AA (V)'>L. 13 AA</a>.</p>",
+            "num": "A47 A-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "6.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1375401600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084349",
+                        "id": "LEGISCTA000006084349",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114546",
+                        "id": "LEGISCTA000006114546",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Le contr\u00f4le de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133956",
+                        "id": "LEGISCTA000006133956",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Le droit de contr\u00f4le de l'administration",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006147319",
+                        "id": "LEGISCTA000006147319",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1992-07-04",
+                        "fin": "2999-01-01",
+                        "titre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006163079",
+                        "id": "LEGISCTA000006163079",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "1938-06-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre des proc\u00e9dures fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069583",
+                        "id": "LEGITEXT000006069583",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006314891",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006163079",
+            "sectionParentId": "LEGISCTA000006163079",
+            "sectionParentTitre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s &gt; Titre II : Le contr\u00f4le de l'imp\u00f4t &gt; Chapitre premier : Le droit de contr\u00f4le de l'administration &gt; Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000027804775",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069583",
+                    "titre": "Livre des proc\u00e9dures fiscales",
+                    "titreLong": "Livre des proc\u00e9dures fiscales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -996796800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069583",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000027788276",
+                    "textTitle": "Arr\u00eat\u00e9 du 29 juillet 2013 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000027788707",
+                    "natureText": "ARRETE",
+                    "datePubliTexte": "2013-08-01",
+                    "dateSignaTexte": "2013-07-29",
+                    "dateDebutCible": "2013-08-02"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 50-0 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "50-0",
+                    "articleId": "LEGIARTI000006302438",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 694137600000
+                },
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. A47 AA-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A47 AA-1",
+                    "articleId": "LEGIARTI000033978072",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1486166400000
+                },
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. L13 AA (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L13 AA",
+                    "articleId": "LEGIARTI000021648183",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1262304000000
+                },
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. L47 A",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L47 A",
+                    "articleId": "LEGIARTI000006315024",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 645408000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006314891",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 710208000000,
+                    "dateFin": 860716800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314892",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 860716800000,
+                    "dateFin": 1129593600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314893",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1129593600000,
+                    "dateFin": 1200009600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000017962266",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1200009600000,
+                    "dateFin": 1207180800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018567134",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1207180800000,
+                    "dateFin": 1375401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027804775",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1375401600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A47 A-1",
+                "47",
+                "A47"
+            ],
+            "versionPrecedente": "LEGIARTI000018567134",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000018567134",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "I.-Les copies mentionn\u00e9es au I et aux b et c du II de l'article L. 47 A pr\u00e9sentent des fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants : 1\u00b0 Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et / ou Fin de ligne ; 2\u00b0 Ils peuvent \u00eatre de type mono ou multistructures ; 3\u00b0 La longueur des enregistrements peut \u00eatre fixe ou variable, avec ou sans s\u00e9parateur de zone ; 4\u00b0 Le caract\u00e8re s\u00e9parateur de zone \u00e9ventuellement utilis\u00e9 est unique et non \u00e9quivoque dans chaque fichier. II.-Chaque fichier remis est obligatoirement accompagn\u00e9 d'une description, qui pr\u00e9cise : 1\u00b0 Le nom, la nature et la signification de chaque zone ; 2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ; 3\u00b0 Toutes les informations techniques n\u00e9cessaires au traitement des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9, le type de structure, la longueur des enregistrements, les caract\u00e8res s\u00e9parateur de zone et s\u00e9parateur d'enregistrement. III.-Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes : 1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou EBCDIC ; 2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. Le signe est indiqu\u00e9 par le premier caract\u00e8re \u00e0 partir de la gauche. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9 ; 3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces ; 4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. Les heures sont exprim\u00e9es au format HH : MM : SS. IV.-En accord avec le service v\u00e9rificateur, d'autres solutions d'\u00e9change peuvent \u00eatre retenues dans la mesure o\u00f9 elles sont de nature \u00e0 faciliter le traitement des donn\u00e9es transmises. V.-Les copies de fichiers sont remises sur des disques optiques de type CD ou DVD non r\u00e9inscriptibles, cl\u00f4tur\u00e9s de telle sorte qu'ils ne puissent plus recevoir de donn\u00e9es et utilisant le syst\u00e8me de fichiers UDF et / ou ISO 9660. En accord avec le service v\u00e9rificateur, d'autre supports pourront \u00eatre utilis\u00e9s.",
+            "texteHtml": "<p>I.-Les copies mentionn\u00e9es au I et aux b et c du II de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069583&idArticle=LEGIARTI000006315024&dateTexte=&categorieLien=cid'>L. 47 A</a> pr\u00e9sentent des fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants : </p><p>1\u00b0 Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et / ou Fin de ligne ; </p><p>2\u00b0 Ils peuvent \u00eatre de type mono ou multistructures ; </p><p>3\u00b0 La longueur des enregistrements peut \u00eatre fixe ou variable, avec ou sans s\u00e9parateur de zone ; </p><p>4\u00b0 Le caract\u00e8re s\u00e9parateur de zone \u00e9ventuellement utilis\u00e9 est unique et non \u00e9quivoque dans chaque fichier. </p><p>II.-Chaque fichier remis est obligatoirement accompagn\u00e9 d'une description, qui pr\u00e9cise : </p><p>1\u00b0 Le nom, la nature et la signification de chaque zone ; </p><p>2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ; </p><p>3\u00b0 Toutes les informations techniques n\u00e9cessaires au traitement des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9, le type de structure, la longueur des enregistrements, les caract\u00e8res s\u00e9parateur de zone et s\u00e9parateur d'enregistrement. </p><p>III.-Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes : </p><p>1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou EBCDIC ; </p><p>2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. Le signe est indiqu\u00e9 par le premier caract\u00e8re \u00e0 partir de la gauche. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9 ; </p><p>3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces ; </p><p>4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. Les heures sont exprim\u00e9es au format HH : MM : SS. </p><p>IV.-En accord avec le service v\u00e9rificateur, d'autres solutions d'\u00e9change peuvent \u00eatre retenues dans la mesure o\u00f9 elles sont de nature \u00e0 faciliter le traitement des donn\u00e9es transmises. </p><p>V.-Les copies de fichiers sont remises sur des disques optiques de type CD ou DVD non r\u00e9inscriptibles, cl\u00f4tur\u00e9s de telle sorte qu'ils ne puissent plus recevoir de donn\u00e9es et utilisant le syst\u00e8me de fichiers UDF et / ou ISO 9660. </p><p>En accord avec le service v\u00e9rificateur, d'autre supports pourront \u00eatre utilis\u00e9s.</p>",
+            "num": "A47 A-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "5.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1207180800000,
+            "dateFin": 1375401600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084349",
+                        "id": "LEGISCTA000006084349",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114546",
+                        "id": "LEGISCTA000006114546",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Le contr\u00f4le de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133956",
+                        "id": "LEGISCTA000006133956",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Le droit de contr\u00f4le de l'administration",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006147319",
+                        "id": "LEGISCTA000006147319",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1992-07-04",
+                        "fin": "2999-01-01",
+                        "titre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006163079",
+                        "id": "LEGISCTA000006163079",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "1938-06-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre des proc\u00e9dures fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069583",
+                        "id": "LEGITEXT000006069583",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006314891",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006163079",
+            "sectionParentId": "LEGISCTA000006163079",
+            "sectionParentTitre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s &gt; Titre II : Le contr\u00f4le de l'imp\u00f4t &gt; Chapitre premier : Le droit de contr\u00f4le de l'administration &gt; Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000018567134",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069583",
+                    "titre": "Livre des proc\u00e9dures fiscales",
+                    "titreLong": "Livre des proc\u00e9dures fiscales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -996796800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069583",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000018556648",
+                    "textTitle": "Arr\u00eat\u00e9 du 1er avril 2008 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000018566413",
+                    "natureText": "ARRETE",
+                    "datePubliTexte": "2008-04-02",
+                    "dateSignaTexte": "2008-04-01",
+                    "dateDebutCible": "2008-04-03"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. A47 AA-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A47 AA-1",
+                    "articleId": "LEGIARTI000033978072",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1486166400000
+                },
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. L47 A",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L47 A",
+                    "articleId": "LEGIARTI000006315024",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 645408000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006314891",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 710208000000,
+                    "dateFin": 860716800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314892",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 860716800000,
+                    "dateFin": 1129593600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314893",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1129593600000,
+                    "dateFin": 1200009600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000017962266",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1200009600000,
+                    "dateFin": 1207180800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018567134",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1207180800000,
+                    "dateFin": 1375401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027804775",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1375401600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A47 A-1",
+                "47",
+                "A47"
+            ],
+            "versionPrecedente": "LEGIARTI000017962266",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000017962266",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "I. - Les copies mentionn\u00e9es au I de l'article L. 47 A du livre des proc\u00e9dures fiscales et aux b et c du II de ce m\u00eame article   pr\u00e9sentent des fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants : 1\u00b0 Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et/ou Fin de ligne ; 2\u00b0 Ils peuvent \u00eatre de type mono ou multistructures ; 3\u00b0 La longueur des enregistrements peut \u00eatre fixe ou variable, avec ou sans s\u00e9parateur de zone ; 4\u00b0 Le caract\u00e8re s\u00e9parateur de zone \u00e9ventuellement utilis\u00e9 est unique et non \u00e9quivoque dans chaque fichier. II. - Chaque fichier remis est obligatoirement accompagn\u00e9 d'une description, qui pr\u00e9cise : 1\u00b0 Le nom, la nature et la signification de chaque zone ; 2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ; 3\u00b0 Toutes les informations techniques n\u00e9cessaires au traitement des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9, le type de structure, la longueur des enregistrements, les caract\u00e8res s\u00e9parateur de zone et s\u00e9parateur d'enregistrement. III. - Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes : 1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou EBCDIC ; 2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. Le signe est indiqu\u00e9 par le premier caract\u00e8re \u00e0 partir de la gauche. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9 ; 3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces ; 4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. Les heures sont exprim\u00e9es au format HH:MM:SS. IV. - En accord avec le service v\u00e9rificateur, d'autres solutions d'\u00e9change peuvent \u00eatre retenues dans la mesure o\u00f9 elles sont de nature \u00e0 faciliter le traitement des donn\u00e9es transmises. V. - Les copies de fichiers sont remises sur des disques optiques de type CD ou DVD non r\u00e9inscriptibles, cl\u00f4tur\u00e9s de telle sorte qu'ils ne puissent plus recevoir de donn\u00e9es et utilisant le syst\u00e8me de fichiers UDF et/ou ISO 9660. En accord avec le service v\u00e9rificateur, d'autre supports pourront \u00eatre utilis\u00e9s.",
+            "texteHtml": "<p>I. - Les copies mentionn\u00e9es au I de l'article L. 47 A du livre des proc\u00e9dures fiscales et aux b et c du II de ce m\u00eame article   pr\u00e9sentent des fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants :</p><p>1\u00b0 Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et/ou Fin de ligne ;</p><p>2\u00b0 Ils peuvent \u00eatre de type mono ou multistructures ;</p><p>3\u00b0 La longueur des enregistrements peut \u00eatre fixe ou variable, avec ou sans s\u00e9parateur de zone ;</p><p>4\u00b0 Le caract\u00e8re s\u00e9parateur de zone \u00e9ventuellement utilis\u00e9 est unique et non \u00e9quivoque dans chaque fichier.</p><p>II. - Chaque fichier remis est obligatoirement accompagn\u00e9 d'une description, qui pr\u00e9cise :</p><p>1\u00b0 Le nom, la nature et la signification de chaque zone ;</p><p>2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ;</p><p>3\u00b0 Toutes les informations techniques n\u00e9cessaires au traitement des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9, le type de structure, la longueur des enregistrements, les caract\u00e8res s\u00e9parateur de zone et s\u00e9parateur d'enregistrement.</p><p>III. - Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes :</p><p>1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou EBCDIC ;</p><p>2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. Le signe est indiqu\u00e9 par le premier caract\u00e8re \u00e0 partir de la gauche. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9 ;</p><p>3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces ;</p><p>4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. Les heures sont exprim\u00e9es au format HH:MM:SS.</p><p>IV. - En accord avec le service v\u00e9rificateur, d'autres solutions d'\u00e9change peuvent \u00eatre retenues dans la mesure o\u00f9 elles sont de nature \u00e0 faciliter le traitement des donn\u00e9es transmises.</p><p>V. - Les copies de fichiers sont remises sur des disques optiques de type CD ou DVD non r\u00e9inscriptibles, cl\u00f4tur\u00e9s de telle sorte qu'ils ne puissent plus recevoir de donn\u00e9es et utilisant le syst\u00e8me de fichiers UDF et/ou ISO 9660.</p><p>En accord avec le service v\u00e9rificateur, d'autre supports pourront \u00eatre utilis\u00e9s.</p>",
+            "num": "A47 A-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1200009600000,
+            "dateFin": 1207180800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084349",
+                        "id": "LEGISCTA000006084349",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114546",
+                        "id": "LEGISCTA000006114546",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Le contr\u00f4le de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133956",
+                        "id": "LEGISCTA000006133956",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Le droit de contr\u00f4le de l'administration",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006147319",
+                        "id": "LEGISCTA000006147319",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1992-07-04",
+                        "fin": "2999-01-01",
+                        "titre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006163079",
+                        "id": "LEGISCTA000006163079",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "1938-06-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre des proc\u00e9dures fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069583",
+                        "id": "LEGITEXT000006069583",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006314891",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006163079",
+            "sectionParentId": "LEGISCTA000006163079",
+            "sectionParentTitre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s &gt; Titre II : Le contr\u00f4le de l'imp\u00f4t &gt; Chapitre premier : Le droit de contr\u00f4le de l'administration &gt; Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000017962266",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069583",
+                    "titre": "Livre des proc\u00e9dures fiscales",
+                    "titreLong": "Livre des proc\u00e9dures fiscales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -996796800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069583",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000017847210",
+                    "textTitle": "Arr\u00eat\u00e9 du 28 d\u00e9cembre 2007 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000017961161",
+                    "natureText": "ARRETE",
+                    "datePubliTexte": "2008-01-10",
+                    "dateSignaTexte": "2007-12-28",
+                    "dateDebutCible": "2008-01-11"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. A47 AA-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A47 AA-1",
+                    "articleId": "LEGIARTI000033978072",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1486166400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006314891",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 710208000000,
+                    "dateFin": 860716800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314892",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 860716800000,
+                    "dateFin": 1129593600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314893",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1129593600000,
+                    "dateFin": 1200009600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000017962266",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1200009600000,
+                    "dateFin": 1207180800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018567134",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1207180800000,
+                    "dateFin": 1375401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027804775",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1375401600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A47 A-1",
+                "47",
+                "A47"
+            ],
+            "versionPrecedente": "LEGIARTI000006314893",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006314893",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "I. - Les copies mentionn\u00e9es au quatri\u00e8me alin\u00e9a de l'article L. 47 A pr\u00e9sentent des fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants : 1\u00b0 Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et/ou Fin de ligne ; 2\u00b0 Ils peuvent \u00eatre de type mono ou multistructures ; 3\u00b0 La longueur des enregistrements peut \u00eatre fixe ou variable, avec ou sans s\u00e9parateur de zone ; 4\u00b0 Le caract\u00e8re s\u00e9parateur de zone \u00e9ventuellement utilis\u00e9 est unique et non \u00e9quivoque dans chaque fichier. II. - Chaque fichier remis est obligatoirement accompagn\u00e9 d'une description, qui pr\u00e9cise : 1\u00b0 Le nom, la nature et la signification de chaque zone ; 2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ; 3\u00b0 Toutes les informations techniques n\u00e9cessaires au traitement des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9, le type de structure, la longueur des enregistrements, les caract\u00e8res s\u00e9parateur de zone et s\u00e9parateur d'enregistrement. III. - Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes : 1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou EBCDIC ; 2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. Le signe est indiqu\u00e9 par le premier caract\u00e8re \u00e0 partir de la gauche. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9 ; 3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces ; 4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. Les heures sont exprim\u00e9es au format HH:MM:SS. IV. - En accord avec le service v\u00e9rificateur, d'autres solutions d'\u00e9change peuvent \u00eatre retenues dans la mesure o\u00f9 elles sont de nature \u00e0 faciliter le traitement des donn\u00e9es transmises. V. - Les copies de fichiers sont remises sur des disques optiques de type CD ou DVD non r\u00e9inscriptibles, cl\u00f4tur\u00e9s de telle sorte qu'ils ne puissent plus recevoir de donn\u00e9es et utilisant le syst\u00e8me de fichiers UDF et/ou ISO 9660. En accord avec le service v\u00e9rificateur, d'autre supports pourront \u00eatre utilis\u00e9s.",
+            "texteHtml": "<p></p>   I. - Les copies mentionn\u00e9es au quatri\u00e8me alin\u00e9a de l'article L. 47 A pr\u00e9sentent des fichiers \u00e0 plat, \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e remplissant les crit\u00e8res suivants :<p></p><p></p>   1\u00b0 Les enregistrements sont s\u00e9par\u00e9s par le caract\u00e8re de contr\u00f4le Retour chariot et/ou Fin de ligne ;<p></p><p></p>   2\u00b0 Ils peuvent \u00eatre de type mono ou multistructures ;<p></p><p></p>   3\u00b0 La longueur des enregistrements peut \u00eatre fixe ou variable, avec ou sans s\u00e9parateur de zone ;<p></p><p></p>   4\u00b0 Le caract\u00e8re s\u00e9parateur de zone \u00e9ventuellement utilis\u00e9 est unique et non \u00e9quivoque dans chaque fichier.<p></p><p></p>   II. - Chaque fichier remis est obligatoirement accompagn\u00e9 d'une description, qui pr\u00e9cise :<p></p><p></p>   1\u00b0 Le nom, la nature et la signification de chaque zone ;<p></p><p></p>   2\u00b0 La signification des codes utilis\u00e9s comme valeurs de zone ;<p></p><p></p>   3\u00b0 Toutes les informations techniques n\u00e9cessaires au traitement des fichiers, et notamment le jeu de caract\u00e8res utilis\u00e9, le type de structure, la longueur des enregistrements, les caract\u00e8res s\u00e9parateur de zone et s\u00e9parateur d'enregistrement.<p></p><p></p>   III. - Le codage des informations doit \u00eatre conforme aux sp\u00e9cifications suivantes :<p></p><p></p>   1\u00b0 Les caract\u00e8res utilis\u00e9s appartiennent \u00e0 l'un des jeux de caract\u00e8res ASCII, norme ISO 8859-15 ou EBCDIC ;<p></p><p></p>   2\u00b0 Les valeurs num\u00e9riques sont exprim\u00e9es en mode caract\u00e8re et en base d\u00e9cimale, cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros pour les zones de longueur fixe. Le signe est indiqu\u00e9 par le premier caract\u00e8re \u00e0 partir de la gauche. La virgule s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Aucun s\u00e9parateur de millier n'est accept\u00e9 ;<p></p><p></p>   3\u00b0 Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces ;<p></p><p></p>   4\u00b0 Les dates sont exprim\u00e9es au format AAAAMMJJ sans s\u00e9parateur. Les heures sont exprim\u00e9es au format HH:MM:SS.<p></p><p></p>   IV. - En accord avec le service v\u00e9rificateur, d'autres solutions d'\u00e9change peuvent \u00eatre retenues dans la mesure o\u00f9 elles sont de nature \u00e0 faciliter le traitement des donn\u00e9es transmises.<p></p><p></p>   V. - Les copies de fichiers sont remises sur des disques optiques de type CD ou DVD non r\u00e9inscriptibles, cl\u00f4tur\u00e9s de telle sorte qu'ils ne puissent plus recevoir de donn\u00e9es et utilisant le syst\u00e8me de fichiers UDF et/ou ISO 9660.<p></p><p></p>   En accord avec le service v\u00e9rificateur, d'autre supports pourront \u00eatre utilis\u00e9s.<p></p>",
+            "num": "A47 A-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1129593600000,
+            "dateFin": 1200009600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084349",
+                        "id": "LEGISCTA000006084349",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114546",
+                        "id": "LEGISCTA000006114546",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Le contr\u00f4le de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133956",
+                        "id": "LEGISCTA000006133956",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Le droit de contr\u00f4le de l'administration",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006147319",
+                        "id": "LEGISCTA000006147319",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1992-07-04",
+                        "fin": "2999-01-01",
+                        "titre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006163079",
+                        "id": "LEGISCTA000006163079",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "1938-06-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre des proc\u00e9dures fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069583",
+                        "id": "LEGITEXT000006069583",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006314891",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006163079",
+            "sectionParentId": "LEGISCTA000006163079",
+            "sectionParentTitre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s &gt; Titre II : Le contr\u00f4le de l'imp\u00f4t &gt; Chapitre premier : Le droit de contr\u00f4le de l'administration &gt; Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006314893",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069583",
+                    "titre": "Livre des proc\u00e9dures fiscales",
+                    "titreLong": "Livre des proc\u00e9dures fiscales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -996796800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069583",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "Arr\u00eat\u00e9 2005-10-11 art. 1 JORF 18 octobre 2005",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. A47 AA-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A47 AA-1",
+                    "articleId": "LEGIARTI000033978072",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1486166400000
+                },
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. L47 A (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L47 A",
+                    "articleId": "LEGIARTI000006315024",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 645408000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "",
+                    "textTitle": "Edition du 1er janvier 2006",
+                    "linkType": "HISTO",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006314891",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 710208000000,
+                    "dateFin": 860716800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314892",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 860716800000,
+                    "dateFin": 1129593600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314893",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1129593600000,
+                    "dateFin": 1200009600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000017962266",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1200009600000,
+                    "dateFin": 1207180800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018567134",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1207180800000,
+                    "dateFin": 1375401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027804775",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1375401600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A47 A-1",
+                "47",
+                "A47"
+            ],
+            "versionPrecedente": "LEGIARTI000006314892",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006314892",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "I. Les copies mentionn\u00e9es au quatri\u00e8me alin\u00e9a de l'article L. 47 A pr\u00e9sentent des fichiers \"\u00e0 plat\", \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e. II. Les entreprises peuvent choisir l'une des normes suivantes : 1. Fichiers EBCDIC ou ASCII, sur bandes magn\u00e9tiques de largeur 0,5 pouce, \u00e0 neuf pistes, de densit\u00e9 d'enregistrement 1 600-6250 BPI (densit\u00e9 des informations sur la bande), \u00e0 \u00e9tiquetage normalis\u00e9 et sans indicateur de s\u00e9quence de bloc. 2. Fichiers ASCII sur disquettes magn\u00e9tiques de format 3 1/2 pouces ou 5 1/4 pouces \u00e0 simple, double ou haute densit\u00e9 d'enregistrement, ou sur disques optiques compacts, format\u00e9s sous MS/DOS (syst\u00e8me d'exploitation). Les s\u00e9parateurs d'article et de champ sont respectivement les caract\u00e8res Line Feed et Shift Out repr\u00e9sent\u00e9s en ASCII sous la forme hexad\u00e9cimale (0A) 16 et (0E) 16. III. Le format des donn\u00e9es doit \u00eatre conforme aux sp\u00e9cifications suivantes : Les nombres entiers cod\u00e9s en num\u00e9rique binaire (compl\u00e9ment\u00e9s \u00e0 deux avec bit de signe) et les nombres r\u00e9els cod\u00e9s en virgule flottante sont convertis en code caract\u00e8re. Le point s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Les zones num\u00e9riques sont cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros. Elles sont sign\u00e9es (1er caract\u00e8re \u00e0 partir de la gauche) et non compact\u00e9es ; Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces. Seuls les caract\u00e8res alphab\u00e9tiques en majuscules peuvent \u00eatre utilis\u00e9s. Les caract\u00e8res minuscules ou accentu\u00e9s sont donc prohib\u00e9s ; Les dates sont exprim\u00e9es au format AAMMJJ sans s\u00e9parateur.",
+            "texteHtml": "<p></p>   I. Les copies mentionn\u00e9es au quatri\u00e8me alin\u00e9a de l'article L. 47 A pr\u00e9sentent des fichiers \"\u00e0 plat\", \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e.<p></p><p></p>   II. Les entreprises peuvent choisir l'une des normes suivantes :<p></p><p></p>   1. Fichiers EBCDIC ou ASCII, sur bandes magn\u00e9tiques de largeur 0,5 pouce, \u00e0 neuf pistes, de densit\u00e9 d'enregistrement 1 600-6250 BPI (densit\u00e9 des informations sur la bande), \u00e0 \u00e9tiquetage normalis\u00e9 et sans indicateur de s\u00e9quence de bloc.<p></p><p></p>   2. Fichiers ASCII sur disquettes magn\u00e9tiques de format 3 1/2 pouces ou 5 1/4 pouces \u00e0 simple, double ou haute densit\u00e9 d'enregistrement, ou sur disques optiques compacts, format\u00e9s sous MS/DOS (syst\u00e8me d'exploitation).<p></p><p></p>   Les s\u00e9parateurs d'article et de champ sont respectivement les caract\u00e8res Line Feed et Shift Out repr\u00e9sent\u00e9s en ASCII sous la forme hexad\u00e9cimale (0A) 16 et (0E) 16.<p></p><p></p>   III. Le format des donn\u00e9es doit \u00eatre conforme aux sp\u00e9cifications suivantes :<p></p><p></p>   Les nombres entiers cod\u00e9s en num\u00e9rique binaire (compl\u00e9ment\u00e9s \u00e0 deux avec bit de signe) et les nombres r\u00e9els cod\u00e9s en virgule flottante sont convertis en code caract\u00e8re. Le point s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Les zones num\u00e9riques sont cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros. Elles sont sign\u00e9es (1er caract\u00e8re \u00e0 partir de la gauche) et non compact\u00e9es ;<p></p><p></p>   Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces. Seuls les caract\u00e8res alphab\u00e9tiques en majuscules peuvent \u00eatre utilis\u00e9s. Les caract\u00e8res minuscules ou accentu\u00e9s sont donc prohib\u00e9s ;<p></p><p></p>   Les dates sont exprim\u00e9es au format AAMMJJ sans s\u00e9parateur.<p></p>",
+            "num": "A47 A-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 860716800000,
+            "dateFin": 1129593600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084349",
+                        "id": "LEGISCTA000006084349",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114546",
+                        "id": "LEGISCTA000006114546",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Le contr\u00f4le de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133956",
+                        "id": "LEGISCTA000006133956",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Le droit de contr\u00f4le de l'administration",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006147319",
+                        "id": "LEGISCTA000006147319",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1992-07-04",
+                        "fin": "2999-01-01",
+                        "titre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006163079",
+                        "id": "LEGISCTA000006163079",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "1938-06-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre des proc\u00e9dures fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069583",
+                        "id": "LEGITEXT000006069583",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006314891",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006163079",
+            "sectionParentId": "LEGISCTA000006163079",
+            "sectionParentTitre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s &gt; Titre II : Le contr\u00f4le de l'imp\u00f4t &gt; Chapitre premier : Le droit de contr\u00f4le de l'administration &gt; Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006314892",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069583",
+                    "titre": "Livre des proc\u00e9dures fiscales",
+                    "titreLong": "Livre des proc\u00e9dures fiscales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -996796800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069583",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "Arr\u00eat\u00e9 1996-12-31 art. 1 JORF 10 janvier 1997",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. A47 AA-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A47 AA-1",
+                    "articleId": "LEGIARTI000033978072",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1486166400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "",
+                    "textTitle": "Edition du 11 avril 1997",
+                    "linkType": "HISTO",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006314891",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 710208000000,
+                    "dateFin": 860716800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314892",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 860716800000,
+                    "dateFin": 1129593600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314893",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1129593600000,
+                    "dateFin": 1200009600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000017962266",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1200009600000,
+                    "dateFin": 1207180800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018567134",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1207180800000,
+                    "dateFin": 1375401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027804775",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1375401600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A47 A-1",
+                "47",
+                "A47"
+            ],
+            "versionPrecedente": "LEGIARTI000006314891",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006314891",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les copies mentionn\u00e9es au quatri\u00e8me alin\u00e9a de l'article L. 47 A pr\u00e9sentent des fichiers \"\u00e0 plat\", \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e. II. Les entreprises peuvent choisir l'une des normes suivantes : 1. Fichiers EBCDIC ou ASCII, sur bandes magn\u00e9tiques de largeur 0,5 pouce, \u00e0 neuf pistes, de densit\u00e9 d'enregistrement 1 600-6250 BPI (densit\u00e9 des informations sur la bande), \u00e0 \u00e9tiquetage normalis\u00e9 et sans indicateur de s\u00e9quence de bloc. 2. Fichiers ASCII sur disquettes magn\u00e9tiques de format 3 1/2 pouces ou 5 1/4 pouces \u00e0 simple, double ou haute densit\u00e9 d'enregistrement, format\u00e9es sous MS/DOS (syst\u00e8me d'exploitation). Les s\u00e9parateurs d'article et de champ sont respectivement les caract\u00e8res Line Feed et Shift Out repr\u00e9sent\u00e9s en ASCII sous la forme hexad\u00e9cimale (OA) 16 et (OE) 16. III. Le format des donn\u00e9es doit \u00eatre conforme aux sp\u00e9cifications suivantes : Les nombres entiers cod\u00e9s en num\u00e9rique binaire (compl\u00e9ment\u00e9s \u00e0 deux avec bit de signe) et les nombres r\u00e9els cod\u00e9s en virgule flottante sont convertis en code caract\u00e8re. Le point s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Les zones num\u00e9riques sont cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros. Elles sont sign\u00e9es (1er caract\u00e8re \u00e0 partir de la gauche) et non compact\u00e9es ; Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces. Seuls les caract\u00e8res alphab\u00e9tiques en majuscules peuvent \u00eatre utilis\u00e9s. Les caract\u00e8res minuscules ou accentu\u00e9s sont donc prohib\u00e9s ; Les dates sont exprim\u00e9es au format AAMMJJ sans s\u00e9parateur.",
+            "texteHtml": "<p></p>   Les copies mentionn\u00e9es au quatri\u00e8me alin\u00e9a de l'article L. 47 A pr\u00e9sentent des fichiers \"\u00e0 plat\", \u00e0 organisation s\u00e9quentielle et structure zon\u00e9e.<p></p><p></p>   II. Les entreprises peuvent choisir l'une des normes suivantes :<p></p><p></p>   1. Fichiers EBCDIC ou ASCII, sur bandes magn\u00e9tiques de largeur 0,5 pouce, \u00e0 neuf pistes, de densit\u00e9 d'enregistrement 1 600-6250 BPI (densit\u00e9 des informations sur la bande), \u00e0 \u00e9tiquetage normalis\u00e9 et sans indicateur de s\u00e9quence de bloc.<p></p><p></p>   2. Fichiers ASCII sur disquettes magn\u00e9tiques de format 3 1/2 pouces ou 5 1/4 pouces \u00e0 simple, double ou haute densit\u00e9 d'enregistrement, format\u00e9es sous MS/DOS (syst\u00e8me d'exploitation).<p></p><p></p>   Les s\u00e9parateurs d'article et de champ sont respectivement les caract\u00e8res Line Feed et Shift Out repr\u00e9sent\u00e9s en ASCII sous la forme hexad\u00e9cimale (OA) 16 et (OE) 16.<p></p><p></p>   III. Le format des donn\u00e9es doit \u00eatre conforme aux sp\u00e9cifications suivantes :<p></p><p></p>   Les nombres entiers cod\u00e9s en num\u00e9rique binaire (compl\u00e9ment\u00e9s \u00e0 deux avec bit de signe) et les nombres r\u00e9els cod\u00e9s en virgule flottante sont convertis en code caract\u00e8re. Le point s\u00e9pare la fraction enti\u00e8re de la partie d\u00e9cimale. Les zones num\u00e9riques sont cadr\u00e9es \u00e0 droite et compl\u00e9t\u00e9es \u00e0 gauche par des z\u00e9ros. Elles sont sign\u00e9es (1er caract\u00e8re \u00e0 partir de la gauche) et non compact\u00e9es ;<p></p><p></p>   Les zones alphanum\u00e9riques sont cadr\u00e9es \u00e0 gauche et compl\u00e9t\u00e9es \u00e0 droite par des espaces. Seuls les caract\u00e8res alphab\u00e9tiques en majuscules peuvent \u00eatre utilis\u00e9s. Les caract\u00e8res minuscules ou accentu\u00e9s sont donc prohib\u00e9s ;<p></p><p></p>   Les dates sont exprim\u00e9es au format AAMMJJ sans s\u00e9parateur.<p></p>",
+            "num": "A47 A-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 710208000000,
+            "dateFin": 860716800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084349",
+                        "id": "LEGISCTA000006084349",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114546",
+                        "id": "LEGISCTA000006114546",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Le contr\u00f4le de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133956",
+                        "id": "LEGISCTA000006133956",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1981-09-20",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Le droit de contr\u00f4le de l'administration",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006147319",
+                        "id": "LEGISCTA000006147319",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1992-07-04",
+                        "fin": "2999-01-01",
+                        "titre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006163079",
+                        "id": "LEGISCTA000006163079",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "1938-06-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre des proc\u00e9dures fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069583",
+                        "id": "LEGITEXT000006069583",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006314891",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006163079",
+            "sectionParentId": "LEGISCTA000006163079",
+            "sectionParentTitre": "Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Troisi\u00e8me partie : Partie r\u00e9glementaire, arr\u00eat\u00e9s &gt; Titre II : Le contr\u00f4le de l'imp\u00f4t &gt; Chapitre premier : Le droit de contr\u00f4le de l'administration &gt; Section III : Modalit\u00e9s d'exercice du droit de contr\u00f4le",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006314891",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069583",
+                    "titre": "Livre des proc\u00e9dures fiscales",
+                    "titreLong": "Livre des proc\u00e9dures fiscales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -996796800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069583",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "Arr\u00eat\u00e9 1991-09-13 art. 1, art. 2, art. 3 JORF 20 septembre 1991",
+                    "linkType": "CREATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Arr\u00eat\u00e9 1992-08-27",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069583",
+                    "textTitle": "Livre des proc\u00e9dures fiscales - art. A47 AA-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A47 AA-1",
+                    "articleId": "LEGIARTI000033978072",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1486166400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006314891",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 710208000000,
+                    "dateFin": 860716800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314892",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 860716800000,
+                    "dateFin": 1129593600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006314893",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1129593600000,
+                    "dateFin": 1200009600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000017962266",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1200009600000,
+                    "dateFin": 1207180800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018567134",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1207180800000,
+                    "dateFin": 1375401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027804775",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1375401600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A47 A-1",
+                "47",
+                "A47"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        }
+    ]
+}

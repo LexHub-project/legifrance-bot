@@ -1,0 +1,1006 @@
+{
+    "executionTime": 0,
+    "listArticle": [
+        {
+            "id": "LEGIARTI000027361349",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les syst\u00e8mes de t\u00e9l\u00e9transmission des factures utilis\u00e9s par les entreprises dans les conditions pr\u00e9vues par l'article 96 G de l'annexe III au code g\u00e9n\u00e9ral des imp\u00f4ts doivent respecter les sp\u00e9cifications suivantes : I. \u2013 Sont consid\u00e9r\u00e9s comme utilisateurs les entreprises, fournisseurs ou clients qui \u00e9mettent des factures t\u00e9l\u00e9transmises par eux-m\u00eames, ou par un tiers ou un client mandat\u00e9 \u00e0 cet effet, ou qui re\u00e7oivent des factures t\u00e9l\u00e9transmises, et ce quelle que soit la personne qui les a re\u00e7ues en son nom et pour son compte. II. \u2013 Le syst\u00e8me de t\u00e9l\u00e9transmission utilis\u00e9 doit assurer au minimum les fonctions suivantes : a) La v\u00e9rification en \u00e9mission et en r\u00e9ception de la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires devant figurer sur une facture ; b) La constitution quotidienne et l'archivage d'une liste r\u00e9capitulative s\u00e9quentielle et exhaustive des messages \u00e9mis et/ ou re\u00e7us et des anomalies \u00e9ventuelles d\u00e9tect\u00e9es lors des contr\u00f4les ; c) L'archivage des factures \u00e9mises et re\u00e7ues ; d) La restitution sur \u00e9cran ou tout support informatique, en langage clair, \u00e0 la demande de l'administration, de la facture et de la liste r\u00e9capitulative. e) L'accessibilit\u00e9 imm\u00e9diate aux donn\u00e9es d\u00e9mat\u00e9rialis\u00e9es en cas de demande de l'administration. III. \u2013 1. Les logiciels de t\u00e9l\u00e9transmission des factures peuvent mettre en oeuvre une ou plusieurs structures de messages et ne doivent ni les modifier ni les alt\u00e9rer. Le message doit comporter l'ensemble des mentions obligatoires constitutives d'une facture pr\u00e9vues par les textes l\u00e9gislatifs ou r\u00e9glementaires en vigueur. L'utilisation de codes stables d\u00e9signant, par exemple, des produits ou des personnes est possible si la codification est d\u00e9chiffr\u00e9e automatiquement \u00e0 l'aide d'une table de correspondance int\u00e9gr\u00e9e \u00e0 la fonction de restitution. 2. Les messages factures doivent \u00eatre restituables sur \u00e9cran, sur support informatique ou sur papier \u00e0 la demande de l'administration. La restitution porte sur l'int\u00e9gralit\u00e9 des informations \u00e9mises et re\u00e7ues, qu'elles soient obligatoires ou facultatives. La restitution doit pouvoir \u00eatre op\u00e9r\u00e9e de mani\u00e8re s\u00e9lective, notamment en fonction des informations que la liste r\u00e9capitulative doit comporter. Les donn\u00e9es sont restitu\u00e9es lisiblement en mode caract\u00e8res, en langage clair et intelligible. 3. Le syst\u00e8me doit contr\u00f4ler, en \u00e9mission et en r\u00e9ception, la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires. En phase d'\u00e9mission, en cas d'anomalie, le message rejet\u00e9 ne sera ni \u00e9mis, ni archiv\u00e9, ni trac\u00e9 sur la liste r\u00e9capitulative. En phase de r\u00e9ception, toute anomalie sera retrac\u00e9e dans la liste r\u00e9capitulative, et les messages concern\u00e9s seront archiv\u00e9s. IV. \u2013 1. La liste r\u00e9capitulative mentionn\u00e9e au III de l'article 96 G de l'annexe III au code g\u00e9n\u00e9ral des imp\u00f4ts est constitu\u00e9e sous forme informatique au fur et \u00e0 mesure lors de l'\u00e9mission ou de la r\u00e9ception de chaque message. Elle comprend au minimum les informations suivantes : a) Le num\u00e9ro et la date de la facture ; b) La date et l'heure de constitution du message ; c) Les montants hors taxes et toutes taxes de la transaction ainsi que le code monnaie lorsque la facture n'est pas libell\u00e9e en euros ; d) Les \u00e9l\u00e9ments d'identification de l'\u00e9metteur ou du r\u00e9cepteur donn\u00e9s par le syst\u00e8me de t\u00e9l\u00e9transmission (code, nom ou d\u00e9nomination sociale, num\u00e9ro SIRET, adresse, qualit\u00e9 de fournisseur ou de client) ; e) Les libell\u00e9s des \u00e9ventuelles anomalies intervenues lors de chaque transmission ; f) La version du logiciel utilis\u00e9. 2. Abrog\u00e9 V. \u2013 Les entreprises, fournisseurs et clients doivent constituer un fichier des partenaires avec lesquels elles \u00e9changent des factures par voie t\u00e9l\u00e9matique. Pour chaque partenaire, le fichier comporte les informations suivantes : a) La qualit\u00e9 d'\u00e9metteur et/ ou de r\u00e9cepteur ; b) L'archivage des factures d\u00e9mat\u00e9rialis\u00e9es ou l'archivage des factures papier ; c) La (les) date (s) d'entr\u00e9e en phase de d\u00e9mat\u00e9rialisation avec le partenaire, et, le cas \u00e9ch\u00e9ant, la (les) date (s) de sortie. VI. \u2013 1. Les messages factures \u00e9mis par l'entreprise, par un tiers ou un client mandat\u00e9 \u00e0 cet effet ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre accessibles et conserv\u00e9s dans leur forme et contenu originels et dans l'ordre chronologique de leur \u00e9mission. Les messages factures re\u00e7us, quelle que soit la personne qui les a re\u00e7us en son nom et pour son compte, ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre accessibles et conserv\u00e9s dans leur forme et contenu originels et dans l'ordre chronologique de leur r\u00e9ception. 2. Les fichiers informatiques dans lesquels sont conserv\u00e9s les messages factures, la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre aliment\u00e9s automatiquement par le syst\u00e8me de t\u00e9l\u00e9transmission des seules informations qui en sont directement issues. 3. La documentation relative aux conditions d'utilisation (guide utilisateur) du logiciel de t\u00e9l\u00e9transmission doit \u00eatre conserv\u00e9e par l'entreprise et consultable par les agents de l'administration sur le lieu de la d\u00e9mat\u00e9rialisation. En outre, l'entreprise doit prendre toutes dispositions pour garantir aux agents de l'administration l'acc\u00e8s \u00e0 la documentation informatique concernant notamment le d\u00e9veloppement de son architecture, de son analyse fonctionnelle et organique et l'exploitation du logiciel de t\u00e9l\u00e9transmission.",
+            "texteHtml": "<p>Les syst\u00e8mes de t\u00e9l\u00e9transmission des factures utilis\u00e9s par les entreprises dans les conditions pr\u00e9vues par l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069574&idArticle=LEGIARTI000006298744&dateTexte=&categorieLien=cid'>96 G de l'annexe III</a> au code g\u00e9n\u00e9ral des imp\u00f4ts doivent respecter les sp\u00e9cifications suivantes :</p><p>I. \u2013 Sont consid\u00e9r\u00e9s comme utilisateurs les entreprises, fournisseurs ou clients qui \u00e9mettent des factures t\u00e9l\u00e9transmises par eux-m\u00eames, ou par un tiers ou un client mandat\u00e9 \u00e0 cet effet, ou qui re\u00e7oivent des factures t\u00e9l\u00e9transmises, et ce quelle que soit la personne qui les a re\u00e7ues en son nom et pour son compte.</p><p>II. \u2013 Le syst\u00e8me de t\u00e9l\u00e9transmission utilis\u00e9 doit assurer au minimum les fonctions suivantes :</p><p>a) La v\u00e9rification en \u00e9mission et en r\u00e9ception de la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires devant figurer sur une facture ;</p><p>b) La constitution quotidienne et l'archivage d'une liste r\u00e9capitulative s\u00e9quentielle et exhaustive des messages \u00e9mis et/ ou re\u00e7us et des anomalies \u00e9ventuelles d\u00e9tect\u00e9es lors des contr\u00f4les ;</p><p>c) L'archivage des factures \u00e9mises et re\u00e7ues ;</p><p>d) La restitution sur \u00e9cran ou tout support informatique, en langage clair, \u00e0 la demande de l'administration, de la facture et de la liste r\u00e9capitulative.</p><p>e) L'accessibilit\u00e9 imm\u00e9diate aux donn\u00e9es d\u00e9mat\u00e9rialis\u00e9es en cas de demande de l'administration.</p><p>III. \u2013 1. Les logiciels de t\u00e9l\u00e9transmission des factures peuvent mettre en oeuvre une ou plusieurs structures de messages et ne doivent ni les modifier ni les alt\u00e9rer.</p><p>Le message doit comporter l'ensemble des mentions obligatoires constitutives d'une facture pr\u00e9vues par les textes l\u00e9gislatifs ou r\u00e9glementaires en vigueur.</p><p>L'utilisation de codes stables d\u00e9signant, par exemple, des produits ou des personnes est possible si la codification est d\u00e9chiffr\u00e9e automatiquement \u00e0 l'aide d'une table de correspondance int\u00e9gr\u00e9e \u00e0 la fonction de restitution.</p><p>2. Les messages factures doivent \u00eatre restituables sur \u00e9cran, sur support informatique ou sur papier \u00e0 la demande de l'administration. La restitution porte sur l'int\u00e9gralit\u00e9 des informations \u00e9mises et re\u00e7ues, qu'elles soient obligatoires ou facultatives.</p><p>La restitution doit pouvoir \u00eatre op\u00e9r\u00e9e de mani\u00e8re s\u00e9lective, notamment en fonction des informations que la liste r\u00e9capitulative doit comporter.</p><p>Les donn\u00e9es sont restitu\u00e9es lisiblement en mode caract\u00e8res, en langage clair et intelligible.</p><p>3. Le syst\u00e8me doit contr\u00f4ler, en \u00e9mission et en r\u00e9ception, la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires.</p><p>En phase d'\u00e9mission, en cas d'anomalie, le message rejet\u00e9 ne sera ni \u00e9mis, ni archiv\u00e9, ni trac\u00e9 sur la liste r\u00e9capitulative.</p><p>En phase de r\u00e9ception, toute anomalie sera retrac\u00e9e dans la liste r\u00e9capitulative, et les messages concern\u00e9s seront archiv\u00e9s.</p><p>IV. \u2013 1. La liste r\u00e9capitulative mentionn\u00e9e au III de l'article 96 G de l'annexe III au code g\u00e9n\u00e9ral des imp\u00f4ts est constitu\u00e9e sous forme informatique au fur et \u00e0 mesure lors de l'\u00e9mission ou de la r\u00e9ception de chaque message.</p><p>Elle comprend au minimum les informations suivantes :</p><p>a) Le num\u00e9ro et la date de la facture ;</p><p>b) La date et l'heure de constitution du message ;</p><p>c) Les montants hors taxes et toutes taxes de la transaction ainsi que le code monnaie lorsque la facture n'est pas libell\u00e9e en euros ;</p><p>d) Les \u00e9l\u00e9ments d'identification de l'\u00e9metteur ou du r\u00e9cepteur donn\u00e9s par le syst\u00e8me de t\u00e9l\u00e9transmission (code, nom ou d\u00e9nomination sociale, num\u00e9ro SIRET, adresse, qualit\u00e9 de fournisseur ou de client) ;</p><p>e) Les libell\u00e9s des \u00e9ventuelles anomalies intervenues lors de chaque transmission ;</p><p>f) La version du logiciel utilis\u00e9.</p><p>2. Abrog\u00e9</p><p>V. \u2013 Les entreprises, fournisseurs et clients doivent constituer un fichier des partenaires avec lesquels elles \u00e9changent des factures par voie t\u00e9l\u00e9matique.</p><p>Pour chaque partenaire, le fichier comporte les informations suivantes :</p><p>a) La qualit\u00e9 d'\u00e9metteur et/ ou de r\u00e9cepteur ;</p><p>b) L'archivage des factures d\u00e9mat\u00e9rialis\u00e9es ou l'archivage des factures papier ;</p><p>c) La (les) date (s) d'entr\u00e9e en phase de d\u00e9mat\u00e9rialisation avec le partenaire, et, le cas \u00e9ch\u00e9ant, la (les) date (s) de sortie.</p><p>VI. \u2013 1. Les messages factures \u00e9mis par l'entreprise, par un tiers ou un client mandat\u00e9 \u00e0 cet effet ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre accessibles et conserv\u00e9s dans leur forme et contenu originels et dans l'ordre chronologique de leur \u00e9mission.</p><p>Les messages factures re\u00e7us, quelle que soit la personne qui les a re\u00e7us en son nom et pour son compte, ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre accessibles et conserv\u00e9s dans leur forme et contenu originels et dans l'ordre chronologique de leur r\u00e9ception.</p><p>2. Les fichiers informatiques dans lesquels sont conserv\u00e9s les messages factures, la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre aliment\u00e9s automatiquement par le syst\u00e8me de t\u00e9l\u00e9transmission des seules informations qui en sont directement issues.</p><p>3. La documentation relative aux conditions d'utilisation (guide utilisateur) du logiciel de t\u00e9l\u00e9transmission doit \u00eatre conserv\u00e9e par l'entreprise et consultable par les agents de l'administration sur le lieu de la d\u00e9mat\u00e9rialisation.</p><p>En outre, l'entreprise doit prendre toutes dispositions pour garantir aux agents de l'administration l'acc\u00e8s \u00e0 la documentation informatique concernant notamment le d\u00e9veloppement de son architecture, de son analyse fonctionnelle et organique et l'exploitation du logiciel de t\u00e9l\u00e9transmission.</p>",
+            "num": "41 septies",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1367020800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1975-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Livre premier : Assiette et liquidation de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084212",
+                        "id": "LEGISCTA000006084212",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-03-11",
+                        "fin": "2999-01-01",
+                        "titre": "Premi\u00e8re partie : Imp\u00f4ts d'\u00c9tat",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114464",
+                        "id": "LEGISCTA000006114464",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Taxes sur le chiffre d'affaires et taxes assimil\u00e9es",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133784",
+                        "id": "LEGISCTA000006133784",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Taxe sur la valeur ajout\u00e9e",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146904",
+                        "id": "LEGISCTA000006146904",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section V : Obligations des redevables",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006162390",
+                        "id": "LEGISCTA000006162390",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "I : Obligations g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006179489",
+                        "id": "LEGISCTA000006179489",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-03-31",
+                        "fin": "2013-04-27",
+                        "titre": "D : Factures transmises par voie t\u00e9l\u00e9matique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006191501",
+                        "id": "LEGISCTA000006191501",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2013-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "D : Factures transmises par voie \u00e9lectronique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006191501",
+                        "id": "LEGISCTA000028683316",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 53,
+                "titreTxt": [
+                    {
+                        "debut": "1975-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069576",
+                        "id": "LEGITEXT000006069576",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006300385",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006191501",
+            "sectionParentId": "LEGISCTA000028683316",
+            "sectionParentTitre": "D : Factures transmises par voie \u00e9lectronique",
+            "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re partie : Imp\u00f4ts d'\u00c9tat &gt; Titre II : Taxes sur le chiffre d'affaires et taxes assimil\u00e9es &gt; Chapitre premier : Taxe sur la valeur ajout\u00e9e &gt; Section V : Obligations des redevables &gt; I : Obligations g\u00e9n\u00e9rales &gt; D : Factures transmises par voie \u00e9lectronique",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000027361349",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069576",
+                    "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV, CGIANIV.",
+                    "titreLong": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 189216000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069576",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000027357018",
+                    "textTitle": "Arr\u00eat\u00e9 du 25 avril 2013 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000027357673",
+                    "natureText": "ARRETE",
+                    "datePubliTexte": "2013-04-26",
+                    "dateSignaTexte": "2013-04-25",
+                    "dateDebutCible": "2013-04-27"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069574",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe III, CGIANIII. - art. 96 G",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "96 G",
+                    "articleId": "LEGIARTI000006298744",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 677721600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006300385",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 954460800000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006300386",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1017532800000,
+                    "dateFin": 1058659200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006300387",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1062288000000,
+                    "dateFin": 1367020800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027361349",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1367020800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "41 septies",
+                "41"
+            ],
+            "versionPrecedente": "LEGIARTI000006300387",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006300387",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les syst\u00e8mes de t\u00e9l\u00e9transmission des factures utilis\u00e9s par les entreprises dans les conditions pr\u00e9vues par l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts doivent respecter les sp\u00e9cifications suivantes : I. - Sont consid\u00e9r\u00e9s comme utilisateurs les entreprises, fournisseurs ou clients qui \u00e9mettent des factures t\u00e9l\u00e9transmises par eux-m\u00eames, ou par un tiers ou un client mandat\u00e9 \u00e0 cet effet, ou qui re\u00e7oivent des factures t\u00e9l\u00e9transmises, et ce quelle que soit la personne qui les a re\u00e7ues en son nom et pour son compte. II. - Le syst\u00e8me de t\u00e9l\u00e9transmission utilis\u00e9 doit assurer au minimum les fonctions suivantes : a) La v\u00e9rification en \u00e9mission et en r\u00e9ception de la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires devant figurer sur une facture ; b) La constitution quotidienne et l'archivage d'une liste r\u00e9capitulative s\u00e9quentielle et exhaustive des messages \u00e9mis et/ou re\u00e7us et des anomalies \u00e9ventuelles d\u00e9tect\u00e9es lors des contr\u00f4les ; c) L'archivage des factures \u00e9mises et re\u00e7ues ; d) La restitution sur papier ou sur \u00e9cran, en langage clair, \u00e0 la demande de l'administration, de la facture et de la liste r\u00e9capitulative. e) L'accessibilit\u00e9 imm\u00e9diate aux donn\u00e9es d\u00e9mat\u00e9rialis\u00e9es en cas de demande de l'administration. III. - 1. Les logiciels de t\u00e9l\u00e9transmission des factures peuvent mettre en oeuvre une ou plusieurs structures de messages et ne doivent ni les modifier ni les alt\u00e9rer. Le message doit comporter l'ensemble des mentions obligatoires constitutives d'une facture pr\u00e9vues par les textes l\u00e9gislatifs ou r\u00e9glementaires en vigueur. L'utilisation de codes stables d\u00e9signant, par exemple, des produits ou des personnes est possible si la codification est d\u00e9chiffr\u00e9e automatiquement \u00e0 l'aide d'une table de correspondance int\u00e9gr\u00e9e \u00e0 la fonction de restitution. 2. Les messages factures doivent \u00eatre restituables sur \u00e9cran, sur support informatique ou sur papier \u00e0 la demande de l'administration. La restitution porte sur l'int\u00e9gralit\u00e9 des informations \u00e9mises et re\u00e7ues, qu'elles soient obligatoires ou facultatives. La restitution doit pouvoir \u00eatre op\u00e9r\u00e9e de mani\u00e8re s\u00e9lective, notamment en fonction des informations que la liste r\u00e9capitulative doit comporter. Les donn\u00e9es sont restitu\u00e9es lisiblement en mode caract\u00e8res, en langage clair et intelligible. 3. Le syst\u00e8me doit contr\u00f4ler, en \u00e9mission et en r\u00e9ception, la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires. En phase d'\u00e9mission, en cas d'anomalie, le message rejet\u00e9 ne sera ni \u00e9mis, ni archiv\u00e9, ni trac\u00e9 sur la liste r\u00e9capitulative. En phase de r\u00e9ception, toute anomalie sera retrac\u00e9e dans la liste r\u00e9capitulative, et les messages concern\u00e9s seront archiv\u00e9s. IV. - 1. La liste r\u00e9capitulative mentionn\u00e9e au III de l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts est constitu\u00e9e au fur et \u00e0 mesure lors de l'\u00e9mission ou de la r\u00e9ception de chaque message. Elle comprend au minimum les informations suivantes : a) Le num\u00e9ro et la date de la facture ; b) La date et l'heure de constitution du message ; c) Les montants hors taxes et toutes taxes de la transaction ainsi que le code monnaie lorsque la facture n'est pas libell\u00e9e en euros ; d) Les \u00e9l\u00e9ments d'identification de l'\u00e9metteur ou du r\u00e9cepteur donn\u00e9s par le syst\u00e8me de t\u00e9l\u00e9transmission (code, nom ou d\u00e9nomination sociale, num\u00e9ro SIRET, adresse, qualit\u00e9 de fournisseur ou de client) ; e) Les libell\u00e9s des \u00e9ventuelles anomalies intervenues lors de chaque transmission ; f) La version du logiciel utilis\u00e9. 2. La liste r\u00e9capitulative est restituable sur papier, \u00e9cran ou support informatique. La restitution doit pouvoir \u00eatre effectu\u00e9e d'une fa\u00e7on s\u00e9lective en fonction des crit\u00e8res figurant dans la liste. V. - Les entreprises, fournisseurs et clients doivent constituer un fichier des partenaires avec lesquels elles \u00e9changent des factures par voie t\u00e9l\u00e9matique. Pour chaque partenaire, le fichier comporte les informations suivantes : a) La qualit\u00e9 d'\u00e9metteur et/ou de r\u00e9cepteur ; b) L'archivage des factures d\u00e9mat\u00e9rialis\u00e9es ou l'archivage des factures papier ; c) La (les) date(s) d'entr\u00e9e en phase de d\u00e9mat\u00e9rialisation avec le partenaire, et, le cas \u00e9ch\u00e9ant, la (les) date(s) de sortie. VI. - 1. Les messages factures \u00e9mis par l'entreprise, par un tiers ou un client mandat\u00e9 \u00e0 cet effet ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre accessibles et conserv\u00e9s dans leur contenu originel et dans l'ordre chronologique de leur \u00e9mission. Les messages factures re\u00e7us, quelle que soit la personne qui les a re\u00e7us en son nom et pour son compte, ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre accessibles et conserv\u00e9s dans leur contenu originel et dans l'ordre chronologique de leur r\u00e9ception. 2. Les fichiers informatiques dans lesquels sont conserv\u00e9s les messages factures, la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre aliment\u00e9s automatiquement par le syst\u00e8me de t\u00e9l\u00e9transmission des seules informations qui en sont directement issues. 3. La documentation relative aux conditions d'utilisation (guide utilisateur) du logiciel de t\u00e9l\u00e9transmission doit \u00eatre conserv\u00e9e par l'entreprise et consultable par les agents de l'administration sur le lieu de la d\u00e9mat\u00e9rialisation. En outre, l'entreprise doit prendre toutes dispositions pour garantir aux agents de l'administration l'acc\u00e8s \u00e0 la documentation informatique concernant notamment le d\u00e9veloppement de son architecture, de son analyse fonctionnelle et organique et l'exploitation du logiciel de t\u00e9l\u00e9transmission.",
+            "texteHtml": "<p></p>   Les syst\u00e8mes de t\u00e9l\u00e9transmission des factures utilis\u00e9s par les entreprises dans les conditions pr\u00e9vues par l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts doivent respecter les sp\u00e9cifications suivantes :<p></p><p></p><p></p>   I. - Sont consid\u00e9r\u00e9s comme utilisateurs les entreprises, fournisseurs ou clients qui \u00e9mettent des factures t\u00e9l\u00e9transmises par eux-m\u00eames, ou par un tiers ou un client mandat\u00e9 \u00e0 cet effet, ou qui re\u00e7oivent des factures t\u00e9l\u00e9transmises, et ce quelle que soit la personne qui les a re\u00e7ues en son nom et pour son compte.<p></p><p></p><p></p>   II. - Le syst\u00e8me de t\u00e9l\u00e9transmission utilis\u00e9 doit assurer au minimum les fonctions suivantes :<p></p><p></p>   a) La v\u00e9rification en \u00e9mission et en r\u00e9ception de la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires devant figurer sur une facture ;<p></p><p></p>   b) La constitution quotidienne et l'archivage d'une liste r\u00e9capitulative s\u00e9quentielle et exhaustive des messages \u00e9mis et/ou re\u00e7us et des anomalies \u00e9ventuelles d\u00e9tect\u00e9es lors des contr\u00f4les ;<p></p><p></p>   c) L'archivage des factures \u00e9mises et re\u00e7ues ;<p></p><p></p>   d) La restitution sur papier ou sur \u00e9cran, en langage clair, \u00e0 la demande de l'administration, de la facture et de la liste r\u00e9capitulative.<p></p><p></p>   e) L'accessibilit\u00e9 imm\u00e9diate aux donn\u00e9es d\u00e9mat\u00e9rialis\u00e9es en cas de demande de l'administration.<p></p><p></p>   III. - 1. Les logiciels de t\u00e9l\u00e9transmission des factures peuvent mettre en oeuvre une ou plusieurs structures de messages et ne doivent ni les modifier ni les alt\u00e9rer.<p></p><p></p>   Le message doit comporter l'ensemble des mentions obligatoires constitutives d'une facture pr\u00e9vues par les textes l\u00e9gislatifs ou r\u00e9glementaires en vigueur.<p></p><p></p>   L'utilisation de codes stables d\u00e9signant, par exemple, des produits ou des personnes est possible si la codification est d\u00e9chiffr\u00e9e automatiquement \u00e0 l'aide d'une table de correspondance int\u00e9gr\u00e9e \u00e0 la fonction de restitution.<p></p><p></p>   2. Les messages factures doivent \u00eatre restituables sur \u00e9cran, sur support informatique ou sur papier \u00e0 la demande de l'administration. La restitution porte sur l'int\u00e9gralit\u00e9 des informations \u00e9mises et re\u00e7ues, qu'elles soient obligatoires ou facultatives.<p></p><p></p>   La restitution doit pouvoir \u00eatre op\u00e9r\u00e9e de mani\u00e8re s\u00e9lective, notamment en fonction des informations que la liste r\u00e9capitulative doit comporter.<p></p><p></p>   Les donn\u00e9es sont restitu\u00e9es lisiblement en mode caract\u00e8res, en langage clair et intelligible.<p></p><p></p>   3. Le syst\u00e8me doit contr\u00f4ler, en \u00e9mission et en r\u00e9ception, la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires.<p></p><p></p>   En phase d'\u00e9mission, en cas d'anomalie, le message rejet\u00e9 ne sera ni \u00e9mis, ni archiv\u00e9, ni trac\u00e9 sur la liste r\u00e9capitulative.<p></p><p></p>   En phase de r\u00e9ception, toute anomalie sera retrac\u00e9e dans la liste r\u00e9capitulative, et les messages concern\u00e9s seront archiv\u00e9s.<p></p><p></p>   IV. - 1. La liste r\u00e9capitulative mentionn\u00e9e au III de l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts est constitu\u00e9e au fur et \u00e0 mesure lors de l'\u00e9mission ou de la r\u00e9ception de chaque message.<p></p><p></p>   Elle comprend au minimum les informations suivantes :<p></p><p></p>   a) Le num\u00e9ro et la date de la facture ;<p></p><p></p>   b) La date et l'heure de constitution du message ;<p></p><p></p>   c) Les montants hors taxes et toutes taxes de la transaction ainsi que le code monnaie lorsque la facture n'est pas libell\u00e9e en euros ;<p></p><p></p>   d) Les \u00e9l\u00e9ments d'identification de l'\u00e9metteur ou du r\u00e9cepteur donn\u00e9s par le syst\u00e8me de t\u00e9l\u00e9transmission (code, nom ou d\u00e9nomination sociale, num\u00e9ro SIRET, adresse, qualit\u00e9 de fournisseur ou de client) ;<p></p><p></p>   e) Les libell\u00e9s des \u00e9ventuelles anomalies intervenues lors de chaque transmission ;<p></p><p></p>   f) La version du logiciel utilis\u00e9.<p></p><p></p>   2. La liste r\u00e9capitulative est restituable sur papier, \u00e9cran ou support informatique. La restitution doit pouvoir \u00eatre effectu\u00e9e d'une fa\u00e7on s\u00e9lective en fonction des crit\u00e8res figurant dans la liste.<p></p><p></p>   V. - Les entreprises, fournisseurs et clients doivent constituer un fichier des partenaires avec lesquels elles \u00e9changent des factures par voie t\u00e9l\u00e9matique.<p></p><p></p>   Pour chaque partenaire, le fichier comporte les informations suivantes :<p></p><p></p>   a) La qualit\u00e9 d'\u00e9metteur et/ou de r\u00e9cepteur ;<p></p><p></p>   b) L'archivage des factures d\u00e9mat\u00e9rialis\u00e9es ou l'archivage des factures papier ;<p></p><p></p>   c) La (les) date(s) d'entr\u00e9e en phase de d\u00e9mat\u00e9rialisation avec le partenaire, et, le cas \u00e9ch\u00e9ant, la (les) date(s) de sortie.<p></p><p></p>   VI. - 1. Les messages factures \u00e9mis par l'entreprise, par un tiers ou un client mandat\u00e9 \u00e0 cet effet ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre accessibles et conserv\u00e9s dans leur contenu originel et dans l'ordre chronologique de leur \u00e9mission.<p></p><p></p>   Les messages factures re\u00e7us, quelle que soit la personne qui les a re\u00e7us en son nom et pour son compte, ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre accessibles et conserv\u00e9s dans leur contenu originel et dans l'ordre chronologique de leur r\u00e9ception.<p></p><p></p>   2. Les fichiers informatiques dans lesquels sont conserv\u00e9s les messages factures, la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre aliment\u00e9s automatiquement par le syst\u00e8me de t\u00e9l\u00e9transmission des seules informations qui en sont directement issues.<p></p><p></p>   3. La documentation relative aux conditions d'utilisation (guide utilisateur) du logiciel de t\u00e9l\u00e9transmission doit \u00eatre conserv\u00e9e par l'entreprise et consultable par les agents de l'administration sur le lieu de la d\u00e9mat\u00e9rialisation.<p></p><p></p>   En outre, l'entreprise doit prendre toutes dispositions pour garantir aux agents de l'administration l'acc\u00e8s \u00e0 la documentation informatique concernant notamment le d\u00e9veloppement de son architecture, de son analyse fonctionnelle et organique et l'exploitation du logiciel de t\u00e9l\u00e9transmission.<p></p>",
+            "num": "41 septies",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1062288000000,
+            "dateFin": 1367020800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1975-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Livre premier : Assiette et liquidation de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084212",
+                        "id": "LEGISCTA000006084212",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-03-11",
+                        "fin": "2999-01-01",
+                        "titre": "Premi\u00e8re partie : Imp\u00f4ts d'\u00c9tat",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114464",
+                        "id": "LEGISCTA000006114464",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Taxes sur le chiffre d'affaires et taxes assimil\u00e9es",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133784",
+                        "id": "LEGISCTA000006133784",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Taxe sur la valeur ajout\u00e9e",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146904",
+                        "id": "LEGISCTA000006146904",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section V : Obligations des redevables",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006162390",
+                        "id": "LEGISCTA000006162390",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "I : Obligations g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006179489",
+                        "id": "LEGISCTA000006179489",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-03-31",
+                        "fin": "2013-04-27",
+                        "titre": "D : Factures transmises par voie t\u00e9l\u00e9matique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006191501",
+                        "id": "LEGISCTA000006191501",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2013-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "D : Factures transmises par voie \u00e9lectronique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006191501",
+                        "id": "LEGISCTA000028683316",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 53,
+                "titreTxt": [
+                    {
+                        "debut": "1975-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069576",
+                        "id": "LEGITEXT000006069576",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006300385",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006191501",
+            "sectionParentId": "LEGISCTA000028683316",
+            "sectionParentTitre": "D : Factures transmises par voie \u00e9lectronique",
+            "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re partie : Imp\u00f4ts d'\u00c9tat &gt; Titre II : Taxes sur le chiffre d'affaires et taxes assimil\u00e9es &gt; Chapitre premier : Taxe sur la valeur ajout\u00e9e &gt; Section V : Obligations des redevables &gt; I : Obligations g\u00e9n\u00e9rales &gt; D : Factures transmises par voie \u00e9lectronique",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006300387",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069576",
+                    "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV, CGIANIV.",
+                    "titreLong": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 189216000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069576",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "Arr\u00eat\u00e9 2003-07-18 art. 1 JORF 20 juillet 2003",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "",
+                    "textTitle": "CGI 289 bis",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "",
+                    "textTitle": "Edition du 31 ao\u00fbt 2003",
+                    "linkType": "HISTO",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006300385",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 954460800000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006300386",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1017532800000,
+                    "dateFin": 1058659200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006300387",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1062288000000,
+                    "dateFin": 1367020800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027361349",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1367020800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "41 septies",
+                "41"
+            ],
+            "versionPrecedente": "LEGIARTI000006300386",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006300386",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les syst\u00e8mes de t\u00e9l\u00e9transmission des factures utilis\u00e9s par les entreprises dans les conditions pr\u00e9vues par l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts doivent respecter les sp\u00e9cifications suivantes : I. - Sont consid\u00e9r\u00e9s comme utilisateurs les entreprises, fournisseurs ou clients, qui \u00e9mettent ou re\u00e7oivent des factures t\u00e9l\u00e9transmises. Les interm\u00e9diaires qui interviennent \u00e9ventuellement dans la transmission des messages ne sont pas consid\u00e9r\u00e9s comme des utilisateurs. Ils ne doivent pas intervenir dans la constitution du message et ne doivent ni le modifier ni l'alt\u00e9rer. II. - Le syst\u00e8me de t\u00e9l\u00e9transmission utilis\u00e9 doit assurer au minimum les fonctions suivantes : a) La v\u00e9rification en \u00e9mission et en r\u00e9ception de la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires devant figurer sur une facture ; b) La constitution quotidienne et l'archivage d'une liste r\u00e9capitulative s\u00e9quentielle et exhaustive des messages \u00e9mis et/ou re\u00e7us et des anomalies \u00e9ventuelles d\u00e9tect\u00e9es lors des contr\u00f4les ; c) L'archivage des factures \u00e9mises et re\u00e7ues ; d) La restitution sur papier ou sur \u00e9cran, en langage clair, \u00e0 la demande de l'administration, de la facture et de la liste r\u00e9capitulative. III. - 1. Les logiciels de t\u00e9l\u00e9transmission des factures peuvent mettre en oeuvre une ou plusieurs structures de messages et ne doivent ni les modifier ni les alt\u00e9rer. Le message doit comporter l'ensemble des mentions obligatoires constitutives d'une facture pr\u00e9vues par les textes l\u00e9gislatifs ou r\u00e9glementaires en vigueur. L'utilisation de codes stables d\u00e9signant, par exemple, des produits ou des personnes est possible si la codification est d\u00e9chiffr\u00e9e automatiquement \u00e0 l'aide d'une table de correspondance int\u00e9gr\u00e9e \u00e0 la fonction de restitution. 2. Les messages factures doivent \u00eatre restituables sur \u00e9cran, sur support informatique ou sur papier \u00e0 la demande de l'administration. La restitution porte sur l'int\u00e9gralit\u00e9 des informations \u00e9mises et re\u00e7ues, qu'elles soient obligatoires ou facultatives. La restitution doit pouvoir \u00eatre op\u00e9r\u00e9e de mani\u00e8re s\u00e9lective, notamment en fonction des informations que la liste r\u00e9capitulative doit comporter. Les donn\u00e9es sont restitu\u00e9es lisiblement en mode caract\u00e8res, en langage clair et intelligible. 3. Le syst\u00e8me doit contr\u00f4ler, en \u00e9mission et en r\u00e9ception, la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires. En phase d'\u00e9mission, en cas d'anomalie, le message rejet\u00e9 ne sera ni \u00e9mis, ni archiv\u00e9, ni trac\u00e9 sur la liste r\u00e9capitulative. En phase de r\u00e9ception, toute anomalie sera retrac\u00e9e dans la liste r\u00e9capitulative, et les messages concern\u00e9s seront archiv\u00e9s. IV. - 1. La liste r\u00e9capitulative mentionn\u00e9e au III de l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts est constitu\u00e9e au fur et \u00e0 mesure lors de l'\u00e9mission ou de la r\u00e9ception de chaque message. Elle comprend au minimum les informations suivantes : a) Le num\u00e9ro et la date de la facture ; b) La date et l'heure de constitution du message ; c) Les montants hors taxes et toutes taxes de la transaction ainsi que le code monnaie lorsque la facture n'est pas libell\u00e9e en euros ; d) Les \u00e9l\u00e9ments d'identification de l'\u00e9metteur ou du r\u00e9cepteur donn\u00e9s par le syst\u00e8me de t\u00e9l\u00e9transmission (code, nom ou d\u00e9nomination sociale, num\u00e9ro SIRET, adresse, qualit\u00e9 de fournisseur ou de client) ; e) Les libell\u00e9s des \u00e9ventuelles anomalies intervenues lors de chaque transmission ; f) La version du logiciel utilis\u00e9. 2. La liste r\u00e9capitulative est restituable sur papier, \u00e9cran ou support informatique. La restitution doit pouvoir \u00eatre effectu\u00e9e d'une fa\u00e7on s\u00e9lective en fonction des crit\u00e8res figurant dans la liste. V. - Les entreprises, fournisseurs et clients doivent constituer un fichier des partenaires avec lesquels elles \u00e9changent des factures par voie t\u00e9l\u00e9matique. Pour chaque partenaire, le fichier comporte les informations suivantes : a) La qualit\u00e9 d'\u00e9metteur et/ou de r\u00e9cepteur ; b) L'archivage des factures d\u00e9mat\u00e9rialis\u00e9es ou l'archivage des factures papier ; c) La (les) date(s) d'entr\u00e9e en phase de d\u00e9mat\u00e9rialisation avec le partenaire, et, le cas \u00e9ch\u00e9ant, la (les) date(s) de sortie. VI. - 1. Les messages factures \u00e9mis et re\u00e7us ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre conserv\u00e9s dans l'ordre chronologique d'\u00e9mission et de r\u00e9ception. 2. Les fichiers informatiques dans lesquels sont conserv\u00e9s les messages factures, la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre aliment\u00e9s automatiquement par le syst\u00e8me de t\u00e9l\u00e9transmission des seules informations qui en sont directement issues. 3. La documentation relative aux conditions d'utilisation (guide utilisateur) du logiciel de t\u00e9l\u00e9transmission doit \u00eatre conserv\u00e9e par l'entreprise et consultable par les agents de l'administration sur le lieu de la d\u00e9mat\u00e9rialisation. En outre, l'entreprise doit prendre toutes dispositions pour garantir aux agents de l'administration l'acc\u00e8s \u00e0 la documentation informatique concernant notamment le d\u00e9veloppement de son architecture, de son analyse fonctionnelle et organique et l'exploitation du logiciel de t\u00e9l\u00e9transmission.",
+            "texteHtml": "<p></p>   Les syst\u00e8mes de t\u00e9l\u00e9transmission des factures utilis\u00e9s par les entreprises dans les conditions pr\u00e9vues par l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts doivent respecter les sp\u00e9cifications suivantes :<p></p><p></p><p></p>   I. - Sont consid\u00e9r\u00e9s comme utilisateurs les entreprises, fournisseurs ou clients, qui \u00e9mettent ou re\u00e7oivent des factures t\u00e9l\u00e9transmises.<p></p><p></p>   Les interm\u00e9diaires qui interviennent \u00e9ventuellement dans la transmission des messages ne sont pas consid\u00e9r\u00e9s comme des utilisateurs. Ils ne doivent pas intervenir dans la constitution du message et ne doivent ni le modifier ni l'alt\u00e9rer.<p></p><p></p>   II. - Le syst\u00e8me de t\u00e9l\u00e9transmission utilis\u00e9 doit assurer au minimum les fonctions suivantes :<p></p><p></p>   a) La v\u00e9rification en \u00e9mission et en r\u00e9ception de la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires devant figurer sur une facture ;<p></p><p></p>   b) La constitution quotidienne et l'archivage d'une liste r\u00e9capitulative s\u00e9quentielle et exhaustive des messages \u00e9mis et/ou re\u00e7us et des anomalies \u00e9ventuelles d\u00e9tect\u00e9es lors des contr\u00f4les ;<p></p><p></p>   c) L'archivage des factures \u00e9mises et re\u00e7ues ;<p></p><p></p>   d) La restitution sur papier ou sur \u00e9cran, en langage clair, \u00e0 la demande de l'administration, de la facture et de la liste r\u00e9capitulative.<p></p><p></p>   III. - 1. Les logiciels de t\u00e9l\u00e9transmission des factures peuvent mettre en oeuvre une ou plusieurs structures de messages et ne doivent ni les modifier ni les alt\u00e9rer.<p></p><p></p>   Le message doit comporter l'ensemble des mentions obligatoires constitutives d'une facture pr\u00e9vues par les textes l\u00e9gislatifs ou r\u00e9glementaires en vigueur.<p></p><p></p>   L'utilisation de codes stables d\u00e9signant, par exemple, des produits ou des personnes est possible si la codification est d\u00e9chiffr\u00e9e automatiquement \u00e0 l'aide d'une table de correspondance int\u00e9gr\u00e9e \u00e0 la fonction de restitution.<p></p><p></p>   2. Les messages factures doivent \u00eatre restituables sur \u00e9cran, sur support informatique ou sur papier \u00e0 la demande de l'administration. La restitution porte sur l'int\u00e9gralit\u00e9 des informations \u00e9mises et re\u00e7ues, qu'elles soient obligatoires ou facultatives.<p></p><p></p>   La restitution doit pouvoir \u00eatre op\u00e9r\u00e9e de mani\u00e8re s\u00e9lective, notamment en fonction des informations que la liste r\u00e9capitulative doit comporter.<p></p><p></p>   Les donn\u00e9es sont restitu\u00e9es lisiblement en mode caract\u00e8res, en langage clair et intelligible.<p></p><p></p>   3. Le syst\u00e8me doit contr\u00f4ler, en \u00e9mission et en r\u00e9ception, la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires.<p></p><p></p>   En phase d'\u00e9mission, en cas d'anomalie, le message rejet\u00e9 ne sera ni \u00e9mis, ni archiv\u00e9, ni trac\u00e9 sur la liste r\u00e9capitulative.<p></p><p></p>   En phase de r\u00e9ception, toute anomalie sera retrac\u00e9e dans la liste r\u00e9capitulative, et les messages concern\u00e9s seront archiv\u00e9s.<p></p><p></p>   IV. - 1. La liste r\u00e9capitulative mentionn\u00e9e au III de l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts est constitu\u00e9e au fur et \u00e0 mesure lors de l'\u00e9mission ou de la r\u00e9ception de chaque message.<p></p><p></p>   Elle comprend au minimum les informations suivantes :<p></p><p></p>   a) Le num\u00e9ro et la date de la facture ;<p></p><p></p>   b) La date et l'heure de constitution du message ;<p></p><p></p>   c) Les montants hors taxes et toutes taxes de la transaction ainsi que le code monnaie lorsque la facture n'est pas libell\u00e9e en euros ;<p></p><p></p>   d) Les \u00e9l\u00e9ments d'identification de l'\u00e9metteur ou du r\u00e9cepteur donn\u00e9s par le syst\u00e8me de t\u00e9l\u00e9transmission (code, nom ou d\u00e9nomination sociale, num\u00e9ro SIRET, adresse, qualit\u00e9 de fournisseur ou de client) ;<p></p><p></p>   e) Les libell\u00e9s des \u00e9ventuelles anomalies intervenues lors de chaque transmission ;<p></p><p></p>   f) La version du logiciel utilis\u00e9.<p></p><p></p>   2. La liste r\u00e9capitulative est restituable sur papier, \u00e9cran ou support informatique. La restitution doit pouvoir \u00eatre effectu\u00e9e d'une fa\u00e7on s\u00e9lective en fonction des crit\u00e8res figurant dans la liste.<p></p><p></p>   V. - Les entreprises, fournisseurs et clients doivent constituer un fichier des partenaires avec lesquels elles \u00e9changent des factures par voie t\u00e9l\u00e9matique.<p></p><p></p>   Pour chaque partenaire, le fichier comporte les informations suivantes :<p></p><p></p>   a) La qualit\u00e9 d'\u00e9metteur et/ou de r\u00e9cepteur ;<p></p><p></p>   b) L'archivage des factures d\u00e9mat\u00e9rialis\u00e9es ou l'archivage des factures papier ;<p></p><p></p>   c) La (les) date(s) d'entr\u00e9e en phase de d\u00e9mat\u00e9rialisation avec le partenaire, et, le cas \u00e9ch\u00e9ant, la (les) date(s) de sortie.<p></p><p></p>   VI. - 1. Les messages factures \u00e9mis et re\u00e7us ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre conserv\u00e9s dans l'ordre chronologique d'\u00e9mission et de r\u00e9ception.<p></p><p></p>   2. Les fichiers informatiques dans lesquels sont conserv\u00e9s les messages factures, la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre aliment\u00e9s automatiquement par le syst\u00e8me de t\u00e9l\u00e9transmission des seules informations qui en sont directement issues.<p></p><p></p>   3. La documentation relative aux conditions d'utilisation (guide utilisateur) du logiciel de t\u00e9l\u00e9transmission doit \u00eatre conserv\u00e9e par l'entreprise et consultable par les agents de l'administration sur le lieu de la d\u00e9mat\u00e9rialisation.<p></p><p></p>   En outre, l'entreprise doit prendre toutes dispositions pour garantir aux agents de l'administration l'acc\u00e8s \u00e0 la documentation informatique concernant notamment le d\u00e9veloppement de son architecture, de son analyse fonctionnelle et organique et l'exploitation du logiciel de t\u00e9l\u00e9transmission.<p></p>",
+            "num": "41 septies",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1017532800000,
+            "dateFin": 1058659200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1975-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Livre premier : Assiette et liquidation de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084212",
+                        "id": "LEGISCTA000006084212",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-03-11",
+                        "fin": "2999-01-01",
+                        "titre": "Premi\u00e8re partie : Imp\u00f4ts d'\u00c9tat",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114464",
+                        "id": "LEGISCTA000006114464",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Taxes sur le chiffre d'affaires et taxes assimil\u00e9es",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133784",
+                        "id": "LEGISCTA000006133784",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Taxe sur la valeur ajout\u00e9e",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146904",
+                        "id": "LEGISCTA000006146904",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section V : Obligations des redevables",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006162390",
+                        "id": "LEGISCTA000006162390",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "I : Obligations g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006179489",
+                        "id": "LEGISCTA000006179489",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-03-31",
+                        "fin": "2013-04-27",
+                        "titre": "D : Factures transmises par voie t\u00e9l\u00e9matique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006191501",
+                        "id": "LEGISCTA000006191501",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2013-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "D : Factures transmises par voie \u00e9lectronique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006191501",
+                        "id": "LEGISCTA000028683316",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 53,
+                "titreTxt": [
+                    {
+                        "debut": "1975-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069576",
+                        "id": "LEGITEXT000006069576",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006300385",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006191501",
+            "sectionParentId": "LEGISCTA000028683316",
+            "sectionParentTitre": "D : Factures transmises par voie \u00e9lectronique",
+            "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re partie : Imp\u00f4ts d'\u00c9tat &gt; Titre II : Taxes sur le chiffre d'affaires et taxes assimil\u00e9es &gt; Chapitre premier : Taxe sur la valeur ajout\u00e9e &gt; Section V : Obligations des redevables &gt; I : Obligations g\u00e9n\u00e9rales &gt; D : Factures transmises par voie t\u00e9l\u00e9matique",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006300386",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069576",
+                    "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV, CGIANIV.",
+                    "titreLong": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 189216000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069576",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "Arr\u00eat\u00e9 2001-09-03 art. 2 II JORF 11 septembre 2001 en vigueur le 1er janvier 2002",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "",
+                    "textTitle": "CGI 289 bis",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "",
+                    "textTitle": "Arr\u00eat\u00e9 2001-09-03 art. 8",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Edition du 31 mars 2002",
+                    "linkType": "HISTO",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Instruction 1999-07-12 3E-1-99",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006300385",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 954460800000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006300386",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1017532800000,
+                    "dateFin": 1058659200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006300387",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1062288000000,
+                    "dateFin": 1367020800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027361349",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1367020800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "41 septies",
+                "41"
+            ],
+            "versionPrecedente": "LEGIARTI000006300385",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006300385",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les syst\u00e8mes de t\u00e9l\u00e9transmission des factures utilis\u00e9s par les entreprises dans les conditions pr\u00e9vues par l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts doivent respecter les sp\u00e9cifications suivantes : I. - Sont consid\u00e9r\u00e9s comme utilisateurs les entreprises, fournisseurs ou clients, qui \u00e9mettent ou re\u00e7oivent des factures t\u00e9l\u00e9transmises. Les interm\u00e9diaires qui interviennent \u00e9ventuellement dans la transmission des messages ne sont pas consid\u00e9r\u00e9s comme des utilisateurs. Ils ne doivent pas intervenir dans la constitution du message et ne doivent ni le modifier ni l'alt\u00e9rer. II. - Le syst\u00e8me de t\u00e9l\u00e9transmission utilis\u00e9 doit assurer au minimum les fonctions suivantes : a) La v\u00e9rification en \u00e9mission et en r\u00e9ception de la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires devant figurer sur une facture ; b) La constitution quotidienne et l'archivage d'une liste r\u00e9capitulative s\u00e9quentielle et exhaustive des messages \u00e9mis et/ou re\u00e7us et des anomalies \u00e9ventuelles d\u00e9tect\u00e9es lors des contr\u00f4les ; c) L'archivage des factures \u00e9mises et re\u00e7ues ; d) La restitution sur papier ou sur \u00e9cran, en langage clair, \u00e0 la demande de l'administration, de la facture et de la liste r\u00e9capitulative. III. - 1. Les logiciels de t\u00e9l\u00e9transmission des factures peuvent mettre en oeuvre une ou plusieurs structures de messages et ne doivent ni les modifier ni les alt\u00e9rer. Le message doit comporter l'ensemble des mentions obligatoires constitutives d'une facture pr\u00e9vues par les textes l\u00e9gislatifs ou r\u00e9glementaires en vigueur. L'utilisation de codes stables d\u00e9signant, par exemple, des produits ou des personnes est possible si la codification est d\u00e9chiffr\u00e9e automatiquement \u00e0 l'aide d'une table de correspondance int\u00e9gr\u00e9e \u00e0 la fonction de restitution. 2. Les messages factures doivent \u00eatre restituables sur \u00e9cran, sur support informatique ou sur papier \u00e0 la demande de l'administration. La restitution porte sur l'int\u00e9gralit\u00e9 des informations \u00e9mises et re\u00e7ues, qu'elles soient obligatoires ou facultatives. La restitution doit pouvoir \u00eatre op\u00e9r\u00e9e de mani\u00e8re s\u00e9lective, notamment en fonction des informations que la liste r\u00e9capitulative doit comporter. Les donn\u00e9es sont restitu\u00e9es lisiblement en mode caract\u00e8res, en langage clair et intelligible. 3. Le syst\u00e8me doit contr\u00f4ler, en \u00e9mission et en r\u00e9ception, la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires. En phase d'\u00e9mission, en cas d'anomalie, le message rejet\u00e9 ne sera ni \u00e9mis, ni archiv\u00e9, ni trac\u00e9 sur la liste r\u00e9capitulative. En phase de r\u00e9ception, toute anomalie sera retrac\u00e9e dans la liste r\u00e9capitulative, et les messages concern\u00e9s seront archiv\u00e9s. IV. - 1. La liste r\u00e9capitulative mentionn\u00e9e au III de l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts est constitu\u00e9e au fur et \u00e0 mesure lors de l'\u00e9mission ou de la r\u00e9ception de chaque message. Elle comprend au minimum les informations suivantes : a) Le num\u00e9ro et la date de la facture ; b) La date et l'heure de constitution du message ; c) Les montants hors taxes et toutes taxes de la transaction ainsi que le code monnaie lorsque la facture n'est pas libell\u00e9e en francs fran\u00e7ais ; d) Les \u00e9l\u00e9ments d'identification de l'\u00e9metteur ou du r\u00e9cepteur donn\u00e9s par le syst\u00e8me de t\u00e9l\u00e9transmission (code, nom ou d\u00e9nomination sociale, num\u00e9ro SIRET, adresse, qualit\u00e9 de fournisseur ou de client) ; e) Les libell\u00e9s des \u00e9ventuelles anomalies intervenues lors de chaque transmission ; f) La version du logiciel utilis\u00e9. 2. La liste r\u00e9capitulative est restituable sur papier, \u00e9cran ou support informatique. La restitution doit pouvoir \u00eatre effectu\u00e9e d'une fa\u00e7on s\u00e9lective en fonction des crit\u00e8res figurant dans la liste. V. - Les entreprises, fournisseurs et clients doivent constituer un fichier des partenaires avec lesquels elles \u00e9changent des factures par voie t\u00e9l\u00e9matique. Pour chaque partenaire, le fichier comporte les informations suivantes : a) La qualit\u00e9 d'\u00e9metteur et/ou de r\u00e9cepteur ; b) L'archivage des factures d\u00e9mat\u00e9rialis\u00e9es ou l'archivage des factures papier ; c) La (les) date(s) d'entr\u00e9e en phase de d\u00e9mat\u00e9rialisation avec le partenaire, et, le cas \u00e9ch\u00e9ant, la (les) date(s) de sortie. VI. - 1. Les messages factures \u00e9mis et re\u00e7us ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre conserv\u00e9s dans l'ordre chronologique d'\u00e9mission et de r\u00e9ception. 2. Les fichiers informatiques dans lesquels sont conserv\u00e9s les messages factures, la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre aliment\u00e9s automatiquement par le syst\u00e8me de t\u00e9l\u00e9transmission des seules informations qui en sont directement issues. 3. La documentation relative aux conditions d'utilisation (guide utilisateur) du logiciel de t\u00e9l\u00e9transmission doit \u00eatre conserv\u00e9e par l'entreprise et consultable par les agents de l'administration sur le lieu de la d\u00e9mat\u00e9rialisation. En outre, l'entreprise doit prendre toutes dispositions pour garantir aux agents de l'administration l'acc\u00e8s \u00e0 la documentation informatique concernant notamment le d\u00e9veloppement de son architecture, de son analyse fonctionnelle et organique et l'exploitation du logiciel de t\u00e9l\u00e9transmission.",
+            "texteHtml": "<p></p>   Les syst\u00e8mes de t\u00e9l\u00e9transmission des factures utilis\u00e9s par les entreprises dans les conditions pr\u00e9vues par l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts doivent respecter les sp\u00e9cifications suivantes :<p></p><p></p><p></p>   I. - Sont consid\u00e9r\u00e9s comme utilisateurs les entreprises, fournisseurs ou clients, qui \u00e9mettent ou re\u00e7oivent des factures t\u00e9l\u00e9transmises.<p></p><p></p>   Les interm\u00e9diaires qui interviennent \u00e9ventuellement dans la transmission des messages ne sont pas consid\u00e9r\u00e9s comme des utilisateurs. Ils ne doivent pas intervenir dans la constitution du message et ne doivent ni le modifier ni l'alt\u00e9rer.<p></p><p></p>   II. - Le syst\u00e8me de t\u00e9l\u00e9transmission utilis\u00e9 doit assurer au minimum les fonctions suivantes :<p></p><p></p>   a) La v\u00e9rification en \u00e9mission et en r\u00e9ception de la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires devant figurer sur une facture ;<p></p><p></p>   b) La constitution quotidienne et l'archivage d'une liste r\u00e9capitulative s\u00e9quentielle et exhaustive des messages \u00e9mis et/ou re\u00e7us et des anomalies \u00e9ventuelles d\u00e9tect\u00e9es lors des contr\u00f4les ;<p></p><p></p>   c) L'archivage des factures \u00e9mises et re\u00e7ues ;<p></p><p></p>   d) La restitution sur papier ou sur \u00e9cran, en langage clair, \u00e0 la demande de l'administration, de la facture et de la liste r\u00e9capitulative.<p></p><p></p>   III. - 1. Les logiciels de t\u00e9l\u00e9transmission des factures peuvent mettre en oeuvre une ou plusieurs structures de messages et ne doivent ni les modifier ni les alt\u00e9rer.<p></p><p></p>   Le message doit comporter l'ensemble des mentions obligatoires constitutives d'une facture pr\u00e9vues par les textes l\u00e9gislatifs ou r\u00e9glementaires en vigueur.<p></p><p></p>   L'utilisation de codes stables d\u00e9signant, par exemple, des produits ou des personnes est possible si la codification est d\u00e9chiffr\u00e9e automatiquement \u00e0 l'aide d'une table de correspondance int\u00e9gr\u00e9e \u00e0 la fonction de restitution.<p></p><p></p>   2. Les messages factures doivent \u00eatre restituables sur \u00e9cran, sur support informatique ou sur papier \u00e0 la demande de l'administration. La restitution porte sur l'int\u00e9gralit\u00e9 des informations \u00e9mises et re\u00e7ues, qu'elles soient obligatoires ou facultatives.<p></p><p></p>   La restitution doit pouvoir \u00eatre op\u00e9r\u00e9e de mani\u00e8re s\u00e9lective, notamment en fonction des informations que la liste r\u00e9capitulative doit comporter.<p></p><p></p>   Les donn\u00e9es sont restitu\u00e9es lisiblement en mode caract\u00e8res, en langage clair et intelligible.<p></p><p></p>   3. Le syst\u00e8me doit contr\u00f4ler, en \u00e9mission et en r\u00e9ception, la conformit\u00e9 de la structure du message par rapport aux mentions obligatoires.<p></p><p></p>   En phase d'\u00e9mission, en cas d'anomalie, le message rejet\u00e9 ne sera ni \u00e9mis, ni archiv\u00e9, ni trac\u00e9 sur la liste r\u00e9capitulative.<p></p><p></p>   En phase de r\u00e9ception, toute anomalie sera retrac\u00e9e dans la liste r\u00e9capitulative, et les messages concern\u00e9s seront archiv\u00e9s.<p></p><p></p>   IV. - 1. La liste r\u00e9capitulative mentionn\u00e9e au III de l'article 289 bis du code g\u00e9n\u00e9ral des imp\u00f4ts est constitu\u00e9e au fur et \u00e0 mesure lors de l'\u00e9mission ou de la r\u00e9ception de chaque message.<p></p><p></p>   Elle comprend au minimum les informations suivantes :<p></p><p></p>   a) Le num\u00e9ro et la date de la facture ;<p></p><p></p>   b) La date et l'heure de constitution du message ;<p></p><p></p>   c) Les montants hors taxes et toutes taxes de la transaction ainsi que le code monnaie lorsque la facture n'est pas libell\u00e9e en francs fran\u00e7ais ;<p></p><p></p>   d) Les \u00e9l\u00e9ments d'identification de l'\u00e9metteur ou du r\u00e9cepteur donn\u00e9s par le syst\u00e8me de t\u00e9l\u00e9transmission (code, nom ou d\u00e9nomination sociale, num\u00e9ro SIRET, adresse, qualit\u00e9 de fournisseur ou de client) ;<p></p><p></p>   e) Les libell\u00e9s des \u00e9ventuelles anomalies intervenues lors de chaque transmission ;<p></p><p></p>   f) La version du logiciel utilis\u00e9.<p></p><p></p>   2. La liste r\u00e9capitulative est restituable sur papier, \u00e9cran ou support informatique. La restitution doit pouvoir \u00eatre effectu\u00e9e d'une fa\u00e7on s\u00e9lective en fonction des crit\u00e8res figurant dans la liste.<p></p><p></p>   V. - Les entreprises, fournisseurs et clients doivent constituer un fichier des partenaires avec lesquels elles \u00e9changent des factures par voie t\u00e9l\u00e9matique.<p></p><p></p>   Pour chaque partenaire, le fichier comporte les informations suivantes :<p></p><p></p>   a) La qualit\u00e9 d'\u00e9metteur et/ou de r\u00e9cepteur ;<p></p><p></p>   b) L'archivage des factures d\u00e9mat\u00e9rialis\u00e9es ou l'archivage des factures papier ;<p></p><p></p>   c) La (les) date(s) d'entr\u00e9e en phase de d\u00e9mat\u00e9rialisation avec le partenaire, et, le cas \u00e9ch\u00e9ant, la (les) date(s) de sortie.<p></p><p></p>   VI. - 1. Les messages factures \u00e9mis et re\u00e7us ainsi que la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre conserv\u00e9s dans l'ordre chronologique d'\u00e9mission et de r\u00e9ception.<p></p><p></p>   2. Les fichiers informatiques dans lesquels sont conserv\u00e9s les messages factures, la liste r\u00e9capitulative et le fichier des partenaires doivent \u00eatre aliment\u00e9s automatiquement par le syst\u00e8me de t\u00e9l\u00e9transmission des seules informations qui en sont directement issues.<p></p><p></p>   3. La documentation relative aux conditions d'utilisation (guide utilisateur) du logiciel de t\u00e9l\u00e9transmission doit \u00eatre conserv\u00e9e par l'entreprise et consultable par les agents de l'administration sur le lieu de la d\u00e9mat\u00e9rialisation.<p></p><p></p>   En outre, l'entreprise doit prendre toutes dispositions pour garantir aux agents de l'administration l'acc\u00e8s \u00e0 la documentation informatique concernant notamment le d\u00e9veloppement de son architecture, de son analyse fonctionnelle et organique et l'exploitation du logiciel de t\u00e9l\u00e9transmission.<p></p>",
+            "num": "41 septies",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 954460800000,
+            "dateFin": 1009843200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1975-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Livre premier : Assiette et liquidation de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084212",
+                        "id": "LEGISCTA000006084212",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-03-11",
+                        "fin": "2999-01-01",
+                        "titre": "Premi\u00e8re partie : Imp\u00f4ts d'\u00c9tat",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114464",
+                        "id": "LEGISCTA000006114464",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Taxes sur le chiffre d'affaires et taxes assimil\u00e9es",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133784",
+                        "id": "LEGISCTA000006133784",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre premier : Taxe sur la valeur ajout\u00e9e",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146904",
+                        "id": "LEGISCTA000006146904",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section V : Obligations des redevables",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006162390",
+                        "id": "LEGISCTA000006162390",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "I : Obligations g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006179489",
+                        "id": "LEGISCTA000006179489",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-03-31",
+                        "fin": "2013-04-27",
+                        "titre": "D : Factures transmises par voie t\u00e9l\u00e9matique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006191501",
+                        "id": "LEGISCTA000006191501",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2013-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "D : Factures transmises par voie \u00e9lectronique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006191501",
+                        "id": "LEGISCTA000028683316",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 53,
+                "titreTxt": [
+                    {
+                        "debut": "1975-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069576",
+                        "id": "LEGITEXT000006069576",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006300385",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006191501",
+            "sectionParentId": "LEGISCTA000028683316",
+            "sectionParentTitre": "D : Factures transmises par voie \u00e9lectronique",
+            "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re partie : Imp\u00f4ts d'\u00c9tat &gt; Titre II : Taxes sur le chiffre d'affaires et taxes assimil\u00e9es &gt; Chapitre premier : Taxe sur la valeur ajout\u00e9e &gt; Section V : Obligations des redevables &gt; I : Obligations g\u00e9n\u00e9rales &gt; D : Factures transmises par voie t\u00e9l\u00e9matique",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006300385",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069576",
+                    "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV, CGIANIV.",
+                    "titreLong": "Code g\u00e9n\u00e9ral des imp\u00f4ts, annexe IV",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 189216000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069576",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "Arr\u00eat\u00e9 1999-05-03 art. 1 JORF 4 mai 1999",
+                    "linkType": "CREATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "",
+                    "textTitle": "CGI 289 bis",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "",
+                    "textTitle": "Edition du 31 mars 2000",
+                    "linkType": "HISTO",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Instruction 1999-07-12 3E-1-99",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006300385",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 954460800000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006300386",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1017532800000,
+                    "dateFin": 1058659200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006300387",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1062288000000,
+                    "dateFin": 1367020800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027361349",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1367020800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "41 septies",
+                "41"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        }
+    ]
+}
