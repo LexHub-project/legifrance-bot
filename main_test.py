@@ -1,13 +1,14 @@
 from __future__ import annotations
 
 import datetime
+from typing import Generator
 
 import pytest
 
 from commit_state_to_md import to_one_file_per_article, to_one_file_per_code
 from fetch_data import fetch_articles, fetch_tms
 from main import CID_CODE_DU_TRAVAIL_MARITIME, _process
-from to_commit_state import StateAtCommit
+from to_commit_state import CodeTree, StateAtCommit
 
 DATE_STR_FMT = "%Y-%m-%d"
 
@@ -58,7 +59,13 @@ def _state_at_date_str(states: list[StateAtCommit], date_str: str):
 
 
 @pytest.mark.parametrize(
-    "date_str", [DATE_FOR_ONE_ARTICLE_PER_FILE, "2016-12-20", "2016-12-19"]
+    "date_str",
+    [
+        DATE_FOR_ONE_ARTICLE_PER_FILE,
+        "2016-12-20",
+        "2016-12-19",
+        "1926-12-16",
+    ],
 )
 def test_snapshot(snapshot, states: list[StateAtCommit], date_str: str):
     state = _state_at_date_str(states, date_str)
@@ -101,3 +108,25 @@ def test_no_empty_commits(states: list[StateAtCommit], to_files):
         assert to_files(first) != to_files(
             second
         ), f"Text in commits {_render_commit_num(i)}, {_render_commit_num(i+1)} is the same"
+
+
+def article_nums(tree: CodeTree) -> Generator[str, None, None]:
+    for a in tree.articles:
+        yield a.num
+
+    for s in tree.sections:
+        yield from article_nums(s)
+
+
+def test_articles_only_once_per_state(states: list[StateAtCommit]):
+    """
+    NOTE: this is a hunch based on looking at Legifrance. Might be an invalid
+    heuristic.
+    """
+    for s in states:
+        for c in s.code_trees:
+            nums = list(article_nums(c))
+
+            assert sorted(set(nums)) == sorted(
+                nums
+            ), f"Articles present several times in commit at timestamp {s.timestamp}"
