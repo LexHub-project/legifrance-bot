@@ -11,7 +11,7 @@ from commit_state_to_md import to_one_file_per_article, to_one_file_per_code
 from commits import ArticleJSON, CodeJSON, get_commits
 from fetch_data import fetch_articles, fetch_tms
 from tm import patch_tm_multiple_paths
-from to_commit_state import StateAtCommit, generate_commit_state
+from to_commit_state import StateAtCommit, generate_commit_states
 
 OUTPUT_REPO_PATH = "../legifrance"
 
@@ -31,7 +31,7 @@ def _process(
 ) -> Generator[StateAtCommit, None, None]:
     commits = get_commits(articles)
     patched_code_tms = [patch_tm_multiple_paths(tm, articles) for tm in code_tms]
-    yield from generate_commit_state(patched_code_tms, commits)
+    yield from generate_commit_states(patched_code_tms, commits)
 
 
 def _yield_entries_from_flatten_dict(d: dict | str, paths=[]):
