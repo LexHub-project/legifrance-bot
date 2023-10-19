@@ -82,7 +82,7 @@ def _tm_to_code_tree(
     return CodeTree(tm["id"], tm["cid"], tm["title"], sections, articles)
 
 
-def generate_commit_state(
+def generate_commit_states(
     codes: list[CodeJSON], commits: list[Commit]
 ) -> Generator[StateAtCommit, None, None]:
     for i in tqdm(range(0, len(commits) - 1), desc="Converting to Code Tree"):
