@@ -15,8 +15,8 @@ def _get_tm_by_path(tm: CodeJSON, path: list[str]) -> CodeJSON:
     raise KeyError(f"Section {path} not found in tm")
 
 
-def _format_path(titresTm):
-    raw_path = [t["cid"] for t in titresTm]
+def _format_path(titres_tm):
+    raw_path = [t["cid"] for t in titres_tm]
     filtered_path = list(
         dict.fromkeys(raw_path)
     )  # can have duplicates, eg LEGIARTI000006812669
