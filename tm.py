@@ -15,8 +15,18 @@ def _get_tm_by_path(tm: CodeJSON, path: list[str]) -> CodeJSON:
     raise KeyError(f"Section {path} not found in tm")
 
 
-def _format_path(titresTm):
-    return "/".join([t["cid"] for t in titresTm])
+def _dedupe(arr: list[str]):
+    out = []
+    for a in arr:
+        if a not in out:
+            out.append(a)
+    return out
+
+
+def _format_path(titres_tm):
+    raw_path = [t["cid"] for t in titres_tm]
+
+    return "/".join(_dedupe(raw_path))  # can have duplicates, eg LEGIARTI000006812669
 
 
 def _are_paths_valid(
@@ -26,14 +36,18 @@ def _are_paths_valid(
     missing = []
 
     for path in paths:
-        section = _get_tm_by_path(tm, path.split("/"))
-        found = [a for a in section["articles"] if a["cid"] == article_cid]
-        if len(found) == 1:
-            valid.append(path)
-        elif len(found) == 0:
-            missing.append(path)
-        else:
-            raise ValueError(f"Found {len(found)} articles for {article_cid}")
+        try:
+            section = _get_tm_by_path(tm, path.split("/"))
+            found = [a for a in section["articles"] if a["cid"] == article_cid]
+            if len(found) >= 1:
+                # can be more, eg LEGIARTI000006841453 in LEGITEXT000006070666
+                valid.append(path)
+            else:
+                missing.append(path)
+
+        except KeyError:
+            print(f"Path {path} not found in tm {article_cid}")
+            # TODO handle this case eg LEGIARTI000006812892
 
     return valid, missing
 

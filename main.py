@@ -14,6 +14,7 @@ from tm import patch_tm_multiple_paths
 from to_commit_state import StateAtCommit, generate_commit_states
 
 OUTPUT_REPO_PATH = "../legifrance"
+DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d’une portée générale"
 
 CID_CODE_DU_TRAVAIL_MARITIME = "LEGITEXT000006072051"
 code_cids = [
@@ -128,7 +129,7 @@ def _build_git_repo_and_push(
                 "--date",
                 date_with_format_str,
                 "-m",
-                s.title,
+                s.title or DEFAULT_COMMIT_MESSAGE,
             ],
             env=env,
             cwd=OUTPUT_REPO_PATH,

@@ -29,11 +29,6 @@ class Commit:
     @property
     def merge_id(self) -> str:
         modified_by_cids: list[str] = sorted({m.cid for m in self.modified_by})
-
-        assert len(modified_by_cids) > 0
-        # modified_by_cids = ["???"]
-        # TODO
-
         return f"{self.timestamp}-{'-'.join(modified_by_cids)}"
 
 
@@ -54,13 +49,19 @@ def _dedupe_modified_by(
     sorted_by_cid = sorted(modified_by, key=lambda m: m.cid)
 
     for cid, group in itertools.groupby(sorted_by_cid, key=lambda m: m.cid):
-        yield TextCidAndTitle(cid=cid, title=_merge_titles([m.title for m in group]))
+        yield TextCidAndTitle(
+            cid=cid, title=_merge_titles(list({m.title for m in group}))
+        )
 
 
 def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     for version in article["listArticle"]:
+        if version["etat"] == "MODIFIE_MORT_NE":
+            continue
         timestamp_start: int = version["dateDebut"]
         timestamp_end: int = version["dateFin"]
+        if timestamp_start == timestamp_end:
+            timestamp_end += 1
 
         modified_by = [
             TextCidAndTitle(cid=lm["textCid"], title=lm["textTitle"])
