@@ -13,8 +13,8 @@ from fetch_data import fetch_articles, fetch_tms
 from tm import patch_tm_multiple_paths
 from to_commit_state import StateAtCommit, generate_commit_states
 
-OUTPUT_REPO_PATH = "../legifrance"
-DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d’une portée générale"
+OUTPUT_REPO_PATH = "./output"
+DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d'une portée générale"
 
 CID_CODE_DU_TRAVAIL_MARITIME = "LEGITEXT000006072051"
 code_cids = [
@@ -31,15 +31,15 @@ code_cids = [
     "LEGITEXT000006070302",
     "LEGITEXT000006070666",
     "LEGITEXT000006070667",
-    # "LEGITEXT000006070716",
-    # "LEGITEXT000006070719",
-    # "LEGITEXT000006070933",
-    # "LEGITEXT000006070987",
-    # "LEGITEXT000006071007",
-    # "LEGITEXT000006071164",
-    # "LEGITEXT000006071188",
-    # "LEGITEXT000006071190",
-    # "LEGITEXT000006071335",
+    "LEGITEXT000006070716",
+    "LEGITEXT000006070719",
+    "LEGITEXT000006070933",
+    "LEGITEXT000006070987",
+    "LEGITEXT000006071007",
+    "LEGITEXT000006071164",
+    "LEGITEXT000006071188",
+    "LEGITEXT000006071190",
+    "LEGITEXT000006071335",
     # "LEGITEXT000006071360",
     # "LEGITEXT000006071366",
     # "LEGITEXT000006071570",
@@ -87,10 +87,9 @@ def _yield_entries_from_flatten_dict(d: dict | str, paths=[]):
         yield os.path.join(*paths), d
 
 
-def _build_git_repo_and_push(
+def _build_git_repo(
     states: list[StateAtCommit],
     to_files: Callable[[StateAtCommit], dict],
-    should_push: bool,
 ):
     subprocess.run(["rm", "-rf", OUTPUT_REPO_PATH])
     os.makedirs(OUTPUT_REPO_PATH, exist_ok=True)
@@ -135,29 +134,6 @@ def _build_git_repo_and_push(
             cwd=OUTPUT_REPO_PATH,
         )
 
-    subprocess.run(
-        [
-            "git",
-            "remote",
-            "add",
-            "origin",
-            "git@github.com:LexHub-project/legifrance.git",
-        ],
-        cwd=OUTPUT_REPO_PATH,
-    )
-
-    if should_push:
-        subprocess.run(
-            [
-                "git",
-                "push",
-                "-f",
-                "origin",
-                "main",
-            ],
-            cwd=OUTPUT_REPO_PATH,
-        )
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="legifrance-bot")
@@ -176,11 +152,6 @@ if __name__ == "__main__":
         help="Select CODE_DU_TRAVAIL_MARITIME to process instead of all of them",
         action="store_true",
     )
-    parser.add_argument(
-        "--push",
-        action="store_true",
-        help="If selected, will build the git repo and push",
-    )
 
     args = parser.parse_args()
     if args.test_code:
@@ -191,4 +162,4 @@ if __name__ == "__main__":
 
     states = list(_process(code_tms, articles))
 
-    _build_git_repo_and_push(states, args.to_files, args.push)
+    _build_git_repo(states, args.to_files)
