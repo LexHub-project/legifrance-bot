@@ -1,0 +1,34 @@
+name: Lint & Test
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 2 * * *'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.11'
+          architecture: x64
+      - uses: actions/checkout@master
+      - uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - run: python -m pip install -r requirements.txt
+      - run: python main.py -t -p
+      - run: git status
+      - name: Commit cache
+        run: |
+          git config --global user.name 'Oswald Maskens'
+          git config --global user.email 'OzieGamma@users.noreply.github.com'
+          echo "$(date)" >| ./cache/last_gh_actions_run
+          git add ./cache
+          git commit -am "(chore) update cache"
+          git push
