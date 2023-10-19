@@ -110,7 +110,9 @@ def _to_one_file_per_article(tree: CodeTree, uri_map: dict[str, str]):
     #     print(tm["commentaire"], file=file)
 
     return {
-        f"{slugify(article.num)}.md": _resolve_links(article.text, uri_map)
+        f"{slugify(article.num)}.md": _header(1, _article_to_header_text(article))
+        + "\n\n"
+        + _resolve_links(article.text, uri_map)
         for article in tree.articles
     } | {
         slugify(section.title): _to_one_file_per_article(section, uri_map)
