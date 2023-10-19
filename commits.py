@@ -14,11 +14,6 @@ class TextCidAndTitle:
     title: str
 
 
-empty_text_cid_and_title = TextCidAndTitle(
-    cid="", title="un texte d’une portée générale"
-)
-
-
 @dataclass
 class Commit:
     modified_by: list[TextCidAndTitle]
@@ -34,9 +29,6 @@ class Commit:
     @property
     def merge_id(self) -> str:
         modified_by_cids: list[str] = sorted({m.cid for m in self.modified_by})
-
-        assert len(modified_by_cids) > 0
-
         return f"{self.timestamp}-{'-'.join(modified_by_cids)}"
 
 
@@ -75,8 +67,6 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
                 for lm in version["lienModifications"]
                 # if
             ]
-            if len(modified_by) == 0:
-                modified_by = [empty_text_cid_and_title]
 
             # TODO: 2 commits in 1 version? What about other states
             # TRANSFERE	51

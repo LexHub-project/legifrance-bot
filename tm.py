@@ -15,12 +15,18 @@ def _get_tm_by_path(tm: CodeJSON, path: list[str]) -> CodeJSON:
     raise KeyError(f"Section {path} not found in tm")
 
 
+def _dedupe(arr: list[str]):
+    out = []
+    for a in arr:
+        if a not in out:
+            out.append(a)
+    return out
+
+
 def _format_path(titres_tm):
     raw_path = [t["cid"] for t in titres_tm]
-    filtered_path = list(
-        dict.fromkeys(raw_path)
-    )  # can have duplicates, eg LEGIARTI000006812669
-    return "/".join(filtered_path)
+
+    return "/".join(_dedupe(raw_path))  # can have duplicates, eg LEGIARTI000006812669
 
 
 def _are_paths_valid(
