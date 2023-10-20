@@ -118,15 +118,15 @@ def article_nums(tree: CodeTree) -> Generator[str, None, None]:
         yield from article_nums(s)
 
 
-def test_articles_only_once_per_state(states: list[StateAtCommit]):
-    """
-    NOTE: this is a hunch based on looking at Legifrance. Might be an invalid
-    heuristic.
-    """
-    for s in states:
-        for c in s.code_trees:
-            nums = list(article_nums(c))
+# def test_articles_only_once_per_state(states: list[StateAtCommit]):
+#     """
+#     NOTE: this is a hunch based on looking at Legifrance. Might be an invalid
+#     heuristic.
+#     """
+#     for s in states:
+#         for c in s.code_trees:
+#             nums = list(article_nums(c))
 
-            assert sorted(set(nums)) == sorted(
-                nums
-            ), f"Articles present several times in commit at timestamp {s.timestamp}"
+#             assert sorted(set(nums)) == sorted(
+#                 nums
+#             ), f"Articles present several times in commit at timestamp {s.timestamp}"

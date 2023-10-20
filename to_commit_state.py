@@ -5,8 +5,8 @@ from datetime import datetime
 from typing import Generator
 
 from tqdm import tqdm
-
-from commits import CodeJSON, Commit
+from tm import patch_tm_multiple_paths
+from commits import ArticleJSON, CodeJSON, Commit
 
 
 @dataclass
@@ -83,10 +83,16 @@ def _tm_to_code_tree(
 
 
 def generate_commit_states(
-    codes: list[CodeJSON], commits: list[Commit]
+    codes: list[CodeJSON], commits: list[Commit], articles: list[ArticleJSON]
 ) -> Generator[StateAtCommit, None, None]:
     for i in tqdm(range(0, len(commits)), desc="Converting to Code Tree"):
-        code_trees = [_tm_to_code_tree(tm, commits[: (i + 1)]) for tm in codes]
+        code_trees = [
+            _tm_to_code_tree(
+                patch_tm_multiple_paths(tm, articles, commits[i].timestamp),
+                commits[: (i + 1)],
+            )
+            for tm in codes
+        ]
         assert None not in code_trees
 
         yield StateAtCommit(
