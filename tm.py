@@ -22,10 +22,10 @@ def _dedupe(arr: list[str]):
     return out
 
 
-def _format_version_path(version):
+def _format_version_path(version) -> str:
     raw_path = [t["cid"] for t in version["context"]["titresTM"]]
 
-    return _dedupe(raw_path)  # can have duplicates, eg LEGIARTI000006812669
+    return "/".join(_dedupe(raw_path))  # can have duplicates, eg LEGIARTI000006812669
 
 
 def _article_exists_at_path(tm: CodeJSON, path: list[str], article_cid: str) -> bool:
@@ -53,13 +53,12 @@ def patch_tm_multiple_paths(
         v_0 = versions[0]
         cid = v_0["cid"]
 
-        all_paths = {"/".join(_format_version_path(v)) for v in versions}
+        all_paths = {_format_version_path(v) for v in versions}
         paths_in_force = {
-            "/".join(_format_version_path(v))
+            _format_version_path(v)
             for v in versions
             if _is_version_in_force(v, timestamp)
         }
-        paths_not_in_force = all_paths - paths_in_force
         for raw_path in paths_in_force:
             path = raw_path.split("/")
             if not _article_exists_at_path(patched_tm, path, cid):  # ok
@@ -72,7 +71,7 @@ def patch_tm_multiple_paths(
                     _get_tm_by_path(patched_tm, path)["articles"] + [article_ref],
                     key=lambda x: _article_num_to_int(x["num"]),
                 )
-        for raw_path in paths_not_in_force:
+        for raw_path in all_paths - paths_in_force:
             path = raw_path.split("/")
             if _article_exists_at_path(patched_tm, path, cid):
                 _get_tm_by_path(patched_tm, path)["articles"] = [
