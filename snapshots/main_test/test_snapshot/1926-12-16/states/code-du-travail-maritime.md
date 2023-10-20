@@ -115,8 +115,8 @@ Les dispositions du présent article ne sont pas applicables aux engagements à 
 ##### Article 31
 Le marin est rémunéré, soit à salaires fixes, soit à profits éventuels, soit par une combinaison de ces deux modes de rémunération.
 
-#### Section 1 : Des divers modes de rémunération des marins et des règles qui servent de base à la liquidation des salaires
 
+#### Section 1 : Des divers modes de rémunération des marins et des règles qui servent de base à la liquidation des salaires
 ##### Article 32
 Les parts de profit, de pêche et de fret et les primes et allocations de toute nature stipulées dans le contrat sont, pour l'application de la présente loi, considérées comme salaires.
 
@@ -177,9 +177,11 @@ Le marin qui est appelé à remplir une fonction autre que celle pour laquelle i
 ##### Article 49
 Dans le cas où le contrat d'engagement a été rompu par suite de congédiement du marin pour absence irrégulière, les salaires qui lui sont dus sont versés à la caisse des gens de mer.   La moitié des salaires est tenue à la disposition du marin ou de ses ayants droit.   L'autre moitié est retenue pour sûreté des sommes auxquelles le marin pourrait être condamné à titre de dommages-intérêts envers l'armateur. Elle est payée au marin si, dans le délai de trois mois à compter de la fin du voyage, aucune action en dommages-intérêts n'a été intentée contre lui par l'armateur.
 
+
 #### Section 3 : Des lieux et époques de liquidation et du paiement des salaires
 ##### Article 51
 <p>La liquidation des salaires est effectuée lorsque le navire arrive au port où il termine son voyage. </p><p>En outre, les salaires sont liquidés :</p><p>1° Pour les navires armés au long cours ou au cabotage international, dont la durée du voyage est supérieure à un an :</p><p>annuellement, au premier port touché par le bâtiment ;</p><p>2° Pour les navires armés au cabotage national dont la durée du voyage est supérieure à un mois : mensuellement, au premier port touché par le bâtiment. </p><p>Les conventions des parties peuvent déroger aux dispositions portées ci-dessus, à condition qu'elles ne fassent pas obstacle à la liquidation des salaires lors de la clôture du rôle d'équipage et qu'elles ne prolongent pas au-delà de trois mois la période comprise entre deux liquidations faites en France, lorsque le navire revient dans un port de France à des intervalles plus rapprochés. </p><p>Pour tout marin débarqué isolément en France ou à l'étranger avant l'expiration du voyage, la liquidation des salaires a lieu au moment du débarquement.</p>
+
 
 ##### Article 53
 Les parts de profit sont payées conformément aux conventions et usages.    Les règlements prévus à l'article 34 détermineront, pour les contrats d'engagement de grande pêche, les délais de liquidation des comptes et les délais de payement de l'équipage, ainsi que les indemnités dues aux marins quand le payement des salaires n'est pas effectué dans les délais légaux.
@@ -246,6 +248,7 @@ Les aliments fournis aux marins doivent être sains, de bonne qualité, en quant
 
 #### Article 75
 Il est interdit à tout armateur de charger à forfait le capitaine ou un membre quelconque de l'état-major de la nourriture de l'équipage.
+
 
 #### Article 77
 <p>Il est interdit à tout armateur :</p><p>1° D'exploiter à terre un économat où il vende directement ou indirectement, aux marins par lui employés, ou à leurs familles, des denrées et marchandises de quelque nature que ce soit  ;</p><p>2° D'imposer auxdits marins l'obligation de dépenser leur salaire, en totalité ou en partie, dans les magasins indiqués par lui.</p>
@@ -373,6 +376,7 @@ La solde fixe du capitaine n'est saisissable que pour les causes et dans les lim
 
 #### Article 108
 Tout capitaine engagé pour un voyage est tenu de l'achever, à peine de tous dommages et intérêts envers les propriétaires et affréteurs.
+
 
 ## Titre 6 : Dispositions spéciales à certaines catégories de marins
 ### Chapitre 1 : Capitaine
