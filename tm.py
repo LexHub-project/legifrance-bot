@@ -1,5 +1,4 @@
 from copy import deepcopy
-from re import sub
 from commits import ArticleJSON, CodeJSON
 
 
@@ -38,11 +37,6 @@ def _is_version_in_force(version: dict, timestamp: int):
     return version["dateDebut"] <= timestamp <= version["dateFin"]
 
 
-def _article_num_to_int(num: str) -> int:
-    # TODO 90-1 vs 91
-    return int(sub(r"[^0-9]", "", num))
-
-
 def patch_tm_multiple_paths(
     tm: CodeJSON, articles: list[ArticleJSON], timestamp: int
 ) -> CodeJSON:
@@ -50,15 +44,15 @@ def patch_tm_multiple_paths(
 
     for article in articles:
         versions = article["listArticle"]
-        v_0 = versions[0]
+        versions_in_force = [v for v in versions if _is_version_in_force(v, timestamp)]
+        if len(versions_in_force) == 0:
+            continue
+
+        v_0 = versions_in_force[0]
         cid = v_0["cid"]
 
         all_paths = {_format_version_path(v) for v in versions}
-        paths_in_force = {
-            _format_version_path(v)
-            for v in versions
-            if _is_version_in_force(v, timestamp)
-        }
+        paths_in_force = {_format_version_path(v) for v in versions_in_force}
         for raw_path in paths_in_force:
             path = raw_path.split("/")
             if not _article_exists_at_path(patched_tm, path, cid):  # ok
@@ -66,10 +60,11 @@ def patch_tm_multiple_paths(
                     "cid": cid,
                     "num": v_0["num"],
                     "id": v_0["id"],
+                    "intOrdre": v_0["ordre"],
                 }
                 _get_tm_by_path(patched_tm, path)["articles"] = sorted(
                     _get_tm_by_path(patched_tm, path)["articles"] + [article_ref],
-                    key=lambda x: _article_num_to_int(x["num"]),
+                    key=lambda a: a["intOrdre"],
                 )
         for raw_path in all_paths - paths_in_force:
             path = raw_path.split("/")
