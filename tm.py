@@ -39,6 +39,7 @@ def _is_version_in_force(version: dict, timestamp: int):
 
 
 def _article_num_to_int(num: str) -> int:
+    # TODO 90-1 vs 91
     return int(sub(r"[^0-9]", "", num))
 
 
@@ -49,27 +50,35 @@ def patch_tm_multiple_paths(
 
     for article in articles:
         versions = article["listArticle"]
-        for v in versions:
-            path = _format_version_path(v)
-            if _is_version_in_force(v, timestamp):
-                if _article_exists_at_path(patched_tm, path, v["cid"]):  # ok
-                    continue
-                else:
-                    article_ref = {
-                        "cid": v["cid"],
-                        "num": v["num"],
-                        "id": v["id"],
-                    }
-                    _get_tm_by_path(patched_tm, path)["articles"] = sorted(
-                        _get_tm_by_path(patched_tm, path)["articles"] + [article_ref],
-                        key=lambda x: _article_num_to_int(x["num"]),
-                    )
-            else:
-                if _article_exists_at_path(patched_tm, path, v["cid"]):
-                    _get_tm_by_path(patched_tm, path)["articles"] = [
-                        a
-                        for a in _get_tm_by_path(patched_tm, path)["articles"]
-                        if a["cid"] != v["cid"]
-                    ]
+        v_0 = versions[0]
+        cid = v_0["cid"]
+
+        all_paths = {"/".join(_format_version_path(v)) for v in versions}
+        paths_in_force = {
+            "/".join(_format_version_path(v))
+            for v in versions
+            if _is_version_in_force(v, timestamp)
+        }
+        paths_not_in_force = all_paths - paths_in_force
+        for raw_path in paths_in_force:
+            path = raw_path.split("/")
+            if not _article_exists_at_path(patched_tm, path, cid):  # ok
+                article_ref = {
+                    "cid": cid,
+                    "num": v_0["num"],
+                    "id": v_0["id"],
+                }
+                _get_tm_by_path(patched_tm, path)["articles"] = sorted(
+                    _get_tm_by_path(patched_tm, path)["articles"] + [article_ref],
+                    key=lambda x: _article_num_to_int(x["num"]),
+                )
+        for raw_path in paths_not_in_force:
+            path = raw_path.split("/")
+            if _article_exists_at_path(patched_tm, path, cid):
+                _get_tm_by_path(patched_tm, path)["articles"] = [
+                    a
+                    for a in _get_tm_by_path(patched_tm, path)["articles"]
+                    if a["cid"] != cid
+                ]
 
     return patched_tm
