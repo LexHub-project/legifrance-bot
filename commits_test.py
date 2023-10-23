@@ -1,6 +1,16 @@
+import dataclasses
+import json
+
 import pytest
 
-from commits import TextCidAndTitle, _clean_html, _dedupe_modified_by, _merge_titles
+from commits import (
+    TextCidAndTitle,
+    _clean_html,
+    _dedupe_modified_by,
+    _merge_titles,
+    get_commits,
+)
+from fetch_data import _fetch_article_from_disk
 
 
 @pytest.mark.parametrize(
@@ -122,4 +132,33 @@ Les avances, quel qu'en soit le montant, ne sont imputables sur les salaires ou 
 trois mois de salaires pour les voiliers effectuant une navigation au long cours dépassant le cap Horn ou le cap de Bonne-Espérance ; deux mois pour les voiliers de long cours ne dépassant pas les caps, et un mois pour toutes les autres navigations. Les règlements prévus à l'article 34 détermineront pour la navigation de grande pêche, le montant des avances qui peuvent être accordées aux marins. La partie de l'avance dépassant les sommes ainsi fixées reste acquise au marin à titre de prime d'engagement ou avance perdue.
 
 Toutefois, des avances peuvent être accordées, au-delà des maxima prévus au paragraphe précédent, sous forme de délégation."""
+    )
+
+
+class DataclassJSONEncoder(json.JSONEncoder):
+    def default(self, o):
+        if dataclasses.is_dataclass(o):
+            return dataclasses.asdict(o)
+        return super().default(o)
+
+
+@pytest.mark.parametrize(
+    "article_cid",
+    [
+        "LEGIARTI000006293595",
+        "LEGIARTI000006465306",
+        "LEGIARTI000006792216",
+        "LEGIARTI000006652375",
+        "LEGIARTI000006652410",
+        "LEGIARTI000006652564",
+        "LEGIARTI000006293330",
+    ],
+)
+def test_article_assertion_one_change_per_commit(snapshot, article_cid: str):
+    article = _fetch_article_from_disk(article_cid)
+    commits = get_commits([article])
+
+    snapshot.assert_match(
+        json.dumps(commits, cls=DataclassJSONEncoder, indent=4),
+        f"commits_{article_cid}.json",
     )
