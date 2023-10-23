@@ -52,9 +52,9 @@ def _patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]):
         for version in versions:
             path = _format_version_path(version).split("/")
             if not _is_path_valid(patched_tm, path):
-                for i in range(1, len(path)):
-                    if not _is_path_valid(patched_tm, path[:i]):
-                        parent_section = _get_tm_by_path(patched_tm, path[: i - 1])
+                for i in range(len(path)):
+                    if not _is_path_valid(patched_tm, path[: i + 1]):
+                        parent_section = _get_tm_by_path(patched_tm, path[:i])
                         section_base_ref = version["context"]["titresTM"][i]
                         section_ref = {
                             **section_base_ref,
