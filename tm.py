@@ -37,7 +37,42 @@ def _is_version_in_force(version: dict, timestamp: int):
     return version["dateDebut"] <= timestamp <= version["dateFin"]
 
 
-def patch_tm_multiple_paths(
+def _is_path_valid(tm: CodeJSON, path: list[str]) -> bool:
+    try:
+        _get_tm_by_path(tm, path)
+        return True
+    except KeyError:
+        return False
+
+
+def _patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]):
+    patched_tm = deepcopy(tm)
+    for article in articles:
+        versions = article["listArticle"]
+        for version in versions:
+            path = _format_version_path(version).split("/")
+            if not _is_path_valid(patched_tm, path):
+                for i in range(1, len(path)):
+                    if not _is_path_valid(patched_tm, path[:i]):
+                        parent_section = _get_tm_by_path(patched_tm, path[: i - 1])
+                        section_base_ref = version["context"]["titresTM"][i]
+                        section_ref = {
+                            **section_base_ref,
+                            "title": section_base_ref["titre"],
+                            "dateDebut": section_base_ref["debut"],
+                            "dateFin": section_base_ref["fin"],
+                            "articles": [],
+                            "sections": [],
+                        }
+                        parent_section["sections"] = sorted(
+                            parent_section["sections"] + [section_ref],
+                            key=lambda s: s["title"],
+                        )
+
+    return patched_tm
+
+
+def _patch_tm_multiple_paths(
     tm: CodeJSON, articles: list[ArticleJSON], timestamp: int
 ) -> CodeJSON:
     patched_tm = deepcopy(tm)
@@ -76,3 +111,9 @@ def patch_tm_multiple_paths(
                 ]
 
     return patched_tm
+
+
+def patch_tm(tm: CodeJSON, articles: list[ArticleJSON], timestamp: int) -> CodeJSON:
+    return _patch_tm_multiple_paths(
+        _patch_tm_missing_sections(tm, articles), articles, timestamp
+    )
