@@ -44,8 +44,8 @@ def states() -> list[StateAtCommit]:
     ]
 
     code_tms = list(client.fetch_tms(code_cids))
-    articles = [a for tm in code_tms for a in client.fetch_articles(tm)]
-    return list(_process(code_tms, articles))
+    articles_by_code = {tm["cid"]: client.fetch_articles(tm) for tm in code_tms}
+    return list(_process(code_tms, articles_by_code))
 
 
 DATE_FOR_ONE_ARTICLE_PER_FILE = "2023-10-19"

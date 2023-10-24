@@ -2,8 +2,8 @@ from commits import ArticleJSON, CodeJSON
 import json
 import pytest
 from tm import (
-    _patch_tm_missing_sections,
-    _patch_tm_multiple_paths,
+    patch_tm_missing_sections,
+    patch_tm_multiple_paths,
     _is_path_valid,
     _article_exists_at_path,
 )
@@ -45,7 +45,7 @@ def test_patch_tm_missing_sections(tm_cid, article_cid, missing_path):
     tm = read_tm(tm_cid)
     articles = [read_article(article_cid)]
     assert not _is_path_valid(tm, missing_path)
-    patched_tm = _patch_tm_missing_sections(tm, articles)
+    patched_tm = patch_tm_missing_sections(tm, articles)
     assert _is_path_valid(patched_tm, missing_path)
 
 
@@ -64,7 +64,7 @@ def test_path_tm_multiple_paths(tm):
     article = read_article(MULTIPLE_PATH_CID)
     assert _article_exists_at_path(tm, ARTICLE_OK_PATH, MULTIPLE_PATH_CID)
     assert not _article_exists_at_path(tm, MISSING_ARTICLE_PATH, MULTIPLE_PATH_CID)
-    patched_tm = _patch_tm_multiple_paths(tm, [article], TIMESTAMP)
+    patched_tm = patch_tm_multiple_paths(tm, [article], TIMESTAMP)
     assert _article_exists_at_path(patched_tm, ARTICLE_OK_PATH, MULTIPLE_PATH_CID)
     assert _article_exists_at_path(patched_tm, MISSING_ARTICLE_PATH, MULTIPLE_PATH_CID)
 
@@ -86,7 +86,7 @@ OK_ARTICLE_CIDS = ["LEGIARTI000006652410", "LEGIARTI000023181567"]
 def test_tm_unchanged_if_no_error(tm_cid, articles_cids, timestamp):
     tm = read_tm(tm_cid)
     articles = [read_article(cid) for cid in articles_cids]
-    sections_patched_tm = _patch_tm_missing_sections(tm, articles)
+    sections_patched_tm = patch_tm_missing_sections(tm, articles)
     assert sections_patched_tm == tm
-    multiple_paths_patched_tm = _patch_tm_multiple_paths(tm, articles, timestamp)
+    multiple_paths_patched_tm = patch_tm_multiple_paths(tm, articles, timestamp)
     assert multiple_paths_patched_tm == tm
