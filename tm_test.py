@@ -41,7 +41,7 @@ def read_article(cid: str) -> ArticleJSON:
         ),
     ],
 )
-def testpatch_tm_missing_sections(tm_cid, article_cid, missing_path):
+def test_patch_tm_missing_sections(tm_cid, article_cid, missing_path):
     tm = read_tm(tm_cid)
     articles = [read_article(article_cid)]
     assert not _is_path_valid(tm, missing_path)

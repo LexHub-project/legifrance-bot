@@ -87,7 +87,7 @@ def generate_commit_states(
     commits: list[Commit],
     articles_by_code: dict[str, ArticleJSON],
 ) -> Generator[StateAtCommit, None, None]:
-    sections_patched = [
+    codes_sections_patched = [
         patch_tm_missing_sections(c, articles_by_code[c["cid"]])
         for c in tqdm(codes, desc="Patching sections TM")
     ]
@@ -100,7 +100,7 @@ def generate_commit_states(
                 ),
                 commits[: (i + 1)],
             )
-            for tm in sections_patched
+            for tm in codes_sections_patched
         ]
         assert None not in code_trees
 
