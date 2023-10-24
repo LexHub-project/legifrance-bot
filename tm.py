@@ -45,7 +45,7 @@ def _is_path_valid(tm: CodeJSON, path: list[str]) -> bool:
         return False
 
 
-def _patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]):
+def patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]):
     patched_tm = deepcopy(tm)
     for article in articles:
         versions = article["listArticle"]
@@ -76,7 +76,7 @@ def _patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]):
     return patched_tm
 
 
-def _patch_tm_multiple_paths(
+def patch_tm_multiple_paths(
     tm: CodeJSON, articles: list[ArticleJSON], timestamp: int
 ) -> CodeJSON:
     patched_tm = deepcopy(tm)
@@ -117,9 +117,3 @@ def _patch_tm_multiple_paths(
                 ]
 
     return patched_tm
-
-
-def patch_tm(tm: CodeJSON, articles: list[ArticleJSON], timestamp: int) -> CodeJSON:
-    return _patch_tm_multiple_paths(
-        _patch_tm_missing_sections(tm, articles), articles, timestamp
-    )

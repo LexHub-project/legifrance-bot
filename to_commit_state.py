@@ -5,7 +5,7 @@ from datetime import datetime
 from typing import Generator
 
 from tqdm import tqdm
-from tm import patch_tm
+from tm import patch_tm_missing_sections, patch_tm_multiple_paths
 from commits import ArticleJSON, CodeJSON, Commit
 
 
@@ -82,16 +82,29 @@ def _tm_to_code_tree(
     return CodeTree(tm["id"], tm["cid"], tm["title"], sections, articles)
 
 
+def _filter_by_code(articles: list[ArticleJSON], code_cid: str) -> list[ArticleJSON]:
+    return [
+        a for a in articles if a["listArticle"][0]["textTitles"][0]["cid"] == code_cid
+    ]
+
+
 def generate_commit_states(
     codes: list[CodeJSON], commits: list[Commit], articles: list[ArticleJSON]
 ) -> Generator[StateAtCommit, None, None]:
+    sections_patched = [
+        patch_tm_missing_sections(c, _filter_by_code(articles, c["cid"]))
+        for c in tqdm(codes, desc="Patching sections TM")
+    ]
+
     for i in tqdm(range(0, len(commits)), desc="Converting to Code Tree"):
         code_trees = [
             _tm_to_code_tree(
-                patch_tm(tm, articles, commits[i].timestamp),
+                patch_tm_multiple_paths(
+                    tm, _filter_by_code(articles, tm["cid"]), commits[i].timestamp
+                ),
                 commits[: (i + 1)],
             )
-            for tm in codes
+            for tm in sections_patched
         ]
         assert None not in code_trees
 
