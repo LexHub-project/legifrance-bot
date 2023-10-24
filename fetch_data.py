@@ -1,3 +1,4 @@
+import datetime
 import itertools
 import json
 import os
@@ -7,7 +8,7 @@ from typing import Generator, Tuple
 from dotenv import load_dotenv
 from tqdm import tqdm
 
-from commits import ArticleJSON, CodeJSON
+from commits import ArticleJSON, CodeJSON, CodeListJSON
 from legifrance_client import LegifranceClient
 
 CACHE_DIR = "./cache"
@@ -84,36 +85,46 @@ class CachedLegifranceClient:
     def _tm_path(self, cid: str) -> str:
         return f"{CACHE_DIR}/codes/{cid}.json"
 
-    def _fetch_tms_from_network(
-        self, cids: list[str]
-    ) -> Generator[CodeJSON, None, None]:
-        assert not self._only_from_disk
+    def _fetch_tm_from_network_and_cache(self, cid: str) -> CodeJSON:
+        print(f"Outdated TM, fetching: {cid}")
 
-        for cid in tqdm(cids, "Getting TM"):
-            tm = self._client.fetch_tm(cid)
+        tm = self._client.fetch_tm(cid)
 
-            del tm["executionTime"]
-            del tm["fileSize"]
+        del tm["executionTime"]
+        del tm["fileSize"]
 
-            with open(self._tm_path(cid), "w") as f:
-                f.write(json.dumps(tm, indent=4))
+        with open(self._tm_path(cid), "w") as f:
+            f.write(json.dumps(tm, indent=4))
 
-            yield tm
+        return tm
 
-    def _fetch_tms_from_disk(self, cids: list[str]) -> Generator[CodeJSON, None, None]:
-        assert self._only_from_disk
-
-        for cid in tqdm(cids, "Getting TM"):
+    def _fetch_tm_from_disk(self, cid: str) -> CodeJSON | None:
+        try:
             with open(self._tm_path(cid), "r") as f:
-                yield json.load(f)
+                return json.load(f)
+        except FileNotFoundError:
+            return None
 
-    def fetch_tms(self, cids: list[str]) -> Generator[CodeJSON, None, None]:
-        if self._only_from_disk:
-            yield from self._fetch_tms_from_disk(cids)
-        else:
-            yield from self._fetch_tms_from_network(cids)
+    def fetch_tms(self, code_list: CodeListJSON) -> Generator[CodeJSON, None, None]:
+        for c in tqdm(code_list, "Getting TM"):
+            value = self._fetch_tm_from_disk(c["cid"])
 
-    def _fetch_code_list(self) -> dict:
+            if not self._only_from_disk:
+                cached_date = (
+                    datetime.datetime.strptime(value["modifDate"], "%Y-%m-%d").replace(
+                        tzinfo=datetime.timezone.utc
+                    )
+                    if value is not None
+                    else None
+                )
+                list_date = datetime.datetime.fromisoformat(c["lastUpdate"])
+                if cached_date != list_date:
+                    value = self._fetch_tm_from_network_and_cache(c["cid"])
+
+            assert value is not None
+            yield value
+
+    def fetch_code_list(self) -> CodeListJSON:
         cache_path = f"{CACHE_DIR}/codelist.json"
 
         if self._only_from_disk:
@@ -125,7 +136,3 @@ class CachedLegifranceClient:
                 f.write(json.dumps(list, indent=4))
 
             return list
-
-    def fetch_code_cids(self) -> list[str]:
-        list = self._fetch_code_list()
-        return [c["cid"] for c in list]

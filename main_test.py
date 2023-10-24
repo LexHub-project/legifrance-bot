@@ -39,7 +39,9 @@ def _render_commit_num(i: int) -> str:
 
 @pytest.fixture(scope="module")
 def states() -> list[StateAtCommit]:
-    code_cids = [CID_CODE_DU_TRAVAIL_MARITIME]
+    code_cids = [
+        c for c in client.fetch_code_list() if c["cid"] == CID_CODE_DU_TRAVAIL_MARITIME
+    ]
 
     code_tms = list(client.fetch_tms(code_cids))
     articles = [a for tm in code_tms for a in client.fetch_articles(tm)]
