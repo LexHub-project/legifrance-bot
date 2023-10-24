@@ -131,7 +131,8 @@ class CachedLegifranceClient:
             with open(cache_path, "r") as f:
                 return json.load(f)
         else:
-            list = self._client.fetch_codes_list()
+            list = sorted(self._client.fetch_codes_list(), key=lambda c: c["cid"])
+
             with open(cache_path, "w") as f:
                 f.write(json.dumps(list, indent=4))
 
