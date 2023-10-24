@@ -33,6 +33,30 @@ def _yield_entries_from_flatten_dict(d: dict | str, paths=[]):
         yield os.path.join(*paths), d
 
 
+DATE_DUMP_GENERATED = datetime.now().isoformat()
+
+
+def _build_git_repo_readme():
+    with open(f"{OUTPUT_REPO_PATH}/README.md", "w") as f:
+        f.write(
+            f"""
+# Legifrance Github Clone
+Hi! The goal of this projects is to provide a secondary mirror of [Legifrance](https://piste.gouv.fr/index.php?option=com_apiportal&view=apitester&usage=api&apitab=tests&apiName=L%C3%A9gifrance&apiId=7daab368-e9f3-4511-989d-aba63907eef7&managerId=2&type=rest&apiVersion=2.0.0&Itemid=402&swaggerVersion=2.0&lang=fr)
+inside of Git. This proof of concept is made available without any guarantees for
+data quality. Please double-check anything on official websites.
+
+# Legifrance License & Reuse
+The data is reused under [Open License V2](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)
+from Legifrance. This was last updated at {DATE_DUMP_GENERATED}.
+
+```
+« Ministère de ??? / Legifrance - Données originales téléchargées sur
+https://piste.gouv.fr/, mise à jour à {DATE_DUMP_GENERATED} »
+```
+""".strip()
+        )
+
+
 def _build_git_repo(
     states: list[StateAtCommit],
     to_files: Callable[[StateAtCommit], dict],
@@ -45,6 +69,8 @@ def _build_git_repo(
 
     for s in states:
         subprocess.run(["git", "rm", "-r", "."], cwd=OUTPUT_REPO_PATH)
+        _build_git_repo_readme()
+
         for path, text in _yield_entries_from_flatten_dict(to_files(s)):
             full_path = f"{OUTPUT_REPO_PATH}/{path}"
             os.makedirs(os.path.dirname(full_path), exist_ok=True)
