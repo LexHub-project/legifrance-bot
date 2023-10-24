@@ -9,13 +9,12 @@ import pytz
 
 from commit_state_to_md import to_one_file_per_article, to_one_file_per_code
 from commits import ArticleJSON, CodeJSON, get_commits
+from constants import CID_CODE_DU_TRAVAIL_MARITIME
 from fetch_data import CachedLegifranceClient
 from to_commit_state import StateAtCommit, generate_commit_states
 
 OUTPUT_REPO_PATH = "./output"
 DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d'une portée générale"
-
-CID_CODE_DU_TRAVAIL_MARITIME = "LEGITEXT000006072051"
 
 
 def _process(
