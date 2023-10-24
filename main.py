@@ -9,65 +9,13 @@ import pytz
 
 from commit_state_to_md import to_one_file_per_article, to_one_file_per_code
 from commits import ArticleJSON, CodeJSON, get_commits
-from fetch_data import fetch_articles, fetch_tms
+from fetch_data import CachedLegifranceClient
 from to_commit_state import StateAtCommit, generate_commit_states
 
 OUTPUT_REPO_PATH = "./output"
 DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d'une portée générale"
 
 CID_CODE_DU_TRAVAIL_MARITIME = "LEGITEXT000006072051"
-code_cids = [
-    "LEGITEXT000006069568",
-    "LEGITEXT000006069569",
-    "LEGITEXT000006069576",
-    "LEGITEXT000006069583",
-    "LEGITEXT000006070162",
-    "LEGITEXT000006070208",
-    "LEGITEXT000006070239",
-    "LEGITEXT000006070249",
-    "LEGITEXT000006070299",
-    "LEGITEXT000006070300",
-    "LEGITEXT000006070302",
-    "LEGITEXT000006070666",
-    "LEGITEXT000006070667",
-    "LEGITEXT000006070716",
-    "LEGITEXT000006070719",
-    "LEGITEXT000006070933",
-    "LEGITEXT000006070987",
-    "LEGITEXT000006071007",
-    "LEGITEXT000006071164",
-    "LEGITEXT000006071188",
-    "LEGITEXT000006071190",
-    "LEGITEXT000006071335",
-    "LEGITEXT000006071360",
-    "LEGITEXT000006071366",
-    "LEGITEXT000006071570",
-    "LEGITEXT000006071645",
-    "LEGITEXT000006071785",
-    "LEGITEXT000006072052",
-    "LEGITEXT000006072637",
-    "LEGITEXT000006074066",
-    "LEGITEXT000006074067",
-    "LEGITEXT000006074073",
-    "LEGITEXT000006074224",
-    "LEGITEXT000006074232",
-    "LEGITEXT000006074228",
-    "LEGITEXT000006074233",
-    "LEGITEXT000006074234",
-    "LEGITEXT000006074235",
-    "LEGITEXT000006074236",
-    "LEGITEXT000006074237",
-    "LEGITEXT000006075116",
-    # "LEGITEXT000023501962",
-    # "LEGITEXT000025024948",
-    # "LEGITEXT000025244092",
-    # "LEGITEXT000031366350",
-    # "LEGITEXT000039086952",
-    # "LEGITEXT000044416551",
-    # "LEGITEXT000044595989",
-    # "LEGITEXT000045476241",
-    CID_CODE_DU_TRAVAIL_MARITIME,
-]
 
 
 def _process(
@@ -150,13 +98,25 @@ if __name__ == "__main__":
         help="Select CODE_DU_TRAVAIL_MARITIME to process instead of all of them",
         action="store_true",
     )
+    parser.add_argument(
+        "-c",
+        "--only-from-cache",
+        help="Take everything from cache, don't query server",
+        action="store_true",
+    )
 
     args = parser.parse_args()
+    client = CachedLegifranceClient(args.only_from_cache)
+
     if args.test_code:
         code_cids = [CID_CODE_DU_TRAVAIL_MARITIME]
+    else:
+        code_cids = client.fetch_code_cids()
+        assert CID_CODE_DU_TRAVAIL_MARITIME in code_cids
 
-    code_tms = list(fetch_tms(code_cids))
-    articles = [a for tm in code_tms for a in fetch_articles(tm)]
+    code_tms = list(client.fetch_tms(code_cids))
+
+    articles = [a for tm in code_tms for a in client.fetch_articles(tm)]
 
     states = list(_process(code_tms, articles))
 

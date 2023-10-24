@@ -10,7 +10,9 @@ from commits import (
     _merge_titles,
     get_commits,
 )
-from fetch_data import _fetch_article_from_disk
+from fetch_data import CachedLegifranceClient
+
+client = CachedLegifranceClient(only_from_disk=True)
 
 
 @pytest.mark.parametrize(
@@ -155,7 +157,7 @@ class DataclassJSONEncoder(json.JSONEncoder):
     ],
 )
 def test_article_assertion_one_change_per_commit(snapshot, article_cid: str):
-    article = _fetch_article_from_disk(article_cid)
+    article = client._fetch_article_from_disk(article_cid)
     commits = get_commits([article])
 
     snapshot.assert_match(
