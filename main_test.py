@@ -6,11 +6,12 @@ from typing import Generator
 import pytest
 
 from commit_state_to_md import to_one_file_per_article, to_one_file_per_code
-from fetch_data import fetch_articles, fetch_tms
+from fetch_data import CachedLegifranceClient
 from main import CID_CODE_DU_TRAVAIL_MARITIME, _process
 from to_commit_state import CodeTree, StateAtCommit
 
 DATE_STR_FMT = "%Y-%m-%d"
+client = CachedLegifranceClient(only_from_disk=True)
 
 
 def _state_at_commit_metadata_to_md(s: StateAtCommit, date_str: str):
@@ -40,8 +41,8 @@ def _render_commit_num(i: int) -> str:
 def states() -> list[StateAtCommit]:
     code_cids = [CID_CODE_DU_TRAVAIL_MARITIME]
 
-    code_tms = list(fetch_tms(code_cids, from_disk=True))
-    articles = [a for tm in code_tms for a in fetch_articles(tm)]
+    code_tms = list(client.fetch_tms(code_cids))
+    articles = [a for tm in code_tms for a in client.fetch_articles(tm)]
     return list(_process(code_tms, articles))
 
 
