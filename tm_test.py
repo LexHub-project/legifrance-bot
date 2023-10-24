@@ -70,12 +70,23 @@ def test_path_tm_multiple_paths(tm):
 
 
 OK_ARTICLE_CIDS = ["LEGIARTI000006652410", "LEGIARTI000023181567"]
-TIMESTAMP_2 = 1698076959000
 
 
-def test_tm_unchanged_if_no_error(tm):
-    articles = [read_article(cid) for cid in OK_ARTICLE_CIDS]
+@pytest.mark.parametrize(
+    "tm_cid,articles_cids,timestamp",
+    [
+        ("LEGITEXT000006072051", OK_ARTICLE_CIDS, 1698076959000),
+        (
+            "LEGITEXT000006071366",
+            ["LEGIARTI000006579186"],  # article with empty path / titresTM
+            605094400000,
+        ),
+    ],
+)
+def test_tm_unchanged_if_no_error(tm_cid, articles_cids, timestamp):
+    tm = read_tm(tm_cid)
+    articles = [read_article(cid) for cid in articles_cids]
     sections_patched_tm = _patch_tm_missing_sections(tm, articles)
     assert sections_patched_tm == tm
-    multiple_paths_patched_tm = _patch_tm_multiple_paths(tm, articles, TIMESTAMP_2)
+    multiple_paths_patched_tm = _patch_tm_multiple_paths(tm, articles, timestamp)
     assert multiple_paths_patched_tm == tm
