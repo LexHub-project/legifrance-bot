@@ -11,7 +11,7 @@ from tm import (
 
 @pytest.fixture(scope="module")
 def tm() -> CodeJSON:
-    with open("fixtures/LEGITEXT000006072051.json", "r") as f:
+    with open("cache/codes/LEGITEXT000006072051.json", "r") as f:
         return json.load(f)
 
 
