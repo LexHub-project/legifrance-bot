@@ -115,7 +115,7 @@ if __name__ == "__main__":
     if args.test_code:
         code_list = [c for c in code_list if c["cid"] == CID_CODE_DU_TRAVAIL_MARITIME]
 
-    code_tms = list(client.fetch_tms(code_list[:10]))
+    code_tms = list(client.fetch_tms(code_list))
 
     articles_by_code: dict[str, ArticleJSON] = {
         tm["cid"]: client.fetch_articles(tm) for tm in code_tms
