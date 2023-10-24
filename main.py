@@ -107,14 +107,14 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     client = CachedLegifranceClient(args.only_from_cache)
+    code_list = client.fetch_code_list()
+
+    assert CID_CODE_DU_TRAVAIL_MARITIME in {c["cid"] for c in code_list}
 
     if args.test_code:
-        code_cids = [CID_CODE_DU_TRAVAIL_MARITIME]
-    else:
-        code_cids = client.fetch_code_cids()
-        assert CID_CODE_DU_TRAVAIL_MARITIME in code_cids
+        code_list = [c for c in code_list if c["cid"] == CID_CODE_DU_TRAVAIL_MARITIME]
 
-    code_tms = list(client.fetch_tms(code_cids))
+    code_tms = list(client.fetch_tms(code_list))
 
     articles = [a for tm in code_tms for a in client.fetch_articles(tm)]
 

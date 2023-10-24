@@ -6,6 +6,7 @@ from typing import Generator
 
 ArticleJSON = dict
 CodeJSON = dict
+CodeListJSON = list[dict]
 
 
 @dataclass
