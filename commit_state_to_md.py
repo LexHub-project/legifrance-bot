@@ -32,12 +32,21 @@ def _header(level: int, text: str) -> str:
     return ("#" * min(level, 6)) + " " + text
 
 
+def _section(level: int, tree: CodeTree, code_cid: str):
+    if tree.cid == code_cid:
+        text = f"{tree.title} [🡕](https://www.legifrance.gouv.fr/codes/texte_lc/{code_cid}/)"
+    else:
+        text = f"{tree.title} [🡕](https://www.legifrance.gouv.fr/codes/section_lc/{code_cid}/{tree.id}/#{tree.id}/)"
+
+    return _header(level, text)
+
+
 def _article_to_header_text(article: CodeArticle) -> str:
-    return f"Article {article.num}"
+    return f"Article {article.num} [🡕](https://www.legifrance.gouv.fr/codes/article_lc/{article.id}/)"
 
 
-def _header_to_anchor(s: str) -> str:
-    return "#" + slugify(s)
+def _article_to_anchor(article: CodeArticle) -> str:
+    return f"#article-{article.num}-🡕"
 
 
 def _resolve_links(html: str | None, uri_map: dict[str, str]):
@@ -59,9 +68,13 @@ def _resolve_links(html: str | None, uri_map: dict[str, str]):
 
 
 def _print_to_one_file_per_code(
-    tree: CodeTree, uri_map: dict[str, str], file: TextIOWrapper, level=1
+    tree: CodeTree,
+    uri_map: dict[str, str],
+    file: TextIOWrapper,
+    code_cid: str,
+    level=1,
 ):
-    print(_header(level, tree.title), file=file)
+    print(_section(level, tree, code_cid), file=file)
 
     # TODO
     # if "commentaire" in tm and tm["commentaire"] is not None:
@@ -73,12 +86,12 @@ def _print_to_one_file_per_code(
         print("\n", file=file)
 
     for section in tree.sections:
-        _print_to_one_file_per_code(section, uri_map, file=file, level=level + 1)
+        _print_to_one_file_per_code(section, uri_map, file, code_cid, level + 1)
 
 
-def _to_one_file_per_code(tree: CodeTree, uri_map: dict[str, str], level=1):
+def _to_one_file_per_code(tree: CodeTree, uri_map: dict[str, str]):
     f = io.StringIO()
-    _print_to_one_file_per_code(tree, uri_map, f)
+    _print_to_one_file_per_code(tree, uri_map, f, tree.cid)
     return f.getvalue()
 
 
@@ -89,9 +102,7 @@ def _build_uri_maps_one_file_per_code(trees: list[CodeTree], code: str | None = 
         code_uri = "/" + slugify(tree.title) + ".md" if code is None else code
 
         for article in tree.articles:
-            map[article.cid] = code_uri + _header_to_anchor(
-                _article_to_header_text(article)
-            )
+            map[article.cid] = code_uri + _article_to_anchor(article)
 
         map |= _build_uri_maps_one_file_per_code(tree.sections, code_uri)
 

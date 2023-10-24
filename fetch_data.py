@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 from tqdm import tqdm
 
 from commits import ArticleJSON, CodeJSON, CodeListJSON
+from constants import DATE_STR_FMT
 from legifrance_client import LegifranceClient
 
 CACHE_DIR = "./cache"
@@ -111,9 +112,9 @@ class CachedLegifranceClient:
 
             if not self._only_from_disk:
                 cached_date = (
-                    datetime.datetime.strptime(value["modifDate"], "%Y-%m-%d").replace(
-                        tzinfo=datetime.timezone.utc
-                    )
+                    datetime.datetime.strptime(
+                        value["modifDate"], DATE_STR_FMT
+                    ).replace(tzinfo=datetime.timezone.utc)
                     if value is not None
                     else None
                 )

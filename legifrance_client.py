@@ -3,7 +3,9 @@ from datetime import datetime
 from time import time
 
 import requests
+
 from commits import ArticleJSON, CodeJSON
+from constants import DATE_STR_FMT
 
 URL_BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
 
@@ -72,7 +74,7 @@ class LegifranceClient:
         return json.loads(res.content)["results"]
 
     def fetch_tm(self, cid: str) -> CodeJSON:
-        date_str = datetime.now().strftime("%Y-%m-%d")
+        date_str = datetime.now().strftime(DATE_STR_FMT)
         res = requests.post(
             URL_BASE + "/consult/legi/tableMatieres",
             json.dumps({"textId": cid, "nature": "CODE", "date": date_str}),

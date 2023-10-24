@@ -418,10 +418,16 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
                 for lm in v["lienModifications"]
             ]
 
+            html = (
+                v["texteHtml"]
+                if v["notaHtml"] == ""
+                else v["texteHtml"] + "<br/><br/><i>NOTA:" + v["notaHtml"] + "</i>"
+            )
+
             yield Commit(
                 timestamp=_begin(v),
                 modified_by=modified_by,
-                article_changes={cid: v["texteHtml"]},
+                article_changes={cid: html},
             )
 
             last_commit_begin = _begin(v)

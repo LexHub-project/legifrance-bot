@@ -6,11 +6,11 @@ from typing import Generator
 import pytest
 
 from commit_state_to_md import to_one_file_per_article, to_one_file_per_code
+from constants import DATE_STR_FMT
 from fetch_data import CachedLegifranceClient
 from main import CID_CODE_DU_TRAVAIL_MARITIME, _process
 from to_commit_state import CodeTree, StateAtCommit
 
-DATE_STR_FMT = "%Y-%m-%d"
 client = CachedLegifranceClient(only_from_disk=True)
 
 
