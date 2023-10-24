@@ -9,9 +9,8 @@ from tm import (
 )
 
 
-@pytest.fixture(scope="module")
-def tm() -> CodeJSON:
-    with open("cache/codes/LEGITEXT000006072051.json", "r") as f:
+def read_tm(cid: str) -> CodeJSON:
+    with open(f"cache/codes/{cid}.json", "r") as f:
         return json.load(f)
 
 
@@ -20,15 +19,39 @@ def read_article(cid: str) -> ArticleJSON:
         return json.load(f)
 
 
-PATH_ERROR_CID = "LEGIARTI000006652601_new_path"
-MISSING_PATH = ["LEGISCTA000006101384", "TEST_ID"]
+@pytest.mark.parametrize(
+    "tm_cid,article_cid,missing_path",
+    [
+        (  # home-made example
+            "LEGITEXT000006072051",
+            "LEGIARTI000006652601_new_path",
+            ["LEGISCTA000006101384", "TEST_ID"],
+        ),
+        (  # R621-92 code du patrimoine, has duplicates in titresTM
+            "LEGITEXT000006074236",
+            "LEGIARTI000024242164",
+            [
+                "LEGISCTA000024239714",
+                "LEGISCTA000024241830",
+                "LEGISCTA000024241921",
+                "LEGISCTA000024241923",
+                "LEGISCTA000024242160",
+                "LEGISCTA000024242162",
+            ],
+        ),
+    ],
+)
+def test_patch_tm_missing_sections(tm_cid, article_cid, missing_path):
+    tm = read_tm(tm_cid)
+    articles = [read_article(article_cid)]
+    assert not _is_path_valid(tm, missing_path)
+    patched_tm = _patch_tm_missing_sections(tm, articles)
+    assert _is_path_valid(patched_tm, missing_path)
 
 
-def test_patch_tm_missing_sections(tm):
-    assert not _is_path_valid(tm, MISSING_PATH)
-    path_error_article = read_article(PATH_ERROR_CID)
-    patched_tm = _patch_tm_missing_sections(tm, [path_error_article])
-    assert _is_path_valid(patched_tm, MISSING_PATH)
+@pytest.fixture(scope="module")
+def tm():
+    return read_tm("LEGITEXT000006072051")
 
 
 MULTIPLE_PATH_CID = "LEGIARTI000006652601"
