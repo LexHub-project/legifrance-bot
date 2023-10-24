@@ -4,7 +4,6 @@ import pytest
 from tm import (
     _patch_tm_missing_sections,
     _patch_tm_multiple_paths,
-    patch_tm,
     _is_path_valid,
     _article_exists_at_path,
 )
