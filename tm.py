@@ -55,7 +55,11 @@ def _patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]):
                 for i in range(len(path)):
                     if not _is_path_valid(patched_tm, path[: i + 1]):
                         parent_section = _get_tm_by_path(patched_tm, path[:i])
-                        section_base_ref = version["context"]["titresTM"][i]
+                        section_cid = path[i]
+                        titres_tm = version["context"]["titresTM"]
+                        # index can be other than i in case of duplicates in titresTM
+                        index = [s["cid"] for s in titres_tm].index(section_cid)
+                        section_base_ref = titres_tm[index]
                         section_ref = {
                             **section_base_ref,
                             "title": section_base_ref["titre"],
@@ -78,7 +82,9 @@ def _patch_tm_multiple_paths(
     patched_tm = deepcopy(tm)
 
     for article in articles:
-        versions = article["listArticle"]
+        versions = [
+            v for v in article["listArticle"] if v["etat"] != "MODIFIE_MORT_NE"
+        ]  # TODO mutualize handling
         versions_in_force = [v for v in versions if _is_version_in_force(v, timestamp)]
         if len(versions_in_force) == 0:
             continue
