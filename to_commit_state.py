@@ -82,17 +82,13 @@ def _tm_to_code_tree(
     return CodeTree(tm["id"], tm["cid"], tm["title"], sections, articles)
 
 
-def _filter_by_code(articles: list[ArticleJSON], code_cid: str) -> list[ArticleJSON]:
-    return [
-        a for a in articles if a["listArticle"][0]["textTitles"][0]["cid"] == code_cid
-    ]
-
-
 def generate_commit_states(
-    codes: list[CodeJSON], commits: list[Commit], articles: list[ArticleJSON]
+    codes: list[CodeJSON],
+    commits: list[Commit],
+    articles_by_code: dict[str, ArticleJSON],
 ) -> Generator[StateAtCommit, None, None]:
     sections_patched = [
-        patch_tm_missing_sections(c, _filter_by_code(articles, c["cid"]))
+        patch_tm_missing_sections(c, articles_by_code[c["cid"]])
         for c in tqdm(codes, desc="Patching sections TM")
     ]
 
@@ -100,7 +96,7 @@ def generate_commit_states(
         code_trees = [
             _tm_to_code_tree(
                 patch_tm_multiple_paths(
-                    tm, _filter_by_code(articles, tm["cid"]), commits[i].timestamp
+                    tm, articles_by_code[tm["cid"]], commits[i].timestamp
                 ),
                 commits[: (i + 1)],
             )

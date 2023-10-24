@@ -19,10 +19,11 @@ CID_CODE_DU_TRAVAIL_MARITIME = "LEGITEXT000006072051"
 
 
 def _process(
-    code_tms: list[CodeJSON], articles: list[ArticleJSON]
+    code_tms: list[CodeJSON], articles_by_code: dict[str, ArticleJSON]
 ) -> Generator[StateAtCommit, None, None]:
+    articles = [a for v in articles_by_code.values() for a in v]
     commits = get_commits(articles)
-    yield from generate_commit_states(code_tms, commits, articles)
+    yield from generate_commit_states(code_tms, commits, articles_by_code)
 
 
 def _yield_entries_from_flatten_dict(d: dict | str, paths=[]):
@@ -114,10 +115,12 @@ if __name__ == "__main__":
     if args.test_code:
         code_list = [c for c in code_list if c["cid"] == CID_CODE_DU_TRAVAIL_MARITIME]
 
-    code_tms = list(client.fetch_tms(code_list))
+    code_tms = list(client.fetch_tms(code_list[:10]))
 
-    articles = [a for tm in code_tms for a in client.fetch_articles(tm)]
+    articles_by_code: dict[str, ArticleJSON] = {
+        tm["cid"]: client.fetch_articles(tm) for tm in code_tms
+    }
 
-    states = list(_process(code_tms, articles))
+    states = list(_process(code_tms, articles_by_code))
 
     _build_git_repo(states, args.to_files)
