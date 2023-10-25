@@ -34,15 +34,6 @@ class StateAtCommit:
     code_trees: list[CodeTree]
 
 
-def _last_text(commits: list[Commit], cid: str) -> str | None:
-    for c in reversed(commits):
-        if cid in c.article_changes:
-            return c.article_changes[cid]
-
-    # There is no text yet
-    return None
-
-
 def _is_tm_in_force(tm: CodeJSON, timestamp: int) -> bool:
     if tm.get("nature", None) == "CODE":
         return True  # root
@@ -54,15 +45,14 @@ def _is_tm_in_force(tm: CodeJSON, timestamp: int) -> bool:
 
 
 def _tm_to_code_tree(
-    tm: CodeJSON,
-    commits: list[Commit],
+    tm: CodeJSON, articles_text: dict[str, str | None], timestamp: int
 ) -> CodeTree | None:
-    if not _is_tm_in_force(tm, commits[-1].timestamp):
+    if not _is_tm_in_force(tm, timestamp):
         return None
 
     articles = []
     for article in tm["articles"]:
-        text = _last_text(commits, article["cid"])
+        text = articles_text.get(article["cid"])
 
         if text is not None:
             articles.append(
@@ -71,14 +61,14 @@ def _tm_to_code_tree(
 
     sections = []
     for section in tm["sections"]:
-        tree = _tm_to_code_tree(section, commits)
+        tree = _tm_to_code_tree(section, articles_text, timestamp)
 
         if tree is not None:
             sections.append(tree)
 
-    if "commentaire" in tm and tm["commentaire"] is not None:
-        print(tm["commentaire"])
-        # TODO
+    # if "commentaire" in tm and tm["commentaire"] is not None:
+    #     print(tm["commentaire"])
+    #     # TODO
 
     return CodeTree(tm["id"], tm["cid"], tm["title"], sections, articles)
 
@@ -88,25 +78,32 @@ def generate_commit_states(
     commits: list[Commit],
     articles_by_code: dict[str, list[ArticleJSON]],
 ) -> Generator[StateAtCommit, None, None]:
+    assert len(commits) > 0
+
     codes_sections_patched = [
         patch_tm_missing_sections(c, articles_by_code[c["cid"]])
         for c in tqdm(codes, desc="Patching sections TM")
     ]
 
-    for i in tqdm(range(0, len(commits)), desc="Converting to Code Tree"):
+    articles_text: dict[str, str | None] = {}
+
+    for commit in tqdm(commits, desc="Converting to Code Tree"):
+        articles_text.update(commit.article_changes)
+
         code_trees = [
             _tm_to_code_tree(
                 patch_tm_multiple_paths(
-                    tm, articles_by_code[tm["cid"]], commits[i].timestamp
+                    tm, articles_by_code[tm["cid"]], commit.timestamp
                 ),
-                commits[: (i + 1)],
+                articles_text,
+                commit.timestamp,
             )
             for tm in codes_sections_patched
         ]
         assert None not in code_trees
 
         yield StateAtCommit(
-            title=commits[i].title,
-            timestamp=commits[i].timestamp,
+            title=commit.title,
+            timestamp=commit.timestamp,
             code_trees=code_trees,
         )
