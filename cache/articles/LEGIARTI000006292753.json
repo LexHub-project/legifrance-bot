@@ -1,0 +1,623 @@
+{
+    "executionTime": 0,
+    "listArticle": [
+        {
+            "id": "LEGIARTI000026876050",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Equation de base traduisant l'\u00e9quivalence des pr\u00eats, d'une part, et des remboursements et charges, d'autre part. (Formule non reproduite, voir Journal officiel du 11 juin 2002 p. 10357 \u00e0 l'adresse suivante : http://www.legifrance.gouv.fr/jopdf/common/jo_pdf.jsp?numJO=0&dateJO=20020611&numTexte=6&pageDebut=10357&pageFin=10358 ). Signification des lettres et symboles : K est le num\u00e9ro d'ordre d'un pr\u00eat ; K' est le num\u00e9ro d'ordre d'un remboursement ou d'un paiement de charges ; AK est le montant du pr\u00eat n\u00b0 K ; A'K' est le montant du remboursement ou du paiement de charges n\u00b0 K' ; (somme) est le signe indiquant une somme ; m est le num\u00e9ro d'ordre du dernier pr\u00eat ; m' est le num\u00e9ro d'ordre du dernier remboursement ou du dernier paiement de charges ; tK est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celle des pr\u00eats ult\u00e9rieurs n\u00b0 2 \u00e0 m ; tK' est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celles des remboursements ou paiements de charges n\u00b0 1 \u00e0 m' ; i est le taux effectif global qui peut \u00eatre calcul\u00e9 (soit par l'alg\u00e8bre, soit par approximations successives, soit par un programme d'ordinateur) lorsque les autres termes de l'\u00e9quation sont connus, par le contrat ou autrement. Remarques a) Les sommes vers\u00e9es de part et d'autre \u00e0 diff\u00e9rents moments ne sont pas n\u00e9cessairement \u00e9gales et ne sont pas n\u00e9cessairement vers\u00e9es \u00e0 des intervalles \u00e9gaux. b) La date initiale est celle du premier pr\u00eat. c) L'\u00e9cart entre les dates utilis\u00e9es pour le calcul est exprim\u00e9 en ann\u00e9es ou en fractions d'ann\u00e9es. Une ann\u00e9e compte 365 jours, ou, pour les ann\u00e9es bissextiles, 366 jours, 52 semaines ou 12 mois normalis\u00e9s. Un mois normalis\u00e9 compte 30,416 66 jours (c'est-\u00e0-dire 365/12), que l'ann\u00e9e soit bissextile ou non. d) Le r\u00e9sultat du calcul est exprim\u00e9 avec une exactitude d'au moins une d\u00e9cimale. Lorsque le chiffre est arrondi \u00e0 une d\u00e9cimale particuli\u00e8re, la r\u00e8gle suivante est d'application : si le chiffre de la d\u00e9cimale suivant cette d\u00e9cimale particuli\u00e8re est sup\u00e9rieur ou \u00e9gal \u00e0 5, le chiffre de cette d\u00e9cimale particuli\u00e8re sera augment\u00e9 de 1. Hypoth\u00e8ses Le calcul du taux annuel effectif global se fait, le cas \u00e9ch\u00e9ant, conform\u00e9ment aux hypoth\u00e8ses suivantes : 1\u00b0 Si un contrat de cr\u00e9dit laisse au consommateur le libre choix quant au mode d'utilisation du cr\u00e9dit, le montant total du cr\u00e9dit est r\u00e9put\u00e9 enti\u00e8rement et imm\u00e9diatement utilis\u00e9 ; 2\u00b0 Si un contrat de cr\u00e9dit laisse en g\u00e9n\u00e9ral au consommateur le libre choix quant au mode d'utilisation du cr\u00e9dit, mais pr\u00e9voit parmi les divers modes d'utilisation une limite quant au montant et \u00e0 la dur\u00e9e, le montant du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 \u00e0 la date la plus proche pr\u00e9vue dans le contrat et conform\u00e9ment \u00e0 ces limites de mode d'utilisation ; 3\u00b0 Si un contrat de cr\u00e9dit offre au consommateur diff\u00e9rentes possibilit\u00e9s quant au mode d'utilisation du cr\u00e9dit, assorties de frais ou de taux d\u00e9biteurs diff\u00e9rents, le montant total du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 au taux d\u00e9biteur le plus \u00e9lev\u00e9 et avec les frais les plus \u00e9lev\u00e9s dans la cat\u00e9gorie d'op\u00e9rations la plus fr\u00e9quemment utilis\u00e9e dans ce type de contrat de cr\u00e9dit ; 4\u00b0 En cas de facilit\u00e9 de d\u00e9couvert, le montant total du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 en totalit\u00e9 et pour la dur\u00e9e totale du contrat de cr\u00e9dit. Si la dur\u00e9e de la facilit\u00e9 de d\u00e9couvert n'est pas connue, le taux annuel effectif global est calcul\u00e9 en partant de l'hypoth\u00e8se que la dur\u00e9e du cr\u00e9dit est de trois mois ; 5\u00b0 En cas de contrat de cr\u00e9dit sans dur\u00e9e fixe, y compris les cr\u00e9dits qui doivent \u00eatre rembours\u00e9s en totalit\u00e9 dans ou apr\u00e8s un d\u00e9lai donn\u00e9 mais qui, une fois rembours\u00e9s, sont disponibles pour une nouvelle utilisation, et autre qu'une facilit\u00e9 de d\u00e9couvert : a) Le cr\u00e9dit est r\u00e9put\u00e9 \u00eatre octroy\u00e9 pour une dur\u00e9e d'un an \u00e0 partir de la date d'utilisation initiale, et le paiement final effectu\u00e9 par le consommateur liquide le solde du capital, les int\u00e9r\u00eats et les autres frais \u00e9ventuels ; b) Le capital est suppos\u00e9 \u00eatre rembours\u00e9 par le consommateur en mensualit\u00e9s \u00e9gales, le remboursement d\u00e9butant un mois apr\u00e8s la date de l'utilisation initiale. Toutefois, dans les cas o\u00f9 le capital doit \u00eatre rembours\u00e9 en totalit\u00e9 uniquement, en un seul versement, \u00e0 l'int\u00e9rieur de chaque p\u00e9riode de paiement, les utilisations et les remboursements successifs de la totalit\u00e9 du capital par le consommateur sont suppos\u00e9s \u00eatre effectu\u00e9s sur la dur\u00e9e d'un an. Les int\u00e9r\u00eats et autres frais sont appliqu\u00e9s conform\u00e9ment \u00e0 ces utilisations et remboursements du capital, d'une part, et aux dispositions du contrat de cr\u00e9dit, d'autre part ; 6\u00b0 En cas de contrats de cr\u00e9dit autres que les d\u00e9couverts et les contrats de cr\u00e9dits sans dur\u00e9e fixe vis\u00e9s dans les hypoth\u00e8ses des points 4\u00b0 et 5\u00b0 : a) Si la date ou le montant d'un remboursement de capital devant \u00eatre effectu\u00e9 par le consommateur ne peuvent \u00eatre \u00e9tablis, le remboursement est r\u00e9put\u00e9 \u00eatre effectu\u00e9 \u00e0 la date la plus proche pr\u00e9vue dans le contrat de cr\u00e9dit et pour le montant le plus bas pr\u00e9vu dans le contrat ; b) Si la date de conclusion du contrat de cr\u00e9dit n'est pas connue, la date d'utilisation initiale est r\u00e9put\u00e9e \u00eatre la date qui correspond \u00e0 l'intervalle le plus court entre cette date et la date du premier paiement que le consommateur doit effectuer. 7\u00b0 Si la date ou le montant d'un paiement devant \u00eatre effectu\u00e9 par le consommateur ne peuvent \u00eatre \u00e9tablis sur la base du contrat de cr\u00e9dit ou des hypoth\u00e8ses expos\u00e9es aux points 4\u00b0, 5\u00b0 ou 6\u00b0, le paiement est r\u00e9put\u00e9 \u00eatre effectu\u00e9 aux dates et conditions requises par le pr\u00eateur et, lorsque celles-ci ne sont pas connues : a) Les frais d'int\u00e9r\u00eats sont pay\u00e9s en m\u00eame temps que les remboursements du capital ; b) Les frais autres que d'int\u00e9r\u00eats, exprim\u00e9s sous la forme d'une somme unique, sont pay\u00e9s \u00e0 la date de conclusion du contrat de cr\u00e9dit ; c) Les frais autres que d'int\u00e9r\u00eats, exprim\u00e9s sous la forme de paiements multiples, sont pay\u00e9s \u00e0 intervalles r\u00e9guliers, \u00e0 partir de la date du premier remboursement du capital, et si le montant de ces paiements n'est pas connu, les montants sont r\u00e9put\u00e9s \u00e9gaux ; d) Le paiement final liquide le solde du capital, les int\u00e9r\u00eats et les autres frais \u00e9ventuels ; 8\u00b0 Si le plafond du cr\u00e9dit n'a pas encore \u00e9t\u00e9 arr\u00eat\u00e9, le plafond est suppos\u00e9 \u00eatre de 1 500 \u20ac ; 9\u00b0 Si des taux d\u00e9biteurs et des frais diff\u00e9rents sont propos\u00e9s pendant une p\u00e9riode limit\u00e9e ou pour un montant limit\u00e9, le taux d\u00e9biteur et les frais sont r\u00e9put\u00e9s \u00eatre le taux le plus \u00e9lev\u00e9 pendant la dur\u00e9e totale du contrat de cr\u00e9dit ; 10\u00b0 Pour les contrats de cr\u00e9dit aux consommateurs pour lesquels un taux d\u00e9biteur fixe a \u00e9t\u00e9 convenu dans le cadre de la p\u00e9riode initiale, \u00e0 la fin de laquelle un nouveau taux d\u00e9biteur est \u00e9tabli et est ensuite p\u00e9riodiquement ajust\u00e9 en fonction d'un indicateur convenu, le calcul du taux annuel effectif global part de l'hypoth\u00e8se que, \u00e0 compter de la fin de la p\u00e9riode \u00e0 taux d\u00e9biteur fixe, le taux d\u00e9biteur est le m\u00eame qu'au moment du calcul du taux annuel effectif global, en fonction de la valeur de l'indicateur convenu \u00e0 ce moment-l\u00e0.",
+            "texteHtml": "<p>Equation de base traduisant l'\u00e9quivalence des pr\u00eats, d'une part, et des remboursements et charges, d'autre part.</p><p>(Formule non reproduite, voir Journal officiel du 11 juin 2002 p. 10357 \u00e0 l'adresse suivante : <a shape='rect' href='http://www.legifrance.gouv.fr/jopdf/common/jo_pdf.jsp?numJO=0&dateJO=20020611&numTexte=6&pageDebut=10357&pageFin=10358' target='_blank'>http://www.legifrance.gouv.fr/jopdf/common/jo_pdf.jsp?numJO=0&dateJO=20020611&numTexte=6&pageDebut=10357&pageFin=10358</a>).</p><p>Signification des lettres et symboles :</p><p>K est le num\u00e9ro d'ordre d'un pr\u00eat ;</p><p>K' est le num\u00e9ro d'ordre d'un remboursement ou d'un paiement de charges ;</p><p>AK est le montant du pr\u00eat n\u00b0 K ;</p><p>A'K' est le montant du remboursement ou du paiement de charges n\u00b0 K' ;</p><p>(somme) est le signe indiquant une somme ;</p><p>m est le num\u00e9ro d'ordre du dernier pr\u00eat ;</p><p>m' est le num\u00e9ro d'ordre du dernier remboursement ou du dernier paiement de charges ;</p><p>tK est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celle des pr\u00eats ult\u00e9rieurs n\u00b0 2 \u00e0 m ;</p><p>tK' est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celles des remboursements ou paiements de charges n\u00b0 1 \u00e0 m' ;</p><p>i est le taux effectif global qui peut \u00eatre calcul\u00e9 (soit par l'alg\u00e8bre, soit par approximations successives, soit par un programme d'ordinateur) lorsque les autres termes de l'\u00e9quation sont connus, par le contrat ou autrement.</p><p>Remarques</p><p>a) Les sommes vers\u00e9es de part et d'autre \u00e0 diff\u00e9rents moments ne sont pas n\u00e9cessairement \u00e9gales et ne sont pas n\u00e9cessairement vers\u00e9es \u00e0 des intervalles \u00e9gaux.</p><p>b) La date initiale est celle du premier pr\u00eat.</p><p>c) L'\u00e9cart entre les dates utilis\u00e9es pour le calcul est exprim\u00e9 en ann\u00e9es ou en fractions d'ann\u00e9es. Une ann\u00e9e compte 365 jours, ou, pour les ann\u00e9es bissextiles, 366 jours, 52 semaines ou 12 mois normalis\u00e9s. Un mois normalis\u00e9 compte 30,416 66 jours (c'est-\u00e0-dire 365/12), que l'ann\u00e9e soit bissextile ou non.</p><p>d) Le r\u00e9sultat du calcul est exprim\u00e9 avec une exactitude d'au moins une d\u00e9cimale. Lorsque le chiffre est arrondi \u00e0 une d\u00e9cimale particuli\u00e8re, la r\u00e8gle suivante est d'application : si le chiffre de la d\u00e9cimale suivant cette d\u00e9cimale particuli\u00e8re est sup\u00e9rieur ou \u00e9gal \u00e0 5, le chiffre de cette d\u00e9cimale particuli\u00e8re sera augment\u00e9 de 1.</p><p>Hypoth\u00e8ses</p><p>Le calcul du taux annuel effectif global se fait, le cas \u00e9ch\u00e9ant, conform\u00e9ment aux hypoth\u00e8ses suivantes :</p><p>1\u00b0 Si un contrat de cr\u00e9dit laisse au consommateur le libre choix quant au mode d'utilisation du cr\u00e9dit, le montant total du cr\u00e9dit est r\u00e9put\u00e9 enti\u00e8rement et imm\u00e9diatement utilis\u00e9 ;</p><p>2\u00b0 Si un contrat de cr\u00e9dit laisse en g\u00e9n\u00e9ral au consommateur le libre choix quant au mode d'utilisation du cr\u00e9dit, mais pr\u00e9voit parmi les divers modes d'utilisation une limite quant au montant et \u00e0 la dur\u00e9e, le montant du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 \u00e0 la date la plus proche pr\u00e9vue dans le contrat et conform\u00e9ment \u00e0 ces limites de mode d'utilisation ;</p><p>3\u00b0 Si un contrat de cr\u00e9dit offre au consommateur diff\u00e9rentes possibilit\u00e9s quant au mode d'utilisation du cr\u00e9dit, assorties de frais ou de taux d\u00e9biteurs diff\u00e9rents, le montant total du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 au taux d\u00e9biteur le plus \u00e9lev\u00e9 et avec les frais les plus \u00e9lev\u00e9s dans la cat\u00e9gorie d'op\u00e9rations la plus fr\u00e9quemment utilis\u00e9e dans ce type de contrat de cr\u00e9dit ;</p><p>4\u00b0 En cas de facilit\u00e9 de d\u00e9couvert, le montant total du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 en totalit\u00e9 et pour la dur\u00e9e totale du contrat de cr\u00e9dit. Si la dur\u00e9e de la facilit\u00e9 de d\u00e9couvert n'est pas connue, le taux annuel effectif global est calcul\u00e9 en partant de l'hypoth\u00e8se que la dur\u00e9e du cr\u00e9dit est de trois mois ;</p><p>5\u00b0 En cas de contrat de cr\u00e9dit sans dur\u00e9e fixe, y compris les cr\u00e9dits qui doivent \u00eatre rembours\u00e9s en totalit\u00e9 dans ou apr\u00e8s un d\u00e9lai donn\u00e9 mais qui, une fois rembours\u00e9s, sont disponibles pour une nouvelle utilisation, et autre qu'une facilit\u00e9 de d\u00e9couvert :</p><p>a) Le cr\u00e9dit est r\u00e9put\u00e9 \u00eatre octroy\u00e9 pour une dur\u00e9e d'un an \u00e0 partir de la date d'utilisation initiale, et le paiement final effectu\u00e9 par le consommateur liquide le solde du capital, les int\u00e9r\u00eats et les autres frais \u00e9ventuels ;</p><p>b) Le capital est suppos\u00e9 \u00eatre rembours\u00e9 par le consommateur en mensualit\u00e9s \u00e9gales, le remboursement d\u00e9butant un mois apr\u00e8s la date de l'utilisation initiale. Toutefois, dans les cas o\u00f9 le capital doit \u00eatre rembours\u00e9 en totalit\u00e9 uniquement, en un seul versement, \u00e0 l'int\u00e9rieur de chaque p\u00e9riode de paiement, les utilisations et les remboursements successifs de la totalit\u00e9 du capital par le consommateur sont suppos\u00e9s \u00eatre effectu\u00e9s sur la dur\u00e9e d'un an. Les int\u00e9r\u00eats et autres frais sont appliqu\u00e9s conform\u00e9ment \u00e0 ces utilisations et remboursements du capital, d'une part, et aux dispositions du contrat de cr\u00e9dit, d'autre part ;</p><p>6\u00b0 En cas de contrats de cr\u00e9dit autres que les d\u00e9couverts et les contrats de cr\u00e9dits sans dur\u00e9e fixe vis\u00e9s dans les hypoth\u00e8ses des points 4\u00b0 et 5\u00b0 :</p><p>a) Si la date ou le montant d'un remboursement de capital devant \u00eatre effectu\u00e9 par le consommateur ne peuvent \u00eatre \u00e9tablis, le remboursement est r\u00e9put\u00e9 \u00eatre effectu\u00e9 \u00e0 la date la plus proche pr\u00e9vue dans le contrat de cr\u00e9dit et pour le montant le plus bas pr\u00e9vu dans le contrat ;</p><p>b) Si la date de conclusion du contrat de cr\u00e9dit n'est pas connue, la date d'utilisation initiale est r\u00e9put\u00e9e \u00eatre la date qui correspond \u00e0 l'intervalle le plus court entre cette date et la date du premier paiement que le consommateur doit effectuer.</p><p>7\u00b0 Si la date ou le montant d'un paiement devant \u00eatre effectu\u00e9 par le consommateur ne peuvent \u00eatre \u00e9tablis sur la base du contrat de cr\u00e9dit ou des hypoth\u00e8ses expos\u00e9es aux points 4\u00b0, 5\u00b0 ou 6\u00b0, le paiement est r\u00e9put\u00e9 \u00eatre effectu\u00e9 aux dates et conditions requises par le pr\u00eateur et, lorsque celles-ci ne sont pas connues :</p><p>a) Les frais d'int\u00e9r\u00eats sont pay\u00e9s en m\u00eame temps que les remboursements du capital ;</p><p>b) Les frais autres que d'int\u00e9r\u00eats, exprim\u00e9s sous la forme d'une somme unique, sont pay\u00e9s \u00e0 la date de conclusion du contrat de cr\u00e9dit ;</p><p>c) Les frais autres que d'int\u00e9r\u00eats, exprim\u00e9s sous la forme de paiements multiples, sont pay\u00e9s \u00e0 intervalles r\u00e9guliers, \u00e0 partir de la date du premier remboursement du capital, et si le montant de ces paiements n'est pas connu, les montants sont r\u00e9put\u00e9s \u00e9gaux ;</p><p>d) Le paiement final liquide le solde du capital, les int\u00e9r\u00eats et les autres frais \u00e9ventuels ;</p><p>8\u00b0 Si le plafond du cr\u00e9dit n'a pas encore \u00e9t\u00e9 arr\u00eat\u00e9, le plafond est suppos\u00e9 \u00eatre de 1 500 \u20ac ;</p><p>9\u00b0 Si des taux d\u00e9biteurs et des frais diff\u00e9rents sont propos\u00e9s pendant une p\u00e9riode limit\u00e9e ou pour un montant limit\u00e9, le taux d\u00e9biteur et les frais sont r\u00e9put\u00e9s \u00eatre le taux le plus \u00e9lev\u00e9 pendant la dur\u00e9e totale du contrat de cr\u00e9dit ;</p><p>10\u00b0 Pour les contrats de cr\u00e9dit aux consommateurs pour lesquels un taux d\u00e9biteur fixe a \u00e9t\u00e9 convenu dans le cadre de la p\u00e9riode initiale, \u00e0 la fin de laquelle un nouveau taux d\u00e9biteur est \u00e9tabli et est ensuite p\u00e9riodiquement ajust\u00e9 en fonction d'un indicateur convenu, le calcul du taux annuel effectif global part de l'hypoth\u00e8se que, \u00e0 compter de la fin de la p\u00e9riode \u00e0 taux d\u00e9biteur fixe, le taux d\u00e9biteur est le m\u00eame qu'au moment du calcul du taux annuel effectif global, en fonction de la valeur de l'indicateur convenu \u00e0 ce moment-l\u00e0.</p>",
+            "num": "Annexe \u00e0 l'article R313-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1356998400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2017-07-15",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084139",
+                        "id": "LEGISCTA000006084139",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2017-07-15",
+                        "titre": "Livre III : Endettement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114380",
+                        "id": "LEGISCTA000006114380",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2017-07-15",
+                        "titre": "Titre Ier : Cr\u00e9dit",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133645",
+                        "id": "LEGISCTA000006133645",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2016-10-01",
+                        "titre": "Chapitre III : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146624",
+                        "id": "LEGISCTA000006146624",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1995-02-02",
+                        "fin": "2999-01-01",
+                        "titre": "Annexes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084132",
+                        "id": "LEGISCTA000006084132",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2002-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "ANNEXE \u00c0 L'ARTICLE R. 313-1 DU CODE DE LA CONSOMMATION",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114377",
+                        "id": "LEGISCTA000006114377",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "1993-07-27",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la consommation",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069565",
+                        "id": "LEGITEXT000006069565",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006292753",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006114377",
+            "sectionParentId": "LEGISCTA000006114377",
+            "sectionParentTitre": "ANNEXE \u00c0 L'ARTICLE R. 313-1 DU CODE DE LA CONSOMMATION",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Endettement &gt; Titre Ier : Cr\u00e9dit &gt; Chapitre III : Dispositions communes &gt; Annexes &gt; ANNEXE \u00c0 L'ARTICLE R. 313-1 DU CODE DE LA CONSOMMATION",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000026876050",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069565",
+                    "titre": "Code de la consommation",
+                    "titreLong": "Code de la consommation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 743731200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069565",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000383100",
+                    "textTitle": "D\u00e9cret n\u00b0 97-298 du 27 mars 1997",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000383100",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1997-04-03",
+                    "dateSignaTexte": "1997-03-27",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000026855222",
+                    "textTitle": "D\u00e9cret n\u00b02012-1478\n du 27 d\u00e9cembre 2012 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000026865332",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2012-12-29",
+                    "dateSignaTexte": "2012-12-27",
+                    "dateDebutCible": "2013-01-01"
+                }
+            ],
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006292753",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1025481600000,
+                    "dateFin": 1304208000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023520040",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1304208000000,
+                    "dateFin": 1356998400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000026876050",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1356998400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "Annexe \u00e0 l'article R313-1"
+            ],
+            "versionPrecedente": "LEGIARTI000023520040",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000023520040",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Equation de base traduisant l'\u00e9quivalence des pr\u00eats, d'une part, et des remboursements et charges, d'autre part. (Formule non reproduite, voir Journal officiel du 11 juin 2002 p. 10357). Signification des lettres et symboles : K est le num\u00e9ro d'ordre d'un pr\u00eat ; K' est le num\u00e9ro d'ordre d'un remboursement ou d'un paiement de charges ; AK est le montant du pr\u00eat n\u00b0 K ; A'K' est le montant du remboursement ou du paiement de charges n\u00b0 K' ; (somme) est le signe indiquant une somme ; m est le num\u00e9ro d'ordre du dernier pr\u00eat ; m' est le num\u00e9ro d'ordre du dernier remboursement ou du dernier paiement de charges ; tK est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celle des pr\u00eats ult\u00e9rieurs n\u00b0 2 \u00e0 m ; tK' est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celles des remboursements ou paiements de charges n\u00b0 1 \u00e0 m' ; i est le taux effectif global qui peut \u00eatre calcul\u00e9 (soit par l'alg\u00e8bre, soit par approximations successives, soit par un programme d'ordinateur) lorsque les autres termes de l'\u00e9quation sont connus, par le contrat ou autrement. Remarques a) Les sommes vers\u00e9es de part et d'autre \u00e0 diff\u00e9rents moments ne sont pas n\u00e9cessairement \u00e9gales et ne sont pas n\u00e9cessairement vers\u00e9es \u00e0 des intervalles \u00e9gaux. b) La date initiale est celle du premier pr\u00eat. c) L'\u00e9cart entre les dates utilis\u00e9es pour le calcul est exprim\u00e9 en ann\u00e9es ou en fractions d'ann\u00e9es. Une ann\u00e9e compte 365 jours, ou, pour les ann\u00e9es bissextiles, 366 jours, 52 semaines ou 12 mois normalis\u00e9s. Un mois normalis\u00e9 compte 30,416 66 jours (c'est-\u00e0-dire 365/12), que l'ann\u00e9e soit bissextile ou non. d) Le r\u00e9sultat du calcul est exprim\u00e9 avec une exactitude d'au moins une d\u00e9cimale. Lorsque le chiffre est arrondi \u00e0 une d\u00e9cimale particuli\u00e8re, la r\u00e8gle suivante est d'application : si le chiffre de la d\u00e9cimale suivant cette d\u00e9cimale particuli\u00e8re est sup\u00e9rieur ou \u00e9gal \u00e0 5, le chiffre de cette d\u00e9cimale particuli\u00e8re sera augment\u00e9 de 1. Hypoth\u00e8ses Le calcul du taux annuel effectif global se fait, le cas \u00e9ch\u00e9ant, conform\u00e9ment aux hypoth\u00e8ses suivantes : 1\u00b0 Si un contrat de cr\u00e9dit laisse au consommateur le libre choix quant au mode d'utilisation du cr\u00e9dit, le montant total du cr\u00e9dit est r\u00e9put\u00e9 enti\u00e8rement et imm\u00e9diatement utilis\u00e9 ; 2\u00b0 Si un contrat de cr\u00e9dit offre au consommateur diff\u00e9rentes possibilit\u00e9s quant au mode d'utilisation du cr\u00e9dit, assorties de frais ou de taux d\u00e9biteurs diff\u00e9rents, le montant total du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 au taux d\u00e9biteur le plus \u00e9lev\u00e9 et avec les frais les plus \u00e9lev\u00e9s dans la cat\u00e9gorie d'op\u00e9rations la plus fr\u00e9quemment utilis\u00e9e dans ce type de contrat de cr\u00e9dit ; 3\u00b0 Si un contrat de cr\u00e9dit laisse en g\u00e9n\u00e9ral au consommateur le libre choix quant au mode d'utilisation du cr\u00e9dit, mais pr\u00e9voit parmi les divers modes d'utilisation une limite quant au montant et \u00e0 la dur\u00e9e, le montant du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 \u00e0 la date la plus proche pr\u00e9vue dans le contrat et conform\u00e9ment \u00e0 ces limites de mode d'utilisation ; 4\u00b0 Si aucun \u00e9ch\u00e9ancier n'est fix\u00e9 pour le remboursement : a) Le cr\u00e9dit est r\u00e9put\u00e9 \u00eatre octroy\u00e9 pour une dur\u00e9e d'un an ; et b) Le montant du cr\u00e9dit est suppos\u00e9 \u00eatre rembours\u00e9 en douze mensualit\u00e9s \u00e9gales ; 5\u00b0 Si un \u00e9ch\u00e9ancier est fix\u00e9 pour le remboursement, mais que les sommes \u00e0 rembourser varient, le montant de chaque remboursement est r\u00e9put\u00e9 \u00eatre le plus bas pr\u00e9vu dans le contrat ; 6\u00b0 Sauf stipulation contraire, lorsque le contrat de cr\u00e9dit pr\u00e9voit plusieurs dates de remboursement, le cr\u00e9dit est fourni et les remboursements sont effectu\u00e9s \u00e0 la date la plus proche pr\u00e9vue dans le contrat ; 7\u00b0 Si le plafond du cr\u00e9dit n'a pas encore \u00e9t\u00e9 arr\u00eat\u00e9, le plafond est suppos\u00e9 \u00eatre de 1 500 \u20ac ; 8\u00b0 En cas de facilit\u00e9 de d\u00e9couvert, le montant total du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 en totalit\u00e9 et pour la dur\u00e9e totale du contrat de cr\u00e9dit. Si la dur\u00e9e du contrat de cr\u00e9dit n'est pas connue, le taux annuel effectif global est calcul\u00e9 en partant de l'hypoth\u00e8se que la dur\u00e9e du cr\u00e9dit est de trois mois ; 9\u00b0 Si des taux d'int\u00e9r\u00eat et des frais diff\u00e9rents sont propos\u00e9s pendant une p\u00e9riode limit\u00e9e ou pour un montant limit\u00e9, le taux d'int\u00e9r\u00eat et les frais sont r\u00e9put\u00e9s \u00eatre le taux et les frais les plus \u00e9lev\u00e9s pendant la dur\u00e9e totale du contrat de cr\u00e9dit ; 10\u00b0 Pour les contrats de cr\u00e9dit aux consommateurs pour lesquels un taux d\u00e9biteur fixe a \u00e9t\u00e9 convenu dans le cadre de la p\u00e9riode initiale, \u00e0 la fin de laquelle un nouveau taux d\u00e9biteur est \u00e9tabli et est ensuite p\u00e9riodiquement ajust\u00e9 en fonction d'un indicateur convenu, le calcul du taux annuel effectif global part de l'hypoth\u00e8se que, \u00e0 compter de la fin de la p\u00e9riode \u00e0 taux d\u00e9biteur fixe, le taux d\u00e9biteur est le m\u00eame qu'au moment du calcul du taux annuel effectif global, en fonction de la valeur de l'indicateur convenu \u00e0 ce moment-l\u00e0.",
+            "texteHtml": "<p>Equation de base traduisant l'\u00e9quivalence des pr\u00eats, d'une part, et des remboursements et charges, d'autre part.</p><p>(Formule non reproduite, voir Journal officiel du 11 juin 2002 p. 10357).</p><p>Signification des lettres et symboles :</p><p>K est le num\u00e9ro d'ordre d'un pr\u00eat ;</p><p>K' est le num\u00e9ro d'ordre d'un remboursement ou d'un paiement de charges ;</p><p>AK est le montant du pr\u00eat n\u00b0 K ;</p><p>A'K' est le montant du remboursement ou du paiement de charges n\u00b0 K' ;</p><p>(somme) est le signe indiquant une somme ;</p><p>m est le num\u00e9ro d'ordre du dernier pr\u00eat ;</p><p>m' est le num\u00e9ro d'ordre du dernier remboursement ou du dernier paiement de charges ;</p><p>tK est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celle des pr\u00eats ult\u00e9rieurs n\u00b0 2 \u00e0 m ;</p><p>tK' est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celles des remboursements ou paiements de charges n\u00b0 1 \u00e0 m' ;</p><p>i est le taux effectif global qui peut \u00eatre calcul\u00e9 (soit par l'alg\u00e8bre, soit par approximations successives, soit par un programme d'ordinateur) lorsque les autres termes de l'\u00e9quation sont connus, par le contrat ou autrement.</p><p>Remarques</p><p>a) Les sommes vers\u00e9es de part et d'autre \u00e0 diff\u00e9rents moments ne sont pas n\u00e9cessairement \u00e9gales et ne sont pas n\u00e9cessairement vers\u00e9es \u00e0 des intervalles \u00e9gaux.</p><p>b) La date initiale est celle du premier pr\u00eat.</p><p>c) L'\u00e9cart entre les dates utilis\u00e9es pour le calcul est exprim\u00e9 en ann\u00e9es ou en fractions d'ann\u00e9es. Une ann\u00e9e compte 365 jours, ou, pour les ann\u00e9es bissextiles, 366 jours, 52 semaines ou 12 mois normalis\u00e9s. Un mois normalis\u00e9 compte 30,416 66 jours (c'est-\u00e0-dire 365/12), que l'ann\u00e9e soit bissextile ou non.</p><p>d) Le r\u00e9sultat du calcul est exprim\u00e9 avec une exactitude d'au moins une d\u00e9cimale. Lorsque le chiffre est arrondi \u00e0 une d\u00e9cimale particuli\u00e8re, la r\u00e8gle suivante est d'application : si le chiffre de la d\u00e9cimale suivant cette d\u00e9cimale particuli\u00e8re est sup\u00e9rieur ou \u00e9gal \u00e0 5, le chiffre de cette d\u00e9cimale particuli\u00e8re sera augment\u00e9 de 1.</p><p>Hypoth\u00e8ses</p><p><br/> Le calcul du taux annuel effectif global se fait, le cas \u00e9ch\u00e9ant, conform\u00e9ment aux hypoth\u00e8ses suivantes :<br/><br/> 1\u00b0 Si un contrat de cr\u00e9dit laisse au consommateur le libre choix quant au mode d'utilisation du cr\u00e9dit, le montant total du cr\u00e9dit est r\u00e9put\u00e9 enti\u00e8rement et imm\u00e9diatement utilis\u00e9 ;<br/><br/> 2\u00b0 Si un contrat de cr\u00e9dit offre au consommateur diff\u00e9rentes possibilit\u00e9s quant au mode d'utilisation du cr\u00e9dit, assorties de frais ou de taux d\u00e9biteurs diff\u00e9rents, le montant total du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 au taux d\u00e9biteur le plus \u00e9lev\u00e9 et avec les frais les plus \u00e9lev\u00e9s dans la cat\u00e9gorie d'op\u00e9rations la plus fr\u00e9quemment utilis\u00e9e dans ce type de contrat de cr\u00e9dit ;<br/><br/> 3\u00b0 Si un contrat de cr\u00e9dit laisse en g\u00e9n\u00e9ral au consommateur le libre choix quant au mode d'utilisation du cr\u00e9dit, mais pr\u00e9voit parmi les divers modes d'utilisation une limite quant au montant et \u00e0 la dur\u00e9e, le montant du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 \u00e0 la date la plus proche pr\u00e9vue dans le contrat et conform\u00e9ment \u00e0 ces limites de mode d'utilisation ;<br/><br/> 4\u00b0 Si aucun \u00e9ch\u00e9ancier n'est fix\u00e9 pour le remboursement :<br/><br/> a) Le cr\u00e9dit est r\u00e9put\u00e9 \u00eatre octroy\u00e9 pour une dur\u00e9e d'un an ; et<br/><br/> b) Le montant du cr\u00e9dit est suppos\u00e9 \u00eatre rembours\u00e9 en douze mensualit\u00e9s \u00e9gales ;<br/><br/> 5\u00b0 Si un \u00e9ch\u00e9ancier est fix\u00e9 pour le remboursement, mais que les sommes \u00e0 rembourser varient, le montant de chaque remboursement est r\u00e9put\u00e9 \u00eatre le plus bas pr\u00e9vu dans le contrat ;<br/><br/> 6\u00b0 Sauf stipulation contraire, lorsque le contrat de cr\u00e9dit pr\u00e9voit plusieurs dates de remboursement, le cr\u00e9dit est fourni et les remboursements sont effectu\u00e9s \u00e0 la date la plus proche pr\u00e9vue dans le contrat ;<br/><br/> 7\u00b0 Si le plafond du cr\u00e9dit n'a pas encore \u00e9t\u00e9 arr\u00eat\u00e9, le plafond est suppos\u00e9 \u00eatre de 1 500 \u20ac ;<br/><br/> 8\u00b0 En cas de facilit\u00e9 de d\u00e9couvert, le montant total du cr\u00e9dit est r\u00e9put\u00e9 utilis\u00e9 en totalit\u00e9 et pour la dur\u00e9e totale du contrat de cr\u00e9dit. Si la dur\u00e9e du contrat de cr\u00e9dit n'est pas connue, le taux annuel effectif global est calcul\u00e9 en partant de l'hypoth\u00e8se que la dur\u00e9e du cr\u00e9dit est de trois mois ;<br/><br/> 9\u00b0 Si des taux d'int\u00e9r\u00eat et des frais diff\u00e9rents sont propos\u00e9s pendant une p\u00e9riode limit\u00e9e ou pour un montant limit\u00e9, le taux d'int\u00e9r\u00eat et les frais sont r\u00e9put\u00e9s \u00eatre le taux et les frais les plus \u00e9lev\u00e9s pendant la dur\u00e9e totale du contrat de cr\u00e9dit ;<br/><br/> 10\u00b0 Pour les contrats de cr\u00e9dit aux consommateurs pour lesquels un taux d\u00e9biteur fixe a \u00e9t\u00e9 convenu dans le cadre de la p\u00e9riode initiale, \u00e0 la fin de laquelle un nouveau taux d\u00e9biteur est \u00e9tabli et est ensuite p\u00e9riodiquement ajust\u00e9 en fonction d'un indicateur convenu, le calcul du taux annuel effectif global part de l'hypoth\u00e8se que, \u00e0 compter de la fin de la p\u00e9riode \u00e0 taux d\u00e9biteur fixe, le taux d\u00e9biteur est le m\u00eame qu'au moment du calcul du taux annuel effectif global, en fonction de la valeur de l'indicateur convenu \u00e0 ce moment-l\u00e0. </p>",
+            "num": "Annexe \u00e0 l'article R313-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1304208000000,
+            "dateFin": 1356998400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2017-07-15",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084139",
+                        "id": "LEGISCTA000006084139",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2017-07-15",
+                        "titre": "Livre III : Endettement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114380",
+                        "id": "LEGISCTA000006114380",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2017-07-15",
+                        "titre": "Titre Ier : Cr\u00e9dit",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133645",
+                        "id": "LEGISCTA000006133645",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2016-10-01",
+                        "titre": "Chapitre III : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146624",
+                        "id": "LEGISCTA000006146624",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1995-02-02",
+                        "fin": "2999-01-01",
+                        "titre": "Annexes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084132",
+                        "id": "LEGISCTA000006084132",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2002-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "ANNEXE \u00c0 L'ARTICLE R. 313-1 DU CODE DE LA CONSOMMATION",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114377",
+                        "id": "LEGISCTA000006114377",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "1993-07-27",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la consommation",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069565",
+                        "id": "LEGITEXT000006069565",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006292753",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006114377",
+            "sectionParentId": "LEGISCTA000006114377",
+            "sectionParentTitre": "ANNEXE \u00c0 L'ARTICLE R. 313-1 DU CODE DE LA CONSOMMATION",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Endettement &gt; Titre Ier : Cr\u00e9dit &gt; Chapitre III : Dispositions communes &gt; Annexes &gt; ANNEXE \u00c0 L'ARTICLE R. 313-1 DU CODE DE LA CONSOMMATION",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023520040",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069565",
+                    "titre": "Code de la consommation",
+                    "titreLong": "Code de la consommation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 743731200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069565",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000383100",
+                    "textTitle": "D\u00e9cret n\u00b0 97-298 du 27 mars 1997",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000383100",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1997-04-03",
+                    "dateSignaTexte": "1997-03-27",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000023502888",
+                    "textTitle": "D\u00e9cret n\u00b02011-135\n du 1er f\u00e9vrier 2011 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000023511127",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2011-02-03",
+                    "dateSignaTexte": "2011-02-01",
+                    "dateDebutCible": "2011-05-01"
+                }
+            ],
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006292753",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1025481600000,
+                    "dateFin": 1304208000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023520040",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1304208000000,
+                    "dateFin": 1356998400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000026876050",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1356998400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "Annexe \u00e0 l'article R313-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006292753",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006292753",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Equation de base traduisant l'\u00e9quivalence des pr\u00eats, d'une part, et des remboursements et charges, d'autre part. (Formule non reproduite, voir Journal officiel du 11 juin 2002 p. 10357). Signification des lettres et symboles : K est le num\u00e9ro d'ordre d'un pr\u00eat ; K' est le num\u00e9ro d'ordre d'un remboursement ou d'un paiement de charges ; AK est le montant du pr\u00eat n\u00b0 K ; A'K' est le montant du remboursement ou du paiement de charges n\u00b0 K' ; (somme)  est le signe indiquant une somme ; m est le num\u00e9ro d'ordre du dernier pr\u00eat ; m' est le num\u00e9ro d'ordre du dernier remboursement ou du dernier paiement de charges ; tK est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celle des pr\u00eats ult\u00e9rieurs n\u00b0 2 \u00e0 m ; tK' est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celles des remboursements ou paiements de charges n\u00b0 1 \u00e0 m' ; i est le taux effectif global qui peut \u00eatre calcul\u00e9 (soit par l'alg\u00e8bre, soit par approximations successives, soit par un programme d'ordinateur) lorsque les autres termes de l'\u00e9quation sont connus, par le contrat ou autrement. Remarques a) Les sommes vers\u00e9es de part et d'autre \u00e0 diff\u00e9rents moments ne sont pas n\u00e9cessairement \u00e9gales et ne sont pas n\u00e9cessairement vers\u00e9es \u00e0 des intervalles \u00e9gaux. b) La date initiale est celle du premier pr\u00eat. c) L'\u00e9cart entre les dates utilis\u00e9es pour le calcul est exprim\u00e9 en ann\u00e9es ou en fractions d'ann\u00e9es. Une ann\u00e9e compte 365 jours, ou, pour les ann\u00e9es bissextiles, 366 jours, 52 semaines ou 12 mois normalis\u00e9s. Un mois normalis\u00e9 compte 30,416 66 jours (c'est-\u00e0-dire 365/12), que l'ann\u00e9e soit bissextile ou non. d) Le r\u00e9sultat du calcul est exprim\u00e9 avec une exactitude d'au moins une d\u00e9cimale. Lorsque le chiffre est arrondi \u00e0 une d\u00e9cimale particuli\u00e8re, la r\u00e8gle suivante est d'application : si le chiffre de la d\u00e9cimale suivant cette d\u00e9cimale particuli\u00e8re est sup\u00e9rieur ou \u00e9gal \u00e0 5, le chiffre de cette d\u00e9cimale particuli\u00e8re sera augment\u00e9 de 1.",
+            "texteHtml": "<p>Equation de base traduisant l'\u00e9quivalence des pr\u00eats, d'une part, et des remboursements et charges, d'autre part.</p><p></p><p>(Formule non reproduite, voir Journal officiel du 11 juin 2002 p. 10357).</p><p></p><p>Signification des lettres et symboles :</p><p></p><p>K est le num\u00e9ro d'ordre d'un pr\u00eat ;</p><p></p><p>K' est le num\u00e9ro d'ordre d'un remboursement ou d'un paiement de charges ;</p><p></p><p>AK est le montant du pr\u00eat n\u00b0 K ;</p><p></p><p>A'K' est le montant du remboursement ou du paiement de charges n\u00b0 K' ;</p><p></p><p>(somme)  est le signe indiquant une somme ;</p><p></p><p>m est le num\u00e9ro d'ordre du dernier pr\u00eat ;</p><p></p><p>m' est le num\u00e9ro d'ordre du dernier remboursement ou du dernier paiement de charges ;</p><p></p><p>tK est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celle des pr\u00eats ult\u00e9rieurs n\u00b0 2 \u00e0 m ;</p><p></p><p>tK' est l'intervalle, exprim\u00e9 en ann\u00e9es et fractions d'ann\u00e9es, entre la date du pr\u00eat n\u00b0 1 et celles des remboursements ou paiements de charges n\u00b0 1 \u00e0 m' ;</p><p></p><p>i est le taux effectif global qui peut \u00eatre calcul\u00e9 (soit par l'alg\u00e8bre, soit par approximations successives, soit par un programme d'ordinateur) lorsque les autres termes de l'\u00e9quation sont connus, par le contrat ou autrement.</p><p></p><p>Remarques</p><p></p><p>a) Les sommes vers\u00e9es de part et d'autre \u00e0 diff\u00e9rents moments ne sont pas n\u00e9cessairement \u00e9gales et ne sont pas n\u00e9cessairement vers\u00e9es \u00e0 des intervalles \u00e9gaux.</p><p></p><p>b) La date initiale est celle du premier pr\u00eat.</p><p></p><p>c) L'\u00e9cart entre les dates utilis\u00e9es pour le calcul est exprim\u00e9 en ann\u00e9es ou en fractions d'ann\u00e9es. Une ann\u00e9e compte 365 jours, ou, pour les ann\u00e9es bissextiles, 366 jours, 52 semaines ou 12 mois normalis\u00e9s. Un mois normalis\u00e9 compte 30,416 66 jours (c'est-\u00e0-dire 365/12), que l'ann\u00e9e soit bissextile ou non.</p><p></p><p>d) Le r\u00e9sultat du calcul est exprim\u00e9 avec une exactitude d'au moins une d\u00e9cimale. Lorsque le chiffre est arrondi \u00e0 une d\u00e9cimale particuli\u00e8re, la r\u00e8gle suivante est d'application : si le chiffre de la d\u00e9cimale suivant cette d\u00e9cimale particuli\u00e8re est sup\u00e9rieur ou \u00e9gal \u00e0 5, le chiffre de cette d\u00e9cimale particuli\u00e8re sera augment\u00e9 de 1.</p><p></p>",
+            "num": "Annexe \u00e0 l'article R313-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1025481600000,
+            "dateFin": 1304208000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2017-07-15",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084139",
+                        "id": "LEGISCTA000006084139",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2017-07-15",
+                        "titre": "Livre III : Endettement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114380",
+                        "id": "LEGISCTA000006114380",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2017-07-15",
+                        "titre": "Titre Ier : Cr\u00e9dit",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133645",
+                        "id": "LEGISCTA000006133645",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1997-04-03",
+                        "fin": "2016-10-01",
+                        "titre": "Chapitre III : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146624",
+                        "id": "LEGISCTA000006146624",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1995-02-02",
+                        "fin": "2999-01-01",
+                        "titre": "Annexes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084132",
+                        "id": "LEGISCTA000006084132",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2002-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "ANNEXE \u00c0 L'ARTICLE R. 313-1 DU CODE DE LA CONSOMMATION",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114377",
+                        "id": "LEGISCTA000006114377",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "1993-07-27",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la consommation",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069565",
+                        "id": "LEGITEXT000006069565",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006292753",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006114377",
+            "sectionParentId": "LEGISCTA000006114377",
+            "sectionParentTitre": "ANNEXE \u00c0 L'ARTICLE R. 313-1 DU CODE DE LA CONSOMMATION",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Endettement &gt; Titre Ier : Cr\u00e9dit &gt; Chapitre III : Dispositions communes &gt; Annexes &gt; ANNEXE \u00c0 L'ARTICLE R. 313-1 DU CODE DE LA CONSOMMATION",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006292753",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069565",
+                    "titre": "Code de la consommation",
+                    "titreLong": "Code de la consommation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 743731200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069565",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000383100",
+                    "textTitle": "D\u00e9cret 97-298 1997-03-27 JORF 3 avril 1997",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000383100",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1997-04-03",
+                    "dateSignaTexte": "1997-03-27",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000778655",
+                    "textTitle": "D\u00e9cret 2002-927 2002-06-10 annexe JORF 11 juin 2002 en vigueur le 1er juillet 2002",
+                    "linkType": "CREATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000778655",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2002-06-11",
+                    "dateSignaTexte": "2002-06-10",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006292753",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1025481600000,
+                    "dateFin": 1304208000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023520040",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1304208000000,
+                    "dateFin": 1356998400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000026876050",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1356998400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "Annexe \u00e0 l'article R313-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        }
+    ]
+}
