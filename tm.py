@@ -1,5 +1,7 @@
 from copy import deepcopy
-from commits import ArticleJSON, CodeJSON
+from commits import ArticleJSON, CodeJSON, sorted_versions
+from dataclasses import dataclass
+from collections import OrderedDict
 
 
 def _get_tm_by_path(tm: CodeJSON, path: list[str]) -> CodeJSON:
@@ -14,11 +16,7 @@ def _get_tm_by_path(tm: CodeJSON, path: list[str]) -> CodeJSON:
 
 
 def _dedupe(arr: list[str]):
-    out = []
-    for a in arr:
-        if a not in out:
-            out.append(a)
-    return out
+    return list(OrderedDict.fromkeys(arr))
 
 
 def _parse_version_path(version) -> list[str]:
@@ -31,10 +29,6 @@ def _article_exists_at_path(tm: CodeJSON, path: list[str], article_cid: str) -> 
     section = _get_tm_by_path(tm, path)
     found = [a for a in section["articles"] if a["cid"] == article_cid]
     return len(found) >= 1
-
-
-def _is_version_in_force(version: dict, timestamp: int):
-    return version["dateDebut"] <= timestamp <= version["dateFin"]
 
 
 def _is_path_valid(tm: CodeJSON, path: list[str]) -> bool:
@@ -76,44 +70,93 @@ def patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]):
     return patched_tm
 
 
-def patch_tm_multiple_paths(
-    tm: CodeJSON, articles: list[ArticleJSON], timestamp: int
+@dataclass
+class TMArticlePatch:
+    path: list[str]
+    timestamp_start: int
+    timestamp_end: int
+    type: str  # "ADD" | "REMOVE"
+    article_ref: dict
+
+
+def get_tm_patches(tm: CodeJSON, articles: list[ArticleJSON]) -> list[TMArticlePatch]:
+    patches = []
+    for article in articles:
+        versions = sorted_versions(
+            article
+        )  # versions are now sorted in reverse chronological order and non overlapping
+        article_cid = versions[0]["cid"]
+        paths_dateranges = {}
+        for v in versions:
+            path = tuple(_parse_version_path(v))
+            if (
+                path in paths_dateranges.keys()
+                and paths_dateranges[path]["dateFin"] > v["dateFin"]
+            ):
+                paths_dateranges[path]["dateDebut"] = v["dateDebut"]
+                paths_dateranges[path]["id"] = v["id"]
+            else:
+                paths_dateranges[path] = {
+                    "dateDebut": v["dateDebut"],
+                    "dateFin": v["dateFin"],
+                    "id": v["id"],
+                    "intOrdre": v["ordre"],
+                }
+
+        for raw_path in paths_dateranges.keys():
+            path = list(raw_path)
+            daterange = paths_dateranges[raw_path]
+            if not _article_exists_at_path(tm, path, article_cid):
+                # article must exist at this path -> patch to add
+                patches.append(
+                    TMArticlePatch(
+                        timestamp_start=daterange["dateDebut"],
+                        timestamp_end=daterange["dateFin"],
+                        type="ADD",
+                        path=path,
+                        article_ref={
+                            "cid": article_cid,
+                            "num": versions[0]["num"],
+                            "id": daterange["id"],
+                            "intOrdre": daterange["intOrdre"],
+                        },
+                    )
+                )
+            other_paths = [p for p in paths_dateranges.keys() if p != raw_path]
+            for raw_other_path in other_paths:
+                other_path = list(raw_other_path)
+                # article must not exist at this path -> patch to remove
+                if _article_exists_at_path(tm, other_path, article_cid):
+                    patches.append(
+                        TMArticlePatch(
+                            timestamp_start=daterange["dateDebut"],
+                            timestamp_end=daterange["dateFin"],
+                            type="REMOVE",
+                            path=other_path,
+                            article_ref={"cid": article_cid},
+                        )
+                    )
+
+    return patches
+
+
+def apply_patches(
+    tm: CodeJSON, patches: list[TMArticlePatch], timestamp: int
 ) -> CodeJSON:
     patched_tm = deepcopy(tm)
-
-    for article in articles:
-        versions = [
-            v for v in article["listArticle"] if v["etat"] != "MODIFIE_MORT_NE"
-        ]  # TODO mutualize handling
-        versions_in_force = [v for v in versions if _is_version_in_force(v, timestamp)]
-        if len(versions_in_force) == 0:
-            continue
-
-        v_0 = versions_in_force[0]
-        cid = v_0["cid"]
-
-        all_paths = set(tuple(_parse_version_path(v)) for v in versions)
-        paths_in_force = set(tuple(_parse_version_path(v)) for v in versions_in_force)
-        for raw_path in paths_in_force:
-            path = list(raw_path)
-            if not _article_exists_at_path(patched_tm, path, cid):  # ok
-                article_ref = {
-                    "cid": cid,
-                    "num": v_0["num"],
-                    "id": v_0["id"],
-                    "intOrdre": v_0["ordre"],
-                }
-                _get_tm_by_path(patched_tm, path)["articles"] = sorted(
-                    _get_tm_by_path(patched_tm, path)["articles"] + [article_ref],
-                    key=lambda a: a["intOrdre"],
-                )
-        for raw_path in all_paths - paths_in_force:
-            path = list(raw_path)
-            if _article_exists_at_path(patched_tm, path, cid):
-                _get_tm_by_path(patched_tm, path)["articles"] = [
-                    a
-                    for a in _get_tm_by_path(patched_tm, path)["articles"]
-                    if a["cid"] != cid
-                ]
+    applicable_patches = [
+        p for p in patches if p.timestamp_start <= timestamp <= p.timestamp_end
+    ]
+    for patch in applicable_patches:
+        section = _get_tm_by_path(patched_tm, patch.path)
+        if patch.type == "ADD":
+            section["articles"] = sorted(
+                section["articles"] + [patch.article_ref],
+                key=lambda a: a["intOrdre"],
+            )
+        elif patch.type == "REMOVE":
+            section["articles"] = [
+                a for a in section["articles"] if a["cid"] != patch.article_ref["cid"]
+            ]
 
     return patched_tm

@@ -7,7 +7,11 @@ from typing import Generator
 from tqdm import tqdm
 
 from commits import ArticleJSON, CodeJSON, Commit
-from tm import patch_tm_missing_sections, patch_tm_multiple_paths
+from tm import (
+    apply_patches,
+    get_tm_patches,
+    patch_tm_missing_sections,
+)
 
 
 @dataclass
@@ -84,6 +88,10 @@ def generate_commit_states(
         patch_tm_missing_sections(c, articles_by_code[c["cid"]])
         for c in tqdm(codes, desc="Patching sections TM")
     ]
+    tm_patches = {
+        tm["cid"]: get_tm_patches(tm, articles_by_code[tm["cid"]])
+        for tm in codes_sections_patched
+    }
 
     articles_text: dict[str, str | None] = {}
 
@@ -92,9 +100,7 @@ def generate_commit_states(
 
         code_trees = [
             _tm_to_code_tree(
-                patch_tm_multiple_paths(
-                    tm, articles_by_code[tm["cid"]], commit.timestamp
-                ),
+                apply_patches(tm, tm_patches[tm["cid"]], commit.timestamp),
                 articles_text,
                 commit.timestamp,
             )

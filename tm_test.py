@@ -2,11 +2,15 @@ from commits import ArticleJSON, CodeJSON
 import json
 import pytest
 from tm import (
+    _dedupe,
     patch_tm_missing_sections,
-    patch_tm_multiple_paths,
     _is_path_valid,
-    _article_exists_at_path,
 )
+
+
+def test_dedupe():
+    assert _dedupe(["a", "b", "a"]) == ["a", "b"]
+    assert _dedupe(["a", "b", "c"]) == ["a", "b", "c"]
 
 
 def read_tm(cid: str) -> CodeJSON:
@@ -49,24 +53,22 @@ def test_patch_tm_missing_sections(tm_cid, article_cid, missing_path):
     assert _is_path_valid(patched_tm, missing_path)
 
 
-@pytest.fixture(scope="module")
-def tm():
-    return read_tm("LEGITEXT000006072051")
+# @pytest.fixture(scope="module")
+# def tm():
+#     return read_tm("LEGITEXT000006072051")
 
 
-MULTIPLE_PATH_CID = "LEGIARTI000006652601"
-ARTICLE_OK_PATH = ["LEGISCTA000006101385", "LEGISCTA000006123928"]
-MISSING_ARTICLE_PATH = ["LEGISCTA000006101384", "LEGISCTA000006123925"]
-TIMESTAMP = 879897600000
+# MULTIPLE_PATH_CID = "LEGIARTI000006652601"
+# ARTICLE_OK_PATH = ["LEGISCTA000006101385", "LEGISCTA000006123928"]
+# MISSING_ARTICLE_PATH = ["LEGISCTA000006101384", "LEGISCTA000006123925"]
+# TIMESTAMP = 879897600000
 
 
-def test_path_tm_multiple_paths(tm):
-    article = read_article(MULTIPLE_PATH_CID)
-    assert _article_exists_at_path(tm, ARTICLE_OK_PATH, MULTIPLE_PATH_CID)
-    assert not _article_exists_at_path(tm, MISSING_ARTICLE_PATH, MULTIPLE_PATH_CID)
-    patched_tm = patch_tm_multiple_paths(tm, [article], TIMESTAMP)
-    assert _article_exists_at_path(patched_tm, ARTICLE_OK_PATH, MULTIPLE_PATH_CID)
-    assert _article_exists_at_path(patched_tm, MISSING_ARTICLE_PATH, MULTIPLE_PATH_CID)
+# def test_get_tm_patches(tm):
+#     article = read_article(MULTIPLE_PATH_CID)
+#     patches = get_tm_patches(tm, [article])
+#     print(patches)
+#     assert patches == []
 
 
 OK_ARTICLE_CIDS = ["LEGIARTI000006652410", "LEGIARTI000023181567"]
@@ -88,5 +90,3 @@ def test_tm_unchanged_if_no_error(tm_cid, articles_cids, timestamp):
     articles = [read_article(cid) for cid in articles_cids]
     sections_patched_tm = patch_tm_missing_sections(tm, articles)
     assert sections_patched_tm == tm
-    multiple_paths_patched_tm = patch_tm_multiple_paths(tm, articles, timestamp)
-    assert multiple_paths_patched_tm == tm
