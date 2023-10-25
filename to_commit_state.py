@@ -8,6 +8,7 @@ from tqdm import tqdm
 
 from commits import ArticleJSON, CodeJSON, Commit
 from tm import (
+    CodeTreeStructure,
     apply_patches,
     get_tm_patches,
     patch_tm_missing_sections,
@@ -59,9 +60,7 @@ def _tm_to_code_tree(
         text = articles_text.get(article["cid"])
 
         if text is not None:
-            articles.append(
-                CodeArticle(article["id"], article["cid"], article["num"], text)
-            )
+            articles.append(CodeArticle("TODO", article["cid"], "TODO", text))
 
     sections = []
     for section in tm["sections"]:
@@ -74,7 +73,7 @@ def _tm_to_code_tree(
     #     print(tm["commentaire"])
     #     # TODO
 
-    return CodeTree(tm["id"], tm["cid"], tm["title"], sections, articles)
+    return CodeTree(tm.id, tm.cid, tm.title, sections, articles)
 
 
 def generate_commit_states(

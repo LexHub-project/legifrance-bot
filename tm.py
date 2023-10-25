@@ -1,16 +1,30 @@
-from copy import deepcopy
-from commits import ArticleJSON, CodeJSON, sorted_versions
-from dataclasses import dataclass
+from __future__ import annotations
+
 from collections import OrderedDict
+from copy import deepcopy
+from dataclasses import dataclass
+
+from commits import ArticleJSON, CodeJSON, sorted_versions
 
 
-def _get_tm_by_path(tm: CodeJSON, path: list[str]) -> CodeJSON:
+def _get_tm_by_path(tm: CodeTreeStructure, path: list[str]) -> CodeTreeStructure:
+    if len(path) == 0:
+        return tm
+
+    for section in tm.sections:
+        if section.cid == path[0]:
+            return _get_tm_by_path(section, path[1:])
+
+    raise KeyError(f"Section {path} not found in tm")
+
+
+def _get_tm_by_path2(tm: CodeJSON, path: list[str]) -> CodeJSON:
     if len(path) == 0:
         return tm
 
     for section in tm["sections"]:
         if section["cid"] == path[0]:
-            return _get_tm_by_path(section, path[1:])
+            return _get_tm_by_path2(section, path[1:])
 
     raise KeyError(f"Section {path} not found in tm")
 
@@ -26,14 +40,14 @@ def _parse_version_path(version) -> list[str]:
 
 
 def _article_exists_at_path(tm: CodeJSON, path: list[str], article_cid: str) -> bool:
-    section = _get_tm_by_path(tm, path)
+    section = _get_tm_by_path2(tm, path)
     found = [a for a in section["articles"] if a["cid"] == article_cid]
     return len(found) >= 1
 
 
 def _is_path_valid(tm: CodeJSON, path: list[str]) -> bool:
     try:
-        _get_tm_by_path(tm, path)
+        _get_tm_by_path2(tm, path)
         return True
     except KeyError:
         return False
@@ -48,7 +62,7 @@ def patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]):
             if not _is_path_valid(patched_tm, path):
                 for i in range(len(path)):
                     if not _is_path_valid(patched_tm, path[: i + 1]):
-                        parent_section = _get_tm_by_path(patched_tm, path[:i])
+                        parent_section = _get_tm_by_path2(patched_tm, path[:i])
                         section_cid = path[i]
                         titres_tm = version["context"]["titresTM"]
                         # index can be other than i in case of duplicates in titresTM
@@ -140,23 +154,52 @@ def get_tm_patches(tm: CodeJSON, articles: list[ArticleJSON]) -> list[TMArticleP
     return patches
 
 
+@dataclass
+class CodeTreeStructure:
+    id: str
+    cid: str
+    title: str
+    sections: list[CodeTreeStructure]
+    articles: list[str]
+
+
+def _tm_to_code_tree_structure(tm: CodeJSON) -> CodeTreeStructure:
+    articles = []
+    for article in tm["articles"]:
+        articles.append(article["cid"])
+
+    sections = []
+    for section in tm["sections"]:
+        tree = _tm_to_code_tree_structure(section)
+
+        if tree is not None:
+            sections.append(tree)
+
+    # if "commentaire" in tm and tm["commentaire"] is not None:
+    #     print(tm["commentaire"])
+    #     # TODO
+
+    return CodeTreeStructure(tm["id"], tm["cid"], tm["title"], sections, articles)
+
+
 def apply_patches(
     tm: CodeJSON, patches: list[TMArticlePatch], timestamp: int
-) -> CodeJSON:
-    patched_tm = deepcopy(tm)
-    applicable_patches = [
+) -> CodeTreeStructure:
+    applicable_patches = (
         p for p in patches if p.timestamp_start <= timestamp <= p.timestamp_end
-    ]
+    )
+
+    code_tree_structure = _tm_to_code_tree_structure(tm)
+
     for patch in applicable_patches:
-        section = _get_tm_by_path(patched_tm, patch.path)
+        section = _get_tm_by_path(code_tree_structure, patch.path)
         if patch.type == "ADD":
-            section["articles"] = sorted(
-                section["articles"] + [patch.article_ref],
-                key=lambda a: a["intOrdre"],
-            )
+            section.articles = section.articles + [patch.article_ref["cid"]]
         elif patch.type == "REMOVE":
-            section["articles"] = [
-                a for a in section["articles"] if a["cid"] != patch.article_ref["cid"]
+            section.articles = [
+                a for a in section.articles if a != patch.article_ref["cid"]
             ]
 
-    return patched_tm
+    return code_tree_structure
+
+def get_tms(code_tms: list[CodeJSON], articles_by_code: dict[str, list[ArticleJSON]]) -> list[CodeTreeStructure]:
