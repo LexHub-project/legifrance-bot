@@ -18,7 +18,7 @@ DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d'une portée générale"
 
 
 def _process(
-    code_tms: list[CodeJSON], articles_by_code: dict[str, ArticleJSON]
+    code_tms: list[CodeJSON], articles_by_code: dict[str, list[ArticleJSON]]
 ) -> Generator[StateAtCommit, None, None]:
     articles = [a for v in articles_by_code.values() for a in v]
     commits = get_commits(articles)
@@ -138,11 +138,11 @@ if __name__ == "__main__":
     assert CID_CODE_DU_TRAVAIL_MARITIME in {c["cid"] for c in code_list}
 
     if args.test_code:
-        code_list = [c for c in code_list if c["cid"] == CID_CODE_DU_TRAVAIL_MARITIME]
+        code_list = [c for c in code_list if c["cid"] == "LEGITEXT000006069577"]
 
     code_tms = list(client.fetch_tms(code_list))
 
-    articles_by_code: dict[str, ArticleJSON] = {
+    articles_by_code: dict[str, list[ArticleJSON]] = {
         tm["cid"]: client.fetch_articles(tm) for tm in code_tms
     }
 
