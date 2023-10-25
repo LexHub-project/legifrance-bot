@@ -138,7 +138,9 @@ if __name__ == "__main__":
     assert CID_CODE_DU_TRAVAIL_MARITIME in {c["cid"] for c in code_list}
 
     if args.test_code:
-        code_list = [c for c in code_list if c["cid"] == "LEGITEXT000006069577"]
+        code_list = [
+            c for c in code_list if c["cid"] == CID_CODE_DU_TRAVAIL_MARITIME
+        ]  # "LEGITEXT000006071190"]
 
     code_tms = list(client.fetch_tms(code_list))
 
@@ -147,5 +149,8 @@ if __name__ == "__main__":
     }
 
     states = list(_process(code_tms, articles_by_code))
+
+    # Only states which are in the past. We ignore the future for now.
+    states = [s for s in states if s.timestamp <= datetime.now().timestamp() * 1000]
 
     _build_git_repo(states, args.to_files)
