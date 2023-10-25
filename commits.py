@@ -367,6 +367,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
         "LEGIARTI000006844749",
         "LEGIARTI000006844754",
     }
+    ALLOW_LIST_END_DATE_NOT_ABROGATED = {"LEGIARTI000006313581", "LEGIARTI000048183284"}
 
     last_commit_begin: int = END_TIME
     i = 0
@@ -376,13 +377,17 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     cid = versions[0]["cid"]
 
     if _end(versions[0]) != END_TIME:
-        assert versions[0]["etat"] in {
-            "ABROGE",
-            "ABROGE_DIFF",
-            "PERIME",
-            "ANNULE",
-            "TRANSFERE",
-        }, f"cid: {cid} etat: {versions[0]['etat']}"
+        assert (
+            versions[0]["etat"]
+            in {
+                "ABROGE",
+                "ABROGE_DIFF",
+                "PERIME",
+                "ANNULE",
+                "TRANSFERE",
+            }
+            or cid in ALLOW_LIST_END_DATE_NOT_ABROGATED
+        ), f"cid: {cid} etat: {versions[0]['etat']}"
 
         yield Commit(
             timestamp=_end(versions[0]),

@@ -5,8 +5,9 @@ from datetime import datetime
 from typing import Generator
 
 from tqdm import tqdm
-from tm import patch_tm_missing_sections, patch_tm_multiple_paths
+
 from commits import ArticleJSON, CodeJSON, Commit
+from tm import patch_tm_missing_sections, patch_tm_multiple_paths
 
 
 @dataclass
@@ -85,7 +86,7 @@ def _tm_to_code_tree(
 def generate_commit_states(
     codes: list[CodeJSON],
     commits: list[Commit],
-    articles_by_code: dict[str, ArticleJSON],
+    articles_by_code: dict[str, list[ArticleJSON]],
 ) -> Generator[StateAtCommit, None, None]:
     codes_sections_patched = [
         patch_tm_missing_sections(c, articles_by_code[c["cid"]])
