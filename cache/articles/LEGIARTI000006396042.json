@@ -1,0 +1,914 @@
+{
+    "executionTime": 0,
+    "listArticle": [
+        {
+            "id": "LEGIARTI000046074311",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La documentation g\u00e9n\u00e9rale et les devis doivent comporter l'indication du nom, du repr\u00e9sentant l\u00e9gal, de l'adresse de l'op\u00e9rateur et, le cas \u00e9ch\u00e9ant, son num\u00e9ro d'inscription au registre du commerce ou au Registre national des entreprises en tant qu'entreprise du secteur des m\u00e9tiers et de l'artisanat, ainsi que l'indication de sa forme juridique, de l'habilitation dont il est titulaire et, le cas \u00e9ch\u00e9ant, du montant de son capital. Le contenu de la documentation g\u00e9n\u00e9rale est fix\u00e9 par arr\u00eat\u00e9 du ministre de l'\u00e9conomie.",
+            "texteHtml": "<p>La documentation g\u00e9n\u00e9rale et les devis doivent comporter l'indication du nom, du repr\u00e9sentant l\u00e9gal, de l'adresse de l'op\u00e9rateur et, le cas \u00e9ch\u00e9ant, son num\u00e9ro d'inscription au registre du commerce ou au Registre national des entreprises en tant qu'entreprise du secteur des m\u00e9tiers et de l'artisanat, ainsi que l'indication de sa forme juridique, de l'habilitation dont il est titulaire et, le cas \u00e9ch\u00e9ant, du montant de son capital.</p><p>Le contenu de la documentation g\u00e9n\u00e9rale est fix\u00e9 par arr\u00eat\u00e9 du ministre de l'\u00e9conomie.</p>",
+            "num": "R2223-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1672531200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006088021",
+                        "id": "LEGISCTA000006088021",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "DEUXIEME PARTIE : LA COMMUNE",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006116647",
+                        "id": "LEGISCTA000006116647",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE II : ADMINISTRATION ET SERVICES COMMUNAUX",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006135532",
+                        "id": "LEGISCTA000006135532",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : SERVICES COMMUNAUX",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006149391",
+                        "id": "LEGISCTA000006149391",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2011-01-31",
+                        "titre": "CHAPITRE III : Cimeti\u00e8res et op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006164964",
+                        "id": "LEGISCTA000006164964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-01-31",
+                        "fin": "2999-01-01",
+                        "titre": "CHAPITRE III : Cimeti\u00e8res, sites cin\u00e9raires et op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006164964",
+                        "id": "LEGISCTA000023512847",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2011-01-31",
+                        "titre": "Section 2 : Op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006181438",
+                        "id": "LEGISCTA000006181438",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-01-31",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006181438",
+                        "id": "LEGISCTA000023512845",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 1 : Service des pompes fun\u00e8bres",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006192670",
+                        "id": "LEGISCTA000006192670",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2011-01-31",
+                        "titre": "Paragraphe 1 : R\u00e8glement national des pompes fun\u00e8bres (R)",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006197721",
+                        "id": "LEGISCTA000006197721",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-01-31",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales (R)",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006197721",
+                        "id": "LEGISCTA000023512863",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-paragraphe 1 : Information des familles (R).",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006199197",
+                        "id": "LEGISCTA000006199197",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 59,
+                "titreTxt": [
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006070633",
+                        "id": "LEGITEXT000006070633",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006396042",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006199197",
+            "sectionParentId": "LEGISCTA000006199197",
+            "sectionParentTitre": "Sous-paragraphe 1 : Information des familles (R).",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; DEUXIEME PARTIE : LA COMMUNE &gt; LIVRE II : ADMINISTRATION ET SERVICES COMMUNAUX &gt; TITRE II : SERVICES COMMUNAUX &gt; CHAPITRE III : Cimeti\u00e8res, sites cin\u00e9raires et op\u00e9rations fun\u00e9raires &gt; Section 3 : Op\u00e9rations fun\u00e9raires &gt; Sous-section 1 : Service des pompes fun\u00e8bres &gt; Paragraphe 1 : Dispositions g\u00e9n\u00e9rales (R) &gt; Sous-paragraphe 1 : Information des familles (R).",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000046074311",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006070633",
+                    "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                    "titreLong": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 825120000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006070633",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "Conform\u00e9ment \u00e0 l\u2019article 45 du d\u00e9cret n\u00b0 2022-1014 du 19 juillet 2022, ces dispositions entrent en vigueur \u00e0 compter du 1er janvier 2023.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l\u2019article 45 du d\u00e9cret n\u00b0 2022-1014 du 19 juillet 2022, ces dispositions entrent en vigueur \u00e0 compter du 1er janvier 2023.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000046061058",
+                    "textTitle": "D\u00e9cret n\u00b02022-1014 du 19 juillet 2022 - art. 14",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "14",
+                    "articleId": "LEGIARTI000046062251",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2022-07-20",
+                    "dateSignaTexte": "2022-07-19",
+                    "dateDebutCible": "2022-07-21"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000574776",
+                    "textTitle": "Arr\u00eat\u00e9 du 11 janvier 1999 - art. 4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000024672054",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 916790400000,
+                    "dateDebut": 1318723200000
+                },
+                {
+                    "textCid": "JORFTEXT000024668129",
+                    "textTitle": "Arr\u00eat\u00e9 du 11 octobre 2011 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000024668132",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1318636800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R2223-24 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R2223-24",
+                    "articleId": "LEGIARTI000006396041",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 955238400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000718587",
+                    "textTitle": "D\u00e9cret n\u00b095-653 du 9 mai 1995 - art. 2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006343423",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006396042",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 955238400000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000035525572",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046074311",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R2223-25",
+                "2223-25"
+            ],
+            "versionPrecedente": "LEGIARTI000035525572",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000035525572",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La documentation g\u00e9n\u00e9rale et les devis doivent comporter l'indication du nom, du repr\u00e9sentant l\u00e9gal, de l'adresse de l'op\u00e9rateur et, le cas \u00e9ch\u00e9ant, son num\u00e9ro d'inscription au registre du commerce ou au r\u00e9pertoire des m\u00e9tiers, ainsi que l'indication de sa forme juridique, de l'habilitation dont il est titulaire et, le cas \u00e9ch\u00e9ant, du montant de son capital. Le contenu de la documentation g\u00e9n\u00e9rale est fix\u00e9 par arr\u00eat\u00e9 du ministre de l'\u00e9conomie.",
+            "texteHtml": "<p>La documentation g\u00e9n\u00e9rale et les devis doivent comporter l'indication du nom, du repr\u00e9sentant l\u00e9gal, de l'adresse de l'op\u00e9rateur et, le cas \u00e9ch\u00e9ant, son num\u00e9ro d'inscription au registre du commerce ou au r\u00e9pertoire des m\u00e9tiers, ainsi que l'indication de sa forme juridique, de l'habilitation dont il est titulaire et, le cas \u00e9ch\u00e9ant, du montant de son capital.</p><p>Le contenu de la documentation g\u00e9n\u00e9rale est fix\u00e9 par arr\u00eat\u00e9 du ministre de l'\u00e9conomie.</p>",
+            "num": "R2223-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1514764800000,
+            "dateFin": 1672531200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006088021",
+                        "id": "LEGISCTA000006088021",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "DEUXIEME PARTIE : LA COMMUNE",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006116647",
+                        "id": "LEGISCTA000006116647",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE II : ADMINISTRATION ET SERVICES COMMUNAUX",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006135532",
+                        "id": "LEGISCTA000006135532",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : SERVICES COMMUNAUX",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006149391",
+                        "id": "LEGISCTA000006149391",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2011-01-31",
+                        "titre": "CHAPITRE III : Cimeti\u00e8res et op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006164964",
+                        "id": "LEGISCTA000006164964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-01-31",
+                        "fin": "2999-01-01",
+                        "titre": "CHAPITRE III : Cimeti\u00e8res, sites cin\u00e9raires et op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006164964",
+                        "id": "LEGISCTA000023512847",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2011-01-31",
+                        "titre": "Section 2 : Op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006181438",
+                        "id": "LEGISCTA000006181438",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-01-31",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006181438",
+                        "id": "LEGISCTA000023512845",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 1 : Service des pompes fun\u00e8bres",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006192670",
+                        "id": "LEGISCTA000006192670",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2011-01-31",
+                        "titre": "Paragraphe 1 : R\u00e8glement national des pompes fun\u00e8bres (R)",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006197721",
+                        "id": "LEGISCTA000006197721",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-01-31",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales (R)",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006197721",
+                        "id": "LEGISCTA000023512863",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-paragraphe 1 : Information des familles (R).",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006199197",
+                        "id": "LEGISCTA000006199197",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 59,
+                "titreTxt": [
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006070633",
+                        "id": "LEGITEXT000006070633",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006396042",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006199197",
+            "sectionParentId": "LEGISCTA000006199197",
+            "sectionParentTitre": "Sous-paragraphe 1 : Information des familles (R).",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; DEUXIEME PARTIE : LA COMMUNE &gt; LIVRE II : ADMINISTRATION ET SERVICES COMMUNAUX &gt; TITRE II : SERVICES COMMUNAUX &gt; CHAPITRE III : Cimeti\u00e8res, sites cin\u00e9raires et op\u00e9rations fun\u00e9raires &gt; Section 3 : Op\u00e9rations fun\u00e9raires &gt; Sous-section 1 : Service des pompes fun\u00e8bres &gt; Paragraphe 1 : Dispositions g\u00e9n\u00e9rales (R) &gt; Sous-paragraphe 1 : Information des familles (R).",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000035525572",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006070633",
+                    "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                    "titreLong": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 825120000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006070633",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000034676606",
+                    "textTitle": "D\u00e9cret n\u00b02017-983 du 10 mai 2017 - art. 2",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000034729956",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2017-05-11",
+                    "dateSignaTexte": "2017-05-10",
+                    "dateDebutCible": "2017-05-12"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000574776",
+                    "textTitle": "Arr\u00eat\u00e9 du 11 janvier 1999 - art. 4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000024672054",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 916790400000,
+                    "dateDebut": 1318723200000
+                },
+                {
+                    "textCid": "JORFTEXT000024668129",
+                    "textTitle": "Arr\u00eat\u00e9 du 11 octobre 2011 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000024668132",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1318636800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R2223-24 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R2223-24",
+                    "articleId": "LEGIARTI000006396041",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 955238400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000718587",
+                    "textTitle": "D\u00e9cret n\u00b095-653 du 9 mai 1995 - art. 2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006343423",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006396042",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 955238400000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000035525572",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046074311",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R2223-25",
+                "2223-25"
+            ],
+            "versionPrecedente": "LEGIARTI000006396042",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006396042",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La documentation g\u00e9n\u00e9rale et les devis doivent comporter l'indication du nom, du repr\u00e9sentant l\u00e9gal, de l'adresse de l'op\u00e9rateur et, le cas \u00e9ch\u00e9ant, son num\u00e9ro d'inscription au registre du commerce ou au r\u00e9pertoire des m\u00e9tiers, ainsi que l'indication de sa forme juridique, de l'habilitation dont il est titulaire et, le cas \u00e9ch\u00e9ant, du montant de son capital.",
+            "texteHtml": "<p></p>   La documentation g\u00e9n\u00e9rale et les devis doivent comporter l'indication du nom, du repr\u00e9sentant l\u00e9gal, de l'adresse de l'op\u00e9rateur et, le cas \u00e9ch\u00e9ant, son num\u00e9ro d'inscription au registre du commerce ou au r\u00e9pertoire des m\u00e9tiers, ainsi que l'indication de sa forme juridique, de l'habilitation dont il est titulaire et, le cas \u00e9ch\u00e9ant, du montant de son capital.<p></p><p></p>",
+            "num": "R2223-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 955238400000,
+            "dateFin": 1514764800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006088021",
+                        "id": "LEGISCTA000006088021",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "DEUXIEME PARTIE : LA COMMUNE",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006116647",
+                        "id": "LEGISCTA000006116647",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE II : ADMINISTRATION ET SERVICES COMMUNAUX",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006135532",
+                        "id": "LEGISCTA000006135532",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : SERVICES COMMUNAUX",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006149391",
+                        "id": "LEGISCTA000006149391",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2011-01-31",
+                        "titre": "CHAPITRE III : Cimeti\u00e8res et op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006164964",
+                        "id": "LEGISCTA000006164964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-01-31",
+                        "fin": "2999-01-01",
+                        "titre": "CHAPITRE III : Cimeti\u00e8res, sites cin\u00e9raires et op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006164964",
+                        "id": "LEGISCTA000023512847",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2011-01-31",
+                        "titre": "Section 2 : Op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006181438",
+                        "id": "LEGISCTA000006181438",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-01-31",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Op\u00e9rations fun\u00e9raires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006181438",
+                        "id": "LEGISCTA000023512845",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 1 : Service des pompes fun\u00e8bres",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006192670",
+                        "id": "LEGISCTA000006192670",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2011-01-31",
+                        "titre": "Paragraphe 1 : R\u00e8glement national des pompes fun\u00e8bres (R)",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006197721",
+                        "id": "LEGISCTA000006197721",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-01-31",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales (R)",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006197721",
+                        "id": "LEGISCTA000023512863",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-paragraphe 1 : Information des familles (R).",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006199197",
+                        "id": "LEGISCTA000006199197",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 59,
+                "titreTxt": [
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006070633",
+                        "id": "LEGITEXT000006070633",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006396042",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006199197",
+            "sectionParentId": "LEGISCTA000006199197",
+            "sectionParentTitre": "Sous-paragraphe 1 : Information des familles (R).",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; DEUXIEME PARTIE : LA COMMUNE &gt; LIVRE II : ADMINISTRATION ET SERVICES COMMUNAUX &gt; TITRE II : SERVICES COMMUNAUX &gt; CHAPITRE III : Cimeti\u00e8res, sites cin\u00e9raires et op\u00e9rations fun\u00e9raires &gt; Section 3 : Op\u00e9rations fun\u00e9raires &gt; Sous-section 1 : Service des pompes fun\u00e8bres &gt; Paragraphe 1 : Dispositions g\u00e9n\u00e9rales (R) &gt; Sous-paragraphe 1 : Information des familles (R).",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006396042",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006070633",
+                    "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                    "titreLong": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 825120000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006070633",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000399814",
+                    "textTitle": "D\u00e9cret 2000-318 2000-04-07",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000399814",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2000-04-09",
+                    "dateSignaTexte": "2000-04-07",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000399814",
+                    "textTitle": "D\u00e9cret 2000-318 2000-04-07 jorf 9 avril 2000",
+                    "linkType": "CREATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000399814",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2000-04-09",
+                    "dateSignaTexte": "2000-04-07",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000574776",
+                    "textTitle": "Arr\u00eat\u00e9 du 11 janvier 1999 - art. 4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000024672054",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 916790400000,
+                    "dateDebut": 1318723200000
+                },
+                {
+                    "textCid": "JORFTEXT000024668129",
+                    "textTitle": "Arr\u00eat\u00e9 du 11 octobre 2011 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000024668132",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1318636800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R2223-24 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R2223-24",
+                    "articleId": "LEGIARTI000006396041",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 955238400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000718587",
+                    "textTitle": "D\u00e9cret n\u00b095-653 du 9 mai 1995 - art. 2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006343423",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006396042",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 955238400000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000035525572",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046074311",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R2223-25",
+                "2223-25"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        }
+    ]
+}
