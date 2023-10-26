@@ -80,7 +80,7 @@ def _print_to_one_file_per_code(
     # if "commentaire" in tm and tm["commentaire"] is not None:
     #     print(tm["commentaire"], file=file)
 
-    for article in tree.articles:
+    for article in sorted(tree.articles, key=lambda a: a.int_ordre):
         print(_header(level + 1, _article_to_header_text(article)), file=file)
         print(_resolve_links(article.text, uri_map), file=file)
         print("\n", file=file)

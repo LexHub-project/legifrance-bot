@@ -97,7 +97,7 @@ ALLOWED_WITH_VERSION_SORTING_NOT_MATCHING_TIMESTAMP = {
 }
 
 
-def _sorted_versions(article: ArticleJSON):
+def sorted_versions(article: ArticleJSON):
     versions = list(
         filter(lambda v: v["etat"] != "MODIFIE_MORT_NE", article["listArticle"])
     )
@@ -372,7 +372,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     last_commit_begin: int = END_TIME
     i = 0
 
-    versions = _sorted_versions(article)
+    versions = sorted_versions(article)
     assert len(versions) > 0, article
     cid = versions[0]["cid"]
 

@@ -1,21 +1,34 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime
 from typing import Generator
 
 from tqdm import tqdm
 
 from commits import ArticleJSON, CodeJSON, Commit
-from tm import patch_tm_missing_sections, patch_tm_multiple_paths
+from tm import (
+    CodeTreeStructure,
+    CodeArticleRef,
+    tree_structure_in_force,
+    apply_patches,
+    get_tm_patches,
+    patch_tm_missing_sections,
+)
 
 
 @dataclass
-class CodeArticle:
-    id: str
-    cid: str
-    num: str
-    text: str
+class CodeArticle(CodeArticleRef):
+    text: str | None
+
+    @staticmethod
+    def from_article_ref(article_ref: CodeArticleRef, text: str) -> CodeArticle:
+        return CodeArticle(
+            article_ref.id,
+            article_ref.cid,
+            article_ref.num,
+            article_ref.int_ordre,
+            text,
+        )
 
 
 @dataclass
@@ -34,43 +47,35 @@ class StateAtCommit:
     code_trees: list[CodeTree]
 
 
-def _is_tm_in_force(tm: CodeJSON, timestamp: int) -> bool:
-    if tm.get("nature", None) == "CODE":
-        return True  # root
-
-    start_timestamp = datetime.fromisoformat(f"{tm['dateDebut']} 00:00").timestamp()
-    end_timestamp = datetime.fromisoformat(f"{tm['dateFin']} 23:59").timestamp()
-
-    return start_timestamp <= timestamp / 1000 <= end_timestamp
-
-
-def _tm_to_code_tree(
-    tm: CodeJSON, articles_text: dict[str, str | None], timestamp: int
+def _tree_structure_to_code_tree(
+    tree_structure: CodeTreeStructure,
+    articles_text: dict[str, str | None],
+    timestamp: int,
 ) -> CodeTree | None:
-    if not _is_tm_in_force(tm, timestamp):
+    if not tree_structure_in_force(tree_structure, timestamp):
         return None
 
     articles = []
-    for article in tm["articles"]:
-        text = articles_text.get(article["cid"])
+    for article_ref in tree_structure.articles:
+        text = articles_text.get(article_ref.cid)
 
         if text is not None:
-            articles.append(
-                CodeArticle(article["id"], article["cid"], article["num"], text)
-            )
+            articles.append(CodeArticle.from_article_ref(article_ref, text))
 
     sections = []
-    for section in tm["sections"]:
-        tree = _tm_to_code_tree(section, articles_text, timestamp)
+    for section in tree_structure.sections:
+        tree = _tree_structure_to_code_tree(section, articles_text, timestamp)
 
         if tree is not None:
             sections.append(tree)
 
-    # if "commentaire" in tm and tm["commentaire"] is not None:
-    #     print(tm["commentaire"])
+    # if "commentaire" in tree_structure and tree_structure["commentaire"] is not None:
+    #     print(tree_structure["commentaire"])
     #     # TODO
 
-    return CodeTree(tm["id"], tm["cid"], tm["title"], sections, articles)
+    return CodeTree(
+        tree_structure.id, tree_structure.cid, tree_structure.title, sections, articles
+    )
 
 
 def generate_commit_states(
@@ -84,23 +89,26 @@ def generate_commit_states(
         patch_tm_missing_sections(c, articles_by_code[c["cid"]])
         for c in tqdm(codes, desc="Patching sections TM")
     ]
+    tm_patches = {
+        tm["cid"]: get_tm_patches(tm, articles_by_code[tm["cid"]])
+        for tm in codes_sections_patched
+    }
 
     articles_text: dict[str, str | None] = {}
 
     for commit in tqdm(commits, desc="Converting to Code Tree"):
         articles_text.update(commit.article_changes)
-
-        code_trees = [
-            _tm_to_code_tree(
-                patch_tm_multiple_paths(
-                    tm, articles_by_code[tm["cid"]], commit.timestamp
-                ),
-                articles_text,
-                commit.timestamp,
-            )
+        code_tree_structures = [
+            apply_patches(tm, tm_patches[tm["cid"]], commit.timestamp)
             for tm in codes_sections_patched
         ]
-        assert None not in code_trees
+        code_trees = [
+            _tree_structure_to_code_tree(
+                tree_structure, articles_text, commit.timestamp
+            )
+            for tree_structure in code_tree_structures
+        ]
+        assert None not in code_tree_structures
 
         yield StateAtCommit(
             title=commit.title,
