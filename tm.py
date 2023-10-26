@@ -4,28 +4,31 @@ from collections import OrderedDict
 from copy import deepcopy
 from dataclasses import dataclass
 from datetime import datetime
+from typing import Literal
 
 from commits import ArticleJSON, CodeJSON, sorted_versions
 
 
-def _get_tm_by_path(tm: CodeTreeStructure, path: list[str]) -> CodeTreeStructure:
+def _get_tree_strucutre_by_path(
+    tm: CodeTreeStructure, path: list[str]
+) -> CodeTreeStructure:
     if len(path) == 0:
         return tm
 
     for section in tm.sections:
         if section.cid == path[0]:
-            return _get_tm_by_path(section, path[1:])
+            return _get_tree_strucutre_by_path(section, path[1:])
 
     raise KeyError(f"Section {path} not found in tm")
 
 
-def _get_tm_by_path2(tm: CodeJSON, path: list[str]) -> CodeJSON:
+def _get_tm_by_path(tm: CodeJSON, path: list[str]) -> CodeJSON:
     if len(path) == 0:
         return tm
 
     for section in tm["sections"]:
         if section["cid"] == path[0]:
-            return _get_tm_by_path2(section, path[1:])
+            return _get_tm_by_path(section, path[1:])
 
     raise KeyError(f"Section {path} not found in tm")
 
@@ -41,14 +44,14 @@ def _parse_version_path(version) -> list[str]:
 
 
 def _article_exists_at_path(tm: CodeJSON, path: list[str], article_cid: str) -> bool:
-    section = _get_tm_by_path2(tm, path)
+    section = _get_tm_by_path(tm, path)
     found = [a for a in section["articles"] if a["cid"] == article_cid]
     return len(found) >= 1
 
 
 def _is_path_valid(tm: CodeJSON, path: list[str]) -> bool:
     try:
-        _get_tm_by_path2(tm, path)
+        _get_tm_by_path(tm, path)
         return True
     except KeyError:
         return False
@@ -63,7 +66,7 @@ def patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]) -> Code
             if not _is_path_valid(patched_tm, path):
                 for i in range(len(path)):
                     if not _is_path_valid(patched_tm, path[: i + 1]):
-                        parent_section = _get_tm_by_path2(patched_tm, path[:i])
+                        parent_section = _get_tm_by_path(patched_tm, path[:i])
                         section_cid = path[i]
                         titres_tm = version["context"]["titresTM"]
                         # index can be other than i in case of duplicates in titresTM
@@ -90,12 +93,10 @@ class TMArticlePatch:
     path: list[str]
     timestamp_start: int
     timestamp_end: int
-    type: str  # "ADD" | "REMOVE"
+    type: Literal["ADD"] | Literal["REMOVE"]
     article_ref: CodeArticleRef
 
 
-# @change -> must create a commit for start and one for end, each patch must have only one timestamp
-# rename to get tm changes
 def get_tm_patches(tm: CodeJSON, articles: list[ArticleJSON]) -> list[TMArticlePatch]:
     patches = []
     for article in articles:
@@ -220,15 +221,6 @@ def _tm_to_code_tree_structure(tm: CodeJSON) -> CodeTreeStructure:
     )
 
 
-@dataclass
-class TMChange:
-    path: list[str]
-    timestamp: int
-    type: str  # "ADD" | "REMOVE"
-    article_ref: dict
-
-
-# @change : must take CodeTreeStructure instead of CodeJSON
 def apply_patches(
     tm: CodeJSON, patches: list[TMArticlePatch], timestamp: int
 ) -> CodeTreeStructure:
@@ -239,7 +231,7 @@ def apply_patches(
     code_tree_structure = _tm_to_code_tree_structure(tm)
 
     for patch in applicable_patches:
-        section = _get_tm_by_path(code_tree_structure, patch.path)
+        section = _get_tree_strucutre_by_path(code_tree_structure, patch.path)
         if patch.type == "ADD":
             section.articles = section.articles + [patch.article_ref]
         elif patch.type == "REMOVE":
@@ -248,6 +240,3 @@ def apply_patches(
             ]
 
     return code_tree_structure
-
-
-# def get_tms(code_tms: list[CodeJSON], articles_by_code: dict[str, list[ArticleJSON]]) -> list[CodeTreeStructure]:

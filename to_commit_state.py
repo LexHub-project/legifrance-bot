@@ -81,9 +81,7 @@ def _tree_structure_to_code_tree(
 def generate_commit_states(
     codes: list[CodeJSON],
     commits: list[Commit],
-    articles_by_code: dict[
-        str, list[ArticleJSON]
-    ],  # code_changes : dict[str, CodeChange],
+    articles_by_code: dict[str, list[ArticleJSON]],
 ) -> Generator[StateAtCommit, None, None]:
     assert len(commits) > 0
 
@@ -100,7 +98,6 @@ def generate_commit_states(
 
     for commit in tqdm(commits, desc="Converting to Code Tree"):
         articles_text.update(commit.article_changes)
-        # code_trees.update(commit.code_changes)
         code_tree_structures = [
             apply_patches(tm, tm_patches[tm["cid"]], commit.timestamp)
             for tm in codes_sections_patched
