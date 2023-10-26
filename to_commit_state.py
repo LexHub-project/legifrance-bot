@@ -98,7 +98,7 @@ def generate_commit_states(
 
     articles_text: dict[str, str | None] = {}
 
-    for i, commit in enumerate(tqdm(commits, desc="Converting to Code Tree")):
+    for commit in tqdm(commits, desc="Converting to Code Tree"):
         articles_text.update(commit.article_changes)
         # code_trees.update(commit.code_changes)
         code_tree_structures = [
