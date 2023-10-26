@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import OrderedDict
 from copy import deepcopy
 from dataclasses import dataclass
+from datetime import datetime
 
 from commits import ArticleJSON, CodeJSON, sorted_versions
 
@@ -93,6 +94,8 @@ class TMArticlePatch:
     article_ref: dict
 
 
+# @change -> must create a commit for start and one for end, each patch must have only one timestamp
+# rename to get tm changes
 def get_tm_patches(tm: CodeJSON, articles: list[ArticleJSON]) -> list[TMArticlePatch]:
     patches = []
     for article in articles:
@@ -155,18 +158,35 @@ def get_tm_patches(tm: CodeJSON, articles: list[ArticleJSON]) -> list[TMArticleP
 
 
 @dataclass
+class CodeArticleRef:
+    id: str
+    cid: str
+    num: str
+    intOrdre: int
+
+
+@dataclass
 class CodeTreeStructure:
     id: str
     cid: str
     title: str
+    timestamp_start: int
+    timestamp_end: int
     sections: list[CodeTreeStructure]
-    articles: list[str]
+    articles: list[CodeArticleRef]
+
+    def in_force(self, timestamp: int) -> bool:
+        return self.timestamp_start <= timestamp <= self.timestamp_end
 
 
 def _tm_to_code_tree_structure(tm: CodeJSON) -> CodeTreeStructure:
     articles = []
     for article in tm["articles"]:
-        articles.append(article["cid"])
+        articles.append(
+            CodeArticleRef(
+                article["id"], article["cid"], article["num"], article["intOrdre"]
+            )
+        )
 
     sections = []
     for section in tm["sections"]:
@@ -175,13 +195,31 @@ def _tm_to_code_tree_structure(tm: CodeJSON) -> CodeTreeStructure:
         if tree is not None:
             sections.append(tree)
 
-    # if "commentaire" in tm and tm["commentaire"] is not None:
-    #     print(tm["commentaire"])
-    #     # TODO
+    if tm["nature"] == "CODE":  # root
+        start_timestamp = -5364662961000
+        end_timestamp = 32472140400000
+    start_timestamp = datetime.fromisoformat(tm["dateDebut"]).timestamp() * 1000
+    end_timestamp = datetime.fromisoformat(tm["dateFin"]).timestamp() * 1000
+    return CodeTreeStructure(
+        tm["id"],
+        tm["cid"],
+        tm["title"],
+        start_timestamp,
+        end_timestamp,
+        sections,
+        articles,
+    )
 
-    return CodeTreeStructure(tm["id"], tm["cid"], tm["title"], sections, articles)
+
+@dataclass
+class TMChange:
+    path: list[str]
+    timestamp: int
+    type: str  # "ADD" | "REMOVE"
+    article_ref: dict
 
 
+# @change : must take CodeTreeStructure instead of CodeJSON
 def apply_patches(
     tm: CodeJSON, patches: list[TMArticlePatch], timestamp: int
 ) -> CodeTreeStructure:
@@ -202,4 +240,5 @@ def apply_patches(
 
     return code_tree_structure
 
-def get_tms(code_tms: list[CodeJSON], articles_by_code: dict[str, list[ArticleJSON]]) -> list[CodeTreeStructure]:
+
+# def get_tms(code_tms: list[CodeJSON], articles_by_code: dict[str, list[ArticleJSON]]) -> list[CodeTreeStructure]:
