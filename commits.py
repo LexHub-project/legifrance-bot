@@ -3,16 +3,51 @@ import re
 from dataclasses import dataclass
 from difflib import SequenceMatcher
 from typing import Generator
+from collections import OrderedDict
+import unicodedata
 
 ArticleJSON = dict
 CodeJSON = dict
 CodeListJSON = list[dict]
 
 
+def slugify(value, allow_unicode=False):
+    """
+    Taken from https://github.com/django/django/blob/master/django/utils/text.py
+    Convert to ASCII if 'allow_unicode' is False. Convert spaces or repeated
+    dashes to single dashes. Remove characters that aren't alphanumerics,
+    underscores, or hyphens. Convert to lowercase. Also strip leading and
+    trailing whitespace, dashes, and underscores.
+    """
+    value = str(value)
+    if allow_unicode:
+        value = unicodedata.normalize("NFKC", value)
+    else:
+        value = (
+            unicodedata.normalize("NFKD", value)
+            .encode("ascii", "ignore")
+            .decode("ascii")
+        )
+    value = re.sub(r"[^\w\s-]", "", value.lower())
+    return re.sub(r"[-\s]+", "-", value).strip("-_")
+
+
 @dataclass
 class TextCidAndTitle:
     cid: str
     title: str
+
+
+def _dedupe(arr: list[str]):  # TODO mutualize with tm.py
+    return list(OrderedDict.fromkeys(arr))
+
+
+def _version_uri(version: dict):
+    titles: list[str] = [version["textTitles"][0]["titre"]] + [
+        t["titre"] for t in version["context"]["titresTM"]
+    ]
+    file_name = f"{slugify(version['num'])}.md"
+    return "/".join(_dedupe([slugify(t) for t in titles] + [file_name]))
 
 
 @dataclass
@@ -22,6 +57,7 @@ class Commit:
 
     # None means abrogated
     article_changes: dict[str, str | None]
+    article_moves: dict[str, str]
 
     @property
     def title(self):
@@ -375,6 +411,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     versions = sorted_versions(article)
     assert len(versions) > 0, article
     cid = versions[0]["cid"]
+    uri = _version_uri(versions[0])
 
     if _end(versions[0]) != END_TIME:
         assert (
@@ -395,13 +432,18 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
                 TextCidAndTitle(cid=lm["textCid"], title=lm["textTitle"])
                 for lm in versions[0]["lienModifications"]
             ],
-            article_changes={cid: None},
+            article_changes={uri: None},
+            article_moves={},
         )
 
         last_commit_begin = _end(versions[0])
 
     while i < len(versions):
         v = versions[i]
+        new_uri = _version_uri(v)
+        article_moves = {}
+        if new_uri != uri:
+            article_moves[uri] = new_uri
 
         assert _begin(v) < _end(v)
 
@@ -432,7 +474,8 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
             yield Commit(
                 timestamp=_begin(v),
                 modified_by=modified_by,
-                article_changes={cid: html},
+                article_changes={uri: html},
+                article_moves=article_moves,
             )
 
             last_commit_begin = _begin(v)
@@ -444,11 +487,13 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
                 timestamp=_end(v),
                 modified_by=[],
                 article_changes={
-                    cid: f"⚠️Missing data from [legifrance](https://www.legifrance.gouv.fr/codes/article_lc/{cid})⚠️"
+                    uri: f"⚠️Missing data from [legifrance](https://www.legifrance.gouv.fr/codes/article_lc/{cid})⚠️"
                 },
+                article_moves=article_moves,
             )
 
             last_commit_begin = _end(v)
+        uri = new_uri
 
 
 def _merge_commits(all_commits: list[Commit]) -> Generator[Commit, None, None]:
@@ -466,18 +511,26 @@ def _merge_commits(all_commits: list[Commit]) -> Generator[Commit, None, None]:
         )
 
         article_changes: dict[str, str | None] = {}
+        article_moves: dict[str, str] = {}
         for c in to_merge:
-            for cid, text in c.article_changes.items():
+            for uri, text in c.article_changes.items():
                 assert (
-                    cid not in article_changes
-                ), f"several commits change {cid} at timestamp {timestamp}"
+                    uri not in article_changes
+                ), f"several commits change {uri} at timestamp {timestamp}"
 
-                article_changes[cid] = text
+                article_changes[uri] = text
+            for from_uri, to_uri in c.article_moves.items():
+                assert (
+                    from_uri not in article_moves
+                ), f"several moves for {from_uri} at timestamp {timestamp}"
+
+                article_moves[from_uri] = to_uri
 
         yield Commit(
             timestamp=timestamp,
             modified_by=modified_by,
             article_changes=article_changes,
+            article_moves=article_moves,
         )
 
 
@@ -494,8 +547,8 @@ def _clean_html(html: str | None) -> str | None:
 
 def _clean_commits(commits: list[Commit]):
     for commit in commits:
-        for cid in commit.article_changes:
-            commit.article_changes[cid] = _clean_html(commit.article_changes[cid])
+        for uri in commit.article_changes:
+            commit.article_changes[uri] = _clean_html(commit.article_changes[uri])
 
 
 def get_commits(articles: list[ArticleJSON]) -> list[Commit]:
