@@ -375,10 +375,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     versions = sorted_versions(article)
     assert len(versions) > 0, article
     cid = versions[0]["cid"]
-    # TODO
-    exceptions = ["LEGIARTI000048183284", "LEGIARTI000006313581"]
-    if cid in exceptions:
-        return
+
     if _end(versions[0]) != END_TIME:
         assert (
             versions[0]["etat"]

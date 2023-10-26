@@ -119,7 +119,6 @@ def get_tm_patches(tm: CodeJSON, articles: list[ArticleJSON]) -> list[TMArticleP
                     "id": v["id"],
                     "int_ordre": v["ordre"],
                 }
-
         for raw_path in paths_dateranges.keys():
             path = list(raw_path)
             daterange = paths_dateranges[raw_path]
@@ -187,7 +186,9 @@ def _get_section_timestamps(tm: CodeJSON) -> tuple[int, int]:
         timestamp_end = 32472140400000
     else:
         timestamp_start = datetime.fromisoformat(tm["dateDebut"]).timestamp() * 1000
-        timestamp_end = datetime.fromisoformat(tm["dateFin"]).timestamp() * 1000
+        timestamp_end = (
+            datetime.fromisoformat(tm["dateFin"] + " 23:59").timestamp() * 1000
+        )
     return timestamp_start, timestamp_end
 
 
