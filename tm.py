@@ -54,7 +54,7 @@ def _is_path_valid(tm: CodeJSON, path: list[str]) -> bool:
         return False
 
 
-def patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]):
+def patch_tm_missing_sections(tm: CodeJSON, articles: list[ArticleJSON]) -> CodeJSON:
     patched_tm = deepcopy(tm)
     for article in articles:
         versions = article["listArticle"]
@@ -91,7 +91,7 @@ class TMArticlePatch:
     timestamp_start: int
     timestamp_end: int
     type: str  # "ADD" | "REMOVE"
-    article_ref: dict
+    article_ref: CodeArticleRef
 
 
 # @change -> must create a commit for start and one for end, each patch must have only one timestamp
@@ -117,12 +117,18 @@ def get_tm_patches(tm: CodeJSON, articles: list[ArticleJSON]) -> list[TMArticleP
                     "dateDebut": v["dateDebut"],
                     "dateFin": v["dateFin"],
                     "id": v["id"],
-                    "intOrdre": v["ordre"],
+                    "int_ordre": v["ordre"],
                 }
 
         for raw_path in paths_dateranges.keys():
             path = list(raw_path)
             daterange = paths_dateranges[raw_path]
+            article_ref = CodeArticleRef(
+                id=daterange["id"],
+                cid=article_cid,
+                num=versions[0]["num"],
+                int_ordre=daterange["int_ordre"],
+            )
             if not _article_exists_at_path(tm, path, article_cid):
                 # article must exist at this path -> patch to add
                 patches.append(
@@ -131,12 +137,7 @@ def get_tm_patches(tm: CodeJSON, articles: list[ArticleJSON]) -> list[TMArticleP
                         timestamp_end=daterange["dateFin"],
                         type="ADD",
                         path=path,
-                        article_ref={
-                            "cid": article_cid,
-                            "num": versions[0]["num"],
-                            "id": daterange["id"],
-                            "intOrdre": daterange["intOrdre"],
-                        },
+                        article_ref=article_ref,
                     )
                 )
             other_paths = [p for p in paths_dateranges.keys() if p != raw_path]
@@ -150,7 +151,7 @@ def get_tm_patches(tm: CodeJSON, articles: list[ArticleJSON]) -> list[TMArticleP
                             timestamp_end=daterange["dateFin"],
                             type="REMOVE",
                             path=other_path,
-                            article_ref={"cid": article_cid},
+                            article_ref=article_ref,
                         )
                     )
 
@@ -162,7 +163,7 @@ class CodeArticleRef:
     id: str
     cid: str
     num: str
-    intOrdre: int
+    int_ordre: int
 
 
 @dataclass
@@ -175,8 +176,19 @@ class CodeTreeStructure:
     sections: list[CodeTreeStructure]
     articles: list[CodeArticleRef]
 
-    def in_force(self, timestamp: int) -> bool:
-        return self.timestamp_start <= timestamp <= self.timestamp_end
+
+def tree_structure_in_force(tm: CodeTreeStructure, timestamp: int) -> bool:
+    return tm.timestamp_start <= timestamp <= tm.timestamp_end
+
+
+def _get_section_timestamps(tm: CodeJSON) -> tuple[int, int]:
+    if tm.get("nature", None) == "CODE":  # root, no timestamps, set to min/max
+        timestamp_start = -5364662961000
+        timestamp_end = 32472140400000
+    else:
+        timestamp_start = datetime.fromisoformat(tm["dateDebut"]).timestamp() * 1000
+        timestamp_end = datetime.fromisoformat(tm["dateFin"]).timestamp() * 1000
+    return timestamp_start, timestamp_end
 
 
 def _tm_to_code_tree_structure(tm: CodeJSON) -> CodeTreeStructure:
@@ -195,17 +207,13 @@ def _tm_to_code_tree_structure(tm: CodeJSON) -> CodeTreeStructure:
         if tree is not None:
             sections.append(tree)
 
-    if tm["nature"] == "CODE":  # root
-        start_timestamp = -5364662961000
-        end_timestamp = 32472140400000
-    start_timestamp = datetime.fromisoformat(tm["dateDebut"]).timestamp() * 1000
-    end_timestamp = datetime.fromisoformat(tm["dateFin"]).timestamp() * 1000
+    timestamp_start, timestamp_end = _get_section_timestamps(tm)
     return CodeTreeStructure(
         tm["id"],
         tm["cid"],
         tm["title"],
-        start_timestamp,
-        end_timestamp,
+        timestamp_start,
+        timestamp_end,
         sections,
         articles,
     )
@@ -232,10 +240,10 @@ def apply_patches(
     for patch in applicable_patches:
         section = _get_tm_by_path(code_tree_structure, patch.path)
         if patch.type == "ADD":
-            section.articles = section.articles + [patch.article_ref["cid"]]
+            section.articles = section.articles + [patch.article_ref]
         elif patch.type == "REMOVE":
             section.articles = [
-                a for a in section.articles if a != patch.article_ref["cid"]
+                a for a in section.articles if a.cid != patch.article_ref.cid
             ]
 
     return code_tree_structure
