@@ -14,19 +14,11 @@ OUTPUT_REPO_PATH = "./output"
 DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d'une portée générale"
 
 
-def _yield_entries_from_flatten_dict(d: dict | str, paths=[]):
-    if isinstance(d, dict):
-        for path, content in d.items():
-            yield from _yield_entries_from_flatten_dict(content, paths + [path])
-    else:
-        yield os.path.join(*paths), d
-
-
 DATE_DUMP_GENERATED = datetime.now().isoformat()
 
 
-def _build_git_repo_readme():
-    with open(f"{OUTPUT_REPO_PATH}/README.md", "w") as f:
+def _build_git_repo_readme(output_repo_path: str = OUTPUT_REPO_PATH):
+    with open(f"{output_repo_path}/README.md", "w") as f:
         f.write(
             f"""
 # Legifrance Github Clone
@@ -56,38 +48,37 @@ def _ensure_dir_exists(uri: str):
                 os.mkdir(p)
 
 
-def _build_git_repo(commits: list[Commit]):
-    subprocess.run(["rm", "-rf", OUTPUT_REPO_PATH])
-    os.makedirs(OUTPUT_REPO_PATH, exist_ok=True)
-    subprocess.run(["git", "init", OUTPUT_REPO_PATH])
+def _init_repo(output_repo_path: str = OUTPUT_REPO_PATH):
+    subprocess.run(["rm", "-rf", output_repo_path])
+    os.makedirs(output_repo_path, exist_ok=True)
+    subprocess.run(["git", "init", output_repo_path])
+    _build_git_repo_readme(output_repo_path)
+    subprocess.call(["git", "add", "README.md"], cwd=output_repo_path)
 
+
+def _play_commits(commits: list[Commit], output_repo_path: str = OUTPUT_REPO_PATH):
     tz = pytz.timezone("UTC")
 
     for i, c in enumerate(commits):
-        # print(c)
-        # input("Press Enter to continue...")
-        if i == 0:
-            _build_git_repo_readme()
-            subprocess.call(["git", "add", "README.md"], cwd=OUTPUT_REPO_PATH)
         for uri, text in c.article_changes.items():
             # update
             if text is not None:
                 # ensure dir exists or create it
-                full_uri = f"{OUTPUT_REPO_PATH}/{uri}"
+                full_uri = f"{output_repo_path}/{uri}"
                 _ensure_dir_exists(full_uri)
                 # write file
                 with open(full_uri, "w") as f:
                     f.write(text)
-                subprocess.run(["git", "add", uri], cwd=OUTPUT_REPO_PATH)
+                subprocess.run(["git", "add", uri], cwd=output_repo_path)
             else:
-                subprocess.run(["git", "rm", uri], cwd=OUTPUT_REPO_PATH)
+                subprocess.run(["git", "rm", uri], cwd=output_repo_path)
 
             if uri in c.article_moves:
-                full_uri = os.path.join(OUTPUT_REPO_PATH, c.article_moves[uri])
+                full_uri = os.path.join(output_repo_path, c.article_moves[uri])
                 _ensure_dir_exists(full_uri)
                 subprocess.run(
                     ["git", "mv", "-f", uri, c.article_moves[uri]],
-                    cwd=OUTPUT_REPO_PATH,
+                    cwd=output_repo_path,
                 )
 
         # TODO ms vs s
@@ -115,7 +106,7 @@ def _build_git_repo(commits: list[Commit]):
                 c.title or DEFAULT_COMMIT_MESSAGE,
             ],
             env=env,
-            cwd=OUTPUT_REPO_PATH,
+            cwd=output_repo_path,
         )
 
 
@@ -162,4 +153,5 @@ if __name__ == "__main__":
     articles = [a for v in articles_by_code.values() for a in v]
     commits = get_commits(articles)
 
-    _build_git_repo(commits)
+    _init_repo()
+    _play_commits(commits)
