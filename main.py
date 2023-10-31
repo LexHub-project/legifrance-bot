@@ -70,11 +70,6 @@ def _build_git_repo(commits: list[Commit]):
             _build_git_repo_readme()
             subprocess.call(["git", "add", "README.md"], cwd=OUTPUT_REPO_PATH)
         for uri, text in c.article_changes.items():
-            if uri.endswith("/34.md"):
-                print("\n\n", f"== {34} ==")
-                print(text)
-                print(c.article_moves)
-                input("Press Enter to continue...")
             # update
             if text is not None:
                 # ensure dir exists or create it
@@ -85,26 +80,15 @@ def _build_git_repo(commits: list[Commit]):
                     f.write(text)
                 subprocess.run(["git", "add", uri], cwd=OUTPUT_REPO_PATH)
             else:
-                try:
-                    subprocess.check_output(["git", "rm", uri], cwd=OUTPUT_REPO_PATH)
-                except subprocess.CalledProcessError as e:
-                    print(f"@delete {uri}")
-                    print(e.output)
-                    input("Press Enter to continue...")
+                subprocess.run(["git", "rm", uri], cwd=OUTPUT_REPO_PATH)
+
             if uri in c.article_moves:
-                assert uri != c.article_moves[uri]
-                try:
-                    full_uri = os.path.join(OUTPUT_REPO_PATH, c.article_moves[uri])
-                    _ensure_dir_exists(full_uri)
-                    subprocess.check_output(
-                        ["git", "mv", "-f", uri, c.article_moves[uri]],
-                        cwd=OUTPUT_REPO_PATH,
-                    )
-                except subprocess.CalledProcessError as e:
-                    print("@from", uri)
-                    print("@to", c.article_moves[uri])
-                    print("error", e.output)
-                    input("Press Enter to continue...")
+                full_uri = os.path.join(OUTPUT_REPO_PATH, c.article_moves[uri])
+                _ensure_dir_exists(full_uri)
+                subprocess.run(
+                    ["git", "mv", "-f", uri, c.article_moves[uri]],
+                    cwd=OUTPUT_REPO_PATH,
+                )
 
         # TODO ms vs s
         date_dt = datetime.fromtimestamp(math.floor(c.timestamp / 1000), tz)
