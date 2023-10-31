@@ -38,7 +38,7 @@ class TextCidAndTitle:
     title: str
 
 
-def _dedupe(arr: list[str]):  # TODO mutualize with tm.py
+def _dedupe(arr: list[str]):
     return list(OrderedDict.fromkeys(arr))
 
 
