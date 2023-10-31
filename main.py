@@ -6,7 +6,6 @@ from datetime import datetime
 
 import pytz
 
-from commit_state_to_md import to_one_file_per_article, to_one_file_per_code
 from commits import ArticleJSON, get_commits, Commit
 from constants import CID_CODE_DU_TRAVAIL_MARITIME
 from fetch_data import CachedLegifranceClient
@@ -47,6 +46,16 @@ https://piste.gouv.fr/, mise à jour à {DATE_DUMP_GENERATED} »
         )
 
 
+def _ensure_dir_exists(uri: str):
+    parent_path = os.path.dirname(uri)
+    if not os.path.isdir(parent_path):
+        dirs = parent_path.split(os.sep)
+        for i in range(len(dirs)):
+            p = os.path.join(*dirs[: i + 1])
+            if not os.path.isdir(p):
+                os.mkdir(p)
+
+
 def _build_git_repo(commits: list[Commit]):
     subprocess.run(["rm", "-rf", OUTPUT_REPO_PATH])
     os.makedirs(OUTPUT_REPO_PATH, exist_ok=True)
@@ -61,26 +70,41 @@ def _build_git_repo(commits: list[Commit]):
             _build_git_repo_readme()
             subprocess.call(["git", "add", "README.md"], cwd=OUTPUT_REPO_PATH)
         for uri, text in c.article_changes.items():
+            if uri.endswith("/34.md"):
+                print("\n\n", f"== {34} ==")
+                print(text)
+                print(c.article_moves)
+                input("Press Enter to continue...")
             # update
             if text is not None:
                 # ensure dir exists or create it
-                path = uri.split("/")[:-1]
-                dir_exists = os.path.isdir(os.path.join(OUTPUT_REPO_PATH, *path))
-                if not dir_exists:
-                    for j in range(len(path)):
-                        dir_path = os.path.join(OUTPUT_REPO_PATH, *path[: j + 1])
-                        os.makedirs(dir_path, exist_ok=True)
+                full_uri = f"{OUTPUT_REPO_PATH}/{uri}"
+                _ensure_dir_exists(full_uri)
                 # write file
-                with open(os.path.join(OUTPUT_REPO_PATH, uri), "w") as f:
+                with open(full_uri, "w") as f:
                     f.write(text)
-            else:
-                subprocess.run(["git", "rm", uri], cwd=OUTPUT_REPO_PATH)
-            if uri in c.article_moves:
-                subprocess.run(
-                    ["git", "mv", uri, c.article_moves[uri]], cwd=OUTPUT_REPO_PATH
-                )
-            else:
                 subprocess.run(["git", "add", uri], cwd=OUTPUT_REPO_PATH)
+            else:
+                try:
+                    subprocess.check_output(["git", "rm", uri], cwd=OUTPUT_REPO_PATH)
+                except subprocess.CalledProcessError as e:
+                    print(f"@delete {uri}")
+                    print(e.output)
+                    input("Press Enter to continue...")
+            if uri in c.article_moves:
+                assert uri != c.article_moves[uri]
+                try:
+                    full_uri = os.path.join(OUTPUT_REPO_PATH, c.article_moves[uri])
+                    _ensure_dir_exists(full_uri)
+                    subprocess.check_output(
+                        ["git", "mv", "-f", uri, c.article_moves[uri]],
+                        cwd=OUTPUT_REPO_PATH,
+                    )
+                except subprocess.CalledProcessError as e:
+                    print("@from", uri)
+                    print("@to", c.article_moves[uri])
+                    print("error", e.output)
+                    input("Press Enter to continue...")
 
         # TODO ms vs s
         date_dt = datetime.fromtimestamp(math.floor(c.timestamp / 1000), tz)
@@ -113,15 +137,7 @@ def _build_git_repo(commits: list[Commit]):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="legifrance-bot")
-    parser.add_argument(
-        "-a",
-        "--one-file-per-article",
-        dest="to_files",
-        action="store_const",
-        default=to_one_file_per_code,
-        const=to_one_file_per_article,
-        help="If selected, will build the git repo with one file per article",
-    )
+
     parser.add_argument(
         "-t",
         "--test-code",

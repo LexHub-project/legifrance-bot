@@ -425,7 +425,9 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
             }
             or cid in ALLOW_LIST_END_DATE_NOT_ABROGATED
         ), f"cid: {cid} etat: {versions[0]['etat']}"
-
+        if versions[0]["num"] == "34":
+            print("@CID", versions[0]["cid"])
+            input("Press Enter to continue...")
         yield Commit(
             timestamp=_end(versions[0]),
             modified_by=[
@@ -440,10 +442,15 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
 
     while i < len(versions):
         v = versions[i]
-        new_uri = _version_uri(v)
+        version_uri = _version_uri(v)
         article_moves = {}
-        if new_uri != uri:
-            article_moves[uri] = new_uri
+        if version_uri != uri:
+            article_moves[version_uri] = uri
+            if v["num"] == "34":
+                print("@CID", v["cid"])
+                print(article_moves)
+                print(v["texte"])
+                input("Press Enter to continue...")
 
         assert _begin(v) < _end(v)
 
@@ -493,7 +500,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
             )
 
             last_commit_begin = _end(v)
-        uri = new_uri
+        uri = version_uri
 
 
 def _merge_commits(all_commits: list[Commit]) -> Generator[Commit, None, None]:
