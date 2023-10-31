@@ -155,6 +155,7 @@ class DataclassJSONEncoder(json.JSONEncoder):
         "LEGIARTI000006652564",
         "LEGIARTI000006293330",
         "LEGIARTI000006313581",
+        "LEGIARTI000006652505",
     ],
 )
 def test_article_assertion_one_change_per_commit(snapshot, article_cid: str):
