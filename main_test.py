@@ -61,7 +61,7 @@ def test_snapshot(snapshot, commits: list[Commit]):
     _init_repo(TEST_OUTPUT_REPO_PATH)
     git_email = subprocess.check_output(["git", "config", "user.email"])
     if not git_email:
-        subprocess.run(["git", "config", "user.email", TEST_AGENT_EMAIL])
+        subprocess.run(["git", "config", "user.email", f"'{TEST_AGENT_EMAIL}'"])
     snapshots = {t: {} for t in CODE_NAMES}
     commit = commits[0]
     for date in DATES:
