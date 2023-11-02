@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006818209",
-    "num": "R331-17",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025210985",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans le cas d'un lotissement, l'unit\u00e9 fonci\u00e8re mentionn\u00e9e \u00e0 l'article L. 331-35 est celle qui est d\u00e9finie \u00e0 l'article L. 442-1-2.",
+            "texteHtml": "<p>Dans le cas d'un lotissement, l'unit\u00e9 fonci\u00e8re mentionn\u00e9e \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074075&idArticle=LEGIARTI000023370624&dateTexte=&categorieLien=cid'>L. 331-35</a> est celle qui est d\u00e9finie \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074075&idArticle=LEGIARTI000025017294&dateTexte=&categorieLien=cid'>L. 442-1-2.</a></p><p></p>",
+            "num": "R331-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE",
+            "dateDebut": 1330560000000,
+            "dateFin": 1678406400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -43,12 +58,12 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006158759",
                         "id": "LEGISCTA000025214673",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1973-11-13",
@@ -61,21 +76,21 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Section 2 : Versement pour sous-densit\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006175843",
                         "id": "LEGISCTA000025210992",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Sous-section 1 : Etablissement du seuil minimal de densit\u00e9 et du versement pour sous-densit\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025207628",
                         "id": "LEGISCTA000025210990",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -92,54 +107,57 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025210985",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006818209",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025207628",
+            "sectionParentId": "LEGISCTA000025210990",
+            "sectionParentTitre": "Sous-section 1 : Etablissement du seuil minimal de densit\u00e9 et du versement pour sous-densit\u00e9",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Am\u00e9nagement foncier &gt; Titre III : Dispositions financi\u00e8res",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025210985",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L331-35 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L331-35",
-                    "articleId": "LEGIARTI000023370624",
-                    "natureText": "CODE",
-                    "date": 1599862599165,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1293840000000
-                },
-                {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L442-1-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L442-1-2",
-                    "articleId": "LEGIARTI000025017294",
-                    "natureText": "CODE",
-                    "date": 1599862599166,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1330560000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme 81 al. 3",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006074075",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000337142",
-                    "textTitle": "D\u00e9cret n\u00b073-1023 du 8 novembre 1973 (V)",
+                    "textTitle": "D\u00e9cret n\u00b0 73-1023 du 8 novembre 1973",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -160,17 +178,111 @@
                     "datePubliTexte": "2012-01-27",
                     "dateSignaTexte": "2012-01-25",
                     "dateDebutCible": "2012-03-01"
+                },
+                {
+                    "textCid": "JORFTEXT000047277930",
+                    "textTitle": "D\u00e9cret n\u00b02023-165 du 7 mars 2023 - art. 5",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000047278728",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-03-09",
+                    "dateSignaTexte": "2023-03-07",
+                    "dateDebutCible": "2023-03-10"
                 }
             ],
-            "num": "R331-17",
-            "origine": "LEGI",
-            "texte": "Dans le cas d'un lotissement, l'unit\u00e9 fonci\u00e8re mentionn\u00e9e \u00e0 l'article L. 331-35 est celle qui est d\u00e9finie \u00e0 l'article L. 442-1-2.",
-            "texteHtml": "<p>Dans le cas d'un lotissement, l'unit\u00e9 fonci\u00e8re mentionn\u00e9e \u00e0 l'article <a href='/article/LEGIARTI000023370624' title='Code de l'urbanisme - art. L331-35 (V)'>L. 331-35</a> est celle qui est d\u00e9finie \u00e0 l'article <a href='/article/LEGIARTI000025017294' title='Code de l'urbanisme - art. L442-1-2 (V)'>L. 442-1-2.</a></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-03-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L331-35",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L331-35",
+                    "articleId": "LEGIARTI000023370624",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1293840000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L442-1-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L442-1-2",
+                    "articleId": "LEGIARTI000025017294",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1330560000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme 81 al. 3",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006818209",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 121996800000,
+                    "dateFin": 1330560000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025210985",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1330560000000,
+                    "dateFin": 1678406400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R331-17",
+                "331-17"
+            ],
+            "versionPrecedente": "LEGIARTI000006818209",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006818209",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un arr\u00eat\u00e9 du ministre charg\u00e9 de l'urbanisme et du ministre de l'\u00e9conomie et des finances fixe les conditions dans lesquelles l'Etat verse des provisions sur sa participation, telle qu'elle est pr\u00e9vue conform\u00e9ment \u00e0 l'article L. 331-2 par l'article R. 331-16 (11\u00b0) ; il s'acquitte du solde sur justification des acquisitions de travaux ex\u00e9cut\u00e9s.",
+            "texteHtml": "<p></p>   Un arr\u00eat\u00e9 du ministre charg\u00e9 de l'urbanisme et du ministre de l'\u00e9conomie et des finances fixe les conditions dans lesquelles l'Etat verse des provisions sur sa participation, telle qu'elle est pr\u00e9vue conform\u00e9ment \u00e0 l'article L. 331-2 par l'article R. 331-16 (11\u00b0) ; il s'acquitte du solde sur justification des acquisitions de travaux ex\u00e9cut\u00e9s.<p></p><p></p>",
+            "num": "R*331-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 121996800000,
+            "dateFin": 1330560000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -211,12 +323,12 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006158759",
                         "id": "LEGISCTA000025214673",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1973-11-13",
@@ -242,50 +354,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006818209",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006818209",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175848",
+            "sectionParentId": "LEGISCTA000006175848",
+            "sectionParentTitre": " Section 6 : Dispositions communes",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Am\u00e9nagement foncier &gt; Titre III : Dispositions financi\u00e8res &gt; Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006818209",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L331-2 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L331-2",
-                    "articleId": "LEGIARTI000006815346",
-                    "natureText": "CODE",
-                    "date": 1599104642549,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 121996800000
-                },
-                {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme L331-2, R331-16",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006074075",
-                    "natureText": "CODE",
-                    "date": 1599104642549,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 94867200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme 81 al. 3",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006074075",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000817105",
@@ -312,13 +427,80 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "R*331-17",
-            "origine": "LEGI",
-            "texte": "Un arr\u00eat\u00e9 du ministre charg\u00e9 de l'urbanisme et du ministre de l'\u00e9conomie et des finances fixe les conditions dans lesquelles l'Etat verse des provisions sur sa participation, telle qu'elle est pr\u00e9vue conform\u00e9ment \u00e0 l'article L. 331-2 par l'article R. 331-16 (11\u00b0) ; il s'acquitte du solde sur justification des acquisitions de travaux ex\u00e9cut\u00e9s.",
-            "texteHtml": "<p></p>   Un arr\u00eat\u00e9 du ministre charg\u00e9 de l'urbanisme et du ministre de l'\u00e9conomie et des finances fixe les conditions dans lesquelles l'Etat verse des provisions sur sa participation, telle qu'elle est pr\u00e9vue conform\u00e9ment \u00e0 l'article L. 331-2 par l'article R. 331-16 (11\u00b0) ; il s'acquitte du solde sur justification des acquisitions de travaux ex\u00e9cut\u00e9s.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1973-11-13T00:00:00.000Z",
-            "dateFin": "2012-03-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L331-2 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L331-2",
+                    "articleId": "LEGIARTI000006815346",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme L331-2, R331-16",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 94867200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme 81 al. 3",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006818209",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 121996800000,
+                    "dateFin": 1330560000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025210985",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1330560000000,
+                    "dateFin": 1678406400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*331-17",
+                "331-17",
+                "R331-17"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031344632",
-    "num": "121-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031344632",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Sauf disposition contraire, les d\u00e9cisions d'attribution des aides financi\u00e8res deviennent caduques de plein droit \u00e0 l'expiration d'un d\u00e9lai de quatre ans si le versement de tout ou partie de l'aide n'a pu \u00eatre effectu\u00e9 en raison du non-respect, par le b\u00e9n\u00e9ficiaire, d'une obligation pr\u00e9vue par le pr\u00e9sent r\u00e8glement g\u00e9n\u00e9ral, le texte qui institue l'aide ou, le cas \u00e9ch\u00e9ant, la convention d'aide, notamment en raison de l'absence de signature de la convention d'aide ou de l'absence de transmission de documents exig\u00e9s.",
+            "texteHtml": "<p>Sauf disposition contraire, les d\u00e9cisions d'attribution des aides financi\u00e8res deviennent caduques de plein droit \u00e0 l'expiration d'un d\u00e9lai de quatre ans si le versement de tout ou partie de l'aide n'a pu \u00eatre effectu\u00e9 en raison du non-respect, par le b\u00e9n\u00e9ficiaire, d'une obligation pr\u00e9vue par le pr\u00e9sent r\u00e8glement g\u00e9n\u00e9ral, le texte qui institue l'aide ou, le cas \u00e9ch\u00e9ant, la convention d'aide, notamment en raison de l'absence de signature de la convention d'aide ou de l'absence de transmission de documents exig\u00e9s. </p>",
+            "num": "121-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1423612800000,
+            "dateFin": 1675209600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -16,39 +31,39 @@
                     },
                     {
                         "debut": "2015-02-11",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-01",
                         "titre": "Livre Ier : Dispositions g\u00e9n\u00e9rales",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000030226069",
                         "id": "LEGISCTA000030226069",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2015-02-11",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-01",
                         "titre": "Titre II : R\u00e8gles g\u00e9n\u00e9rales d'attribution",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000031344627",
                         "id": "LEGISCTA000031344627",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2015-02-11",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-01",
                         "titre": "Chapitre Ier : Dispositions applicables \u00e0 l'ensemble des aides financi\u00e8res ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000031344628",
                         "id": "LEGISCTA000031344628",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2015-02-11",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-01",
                         "titre": "Section 2 : D\u00e9ch\u00e9ance des aides financi\u00e8res ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000031344631",
                         "id": "LEGISCTA000031344631",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -65,26 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031344632",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031344632",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031344631",
+            "sectionParentId": "LEGISCTA000031344631",
+            "sectionParentTitre": "Section 2 : D\u00e9ch\u00e9ance des aides financi\u00e8res ",
+            "fullSectionsTitre": "Annexe : R\u00c8GLEMENT G\u00c9N\u00c9RAL DES AIDES FINANCI\u00c8RES DU CENTRE NATIONAL DU CIN\u00c9MA ET DE L'IMAGE ANIM\u00c9E ",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031344632",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000020908868",
-                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. 121-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "121-4",
-                    "articleId": "LEGIARTI000031344634",
-                    "natureText": "CODE",
-                    "date": 1599840835619,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000020908868",
+                    "titre": "Code du cin\u00e9ma et de l'image anim\u00e9e",
+                    "titreLong": "Code du cin\u00e9ma et de l'image anim\u00e9e",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1248566400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000020908868",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1423612800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000030212955",
@@ -97,15 +139,60 @@
                     "datePubliTexte": "2015-02-10",
                     "dateSignaTexte": "2014-11-27",
                     "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000047138508",
+                    "textTitle": "D\u00e9lib\u00e9ration n\u00b02022/CA/38 du 8 d\u00e9cembre 2022 - art. 2 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000047143465",
+                    "natureText": "DELIBERATION",
+                    "datePubliTexte": "2023-01-24",
+                    "dateSignaTexte": "2022-12-08",
+                    "dateDebutCible": "2023-02-01"
                 }
             ],
-            "num": "121-2",
-            "origine": "LEGI",
-            "texte": "Sauf disposition contraire, les d\u00e9cisions d'attribution des aides financi\u00e8res deviennent caduques de plein droit \u00e0 l'expiration d'un d\u00e9lai de quatre ans si le versement de tout ou partie de l'aide n'a pu \u00eatre effectu\u00e9 en raison du non-respect, par le b\u00e9n\u00e9ficiaire, d'une obligation pr\u00e9vue par le pr\u00e9sent r\u00e8glement g\u00e9n\u00e9ral, le texte qui institue l'aide ou, le cas \u00e9ch\u00e9ant, la convention d'aide, notamment en raison de l'absence de signature de la convention d'aide ou de l'absence de transmission de documents exig\u00e9s.",
-            "texteHtml": "<p>Sauf disposition contraire, les d\u00e9cisions d'attribution des aides financi\u00e8res deviennent caduques de plein droit \u00e0 l'expiration d'un d\u00e9lai de quatre ans si le versement de tout ou partie de l'aide n'a pu \u00eatre effectu\u00e9 en raison du non-respect, par le b\u00e9n\u00e9ficiaire, d'une obligation pr\u00e9vue par le pr\u00e9sent r\u00e8glement g\u00e9n\u00e9ral, le texte qui institue l'aide ou, le cas \u00e9ch\u00e9ant, la convention d'aide, notamment en raison de l'absence de signature de la convention d'aide ou de l'absence de transmission de documents exig\u00e9s. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-02-11T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000020908868",
+                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. 121-4 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "121-4",
+                    "articleId": "LEGIARTI000031344634",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1423612800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031344632",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1423612800000,
+                    "dateFin": 1675209600000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "121-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000034541928",
-    "num": "D330-7",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000034541928",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les indemnit\u00e9s allou\u00e9es au pr\u00e9sident, au secr\u00e9taire g\u00e9n\u00e9ral et aux secr\u00e9taires g\u00e9n\u00e9raux adjoints du Conseil des pr\u00e9l\u00e8vements obligatoires ont un caract\u00e8re forfaitaire et mensuel.",
+            "texteHtml": "<p></p>   Les indemnit\u00e9s allou\u00e9es au pr\u00e9sident, au secr\u00e9taire g\u00e9n\u00e9ral et aux secr\u00e9taires g\u00e9n\u00e9raux adjoints du Conseil des pr\u00e9l\u00e8vements obligatoires ont un caract\u00e8re forfaitaire et mensuel.<p></p><p></p>",
+            "num": "D330-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "TRANSFERE",
+            "dateDebut": 1493596800000,
+            "dateFin": 1672531200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2130708444,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2000-04-16",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "LIVRE III : Les institutions associ\u00e9es \u00e0 la Cour des comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006115556",
                         "id": "LEGISCTA000006115556",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE III : Cour d'appel financi\u00e8re",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006115556",
+                        "id": "LEGISCTA000046788245",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -34,15 +58,24 @@
                     },
                     {
                         "debut": "2005-10-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "TITRE III : le conseil des pr\u00e9l\u00e8vements obligatoires.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006134880",
                         "id": "LEGISCTA000034616263",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE III : Voies de recours et r\u00e9visions",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006134880",
+                        "id": "LEGISCTA000046788289",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 41,
                 "titreTxt": [
                     {
@@ -56,19 +89,88 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000034541928",
-            "lienAutres": [],
+            "cid": "LEGIARTI000034541928",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006134880",
+            "sectionParentId": "LEGISCTA000046788289",
+            "sectionParentTitre": "TITRE III : Voies de recours et r\u00e9visions",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE III : Cour d'appel financi\u00e8re &gt; TITRE III : Voies de recours et r\u00e9visions",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000034541928",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006070249",
+                    "titre": "Code des juridictions financi\u00e8res",
+                    "titreLong": "Code des juridictions financi\u00e8res",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 786672000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006070249",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000034514992",
+                    "textTitle": "D\u00e9cret n\u00b02017-671 du 28 avril 2017 - art. 180",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "180",
+                    "articleId": "LEGIARTI000034521480",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2017-04-30",
+                    "dateSignaTexte": "2017-04-28",
+                    "dateDebutCible": "2017-05-01"
+                },
+                {
+                    "textCid": "JORFTEXT000046778561",
+                    "textTitle": "D\u00e9cret n\u00b02022-1604 du 22 d\u00e9cembre 2022 - art. 6",
+                    "linkType": "TRANSFERE",
+                    "linkOrientation": "cible",
+                    "articleNum": "6",
+                    "articleId": "LEGIARTI000046781983",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2022-12-23",
+                    "dateSignaTexte": "2022-12-22",
+                    "dateDebutCible": "2023-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006070249",
-                    "textTitle": "Code des juridictions financi\u00e8res - art. D330-11 (V)",
+                    "textTitle": "Code des juridictions financi\u00e8res - art. D330-11 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D330-11",
                     "articleId": "LEGIARTI000034541996",
                     "natureText": "CODE",
-                    "date": 1599858752354,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -84,29 +186,42 @@
                     "articleNum": "D350-7",
                     "articleId": "LEGIARTI000006358905",
                     "natureText": "CODE"
-                }
-            ],
-            "lienModifications": [
+                },
                 {
-                    "textCid": "JORFTEXT000034514992",
-                    "textTitle": "D\u00e9cret n\u00b02017-671 du 28 avril 2017 - art. 180",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "180",
-                    "articleId": "LEGIARTI000034521480",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2017-04-30",
-                    "dateSignaTexte": "2017-04-28",
-                    "dateDebutCible": "2017-05-01"
+                    "textCid": "LEGITEXT000006070249",
+                    "textTitle": "Code des juridictions financi\u00e8res - art. D411-7 (VD)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "D411-7",
+                    "articleId": "LEGIARTI000046785750",
+                    "natureText": "CODE"
                 }
             ],
-            "num": "D330-7",
-            "origine": "LEGI",
-            "texte": "Les indemnit\u00e9s allou\u00e9es au pr\u00e9sident, au secr\u00e9taire g\u00e9n\u00e9ral et aux secr\u00e9taires g\u00e9n\u00e9raux adjoints du Conseil des pr\u00e9l\u00e8vements obligatoires ont un caract\u00e8re forfaitaire et mensuel.",
-            "texteHtml": "<p></p>   Les indemnit\u00e9s allou\u00e9es au pr\u00e9sident, au secr\u00e9taire g\u00e9n\u00e9ral et aux secr\u00e9taires g\u00e9n\u00e9raux adjoints du Conseil des pr\u00e9l\u00e8vements obligatoires ont un caract\u00e8re forfaitaire et mensuel.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-05-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000034541928",
+                    "etat": "TRANSFERE",
+                    "version": "1.0",
+                    "dateDebut": 1493596800000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D330-7",
+                "330-7"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

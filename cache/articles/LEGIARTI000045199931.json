@@ -1,12 +1,27 @@
 {
-    "cid": "LEGIARTI000045199931",
-    "num": "343-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045199931",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'adoption entre ascendants et descendants en ligne directe et entre fr\u00e8res et s\u0153urs est prohib\u00e9e. Toutefois, le tribunal peut prononcer l'adoption s'il existe des motifs graves que l'int\u00e9r\u00eat de l'adopt\u00e9 commande de prendre en consid\u00e9ration.",
+            "texteHtml": "<p>L'adoption entre ascendants et descendants en ligne directe et entre fr\u00e8res et s\u0153urs est prohib\u00e9e. Toutefois, le tribunal peut prononcer l'adoption s'il existe des motifs graves que l'int\u00e9r\u00eat de l'adopt\u00e9 commande de prendre en consid\u00e9ration.</p>",
+            "num": "343-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "TRANSFERE",
+            "dateDebut": 1645574400000,
+            "dateFin": 1665100800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 452101820,
             "context": {
                 "titresTM": [
                     {
-                        "debut": "1803-03-14",
+                        "debut": "1804-03-21",
                         "fin": "2999-01-01",
                         "titre": "Livre Ier : Des personnes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
@@ -25,28 +40,46 @@
                     },
                     {
                         "debut": "1966-11-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Chapitre Ier : De l'adoption pl\u00e9ni\u00e8re",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006136191",
                         "id": "LEGISCTA000006136191",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Des conditions requises pour l'adoption",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006136191",
+                        "id": "LEGISCTA000046372001",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "1966-11-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Section 1 : Des conditions requises pour l'adoption pl\u00e9ni\u00e8re",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006150070",
                         "id": "LEGISCTA000006150070",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : De l'adoptant",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006150070",
+                        "id": "LEGISCTA000046371991",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 44,
                 "titreTxt": [
                     {
-                        "debut": "1803-03-15",
+                        "debut": "1804-03-21",
                         "fin": "2999-01-01",
                         "titre": "Code civil",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
@@ -56,11 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045199931",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "cid": "LEGIARTI000045199931",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006150070",
+            "sectionParentId": "LEGISCTA000046371991",
+            "sectionParentTitre": "Section 1 : De l'adoptant",
+            "fullSectionsTitre": "Livre Ier : Des personnes &gt; Titre VIII : De la filiation adoptive &gt; Chapitre Ier : De l'adoption pl\u00e9ni\u00e8re &gt; Section 1 : Des conditions requises pour l'adoption pl\u00e9ni\u00e8re",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000045199931",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006070721",
+                    "titre": "Code civil",
+                    "titreLong": "Code civil",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -5231606400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006070721",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000045197698",
@@ -73,15 +148,56 @@
                     "datePubliTexte": "2022-02-22",
                     "dateSignaTexte": "2022-02-21",
                     "dateDebutCible": "2022-02-23"
+                },
+                {
+                    "textCid": "JORFTEXT000046368405",
+                    "textTitle": "Ordonnance n\u00b02022-1292 du 5 octobre 2022 - art. 6 (V)",
+                    "linkType": "TRANSFERE",
+                    "linkOrientation": "cible",
+                    "articleNum": "6",
+                    "articleId": "LEGIARTI000046369148",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2022-10-06",
+                    "dateSignaTexte": "2022-10-05",
+                    "dateDebutCible": "2022-10-07"
                 }
             ],
-            "num": "343-3",
-            "origine": "LEGI",
-            "texte": "L'adoption entre ascendants et descendants en ligne directe et entre fr\u00e8res et s\u0153urs est prohib\u00e9e. Toutefois, le tribunal peut prononcer l'adoption s'il existe des motifs graves que l'int\u00e9r\u00eat de l'adopt\u00e9 commande de prendre en consid\u00e9ration.",
-            "texteHtml": "<p>L'adoption entre ascendants et descendants en ligne directe et entre fr\u00e8res et s\u0153urs est prohib\u00e9e. Toutefois, le tribunal peut prononcer l'adoption s'il existe des motifs graves que l'int\u00e9r\u00eat de l'adopt\u00e9 commande de prendre en consid\u00e9ration.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-02-23T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006070721",
+                    "textTitle": "Code civil - art. 346 (VD)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "346",
+                    "articleId": "LEGIARTI000046372024",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000045199931",
+                    "etat": "TRANSFERE",
+                    "version": "1.0",
+                    "dateDebut": 1645574400000,
+                    "dateFin": 1665100800000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "343-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

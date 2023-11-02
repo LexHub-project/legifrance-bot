@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006738814",
-    "num": "D712-8",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006738814",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La pr\u00e9sente section et les sections 2 \u00e0 4 du pr\u00e9sent chapitre sont applicables aux magistrats de l'ordre judiciaire.",
+            "texteHtml": "<p></p>   La pr\u00e9sente section et les sections 2 \u00e0 4 du pr\u00e9sent chapitre sont applicables aux magistrats de l'ordre judiciaire. <p></p><p></p>",
+            "num": "D712-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 503971200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 343592,
             "context": {
                 "titresTM": [
                     {
@@ -65,36 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006738814",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006738814",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006172302",
+            "sectionParentId": "LEGISCTA000006172302",
+            "sectionParentTitre": "Section 1 : B\u00e9n\u00e9ficiaires.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; Livre VII : R\u00e9gimes divers - Dispositions diverses &gt; Titre I : R\u00e9gimes sp\u00e9ciaux &gt; Chapitre 2 : R\u00e9gime des fonctionnaires de l'Etat et des magistrats &gt; Section 1 : B\u00e9n\u00e9ficiaires.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006738814",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale L",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "date": 1622675122356,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": null,
-                    "dateDebut": null
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000483991",
-                    "textTitle": "D\u00e9cret 49-380 1949-03-17 art. 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000483991",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "Code de la s\u00e9curit\u00e9 sociale D712-8 : champ d'application.",
+            "notaHtml": "<p></p>Code de la s\u00e9curit\u00e9 sociale D712-8 : champ d'application. <p></p><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000507924",
@@ -121,13 +153,57 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "D712-8",
-            "origine": "LEGI",
-            "texte": "La pr\u00e9sente section et les sections 2 \u00e0 4 du pr\u00e9sent chapitre sont applicables aux magistrats de l'ordre judiciaire.",
-            "texteHtml": "<p></p>   La pr\u00e9sente section et les sections 2 \u00e0 4 du pr\u00e9sent chapitre sont applicables aux magistrats de l'ordre judiciaire. <p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1985-12-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale L",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000483991",
+                    "textTitle": "D\u00e9cret 49-380 1949-03-17 art. 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000483991",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006738814",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 503971200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D712-8",
+                "712-8"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

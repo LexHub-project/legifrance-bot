@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023987233",
-    "num": "L521-9",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023987233",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les servitudes d'ancrage, d'appui, de passage, d'abattage d'arbres, d'aqueduc, de submersion et d'occupation temporaire s'appliquent d\u00e8s la d\u00e9claration d'utilit\u00e9 publique des travaux.",
+            "texteHtml": "<p><br/>Les servitudes d'ancrage, d'appui, de passage, d'abattage d'arbres, d'aqueduc, de submersion et d'occupation temporaire s'appliquent d\u00e8s la d\u00e9claration d'utilit\u00e9 publique des travaux.</p>",
+            "num": "L521-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1306886400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -65,36 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023987233",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023987233",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023987224",
+            "sectionParentId": "LEGISCTA000023987224",
+            "sectionParentTitre": "Section 3 : L'occupation ou la travers\u00e9e des propri\u00e9t\u00e9s priv\u00e9es",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE V : DISPOSITIONS RELATIVES A L'UTILISATION  DE L'ENERGIE HYDRAULIQUE &gt; TITRE II : LES DISPOSITIONS RELATIVES  AUX INSTALLATIONS HYDRAULIQUES CONCEDEES &gt; Chapitre Ier : La proc\u00e9dure applicable aux concessions &gt; Section 3 : L'occupation ou la travers\u00e9e des propri\u00e9t\u00e9s priv\u00e9es",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000023987233",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. R521-60 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R521-60",
-                    "articleId": "LEGIARTI000031749773",
-                    "natureText": "CODE",
-                    "date": 1599861061257,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000868448",
-                    "textTitle": "Loi n\u00b046-628 du 8 avril 1946 - art. 35 (Ab), alin\u00e9a 1, ecqc l'hydraulique",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "35",
-                    "articleId": "LEGIARTI000006628091",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -121,13 +153,57 @@
                     "dateDebutCible": "2011-06-01"
                 }
             ],
-            "num": "L521-9",
-            "origine": "LEGI",
-            "texte": "Les servitudes d'ancrage, d'appui, de passage, d'abattage d'arbres, d'aqueduc, de submersion et d'occupation temporaire s'appliquent d\u00e8s la d\u00e9claration d'utilit\u00e9 publique des travaux.",
-            "texteHtml": "<p><br/>Les servitudes d'ancrage, d'appui, de passage, d'abattage d'arbres, d'aqueduc, de submersion et d'occupation temporaire s'appliquent d\u00e8s la d\u00e9claration d'utilit\u00e9 publique des travaux.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. R521-60 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R521-60",
+                    "articleId": "LEGIARTI000031749773",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000868448",
+                    "textTitle": "Loi n\u00b046-628 du 8 avril 1946 - art. 35 (Ab), alin\u00e9a 1, ecqc l'hydraulique",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "35",
+                    "articleId": "LEGIARTI000006628091",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023987233",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L521-9",
+                "521-9"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

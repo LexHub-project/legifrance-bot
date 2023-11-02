@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006793191",
-    "num": "A118",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006793191",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Sont consid\u00e9r\u00e9s comme combattants : 1\u00b0 Les militaires qui ont particip\u00e9 effectivement pendant quatre-vingt-dix jours au moins aux combats livr\u00e9s en Indochine contre les Japonais ou contre les rebelles, \u00e0 dater du 9 mars 1945 ; 2\u00b0 Les militaires qui ont s\u00e9journ\u00e9 pendant quatre-vingt-dix jours au moins dans la brousse indochinoise \u00e0 dater du 9 mars 1945 ; 3\u00b0 Les parachutistes remplissant les conditions suivantes : Avoir \u00e9t\u00e9 parachut\u00e9 en Indochine \u00e0 dater du 9 mars 1945 : a) Pour une mission sp\u00e9ciale ; b) Avec une unit\u00e9 combattante, chaque parachutage donnant droit \u00e0 une \u00e9quivalence de quarante-cinq jours pour les militaires vis\u00e9s \u00e0 l'alin\u00e9a a) et \u00e0 une bonification de vingt jours pour les militaires vis\u00e9s \u00e0 l'alin\u00e9a b).",
+            "texteHtml": "<p>Sont consid\u00e9r\u00e9s comme combattants :</p><p>1\u00b0 Les militaires qui ont particip\u00e9 effectivement pendant quatre-vingt-dix jours au moins aux combats livr\u00e9s en Indochine contre les Japonais ou contre les rebelles, \u00e0 dater du 9 mars 1945 ;</p><p>2\u00b0 Les militaires qui ont s\u00e9journ\u00e9 pendant quatre-vingt-dix jours au moins dans la brousse indochinoise \u00e0 dater du 9 mars 1945 ;</p><p>3\u00b0 Les parachutistes remplissant les conditions suivantes :</p><p>Avoir \u00e9t\u00e9 parachut\u00e9 en Indochine \u00e0 dater du 9 mars 1945 :</p><p>a) Pour une mission sp\u00e9ciale ;</p><p>b) Avec une unit\u00e9 combattante,</p><p>chaque parachutage donnant droit \u00e0 une \u00e9quivalence de quarante-cinq jours pour les militaires vis\u00e9s \u00e0 l'alin\u00e9a a) et \u00e0 une bonification de vingt jours pour les militaires vis\u00e9s \u00e0 l'alin\u00e9a b).</p>",
+            "num": "A118",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": -589420800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -25,11 +40,20 @@
                     },
                     {
                         "debut": "1951-04-29",
-                        "fin": "2999-01-01",
+                        "fin": "2023-08-07",
                         "titre": "Titre Ier : Carte et retraite du combattant.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006142717",
                         "id": "LEGISCTA000006142717",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-08-07",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Carte et allocation de reconnaissance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142717",
+                        "id": "LEGISCTA000047941058",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -64,15 +88,6 @@
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -80,24 +95,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006793191",
-            "lienAutres": [
+            "cid": "LEGIARTI000006793191",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186907",
+            "sectionParentId": "LEGISCTA000006186907",
+            "sectionParentTitre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Livre III : Droits et avantages attach\u00e9s \u00e0 la qualit\u00e9 d'ancien combattant ou de victime de guerre. &gt; Titre Ier : Carte et retraite du combattant. &gt; Chapitre Ier : Carte du combattant. &gt; Section 1 : De la qualit\u00e9 de combattant &gt; Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006793191",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A128 (V)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "source",
-                    "articleNum": "A128",
-                    "articleId": "LEGIARTI000006793211",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                },
+                {
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -112,13 +196,43 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "A118",
-            "origine": "LEGI",
-            "texte": "Sont consid\u00e9r\u00e9s comme combattants : 1\u00b0 Les militaires qui ont particip\u00e9 effectivement pendant quatre-vingt-dix jours au moins aux combats livr\u00e9s en Indochine contre les Japonais ou contre les rebelles, \u00e0 dater du 9 mars 1945 ; 2\u00b0 Les militaires qui ont s\u00e9journ\u00e9 pendant quatre-vingt-dix jours au moins dans la brousse indochinoise \u00e0 dater du 9 mars 1945 ; 3\u00b0 Les parachutistes remplissant les conditions suivantes : Avoir \u00e9t\u00e9 parachut\u00e9 en Indochine \u00e0 dater du 9 mars 1945 : a) Pour une mission sp\u00e9ciale ; b) Avec une unit\u00e9 combattante, chaque parachutage donnant droit \u00e0 une \u00e9quivalence de quarante-cinq jours pour les militaires vis\u00e9s \u00e0 l'alin\u00e9a a) et \u00e0 une bonification de vingt jours pour les militaires vis\u00e9s \u00e0 l'alin\u00e9a b).",
-            "texteHtml": "<p>Sont consid\u00e9r\u00e9s comme combattants :</p><p>1\u00b0 Les militaires qui ont particip\u00e9 effectivement pendant quatre-vingt-dix jours au moins aux combats livr\u00e9s en Indochine contre les Japonais ou contre les rebelles, \u00e0 dater du 9 mars 1945 ;</p><p>2\u00b0 Les militaires qui ont s\u00e9journ\u00e9 pendant quatre-vingt-dix jours au moins dans la brousse indochinoise \u00e0 dater du 9 mars 1945 ;</p><p>3\u00b0 Les parachutistes remplissant les conditions suivantes :</p><p>Avoir \u00e9t\u00e9 parachut\u00e9 en Indochine \u00e0 dater du 9 mars 1945 :</p><p>a) Pour une mission sp\u00e9ciale ;</p><p>b) Avec une unit\u00e9 combattante,</p><p>chaque parachutage donnant droit \u00e0 une \u00e9quivalence de quarante-cinq jours pour les militaires vis\u00e9s \u00e0 l'alin\u00e9a a) et \u00e0 une bonification de vingt jours pour les militaires vis\u00e9s \u00e0 l'alin\u00e9a b).</p>",
-            "type": "AUTONOME",
-            "dateDebut": "1951-04-29T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A128 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "A128",
+                    "articleId": "LEGIARTI000006793211",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006793191",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": -589420800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A118",
+                "118"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006916901",
-    "num": "R6123-86",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045682513",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'activit\u00e9 de soins de traitement du cancer mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25 consiste \u00e0 traiter les tumeurs solides malignes ou les h\u00e9mopathies malignes. Ce traitement est m\u00e9dical, chirurgical, ou r\u00e9alis\u00e9 par radioth\u00e9rapie externe ou par curieth\u00e9rapie.",
+            "texteHtml": "<p>L'activit\u00e9 de soins de traitement du cancer mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25 consiste \u00e0 traiter les tumeurs solides malignes ou les h\u00e9mopathies malignes. Ce traitement est m\u00e9dical, chirurgical, ou r\u00e9alis\u00e9 par radioth\u00e9rapie externe ou par curieth\u00e9rapie.</p>",
+            "num": "R6123-86",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190815",
                         "id": "LEGISCTA000006190815",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190815",
                         "id": "LEGISCTA000045682516",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2007-03-22",
@@ -92,36 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000045682513",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916901",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196693",
+            "sectionParentId": "LEGISCTA000006196693",
+            "sectionParentTitre": "Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 7 : Activit\u00e9 de soins de traitement du cancer &gt; Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000045682513",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000275848",
-                    "textTitle": "D\u00e9cret n\u00b02007-388 du 21 mars 2007 - art. 3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "LEGIARTI000006726903",
-                    "natureText": "DECRET",
-                    "date": 1651092809556,
-                    "parentCid": null,
-                    "numTexte": "2007-388",
-                    "datePubli": 1174521600000,
-                    "dateDebut": 1174521600000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000716696",
-                    "textTitle": "D\u00e9cret 90-845 1990-09-24 art. 11",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000716696",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "Conform\u00e9ment au I de l'article 2 du d\u00e9cret n\u00b0 2022-689 du 26 avril 2022, ces dispositions entrent en vigueur le 1er juin 2023. Se reporter aux modalit\u00e9s d'application pr\u00e9vues aux II \u00e0 IV dudit article 2.",
+            "notaHtml": "<p>Conform\u00e9ment au I de l'article 2 du d\u00e9cret n\u00b0 2022-689 du 26 avril 2022, ces dispositions entrent en vigueur le 1er juin 2023.</p><p>Se reporter aux modalit\u00e9s d'application pr\u00e9vues aux II \u00e0 IV dudit article 2.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -148,15 +180,84 @@
                     "dateDebutCible": "2022-04-28"
                 }
             ],
-            "num": "R6123-86",
-            "origine": "LEGI",
-            "texte": "L'activit\u00e9 de soins de traitement du cancer mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25 consiste \u00e0 traiter les tumeurs solides malignes ou les h\u00e9mopathies malignes. Ce traitement est m\u00e9dical, chirurgical, ou r\u00e9alis\u00e9 par radioth\u00e9rapie externe ou par curieth\u00e9rapie.",
-            "texteHtml": "<p>L'activit\u00e9 de soins de traitement du cancer mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25 consiste \u00e0 traiter les tumeurs solides malignes ou les h\u00e9mopathies malignes. Ce traitement est m\u00e9dical, chirurgical, ou r\u00e9alis\u00e9 par radioth\u00e9rapie externe ou par curieth\u00e9rapie.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000275848",
+                    "textTitle": "D\u00e9cret n\u00b02007-388 du 21 mars 2007 - art. 3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006726903",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2007-388",
+                    "datePubli": 1174521600000,
+                    "dateDebut": 1174521600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000716696",
+                    "textTitle": "D\u00e9cret 90-845 1990-09-24 art. 11",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000716696",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916901",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174521600000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045682513",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-86",
+                "6123-86"
+            ],
+            "versionPrecedente": "LEGIARTI000006916901",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006916901",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'activit\u00e9 de soins de traitement du cancer mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25 consiste \u00e0 traiter les tumeurs solides malignes ou les h\u00e9mopathies malignes. Ce traitement est m\u00e9dical, chirurgical ou r\u00e9alis\u00e9 par radioth\u00e9rapie externe, par curieth\u00e9rapie, ou par utilisation th\u00e9rapeutique de radio\u00e9l\u00e9ments en sources non scell\u00e9es.",
+            "texteHtml": "<p></p>   L'activit\u00e9 de soins de traitement du cancer mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25 consiste \u00e0 traiter les tumeurs solides malignes ou les h\u00e9mopathies malignes. Ce traitement est m\u00e9dical, chirurgical ou r\u00e9alis\u00e9 par radioth\u00e9rapie externe, par curieth\u00e9rapie, ou par utilisation th\u00e9rapeutique de radio\u00e9l\u00e9ments en sources non scell\u00e9es.<p></p><p></p>",
+            "num": "R6123-86",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174521600000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -211,7 +312,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190815",
                         "id": "LEGISCTA000006190815",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -220,7 +321,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190815",
                         "id": "LEGISCTA000045682516",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2007-03-22",
@@ -246,50 +347,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000006916901",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916901",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196693",
+            "sectionParentId": "LEGISCTA000006196693",
+            "sectionParentTitre": "Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 7 : Activit\u00e9 de soins de traitement du cancer &gt; Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006916901",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000275848",
-                    "textTitle": "D\u00e9cret n\u00b02007-388 du 21 mars 2007 - art. 3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "LEGIARTI000006726903",
-                    "natureText": "DECRET",
-                    "date": 1651092809948,
-                    "parentCid": null,
-                    "numTexte": "2007-388",
-                    "datePubli": 1174521600000,
-                    "dateDebut": 1174521600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6122-25 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6122-25",
-                    "articleId": "LEGIARTI000006916682",
-                    "natureText": "CODE",
-                    "date": 1651092809948,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000716696",
-                    "textTitle": "D\u00e9cret 90-845 1990-09-24 art. 11",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000716696",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -316,13 +420,79 @@
                     "dateDebutCible": "2007-03-22"
                 }
             ],
-            "num": "R6123-86",
-            "origine": "LEGI",
-            "texte": "L'activit\u00e9 de soins de traitement du cancer mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25 consiste \u00e0 traiter les tumeurs solides malignes ou les h\u00e9mopathies malignes. Ce traitement est m\u00e9dical, chirurgical ou r\u00e9alis\u00e9 par radioth\u00e9rapie externe, par curieth\u00e9rapie, ou par utilisation th\u00e9rapeutique de radio\u00e9l\u00e9ments en sources non scell\u00e9es.",
-            "texteHtml": "<p></p>   L'activit\u00e9 de soins de traitement du cancer mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25 consiste \u00e0 traiter les tumeurs solides malignes ou les h\u00e9mopathies malignes. Ce traitement est m\u00e9dical, chirurgical ou r\u00e9alis\u00e9 par radioth\u00e9rapie externe, par curieth\u00e9rapie, ou par utilisation th\u00e9rapeutique de radio\u00e9l\u00e9ments en sources non scell\u00e9es.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-22T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000275848",
+                    "textTitle": "D\u00e9cret n\u00b02007-388 du 21 mars 2007 - art. 3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006726903",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2007-388",
+                    "datePubli": 1174521600000,
+                    "dateDebut": 1174521600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6122-25 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6122-25",
+                    "articleId": "LEGIARTI000006916682",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000716696",
+                    "textTitle": "D\u00e9cret 90-845 1990-09-24 art. 11",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000716696",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916901",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174521600000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045682513",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-86",
+                "6123-86"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

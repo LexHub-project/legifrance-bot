@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000025094909",
-    "num": "L5421-9",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000028351968",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La tentative des d\u00e9lits pr\u00e9vus aux articles L. 5421-2 et L. 5421-3 est punie des m\u00eames peines.",
+            "texteHtml": "<p>La tentative des d\u00e9lits pr\u00e9vus aux articles L. 5421-2 et L. 5421-3 est punie des m\u00eames peines. </p>",
+            "num": "L5421-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1391212800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610752319,
             "context": {
                 "titresTM": [
                     {
@@ -74,40 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000028351968",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025094909",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171412",
+            "sectionParentId": "LEGISCTA000006171412",
+            "sectionParentTitre": "Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Sanctions p\u00e9nales et financi\u00e8res &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000028351968",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5213-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5213-4",
-                    "articleId": "LEGIARTI000033857138",
-                    "natureText": "CODE",
-                    "date": 1599129900010,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1484179200000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5223-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5223-4",
-                    "articleId": "LEGIARTI000033857130",
-                    "natureText": "CODE",
-                    "date": 1599129900010,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1484179200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028346594",
@@ -122,15 +150,87 @@
                     "dateDebutCible": "2014-02-01"
                 }
             ],
-            "num": "L5421-9",
-            "origine": "LEGI",
-            "texte": "La tentative des d\u00e9lits pr\u00e9vus aux articles L. 5421-2 et L. 5421-3 est punie des m\u00eames peines.",
-            "texteHtml": "<p>La tentative des d\u00e9lits pr\u00e9vus aux articles L. 5421-2 et L. 5421-3 est punie des m\u00eames peines. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-02-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5213-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5213-4",
+                    "articleId": "LEGIARTI000033857138",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484179200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5223-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5223-4",
+                    "articleId": "LEGIARTI000033857130",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484179200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025095826",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1342828800000,
+                    "dateFin": 1391212800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028351968",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5421-9",
+                "5421-9"
+            ],
+            "versionPrecedente": "LEGIARTI000025095826",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025095826",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 peut prononcer une amende administrative \u00e0 l'encontre de l'auteur d'un manquement mentionn\u00e9 \u00e0 l'article L. 5421-8. Elle peut assortir cette amende d'une astreinte journali\u00e8re qui ne peut \u00eatre sup\u00e9rieure \u00e0 2 500 \u20ac par jour lorsque l'auteur du manquement ne s'est pas conform\u00e9 \u00e0 ses prescriptions \u00e0 l'issue du d\u00e9lai fix\u00e9 par une mise en demeure. Le montant de l'amende prononc\u00e9e pour les manquements mentionn\u00e9s au m\u00eame article L. 5421-8 ne peut \u00eatre sup\u00e9rieur \u00e0 10 % du chiffre d'affaires r\u00e9alis\u00e9, dans la limite d'un million d'euros.",
+            "texteHtml": "<p>L'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 peut prononcer une amende administrative \u00e0 l'encontre de l'auteur d'un manquement mentionn\u00e9 \u00e0 l'article L. 5421-8. <br/><br/> Elle peut assortir cette amende d'une astreinte journali\u00e8re qui ne peut \u00eatre sup\u00e9rieure \u00e0 2 500 \u20ac par jour lorsque l'auteur du manquement ne s'est pas conform\u00e9 \u00e0 ses prescriptions \u00e0 l'issue du d\u00e9lai fix\u00e9 par une mise en demeure. <br/><br/> Le montant de l'amende prononc\u00e9e pour les manquements mentionn\u00e9s au m\u00eame article L. 5421-8 ne peut \u00eatre sup\u00e9rieur \u00e0 10 % du chiffre d'affaires r\u00e9alis\u00e9, dans la limite d'un million d'euros. </p>",
+            "num": "L5421-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1342828800000,
+            "dateFin": 1391212800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610752319,
             "context": {
                 "titresTM": [
                     {
@@ -202,40 +302,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025095826",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025094909",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171412",
+            "sectionParentId": "LEGISCTA000006171412",
+            "sectionParentTitre": "Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Sanctions p\u00e9nales et financi\u00e8res &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000025095826",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5213-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5213-4",
-                    "articleId": "LEGIARTI000033857138",
-                    "natureText": "CODE",
-                    "date": 1599863113523,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1484179200000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5223-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5223-4",
-                    "articleId": "LEGIARTI000033857130",
-                    "natureText": "CODE",
-                    "date": 1599863113523,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1484179200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025053440",
@@ -250,13 +363,69 @@
                     "dateDebutCible": "2011-12-31"
                 }
             ],
-            "num": "L5421-9",
-            "origine": "LEGI",
-            "texte": "L'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 peut prononcer une amende administrative \u00e0 l'encontre de l'auteur d'un manquement mentionn\u00e9 \u00e0 l'article L. 5421-8. Elle peut assortir cette amende d'une astreinte journali\u00e8re qui ne peut \u00eatre sup\u00e9rieure \u00e0 2 500 \u20ac par jour lorsque l'auteur du manquement ne s'est pas conform\u00e9 \u00e0 ses prescriptions \u00e0 l'issue du d\u00e9lai fix\u00e9 par une mise en demeure. Le montant de l'amende prononc\u00e9e pour les manquements mentionn\u00e9s au m\u00eame article L. 5421-8 ne peut \u00eatre sup\u00e9rieur \u00e0 10 % du chiffre d'affaires r\u00e9alis\u00e9, dans la limite d'un million d'euros.",
-            "texteHtml": "<p>L'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 peut prononcer une amende administrative \u00e0 l'encontre de l'auteur d'un manquement mentionn\u00e9 \u00e0 l'article L. 5421-8. <br/><br/> Elle peut assortir cette amende d'une astreinte journali\u00e8re qui ne peut \u00eatre sup\u00e9rieure \u00e0 2 500 \u20ac par jour lorsque l'auteur du manquement ne s'est pas conform\u00e9 \u00e0 ses prescriptions \u00e0 l'issue du d\u00e9lai fix\u00e9 par une mise en demeure. <br/><br/> Le montant de l'amende prononc\u00e9e pour les manquements mentionn\u00e9s au m\u00eame article L. 5421-8 ne peut \u00eatre sup\u00e9rieur \u00e0 10 % du chiffre d'affaires r\u00e9alis\u00e9, dans la limite d'un million d'euros. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-21T00:00:00.000Z",
-            "dateFin": "2014-02-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5213-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5213-4",
+                    "articleId": "LEGIARTI000033857138",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484179200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5223-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5223-4",
+                    "articleId": "LEGIARTI000033857130",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484179200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025095826",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1342828800000,
+                    "dateFin": 1391212800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028351968",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5421-9",
+                "5421-9"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

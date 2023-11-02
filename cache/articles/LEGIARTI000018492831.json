@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018492831",
-    "num": "D4622-27",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025280117",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Chaque secteur comporte au moins un centre m\u00e9dical fixe. Dans chaque centre m\u00e9dical fixe ou mobile est affich\u00e9e la liste nominative avec  leurs coordonn\u00e9es : 1\u00b0 Des m\u00e9decins du travail du secteur ; 2\u00b0 Des autres membres de l'\u00e9quipe pluridisciplinaire ; 3\u00b0 Des membres de la commission de contr\u00f4le ou des membres  du comit\u00e9 interentreprises.",
+            "texteHtml": "<p>Chaque secteur comporte au moins un centre m\u00e9dical fixe. <br/><br/>  Dans chaque centre m\u00e9dical fixe ou mobile est affich\u00e9e la liste nominative avec  leurs coordonn\u00e9es : <br/><br/> 1\u00b0 Des m\u00e9decins du travail du secteur ;  <br/><br/> 2\u00b0 Des autres membres de l'\u00e9quipe pluridisciplinaire ;  <br/><br/> 3\u00b0 Des membres de la commission de contr\u00f4le ou des membres  du comit\u00e9 interentreprises.</p>",
+            "num": "D4622-27",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1341100800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 715827882,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -79,11 +103,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 3 : Services de sant\u00e9 au travail interentreprises.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492815",
                         "id": "LEGISCTA000025280083",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Services de pr\u00e9vention et de sant\u00e9 au travail interentreprises.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492815",
+                        "id": "LEGISCTA000046340953",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -146,50 +179,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025280117",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018492831",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492843",
+            "sectionParentId": "LEGISCTA000025280015",
+            "sectionParentTitre": "Paragraphe 3 : Secteurs.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre II : Missions et organisation &gt; Section 3 : Services de sant\u00e9 au travail interentreprises. &gt; Sous-section 1 : Organisation du service de sant\u00e9 au travail. &gt; Paragraphe 3 : Secteurs.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000025280117",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4625-6 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4625-6",
-                    "articleId": "LEGIARTI000025282401",
-                    "natureText": "CODE",
-                    "date": 1651092978096,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1341100800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4451-86 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4451-86",
-                    "articleId": "LEGIARTI000037024408",
-                    "natureText": "CODE",
-                    "date": 1651092978096,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1530403200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-12 II (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-12",
-                    "articleId": "LEGIARTI000018510256",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "<p></p><br clear='none'/><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025241584",
@@ -216,15 +252,106 @@
                     "dateDebutCible": "2012-07-01"
                 }
             ],
-            "num": "D4622-27",
-            "origine": "LEGI",
-            "texte": "Chaque secteur comporte au moins un centre m\u00e9dical fixe. Dans chaque centre m\u00e9dical fixe ou mobile est affich\u00e9e la liste nominative avec  leurs coordonn\u00e9es : 1\u00b0 Des m\u00e9decins du travail du secteur ; 2\u00b0 Des autres membres de l'\u00e9quipe pluridisciplinaire ; 3\u00b0 Des membres de la commission de contr\u00f4le ou des membres  du comit\u00e9 interentreprises.",
-            "texteHtml": "<p>Chaque secteur comporte au moins un centre m\u00e9dical fixe. <br/><br/>  Dans chaque centre m\u00e9dical fixe ou mobile est affich\u00e9e la liste nominative avec  leurs coordonn\u00e9es : <br/><br/> 1\u00b0 Des m\u00e9decins du travail du secteur ;  <br/><br/> 2\u00b0 Des autres membres de l'\u00e9quipe pluridisciplinaire ;  <br/><br/> 3\u00b0 Des membres de la commission de contr\u00f4le ou des membres  du comit\u00e9 interentreprises.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4625-6 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4625-6",
+                    "articleId": "LEGIARTI000025282401",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1341100800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4451-86 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4451-86",
+                    "articleId": "LEGIARTI000047715553",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-12 II (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-12",
+                    "articleId": "LEGIARTI000018510256",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528535",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1266192000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022356352",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1266192000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025280117",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4622-27",
+                "4622-27"
+            ],
+            "versionPrecedente": "LEGIARTI000022356352",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000022356352",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Des membres repr\u00e9sentants du personnel de la commission de contr\u00f4le participent, avec voix d\u00e9lib\u00e9rative, au conseil d'administration des services interentreprises de sant\u00e9 au travail \u00e0 raison d'un tiers des si\u00e8ges du conseil. Un compte rendu de chaque r\u00e9union du conseil d'administration est adress\u00e9 au             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.",
+            "texteHtml": "<p><br/>Des membres repr\u00e9sentants du personnel de la commission de contr\u00f4le participent, avec voix d\u00e9lib\u00e9rative, au conseil d'administration des services interentreprises de sant\u00e9 au travail \u00e0 raison d'un tiers des si\u00e8ges du conseil. <br/>Un compte rendu de chaque r\u00e9union du conseil d'administration est adress\u00e9 au             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.</p>",
+            "num": "D4622-27",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1266192000000,
+            "dateFin": 1341100800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 715827882,
             "context": {
                 "titresTM": [
                     {
@@ -265,11 +392,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -301,11 +437,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 3 : Services de sant\u00e9 au travail interentreprises.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492815",
                         "id": "LEGISCTA000025280083",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Services de pr\u00e9vention et de sant\u00e9 au travail interentreprises.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492815",
+                        "id": "LEGISCTA000046340953",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -368,50 +513,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000022356352",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018492831",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492819",
+            "sectionParentId": "LEGISCTA000025280079",
+            "sectionParentTitre": "Paragraphe 1 : Mise en place et administration.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre II : Missions et organisation &gt; Section 3 : Services de sant\u00e9 au travail interentreprises. &gt; Sous-section 1 : Organisation du service de sant\u00e9 au travail. &gt; Paragraphe 1 : Mise en place et administration.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000022356352",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4625-6 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4625-6",
-                    "articleId": "LEGIARTI000025282401",
-                    "natureText": "CODE",
-                    "date": 1651092979402,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1341100800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4451-86 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4451-86",
-                    "articleId": "LEGIARTI000037024408",
-                    "natureText": "CODE",
-                    "date": 1651092979402,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1530403200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-12 II (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-12",
-                    "articleId": "LEGIARTI000018510256",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "D\u00e9cret n\u00b0 2009-1377 du 10 novembre 2009 article 7 I : Les dispositions du pr\u00e9sent d\u00e9cret prennent effet, dans chaque r\u00e9gion, \u00e0 la date de nomination du directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi (Les arr\u00eat\u00e9s de nomination de ces directeurs ont \u00e9t\u00e9 publi\u00e9s par arr\u00eat\u00e9s des 30 d\u00e9cembre 2009 et 9 f\u00e9vrier 2010, parus respectivement au Journal officiel des 5 janvier et 14 f\u00e9vrier 2010). Conform\u00e9ment \u00e0 l'article 15 du m\u00eame d\u00e9cret elles ne s'appliquent ni \u00e0 la r\u00e9gion Ile-de-France ni aux r\u00e9gions d'outre-mer. Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2010-687 du 24 juin 2010, les dispositions du d\u00e9cret n\u00b0 2009-1377 du 10 novembre 2009            s'appliquent \u00e0 la r\u00e9gion Ile-de-France \u00e0 compter du 1er juillet 2010.",
+            "notaHtml": "<p>D\u00e9cret n\u00b0 2009-1377 du 10 novembre 2009 article 7 I : Les dispositions du pr\u00e9sent d\u00e9cret prennent effet, dans chaque r\u00e9gion, \u00e0 la date de nomination du directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi (Les arr\u00eat\u00e9s de nomination de ces directeurs ont \u00e9t\u00e9 publi\u00e9s par arr\u00eat\u00e9s des 30 d\u00e9cembre 2009 et 9 f\u00e9vrier 2010, parus respectivement au Journal officiel des 5 janvier et 14 f\u00e9vrier 2010). </p><p>Conform\u00e9ment \u00e0 l'article 15 du m\u00eame d\u00e9cret elles ne s'appliquent ni \u00e0 la r\u00e9gion Ile-de-France ni aux r\u00e9gions d'outre-mer. </p><p></p><p>Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2010-687 du 24 juin 2010, les dispositions du d\u00e9cret n\u00b0 2009-1377 du 10 novembre 2009            s'appliquent \u00e0 la r\u00e9gion Ile-de-France \u00e0 compter du 1er juillet 2010.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021259245",
@@ -426,15 +574,106 @@
                     "dateDebutCible": "2009-11-14"
                 }
             ],
-            "num": "D4622-27",
-            "origine": "LEGI",
-            "texte": "Des membres repr\u00e9sentants du personnel de la commission de contr\u00f4le participent, avec voix d\u00e9lib\u00e9rative, au conseil d'administration des services interentreprises de sant\u00e9 au travail \u00e0 raison d'un tiers des si\u00e8ges du conseil. Un compte rendu de chaque r\u00e9union du conseil d'administration est adress\u00e9 au             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.",
-            "texteHtml": "<p><br/>Des membres repr\u00e9sentants du personnel de la commission de contr\u00f4le participent, avec voix d\u00e9lib\u00e9rative, au conseil d'administration des services interentreprises de sant\u00e9 au travail \u00e0 raison d'un tiers des si\u00e8ges du conseil. <br/>Un compte rendu de chaque r\u00e9union du conseil d'administration est adress\u00e9 au             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-02-15T00:00:00.000Z",
-            "dateFin": "2012-07-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4625-6 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4625-6",
+                    "articleId": "LEGIARTI000025282401",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1341100800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4451-86 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4451-86",
+                    "articleId": "LEGIARTI000047715553",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-12 II (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-12",
+                    "articleId": "LEGIARTI000018510256",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528535",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1266192000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022356352",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1266192000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025280117",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4622-27",
+                "4622-27"
+            ],
+            "versionPrecedente": "LEGIARTI000018528535",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018528535",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Des membres repr\u00e9sentants du personnel de la commission de contr\u00f4le participent, avec voix d\u00e9lib\u00e9rative, au conseil d'administration des services interentreprises de sant\u00e9 au travail \u00e0 raison d'un tiers des si\u00e8ges du conseil. Un compte rendu de chaque r\u00e9union du conseil d'administration est adress\u00e9 au directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle.",
+            "texteHtml": "<p><br/>Des membres repr\u00e9sentants du personnel de la commission de contr\u00f4le participent, avec voix d\u00e9lib\u00e9rative, au conseil d'administration des services interentreprises de sant\u00e9 au travail \u00e0 raison d'un tiers des si\u00e8ges du conseil.<br/> Un compte rendu de chaque r\u00e9union du conseil d'administration est adress\u00e9 au directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle.</p>",
+            "num": "D4622-27",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1266192000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 715827882,
             "context": {
                 "titresTM": [
                     {
@@ -475,11 +714,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -511,11 +759,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 3 : Services de sant\u00e9 au travail interentreprises.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492815",
                         "id": "LEGISCTA000025280083",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Services de pr\u00e9vention et de sant\u00e9 au travail interentreprises.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492815",
+                        "id": "LEGISCTA000046340953",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -578,50 +835,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018528535",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018492831",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492819",
+            "sectionParentId": "LEGISCTA000025280079",
+            "sectionParentTitre": "Paragraphe 1 : Mise en place et administration.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; TITRE II : SERVICES DE SANT\u00c9 AU TRAVAIL &gt; Chapitre II : Missions et organisation &gt; Section 3 : Services de sant\u00e9 au travail interentreprises. &gt; Sous-section 1 : Organisation du service de sant\u00e9 au travail. &gt; Paragraphe 1 : Mise en place et administration.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000018528535",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4625-6 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4625-6",
-                    "articleId": "LEGIARTI000025282401",
-                    "natureText": "CODE",
-                    "date": 1651092977627,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1341100800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4451-86 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4451-86",
-                    "articleId": "LEGIARTI000037024408",
-                    "natureText": "CODE",
-                    "date": 1651092977627,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1530403200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-12 II (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-12",
-                    "articleId": "LEGIARTI000018510256",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018442415",
@@ -636,13 +896,88 @@
                     "dateDebutCible": "2008-03-13"
                 }
             ],
-            "num": "D4622-27",
-            "origine": "LEGI",
-            "texte": "Des membres repr\u00e9sentants du personnel de la commission de contr\u00f4le participent, avec voix d\u00e9lib\u00e9rative, au conseil d'administration des services interentreprises de sant\u00e9 au travail \u00e0 raison d'un tiers des si\u00e8ges du conseil. Un compte rendu de chaque r\u00e9union du conseil d'administration est adress\u00e9 au directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle.",
-            "texteHtml": "<p><br/>Des membres repr\u00e9sentants du personnel de la commission de contr\u00f4le participent, avec voix d\u00e9lib\u00e9rative, au conseil d'administration des services interentreprises de sant\u00e9 au travail \u00e0 raison d'un tiers des si\u00e8ges du conseil.<br/> Un compte rendu de chaque r\u00e9union du conseil d'administration est adress\u00e9 au directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2010-02-15T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4625-6 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4625-6",
+                    "articleId": "LEGIARTI000025282401",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1341100800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4451-86 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4451-86",
+                    "articleId": "LEGIARTI000047715553",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-12 II (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-12",
+                    "articleId": "LEGIARTI000018510256",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528535",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1266192000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022356352",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1266192000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025280117",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4622-27",
+                "4622-27"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

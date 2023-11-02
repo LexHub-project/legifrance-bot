@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006793213",
-    "num": "A130",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000021636128",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour le calcul des trois mois, requis \u00e0 l'article R. 224 C (III, 2\u00b0), une bonification de vingt-cinq jours est accord\u00e9e au personnel pr\u00e9sent \u00e0 bord d'un navire ayant particip\u00e9 aux op\u00e9rations d'\u00e9vacuation de Dunkerque, ou \u00e0 des op\u00e9rations d'\u00e9vacuation analogues d\u00e9termin\u00e9es par arr\u00eat\u00e9s conjoints du       ministre charg\u00e9 des anciens combattants et victimes de guerre et du ministre charg\u00e9 de la marine marchande. Ce personnel b\u00e9n\u00e9ficie en outre des bonifications accord\u00e9es aux militaires pendant la dur\u00e9e de leur s\u00e9jour dans lesdites zones d'op\u00e9rations, conform\u00e9ment aux dispositions de l'article A. 134-1.",
+            "texteHtml": "<p></p>Pour le calcul des trois mois, requis \u00e0 l'article R. 224 C (III, 2\u00b0), une bonification de vingt-cinq jours est accord\u00e9e au personnel pr\u00e9sent \u00e0 bord d'un navire ayant particip\u00e9 aux op\u00e9rations d'\u00e9vacuation de Dunkerque, ou \u00e0 des op\u00e9rations d'\u00e9vacuation analogues d\u00e9termin\u00e9es par arr\u00eat\u00e9s conjoints du       ministre charg\u00e9 des anciens combattants et victimes de guerre et du ministre charg\u00e9 de la marine marchande. <p></p><p></p>Ce personnel b\u00e9n\u00e9ficie en outre des bonifications accord\u00e9es aux militaires pendant la dur\u00e9e de leur s\u00e9jour dans lesdites zones d'op\u00e9rations, conform\u00e9ment aux dispositions de l'article A. 134-1.<p></p>",
+            "num": "A130",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1262304000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -25,11 +40,20 @@
                     },
                     {
                         "debut": "1951-04-29",
-                        "fin": "2999-01-01",
+                        "fin": "2023-08-07",
                         "titre": "Titre Ier : Carte et retraite du combattant.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006142717",
                         "id": "LEGISCTA000006142717",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-08-07",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Carte et allocation de reconnaissance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142717",
+                        "id": "LEGISCTA000047941058",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -64,15 +88,6 @@
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -80,43 +95,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000021636128",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006793213",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186913",
+            "sectionParentId": "LEGISCTA000006186913",
+            "sectionParentTitre": "Paragraphe 1 : Calcul du temps de pr\u00e9sence ou de la dur\u00e9e d'appartenance.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Livre III : Droits et avantages attach\u00e9s \u00e0 la qualit\u00e9 d'ancien combattant ou de victime de guerre. &gt; Titre Ier : Carte et retraite du combattant. &gt; Chapitre Ier : Carte du combattant. &gt; Section 2 : Proc\u00e9dure d'attribution de la carte. &gt; Paragraphe 1 : Calcul du temps de pr\u00e9sence ou de la dur\u00e9e d'appartenance.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000021636128",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre. - art. A134-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "A134-1",
-                    "articleId": "LEGIARTI000006793217",
-                    "natureText": "CODE",
-                    "date": 1599829716912,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": -492307200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre. - art. R224",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R224",
-                    "articleId": "LEGIARTI000006795277",
-                    "natureText": "CODE",
-                    "date": 1599829716912,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 161481600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021572864",
@@ -131,15 +196,87 @@
                     "dateDebutCible": "2010-01-01"
                 }
             ],
-            "num": "A130",
-            "origine": "LEGI",
-            "texte": "Pour le calcul des trois mois, requis \u00e0 l'article R. 224 C (III, 2\u00b0), une bonification de vingt-cinq jours est accord\u00e9e au personnel pr\u00e9sent \u00e0 bord d'un navire ayant particip\u00e9 aux op\u00e9rations d'\u00e9vacuation de Dunkerque, ou \u00e0 des op\u00e9rations d'\u00e9vacuation analogues d\u00e9termin\u00e9es par arr\u00eat\u00e9s conjoints du       ministre charg\u00e9 des anciens combattants et victimes de guerre et du ministre charg\u00e9 de la marine marchande. Ce personnel b\u00e9n\u00e9ficie en outre des bonifications accord\u00e9es aux militaires pendant la dur\u00e9e de leur s\u00e9jour dans lesdites zones d'op\u00e9rations, conform\u00e9ment aux dispositions de l'article A. 134-1.",
-            "texteHtml": "<p></p>Pour le calcul des trois mois, requis \u00e0 l'article R. 224 C (III, 2\u00b0), une bonification de vingt-cinq jours est accord\u00e9e au personnel pr\u00e9sent \u00e0 bord d'un navire ayant particip\u00e9 aux op\u00e9rations d'\u00e9vacuation de Dunkerque, ou \u00e0 des op\u00e9rations d'\u00e9vacuation analogues d\u00e9termin\u00e9es par arr\u00eat\u00e9s conjoints du       ministre charg\u00e9 des anciens combattants et victimes de guerre et du ministre charg\u00e9 de la marine marchande. <p></p><p></p>Ce personnel b\u00e9n\u00e9ficie en outre des bonifications accord\u00e9es aux militaires pendant la dur\u00e9e de leur s\u00e9jour dans lesdites zones d'op\u00e9rations, conform\u00e9ment aux dispositions de l'article A. 134-1.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre. - art. A134-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "A134-1",
+                    "articleId": "LEGIARTI000006793217",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": -492307200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre. - art. R224",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R224",
+                    "articleId": "LEGIARTI000006795277",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 161481600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006793213",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": -492307200000,
+                    "dateFin": 1262304000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021636128",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1262304000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A130",
+                "130"
+            ],
+            "versionPrecedente": "LEGIARTI000006793213",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006793213",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour le calcul des trois mois, requis \u00e0 l'article R. 224 C (III, 2\u00b0), une bonification de vingt-cinq jours est accord\u00e9e au personnel pr\u00e9sent \u00e0 bord d'un navire ayant particip\u00e9 aux op\u00e9rations d'\u00e9vacuation de Dunkerque, ou \u00e0 des op\u00e9rations d'\u00e9vacuation analogues d\u00e9termin\u00e9es par arr\u00eat\u00e9s conjoints du ministre des anciens combattants et victimes de guerre et du ministre charg\u00e9 de la marine marchande. Ce personnel b\u00e9n\u00e9ficie en outre des bonifications accord\u00e9es aux militaires pendant la dur\u00e9e de leur s\u00e9jour dans lesdites zones d'op\u00e9rations, conform\u00e9ment aux dispositions de l'article A. 134-1.",
+            "texteHtml": "<p></p>   Pour le calcul des trois mois, requis \u00e0 l'article R. 224 C (III, 2\u00b0), une bonification de vingt-cinq jours est accord\u00e9e au personnel pr\u00e9sent \u00e0 bord d'un navire ayant particip\u00e9 aux op\u00e9rations d'\u00e9vacuation de Dunkerque, ou \u00e0 des op\u00e9rations d'\u00e9vacuation analogues d\u00e9termin\u00e9es par arr\u00eat\u00e9s conjoints du ministre des anciens combattants et victimes de guerre et du ministre charg\u00e9 de la marine marchande.<p></p><p></p>   Ce personnel b\u00e9n\u00e9ficie en outre des bonifications accord\u00e9es aux militaires pendant la dur\u00e9e de leur s\u00e9jour dans lesdites zones d'op\u00e9rations, conform\u00e9ment aux dispositions de l'article A. 134-1.<p></p>",
+            "num": "A130",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": -492307200000,
+            "dateFin": 1262304000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -162,11 +299,20 @@
                     },
                     {
                         "debut": "1951-04-29",
-                        "fin": "2999-01-01",
+                        "fin": "2023-08-07",
                         "titre": "Titre Ier : Carte et retraite du combattant.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006142717",
                         "id": "LEGISCTA000006142717",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-08-07",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Carte et allocation de reconnaissance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142717",
+                        "id": "LEGISCTA000047941058",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -201,15 +347,6 @@
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -217,53 +354,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006793213",
-            "lienAutres": [
+            "cid": "LEGIARTI000006793213",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186913",
+            "sectionParentId": "LEGISCTA000006186913",
+            "sectionParentTitre": "Paragraphe 1 : Calcul du temps de pr\u00e9sence ou de la dur\u00e9e d'appartenance.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Livre III : Droits et avantages attach\u00e9s \u00e0 la qualit\u00e9 d'ancien combattant ou de victime de guerre. &gt; Titre Ier : Carte et retraite du combattant. &gt; Chapitre Ier : Carte du combattant. &gt; Section 2 : Proc\u00e9dure d'attribution de la carte. &gt; Paragraphe 1 : Calcul du temps de pr\u00e9sence ou de la dur\u00e9e d'appartenance.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006793213",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A128 (V)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "source",
-                    "articleNum": "A128",
-                    "articleId": "LEGIARTI000006793211",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A134-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "A134-1",
-                    "articleId": "LEGIARTI000006793217",
-                    "natureText": "CODE",
-                    "date": 1599824870369,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": -492307200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. R224 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R224",
-                    "articleId": "LEGIARTI000006795277",
-                    "natureText": "CODE",
-                    "date": 1599824870369,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 161481600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -290,13 +467,79 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "A130",
-            "origine": "LEGI",
-            "texte": "Pour le calcul des trois mois, requis \u00e0 l'article R. 224 C (III, 2\u00b0), une bonification de vingt-cinq jours est accord\u00e9e au personnel pr\u00e9sent \u00e0 bord d'un navire ayant particip\u00e9 aux op\u00e9rations d'\u00e9vacuation de Dunkerque, ou \u00e0 des op\u00e9rations d'\u00e9vacuation analogues d\u00e9termin\u00e9es par arr\u00eat\u00e9s conjoints du ministre des anciens combattants et victimes de guerre et du ministre charg\u00e9 de la marine marchande. Ce personnel b\u00e9n\u00e9ficie en outre des bonifications accord\u00e9es aux militaires pendant la dur\u00e9e de leur s\u00e9jour dans lesdites zones d'op\u00e9rations, conform\u00e9ment aux dispositions de l'article A. 134-1.",
-            "texteHtml": "<p></p>   Pour le calcul des trois mois, requis \u00e0 l'article R. 224 C (III, 2\u00b0), une bonification de vingt-cinq jours est accord\u00e9e au personnel pr\u00e9sent \u00e0 bord d'un navire ayant particip\u00e9 aux op\u00e9rations d'\u00e9vacuation de Dunkerque, ou \u00e0 des op\u00e9rations d'\u00e9vacuation analogues d\u00e9termin\u00e9es par arr\u00eat\u00e9s conjoints du ministre des anciens combattants et victimes de guerre et du ministre charg\u00e9 de la marine marchande.<p></p><p></p>   Ce personnel b\u00e9n\u00e9ficie en outre des bonifications accord\u00e9es aux militaires pendant la dur\u00e9e de leur s\u00e9jour dans lesdites zones d'op\u00e9rations, conform\u00e9ment aux dispositions de l'article A. 134-1.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1954-05-27T00:00:00.000Z",
-            "dateFin": "2010-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A134-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "A134-1",
+                    "articleId": "LEGIARTI000006793217",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": -492307200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. R224 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R224",
+                    "articleId": "LEGIARTI000006795277",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 161481600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A128 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "A128",
+                    "articleId": "LEGIARTI000006793211",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006793213",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": -492307200000,
+                    "dateFin": 1262304000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021636128",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1262304000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A130",
+                "130"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

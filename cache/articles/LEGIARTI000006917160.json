@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006917160",
-    "num": "D6124-150",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000044948724",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le parcours du patient est organis\u00e9 et notamment son accueil, la r\u00e9alisation de l'acte interventionnel et la prise en charge jusqu'\u00e0 sa sortie.",
+            "texteHtml": "<p>Le parcours du patient est organis\u00e9 et notamment son accueil, la r\u00e9alisation de l'acte interventionnel et la prise en charge jusqu'\u00e0 sa sortie.</p>",
+            "num": "D6124-150",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196708",
                         "id": "LEGISCTA000006196708",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -75,7 +90,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196708",
                         "id": "LEGISCTA000044948746",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -92,40 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000044948724",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006917160",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196708",
+            "sectionParentId": "LEGISCTA000044948746",
+            "sectionParentTitre": "Sous-section 11 : Activit\u00e9s interventionnelles sous imagerie m\u00e9dicale en neuroradiologie.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 11 : Activit\u00e9s interventionnelles sous imagerie m\u00e9dicale en neuroradiologie.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000044948724",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-149 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "D6124-149",
-                    "articleId": "LEGIARTI000044948729",
-                    "natureText": "CODE",
-                    "date": 1642113896454,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-108",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6123-108",
-                    "articleId": "LEGIARTI000006916926",
-                    "natureText": "CODE",
-                    "date": 1642113896454,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-22 du 10 janvier 2022, ces dispositions entrent en vigueur le 1er juin 2023.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-22 du 10 janvier 2022, ces dispositions entrent en vigueur le 1er juin 2023.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -152,15 +180,87 @@
                     "dateDebutCible": "2023-06-01"
                 }
             ],
-            "num": "D6124-150",
-            "origine": "LEGI",
-            "texte": "Le parcours du patient est organis\u00e9 et notamment son accueil, la r\u00e9alisation de l'acte interventionnel et la prise en charge jusqu'\u00e0 sa sortie.",
-            "texteHtml": "<p>Le parcours du patient est organis\u00e9 et notamment son accueil, la r\u00e9alisation de l'acte interventionnel et la prise en charge jusqu'\u00e0 sa sortie.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-149 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "D6124-149",
+                    "articleId": "LEGIARTI000044948729",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-108",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6123-108",
+                    "articleId": "LEGIARTI000006916926",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174435200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006917160",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044948724",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-150",
+                "6124-150"
+            ],
+            "versionPrecedente": "LEGIARTI000006917160",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006917160",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La permanence des soins mentionn\u00e9e \u00e0 l'article R. 6123-108 et la continuit\u00e9 des soins sont assur\u00e9es sur chaque site par un m\u00e9decin remplissant les conditions mentionn\u00e9es au 1\u00b0 de l'article D. 6124-149 et un anesth\u00e9siste-r\u00e9animateur. Ces personnes assurent leurs fonctions sur place ou en astreinte op\u00e9rationnelle ou, le cas \u00e9ch\u00e9ant, par convention avec d'autres \u00e9tablissements de sant\u00e9 ou groupements de coop\u00e9ration sanitaire. Dans ces deux derniers cas, le d\u00e9lai d'arriv\u00e9e doit \u00eatre compatible avec les imp\u00e9ratifs de s\u00e9curit\u00e9. Lorsque la permanence des soins est assur\u00e9e pour plusieurs sites, la convention mentionn\u00e9e au 2\u00b0 de l'article R. 6123-108 pr\u00e9cise notamment les modalit\u00e9s d'organisation entre les sites, de participation des personnels de chaque site et les modalit\u00e9s d'orientation et de prise en charge des patients.",
+            "texteHtml": "<p></p>   La permanence des soins mentionn\u00e9e \u00e0 l'article R. 6123-108 et la continuit\u00e9 des soins sont assur\u00e9es sur chaque site par un m\u00e9decin remplissant les conditions mentionn\u00e9es au 1\u00b0 de l'article D. 6124-149 et un anesth\u00e9siste-r\u00e9animateur. Ces personnes assurent leurs fonctions sur place ou en astreinte op\u00e9rationnelle ou, le cas \u00e9ch\u00e9ant, par convention avec d'autres \u00e9tablissements de sant\u00e9 ou groupements de coop\u00e9ration sanitaire. Dans ces deux derniers cas, le d\u00e9lai d'arriv\u00e9e doit \u00eatre compatible avec les imp\u00e9ratifs de s\u00e9curit\u00e9.<p></p><p></p>   Lorsque la permanence des soins est assur\u00e9e pour plusieurs sites, la convention mentionn\u00e9e au 2\u00b0 de l'article R. 6123-108 pr\u00e9cise notamment les modalit\u00e9s d'organisation entre les sites, de participation des personnels de chaque site et les modalit\u00e9s d'orientation et de prise en charge des patients.<p></p>",
+            "num": "D6124-150",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174435200000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -224,7 +324,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196708",
                         "id": "LEGISCTA000006196708",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -233,7 +333,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196708",
                         "id": "LEGISCTA000044948746",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -250,40 +350,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000006917160",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006917160",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196708",
+            "sectionParentId": "LEGISCTA000044948746",
+            "sectionParentTitre": "Sous-section 11 : Activit\u00e9s interventionnelles sous imagerie m\u00e9dicale en neuroradiologie.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 11 : Activit\u00e9s interventionnelles sous imagerie m\u00e9dicale en neuroradiologie.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006917160",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-149 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "D6124-149",
-                    "articleId": "LEGIARTI000006917159",
-                    "natureText": "CODE",
-                    "date": 1642113896737,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-108 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6123-108",
-                    "articleId": "LEGIARTI000006916926",
-                    "natureText": "CODE",
-                    "date": 1642113896738,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -310,13 +423,69 @@
                     "dateDebutCible": "2007-03-21"
                 }
             ],
-            "num": "D6124-150",
-            "origine": "LEGI",
-            "texte": "La permanence des soins mentionn\u00e9e \u00e0 l'article R. 6123-108 et la continuit\u00e9 des soins sont assur\u00e9es sur chaque site par un m\u00e9decin remplissant les conditions mentionn\u00e9es au 1\u00b0 de l'article D. 6124-149 et un anesth\u00e9siste-r\u00e9animateur. Ces personnes assurent leurs fonctions sur place ou en astreinte op\u00e9rationnelle ou, le cas \u00e9ch\u00e9ant, par convention avec d'autres \u00e9tablissements de sant\u00e9 ou groupements de coop\u00e9ration sanitaire. Dans ces deux derniers cas, le d\u00e9lai d'arriv\u00e9e doit \u00eatre compatible avec les imp\u00e9ratifs de s\u00e9curit\u00e9. Lorsque la permanence des soins est assur\u00e9e pour plusieurs sites, la convention mentionn\u00e9e au 2\u00b0 de l'article R. 6123-108 pr\u00e9cise notamment les modalit\u00e9s d'organisation entre les sites, de participation des personnels de chaque site et les modalit\u00e9s d'orientation et de prise en charge des patients.",
-            "texteHtml": "<p></p>   La permanence des soins mentionn\u00e9e \u00e0 l'article R. 6123-108 et la continuit\u00e9 des soins sont assur\u00e9es sur chaque site par un m\u00e9decin remplissant les conditions mentionn\u00e9es au 1\u00b0 de l'article D. 6124-149 et un anesth\u00e9siste-r\u00e9animateur. Ces personnes assurent leurs fonctions sur place ou en astreinte op\u00e9rationnelle ou, le cas \u00e9ch\u00e9ant, par convention avec d'autres \u00e9tablissements de sant\u00e9 ou groupements de coop\u00e9ration sanitaire. Dans ces deux derniers cas, le d\u00e9lai d'arriv\u00e9e doit \u00eatre compatible avec les imp\u00e9ratifs de s\u00e9curit\u00e9.<p></p><p></p>   Lorsque la permanence des soins est assur\u00e9e pour plusieurs sites, la convention mentionn\u00e9e au 2\u00b0 de l'article R. 6123-108 pr\u00e9cise notamment les modalit\u00e9s d'organisation entre les sites, de participation des personnels de chaque site et les modalit\u00e9s d'orientation et de prise en charge des patients.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-21T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-149 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "D6124-149",
+                    "articleId": "LEGIARTI000006917159",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-108 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6123-108",
+                    "articleId": "LEGIARTI000006916926",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174435200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006917160",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044948724",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-150",
+                "6124-150"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

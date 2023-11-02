@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018980354",
-    "num": "D122-22",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000021508788",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour tous les organismes autres que ceux de la Mutualit\u00e9 sociale agricole, les comptes annuels valid\u00e9s, accompagn\u00e9s de l'avis de validation \u00e9tabli dans les conditions fix\u00e9es \u00e0 l'article D. 114-4-2 du code de la s\u00e9curit\u00e9 sociale, seront transmis au service mentionn\u00e9 \u00e0 l'article R. 155-1 par l'organisme local et au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, \u00e0 sa demande, en tant que de besoin.",
+            "texteHtml": "<p>Pour tous les organismes autres que ceux de la Mutualit\u00e9 sociale agricole, les comptes annuels valid\u00e9s, accompagn\u00e9s de l'avis de validation \u00e9tabli dans les conditions fix\u00e9es \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000006735179&dateTexte=&categorieLien=cid'>l'article D. 114-4-2 </a>du code de la s\u00e9curit\u00e9 sociale, seront transmis au service mentionn\u00e9 \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000021499672&dateTexte=&categorieLien=cid'>l'article R. 155-1</a> par l'organisme local et au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, \u00e0 sa demande, en tant que de besoin.</p>",
+            "num": "D122-22",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1262304000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610720107,
             "context": {
                 "titresTM": [
                     {
@@ -34,11 +49,20 @@
                     },
                     {
                         "debut": "1985-12-21",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Chapitre 2 : Directeur et agent comptable",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006155762",
                         "id": "LEGISCTA000006155762",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre 2 : Directeur et directeur comptable et financier",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006155762",
+                        "id": "LEGISCTA000046800548",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -52,15 +76,24 @@
                     },
                     {
                         "debut": "2020-05-25",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Section 3 : Responsabilit\u00e9 personnelle et p\u00e9cuniaire",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006172094",
                         "id": "LEGISCTA000041968072",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Dispositions diverses relatives \u00e0 la conservation des pi\u00e8ces comptables et \u00e0 la r\u00e9alisation de missions ou d'activit\u00e9s communes relatives \u00e0 la gestion des organismes par les directeurs comptables et financiers",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006172094",
+                        "id": "LEGISCTA000046800492",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
@@ -74,40 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000021508788",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018980354",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006172094",
+            "sectionParentId": "LEGISCTA000046800492",
+            "sectionParentTitre": "Section 3 : Dispositions diverses relatives \u00e0 la conservation des pi\u00e8ces comptables et \u00e0 la r\u00e9alisation de missions ou d'activit\u00e9s communes relatives \u00e0 la gestion des organismes par les directeurs comptables et financiers",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre II : Administration, fonctionnement et personnel des organismes &gt; Chapitre 2 : Directeur et agent comptable &gt; Section 2 : Responsabilit\u00e9 personnelle et p\u00e9cuniaire.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000021508788",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D114-4-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "D114-4-2",
-                    "articleId": "LEGIARTI000006735179",
-                    "natureText": "CODE",
-                    "date": 1622682602064,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1473638400000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R155-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R155-1",
-                    "articleId": "LEGIARTI000021499672",
-                    "natureText": "CODE",
-                    "date": 1622682602064,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1562544000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021496343",
@@ -122,15 +168,87 @@
                     "dateDebutCible": "2010-01-01"
                 }
             ],
-            "num": "D122-22",
-            "origine": "LEGI",
-            "texte": "Pour tous les organismes autres que ceux de la Mutualit\u00e9 sociale agricole, les comptes annuels valid\u00e9s, accompagn\u00e9s de l'avis de validation \u00e9tabli dans les conditions fix\u00e9es \u00e0 l'article D. 114-4-2 du code de la s\u00e9curit\u00e9 sociale, seront transmis au service mentionn\u00e9 \u00e0 l'article R. 155-1 par l'organisme local et au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, \u00e0 sa demande, en tant que de besoin.",
-            "texteHtml": "<p>Pour tous les organismes autres que ceux de la Mutualit\u00e9 sociale agricole, les comptes annuels valid\u00e9s, accompagn\u00e9s de l'avis de validation \u00e9tabli dans les conditions fix\u00e9es \u00e0 <a href='/article/LEGIARTI000006735179'>l'article D. 114-4-2 </a>du code de la s\u00e9curit\u00e9 sociale, seront transmis au service mentionn\u00e9 \u00e0 <a href='/article/LEGIARTI000021499672'>l'article R. 155-1</a> par l'organisme local et au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, \u00e0 sa demande, en tant que de besoin.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D114-4-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "D114-4-2",
+                    "articleId": "LEGIARTI000006735179",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1473638400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R155-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R155-1",
+                    "articleId": "LEGIARTI000021499672",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1562544000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018981608",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1213401600000,
+                    "dateFin": 1262304000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021508788",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1262304000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D122-22",
+                "122-22"
+            ],
+            "versionPrecedente": "LEGIARTI000018981608",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018981608",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour tous les organismes autres que ceux de la Mutualit\u00e9 sociale agricole, les comptes annuels valid\u00e9s, accompagn\u00e9s de l'avis de validation \u00e9tabli dans les conditions fix\u00e9es \u00e0 l'article D. 114-4-2 du code de la s\u00e9curit\u00e9 sociale, seront transmis au directeur r\u00e9gional des affaires sanitaires et sociales par l'organisme local et au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, \u00e0 sa demande, en tant que de besoin.",
+            "texteHtml": "Pour tous les organismes autres que ceux de la Mutualit\u00e9 sociale agricole, les comptes annuels valid\u00e9s, accompagn\u00e9s de l'avis de validation \u00e9tabli dans les conditions fix\u00e9es \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000006735179&dateTexte=&categorieLien=cid'>l'article D. 114-4-2</a> du code de la s\u00e9curit\u00e9 sociale, seront transmis au directeur r\u00e9gional des affaires sanitaires et sociales par l'organisme local et au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, \u00e0 sa demande, en tant que de besoin.",
+            "num": "D122-22",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1213401600000,
+            "dateFin": 1262304000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610720107,
             "context": {
                 "titresTM": [
                     {
@@ -162,11 +280,20 @@
                     },
                     {
                         "debut": "1985-12-21",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Chapitre 2 : Directeur et agent comptable",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006155762",
                         "id": "LEGISCTA000006155762",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre 2 : Directeur et directeur comptable et financier",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006155762",
+                        "id": "LEGISCTA000046800548",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -180,15 +307,24 @@
                     },
                     {
                         "debut": "2020-05-25",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Section 3 : Responsabilit\u00e9 personnelle et p\u00e9cuniaire",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006172094",
                         "id": "LEGISCTA000041968072",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Dispositions diverses relatives \u00e0 la conservation des pi\u00e8ces comptables et \u00e0 la r\u00e9alisation de missions ou d'activit\u00e9s communes relatives \u00e0 la gestion des organismes par les directeurs comptables et financiers",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006172094",
+                        "id": "LEGISCTA000046800492",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
@@ -202,26 +338,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018981608",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018980354",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006172094",
+            "sectionParentId": "LEGISCTA000046800492",
+            "sectionParentTitre": "Section 3 : Dispositions diverses relatives \u00e0 la conservation des pi\u00e8ces comptables et \u00e0 la r\u00e9alisation de missions ou d'activit\u00e9s communes relatives \u00e0 la gestion des organismes par les directeurs comptables et financiers",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre II : Administration, fonctionnement et personnel des organismes &gt; Chapitre 2 : Directeur et agent comptable &gt; Section 2 : Responsabilit\u00e9 personnelle et p\u00e9cuniaire.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000018981608",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D114-4-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "D114-4-2",
-                    "articleId": "LEGIARTI000006735179",
-                    "natureText": "CODE",
-                    "date": 1622683872881,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1473638400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018979166",
@@ -236,13 +399,56 @@
                     "dateDebutCible": "2008-06-14"
                 }
             ],
-            "num": "D122-22",
-            "origine": "LEGI",
-            "texte": "Pour tous les organismes autres que ceux de la Mutualit\u00e9 sociale agricole, les comptes annuels valid\u00e9s, accompagn\u00e9s de l'avis de validation \u00e9tabli dans les conditions fix\u00e9es \u00e0 l'article D. 114-4-2 du code de la s\u00e9curit\u00e9 sociale, seront transmis au directeur r\u00e9gional des affaires sanitaires et sociales par l'organisme local et au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, \u00e0 sa demande, en tant que de besoin.",
-            "texteHtml": "Pour tous les organismes autres que ceux de la Mutualit\u00e9 sociale agricole, les comptes annuels valid\u00e9s, accompagn\u00e9s de l'avis de validation \u00e9tabli dans les conditions fix\u00e9es \u00e0 <a href='/article/LEGIARTI000006735179'>l'article D. 114-4-2</a> du code de la s\u00e9curit\u00e9 sociale, seront transmis au directeur r\u00e9gional des affaires sanitaires et sociales par l'organisme local et au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, \u00e0 sa demande, en tant que de besoin.",
-            "type": "AUTONOME",
-            "dateDebut": "2008-06-14T00:00:00.000Z",
-            "dateFin": "2010-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D114-4-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "D114-4-2",
+                    "articleId": "LEGIARTI000006735179",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1473638400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018981608",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1213401600000,
+                    "dateFin": 1262304000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021508788",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1262304000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D122-22",
+                "122-22"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

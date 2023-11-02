@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006825538",
-    "num": "L452-7",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006825539",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret en Conseil d'Etat d\u00e9finit les modalit\u00e9s d'application du pr\u00e9sent chapitre.",
+            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat d\u00e9finit les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>",
+            "num": "L452-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 978220800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 38646,
             "context": {
                 "titresTM": [
                     {
@@ -56,82 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006825539",
-            "lienAutres": [
+            "cid": "LEGIARTI000006825538",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159080",
+            "sectionParentId": "LEGISCTA000006159080",
+            "sectionParentTitre": "Chapitre II : Caisse de garantie du logement locatif social et redressement des organismes.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Habitations \u00e0 loyer mod\u00e9r\u00e9. &gt; Titre V : Contr\u00f4le, redressement des organismes et garantie de l'accession sociale \u00e0 la propri\u00e9t\u00e9. &gt; Chapitre II : Caisse de garantie du logement locatif social et redressement des organismes.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006825539",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L452-4 (M)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "cible",
-                    "articleNum": "L452-4",
-                    "articleId": "LEGIARTI000006825530",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L452-5 (V)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "cible",
-                    "articleNum": "L452-5",
-                    "articleId": "LEGIARTI000006825535",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L452-6 (M)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "cible",
-                    "articleNum": "L452-6",
-                    "articleId": "LEGIARTI000006825536",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [
-                {
-                    "textCid": "JORFTEXT000000207538",
-                    "textTitle": "Loi n\u00b02000-1208 du 13 d\u00e9cembre 2000 - art. 163 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "163",
-                    "articleId": "LEGIARTI000006821161",
-                    "natureText": "LOI",
-                    "date": 1599824423127,
-                    "parentCid": null,
-                    "numTexte": "2000-1208",
-                    "datePubli": 976752000000,
-                    "dateDebut": 976752000000
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation L452-4 \u00e0 L452-6",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006074096",
-                    "natureText": "CODE",
-                    "date": 1599824423127,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 226800000000
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L452-2-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L452-2-1",
-                    "articleId": "LEGIARTI000024435657",
-                    "natureText": "CODE",
-                    "date": 1599824423127,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1312070400000
-                }
-            ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000516442",
@@ -158,15 +144,128 @@
                     "dateDebutCible": "2000-12-31"
                 }
             ],
-            "num": "L452-7",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret en Conseil d'Etat d\u00e9finit les modalit\u00e9s d'application du pr\u00e9sent chapitre.",
-            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat d\u00e9finit les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-12-31T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000207538",
+                    "textTitle": "Loi n\u00b02000-1208 du 13 d\u00e9cembre 2000 - art. 163 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "163",
+                    "articleId": "LEGIARTI000006821161",
+                    "natureText": "LOI",
+                    "parentCid": null,
+                    "numTexte": "2000-1208",
+                    "datePubli": 976752000000,
+                    "dateDebut": 976752000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation L452-4 \u00e0 L452-6",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074096",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 226800000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L452-2-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L452-2-1",
+                    "articleId": "LEGIARTI000024435657",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1312070400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L452-4 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L452-4",
+                    "articleId": "LEGIARTI000006825530",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L452-5 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L452-5",
+                    "articleId": "LEGIARTI000006825535",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L452-6 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L452-6",
+                    "articleId": "LEGIARTI000006825536",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006825538",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 976752000000,
+                    "dateFin": 978220800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006825539",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 978220800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L452-7",
+                "452-7"
+            ],
+            "versionPrecedente": "LEGIARTI000006825538",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006825538",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret en Conseil d'Etat d\u00e9finit les modalit\u00e9s d'application du pr\u00e9sent chapitre. Les dispositions des articles L. 452-4 \u00e0 L. 452-6 sont applicables \u00e0 compter du 1er janvier 2001.",
+            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat d\u00e9finit les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>   Les dispositions des articles L. 452-4 \u00e0 L. 452-6 sont applicables \u00e0 compter du 1er janvier 2001.<p></p>",
+            "num": "L452-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 976752000000,
+            "dateFin": 978220800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 38646,
             "context": {
                 "titresTM": [
                     {
@@ -220,82 +319,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006825538",
-            "lienAutres": [
+            "cid": "LEGIARTI000006825538",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159080",
+            "sectionParentId": "LEGISCTA000006159080",
+            "sectionParentTitre": "Chapitre II : Caisse de garantie du logement locatif social et redressement des organismes.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Habitations \u00e0 loyer mod\u00e9r\u00e9. &gt; Titre V : Contr\u00f4le, redressement des organismes et garantie de l'accession sociale \u00e0 la propri\u00e9t\u00e9. &gt; Chapitre II : Caisse de garantie du logement locatif social et redressement des organismes.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006825538",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L452-4 (M)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "cible",
-                    "articleNum": "L452-4",
-                    "articleId": "LEGIARTI000006825530",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L452-5 (V)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "cible",
-                    "articleNum": "L452-5",
-                    "articleId": "LEGIARTI000006825535",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L452-6 (M)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "cible",
-                    "articleNum": "L452-6",
-                    "articleId": "LEGIARTI000006825536",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [
-                {
-                    "textCid": "JORFTEXT000000207538",
-                    "textTitle": "Loi n\u00b02000-1208 du 13 d\u00e9cembre 2000 - art. 163 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "163",
-                    "articleId": "LEGIARTI000006821161",
-                    "natureText": "LOI",
-                    "date": 1599824421579,
-                    "parentCid": null,
-                    "numTexte": "2000-1208",
-                    "datePubli": 976752000000,
-                    "dateDebut": 976752000000
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation L452-4 \u00e0 L452-6",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006074096",
-                    "natureText": "CODE",
-                    "date": 1599824421579,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 226800000000
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L452-2-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L452-2-1",
-                    "articleId": "LEGIARTI000024435657",
-                    "natureText": "CODE",
-                    "date": 1599824421579,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1312070400000
-                }
-            ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000516442",
@@ -334,13 +404,110 @@
                     "dateDebutCible": "2000-12-14"
                 }
             ],
-            "num": "L452-7",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret en Conseil d'Etat d\u00e9finit les modalit\u00e9s d'application du pr\u00e9sent chapitre. Les dispositions des articles L. 452-4 \u00e0 L. 452-6 sont applicables \u00e0 compter du 1er janvier 2001.",
-            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat d\u00e9finit les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>   Les dispositions des articles L. 452-4 \u00e0 L. 452-6 sont applicables \u00e0 compter du 1er janvier 2001.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-12-14T00:00:00.000Z",
-            "dateFin": "2000-12-31T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000207538",
+                    "textTitle": "Loi n\u00b02000-1208 du 13 d\u00e9cembre 2000 - art. 163 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "163",
+                    "articleId": "LEGIARTI000006821161",
+                    "natureText": "LOI",
+                    "parentCid": null,
+                    "numTexte": "2000-1208",
+                    "datePubli": 976752000000,
+                    "dateDebut": 976752000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation L452-4 \u00e0 L452-6",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074096",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 226800000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L452-2-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L452-2-1",
+                    "articleId": "LEGIARTI000024435657",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1312070400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L452-4 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L452-4",
+                    "articleId": "LEGIARTI000006825530",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L452-5 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L452-5",
+                    "articleId": "LEGIARTI000006825535",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L452-6 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L452-6",
+                    "articleId": "LEGIARTI000006825536",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006825538",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 976752000000,
+                    "dateFin": 978220800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006825539",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 978220800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L452-7",
+                "452-7"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

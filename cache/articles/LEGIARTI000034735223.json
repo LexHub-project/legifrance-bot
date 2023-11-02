@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000034735223",
-    "num": "R255-9",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000039047458",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour l'application de l'article R. 255-2, les plafonds de ressources en Guadeloupe, en Guyane, en Martinique, \u00e0 La R\u00e9union et \u00e0 Mayotte sont ceux fix\u00e9s par l'arr\u00eat\u00e9 pr\u00e9vu au premier alin\u00e9a de l'article D. 372-7.",
+            "texteHtml": "<p>Pour l'application de l'article R. 255-2, les plafonds de ressources en Guadeloupe, en Guyane, en Martinique, \u00e0 La R\u00e9union et \u00e0 Mayotte sont ceux fix\u00e9s par l'arr\u00eat\u00e9 pr\u00e9vu au premier alin\u00e9a de l'article D. 372-7.</p>",
+            "num": "R255-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1567296000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2143289343,
             "context": {
                 "titresTM": [
                     {
@@ -74,26 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000039047458",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000034735223",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000034735205",
+            "sectionParentId": "LEGISCTA000034735205",
+            "sectionParentTitre": "Chapitre V : Bail r\u00e9el solidaire",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre II : Statut des constructeurs. &gt; Titre V : Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire &gt; Chapitre V : Bail r\u00e9el solidaire",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000039047458",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. R372-7",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R372-7",
-                    "articleId": "LEGIARTI000006898078",
-                    "natureText": "CODE",
-                    "date": 1599835587871,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
                     "datePubli": 32472144000000,
-                    "dateDebut": 983577600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000038947944",
@@ -108,15 +150,74 @@
                     "dateDebutCible": "2019-09-01"
                 }
             ],
-            "num": "R255-9",
-            "origine": "LEGI",
-            "texte": "Pour l'application de l'article R. 255-2, les plafonds de ressources en Guadeloupe, en Guyane, en Martinique, \u00e0 La R\u00e9union et \u00e0 Mayotte sont ceux fix\u00e9s par l'arr\u00eat\u00e9 pr\u00e9vu au premier alin\u00e9a de l'article D. 372-7.",
-            "texteHtml": "<p>Pour l'application de l'article R. 255-2, les plafonds de ressources en Guadeloupe, en Guyane, en Martinique, \u00e0 La R\u00e9union et \u00e0 Mayotte sont ceux fix\u00e9s par l'arr\u00eat\u00e9 pr\u00e9vu au premier alin\u00e9a de l'article D. 372-7.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-09-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R372-7",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R372-7",
+                    "articleId": "LEGIARTI000006898078",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 983577600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000034735223",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1494547200000,
+                    "dateFin": 1567296000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000039047458",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1567296000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R255-9",
+                "255-9"
+            ],
+            "versionPrecedente": "LEGIARTI000034735223",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000034735223",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour l'application de l'article R. 255-2, les plafonds de ressources en Guadeloupe, en Guyane, en Martinique, \u00e0 La R\u00e9union et \u00e0 Mayotte sont ceux fix\u00e9s par l'arr\u00eat\u00e9 pr\u00e9vu au premier alin\u00e9a de l'article R. 372-7 .",
+            "texteHtml": "<p>Pour l'application de l'article R. 255-2, les plafonds de ressources en Guadeloupe, en Guyane, en Martinique, \u00e0 La R\u00e9union et \u00e0 Mayotte sont ceux fix\u00e9s par l'arr\u00eat\u00e9 pr\u00e9vu au premier alin\u00e9a de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000006898078&dateTexte=&categorieLien=cid'>R. 372-7</a>.</p>",
+            "num": "R255-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1494547200000,
+            "dateFin": 1567296000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2143289343,
             "context": {
                 "titresTM": [
                     {
@@ -188,26 +289,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000034735223",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000034735223",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000034735205",
+            "sectionParentId": "LEGISCTA000034735205",
+            "sectionParentTitre": "Chapitre V : Bail r\u00e9el solidaire",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre II : Statut des constructeurs. &gt; Titre V : Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire &gt; Chapitre V : Bail r\u00e9el solidaire",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000034735223",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. R372-7",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R372-7",
-                    "articleId": "LEGIARTI000006898078",
-                    "natureText": "CODE",
-                    "date": 1599835758079,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
                     "datePubli": 32472144000000,
-                    "dateDebut": 983577600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000034678872",
@@ -222,13 +350,56 @@
                     "dateDebutCible": "2017-05-12"
                 }
             ],
-            "num": "R255-9",
-            "origine": "LEGI",
-            "texte": "Pour l'application de l'article R. 255-2, les plafonds de ressources en Guadeloupe, en Guyane, en Martinique, \u00e0 La R\u00e9union et \u00e0 Mayotte sont ceux fix\u00e9s par l'arr\u00eat\u00e9 pr\u00e9vu au premier alin\u00e9a de l'article R. 372-7 .",
-            "texteHtml": "<p>Pour l'application de l'article R. 255-2, les plafonds de ressources en Guadeloupe, en Guyane, en Martinique, \u00e0 La R\u00e9union et \u00e0 Mayotte sont ceux fix\u00e9s par l'arr\u00eat\u00e9 pr\u00e9vu au premier alin\u00e9a de l'article <a href='/article/LEGIARTI000006898078'>R. 372-7</a>.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-05-12T00:00:00.000Z",
-            "dateFin": "2019-09-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R372-7",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R372-7",
+                    "articleId": "LEGIARTI000006898078",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 983577600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000034735223",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1494547200000,
+                    "dateFin": 1567296000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000039047458",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1567296000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R255-9",
+                "255-9"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

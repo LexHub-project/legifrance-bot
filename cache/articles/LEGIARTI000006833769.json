@@ -1,231 +1,23 @@
 {
-    "cid": "LEGIARTI000006833769",
-    "num": "L420-4",
+    "executionTime": 0,
     "listArticle": [
         {
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "2000-09-21",
-                        "fin": "2999-01-01",
-                        "titre": "Partie l\u00e9gislative",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006108630",
-                        "id": "LEGISCTA000006108630",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2000-09-21",
-                        "fin": "2010-07-14",
-                        "titre": "Livre IV : Faune et flore",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006129025",
-                        "id": "LEGISCTA000006129025",
-                        "etat": "MODIFIE"
-                    },
-                    {
-                        "debut": "2010-07-14",
-                        "fin": "2999-01-01",
-                        "titre": "Livre IV : Patrimoine naturel",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006129025",
-                        "id": "LEGISCTA000022495757",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2000-09-21",
-                        "fin": "2999-01-01",
-                        "titre": "Titre II : Chasse",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006143746",
-                        "id": "LEGISCTA000006143746",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 1,
-                "longeurChemin": 41,
-                "titreTxt": [
-                    {
-                        "debut": "2000-09-21",
-                        "fin": "2999-01-01",
-                        "titre": "Code de l'environnement",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074220",
-                        "id": "LEGITEXT000006074220",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000038846740",
-            "lienAutres": [],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L421-1 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L421-1",
-                    "articleId": "LEGIARTI000033033700",
-                    "natureText": "CODE",
-                    "date": 1599848885435,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L423-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L423-1",
-                    "articleId": "LEGIARTI000006833846",
-                    "natureText": "CODE",
-                    "date": 1599848885435,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1564185600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-14",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-14",
-                    "articleId": "LEGIARTI000006834008",
-                    "natureText": "CODE",
-                    "date": 1599848885435,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-2",
-                    "articleId": "LEGIARTI000006833983",
-                    "natureText": "CODE",
-                    "date": 1599848885436,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1564185600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-20",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-20",
-                    "articleId": "LEGIARTI000006834017",
-                    "natureText": "CODE",
-                    "date": 1599848885436,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-5",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-5",
-                    "articleId": "LEGIARTI000006833990",
-                    "natureText": "CODE",
-                    "date": 1599848885436,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1109203200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L654-1",
-                    "articleId": "LEGIARTI000006834869",
-                    "natureText": "CODE",
-                    "date": 1599848885436,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
-                }
-            ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L261-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L261-1",
-                    "articleId": "LEGIARTI000006583007",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L261-1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000000401865",
-                    "textTitle": "Ordonnance n\u00b0 2000-914 du 18 septembre 2000",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000401865",
-                    "natureText": "ORDONNANCE",
-                    "datePubliTexte": "2000-09-21",
-                    "dateSignaTexte": "2000-09-18",
-                    "dateDebutCible": "2999-01-01"
-                },
-                {
-                    "textCid": "JORFTEXT000000422094",
-                    "textTitle": "LOI n\u00b0 2003-591 du 2 juillet 2003",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000422094",
-                    "natureText": "LOI",
-                    "datePubliTexte": "2003-07-03",
-                    "dateSignaTexte": "2003-07-02",
-                    "dateDebutCible": "2999-01-01"
-                },
-                {
-                    "textCid": "JORFTEXT000038821234",
-                    "textTitle": "LOI n\u00b02019-773 du 24 juillet 2019 - art. 21",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "21",
-                    "articleId": "LEGIARTI000038823690",
-                    "natureText": "LOI",
-                    "datePubliTexte": "2019-07-26",
-                    "dateSignaTexte": "2019-07-24",
-                    "dateDebutCible": "2019-07-27"
-                }
-            ],
+            "id": "LEGIARTI000041472970",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-21-1, L. 423-22, L. 423-23, L. 423-25 , L. 428-2, L. 428-3 , L. 428-14 et L. 428-20 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
+            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833846&dateTexte=&categorieLien=cid'>L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-21-1, L. 423-22, L. 423-23, L. 423-25</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833983&dateTexte=&categorieLien=cid'>L. 428-2, L. 428-3</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006834008&dateTexte=&categorieLien=cid'>L. 428-14 </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006834017&dateTexte=&categorieLien=cid'>L. 428-20</a> ainsi que du 4\u00b0 du I de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833990&dateTexte=&categorieLien=cid'>L. 428-5 </a>en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p>",
             "num": "L420-4",
             "origine": "LEGI",
-            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-22, L. 423-23, L. 423-25 , L. 428-2, L. 428-3 , L. 428-14 et L. 428-20 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
-            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles <a href='/article/LEGIARTI000006833846'>L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-22, L. 423-23, L. 423-25</a>, <a href='/article/LEGIARTI000006833983'>L. 428-2, L. 428-3</a>, <a href='/article/LEGIARTI000006834008'>L. 428-14 </a>et <a href='/article/LEGIARTI000006834017'>L. 428-20</a> ainsi que du 4\u00b0 du I de l'article <a href='/article/LEGIARTI000006833990'>L. 428-5 </a>en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2020-01-01T00:00:00.000Z",
-            "dateFin": "2020-01-01T00:00:00.000Z"
-        },
-        {
+            "nature": "Article",
+            "versionArticle": "6.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1577836800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -279,115 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000041472970",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006833769",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006143746",
+            "sectionParentId": "LEGISCTA000006143746",
+            "sectionParentTitre": "Titre II : Chasse",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Patrimoine naturel &gt; Titre II : Chasse",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000041472970",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L423-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L423-1",
-                    "articleId": "LEGIARTI000006833846",
-                    "natureText": "CODE",
-                    "date": 1652214742693,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1564185600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-14",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-14",
-                    "articleId": "LEGIARTI000006834008",
-                    "natureText": "CODE",
-                    "date": 1652214742693,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-2",
-                    "articleId": "LEGIARTI000006833983",
-                    "natureText": "CODE",
-                    "date": 1652214742693,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1564185600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-20",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-20",
-                    "articleId": "LEGIARTI000006834017",
-                    "natureText": "CODE",
-                    "date": 1652214742693,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-5",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-5",
-                    "articleId": "LEGIARTI000006833990",
-                    "natureText": "CODE",
-                    "date": 1652214742693,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1109203200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L654-1",
-                    "articleId": "LEGIARTI000006834869",
-                    "natureText": "CODE",
-                    "date": 1652214742693,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L261-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L261-1",
-                    "articleId": "LEGIARTI000006583007",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L261-1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -438,15 +168,194 @@
                     "dateDebutCible": "2019-12-30"
                 }
             ],
-            "num": "L420-4",
-            "origine": "LEGI",
-            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-21-1, L. 423-22, L. 423-23, L. 423-25 , L. 428-2, L. 428-3 , L. 428-14 et L. 428-20 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
-            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles <a href='/article/LEGIARTI000006833846'>L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-21-1, L. 423-22, L. 423-23, L. 423-25</a>, <a href='/article/LEGIARTI000006833983'>L. 428-2, L. 428-3</a>, <a href='/article/LEGIARTI000006834008'>L. 428-14 </a>et <a href='/article/LEGIARTI000006834017'>L. 428-20</a> ainsi que du 4\u00b0 du I de l'article <a href='/article/LEGIARTI000006833990'>L. 428-5 </a>en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2020-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L423-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L423-1",
+                    "articleId": "LEGIARTI000006833846",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1564185600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-14",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-14",
+                    "articleId": "LEGIARTI000006834008",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-2",
+                    "articleId": "LEGIARTI000006833983",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1564185600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-20",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-20",
+                    "articleId": "LEGIARTI000006834017",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-5",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-5",
+                    "articleId": "LEGIARTI000006833990",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1109203200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L654-1",
+                    "articleId": "LEGIARTI000006834869",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L261-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L261-1",
+                    "articleId": "LEGIARTI000006583007",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L261-1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833769",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1331251200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025454595",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1331251200000,
+                    "dateFin": 1372636800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025142264",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1372636800000,
+                    "dateFin": 1488412800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034110605",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1488412800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038846740",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041472970",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L420-4",
+                "420-4"
+            ],
+            "versionPrecedente": "LEGIARTI000038846740",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000038846740",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-22, L. 423-23, L. 423-25 , L. 428-2, L. 428-3 , L. 428-14 et L. 428-20 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
+            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833846&dateTexte=&categorieLien=cid'>L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-22, L. 423-23, L. 423-25</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833983&dateTexte=&categorieLien=cid'>L. 428-2, L. 428-3</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006834008&dateTexte=&categorieLien=cid'>L. 428-14 </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006834017&dateTexte=&categorieLien=cid'>L. 428-20</a> ainsi que du 4\u00b0 du I de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833990&dateTexte=&categorieLien=cid'>L. 428-5 </a>en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p><p></p><p></p>",
+            "num": "L420-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "5.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1577836800000,
+            "dateFin": 1577836800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -500,19 +409,100 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000034110605",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006833769",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006143746",
+            "sectionParentId": "LEGISCTA000006143746",
+            "sectionParentTitre": "Titre II : Chasse",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Patrimoine naturel &gt; Titre II : Chasse",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000038846740",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance n\u00b0 2000-914 du 18 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "LOI n\u00b0 2003-591 du 2 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000038821234",
+                    "textTitle": "LOI n\u00b02019-773 du 24 juillet 2019 - art. 21",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "21",
+                    "articleId": "LEGIARTI000038823690",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2019-07-26",
+                    "dateSignaTexte": "2019-07-24",
+                    "dateDebutCible": "2019-07-27"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L421-1 (V)",
+                    "textTitle": "Code de l'environnement - art. L421-1 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L421-1",
-                    "articleId": "LEGIARTI000006833770",
+                    "articleId": "LEGIARTI000033033700",
                     "natureText": "CODE",
-                    "date": 1599836472417,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -520,13 +510,12 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L423-1 (V)",
+                    "textTitle": "Code de l'environnement - art. L423-1",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L423-1",
                     "articleId": "LEGIARTI000006833846",
                     "natureText": "CODE",
-                    "date": 1599836472418,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -534,13 +523,12 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-14 (V)",
+                    "textTitle": "Code de l'environnement - art. L428-14",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L428-14",
                     "articleId": "LEGIARTI000006834008",
                     "natureText": "CODE",
-                    "date": 1599836472418,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -548,13 +536,12 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-2 (V)",
+                    "textTitle": "Code de l'environnement - art. L428-2",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L428-2",
                     "articleId": "LEGIARTI000006833983",
                     "natureText": "CODE",
-                    "date": 1599836472418,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -562,13 +549,12 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-20 (V)",
+                    "textTitle": "Code de l'environnement - art. L428-20",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L428-20",
                     "articleId": "LEGIARTI000006834017",
                     "natureText": "CODE",
-                    "date": 1599836472418,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -582,7 +568,6 @@
                     "articleNum": "L428-5",
                     "articleId": "LEGIARTI000006833990",
                     "natureText": "CODE",
-                    "date": 1599836472418,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -596,7 +581,6 @@
                     "articleNum": "L654-1",
                     "articleId": "LEGIARTI000006834869",
                     "natureText": "CODE",
-                    "date": 1599836472418,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -623,6 +607,194 @@
                     "natureText": ""
                 }
             ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833769",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1331251200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025454595",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1331251200000,
+                    "dateFin": 1372636800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025142264",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1372636800000,
+                    "dateFin": 1488412800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034110605",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1488412800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038846740",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041472970",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L420-4",
+                "420-4"
+            ],
+            "versionPrecedente": "LEGIARTI000034110605",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000034110605",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 421-1 , L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-22, L. 423-23, L. 423-25 , L. 428-2, L. 428-3 , L. 428-14 et L. 428-20 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
+            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833770&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. L421-1 (V)'>L. 421-1</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833846&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. L423-1 (V)'>L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-22, L. 423-23, L. 423-25</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833983&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. L428-2 (V)'>L. 428-2, L. 428-3</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006834008&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. L428-14 (V)'>L. 428-14 </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006834017&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. L428-20 (V)'>L. 428-20</a> ainsi que du 4\u00b0 du I de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833990&dateTexte=&categorieLien=cid'>L. 428-5 </a>en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p><p></p><p></p>",
+            "num": "L420-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1488412800000,
+            "dateFin": 1577836800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2010-07-14",
+                        "titre": "Livre IV : Faune et flore",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129025",
+                        "id": "LEGISCTA000006129025",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Livre IV : Patrimoine naturel",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129025",
+                        "id": "LEGISCTA000022495757",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Chasse",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143746",
+                        "id": "LEGISCTA000006143746",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 41,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006833769",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006143746",
+            "sectionParentId": "LEGISCTA000006143746",
+            "sectionParentTitre": "Titre II : Chasse",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Patrimoine naturel &gt; Titre II : Chasse",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000034110605",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -661,15 +833,207 @@
                     "dateDebutCible": "2017-03-02"
                 }
             ],
-            "num": "L420-4",
-            "origine": "LEGI",
-            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 421-1 , L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-22, L. 423-23, L. 423-25 , L. 428-2, L. 428-3 , L. 428-14 et L. 428-20 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
-            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles <a href='/article/LEGIARTI000006833770' title='Code de l'environnement - art. L421-1 (V)'>L. 421-1</a>, <a href='/article/LEGIARTI000006833846' title='Code de l'environnement - art. L423-1 (V)'>L. 423-1, L. 423-1-1, L. 423-2, L. 423-4, L. 423-5, L. 423-6, L. 423-7, L. 423-8, L. 423-8-1, L. 423-9, L. 423-11, L. 423-12, L. 423-15, L. 423-16, L. 423-17, L. 423-18, L. 423-21, L. 423-22, L. 423-23, L. 423-25</a>, <a href='/article/LEGIARTI000006833983' title='Code de l'environnement - art. L428-2 (V)'>L. 428-2, L. 428-3</a>, <a href='/article/LEGIARTI000006834008' title='Code de l'environnement - art. L428-14 (V)'>L. 428-14 </a>et <a href='/article/LEGIARTI000006834017' title='Code de l'environnement - art. L428-20 (V)'>L. 428-20</a> ainsi que du 4\u00b0 du I de l'article <a href='/article/LEGIARTI000006833990'>L. 428-5 </a>en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-03-02T00:00:00.000Z",
-            "dateFin": "2020-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L421-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L421-1",
+                    "articleId": "LEGIARTI000006833770",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L423-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L423-1",
+                    "articleId": "LEGIARTI000006833846",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1564185600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-14",
+                    "articleId": "LEGIARTI000006834008",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-2",
+                    "articleId": "LEGIARTI000006833983",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1564185600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-20 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-20",
+                    "articleId": "LEGIARTI000006834017",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-5",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-5",
+                    "articleId": "LEGIARTI000006833990",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1109203200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L654-1",
+                    "articleId": "LEGIARTI000006834869",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L261-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L261-1",
+                    "articleId": "LEGIARTI000006583007",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L261-1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833769",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1331251200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025454595",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1331251200000,
+                    "dateFin": 1372636800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025142264",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1372636800000,
+                    "dateFin": 1488412800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034110605",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1488412800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038846740",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041472970",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L420-4",
+                "420-4"
+            ],
+            "versionPrecedente": "LEGIARTI000025142264",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025142264",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception de l'article L. 421-1 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
+            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833770&dateTexte=&categorieLien=cid'>l'article L. 421-1 </a>ainsi que du 4\u00b0 du I de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833990&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. L428-5 (VD)'>L. 428-5</a> en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p><p></p><p></p>",
+            "num": "L420-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1372636800000,
+            "dateFin": 1488412800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -723,73 +1087,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025142264",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006833769",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006143746",
+            "sectionParentId": "LEGISCTA000006143746",
+            "sectionParentTitre": "Titre II : Chasse",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Patrimoine naturel &gt; Titre II : Chasse",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025142264",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L421-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L421-1",
-                    "articleId": "LEGIARTI000006833770",
-                    "natureText": "CODE",
-                    "date": 1599874228298,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-5 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-5",
-                    "articleId": "LEGIARTI000006833990",
-                    "natureText": "CODE",
-                    "date": 1599874228298,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1109203200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L654-1",
-                    "articleId": "LEGIARTI000006834869",
-                    "natureText": "CODE",
-                    "date": 1599874228299,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L261-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L261-1",
-                    "articleId": "LEGIARTI000006583007",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L261-1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -840,15 +1184,155 @@
                     "dateDebutCible": "2012-03-09"
                 }
             ],
-            "num": "L420-4",
-            "origine": "LEGI",
-            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception de l'article L. 421-1 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
-            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception de <a href='/article/LEGIARTI000006833770'>l'article L. 421-1 </a>ainsi que du 4\u00b0 du I de l'article <a href='/article/LEGIARTI000006833990' title='Code de l'environnement - art. L428-5 (VD)'>L. 428-5</a> en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2013-07-01T00:00:00.000Z",
-            "dateFin": "2017-03-02T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L421-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L421-1",
+                    "articleId": "LEGIARTI000006833770",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-5 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-5",
+                    "articleId": "LEGIARTI000006833990",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1109203200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L654-1",
+                    "articleId": "LEGIARTI000006834869",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L261-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L261-1",
+                    "articleId": "LEGIARTI000006583007",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L261-1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833769",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1331251200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025454595",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1331251200000,
+                    "dateFin": 1372636800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025142264",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1372636800000,
+                    "dateFin": 1488412800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034110605",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1488412800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038846740",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041472970",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L420-4",
+                "420-4"
+            ],
+            "versionPrecedente": "LEGIARTI000025454595",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025454595",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 421-1 et L. 428-24 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
+            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833770&dateTexte=&categorieLien=cid'>L. 421-1</a> et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006834023&dateTexte=&categorieLien=cid'>L. 428-24 </a>ainsi que du 4\u00b0 du I de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833990&dateTexte=&categorieLien=cid'>L. 428-5 </a>en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p><p></p><p></p>",
+            "num": "L420-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1331251200000,
+            "dateFin": 1372636800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -902,87 +1386,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025454595",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006833769",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006143746",
+            "sectionParentId": "LEGISCTA000006143746",
+            "sectionParentTitre": "Titre II : Chasse",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Patrimoine naturel &gt; Titre II : Chasse",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025454595",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L421-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L421-1",
-                    "articleId": "LEGIARTI000006833770",
-                    "natureText": "CODE",
-                    "date": 1599874281336,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-24",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-24",
-                    "articleId": "LEGIARTI000006834023",
-                    "natureText": "CODE",
-                    "date": 1599874281336,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-5",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-5",
-                    "articleId": "LEGIARTI000006833990",
-                    "natureText": "CODE",
-                    "date": 1599874281336,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1109203200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L654-1",
-                    "articleId": "LEGIARTI000006834869",
-                    "natureText": "CODE",
-                    "date": 1599874281336,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L261-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L261-1",
-                    "articleId": "LEGIARTI000006583007",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L261-1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -1021,15 +1471,168 @@
                     "dateDebutCible": "2012-03-09"
                 }
             ],
-            "num": "L420-4",
-            "origine": "LEGI",
-            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 421-1 et L. 428-24 ainsi que du 4\u00b0 du I de l'article L. 428-5 en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.",
-            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles <a href='/article/LEGIARTI000006833770'>L. 421-1</a> et <a href='/article/LEGIARTI000006834023'>L. 428-24 </a>ainsi que du 4\u00b0 du I de l'article <a href='/article/LEGIARTI000006833990'>L. 428-5 </a>en tant que les espaces mentionn\u00e9s concernent le parc amazonien de Guyane et les r\u00e9serves naturelles.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-03-09T00:00:00.000Z",
-            "dateFin": "2013-07-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L421-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L421-1",
+                    "articleId": "LEGIARTI000006833770",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-24",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-24",
+                    "articleId": "LEGIARTI000006834023",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-5",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-5",
+                    "articleId": "LEGIARTI000006833990",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1109203200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L654-1",
+                    "articleId": "LEGIARTI000006834869",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L261-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L261-1",
+                    "articleId": "LEGIARTI000006583007",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L261-1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833769",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1331251200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025454595",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1331251200000,
+                    "dateFin": 1372636800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025142264",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1372636800000,
+                    "dateFin": 1488412800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034110605",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1488412800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038846740",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041472970",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L420-4",
+                "420-4"
+            ],
+            "versionPrecedente": "LEGIARTI000006833769",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006833769",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 421-1 et L. 428-24.",
+            "texteHtml": "<p></p>   Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 421-1 et L. 428-24.<p></p><p></p>",
+            "num": "L420-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 969494400000,
+            "dateFin": 1331251200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -1083,73 +1686,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006833769",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006833769",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006143746",
+            "sectionParentId": "LEGISCTA000006143746",
+            "sectionParentTitre": "Titre II : Chasse",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Patrimoine naturel &gt; Titre II : Chasse",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006833769",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L421-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L421-1",
-                    "articleId": "LEGIARTI000006833770",
-                    "natureText": "CODE",
-                    "date": 1599825769724,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L428-24 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L428-24",
-                    "articleId": "LEGIARTI000006834023",
-                    "natureText": "CODE",
-                    "date": 1599825769724,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L654-1",
-                    "articleId": "LEGIARTI000006834869",
-                    "natureText": "CODE",
-                    "date": 1599825769724,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L261-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L261-1",
-                    "articleId": "LEGIARTI000006583007",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L261-1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -1176,13 +1759,137 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L420-4",
-            "origine": "LEGI",
-            "texte": "Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 421-1 et L. 428-24.",
-            "texteHtml": "<p></p>   Les dispositions du pr\u00e9sent titre ne sont pas applicables dans le d\u00e9partement de la Guyane, \u00e0 l'exception des articles L. 421-1 et L. 428-24.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-09-21T00:00:00.000Z",
-            "dateFin": "2012-03-09T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L421-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L421-1",
+                    "articleId": "LEGIARTI000006833770",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L428-24 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L428-24",
+                    "articleId": "LEGIARTI000006834023",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L654-1",
+                    "articleId": "LEGIARTI000006834869",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L261-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L261-1",
+                    "articleId": "LEGIARTI000006583007",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L261-1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833769",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1331251200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025454595",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1331251200000,
+                    "dateFin": 1372636800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025142264",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1372636800000,
+                    "dateFin": 1488412800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034110605",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1488412800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038846740",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041472970",
+                    "etat": "VIGUEUR",
+                    "version": "6.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L420-4",
+                "420-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

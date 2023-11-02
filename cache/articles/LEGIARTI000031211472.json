@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031211472",
-    "num": "L160-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031211472",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les communes ou les \u00e9tablissements publics de coop\u00e9ration intercommunale comp\u00e9tents en mati\u00e8re de plan local d'urbanisme, de document en tenant lieu et de carte communale qui ne sont pas dot\u00e9s d'un plan local d'urbanisme, peuvent \u00e9laborer une carte communale.",
+            "texteHtml": "<p><br/>Les communes ou les \u00e9tablissements publics de coop\u00e9ration intercommunale comp\u00e9tents en mati\u00e8re de plan local d'urbanisme, de document en tenant lieu et de carte communale qui ne sont pas dot\u00e9s d'un plan local d'urbanisme, peuvent \u00e9laborer une carte communale.</p>",
+            "num": "L160-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1451606400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 429496729,
             "context": {
                 "titresTM": [
                     {
@@ -47,36 +62,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031211472",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031211472",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031211470",
+            "sectionParentId": "LEGISCTA000031211712",
+            "sectionParentTitre": "Titre VI : Carte communale ",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : R\u00e9glementation de l'urbanisme &gt; Titre VI : Carte communale ",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031211472",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R414-19 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R414-19",
-                    "articleId": "LEGIARTI000033498289",
-                    "natureText": "CODE",
-                    "date": 1599840602513,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1480291200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L124-1, premi\u00e8re partie (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L124-1",
-                    "articleId": "LEGIARTI000006814537",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031204500",
@@ -103,13 +135,57 @@
                     "dateDebutCible": "2016-01-01"
                 }
             ],
-            "num": "L160-1",
-            "origine": "LEGI",
-            "texte": "Les communes ou les \u00e9tablissements publics de coop\u00e9ration intercommunale comp\u00e9tents en mati\u00e8re de plan local d'urbanisme, de document en tenant lieu et de carte communale qui ne sont pas dot\u00e9s d'un plan local d'urbanisme, peuvent \u00e9laborer une carte communale.",
-            "texteHtml": "<p><br/>Les communes ou les \u00e9tablissements publics de coop\u00e9ration intercommunale comp\u00e9tents en mati\u00e8re de plan local d'urbanisme, de document en tenant lieu et de carte communale qui ne sont pas dot\u00e9s d'un plan local d'urbanisme, peuvent \u00e9laborer une carte communale.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R414-19 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R414-19",
+                    "articleId": "LEGIARTI000046885095",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L124-1, premi\u00e8re partie (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L124-1",
+                    "articleId": "LEGIARTI000006814537",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031211472",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L160-1",
+                "160-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

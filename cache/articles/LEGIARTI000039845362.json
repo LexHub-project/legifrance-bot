@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000039845362",
-    "num": "R.4322-23-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000039845362",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le conseil national conclut les march\u00e9s r\u00e9gis par l'article L. 4322-12 dans les conditions pr\u00e9vues \u00e0 la section 1 du chapitre II du titre II du livre Ier.",
+            "texteHtml": "<p>Le conseil national conclut les march\u00e9s r\u00e9gis par l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006689385&dateTexte=&categorieLien=cid'>L. 4322-12</a> dans les conditions pr\u00e9vues \u00e0 la section 1 du chapitre II du titre II du livre Ier.</p>",
+            "num": "R.4322-23-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1577836800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 64423,
             "context": {
                 "titresTM": [
                     {
@@ -101,26 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000039845362",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000039845362",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196497",
+            "sectionParentId": "LEGISCTA000006196497",
+            "sectionParentTitre": "Sous-section 2 : Conseil national.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires &gt; Titre II : Professions de masseur-kin\u00e9sith\u00e9rapeute et de p\u00e9dicure-podologue &gt; Chapitre II : P\u00e9dicure-podologue &gt; Section 3 : R\u00e8gles d'organisation &gt; Sous-section 2 : Conseil national.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000039845362",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-12",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4322-12",
-                    "articleId": "LEGIARTI000006689385",
-                    "natureText": "CODE",
-                    "date": 1599120515708,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1530403200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000039698959",
@@ -135,13 +177,48 @@
                     "dateDebutCible": "2020-01-01"
                 }
             ],
-            "num": "R.4322-23-1",
-            "origine": "LEGI",
-            "texte": "Le conseil national conclut les march\u00e9s r\u00e9gis par l'article L. 4322-12 dans les conditions pr\u00e9vues \u00e0 la section 1 du chapitre II du titre II du livre Ier.",
-            "texteHtml": "<p>Le conseil national conclut les march\u00e9s r\u00e9gis par l'article <a href='/article/LEGIARTI000006689385'>L. 4322-12</a> dans les conditions pr\u00e9vues \u00e0 la section 1 du chapitre II du titre II du livre Ier.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2020-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-12",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4322-12",
+                    "articleId": "LEGIARTI000006689385",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1530403200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000039845362",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R.4322-23-1",
+                "4322-23-1",
+                "R4322-23-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

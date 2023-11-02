@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033737685",
-    "num": "L3143-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033737690",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les infractions aux dispositions l\u00e9gislatives et r\u00e9glementaires  relatives aux activit\u00e9s de mise en relation mentionn\u00e9es au pr\u00e9sent titre  sont recherch\u00e9es et constat\u00e9es par, outre les officiers et agents de  police judiciaire, les fonctionnaires asserment\u00e9s d\u00e9sign\u00e9s par le  ministre charg\u00e9 des transports et commissionn\u00e9s \u00e0 cet effet.",
+            "texteHtml": "<p> Les infractions aux dispositions l\u00e9gislatives et r\u00e9glementaires  relatives aux activit\u00e9s de mise en relation mentionn\u00e9es au pr\u00e9sent titre  sont recherch\u00e9es et constat\u00e9es par, outre les officiers et agents de  police judiciaire, les fonctionnaires asserment\u00e9s d\u00e9sign\u00e9s par le  ministre charg\u00e9 des transports et commissionn\u00e9s \u00e0 cet effet. </p>",
+            "num": "L3143-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483142400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -39,7 +54,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033737551",
                         "id": "LEGISCTA000033737557",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -48,7 +63,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033737551",
                         "id": "LEGISCTA000043411223",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2016-12-31",
@@ -74,40 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033737690",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033737685",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033737674",
+            "sectionParentId": "LEGISCTA000033737683",
+            "sectionParentTitre": "Chapitre III : Constatation des infractions et sanctions",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; TROISIEME PARTIE : TRANSPORT ROUTIER &gt; LIVRE IER : LE TRANSPORT ROUTIER DE PERSONNES &gt; TITRE IV : LES ACTIVIT\u00c9S DE MISE EN RELATION &gt; Chapitre III : Constatation des infractions et sanctions",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033737690",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000038947515",
-                    "textTitle": "D\u00e9cret n\u00b02019-866 du 21 ao\u00fbt 2019 - art. 1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000038949316",
-                    "natureText": "DECRET",
-                    "date": 1649190729572,
-                    "parentCid": null,
-                    "numTexte": "2019-866",
-                    "datePubli": 1566518400000,
-                    "dateDebut": 1566604800000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R3120-40 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R3120-40",
-                    "articleId": "LEGIARTI000045495205",
-                    "natureText": "CODE",
-                    "date": 1649190729572,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1649203200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033734510",
@@ -122,13 +150,60 @@
                     "dateDebutCible": "2016-12-31"
                 }
             ],
-            "num": "L3143-1",
-            "origine": "LEGI",
-            "texte": "Les infractions aux dispositions l\u00e9gislatives et r\u00e9glementaires  relatives aux activit\u00e9s de mise en relation mentionn\u00e9es au pr\u00e9sent titre  sont recherch\u00e9es et constat\u00e9es par, outre les officiers et agents de  police judiciaire, les fonctionnaires asserment\u00e9s d\u00e9sign\u00e9s par le  ministre charg\u00e9 des transports et commissionn\u00e9s \u00e0 cet effet.",
-            "texteHtml": "<p> Les infractions aux dispositions l\u00e9gislatives et r\u00e9glementaires  relatives aux activit\u00e9s de mise en relation mentionn\u00e9es au pr\u00e9sent titre  sont recherch\u00e9es et constat\u00e9es par, outre les officiers et agents de  police judiciaire, les fonctionnaires asserment\u00e9s d\u00e9sign\u00e9s par le  ministre charg\u00e9 des transports et commissionn\u00e9s \u00e0 cet effet. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-12-31T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000038947515",
+                    "textTitle": "D\u00e9cret n\u00b02019-866 du 21 ao\u00fbt 2019 - art. 1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000038949316",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2019-866",
+                    "datePubli": 1566518400000,
+                    "dateDebut": 1566604800000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R3120-40 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3120-40",
+                    "articleId": "LEGIARTI000045495205",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1649203200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033737690",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483142400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L3143-1",
+                "3143-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

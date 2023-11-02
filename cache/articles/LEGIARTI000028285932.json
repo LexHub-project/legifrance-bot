@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000028285932",
-    "num": "R434-30",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000028285932",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le policier est disponible \u00e0 tout moment pour les n\u00e9cessit\u00e9s du service.",
+            "texteHtml": "<p><br/>Le policier est disponible \u00e0 tout moment pour les n\u00e9cessit\u00e9s du service.</p>",
+            "num": "R434-30",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1388534400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -74,26 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000028285932",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000028285932",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000028285926",
+            "sectionParentId": "LEGISCTA000028286806",
+            "sectionParentTitre": "Sous-section 1 : Dispositions propres \u00e0 la police nationale",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE IV : POLICE NATIONALE  ET GENDARMERIE NATIONALE &gt; TITRE III : DISPOSITIONS COMMUNES &gt; Chapitre IV : D\u00e9ontologie de la police nationale  et de la gendarmerie nationale &gt; Section 4 : Dispositions propres \u00e0 la police nationale  ou \u00e0 la gendarmerie nationale &gt; Sous-section 1 : Dispositions propres \u00e0 la police nationale",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000028285932",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000609541",
-                    "textTitle": "Arr\u00eat\u00e9 du 6 juin 2006 - art. 133-28 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "133-28",
-                    "articleId": "LEGIARTI000041462389",
-                    "natureText": "ARRETE",
-                    "date": 1599129951517,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1154044800000,
-                    "dateDebut": 1577923200000
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028276865",
@@ -120,13 +162,47 @@
                     "dateDebutCible": "2013-12-07"
                 }
             ],
-            "num": "R434-30",
-            "origine": "LEGI",
-            "texte": "Le policier est disponible \u00e0 tout moment pour les n\u00e9cessit\u00e9s du service.",
-            "texteHtml": "<p><br/>Le policier est disponible \u00e0 tout moment pour les n\u00e9cessit\u00e9s du service.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000609541",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 juin 2006 - art. 133-28 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "133-28",
+                    "articleId": "LEGIARTI000041462389",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1154044800000,
+                    "dateDebut": 1577923200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000028285932",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1388534400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R434-30",
+                "434-30"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

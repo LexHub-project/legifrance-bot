@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000028286107",
-    "num": "D511-41",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000028286107",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les agents de police municipale peuvent recevoir un dipl\u00f4me donnant droit au port de la m\u00e9daille d'honneur de la police.",
+            "texteHtml": "<p><br/>Les agents de police municipale peuvent recevoir un dipl\u00f4me donnant droit au port de la m\u00e9daille d'honneur de la police.</p>",
+            "num": "D511-41",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1388534400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -65,36 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000028286107",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000028286107",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000028286105",
+            "sectionParentId": "LEGISCTA000028286680",
+            "sectionParentTitre": "Section 6 : Dispositions diverses",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE V : POLICES MUNICIPALES &gt; TITRE Ier : AGENTS DE POLICE MUNICIPALE &gt; Chapitre Ier : Missions, recrutement et modalit\u00e9s d'exercice &gt; Section 6 : Dispositions diverses",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000028286107",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D545-2 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D545-2",
-                    "articleId": "LEGIARTI000028286293",
-                    "natureText": "CODE",
-                    "date": 1599129949338,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1388534400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006070162",
-                    "textTitle": "Code des communes - art. R412-119, ecqc les agents de police municipale (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R412-119",
-                    "articleId": "LEGIARTI000006349504",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028276865",
@@ -121,13 +153,57 @@
                     "dateDebutCible": "2013-12-07"
                 }
             ],
-            "num": "D511-41",
-            "origine": "LEGI",
-            "texte": "Les agents de police municipale peuvent recevoir un dipl\u00f4me donnant droit au port de la m\u00e9daille d'honneur de la police.",
-            "texteHtml": "<p><br/>Les agents de police municipale peuvent recevoir un dipl\u00f4me donnant droit au port de la m\u00e9daille d'honneur de la police.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D545-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D545-2",
+                    "articleId": "LEGIARTI000028286293",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1388534400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006070162",
+                    "textTitle": "Code des communes - art. R412-119, ecqc les agents de police municipale (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R412-119",
+                    "articleId": "LEGIARTI000006349504",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000028286107",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1388534400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D511-41",
+                "511-41"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

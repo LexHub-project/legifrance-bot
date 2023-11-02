@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023071536",
-    "num": "L4111-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023083449",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes ou tout autre bateau dont le d\u00e9placement est \u00e9gal ou sup\u00e9rieur \u00e0 dix m\u00e8tres cubes, circulant en France, doit \u00eatre immatricul\u00e9 par son propri\u00e9taire. Il ne peut faire l'objet de plusieurs immatriculations simultan\u00e9es.",
+            "texteHtml": "<p><br/>Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes ou tout autre bateau dont le d\u00e9placement est \u00e9gal ou sup\u00e9rieur \u00e0 dix m\u00e8tres cubes, circulant en France, doit \u00eatre immatricul\u00e9 par son propri\u00e9taire. Il ne peut faire l'objet de plusieurs immatriculations simultan\u00e9es.</p>",
+            "num": "L4111-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1291161600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -65,9 +80,67 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023083449",
-            "lienAutres": [],
+            "cid": "LEGIARTI000023071536",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023071534",
+            "sectionParentId": "LEGISCTA000023083451",
+            "sectionParentTitre": "Chapitre Ier : Immatriculation",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; QUATRIEME PARTIE : NAVIGATION INTERIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE IER : LE BATEAU &gt; TITRE IER : IDENTIFICATION DU BATEAU &gt; Chapitre Ier : Immatriculation",
+            "refInjection": "MD-20231005_195015_692_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000023083449",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "Ordonnance n\u00b0 2010-1307 du 28 octobre 2010 - art. (V)",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000044615125",
@@ -77,11 +150,23 @@
                     "articleNum": "1",
                     "articleId": "LEGIARTI000044882184",
                     "natureText": "DECRET",
-                    "date": 1642113895552,
                     "parentCid": null,
                     "numTexte": "2021-1887",
                     "datePubli": 1640822400000,
                     "dateDebut": 1640908800000
+                },
+                {
+                    "textCid": "JORFTEXT000048151642",
+                    "textTitle": "D\u00e9cret n\u00b02023-916 du 3 octobre 2023 - art. 2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000048152470",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2023-916",
+                    "datePubli": 1696464000000,
+                    "dateDebut": 1696550400000
                 },
                 {
                     "textCid": "LEGITEXT000023086525",
@@ -91,7 +176,6 @@
                     "articleNum": "L4121-1",
                     "articleId": "LEGIARTI000023083410",
                     "natureText": "CODE",
-                    "date": 1642113895552,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -105,7 +189,6 @@
                     "articleNum": "L4121-2",
                     "articleId": "LEGIARTI000044072972",
                     "natureText": "CODE",
-                    "date": 1642113895552,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -113,13 +196,12 @@
                 },
                 {
                     "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L4121-3 (VD)",
+                    "textTitle": "Code des transports - art. L4121-3 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "L4121-3",
                     "articleId": "LEGIARTI000044072966",
                     "natureText": "CODE",
-                    "date": 1642113895552,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -133,7 +215,6 @@
                     "articleNum": "L4123-1",
                     "articleId": "LEGIARTI000023083337",
                     "natureText": "CODE",
-                    "date": 1642113895552,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -147,7 +228,6 @@
                     "articleNum": "L4142-2",
                     "articleId": "LEGIARTI000023083307",
                     "natureText": "CODE",
-                    "date": 1642113895552,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -161,11 +241,23 @@
                     "articleNum": "L4142-3",
                     "articleId": "LEGIARTI000023083305",
                     "natureText": "CODE",
-                    "date": 1642113895552,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 1291161600000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R4121-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4121-1",
+                    "articleId": "LEGIARTI000044952544",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
                 },
                 {
                     "textCid": "LEGITEXT000023086525",
@@ -175,7 +267,6 @@
                     "articleNum": "R4123-1",
                     "articleId": "LEGIARTI000027232395",
                     "natureText": "CODE",
-                    "date": 1642113895553,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -189,7 +280,6 @@
                     "articleNum": "R4123-2",
                     "articleId": "LEGIARTI000027232399",
                     "natureText": "CODE",
-                    "date": 1642113895553,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -207,27 +297,31 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "",
-                    "textTitle": "Ordonnance n\u00b0 2010-1307 du 28 octobre 2010 - art. (V)",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "datePubliTexte": null,
-                    "dateSignaTexte": null,
-                    "dateDebutCible": null
+                    "id": "LEGIARTI000023083449",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "L4111-1",
-            "origine": "LEGI",
-            "texte": "Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes ou tout autre bateau dont le d\u00e9placement est \u00e9gal ou sup\u00e9rieur \u00e0 dix m\u00e8tres cubes, circulant en France, doit \u00eatre immatricul\u00e9 par son propri\u00e9taire. Il ne peut faire l'objet de plusieurs immatriculations simultan\u00e9es.",
-            "texteHtml": "<p><br/>Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes ou tout autre bateau dont le d\u00e9placement est \u00e9gal ou sup\u00e9rieur \u00e0 dix m\u00e8tres cubes, circulant en France, doit \u00eatre immatricul\u00e9 par son propri\u00e9taire. Il ne peut faire l'objet de plusieurs immatriculations simultan\u00e9es.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "L4111-1",
+                "4111-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

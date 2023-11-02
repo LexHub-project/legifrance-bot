@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006834542",
-    "num": "L542-14",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006834543",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret en Conseil d'Etat fixe, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent chapitre.",
+            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat fixe, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>",
+            "num": "L542-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1151539200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2084322339,
             "context": {
                 "titresTM": [
                     {
@@ -56,30 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006834543",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006834542",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159291",
+            "sectionParentId": "LEGISCTA000006159291",
+            "sectionParentTitre": "Chapitre II : Dispositions particuli\u00e8res \u00e0 la gestion durable des mati\u00e8res et des d\u00e9chets radioactifs",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre II : Dispositions particuli\u00e8res \u00e0 la gestion durable des mati\u00e8res et des d\u00e9chets radioactifs",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006834543",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000356548",
-                    "textTitle": "Loi 91-1381 1991-12-30 art. 15",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000356548",
-                    "natureText": "LOI"
-                },
-                {
-                    "textCid": "JORFTEXT000000356548",
-                    "textTitle": "Loi n\u00b091-1381 du 30 d\u00e9cembre 1991 - art. 15 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "15",
-                    "articleId": "LEGIARTI000006848080",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -118,15 +156,79 @@
                     "dateDebutCible": "2006-06-29"
                 }
             ],
-            "num": "L542-14",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret en Conseil d'Etat fixe, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent chapitre.",
-            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat fixe, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-06-29T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000356548",
+                    "textTitle": "Loi 91-1381 1991-12-30 art. 15",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000356548",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000356548",
+                    "textTitle": "Loi n\u00b091-1381 du 30 d\u00e9cembre 1991 - art. 15 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "15",
+                    "articleId": "LEGIARTI000006848080",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006834542",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1151539200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006834543",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1151539200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L542-14",
+                "542-14"
+            ],
+            "versionPrecedente": "LEGIARTI000006834542",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006834542",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret en Conseil d'Etat fixe, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent chapitre.",
+            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat fixe, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>",
+            "num": "L542-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 969494400000,
+            "dateFin": 1151539200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2084322339,
             "context": {
                 "titresTM": [
                     {
@@ -180,30 +282,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006834542",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006834542",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159290",
+            "sectionParentId": "LEGISCTA000006159290",
+            "sectionParentTitre": "Chapitre II : Dispositions particuli\u00e8res aux d\u00e9chets radioactifs",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006834542",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000356548",
-                    "textTitle": "Loi 91-1381 1991-12-30 art. 15",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000356548",
-                    "natureText": "LOI"
-                },
-                {
-                    "textCid": "JORFTEXT000000356548",
-                    "textTitle": "Loi n\u00b091-1381 du 30 d\u00e9cembre 1991 - art. 15 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "15",
-                    "articleId": "LEGIARTI000006848080",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -230,13 +355,61 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L542-14",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret en Conseil d'Etat fixe, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent chapitre.",
-            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat fixe, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-09-21T00:00:00.000Z",
-            "dateFin": "2006-06-29T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000356548",
+                    "textTitle": "Loi 91-1381 1991-12-30 art. 15",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000356548",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000356548",
+                    "textTitle": "Loi n\u00b091-1381 du 30 d\u00e9cembre 1991 - art. 15 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "15",
+                    "articleId": "LEGIARTI000006848080",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006834542",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1151539200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006834543",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1151539200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L542-14",
+                "542-14"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

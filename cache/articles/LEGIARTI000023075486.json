@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023075486",
-    "num": "L6200-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023078334",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La circulation a\u00e9rienne est constitu\u00e9e par l'ensemble des mouvements des a\u00e9ronefs.",
+            "texteHtml": "<p><br/>La circulation a\u00e9rienne est constitu\u00e9e par l'ensemble des mouvements des a\u00e9ronefs.</p>",
+            "num": "L6200-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1291161600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -47,21 +62,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023078334",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000023075486",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023075484",
+            "sectionParentId": "LEGISCTA000023078336",
+            "sectionParentTitre": "LIVRE II : LA CIRCULATION AERIENNE",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; SIXIEME PARTIE : AVIATION CIVILE &gt; LIVRE II : LA CIRCULATION AERIENNE",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023078334",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D131-2 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "D131-2",
-                    "articleId": "LEGIARTI000022346200",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -76,13 +123,96 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L6200-1",
-            "origine": "LEGI",
-            "texte": "La circulation a\u00e9rienne est constitu\u00e9e par l'ensemble des mouvements des a\u00e9ronefs.",
-            "texteHtml": "<p><br/>La circulation a\u00e9rienne est constitu\u00e9e par l'ensemble des mouvements des a\u00e9ronefs.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L6762-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L6762-1",
+                    "articleId": "LEGIARTI000045850061",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L6772-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L6772-1",
+                    "articleId": "LEGIARTI000045850594",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L6782-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L6782-1",
+                    "articleId": "LEGIARTI000045850713",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L6792-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L6792-1",
+                    "articleId": "LEGIARTI000045850852",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074234",
+                    "textTitle": "Code de l'aviation civile - art. D131-2 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "D131-2",
+                    "articleId": "LEGIARTI000022346200",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023078334",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L6200-1",
+                "6200-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

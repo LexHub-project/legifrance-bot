@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006833792",
-    "num": "L421-11",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006833793",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les f\u00e9d\u00e9rations d\u00e9partementales ont la libre utilisation de leurs r\u00e9serves conform\u00e9ment \u00e0 leur objet social.",
+            "texteHtml": "<p></p>   Les f\u00e9d\u00e9rations d\u00e9partementales ont la libre utilisation de leurs r\u00e9serves conform\u00e9ment \u00e0 leur objet social.<p></p><p></p>",
+            "num": "L421-11",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1059609600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 773082,
             "context": {
                 "titresTM": [
                     {
@@ -74,45 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006833793",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006833792",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176529",
+            "sectionParentId": "LEGISCTA000006176529",
+            "sectionParentTitre": "Section 4 : F\u00e9d\u00e9rations d\u00e9partementales des chasseurs",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Faune et flore &gt; Titre II : Chasse &gt; Chapitre Ier : Organisation de la chasse &gt; Section 4 : F\u00e9d\u00e9rations d\u00e9partementales des chasseurs",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006833793",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L421-13 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L421-13",
-                    "articleId": "LEGIARTI000033035309",
-                    "natureText": "CODE",
-                    "date": 1652214744071,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L221-7",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                },
-                {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L221-7 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L221-7",
-                    "articleId": "LEGIARTI000006582280",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -151,15 +174,93 @@
                     "dateDebutCible": "2003-07-31"
                 }
             ],
-            "num": "L421-11",
-            "origine": "LEGI",
-            "texte": "Les f\u00e9d\u00e9rations d\u00e9partementales ont la libre utilisation de leurs r\u00e9serves conform\u00e9ment \u00e0 leur objet social.",
-            "texteHtml": "<p></p>   Les f\u00e9d\u00e9rations d\u00e9partementales ont la libre utilisation de leurs r\u00e9serves conform\u00e9ment \u00e0 leur objet social.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2003-07-31T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L421-13 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L421-13",
+                    "articleId": "LEGIARTI000033035309",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L221-7",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L221-7 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L221-7",
+                    "articleId": "LEGIARTI000006582280",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833792",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1059609600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006833793",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1059609600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L421-11",
+                "421-11"
+            ],
+            "versionPrecedente": "LEGIARTI000006833792",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006833792",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les f\u00e9d\u00e9rations d\u00e9partementales des chasseurs sont soumises au contr\u00f4le vis\u00e9 aux articles L. 111-7 et L. 211-6 du code des juridictions financi\u00e8res. Les f\u00e9d\u00e9rations d\u00e9partementales des chasseurs sont en outre soumises au contr\u00f4le \u00e9conomique et financier de l'Etat.",
+            "texteHtml": "<p></p>   Les f\u00e9d\u00e9rations d\u00e9partementales des chasseurs sont soumises au contr\u00f4le vis\u00e9 aux articles L. 111-7 et L. 211-6 du code des juridictions financi\u00e8res.<p></p><p></p>   Les f\u00e9d\u00e9rations d\u00e9partementales des chasseurs sont en outre soumises au contr\u00f4le \u00e9conomique et financier de l'Etat.<p></p>",
+            "num": "L421-11",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 969494400000,
+            "dateFin": 1059609600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 730133,
             "context": {
                 "titresTM": [
                     {
@@ -231,73 +332,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006833792",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006833792",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176529",
+            "sectionParentId": "LEGISCTA000006176529",
+            "sectionParentTitre": "Section 4 : F\u00e9d\u00e9rations d\u00e9partementales des chasseurs",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Faune et flore &gt; Titre II : Chasse &gt; Chapitre Ier : Organisation de la chasse &gt; Section 4 : F\u00e9d\u00e9rations d\u00e9partementales des chasseurs",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006833792",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006070249",
-                    "textTitle": "Code des juridictions financi\u00e8res - art. L111-7 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L111-7",
-                    "articleId": "LEGIARTI000006357082",
-                    "natureText": "CODE",
-                    "date": 1652214743872,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1493596800000
-                },
-                {
-                    "textCid": "LEGITEXT000006070249",
-                    "textTitle": "Code des juridictions financi\u00e8res - art. L211-6 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L211-6",
-                    "articleId": "LEGIARTI000006357246",
-                    "natureText": "CODE",
-                    "date": 1652214743872,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1493596800000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L421-13 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L421-13",
-                    "articleId": "LEGIARTI000033035309",
-                    "natureText": "CODE",
-                    "date": 1652214743872,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L221-7",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                },
-                {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L221-7 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L221-7",
-                    "articleId": "LEGIARTI000006582280",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -324,13 +405,101 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L421-11",
-            "origine": "LEGI",
-            "texte": "Les f\u00e9d\u00e9rations d\u00e9partementales des chasseurs sont soumises au contr\u00f4le vis\u00e9 aux articles L. 111-7 et L. 211-6 du code des juridictions financi\u00e8res. Les f\u00e9d\u00e9rations d\u00e9partementales des chasseurs sont en outre soumises au contr\u00f4le \u00e9conomique et financier de l'Etat.",
-            "texteHtml": "<p></p>   Les f\u00e9d\u00e9rations d\u00e9partementales des chasseurs sont soumises au contr\u00f4le vis\u00e9 aux articles L. 111-7 et L. 211-6 du code des juridictions financi\u00e8res.<p></p><p></p>   Les f\u00e9d\u00e9rations d\u00e9partementales des chasseurs sont en outre soumises au contr\u00f4le \u00e9conomique et financier de l'Etat.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-09-21T00:00:00.000Z",
-            "dateFin": "2003-07-31T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006070249",
+                    "textTitle": "Code des juridictions financi\u00e8res - art. L111-7 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L111-7",
+                    "articleId": "LEGIARTI000006357082",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1493596800000
+                },
+                {
+                    "textCid": "LEGITEXT000006070249",
+                    "textTitle": "Code des juridictions financi\u00e8res - art. L211-6 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L211-6",
+                    "articleId": "LEGIARTI000006357246",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1493596800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L421-13 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L421-13",
+                    "articleId": "LEGIARTI000033035309",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L221-7",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L221-7 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L221-7",
+                    "articleId": "LEGIARTI000006582280",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833792",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 1059609600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006833793",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1059609600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L421-11",
+                "421-11"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006910745",
-    "num": "R1412-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006910746",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le comit\u00e9 \u00e9lit en son sein un vice-pr\u00e9sident appel\u00e9 \u00e0 suppl\u00e9er le pr\u00e9sident.",
+            "texteHtml": "<p></p>   Le comit\u00e9 \u00e9lit en son sein un vice-pr\u00e9sident appel\u00e9 \u00e0 suppl\u00e9er le pr\u00e9sident.<p></p><p></p>",
+            "num": "R1412-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1114732800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -74,30 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006910746",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006910745",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190981",
+            "sectionParentId": "LEGISCTA000006190981",
+            "sectionParentTitre": "Section 1 : Comit\u00e9 consultatif national d'\u00e9thique pour les sciences de la vie et de la sant\u00e9",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Premi\u00e8re partie : Protection g\u00e9n\u00e9rale de la sant\u00e9 &gt; Livre IV : Administration g\u00e9n\u00e9rale de la sant\u00e9 &gt; Titre Ier : Institutions &gt; Chapitre II : Ethique &gt; Section 1 : Comit\u00e9 consultatif national d'\u00e9thique pour les sciences de la vie et de la sant\u00e9",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006910746",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000749730",
-                    "textTitle": "D\u00e9cret n\u00b097-555 du 29 mai 1997 - art. 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000006701023",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000749730",
-                    "textTitle": "D\u00e9cret n\u00b097-555 du 29 mai 1997 - art. 5 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000006701023",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000595201",
@@ -124,15 +162,79 @@
                     "dateDebutCible": "2005-04-29"
                 }
             ],
-            "num": "R1412-5",
-            "origine": "LEGI",
-            "texte": "Le comit\u00e9 \u00e9lit en son sein un vice-pr\u00e9sident appel\u00e9 \u00e0 suppl\u00e9er le pr\u00e9sident.",
-            "texteHtml": "<p></p>   Le comit\u00e9 \u00e9lit en son sein un vice-pr\u00e9sident appel\u00e9 \u00e0 suppl\u00e9er le pr\u00e9sident.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-04-29T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000749730",
+                    "textTitle": "D\u00e9cret n\u00b097-555 du 29 mai 1997 - art. 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000006701023",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000749730",
+                    "textTitle": "D\u00e9cret n\u00b097-555 du 29 mai 1997 - art. 5 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000006701023",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006910745",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1053993600000,
+                    "dateFin": 1114732800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006910746",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1114732800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R1412-5",
+                "1412-5"
+            ],
+            "versionPrecedente": "LEGIARTI000006910745",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006910745",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le mandat des membres du comit\u00e9 est de quatre ans, renouvelable une fois. En cas de d\u00e9c\u00e8s, de d\u00e9mission ou de cessation de fonctions pour toute autre cause d'un membre du comit\u00e9 en cours de mandat, son remplacement s'effectue dans les m\u00eames conditions que sa nomination et pour la dur\u00e9e du mandat restant \u00e0 courir. En cas d'absence prolong\u00e9e d'un membre du comit\u00e9, un coll\u00e8ge compos\u00e9 du pr\u00e9sident du comit\u00e9, du vice-pr\u00e9sident et du pr\u00e9sident de la section technique peut d\u00e9clarer le poste vacant ; il est pourvu au remplacement de ce membre dans les conditions pr\u00e9vues \u00e0 l'article R. 1412-2 et pour la dur\u00e9e du mandat restant \u00e0 courir. Le comit\u00e9 est renouvel\u00e9 par moiti\u00e9 tous les deux ans. La d\u00e9signation des nouveaux membres intervient dans les conditions fix\u00e9es \u00e0 l'article R. 1412-2.",
+            "texteHtml": "<p></p>   Le mandat des membres du comit\u00e9 est de quatre ans, renouvelable une fois.<p></p><p></p>   En cas de d\u00e9c\u00e8s, de d\u00e9mission ou de cessation de fonctions pour toute autre cause d'un membre du comit\u00e9 en cours de mandat, son remplacement s'effectue dans les m\u00eames conditions que sa nomination et pour la dur\u00e9e du mandat restant \u00e0 courir.<p></p><p></p>   En cas d'absence prolong\u00e9e d'un membre du comit\u00e9, un coll\u00e8ge compos\u00e9 du pr\u00e9sident du comit\u00e9, du vice-pr\u00e9sident et du pr\u00e9sident de la section technique peut d\u00e9clarer le poste vacant ; il est pourvu au remplacement de ce membre dans les conditions pr\u00e9vues \u00e0 l'article R. 1412-2 et pour la dur\u00e9e du mandat restant \u00e0 courir.<p></p><p></p>   Le comit\u00e9 est renouvel\u00e9 par moiti\u00e9 tous les deux ans. La d\u00e9signation des nouveaux membres intervient dans les conditions fix\u00e9es \u00e0 l'article R. 1412-2.<p></p>",
+            "num": "R1412-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1053993600000,
+            "dateFin": 1114732800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -213,9 +315,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006910745",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006910745",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196298",
+            "sectionParentId": "LEGISCTA000006196298",
+            "sectionParentTitre": "Sous-section 2 : Composition.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Premi\u00e8re partie : Protection g\u00e9n\u00e9rale de la sant\u00e9 &gt; Livre IV : Administration g\u00e9n\u00e9rale de la sant\u00e9 &gt; Titre Ier : Institutions &gt; Chapitre II : Ethique",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006910745",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "Nota : Dispositions d\u00e9lib\u00e9r\u00e9es en conseil des ministres.",
+            "notaHtml": "<p></p>   Nota : Dispositions d\u00e9lib\u00e9r\u00e9es en conseil des ministres.<p></p><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000595201",
+                    "textTitle": "D\u00e9cret 2003-461 2003-05-21",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000595201",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2003-05-27",
+                    "dateSignaTexte": "2003-05-21",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072665",
@@ -225,7 +385,6 @@
                     "articleNum": "R1412-2",
                     "articleId": "LEGIARTI000006910739",
                     "natureText": "CODE",
-                    "date": 1599807144928,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -252,27 +411,40 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000595201",
-                    "textTitle": "D\u00e9cret 2003-461 2003-05-21",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000595201",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2003-05-27",
-                    "dateSignaTexte": "2003-05-21",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006910745",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1053993600000,
+                    "dateFin": 1114732800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006910746",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1114732800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R1412-5",
-            "origine": "LEGI",
-            "texte": "Le mandat des membres du comit\u00e9 est de quatre ans, renouvelable une fois. En cas de d\u00e9c\u00e8s, de d\u00e9mission ou de cessation de fonctions pour toute autre cause d'un membre du comit\u00e9 en cours de mandat, son remplacement s'effectue dans les m\u00eames conditions que sa nomination et pour la dur\u00e9e du mandat restant \u00e0 courir. En cas d'absence prolong\u00e9e d'un membre du comit\u00e9, un coll\u00e8ge compos\u00e9 du pr\u00e9sident du comit\u00e9, du vice-pr\u00e9sident et du pr\u00e9sident de la section technique peut d\u00e9clarer le poste vacant ; il est pourvu au remplacement de ce membre dans les conditions pr\u00e9vues \u00e0 l'article R. 1412-2 et pour la dur\u00e9e du mandat restant \u00e0 courir. Le comit\u00e9 est renouvel\u00e9 par moiti\u00e9 tous les deux ans. La d\u00e9signation des nouveaux membres intervient dans les conditions fix\u00e9es \u00e0 l'article R. 1412-2.",
-            "texteHtml": "<p></p>   Le mandat des membres du comit\u00e9 est de quatre ans, renouvelable une fois.<p></p><p></p>   En cas de d\u00e9c\u00e8s, de d\u00e9mission ou de cessation de fonctions pour toute autre cause d'un membre du comit\u00e9 en cours de mandat, son remplacement s'effectue dans les m\u00eames conditions que sa nomination et pour la dur\u00e9e du mandat restant \u00e0 courir.<p></p><p></p>   En cas d'absence prolong\u00e9e d'un membre du comit\u00e9, un coll\u00e8ge compos\u00e9 du pr\u00e9sident du comit\u00e9, du vice-pr\u00e9sident et du pr\u00e9sident de la section technique peut d\u00e9clarer le poste vacant ; il est pourvu au remplacement de ce membre dans les conditions pr\u00e9vues \u00e0 l'article R. 1412-2 et pour la dur\u00e9e du mandat restant \u00e0 courir.<p></p><p></p>   Le comit\u00e9 est renouvel\u00e9 par moiti\u00e9 tous les deux ans. La d\u00e9signation des nouveaux membres intervient dans les conditions fix\u00e9es \u00e0 l'article R. 1412-2.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2003-05-27T00:00:00.000Z",
-            "dateFin": "2005-04-29T00:00:00.000Z"
+            "computedNums": [
+                "R1412-5",
+                "1412-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

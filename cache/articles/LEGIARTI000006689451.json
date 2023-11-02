@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689451",
-    "num": "L4343-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033897349",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions de l'article L. 4113-5 sont applicables aux professions d'orthophoniste et d'orthoptiste.",
+            "texteHtml": "<p>Les dispositions de l'article L. 4113-5 sont applicables aux professions d'orthophoniste et d'orthoptiste.</p><p></p>",
+            "num": "L4343-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1530403200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,73 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033897349",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689451",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171321",
+            "sectionParentId": "LEGISCTA000006171321",
+            "sectionParentTitre": "Chapitre III : Dispositions communes.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires &gt; Titre IV : Professions d'orthophoniste et d'orthoptiste &gt; Chapitre III : Dispositions communes.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033897349",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000227015",
-                    "textTitle": "Loi n\u00b02002-303 du 4 mars 2002 - art. 127 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "127",
-                    "articleId": "LEGIARTI000006697519",
-                    "natureText": "LOI",
-                    "date": 1599845071929,
-                    "parentCid": null,
-                    "numTexte": "2002-303",
-                    "datePubli": 1015286400000,
-                    "dateDebut": 1046476800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-65 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5124-65",
-                    "articleId": "LEGIARTI000042004365",
-                    "natureText": "CODE",
-                    "date": 1599845071929,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1601510400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-66 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5124-66",
-                    "articleId": "LEGIARTI000042004319",
-                    "natureText": "CODE",
-                    "date": 1599845071929,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1601510400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L510-9-2",
-                    "articleId": "LEGIARTI000006693403",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L510-9-2",
-                    "articleId": "LEGIARTI000006693403",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "Conform\u00e9ment \u00e0 l'article 5 de l'ordonnance n\u00b0 2017-49 du 19 janvier 2017, ces dispositions entrent en vigueur \u00e0 une date fix\u00e9e par d\u00e9cret et au plus tard le 1er juillet 2018.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 5 de l'ordonnance n\u00b0 2017-49 du 19 janvier 2017, ces dispositions entrent en vigueur \u00e0 une date fix\u00e9e par d\u00e9cret et au plus tard le 1er juillet 2018.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -188,15 +192,128 @@
                     "dateDebutCible": "2018-07-01"
                 }
             ],
-            "num": "L4343-1",
-            "origine": "LEGI",
-            "texte": "Les dispositions de l'article L. 4113-5 sont applicables aux professions d'orthophoniste et d'orthoptiste.",
-            "texteHtml": "<p>Les dispositions de l'article L. 4113-5 sont applicables aux professions d'orthophoniste et d'orthoptiste.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-07-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000227015",
+                    "textTitle": "Loi n\u00b02002-303 du 4 mars 2002 - art. 127 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "127",
+                    "articleId": "LEGIARTI000006697519",
+                    "natureText": "LOI",
+                    "parentCid": null,
+                    "numTexte": "2002-303",
+                    "datePubli": 1015286400000,
+                    "dateDebut": 1046476800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-65 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5124-65",
+                    "articleId": "LEGIARTI000042004365",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1601510400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-66 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5124-66",
+                    "articleId": "LEGIARTI000042004319",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1601510400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L510-9-2",
+                    "articleId": "LEGIARTI000006693403",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L510-9-2",
+                    "articleId": "LEGIARTI000006693403",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689451",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1015286400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689452",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1015286400000,
+                    "dateFin": 1530403200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033897349",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1530403200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4343-1",
+                "4343-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006689452",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689452",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions des articles L. 4113-5, L. 4113-6 et L. 4113-8 sont applicables aux professions d'orthophoniste et d'orthoptiste. Toutefois, pour l'application de l'article L. 4113-6, les conventions pass\u00e9es entre les professionnels et les entreprises sont soumises pour avis au coll\u00e8ge professionnel r\u00e9gional du conseil mentionn\u00e9 \u00e0 l'article L. 4391-1.",
+            "texteHtml": "<p></p>   Les dispositions des articles L. 4113-5, L. 4113-6 et L. 4113-8 sont applicables aux professions d'orthophoniste et d'orthoptiste.<p></p><p></p>   Toutefois, pour l'application de l'article L. 4113-6, les conventions pass\u00e9es entre les professionnels et les entreprises sont soumises pour avis au coll\u00e8ge professionnel r\u00e9gional du conseil mentionn\u00e9 \u00e0 l'article L. 4391-1.<p></p>",
+            "num": "L4343-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1015286400000,
+            "dateFin": 1530403200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -237,11 +354,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -277,129 +403,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689452",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689451",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171321",
+            "sectionParentId": "LEGISCTA000006171321",
+            "sectionParentTitre": "Chapitre III : Dispositions communes.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires &gt; Titre IV : Professions d'orthophoniste et d'orthoptiste &gt; Chapitre III : Dispositions communes.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006689452",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000227015",
-                    "textTitle": "Loi n\u00b02002-303 du 4 mars 2002 - art. 127 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "127",
-                    "articleId": "LEGIARTI000006697519",
-                    "natureText": "LOI",
-                    "date": 1599819874098,
-                    "parentCid": null,
-                    "numTexte": "2002-303",
-                    "datePubli": 1015286400000,
-                    "dateDebut": 1046476800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4113-5",
-                    "articleId": "LEGIARTI000006688677",
-                    "natureText": "CODE",
-                    "date": 1599819874098,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1564185600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-6 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4113-6",
-                    "articleId": "LEGIARTI000006688678",
-                    "natureText": "CODE",
-                    "date": 1599819874098,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-8 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4113-8",
-                    "articleId": "LEGIARTI000006688682",
-                    "natureText": "CODE",
-                    "date": 1599819874098,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4391-1 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4391-1",
-                    "articleId": "LEGIARTI000006689568",
-                    "natureText": "CODE",
-                    "date": 1599819874098,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1015286400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-65 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5124-65",
-                    "articleId": "LEGIARTI000042004365",
-                    "natureText": "CODE",
-                    "date": 1599819874098,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1601510400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-66 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5124-66",
-                    "articleId": "LEGIARTI000042004319",
-                    "natureText": "CODE",
-                    "date": 1599819874099,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1601510400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L510-9-2",
-                    "articleId": "LEGIARTI000006693403",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L510-9-2",
-                    "articleId": "LEGIARTI000006693403",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -438,15 +488,180 @@
                     "dateDebutCible": "2002-03-05"
                 }
             ],
-            "num": "L4343-1",
-            "origine": "LEGI",
-            "texte": "Les dispositions des articles L. 4113-5, L. 4113-6 et L. 4113-8 sont applicables aux professions d'orthophoniste et d'orthoptiste. Toutefois, pour l'application de l'article L. 4113-6, les conventions pass\u00e9es entre les professionnels et les entreprises sont soumises pour avis au coll\u00e8ge professionnel r\u00e9gional du conseil mentionn\u00e9 \u00e0 l'article L. 4391-1.",
-            "texteHtml": "<p></p>   Les dispositions des articles L. 4113-5, L. 4113-6 et L. 4113-8 sont applicables aux professions d'orthophoniste et d'orthoptiste.<p></p><p></p>   Toutefois, pour l'application de l'article L. 4113-6, les conventions pass\u00e9es entre les professionnels et les entreprises sont soumises pour avis au coll\u00e8ge professionnel r\u00e9gional du conseil mentionn\u00e9 \u00e0 l'article L. 4391-1.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2002-03-05T00:00:00.000Z",
-            "dateFin": "2018-07-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000227015",
+                    "textTitle": "Loi n\u00b02002-303 du 4 mars 2002 - art. 127 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "127",
+                    "articleId": "LEGIARTI000006697519",
+                    "natureText": "LOI",
+                    "parentCid": null,
+                    "numTexte": "2002-303",
+                    "datePubli": 1015286400000,
+                    "dateDebut": 1046476800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4113-5",
+                    "articleId": "LEGIARTI000006688677",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1564185600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-6 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4113-6",
+                    "articleId": "LEGIARTI000006688678",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4113-8",
+                    "articleId": "LEGIARTI000006688682",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4391-1 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4391-1",
+                    "articleId": "LEGIARTI000006689568",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1015286400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-65 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5124-65",
+                    "articleId": "LEGIARTI000042004365",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1601510400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-66 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5124-66",
+                    "articleId": "LEGIARTI000042004319",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1601510400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L510-9-2",
+                    "articleId": "LEGIARTI000006693403",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L510-9-2",
+                    "articleId": "LEGIARTI000006693403",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689451",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1015286400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689452",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1015286400000,
+                    "dateFin": 1530403200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033897349",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1530403200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4343-1",
+                "4343-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006689451",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689451",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions des articles L. 4113-5, L. 4113-6 et L. 4113-8 sont applicables aux professions d'orthophoniste et d'orthoptiste.",
+            "texteHtml": "<p></p>   Les dispositions des articles L. 4113-5, L. 4113-6 et L. 4113-8 sont applicables aux professions d'orthophoniste et d'orthoptiste.<p></p><p></p>",
+            "num": "L4343-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1015286400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -487,11 +702,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -527,115 +751,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689451",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689451",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171321",
+            "sectionParentId": "LEGISCTA000006171321",
+            "sectionParentTitre": "Chapitre III : Dispositions communes.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre IV : Professions d'orthophoniste et d'orthoptiste &gt; Chapitre III : Dispositions communes.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006689451",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000227015",
-                    "textTitle": "Loi n\u00b02002-303 du 4 mars 2002 - art. 127 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "127",
-                    "articleId": "LEGIARTI000006697519",
-                    "natureText": "LOI",
-                    "date": 1599819872877,
-                    "parentCid": null,
-                    "numTexte": "2002-303",
-                    "datePubli": 1015286400000,
-                    "dateDebut": 1046476800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4113-5",
-                    "articleId": "LEGIARTI000006688677",
-                    "natureText": "CODE",
-                    "date": 1599819872877,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1564185600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-6 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4113-6",
-                    "articleId": "LEGIARTI000006688678",
-                    "natureText": "CODE",
-                    "date": 1599819872877,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-8 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4113-8",
-                    "articleId": "LEGIARTI000006688682",
-                    "natureText": "CODE",
-                    "date": 1599819872877,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-65 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5124-65",
-                    "articleId": "LEGIARTI000042004365",
-                    "natureText": "CODE",
-                    "date": 1599819872877,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1601510400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-66 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5124-66",
-                    "articleId": "LEGIARTI000042004319",
-                    "natureText": "CODE",
-                    "date": 1599819872877,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1601510400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L510-9-2",
-                    "articleId": "LEGIARTI000006693403",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L510-9-2",
-                    "articleId": "LEGIARTI000006693403",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -662,13 +824,149 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L4343-1",
-            "origine": "LEGI",
-            "texte": "Les dispositions des articles L. 4113-5, L. 4113-6 et L. 4113-8 sont applicables aux professions d'orthophoniste et d'orthoptiste.",
-            "texteHtml": "<p></p>   Les dispositions des articles L. 4113-5, L. 4113-6 et L. 4113-8 sont applicables aux professions d'orthophoniste et d'orthoptiste.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2002-03-05T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000227015",
+                    "textTitle": "Loi n\u00b02002-303 du 4 mars 2002 - art. 127 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "127",
+                    "articleId": "LEGIARTI000006697519",
+                    "natureText": "LOI",
+                    "parentCid": null,
+                    "numTexte": "2002-303",
+                    "datePubli": 1015286400000,
+                    "dateDebut": 1046476800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4113-5",
+                    "articleId": "LEGIARTI000006688677",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1564185600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-6 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4113-6",
+                    "articleId": "LEGIARTI000006688678",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4113-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4113-8",
+                    "articleId": "LEGIARTI000006688682",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-65 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5124-65",
+                    "articleId": "LEGIARTI000042004365",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1601510400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5124-66 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5124-66",
+                    "articleId": "LEGIARTI000042004319",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1601510400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L510-9-2",
+                    "articleId": "LEGIARTI000006693403",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L510-9-2",
+                    "articleId": "LEGIARTI000006693403",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689451",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1015286400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689452",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1015286400000,
+                    "dateFin": 1530403200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033897349",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1530403200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4343-1",
+                "4343-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

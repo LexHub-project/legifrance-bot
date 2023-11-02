@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000022021860",
-    "num": "L3241-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000022037252",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour l'application \u00e0 Saint-Martin du pr\u00e9sent livre, \u00e0 l'article L. 3222-5, les mots : \" dans chaque d\u00e9partement une commission d\u00e9partementale \" sont remplac\u00e9s par les mots : \" une commission territoriale \".",
+            "texteHtml": "<p>Pour l'application \u00e0 Saint-Martin du pr\u00e9sent livre, \u00e0 l'article L. 3222-5, les mots : \" dans chaque d\u00e9partement une commission d\u00e9partementale \" sont remplac\u00e9s par les mots : \" une commission territoriale \".</p>",
+            "num": "L3241-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1269648000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 715827882,
             "context": {
                 "titresTM": [
                     {
@@ -65,21 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000022037252",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000022021860",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000022021876",
+            "sectionParentId": "LEGISCTA000022037254",
+            "sectionParentTitre": "Chapitre IV : Saint-Martin",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Troisi\u00e8me partie : Lutte contre les maladies et d\u00e9pendances &gt; Livre II : Lutte contre les maladies mentales &gt; Titre II : Organisation &gt; Chapitre IV : Saint-Martin",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000022037252",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L3851-1 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L3851-1",
-                    "articleId": "LEGIARTI000019417260",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000022018594",
@@ -94,13 +141,43 @@
                     "dateDebutCible": "2010-03-27"
                 }
             ],
-            "num": "L3241-1",
-            "origine": "LEGI",
-            "texte": "Pour l'application \u00e0 Saint-Martin du pr\u00e9sent livre, \u00e0 l'article L. 3222-5, les mots : \" dans chaque d\u00e9partement une commission d\u00e9partementale \" sont remplac\u00e9s par les mots : \" une commission territoriale \".",
-            "texteHtml": "<p>Pour l'application \u00e0 Saint-Martin du pr\u00e9sent livre, \u00e0 l'article L. 3222-5, les mots : \" dans chaque d\u00e9partement une commission d\u00e9partementale \" sont remplac\u00e9s par les mots : \" une commission territoriale \".</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-03-27T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L3851-1 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L3851-1",
+                    "articleId": "LEGIARTI000019417260",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000022037252",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1269648000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L3241-1",
+                "3241-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

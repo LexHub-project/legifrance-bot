@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006812608",
-    "num": "R321-17",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000019749340",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tous les documents accompagnant les demandes d'agr\u00e9ment doivent \u00eatre r\u00e9dig\u00e9s ou traduits en langue fran\u00e7aise.",
+            "texteHtml": "<p></p>   Tous les documents accompagnant les demandes d'agr\u00e9ment doivent \u00eatre r\u00e9dig\u00e9s ou traduits en langue fran\u00e7aise.<p></p><p></p>",
+            "num": "R321-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1226275200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 715827880,
             "context": {
                 "titresTM": [
                     {
@@ -74,40 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000019749340",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006812608",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000019737808",
+            "sectionParentId": "LEGISCTA000019749352",
+            "sectionParentTitre": "Sous-section 1 : Dispositions relatives aux entreprises d'assurance.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Les entreprises &gt; Titre II : R\u00e9gime administratif &gt; Chapitre Ier : Les agr\u00e9ments &gt; Section IV : Conditions des agr\u00e9ments. &gt; Sous-section 1 : Dispositions relatives aux entreprises d'assurance.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000019749340",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000021136175",
-                    "textTitle": "Arr\u00eat\u00e9 du 2 octobre 2009 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000021136187",
-                    "natureText": "ARRETE",
-                    "date": 1599834810283,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1255219200000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R382-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R382-1",
-                    "articleId": "LEGIARTI000035223045",
-                    "natureText": "CODE",
-                    "date": 1599834810283,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1500508800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000019735760",
@@ -122,15 +150,87 @@
                     "dateDebutCible": "2008-11-10"
                 }
             ],
-            "num": "R321-17",
-            "origine": "LEGI",
-            "texte": "Tous les documents accompagnant les demandes d'agr\u00e9ment doivent \u00eatre r\u00e9dig\u00e9s ou traduits en langue fran\u00e7aise.",
-            "texteHtml": "<p></p>   Tous les documents accompagnant les demandes d'agr\u00e9ment doivent \u00eatre r\u00e9dig\u00e9s ou traduits en langue fran\u00e7aise.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-11-10T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000021136175",
+                    "textTitle": "Arr\u00eat\u00e9 du 2 octobre 2009 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000021136187",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1255219200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R382-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R382-1",
+                    "articleId": "LEGIARTI000035223045",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1500508800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006812608",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 775180800000,
+                    "dateFin": 1226275200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000019749340",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1226275200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R321-17",
+                "321-17"
+            ],
+            "versionPrecedente": "LEGIARTI000006812608",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006812608",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tous les documents accompagnant les demandes d'agr\u00e9ment doivent \u00eatre r\u00e9dig\u00e9s ou traduits en langue fran\u00e7aise.",
+            "texteHtml": "<p></p>   Tous les documents accompagnant les demandes d'agr\u00e9ment doivent \u00eatre r\u00e9dig\u00e9s ou traduits en langue fran\u00e7aise.<p></p><p></p>",
+            "num": "R*321-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 775180800000,
+            "dateFin": 1226275200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -193,50 +293,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006812608",
-            "lienAutres": [
+            "cid": "LEGIARTI000006812608",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175503",
+            "sectionParentId": "LEGISCTA000006175503",
+            "sectionParentTitre": "Section IV : Conditions des agr\u00e9ments.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Les entreprises &gt; Titre II : R\u00e9gime administratif &gt; Chapitre Ier : Les agr\u00e9ments &gt; Section IV : Conditions des agr\u00e9ments.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006812608",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000183377",
-                    "textTitle": "D\u00e9cret n\u00b094-635 du 25 juillet 1994 - art. 21 (V)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "source",
-                    "articleNum": "21",
-                    "articleId": "LEGIARTI000006850085",
-                    "natureText": "DECRET"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "JORFTEXT000021136175",
-                    "textTitle": "Arr\u00eat\u00e9 du 2 octobre 2009 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000021136187",
-                    "natureText": "ARRETE",
-                    "date": 1599810641120,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1255219200000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R382-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R382-1",
-                    "articleId": "LEGIARTI000035223045",
-                    "natureText": "CODE",
-                    "date": 1599810641120,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1500508800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000507291",
@@ -263,13 +366,80 @@
                     "dateDebutCible": "1994-07-26"
                 }
             ],
-            "num": "R*321-17",
-            "origine": "LEGI",
-            "texte": "Tous les documents accompagnant les demandes d'agr\u00e9ment doivent \u00eatre r\u00e9dig\u00e9s ou traduits en langue fran\u00e7aise.",
-            "texteHtml": "<p></p>   Tous les documents accompagnant les demandes d'agr\u00e9ment doivent \u00eatre r\u00e9dig\u00e9s ou traduits en langue fran\u00e7aise.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1994-07-26T00:00:00.000Z",
-            "dateFin": "2008-11-10T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000021136175",
+                    "textTitle": "Arr\u00eat\u00e9 du 2 octobre 2009 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000021136187",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1255219200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R382-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R382-1",
+                    "articleId": "LEGIARTI000035223045",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1500508800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "JORFTEXT000000183377",
+                    "textTitle": "D\u00e9cret n\u00b094-635 du 25 juillet 1994 - art. 21 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "21",
+                    "articleId": "LEGIARTI000006850085",
+                    "natureText": "DECRET"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006812608",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 775180800000,
+                    "dateFin": 1226275200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000019749340",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1226275200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*321-17",
+                "321-17",
+                "R321-17"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

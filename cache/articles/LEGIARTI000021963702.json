@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000021963702",
-    "num": "R3122-17",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000021964764",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les d\u00e9bats ont lieu en chambre du conseil.",
+            "texteHtml": "<p></p>   Les d\u00e9bats ont lieu en chambre du conseil.<p></p><p></p>",
+            "num": "R3122-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1277942400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 966367638,
             "context": {
                 "titresTM": [
                     {
@@ -83,21 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000021964764",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000021963702",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006197010",
+            "sectionParentId": "LEGISCTA000006197010",
+            "sectionParentTitre": "Sous-section 1 : Actions contre l'office.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Troisi\u00e8me partie : Lutte contre les maladies et d\u00e9pendances &gt; Livre Ier : Lutte contre les maladies transmissibles &gt; Titre II : Infection par le virus de l'immunod\u00e9ficience humaine et infections sexuellement transmissibles &gt; Chapitre II : Indemnisation des victimes contamin\u00e9es &gt; Section 2 : Actions en justice &gt; Sous-section 1 : Actions contre l'office.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000021964764",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R3122-27 (VT)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R3122-27",
-                    "articleId": "LEGIARTI000006912013",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "<p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021961319",
@@ -112,13 +159,43 @@
                     "dateDebutCible": "2010-03-13"
                 }
             ],
-            "num": "R3122-17",
-            "origine": "LEGI",
-            "texte": "Les d\u00e9bats ont lieu en chambre du conseil.",
-            "texteHtml": "<p></p>   Les d\u00e9bats ont lieu en chambre du conseil.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-07-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R3122-27 (VT)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3122-27",
+                    "articleId": "LEGIARTI000006912013",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000021964764",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1277942400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R3122-17",
+                "3122-17"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

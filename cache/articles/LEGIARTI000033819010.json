@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033819010",
-    "num": "R311-17",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033819010",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Peuvent \u00e9galement pr\u00e9tendre \u00e0 la carte du combattant les personnes qui ont fait l'objet d'une citation individuelle avec croix, d\u00e9livr\u00e9e au titre de l'une des op\u00e9rations mentionn\u00e9es aux articles R. 311-1 \u00e0 R. 311-14 . Cette citation doit avoir \u00e9t\u00e9 homologu\u00e9e si elle a \u00e9t\u00e9 obtenue au titre de la guerre de 1939-1945.",
+            "texteHtml": "<p>Peuvent \u00e9galement pr\u00e9tendre \u00e0 la carte du combattant les personnes qui ont fait l'objet d'une citation individuelle avec croix, d\u00e9livr\u00e9e au titre de l'une des op\u00e9rations mentionn\u00e9es aux articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074068&idArticle=LEGIARTI000033818970&dateTexte=&categorieLien=cid' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. R311-1 (V)'>R. 311-1 \u00e0 R. 311-14</a>.</p><p>Cette citation doit avoir \u00e9t\u00e9 homologu\u00e9e si elle a \u00e9t\u00e9 obtenue au titre de la guerre de 1939-1945.</p>",
+            "num": "R311-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-07-01",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033818960",
                         "id": "LEGISCTA000033818960",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION RECONNAISSANCE DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000033818960",
+                        "id": "LEGISCTA000047770455",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -64,15 +88,6 @@
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -80,67 +95,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033819010",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033819010",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033819008",
+            "sectionParentId": "LEGISCTA000033819008",
+            "sectionParentTitre": "Sous-section 4 : B\u00e9n\u00e9ficiaires de citations",
+            "fullSectionsTitre": "Partie r\u00e9glementaire (nouvelle)  &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre Ier : LA CARTE DU COMBATTANT &gt; Chapitre unique. &gt; Section 1 : Reconnaissance de la qualit\u00e9 de combattant &gt; Sous-section 4 : B\u00e9n\u00e9ficiaires de citations",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033819010",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R311-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R311-1",
-                    "articleId": "LEGIARTI000033818970",
-                    "natureText": "CODE",
-                    "date": 1599845008890,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R341-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R341-4",
-                    "articleId": "LEGIARTI000033819106",
-                    "natureText": "CODE",
-                    "date": 1599845008890,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                },
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R341-9 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R341-9",
-                    "articleId": "LEGIARTI000033819120",
-                    "natureText": "CODE",
-                    "date": 1599845008890,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R224 bis (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R224 bis",
-                    "articleId": "LEGIARTI000018763250",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033719487",
@@ -167,13 +208,83 @@
                     "dateDebutCible": "2016-12-30"
                 }
             ],
-            "num": "R311-17",
-            "origine": "LEGI",
-            "texte": "Peuvent \u00e9galement pr\u00e9tendre \u00e0 la carte du combattant les personnes qui ont fait l'objet d'une citation individuelle avec croix, d\u00e9livr\u00e9e au titre de l'une des op\u00e9rations mentionn\u00e9es aux articles R. 311-1 \u00e0 R. 311-14 . Cette citation doit avoir \u00e9t\u00e9 homologu\u00e9e si elle a \u00e9t\u00e9 obtenue au titre de la guerre de 1939-1945.",
-            "texteHtml": "<p>Peuvent \u00e9galement pr\u00e9tendre \u00e0 la carte du combattant les personnes qui ont fait l'objet d'une citation individuelle avec croix, d\u00e9livr\u00e9e au titre de l'une des op\u00e9rations mentionn\u00e9es aux articles <a href='/article/LEGIARTI000033818970' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. R311-1 (V)'>R. 311-1 \u00e0 R. 311-14</a>.</p><p>Cette citation doit avoir \u00e9t\u00e9 homologu\u00e9e si elle a \u00e9t\u00e9 obtenue au titre de la guerre de 1939-1945.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R311-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R311-1",
+                    "articleId": "LEGIARTI000033818970",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R341-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R341-4",
+                    "articleId": "LEGIARTI000033819106",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R341-9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R341-9",
+                    "articleId": "LEGIARTI000033819120",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R224 bis (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R224 bis",
+                    "articleId": "LEGIARTI000018763250",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033819010",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R311-17",
+                "311-17"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

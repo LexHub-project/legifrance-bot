@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029656694",
-    "num": "R723-12",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000029656694",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les titulaires de l'un des titres ou dipl\u00f4mes figurant sur une liste fix\u00e9e par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 civile sont engag\u00e9s au grade de lieutenant ou au grade de capitaine et si l'int\u00e9r\u00eat du service le requiert.",
+            "texteHtml": "<p><br/>Les titulaires de l'un des titres ou dipl\u00f4mes figurant sur une liste fix\u00e9e par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 civile sont engag\u00e9s au grade de lieutenant ou au grade de capitaine et si l'int\u00e9r\u00eat du service le requiert.</p>",
+            "num": "R723-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1417392000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -92,92 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000029656694",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029656694",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656690",
+            "sectionParentId": "LEGISCTA000029657865",
+            "sectionParentTitre": "  Sous-paragraphe  2 : Premier grade",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 2 : Engagement citoyen &gt; Paragraphe 1 : Engagements des sapeurs-pompiers volontaires &gt;   Sous-paragraphe  2 : Premier grade",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000029656694",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027793260",
-                    "textTitle": "Arr\u00eat\u00e9 du 25 juillet 2013 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000030477570",
-                    "natureText": "ARRETE",
-                    "date": 1651005234952,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1375401600000,
-                    "dateDebut": 1417392000000
-                },
-                {
-                    "textCid": "JORFTEXT000027793260",
-                    "textTitle": "Arr\u00eat\u00e9 du 25 juillet 2013 - art. 2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000030477620",
-                    "natureText": "ARRETE",
-                    "date": 1651005234953,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1375401600000,
-                    "dateDebut": 1417392000000
-                },
-                {
-                    "textCid": "JORFTEXT000027860595",
-                    "textTitle": "Arr\u00eat\u00e9 du 8 ao\u00fbt 2013 - art. 26 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "26",
-                    "articleId": "LEGIARTI000029880645",
-                    "natureText": "ARRETE",
-                    "date": 1651005234953,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1377043200000,
-                    "dateDebut": 1417392000000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R723-11 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R723-11",
-                    "articleId": "LEGIARTI000045656794",
-                    "natureText": "CODE",
-                    "date": 1651005234953,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1650153600000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R723-34 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R723-34",
-                    "articleId": "LEGIARTI000029656748",
-                    "natureText": "CODE",
-                    "date": 1651005234953,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1417392000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000027517141",
-                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 11 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "11",
-                    "articleId": "LEGIARTI000027520056",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -204,13 +189,109 @@
                     "dateDebutCible": "2014-12-01"
                 }
             ],
-            "num": "R723-12",
-            "origine": "LEGI",
-            "texte": "Les titulaires de l'un des titres ou dipl\u00f4mes figurant sur une liste fix\u00e9e par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 civile sont engag\u00e9s au grade de lieutenant ou au grade de capitaine et si l'int\u00e9r\u00eat du service le requiert.",
-            "texteHtml": "<p><br/>Les titulaires de l'un des titres ou dipl\u00f4mes figurant sur une liste fix\u00e9e par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 civile sont engag\u00e9s au grade de lieutenant ou au grade de capitaine et si l'int\u00e9r\u00eat du service le requiert.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000027793260",
+                    "textTitle": "Arr\u00eat\u00e9 du 25 juillet 2013 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000030477570",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1375401600000,
+                    "dateDebut": 1417392000000
+                },
+                {
+                    "textCid": "JORFTEXT000027793260",
+                    "textTitle": "Arr\u00eat\u00e9 du 25 juillet 2013 - art. 2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000030477620",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1375401600000,
+                    "dateDebut": 1417392000000
+                },
+                {
+                    "textCid": "JORFTEXT000027860595",
+                    "textTitle": "Arr\u00eat\u00e9 du 8 ao\u00fbt 2013 - art. 26 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "26",
+                    "articleId": "LEGIARTI000029880645",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1377043200000,
+                    "dateDebut": 1417392000000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R723-11 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R723-11",
+                    "articleId": "LEGIARTI000045656794",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1650153600000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R723-34 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R723-34",
+                    "articleId": "LEGIARTI000029656748",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1417392000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000027517141",
+                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 11 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "11",
+                    "articleId": "LEGIARTI000027520056",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656694",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R723-12",
+                "723-12"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

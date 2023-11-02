@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006837270",
-    "num": "R322-32",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000035225652",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Chaque conseil de rivage \u00e9lit son pr\u00e9sident, son vice-pr\u00e9sident et son bureau.",
+            "texteHtml": "<p>Chaque conseil de rivage \u00e9lit son pr\u00e9sident, son vice-pr\u00e9sident et son bureau.</p>",
+            "num": "R322-32",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1500508800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -74,26 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000035225652",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837270",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188745",
+            "sectionParentId": "LEGISCTA000006188745",
+            "sectionParentTitre": "Sous-section 2 : Conseils de rivage",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Espaces naturels &gt; Titre II : Littoral &gt; Chapitre II : Conservatoire de l'espace littoral et des rivages lacustres &gt; Section 3 : Administration &gt; Sous-section 2 : Conseils de rivage",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000035225652",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R322-17 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R322-17",
-                    "articleId": "LEGIARTI000045495228",
-                    "natureText": "CODE",
-                    "date": 1654027956056,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1649203200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000633739",
@@ -120,15 +162,74 @@
                     "dateDebutCible": "2017-07-20"
                 }
             ],
-            "num": "R322-32",
-            "origine": "LEGI",
-            "texte": "Chaque conseil de rivage \u00e9lit son pr\u00e9sident, son vice-pr\u00e9sident et son bureau.",
-            "texteHtml": "<p>Chaque conseil de rivage \u00e9lit son pr\u00e9sident, son vice-pr\u00e9sident et son bureau.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-07-20T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R322-17 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R322-17",
+                    "articleId": "LEGIARTI000045495228",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1649203200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837270",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1500508800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000035225652",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1500508800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R322-32",
+                "322-32"
+            ],
+            "versionPrecedente": "LEGIARTI000006837270",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006837270",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Chaque conseil de rivage \u00e9lit son pr\u00e9sident, son vice-pr\u00e9sident et son bureau. Il fixe son lieu de r\u00e9union.",
+            "texteHtml": "<p></p>   Chaque conseil de rivage \u00e9lit son pr\u00e9sident, son vice-pr\u00e9sident et son bureau. Il fixe son lieu de r\u00e9union.<p></p><p></p>",
+            "num": "R322-32",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1123200000000,
+            "dateFin": 1500508800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -200,26 +301,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006837270",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837270",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188745",
+            "sectionParentId": "LEGISCTA000006188745",
+            "sectionParentTitre": "Sous-section 2 : Conseils de rivage",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Espaces naturels &gt; Titre II : Littoral &gt; Chapitre II : Conservatoire de l'espace littoral et des rivages lacustres &gt; Section 3 : Administration &gt; Sous-section 2 : Conseils de rivage",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006837270",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R322-17 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R322-17",
-                    "articleId": "LEGIARTI000045495228",
-                    "natureText": "CODE",
-                    "date": 1654027957525,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1649203200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000633739",
@@ -234,13 +362,56 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "R322-32",
-            "origine": "LEGI",
-            "texte": "Chaque conseil de rivage \u00e9lit son pr\u00e9sident, son vice-pr\u00e9sident et son bureau. Il fixe son lieu de r\u00e9union.",
-            "texteHtml": "<p></p>   Chaque conseil de rivage \u00e9lit son pr\u00e9sident, son vice-pr\u00e9sident et son bureau. Il fixe son lieu de r\u00e9union.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-08-05T00:00:00.000Z",
-            "dateFin": "2017-07-20T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R322-17 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R322-17",
+                    "articleId": "LEGIARTI000045495228",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1649203200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837270",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1500508800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000035225652",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1500508800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R322-32",
+                "322-32"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

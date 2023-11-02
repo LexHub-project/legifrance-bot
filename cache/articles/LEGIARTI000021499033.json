@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000021499033",
-    "num": "L4322-2-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000021504177",
+            "idTexte": null,
+            "type": null,
+            "texte": "Les organismes d\u00e9livrant les titres de formation transmettent ces titres au service ou \u00e0 l'organisme mentionn\u00e9 \u00e0 l'article L. 4322-2 sous forme d'informations certifi\u00e9es.",
+            "texteHtml": "<p>Les organismes d\u00e9livrant les titres de formation transmettent ces titres au service ou \u00e0 l'organisme mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006689357&dateTexte=&categorieLien=cid'>L. 4322-2</a> sous forme d'informations certifi\u00e9es.</p>",
+            "num": "L4322-2-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1261267200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 268431,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,54 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000021504177",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000021499033",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171312",
+            "sectionParentId": "LEGISCTA000006171312",
+            "sectionParentTitre": "Chapitre II : P\u00e9dicure-podologue.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre II : Professions de masseur-kin\u00e9sith\u00e9rapeute et de p\u00e9dicure-podologue &gt; Chapitre II : P\u00e9dicure-podologue.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000021504177",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-16 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4322-16",
-                    "articleId": "LEGIARTI000030963962",
-                    "natureText": "CODE",
-                    "date": 1599828682037,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4322-2",
-                    "articleId": "LEGIARTI000006689357",
-                    "natureText": "CODE",
-                    "date": 1599828682037,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1188345600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-2-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4322-2-3",
-                    "articleId": "LEGIARTI000021504173",
-                    "natureText": "CODE",
-                    "date": 1599828682037,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1261267200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021495284",
@@ -145,13 +168,73 @@
                     "dateDebutCible": "2009-12-20"
                 }
             ],
-            "num": "L4322-2-2",
-            "origine": "LEGI",
-            "texte": "Les organismes d\u00e9livrant les titres de formation transmettent ces titres au service ou \u00e0 l'organisme mentionn\u00e9 \u00e0 l'article L. 4322-2 sous forme d'informations certifi\u00e9es.",
-            "texteHtml": "<p>Les organismes d\u00e9livrant les titres de formation transmettent ces titres au service ou \u00e0 l'organisme mentionn\u00e9 \u00e0 l'article <a href='/article/LEGIARTI000006689357'>L. 4322-2</a> sous forme d'informations certifi\u00e9es.</p>",
-            "type": null,
-            "dateDebut": "2009-12-20T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-16 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4322-16",
+                    "articleId": "LEGIARTI000030963962",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4322-2",
+                    "articleId": "LEGIARTI000006689357",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484956800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-2-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4322-2-3",
+                    "articleId": "LEGIARTI000021504173",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1261267200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000021504177",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1261267200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4322-2-2",
+                "4322-2-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

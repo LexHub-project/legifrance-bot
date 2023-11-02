@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006833653",
-    "num": "L334-8",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006833653",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret en Conseil d'Etat fixe les modalit\u00e9s d'application du pr\u00e9sent chapitre.",
+            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat fixe les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>",
+            "num": "L334-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1145059200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -74,40 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006833653",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006833653",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176517",
+            "sectionParentId": "LEGISCTA000006176517",
+            "sectionParentTitre": "Section 2 : Parcs naturels marins",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre III : Espaces naturels &gt; Titre III : Parcs et r\u00e9serves &gt; Chapitre IV : Agence des aires marines prot\u00e9g\u00e9es et parcs naturels marins &gt; Section 2 : Parcs naturels marins",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006833653",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L334-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L334-1",
-                    "articleId": "LEGIARTI000033551625",
-                    "natureText": "CODE",
-                    "date": 1634076490873,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L640-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L640-1",
-                    "articleId": "LEGIARTI000044191851",
-                    "natureText": "CODE",
-                    "date": 1634076490873,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1633824000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -146,13 +174,60 @@
                     "dateDebutCible": "2006-04-15"
                 }
             ],
-            "num": "L334-8",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret en Conseil d'Etat fixe les modalit\u00e9s d'application du pr\u00e9sent chapitre.",
-            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat fixe les modalit\u00e9s d'application du pr\u00e9sent chapitre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-04-15T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L334-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L334-1",
+                    "articleId": "LEGIARTI000033551625",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L640-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L640-1",
+                    "articleId": "LEGIARTI000047924825",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1722470400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833653",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1145059200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L334-8",
+                "334-8"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

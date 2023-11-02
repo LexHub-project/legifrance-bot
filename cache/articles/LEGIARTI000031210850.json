@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031210850",
-    "num": "L133-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031210850",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les transmissions des documents arr\u00eat\u00e9s ou approuv\u00e9s pr\u00e9vues aux titres IV \u00e0 VI peuvent \u00eatre effectu\u00e9es par \u00e9change \u00e9lectronique selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p><br/>Les transmissions des documents arr\u00eat\u00e9s ou approuv\u00e9s pr\u00e9vues aux titres IV \u00e0 VI peuvent \u00eatre effectu\u00e9es par \u00e9change \u00e9lectronique selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat.</p>",
+            "num": "L133-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1451606400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -65,36 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031210850",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031210850",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031210840",
+            "sectionParentId": "LEGISCTA000031212131",
+            "sectionParentTitre": "Section 1 : Portail national de l'urbanisme",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : R\u00e9glementation de l'urbanisme &gt; Titre III : Dispositions communes aux documents d'urbanisme &gt; Chapitre III : Acc\u00e8s \u00e0 l'information en mati\u00e8re d'urbanisme &gt; Section 1 : Portail national de l'urbanisme",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031210850",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. R133-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R133-3",
-                    "articleId": "LEGIARTI000031720763",
-                    "natureText": "CODE",
-                    "date": 1599125700777,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L129-3, premi\u00e8re partie (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L129-3",
-                    "articleId": "LEGIARTI000028350265",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031204500",
@@ -121,13 +153,57 @@
                     "dateDebutCible": "2016-01-01"
                 }
             ],
-            "num": "L133-5",
-            "origine": "LEGI",
-            "texte": "Les transmissions des documents arr\u00eat\u00e9s ou approuv\u00e9s pr\u00e9vues aux titres IV \u00e0 VI peuvent \u00eatre effectu\u00e9es par \u00e9change \u00e9lectronique selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat.",
-            "texteHtml": "<p><br/>Les transmissions des documents arr\u00eat\u00e9s ou approuv\u00e9s pr\u00e9vues aux titres IV \u00e0 VI peuvent \u00eatre effectu\u00e9es par \u00e9change \u00e9lectronique selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. R133-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R133-3",
+                    "articleId": "LEGIARTI000031720763",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L129-3, premi\u00e8re partie (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L129-3",
+                    "articleId": "LEGIARTI000028350265",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031210850",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L133-5",
+                "133-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

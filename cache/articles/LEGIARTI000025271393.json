@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000025271393",
-    "num": "R4622-17",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045676774",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le comit\u00e9 social et \u00e9conomique est consult\u00e9 sur le choix du    service de pr\u00e9vention et de sant\u00e9 au travail interentreprises.",
+            "texteHtml": "<p>Le comit\u00e9 social et \u00e9conomique est consult\u00e9 sur le choix du    service de pr\u00e9vention et de sant\u00e9 au travail interentreprises.</p>",
+            "num": "R4622-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1651104000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 402653182,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -79,11 +103,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 3 : Services de sant\u00e9 au travail interentreprises.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492815",
                         "id": "LEGISCTA000025280083",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Services de pr\u00e9vention et de sant\u00e9 au travail interentreprises.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492815",
+                        "id": "LEGISCTA000046340953",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -146,11 +179,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045676774",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "cid": "LEGIARTI000025271393",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492819",
+            "sectionParentId": "LEGISCTA000025280079",
+            "sectionParentTitre": "Paragraphe 1 : Mise en place et administration.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail  &gt; Chapitre II : Missions et organisation &gt; Section 3 : Services de pr\u00e9vention et de sant\u00e9 au travail interentreprises. &gt; Sous-section 1 : Organisation du    service de pr\u00e9vention et de sant\u00e9 au travail. &gt; Paragraphe 1 : Mise en place et administration.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000045676774",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000045668051",
@@ -165,15 +240,69 @@
                     "dateDebutCible": "2022-04-28"
                 }
             ],
-            "num": "R4622-17",
-            "origine": "LEGI",
-            "texte": "Le comit\u00e9 social et \u00e9conomique est consult\u00e9 sur le choix du    service de pr\u00e9vention et de sant\u00e9 au travail interentreprises.",
-            "texteHtml": "<p>Le comit\u00e9 social et \u00e9conomique est consult\u00e9 sur le choix du    service de pr\u00e9vention et de sant\u00e9 au travail interentreprises.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-04-28T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025271696",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483072",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 1651104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045676774",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1651104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4622-17",
+                "4622-17"
+            ],
+            "versionPrecedente": "LEGIARTI000036483072",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000036483072",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le   comit\u00e9 social et \u00e9conomique est consult\u00e9 sur le choix du service de sant\u00e9 au travail interentreprises.",
+            "texteHtml": "<p>Le   comit\u00e9 social et \u00e9conomique est consult\u00e9 sur le choix du service de sant\u00e9 au travail interentreprises.</p>",
+            "num": "R4622-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1514764800000,
+            "dateFin": 1651104000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 402653182,
             "context": {
                 "titresTM": [
                     {
@@ -214,11 +343,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -250,11 +388,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 3 : Services de sant\u00e9 au travail interentreprises.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492815",
                         "id": "LEGISCTA000025280083",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Services de pr\u00e9vention et de sant\u00e9 au travail interentreprises.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492815",
+                        "id": "LEGISCTA000046340953",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -317,11 +464,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000036483072",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "cid": "LEGIARTI000025271393",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492819",
+            "sectionParentId": "LEGISCTA000025280079",
+            "sectionParentTitre": "Paragraphe 1 : Mise en place et administration.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail  &gt; Chapitre II : Missions et organisation &gt; Section 3 : Services de pr\u00e9vention et de sant\u00e9 au travail interentreprises. &gt; Sous-section 1 : Organisation du    service de pr\u00e9vention et de sant\u00e9 au travail. &gt; Paragraphe 1 : Mise en place et administration.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000036483072",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000036336033",
@@ -336,15 +525,69 @@
                     "dateDebutCible": "2017-12-31"
                 }
             ],
-            "num": "R4622-17",
-            "origine": "LEGI",
-            "texte": "Le   comit\u00e9 social et \u00e9conomique est consult\u00e9 sur le choix du service de sant\u00e9 au travail interentreprises.",
-            "texteHtml": "<p>Le   comit\u00e9 social et \u00e9conomique est consult\u00e9 sur le choix du service de sant\u00e9 au travail interentreprises.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-01-01T00:00:00.000Z",
-            "dateFin": "2022-04-28T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025271696",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483072",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 1651104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045676774",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1651104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4622-17",
+                "4622-17"
+            ],
+            "versionPrecedente": "LEGIARTI000025271696",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025271696",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le comit\u00e9 d'entreprise est consult\u00e9 sur le choix du service de sant\u00e9 au travail interentreprises.",
+            "texteHtml": "<p>Le comit\u00e9 d'entreprise est consult\u00e9 sur le choix du service de sant\u00e9 au travail interentreprises. </p>",
+            "num": "R4622-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1341100800000,
+            "dateFin": 1514764800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 402653182,
             "context": {
                 "titresTM": [
                     {
@@ -385,11 +628,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -421,11 +673,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 3 : Services de sant\u00e9 au travail interentreprises.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492815",
                         "id": "LEGISCTA000025280083",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Services de pr\u00e9vention et de sant\u00e9 au travail interentreprises.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492815",
+                        "id": "LEGISCTA000046340953",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -488,21 +749,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025271696",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000025271393",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492819",
+            "sectionParentId": "LEGISCTA000025280079",
+            "sectionParentTitre": "Paragraphe 1 : Mise en place et administration.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre II : Missions et organisation &gt; Section 3 : Services de sant\u00e9 au travail interentreprises. &gt; Sous-section 1 : Organisation du service de sant\u00e9 au travail. &gt; Paragraphe 1 : Mise en place et administration.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000025271696",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4622-17 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4622-17",
-                    "articleId": "LEGIARTI000022356342",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025241584",
@@ -517,13 +810,61 @@
                     "dateDebutCible": "2012-07-01"
                 }
             ],
-            "num": "R4622-17",
-            "origine": "LEGI",
-            "texte": "Le comit\u00e9 d'entreprise est consult\u00e9 sur le choix du service de sant\u00e9 au travail interentreprises.",
-            "texteHtml": "<p>Le comit\u00e9 d'entreprise est consult\u00e9 sur le choix du service de sant\u00e9 au travail interentreprises. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-01T00:00:00.000Z",
-            "dateFin": "2018-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4622-17 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4622-17",
+                    "articleId": "LEGIARTI000022356342",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025271696",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483072",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 1651104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045676774",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1651104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4622-17",
+                "4622-17"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006916904",
-    "num": "R6123-89",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045682497",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les traitements m\u00e9dicamenteux syst\u00e9miques du cancer regroupent la chimioth\u00e9rapie, les th\u00e9rapies cibl\u00e9es, l'immunoth\u00e9rapie et les m\u00e9dicaments de th\u00e9rapie innovante quelles que soient les voies d'administration.",
+            "texteHtml": "<p>Les traitements m\u00e9dicamenteux syst\u00e9miques du cancer regroupent la chimioth\u00e9rapie, les th\u00e9rapies cibl\u00e9es, l'immunoth\u00e9rapie et les m\u00e9dicaments de th\u00e9rapie innovante quelles que soient les voies d'administration.</p>",
+            "num": "R6123-89",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190815",
                         "id": "LEGISCTA000006190815",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190815",
                         "id": "LEGISCTA000045682516",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2007-03-22",
@@ -92,78 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000045682497",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916904",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196693",
+            "sectionParentId": "LEGISCTA000006196693",
+            "sectionParentTitre": "Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 7 : Activit\u00e9 de soins de traitement du cancer &gt; Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000045682497",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000275848",
-                    "textTitle": "D\u00e9cret n\u00b02007-388 du 21 mars 2007 - art. 3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "LEGIARTI000006726903",
-                    "natureText": "DECRET",
-                    "date": 1651092808435,
-                    "parentCid": null,
-                    "numTexte": "2007-388",
-                    "datePubli": 1174521600000,
-                    "dateDebut": 1174521600000
-                },
-                {
-                    "textCid": "JORFTEXT000043575801",
-                    "textTitle": "Arr\u00eat\u00e9 du 1er juin 2021 - art. 10 ter (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "10 ter",
-                    "articleId": "LEGIARTI000044352991",
-                    "natureText": "ARRETE",
-                    "date": 1651092808435,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1622592000000,
-                    "dateDebut": 1637712000000
-                },
-                {
-                    "textCid": "JORFTEXT000044352504",
-                    "textTitle": "Arr\u00eat\u00e9 du 22 novembre 2021 - art. 1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000044352976",
-                    "natureText": "ARRETE",
-                    "date": 1651092808435,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1637625600000,
-                    "dateDebut": 1637712000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L6122-5",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L6122-5",
-                    "articleId": "LEGIARTI000006690818",
-                    "natureText": "CODE",
-                    "date": 1651092808435,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1545523200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000716696",
-                    "textTitle": "D\u00e9cret 90-845 1990-09-24 art. 11",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000716696",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "Conform\u00e9ment au I de l'article 2 du d\u00e9cret n\u00b0 2022-689 du 26 avril 2022, ces dispositions entrent en vigueur le 1er juin 2023. Se reporter aux modalit\u00e9s d'application pr\u00e9vues aux II \u00e0 IV dudit article 2.",
+            "notaHtml": "<p>Conform\u00e9ment au I de l'article 2 du d\u00e9cret n\u00b0 2022-689 du 26 avril 2022, ces dispositions entrent en vigueur le 1er juin 2023.</p><p>Se reporter aux modalit\u00e9s d'application pr\u00e9vues aux II \u00e0 IV dudit article 2.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -190,15 +180,123 @@
                     "dateDebutCible": "2022-04-28"
                 }
             ],
-            "num": "R6123-89",
-            "origine": "LEGI",
-            "texte": "Les traitements m\u00e9dicamenteux syst\u00e9miques du cancer regroupent la chimioth\u00e9rapie, les th\u00e9rapies cibl\u00e9es, l'immunoth\u00e9rapie et les m\u00e9dicaments de th\u00e9rapie innovante quelles que soient les voies d'administration.",
-            "texteHtml": "<p>Les traitements m\u00e9dicamenteux syst\u00e9miques du cancer regroupent la chimioth\u00e9rapie, les th\u00e9rapies cibl\u00e9es, l'immunoth\u00e9rapie et les m\u00e9dicaments de th\u00e9rapie innovante quelles que soient les voies d'administration.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000275848",
+                    "textTitle": "D\u00e9cret n\u00b02007-388 du 21 mars 2007 - art. 3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006726903",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2007-388",
+                    "datePubli": 1174521600000,
+                    "dateDebut": 1174521600000
+                },
+                {
+                    "textCid": "JORFTEXT000043575801",
+                    "textTitle": "Arr\u00eat\u00e9 du 1er juin 2021 - art. 10 ter (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "10 ter",
+                    "articleId": "LEGIARTI000044352991",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1622592000000,
+                    "dateDebut": 1637712000000
+                },
+                {
+                    "textCid": "JORFTEXT000044352504",
+                    "textTitle": "Arr\u00eat\u00e9 du 22 novembre 2021 - art. 1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000044352976",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1637625600000,
+                    "dateDebut": 1637712000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L6122-5",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L6122-5",
+                    "articleId": "LEGIARTI000006690818",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1545523200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000716696",
+                    "textTitle": "D\u00e9cret 90-845 1990-09-24 art. 11",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000716696",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916904",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174521600000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045682497",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-89",
+                "6123-89"
+            ],
+            "versionPrecedente": "LEGIARTI000006916904",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006916904",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'autorisation ne peut \u00eatre d\u00e9livr\u00e9e ou renouvel\u00e9e que si le demandeur respecte les seuils d'activit\u00e9 minimale annuelle arr\u00eat\u00e9s par le ministre charg\u00e9 de la sant\u00e9 en tenant compte des connaissances disponibles en mati\u00e8re de s\u00e9curit\u00e9 et de qualit\u00e9 des pratiques m\u00e9dicales. Ces seuils concernent certaines th\u00e9rapeutiques ou certaines interventions chirurgicales, \u00e9ventuellement par appareil anatomique ou par pathologie, d\u00e9termin\u00e9es en raison de leur fr\u00e9quence, ou de la complexit\u00e9 de leur r\u00e9alisation ou de la prise en charge ult\u00e9rieure. Ils prennent en compte le nombre d'interventions effectu\u00e9es ou le nombre de patients trait\u00e9s sur les trois ann\u00e9es \u00e9coul\u00e9es. La d\u00e9cision d'autorisation pr\u00e9cise les th\u00e9rapeutiques ou les interventions que pratique le titulaire de l'autorisation par r\u00e9f\u00e9rence \u00e0 ces seuils d'activit\u00e9. Toutefois, \u00e0 titre d\u00e9rogatoire, la premi\u00e8re autorisation peut \u00eatre accord\u00e9e \u00e0 un demandeur dont l'activit\u00e9 pr\u00e9visionnelle annuelle est, au commencement de la mise en oeuvre de cette autorisation, au moins \u00e9gale \u00e0 80 % du seuil d'activit\u00e9 minimale pr\u00e9vu \u00e0 l'alin\u00e9a pr\u00e9c\u00e9dent sous la condition que l'activit\u00e9 r\u00e9alis\u00e9e atteigne le niveau de ce seuil au plus tard dix-huit mois apr\u00e8s la visite de conformit\u00e9. Ce d\u00e9lai est port\u00e9 \u00e0 trente-six mois lorsque l'autorisation concerne l'exercice de l'activit\u00e9 de soins par la modalit\u00e9 de radioth\u00e9rapie externe. L'activit\u00e9 minimale annuelle que le titulaire de l'autorisation doit r\u00e9aliser en application des dispositions pr\u00e9c\u00e9dentes est mentionn\u00e9e dans la d\u00e9cision d'autorisation comme engagement relatif au volume d'activit\u00e9 pris par le demandeur en application de l'article L. 6122-5. Lorsque l'autorisation est accord\u00e9e pour l'exercice de l'activit\u00e9 de soins sur plusieurs structures de soins d\u00e9pendant d'un m\u00eame titulaire, les seuils et la r\u00e9alisation d'activit\u00e9 minimale annuelle mentionn\u00e9s aux trois alin\u00e9as pr\u00e9c\u00e9dents sont applicables \u00e0 chacune de ces structures.",
+            "texteHtml": "<p></p>   L'autorisation ne peut \u00eatre d\u00e9livr\u00e9e ou renouvel\u00e9e que si le demandeur respecte les seuils d'activit\u00e9 minimale annuelle arr\u00eat\u00e9s par le ministre charg\u00e9 de la sant\u00e9 en tenant compte des connaissances disponibles en mati\u00e8re de s\u00e9curit\u00e9 et de qualit\u00e9 des pratiques m\u00e9dicales. Ces seuils concernent certaines th\u00e9rapeutiques ou certaines interventions chirurgicales, \u00e9ventuellement par appareil anatomique ou par pathologie, d\u00e9termin\u00e9es en raison de leur fr\u00e9quence, ou de la complexit\u00e9 de leur r\u00e9alisation ou de la prise en charge ult\u00e9rieure. Ils prennent en compte le nombre d'interventions effectu\u00e9es ou le nombre de patients trait\u00e9s sur les trois ann\u00e9es \u00e9coul\u00e9es. La d\u00e9cision d'autorisation pr\u00e9cise les th\u00e9rapeutiques ou les interventions que pratique le titulaire de l'autorisation par r\u00e9f\u00e9rence \u00e0 ces seuils d'activit\u00e9.<p></p><p></p>   Toutefois, \u00e0 titre d\u00e9rogatoire, la premi\u00e8re autorisation peut \u00eatre accord\u00e9e \u00e0 un demandeur dont l'activit\u00e9 pr\u00e9visionnelle annuelle est, au commencement de la mise en oeuvre de cette autorisation, au moins \u00e9gale \u00e0 80 % du seuil d'activit\u00e9 minimale pr\u00e9vu \u00e0 l'alin\u00e9a pr\u00e9c\u00e9dent sous la condition que l'activit\u00e9 r\u00e9alis\u00e9e atteigne le niveau de ce seuil au plus tard dix-huit mois apr\u00e8s la visite de conformit\u00e9. Ce d\u00e9lai est port\u00e9 \u00e0 trente-six mois lorsque l'autorisation concerne l'exercice de l'activit\u00e9 de soins par la modalit\u00e9 de radioth\u00e9rapie externe.<p></p><p></p>   L'activit\u00e9 minimale annuelle que le titulaire de l'autorisation doit r\u00e9aliser en application des dispositions pr\u00e9c\u00e9dentes est mentionn\u00e9e dans la d\u00e9cision d'autorisation comme engagement relatif au volume d'activit\u00e9 pris par le demandeur en application de l'article L. 6122-5.<p></p><p></p>   Lorsque l'autorisation est accord\u00e9e pour l'exercice de l'activit\u00e9 de soins sur plusieurs structures de soins d\u00e9pendant d'un m\u00eame titulaire, les seuils et la r\u00e9alisation d'activit\u00e9 minimale annuelle mentionn\u00e9s aux trois alin\u00e9as pr\u00e9c\u00e9dents sont applicables \u00e0 chacune de ces structures.<p></p>",
+            "num": "R6123-89",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174521600000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -253,7 +351,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190815",
                         "id": "LEGISCTA000006190815",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -262,7 +360,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190815",
                         "id": "LEGISCTA000045682516",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2007-03-22",
@@ -288,78 +386,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000006916904",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916904",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196693",
+            "sectionParentId": "LEGISCTA000006196693",
+            "sectionParentTitre": "Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 7 : Activit\u00e9 de soins de traitement du cancer &gt; Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006916904",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000275848",
-                    "textTitle": "D\u00e9cret n\u00b02007-388 du 21 mars 2007 - art. 3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "LEGIARTI000006726903",
-                    "natureText": "DECRET",
-                    "date": 1651092810534,
-                    "parentCid": null,
-                    "numTexte": "2007-388",
-                    "datePubli": 1174521600000,
-                    "dateDebut": 1174521600000
-                },
-                {
-                    "textCid": "JORFTEXT000043575801",
-                    "textTitle": "Arr\u00eat\u00e9 du 1er juin 2021 - art. 10 ter (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "10 ter",
-                    "articleId": "LEGIARTI000044352991",
-                    "natureText": "ARRETE",
-                    "date": 1651092810534,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1622592000000,
-                    "dateDebut": 1637712000000
-                },
-                {
-                    "textCid": "JORFTEXT000044352504",
-                    "textTitle": "Arr\u00eat\u00e9 du 22 novembre 2021 - art. 1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000044352976",
-                    "natureText": "ARRETE",
-                    "date": 1651092810534,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1637625600000,
-                    "dateDebut": 1637712000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L6122-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L6122-5",
-                    "articleId": "LEGIARTI000006690818",
-                    "natureText": "CODE",
-                    "date": 1651092810535,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1545523200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000716696",
-                    "textTitle": "D\u00e9cret 90-845 1990-09-24 art. 11",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000716696",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -386,13 +459,105 @@
                     "dateDebutCible": "2007-03-22"
                 }
             ],
-            "num": "R6123-89",
-            "origine": "LEGI",
-            "texte": "L'autorisation ne peut \u00eatre d\u00e9livr\u00e9e ou renouvel\u00e9e que si le demandeur respecte les seuils d'activit\u00e9 minimale annuelle arr\u00eat\u00e9s par le ministre charg\u00e9 de la sant\u00e9 en tenant compte des connaissances disponibles en mati\u00e8re de s\u00e9curit\u00e9 et de qualit\u00e9 des pratiques m\u00e9dicales. Ces seuils concernent certaines th\u00e9rapeutiques ou certaines interventions chirurgicales, \u00e9ventuellement par appareil anatomique ou par pathologie, d\u00e9termin\u00e9es en raison de leur fr\u00e9quence, ou de la complexit\u00e9 de leur r\u00e9alisation ou de la prise en charge ult\u00e9rieure. Ils prennent en compte le nombre d'interventions effectu\u00e9es ou le nombre de patients trait\u00e9s sur les trois ann\u00e9es \u00e9coul\u00e9es. La d\u00e9cision d'autorisation pr\u00e9cise les th\u00e9rapeutiques ou les interventions que pratique le titulaire de l'autorisation par r\u00e9f\u00e9rence \u00e0 ces seuils d'activit\u00e9. Toutefois, \u00e0 titre d\u00e9rogatoire, la premi\u00e8re autorisation peut \u00eatre accord\u00e9e \u00e0 un demandeur dont l'activit\u00e9 pr\u00e9visionnelle annuelle est, au commencement de la mise en oeuvre de cette autorisation, au moins \u00e9gale \u00e0 80 % du seuil d'activit\u00e9 minimale pr\u00e9vu \u00e0 l'alin\u00e9a pr\u00e9c\u00e9dent sous la condition que l'activit\u00e9 r\u00e9alis\u00e9e atteigne le niveau de ce seuil au plus tard dix-huit mois apr\u00e8s la visite de conformit\u00e9. Ce d\u00e9lai est port\u00e9 \u00e0 trente-six mois lorsque l'autorisation concerne l'exercice de l'activit\u00e9 de soins par la modalit\u00e9 de radioth\u00e9rapie externe. L'activit\u00e9 minimale annuelle que le titulaire de l'autorisation doit r\u00e9aliser en application des dispositions pr\u00e9c\u00e9dentes est mentionn\u00e9e dans la d\u00e9cision d'autorisation comme engagement relatif au volume d'activit\u00e9 pris par le demandeur en application de l'article L. 6122-5. Lorsque l'autorisation est accord\u00e9e pour l'exercice de l'activit\u00e9 de soins sur plusieurs structures de soins d\u00e9pendant d'un m\u00eame titulaire, les seuils et la r\u00e9alisation d'activit\u00e9 minimale annuelle mentionn\u00e9s aux trois alin\u00e9as pr\u00e9c\u00e9dents sont applicables \u00e0 chacune de ces structures.",
-            "texteHtml": "<p></p>   L'autorisation ne peut \u00eatre d\u00e9livr\u00e9e ou renouvel\u00e9e que si le demandeur respecte les seuils d'activit\u00e9 minimale annuelle arr\u00eat\u00e9s par le ministre charg\u00e9 de la sant\u00e9 en tenant compte des connaissances disponibles en mati\u00e8re de s\u00e9curit\u00e9 et de qualit\u00e9 des pratiques m\u00e9dicales. Ces seuils concernent certaines th\u00e9rapeutiques ou certaines interventions chirurgicales, \u00e9ventuellement par appareil anatomique ou par pathologie, d\u00e9termin\u00e9es en raison de leur fr\u00e9quence, ou de la complexit\u00e9 de leur r\u00e9alisation ou de la prise en charge ult\u00e9rieure. Ils prennent en compte le nombre d'interventions effectu\u00e9es ou le nombre de patients trait\u00e9s sur les trois ann\u00e9es \u00e9coul\u00e9es. La d\u00e9cision d'autorisation pr\u00e9cise les th\u00e9rapeutiques ou les interventions que pratique le titulaire de l'autorisation par r\u00e9f\u00e9rence \u00e0 ces seuils d'activit\u00e9.<p></p><p></p>   Toutefois, \u00e0 titre d\u00e9rogatoire, la premi\u00e8re autorisation peut \u00eatre accord\u00e9e \u00e0 un demandeur dont l'activit\u00e9 pr\u00e9visionnelle annuelle est, au commencement de la mise en oeuvre de cette autorisation, au moins \u00e9gale \u00e0 80 % du seuil d'activit\u00e9 minimale pr\u00e9vu \u00e0 l'alin\u00e9a pr\u00e9c\u00e9dent sous la condition que l'activit\u00e9 r\u00e9alis\u00e9e atteigne le niveau de ce seuil au plus tard dix-huit mois apr\u00e8s la visite de conformit\u00e9. Ce d\u00e9lai est port\u00e9 \u00e0 trente-six mois lorsque l'autorisation concerne l'exercice de l'activit\u00e9 de soins par la modalit\u00e9 de radioth\u00e9rapie externe.<p></p><p></p>   L'activit\u00e9 minimale annuelle que le titulaire de l'autorisation doit r\u00e9aliser en application des dispositions pr\u00e9c\u00e9dentes est mentionn\u00e9e dans la d\u00e9cision d'autorisation comme engagement relatif au volume d'activit\u00e9 pris par le demandeur en application de l'article L. 6122-5.<p></p><p></p>   Lorsque l'autorisation est accord\u00e9e pour l'exercice de l'activit\u00e9 de soins sur plusieurs structures de soins d\u00e9pendant d'un m\u00eame titulaire, les seuils et la r\u00e9alisation d'activit\u00e9 minimale annuelle mentionn\u00e9s aux trois alin\u00e9as pr\u00e9c\u00e9dents sont applicables \u00e0 chacune de ces structures.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-22T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000275848",
+                    "textTitle": "D\u00e9cret n\u00b02007-388 du 21 mars 2007 - art. 3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006726903",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2007-388",
+                    "datePubli": 1174521600000,
+                    "dateDebut": 1174521600000
+                },
+                {
+                    "textCid": "JORFTEXT000043575801",
+                    "textTitle": "Arr\u00eat\u00e9 du 1er juin 2021 - art. 10 ter (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "10 ter",
+                    "articleId": "LEGIARTI000044352991",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1622592000000,
+                    "dateDebut": 1637712000000
+                },
+                {
+                    "textCid": "JORFTEXT000044352504",
+                    "textTitle": "Arr\u00eat\u00e9 du 22 novembre 2021 - art. 1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000044352976",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1637625600000,
+                    "dateDebut": 1637712000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L6122-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L6122-5",
+                    "articleId": "LEGIARTI000006690818",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1545523200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000716696",
+                    "textTitle": "D\u00e9cret 90-845 1990-09-24 art. 11",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000716696",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916904",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174521600000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045682497",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-89",
+                "6123-89"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

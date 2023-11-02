@@ -1,150 +1,23 @@
 {
-    "cid": "LEGIARTI000006690420",
-    "num": "L5422-3",
+    "executionTime": 0,
     "listArticle": [
         {
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "2000-06-22",
-                        "fin": "2999-01-01",
-                        "titre": "Partie l\u00e9gislative",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006103419",
-                        "id": "LEGISCTA000006103419",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2000-06-22",
-                        "fin": "2999-01-01",
-                        "titre": "Cinqui\u00e8me partie : Produits de sant\u00e9",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006125349",
-                        "id": "LEGISCTA000006125349",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2000-06-22",
-                        "fin": "2012-07-21",
-                        "titre": "Livre IV : Dispositions p\u00e9nales",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006140634",
-                        "id": "LEGISCTA000006140634",
-                        "etat": "MODIFIE"
-                    },
-                    {
-                        "debut": "2012-07-21",
-                        "fin": "2999-01-01",
-                        "titre": "Livre IV : Sanctions p\u00e9nales et financi\u00e8res",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006140634",
-                        "id": "LEGISCTA000025139359",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2000-06-22",
-                        "fin": "2999-01-01",
-                        "titre": "Titre II : M\u00e9dicaments \u00e0 usage humain",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006155096",
-                        "id": "LEGISCTA000006155096",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2000-06-22",
-                        "fin": "2999-01-01",
-                        "titre": "Chapitre II : Publicit\u00e9.",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006171413",
-                        "id": "LEGISCTA000006171413",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 1,
-                "longeurChemin": 47,
-                "titreTxt": [
-                    {
-                        "debut": "1953-10-07",
-                        "fin": "2999-01-01",
-                        "titre": "Code de la sant\u00e9 publique",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006072665",
-                        "id": "LEGITEXT000006072665",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "etat": "VIGUEUR",
             "id": "LEGIARTI000044628295",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L556 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L556",
-                    "articleId": "LEGIARTI000006693539",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique L556 alin\u00e9a 1, L551-6 alin\u00e9a 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006072665",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000000217229",
-                    "textTitle": "Rapport relatif \u00e0 l'ordonnance n\u00b0 2000-548 du 15 juin 2000",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000217229",
-                    "natureText": "RAPPORT",
-                    "datePubliTexte": "2000-06-22",
-                    "dateSignaTexte": "2999-01-01",
-                    "dateDebutCible": "2999-01-01"
-                },
-                {
-                    "textCid": "JORFTEXT000000227015",
-                    "textTitle": "Loi n\u00b02002-303 du 4 mars 2002",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000227015",
-                    "natureText": "LOI",
-                    "datePubliTexte": "2002-03-05",
-                    "dateSignaTexte": "2002-03-04",
-                    "dateDebutCible": "2999-01-01"
-                },
-                {
-                    "textCid": "JORFTEXT000044553428",
-                    "textTitle": "LOI n\u00b02021-1754 du 23 d\u00e9cembre 2021 - art. 58",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "58",
-                    "articleId": "LEGIARTI000044564781",
-                    "natureText": "LOI",
-                    "datePubliTexte": "2021-12-24",
-                    "dateSignaTexte": "2021-12-23",
-                    "dateDebutCible": "2021-12-25"
-                }
-            ],
-            "num": "L5422-3",
-            "origine": "LEGI",
+            "idTexte": null,
+            "type": "AUTONOME",
             "texte": "Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament mentionn\u00e9 au 1\u00b0 du II de l'article L. 5121-12 b\u00e9n\u00e9ficiant d'une autorisation d'acc\u00e8s pr\u00e9coce au titre du m\u00eame article L. 5121-12 ou pour un m\u00e9dicament b\u00e9n\u00e9ficiant d'une autorisation ou d'un cadre de prescription compassionnelle mentionn\u00e9s \u00e0 l'article L. 5121-12-1, pour la ou les indications autoris\u00e9es ou encadr\u00e9es, est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.",
             "texteHtml": "<p>Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament mentionn\u00e9 au 1\u00b0 du II de l'article L. 5121-12 b\u00e9n\u00e9ficiant d'une autorisation d'acc\u00e8s pr\u00e9coce au titre du m\u00eame article L. 5121-12 ou pour un m\u00e9dicament b\u00e9n\u00e9ficiant d'une autorisation ou d'un cadre de prescription compassionnelle mentionn\u00e9s \u00e0 l'article L. 5121-12-1, pour la ou les indications autoris\u00e9es ou encadr\u00e9es, est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-12-25T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
-        },
-        {
+            "num": "L5422-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "5.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1640390400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -216,30 +89,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000042685798",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006690420",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171413",
+            "sectionParentId": "LEGISCTA000006171413",
+            "sectionParentTitre": "Chapitre II : Publicit\u00e9.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Sanctions p\u00e9nales et financi\u00e8res &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre II : Publicit\u00e9.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000044628295",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L556 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L556",
-                    "articleId": "LEGIARTI000006693539",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique L556 alin\u00e9a 1, L551-6 alin\u00e9a 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006072665",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -271,22 +167,125 @@
                     "linkType": "MODIFIE",
                     "linkOrientation": "cible",
                     "articleNum": "78",
-                    "articleId": "LEGIARTI000042667306",
+                    "articleId": "LEGIARTI000046812527",
                     "natureText": "LOI",
                     "datePubliTexte": "2020-12-15",
                     "dateSignaTexte": "2020-12-14",
-                    "dateDebutCible": "2020-12-16"
+                    "dateDebutCible": "2022-12-25"
+                },
+                {
+                    "textCid": "JORFTEXT000044553428",
+                    "textTitle": "LOI n\u00b02021-1754 du 23 d\u00e9cembre 2021 - art. 58",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "58",
+                    "articleId": "LEGIARTI000044564781",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2021-12-24",
+                    "dateSignaTexte": "2021-12-23",
+                    "dateDebutCible": "2021-12-25"
                 }
             ],
-            "num": "L5422-3",
-            "origine": "LEGI",
-            "texte": "Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament b\u00e9n\u00e9ficiant d'une autorisation ou d'un cadre de prescription compassionnelle mentionn\u00e9s aux articles L. 5121-12 et L. 5121-12-1 est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.",
-            "texteHtml": "<p>Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament b\u00e9n\u00e9ficiant d'une autorisation ou d'un cadre de prescription compassionnelle mentionn\u00e9s aux articles L. 5121-12 et L. 5121-12-1 est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-07-01T00:00:00.000Z",
-            "dateFin": "2021-12-25T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L556 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L556",
+                    "articleId": "LEGIARTI000006693539",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique L556 alin\u00e9a 1, L551-6 alin\u00e9a 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072665",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006690420",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006690421",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1009843200000,
+                    "dateFin": 1325289600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028352041",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 1625097600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042685798",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1625097600000,
+                    "dateFin": 1640390400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044628295",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1640390400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5422-3",
+                "5422-3"
+            ],
+            "versionPrecedente": "LEGIARTI000042685798",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000042685798",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament b\u00e9n\u00e9ficiant d'une autorisation ou d'un cadre de prescription compassionnelle mentionn\u00e9s aux articles L. 5121-12 et L. 5121-12-1 est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.",
+            "texteHtml": "<p>Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament b\u00e9n\u00e9ficiant d'une autorisation ou d'un cadre de prescription compassionnelle mentionn\u00e9s aux articles L. 5121-12 et L. 5121-12-1 est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.</p><p></p>",
+            "num": "L5422-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1625097600000,
+            "dateFin": 1640390400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -358,9 +357,91 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000028352041",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006690420",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171413",
+            "sectionParentId": "LEGISCTA000006171413",
+            "sectionParentTitre": "Chapitre II : Publicit\u00e9.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Sanctions p\u00e9nales et financi\u00e8res &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre II : Publicit\u00e9.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000042685798",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "Conform\u00e9ment au A du IV de l'article 78 de la loi n\u00b0 2020-1576 du 14 d\u00e9cembre 2020, ces dispositions entrent en vigueur \u00e0 une date fix\u00e9e par d\u00e9cret, et au plus tard le 1er juillet 2021.",
+            "notaHtml": "<p>Conform\u00e9ment au A du IV de l'article 78 de la loi n\u00b0 2020-1576 du 14 d\u00e9cembre 2020, ces dispositions entrent en vigueur \u00e0 une date fix\u00e9e par d\u00e9cret, et au plus tard le 1er juillet 2021.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000217229",
+                    "textTitle": "Rapport relatif \u00e0 l'ordonnance n\u00b0 2000-548 du 15 juin 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000217229",
+                    "natureText": "RAPPORT",
+                    "datePubliTexte": "2000-06-22",
+                    "dateSignaTexte": "2999-01-01",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000227015",
+                    "textTitle": "Loi n\u00b02002-303 du 4 mars 2002",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000227015",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2002-03-05",
+                    "dateSignaTexte": "2002-03-04",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000042665307",
+                    "textTitle": "LOI n\u00b02020-1576 du 14 d\u00e9cembre 2020 - art. 78 (M)",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "78",
+                    "articleId": "LEGIARTI000042667306",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2020-12-15",
+                    "dateSignaTexte": "2020-12-14",
+                    "dateDebutCible": "2020-12-16"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -382,6 +463,203 @@
                     "natureText": "CODE"
                 }
             ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006690420",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006690421",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1009843200000,
+                    "dateFin": 1325289600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028352041",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 1625097600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042685798",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1625097600000,
+                    "dateFin": 1640390400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044628295",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1640390400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5422-3",
+                "5422-3"
+            ],
+            "versionPrecedente": "LEGIARTI000028352041",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000028352041",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament b\u00e9n\u00e9ficiant de l'autorisation mentionn\u00e9e \u00e0 l'article L. 5121-12 est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.",
+            "texteHtml": "<p>Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament b\u00e9n\u00e9ficiant de l'autorisation mentionn\u00e9e \u00e0 l'article L. 5121-12 est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.</p><p></p>",
+            "num": "L5422-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1391212800000,
+            "dateFin": 1625097600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-06-22",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006103419",
+                        "id": "LEGISCTA000006103419",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-06-22",
+                        "fin": "2999-01-01",
+                        "titre": "Cinqui\u00e8me partie : Produits de sant\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006125349",
+                        "id": "LEGISCTA000006125349",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-06-22",
+                        "fin": "2012-07-21",
+                        "titre": "Livre IV : Dispositions p\u00e9nales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140634",
+                        "id": "LEGISCTA000006140634",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2012-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre IV : Sanctions p\u00e9nales et financi\u00e8res",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140634",
+                        "id": "LEGISCTA000025139359",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-06-22",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : M\u00e9dicaments \u00e0 usage humain",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006155096",
+                        "id": "LEGISCTA000006155096",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-06-22",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Publicit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006171413",
+                        "id": "LEGISCTA000006171413",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "1953-10-07",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la sant\u00e9 publique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006072665",
+                        "id": "LEGITEXT000006072665",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006690420",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171413",
+            "sectionParentId": "LEGISCTA000006171413",
+            "sectionParentTitre": "Chapitre II : Publicit\u00e9.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Sanctions p\u00e9nales et financi\u00e8res &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre II : Publicit\u00e9.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000028352041",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -420,15 +698,106 @@
                     "dateDebutCible": "2014-02-01"
                 }
             ],
-            "num": "L5422-3",
-            "origine": "LEGI",
-            "texte": "Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament b\u00e9n\u00e9ficiant de l'autorisation mentionn\u00e9e \u00e0 l'article L. 5121-12 est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.",
-            "texteHtml": "<p>Toute publicit\u00e9 au sens de l'article L. 5122-1 effectu\u00e9e aupr\u00e8s du public ou des professionnels de sant\u00e9 pour un m\u00e9dicament b\u00e9n\u00e9ficiant de l'autorisation mentionn\u00e9e \u00e0 l'article L. 5121-12 est punie d'un an d'emprisonnement et de 150 000 \u20ac d'amende.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-02-01T00:00:00.000Z",
-            "dateFin": "2021-07-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L556 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L556",
+                    "articleId": "LEGIARTI000006693539",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique L556 alin\u00e9a 1, L551-6 alin\u00e9a 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072665",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006690420",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006690421",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1009843200000,
+                    "dateFin": 1325289600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028352041",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 1625097600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042685798",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1625097600000,
+                    "dateFin": 1640390400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044628295",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1640390400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5422-3",
+                "5422-3"
+            ],
+            "versionPrecedente": "LEGIARTI000006690421",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006690421",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Toute publicit\u00e9 telle que d\u00e9finie par l'article L. 5122-1 effectu\u00e9e aupr\u00e8s des professionnels de sant\u00e9 habilit\u00e9s \u00e0 prescrire ou \u00e0 dispenser des m\u00e9dicaments ou \u00e0 les utiliser dans l'exercice de leur art, et qui n'a pas fait l'objet du d\u00e9p\u00f4t pr\u00e9vu \u00e0 l'article L. 5122-9 est punie de 37500 euros d'amende.",
+            "texteHtml": "<p></p>   Toute publicit\u00e9 telle que d\u00e9finie par l'article L. 5122-1 effectu\u00e9e aupr\u00e8s des professionnels de sant\u00e9 habilit\u00e9s \u00e0 prescrire ou \u00e0 dispenser des m\u00e9dicaments ou \u00e0 les utiliser dans l'exercice de leur art, et qui n'a pas fait l'objet du d\u00e9p\u00f4t pr\u00e9vu \u00e0 l'article L. 5122-9 est punie de 37500 euros d'amende.<p></p><p></p>",
+            "num": "L5422-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE",
+            "dateDebut": 1009843200000,
+            "dateFin": 1325289600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -500,59 +869,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE",
-            "id": "LEGIARTI000006690421",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006690420",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171413",
+            "sectionParentId": "LEGISCTA000006171413",
+            "sectionParentTitre": "Chapitre II : Publicit\u00e9.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Dispositions p\u00e9nales &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre II : Publicit\u00e9.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006690421",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L5122-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L5122-1",
-                    "articleId": "LEGIARTI000006689929",
-                    "natureText": "CODE",
-                    "date": 1640906583569,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L5122-9 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L5122-9",
-                    "articleId": "LEGIARTI000006689944",
-                    "natureText": "CODE",
-                    "date": 1640906583569,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1495497600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L556 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L556",
-                    "articleId": "LEGIARTI000006693539",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique L556 alin\u00e9a 1, L551-6 alin\u00e9a 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006072665",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -603,15 +966,133 @@
                     "dateDebutCible": "2011-12-31"
                 }
             ],
-            "num": "L5422-3",
-            "origine": "LEGI",
-            "texte": "Toute publicit\u00e9 telle que d\u00e9finie par l'article L. 5122-1 effectu\u00e9e aupr\u00e8s des professionnels de sant\u00e9 habilit\u00e9s \u00e0 prescrire ou \u00e0 dispenser des m\u00e9dicaments ou \u00e0 les utiliser dans l'exercice de leur art, et qui n'a pas fait l'objet du d\u00e9p\u00f4t pr\u00e9vu \u00e0 l'article L. 5122-9 est punie de 37500 euros d'amende.",
-            "texteHtml": "<p></p>   Toute publicit\u00e9 telle que d\u00e9finie par l'article L. 5122-1 effectu\u00e9e aupr\u00e8s des professionnels de sant\u00e9 habilit\u00e9s \u00e0 prescrire ou \u00e0 dispenser des m\u00e9dicaments ou \u00e0 les utiliser dans l'exercice de leur art, et qui n'a pas fait l'objet du d\u00e9p\u00f4t pr\u00e9vu \u00e0 l'article L. 5122-9 est punie de 37500 euros d'amende.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2002-01-01T00:00:00.000Z",
-            "dateFin": "2011-12-31T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L5122-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L5122-1",
+                    "articleId": "LEGIARTI000006689929",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L5122-9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L5122-9",
+                    "articleId": "LEGIARTI000006689944",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1495497600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L556 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L556",
+                    "articleId": "LEGIARTI000006693539",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique L556 alin\u00e9a 1, L551-6 alin\u00e9a 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072665",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006690420",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006690421",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1009843200000,
+                    "dateFin": 1325289600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028352041",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 1625097600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042685798",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1625097600000,
+                    "dateFin": 1640390400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044628295",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1640390400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5422-3",
+                "5422-3"
+            ],
+            "versionPrecedente": "LEGIARTI000006690420",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006690420",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Toute publicit\u00e9 telle que d\u00e9finie par l'article L. 5122-1 effectu\u00e9e aupr\u00e8s des professionnels de sant\u00e9 habilit\u00e9s \u00e0 prescrire ou \u00e0 dispenser des m\u00e9dicaments ou \u00e0 les utiliser dans l'exercice de leur art, et qui n'a pas fait l'objet du d\u00e9p\u00f4t pr\u00e9vu \u00e0 l'article L. 5122-9 est punie de 250 000 F d'amende.",
+            "texteHtml": "<p></p>   Toute publicit\u00e9 telle que d\u00e9finie par l'article L. 5122-1 effectu\u00e9e aupr\u00e8s des professionnels de sant\u00e9 habilit\u00e9s \u00e0 prescrire ou \u00e0 dispenser des m\u00e9dicaments ou \u00e0 les utiliser dans l'exercice de leur art, et qui n'a pas fait l'objet du d\u00e9p\u00f4t pr\u00e9vu \u00e0 l'article L. 5122-9 est punie de 250 000 F d'amende.<p></p><p></p>",
+            "num": "L5422-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1009843200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -683,59 +1164,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006690420",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006690420",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171413",
+            "sectionParentId": "LEGISCTA000006171413",
+            "sectionParentTitre": "Chapitre II : Publicit\u00e9.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Dispositions p\u00e9nales &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre II : Publicit\u00e9.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006690420",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L5122-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L5122-1",
-                    "articleId": "LEGIARTI000006689929",
-                    "natureText": "CODE",
-                    "date": 1640906583512,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L5122-9 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L5122-9",
-                    "articleId": "LEGIARTI000006689944",
-                    "natureText": "CODE",
-                    "date": 1640906583512,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1495497600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L556 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L556",
-                    "articleId": "LEGIARTI000006693539",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique L556 alin\u00e9a 1, L551-6 alin\u00e9a 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006072665",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -762,13 +1237,115 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L5422-3",
-            "origine": "LEGI",
-            "texte": "Toute publicit\u00e9 telle que d\u00e9finie par l'article L. 5122-1 effectu\u00e9e aupr\u00e8s des professionnels de sant\u00e9 habilit\u00e9s \u00e0 prescrire ou \u00e0 dispenser des m\u00e9dicaments ou \u00e0 les utiliser dans l'exercice de leur art, et qui n'a pas fait l'objet du d\u00e9p\u00f4t pr\u00e9vu \u00e0 l'article L. 5122-9 est punie de 250 000 F d'amende.",
-            "texteHtml": "<p></p>   Toute publicit\u00e9 telle que d\u00e9finie par l'article L. 5122-1 effectu\u00e9e aupr\u00e8s des professionnels de sant\u00e9 habilit\u00e9s \u00e0 prescrire ou \u00e0 dispenser des m\u00e9dicaments ou \u00e0 les utiliser dans l'exercice de leur art, et qui n'a pas fait l'objet du d\u00e9p\u00f4t pr\u00e9vu \u00e0 l'article L. 5122-9 est punie de 250 000 F d'amende.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2002-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L5122-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L5122-1",
+                    "articleId": "LEGIARTI000006689929",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L5122-9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L5122-9",
+                    "articleId": "LEGIARTI000006689944",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1495497600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L556 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L556",
+                    "articleId": "LEGIARTI000006693539",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique L556 alin\u00e9a 1, L551-6 alin\u00e9a 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072665",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006690420",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006690421",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1009843200000,
+                    "dateFin": 1325289600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028352041",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 1625097600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042685798",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1625097600000,
+                    "dateFin": 1640390400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044628295",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1640390400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5422-3",
+                "5422-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

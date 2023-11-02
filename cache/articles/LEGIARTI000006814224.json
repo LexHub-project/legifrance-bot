@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006814224",
-    "num": "R322-109",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006814225",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les unions de soci\u00e9t\u00e9s d'assurance mutuelles ne sont valablement constitu\u00e9es que si elles groupent un nombre de soci\u00e9t\u00e9s adh\u00e9rentes au moins \u00e9gal \u00e0 quatre.",
+            "texteHtml": "<p></p>   Les unions de soci\u00e9t\u00e9s d'assurance mutuelles ne sont valablement constitu\u00e9es que si elles groupent un nombre de soci\u00e9t\u00e9s adh\u00e9rentes au moins \u00e9gal \u00e0 quatre.<p></p><p></p>",
+            "num": "R322-109",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 687484800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -65,36 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006814225",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006814224",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175642",
+            "sectionParentId": "LEGISCTA000006175642",
+            "sectionParentTitre": "Section V : Unions de soci\u00e9t\u00e9s d'assurance mutuelles.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Les entreprises &gt; Titre II : R\u00e9gime administratif &gt; Chapitre II : R\u00e8gles de constitution et de fonctionnement &gt; Section V : Unions de soci\u00e9t\u00e9s d'assurance mutuelles.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006814225",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R322-117 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R322-117",
-                    "articleId": "LEGIARTI000006814286",
-                    "natureText": "CODE",
-                    "date": 1599810571996,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 687484800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "",
-                    "textTitle": "D\u00e9cret 1938-12-30 art. 83",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000507291",
@@ -145,15 +177,84 @@
                     "dateDebutCible": "1991-10-15"
                 }
             ],
-            "num": "R322-109",
-            "origine": "LEGI",
-            "texte": "Les unions de soci\u00e9t\u00e9s d'assurance mutuelles ne sont valablement constitu\u00e9es que si elles groupent un nombre de soci\u00e9t\u00e9s adh\u00e9rentes au moins \u00e9gal \u00e0 quatre.",
-            "texteHtml": "<p></p>   Les unions de soci\u00e9t\u00e9s d'assurance mutuelles ne sont valablement constitu\u00e9es que si elles groupent un nombre de soci\u00e9t\u00e9s adh\u00e9rentes au moins \u00e9gal \u00e0 quatre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1991-10-15T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R322-117 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R322-117",
+                    "articleId": "LEGIARTI000006814286",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 687484800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 1938-12-30 art. 83",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006814224",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 687484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006814225",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 687484800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R322-109",
+                "322-109"
+            ],
+            "versionPrecedente": "LEGIARTI000006814224",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006814224",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les unions de soci\u00e9t\u00e9s mutuelles d'assurance ne sont valablement constitu\u00e9es que si elles groupent un nombre de soci\u00e9t\u00e9s adh\u00e9rentes au moins \u00e9gal \u00e0 quatre.",
+            "texteHtml": "<p></p>   Les unions de soci\u00e9t\u00e9s mutuelles d'assurance ne sont valablement constitu\u00e9es que si elles groupent un nombre de soci\u00e9t\u00e9s adh\u00e9rentes au moins \u00e9gal \u00e0 quatre.<p></p><p></p>",
+            "num": "R*322-109",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 206755200000,
+            "dateFin": 687484800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -225,17 +326,65 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006814224",
-            "lienAutres": [
+            "cid": "LEGIARTI000006814224",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188062",
+            "sectionParentId": "LEGISCTA000006188062",
+            "sectionParentTitre": "Paragraphe 2 : Unions de soci\u00e9t\u00e9s mutuelles d'assurance.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Les entreprises &gt; Titre II : R\u00e9gime administratif &gt; Chapitre II : R\u00e8gles de constitution et de fonctionnement",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006814224",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances R322-117 *sanctions civiles*",
-                    "linkType": "TXT_ASSOCIE",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000507291",
+                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
+                    "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "LEGITEXT000006073984",
-                    "natureText": "CODE"
+                    "articleId": "JORFTEXT000000507291",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
                 }
             ],
             "lienCitations": [
@@ -247,7 +396,6 @@
                     "articleNum": "R322-117",
                     "articleId": "LEGIARTI000006814286",
                     "natureText": "CODE",
-                    "date": 1599810571347,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -265,27 +413,51 @@
                     "natureText": ""
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [
                 {
-                    "textCid": "JORFTEXT000000507291",
-                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
-                    "linkType": "CODIFICATION",
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances R322-117 *sanctions civiles*",
+                    "linkType": "TXT_ASSOCIE",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "JORFTEXT000000507291",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "1976-07-21",
-                    "dateSignaTexte": "1976-07-16",
-                    "dateDebutCible": "2999-01-01"
+                    "articleId": "LEGITEXT000006073984",
+                    "natureText": "CODE"
                 }
             ],
-            "num": "R*322-109",
-            "origine": "LEGI",
-            "texte": "Les unions de soci\u00e9t\u00e9s mutuelles d'assurance ne sont valablement constitu\u00e9es que si elles groupent un nombre de soci\u00e9t\u00e9s adh\u00e9rentes au moins \u00e9gal \u00e0 quatre.",
-            "texteHtml": "<p></p>   Les unions de soci\u00e9t\u00e9s mutuelles d'assurance ne sont valablement constitu\u00e9es que si elles groupent un nombre de soci\u00e9t\u00e9s adh\u00e9rentes au moins \u00e9gal \u00e0 quatre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1976-07-21T00:00:00.000Z",
-            "dateFin": "1991-10-15T00:00:00.000Z"
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006814224",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 687484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006814225",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 687484800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*322-109",
+                "322-109",
+                "R322-109"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

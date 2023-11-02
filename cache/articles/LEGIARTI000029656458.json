@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029656458",
-    "num": "R632-6",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045456530",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les d\u00e9lib\u00e9rations du conseil d'administration sont ex\u00e9cutoires de plein droit quinze jours apr\u00e8s leur r\u00e9ception par le ministre de l'int\u00e9rieur si celui-ci n'y fait pas opposition dans ce d\u00e9lai. En cas d'urgence, le ministre de l'int\u00e9rieur peut en autoriser l'ex\u00e9cution imm\u00e9diate. Les d\u00e9lib\u00e9rations portant sur le budget et le compte financier sont ex\u00e9cutoires dans les conditions pr\u00e9vues par le titre III du d\u00e9cret n\u00b0 2012-1246 du 7 novembre 2012 relatif \u00e0 la gestion budg\u00e9taire et comptable publique. Les d\u00e9lib\u00e9rations portant sur les conditions g\u00e9n\u00e9rales d'emploi, de recrutement et de r\u00e9mun\u00e9ration du personnel sont ex\u00e9cutoires dans les m\u00eames conditions.",
+            "texteHtml": "<p>Les d\u00e9lib\u00e9rations du conseil d'administration sont ex\u00e9cutoires de plein droit quinze jours apr\u00e8s leur r\u00e9ception par le ministre de l'int\u00e9rieur si celui-ci n'y fait pas opposition dans ce d\u00e9lai. En cas d'urgence, le ministre de l'int\u00e9rieur peut en autoriser l'ex\u00e9cution imm\u00e9diate.<br/><br/>\n Les d\u00e9lib\u00e9rations portant sur le budget et le compte financier sont ex\u00e9cutoires dans les conditions pr\u00e9vues par le titre III du d\u00e9cret n\u00b0 2012-1246 du 7 novembre 2012 relatif \u00e0 la gestion budg\u00e9taire et comptable publique. Les d\u00e9lib\u00e9rations portant sur les conditions g\u00e9n\u00e9rales d'emploi, de recrutement et de r\u00e9mun\u00e9ration du personnel sont ex\u00e9cutoires dans les m\u00eames conditions.</p>",
+            "num": "R632-6",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1661990400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1342177275,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656448",
                         "id": "LEGISCTA000029658021",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2022-09-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656448",
                         "id": "LEGISCTA000045456566",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -83,36 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000045456530",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029656458",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656448",
+            "sectionParentId": "LEGISCTA000045456566",
+            "sectionParentTitre": "Sous-section 1 : Conseil d'administration",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre II : Missions et fonctionnement du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 &gt; Section 2 : Organisation administrative et fonctionnement &gt; Sous-section 1 : Conseil d'administration",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000045456530",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-4 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R632-4",
-                    "articleId": "LEGIARTI000045456542",
-                    "natureText": "CODE",
-                    "date": 1648759609591,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1661990400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000025015019",
-                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 5 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000029378019",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "Conform\u00e9ment \u00e0 l'article 8 du d\u00e9cret n\u00b0 2022-449 du 30 mars 2022, ces dispositions sont applicables \u00e0 compter du 1er septembre 2022.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 8 du d\u00e9cret n\u00b0 2022-449 du 30 mars 2022, ces dispositions sont applicables \u00e0 compter du 1er septembre 2022.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -163,15 +195,93 @@
                     "dateDebutCible": "2022-04-01"
                 }
             ],
-            "num": "R632-6",
-            "origine": "LEGI",
-            "texte": "Les d\u00e9lib\u00e9rations du conseil d'administration sont ex\u00e9cutoires de plein droit quinze jours apr\u00e8s leur r\u00e9ception par le ministre de l'int\u00e9rieur si celui-ci n'y fait pas opposition dans ce d\u00e9lai. En cas d'urgence, le ministre de l'int\u00e9rieur peut en autoriser l'ex\u00e9cution imm\u00e9diate. Les d\u00e9lib\u00e9rations portant sur le budget et le compte financier sont ex\u00e9cutoires dans les conditions pr\u00e9vues par le titre III du d\u00e9cret n\u00b0 2012-1246 du 7 novembre 2012 relatif \u00e0 la gestion budg\u00e9taire et comptable publique. Les d\u00e9lib\u00e9rations portant sur les conditions g\u00e9n\u00e9rales d'emploi, de recrutement et de r\u00e9mun\u00e9ration du personnel sont ex\u00e9cutoires dans les m\u00eames conditions.",
-            "texteHtml": "<p>Les d\u00e9lib\u00e9rations du conseil d'administration sont ex\u00e9cutoires de plein droit quinze jours apr\u00e8s leur r\u00e9ception par le ministre de l'int\u00e9rieur si celui-ci n'y fait pas opposition dans ce d\u00e9lai. En cas d'urgence, le ministre de l'int\u00e9rieur peut en autoriser l'ex\u00e9cution imm\u00e9diate.<br/><br/>\n Les d\u00e9lib\u00e9rations portant sur le budget et le compte financier sont ex\u00e9cutoires dans les conditions pr\u00e9vues par le titre III du d\u00e9cret n\u00b0 2012-1246 du 7 novembre 2012 relatif \u00e0 la gestion budg\u00e9taire et comptable publique. Les d\u00e9lib\u00e9rations portant sur les conditions g\u00e9n\u00e9rales d'emploi, de recrutement et de r\u00e9mun\u00e9ration du personnel sont ex\u00e9cutoires dans les m\u00eames conditions.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-09-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-4 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R632-4",
+                    "articleId": "LEGIARTI000045456542",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1661990400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000025015019",
+                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 5 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000029378019",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656458",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1461888000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000032467369",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1461888000000,
+                    "dateFin": 1661990400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045456530",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1661990400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R632-6",
+                "632-6"
+            ],
+            "versionPrecedente": "LEGIARTI000032467369",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000032467369",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le pr\u00e9sident du coll\u00e8ge met en \u0153uvre la politique g\u00e9n\u00e9rale et les d\u00e9lib\u00e9rations du coll\u00e8ge et repr\u00e9sente le Conseil national en justice et dans tous les actes de la vie civile. Il passe les conventions mentionn\u00e9es au 9\u00b0 de l'article R. 632-4 qui n'ont pas \u00e9t\u00e9 d\u00e9l\u00e9gu\u00e9es au directeur du Conseil national. Il peut d\u00e9l\u00e9guer au directeur certaines de ses attributions en mati\u00e8re de repr\u00e9sentation et de passation des conventions. Il peut d\u00e9l\u00e9guer sa signature au directeur du Conseil national ainsi qu'aux agents d\u00e9sign\u00e9s par celui-ci. Les actes de d\u00e9l\u00e9gation du pr\u00e9sident sont publi\u00e9s        sur le site internet du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9.",
+            "texteHtml": "<p><br/>Le pr\u00e9sident du coll\u00e8ge met en \u0153uvre la politique g\u00e9n\u00e9rale et les d\u00e9lib\u00e9rations du coll\u00e8ge et repr\u00e9sente le Conseil national en justice et dans tous les actes de la vie civile. Il passe les conventions mentionn\u00e9es au 9\u00b0 de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000029656454&dateTexte=&categorieLien=cid'>R. 632-4</a> qui n'ont pas \u00e9t\u00e9 d\u00e9l\u00e9gu\u00e9es au directeur du Conseil national. <br/>Il peut d\u00e9l\u00e9guer au directeur certaines de ses attributions en mati\u00e8re de repr\u00e9sentation et de passation des conventions. <br/>Il peut d\u00e9l\u00e9guer sa signature au directeur du Conseil national ainsi qu'aux agents d\u00e9sign\u00e9s par celui-ci. <br/>Les actes de d\u00e9l\u00e9gation du pr\u00e9sident sont publi\u00e9s        sur le site internet du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9.</p>",
+            "num": "R632-6",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1461888000000,
+            "dateFin": 1661990400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1342177275,
             "context": {
                 "titresTM": [
                     {
@@ -226,7 +336,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656448",
                         "id": "LEGISCTA000029658021",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2022-09-01",
@@ -235,7 +345,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656448",
                         "id": "LEGISCTA000045456566",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -252,36 +362,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000032467369",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029656458",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656448",
+            "sectionParentId": "LEGISCTA000045456566",
+            "sectionParentTitre": "Sous-section 1 : Conseil d'administration",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre II : Missions et fonctionnement du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 &gt; Section 2 : Organisation administrative et fonctionnement &gt; Sous-section 1 : Conseil d'administration",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000032467369",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-4",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R632-4",
-                    "articleId": "LEGIARTI000029656454",
-                    "natureText": "CODE",
-                    "date": 1648759608882,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1417392000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000025015019",
-                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 5 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000029378019",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -308,15 +435,93 @@
                     "dateDebutCible": "2016-04-29"
                 }
             ],
-            "num": "R632-6",
-            "origine": "LEGI",
-            "texte": "Le pr\u00e9sident du coll\u00e8ge met en \u0153uvre la politique g\u00e9n\u00e9rale et les d\u00e9lib\u00e9rations du coll\u00e8ge et repr\u00e9sente le Conseil national en justice et dans tous les actes de la vie civile. Il passe les conventions mentionn\u00e9es au 9\u00b0 de l'article R. 632-4 qui n'ont pas \u00e9t\u00e9 d\u00e9l\u00e9gu\u00e9es au directeur du Conseil national. Il peut d\u00e9l\u00e9guer au directeur certaines de ses attributions en mati\u00e8re de repr\u00e9sentation et de passation des conventions. Il peut d\u00e9l\u00e9guer sa signature au directeur du Conseil national ainsi qu'aux agents d\u00e9sign\u00e9s par celui-ci. Les actes de d\u00e9l\u00e9gation du pr\u00e9sident sont publi\u00e9s        sur le site internet du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9.",
-            "texteHtml": "<p><br/>Le pr\u00e9sident du coll\u00e8ge met en \u0153uvre la politique g\u00e9n\u00e9rale et les d\u00e9lib\u00e9rations du coll\u00e8ge et repr\u00e9sente le Conseil national en justice et dans tous les actes de la vie civile. Il passe les conventions mentionn\u00e9es au 9\u00b0 de l'article <a href='/article/LEGIARTI000029656454'>R. 632-4</a> qui n'ont pas \u00e9t\u00e9 d\u00e9l\u00e9gu\u00e9es au directeur du Conseil national. <br/>Il peut d\u00e9l\u00e9guer au directeur certaines de ses attributions en mati\u00e8re de repr\u00e9sentation et de passation des conventions. <br/>Il peut d\u00e9l\u00e9guer sa signature au directeur du Conseil national ainsi qu'aux agents d\u00e9sign\u00e9s par celui-ci. <br/>Les actes de d\u00e9l\u00e9gation du pr\u00e9sident sont publi\u00e9s        sur le site internet du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-04-29T00:00:00.000Z",
-            "dateFin": "2022-09-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-4",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R632-4",
+                    "articleId": "LEGIARTI000029656454",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1417392000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000025015019",
+                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 5 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000029378019",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656458",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1461888000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000032467369",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1461888000000,
+                    "dateFin": 1661990400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045456530",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1661990400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R632-6",
+                "632-6"
+            ],
+            "versionPrecedente": "LEGIARTI000029656458",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000029656458",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le pr\u00e9sident du coll\u00e8ge met en \u0153uvre la politique g\u00e9n\u00e9rale et les d\u00e9lib\u00e9rations du coll\u00e8ge et repr\u00e9sente le Conseil national en justice et dans tous les actes de la vie civile. Il passe les conventions mentionn\u00e9es au 9\u00b0 de l'article R. 632-4 qui n'ont pas \u00e9t\u00e9 d\u00e9l\u00e9gu\u00e9es au directeur du Conseil national. Il peut d\u00e9l\u00e9guer au directeur certaines de ses attributions en mati\u00e8re de repr\u00e9sentation et de passation des conventions. Il peut d\u00e9l\u00e9guer sa signature au directeur du Conseil national ainsi qu'aux agents d\u00e9sign\u00e9s par celui-ci. Les actes de d\u00e9l\u00e9gation du pr\u00e9sident sont publi\u00e9s au bulletin officiel du minist\u00e8re de l'int\u00e9rieur.",
+            "texteHtml": "<p><br/>Le pr\u00e9sident du coll\u00e8ge met en \u0153uvre la politique g\u00e9n\u00e9rale et les d\u00e9lib\u00e9rations du coll\u00e8ge et repr\u00e9sente le Conseil national en justice et dans tous les actes de la vie civile. Il passe les conventions mentionn\u00e9es au 9\u00b0 de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000029656454&dateTexte=&categorieLien=cid' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-4 (VD)'>R. 632-4</a> qui n'ont pas \u00e9t\u00e9 d\u00e9l\u00e9gu\u00e9es au directeur du Conseil national. <br/>Il peut d\u00e9l\u00e9guer au directeur certaines de ses attributions en mati\u00e8re de repr\u00e9sentation et de passation des conventions. <br/>Il peut d\u00e9l\u00e9guer sa signature au directeur du Conseil national ainsi qu'aux agents d\u00e9sign\u00e9s par celui-ci. <br/>Les actes de d\u00e9l\u00e9gation du pr\u00e9sident sont publi\u00e9s au bulletin officiel du minist\u00e8re de l'int\u00e9rieur.</p>",
+            "num": "R632-6",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1417392000000,
+            "dateFin": 1461888000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1342177275,
             "context": {
                 "titresTM": [
                     {
@@ -371,7 +576,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656448",
                         "id": "LEGISCTA000029658021",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2022-09-01",
@@ -380,7 +585,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656448",
                         "id": "LEGISCTA000045456566",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -397,36 +602,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000029656458",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029656458",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656448",
+            "sectionParentId": "LEGISCTA000045456566",
+            "sectionParentTitre": "Sous-section 1 : Conseil d'administration",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre II : Missions et fonctionnement du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 &gt; Section 2 : Organisation administrative et fonctionnement &gt; Sous-section 1 : Coll\u00e8ge",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000029656458",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-4 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R632-4",
-                    "articleId": "LEGIARTI000029656454",
-                    "natureText": "CODE",
-                    "date": 1648759607874,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1417392000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000025015019",
-                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 5 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000029378019",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -453,13 +675,75 @@
                     "dateDebutCible": "2014-12-01"
                 }
             ],
-            "num": "R632-6",
-            "origine": "LEGI",
-            "texte": "Le pr\u00e9sident du coll\u00e8ge met en \u0153uvre la politique g\u00e9n\u00e9rale et les d\u00e9lib\u00e9rations du coll\u00e8ge et repr\u00e9sente le Conseil national en justice et dans tous les actes de la vie civile. Il passe les conventions mentionn\u00e9es au 9\u00b0 de l'article R. 632-4 qui n'ont pas \u00e9t\u00e9 d\u00e9l\u00e9gu\u00e9es au directeur du Conseil national. Il peut d\u00e9l\u00e9guer au directeur certaines de ses attributions en mati\u00e8re de repr\u00e9sentation et de passation des conventions. Il peut d\u00e9l\u00e9guer sa signature au directeur du Conseil national ainsi qu'aux agents d\u00e9sign\u00e9s par celui-ci. Les actes de d\u00e9l\u00e9gation du pr\u00e9sident sont publi\u00e9s au bulletin officiel du minist\u00e8re de l'int\u00e9rieur.",
-            "texteHtml": "<p><br/>Le pr\u00e9sident du coll\u00e8ge met en \u0153uvre la politique g\u00e9n\u00e9rale et les d\u00e9lib\u00e9rations du coll\u00e8ge et repr\u00e9sente le Conseil national en justice et dans tous les actes de la vie civile. Il passe les conventions mentionn\u00e9es au 9\u00b0 de l'article <a href='/article/LEGIARTI000029656454' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-4 (VD)'>R. 632-4</a> qui n'ont pas \u00e9t\u00e9 d\u00e9l\u00e9gu\u00e9es au directeur du Conseil national. <br/>Il peut d\u00e9l\u00e9guer au directeur certaines de ses attributions en mati\u00e8re de repr\u00e9sentation et de passation des conventions. <br/>Il peut d\u00e9l\u00e9guer sa signature au directeur du Conseil national ainsi qu'aux agents d\u00e9sign\u00e9s par celui-ci. <br/>Les actes de d\u00e9l\u00e9gation du pr\u00e9sident sont publi\u00e9s au bulletin officiel du minist\u00e8re de l'int\u00e9rieur.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2016-04-29T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-4 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R632-4",
+                    "articleId": "LEGIARTI000029656454",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1417392000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000025015019",
+                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 5 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000029378019",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656458",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1461888000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000032467369",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1461888000000,
+                    "dateFin": 1661990400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045456530",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1661990400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R632-6",
+                "632-6"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000038767987",
-    "num": "R652-28",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000038770176",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le montant du droit de plaidoirie est fix\u00e9 \u00e0 13 euros.",
+            "texteHtml": "<p align='left'>Le montant du droit de plaidoirie est fix\u00e9 \u00e0 13 euros. </p>",
+            "num": "R652-28",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1562544000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 55572,
             "context": {
                 "titresTM": [
                     {
@@ -92,21 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000038770176",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000038767987",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186623",
+            "sectionParentId": "LEGISCTA000038787651",
+            "sectionParentTitre": "Section 2 : Ressources.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre VI : Dispositions applicables aux travailleurs ind\u00e9pendants &gt; Titre V : Assurance vieillesse et invalidit\u00e9-d\u00e9c\u00e8s des avocats &gt; Chapitre 2 : Organisation administrative et financi\u00e8re &gt; Section 2 : Ressources.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000038770176",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R723-26-3 (M)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R723-26-3",
-                    "articleId": "LEGIARTI000030047412",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000038731196",
@@ -121,13 +168,43 @@
                     "dateDebutCible": "2019-07-08"
                 }
             ],
-            "num": "R652-28",
-            "origine": "LEGI",
-            "texte": "Le montant du droit de plaidoirie est fix\u00e9 \u00e0 13 euros.",
-            "texteHtml": "<p align='left'>Le montant du droit de plaidoirie est fix\u00e9 \u00e0 13 euros. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-07-08T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R723-26-3 (M)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R723-26-3",
+                    "articleId": "LEGIARTI000030047412",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000038770176",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1562544000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R652-28",
+                "652-28"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

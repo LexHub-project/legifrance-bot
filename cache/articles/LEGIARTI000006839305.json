@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006839305",
-    "num": "R543-74",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006839305",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Est puni de l'amende pr\u00e9vue pour les contraventions de la 5e classe : 1\u00b0 Le fait de m\u00e9langer des d\u00e9chets d'emballage avec d'autres d\u00e9chets de son activit\u00e9, qui ne puissent \u00eatre valoris\u00e9s selon la ou les m\u00eames voies, et de les rendre ainsi impropres \u00e0 toute valorisation ; 2\u00b0 Le fait de c\u00e9der ou de prendre en charge des d\u00e9chets d'emballage sans passer le contrat pr\u00e9vu \u00e0 l'article R. 543-67 .",
+            "texteHtml": "<p></p>Est puni de l'amende pr\u00e9vue pour les contraventions de la 5e classe : <p></p><p></p>1\u00b0 Le fait de m\u00e9langer des d\u00e9chets d'emballage avec d'autres d\u00e9chets de son activit\u00e9, qui ne puissent \u00eatre valoris\u00e9s selon la ou les m\u00eames voies, et de les rendre ainsi impropres \u00e0 toute valorisation ; <p></p><p></p>2\u00b0 Le fait de c\u00e9der ou de prendre en charge des d\u00e9chets d'emballage sans passer le contrat pr\u00e9vu \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006839298&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. R543-67 (V)'>l'article R. 543-67</a>.<p></p>",
+            "num": "R543-74",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1192492800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -61,15 +76,24 @@
                     },
                     {
                         "debut": "2016-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-09",
                         "titre": "Sous-section 5 : Dispositions p\u00e9nales",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006188986",
                         "id": "LEGISCTA000032323157",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-03-09",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 4 : Dispositions p\u00e9nales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006188986",
+                        "id": "LEGISCTA000047276295",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -83,26 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006839305",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006839305",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188986",
+            "sectionParentId": "LEGISCTA000047276295",
+            "sectionParentTitre": "Sous-section 4 : Dispositions p\u00e9nales",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre III : Dispositions propres \u00e0 certaines cat\u00e9gories de produits et de d\u00e9chets (R) &gt; Section 5 : Emballages &gt; Sous-section 4 : Dispositions p\u00e9nales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006839305",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R543-67 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R543-67",
-                    "articleId": "LEGIARTI000006839298",
-                    "natureText": "CODE",
-                    "date": 1599120458935,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1192492800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000825108",
@@ -117,13 +168,47 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "R543-74",
-            "origine": "LEGI",
-            "texte": "Est puni de l'amende pr\u00e9vue pour les contraventions de la 5e classe : 1\u00b0 Le fait de m\u00e9langer des d\u00e9chets d'emballage avec d'autres d\u00e9chets de son activit\u00e9, qui ne puissent \u00eatre valoris\u00e9s selon la ou les m\u00eames voies, et de les rendre ainsi impropres \u00e0 toute valorisation ; 2\u00b0 Le fait de c\u00e9der ou de prendre en charge des d\u00e9chets d'emballage sans passer le contrat pr\u00e9vu \u00e0 l'article R. 543-67 .",
-            "texteHtml": "<p></p>Est puni de l'amende pr\u00e9vue pour les contraventions de la 5e classe : <p></p><p></p>1\u00b0 Le fait de m\u00e9langer des d\u00e9chets d'emballage avec d'autres d\u00e9chets de son activit\u00e9, qui ne puissent \u00eatre valoris\u00e9s selon la ou les m\u00eames voies, et de les rendre ainsi impropres \u00e0 toute valorisation ; <p></p><p></p>2\u00b0 Le fait de c\u00e9der ou de prendre en charge des d\u00e9chets d'emballage sans passer le contrat pr\u00e9vu \u00e0 <a href='/article/LEGIARTI000006839298' title='Code de l'environnement - art. R543-67 (V)'>l'article R. 543-67</a>.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-10-16T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R543-67 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R543-67",
+                    "articleId": "LEGIARTI000006839298",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1192492800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006839305",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1192492800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R543-74",
+                "543-74"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

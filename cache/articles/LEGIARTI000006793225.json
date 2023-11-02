@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006793225",
-    "num": "A134-7",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006793225",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les membres de la R\u00e9sistance qui ne peuvent totaliser le temps de pr\u00e9sence effectif exig\u00e9 aux articles A. 119 ou A. 123-1 sont admis \u00e0 b\u00e9n\u00e9ficier d'une bonification de dix jours pour engagement volontaire.",
+            "texteHtml": "<p></p>   Les membres de la R\u00e9sistance qui ne peuvent totaliser le temps de pr\u00e9sence effectif exig\u00e9 aux articles A. 119 ou A. 123-1 sont admis \u00e0 b\u00e9n\u00e9ficier d'une bonification de dix jours pour engagement volontaire.<p></p><p></p>",
+            "num": "A134-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 749865600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 515388,
             "context": {
                 "titresTM": [
                     {
@@ -25,11 +40,20 @@
                     },
                     {
                         "debut": "1951-04-29",
-                        "fin": "2999-01-01",
+                        "fin": "2023-08-07",
                         "titre": "Titre Ier : Carte et retraite du combattant.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006142717",
                         "id": "LEGISCTA000006142717",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-08-07",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Carte et allocation de reconnaissance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142717",
+                        "id": "LEGISCTA000047941058",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -64,15 +88,6 @@
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -80,43 +95,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006793225",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006793225",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186913",
+            "sectionParentId": "LEGISCTA000006186913",
+            "sectionParentTitre": "Paragraphe 1 : Calcul du temps de pr\u00e9sence ou de la dur\u00e9e d'appartenance.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Livre III : Droits et avantages attach\u00e9s \u00e0 la qualit\u00e9 d'ancien combattant ou de victime de guerre. &gt; Titre Ier : Carte et retraite du combattant. &gt; Chapitre Ier : Carte du combattant. &gt; Section 2 : Proc\u00e9dure d'attribution de la carte. &gt; Paragraphe 1 : Calcul du temps de pr\u00e9sence ou de la dur\u00e9e d'appartenance.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006793225",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A119 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "A119",
-                    "articleId": "LEGIARTI000006793192",
-                    "natureText": "CODE",
-                    "date": 1599824872768,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": -589420800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A123-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "A123-1",
-                    "articleId": "LEGIARTI000006793197",
-                    "natureText": "CODE",
-                    "date": 1599824872768,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 301795200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -143,13 +208,60 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "A134-7",
-            "origine": "LEGI",
-            "texte": "Les membres de la R\u00e9sistance qui ne peuvent totaliser le temps de pr\u00e9sence effectif exig\u00e9 aux articles A. 119 ou A. 123-1 sont admis \u00e0 b\u00e9n\u00e9ficier d'une bonification de dix jours pour engagement volontaire.",
-            "texteHtml": "<p></p>   Les membres de la R\u00e9sistance qui ne peuvent totaliser le temps de pr\u00e9sence effectif exig\u00e9 aux articles A. 119 ou A. 123-1 sont admis \u00e0 b\u00e9n\u00e9ficier d'une bonification de dix jours pour engagement volontaire.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1993-10-06T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A119 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "A119",
+                    "articleId": "LEGIARTI000006793192",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": -589420800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A123-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "A123-1",
+                    "articleId": "LEGIARTI000006793197",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 301795200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006793225",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 749865600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A134-7",
+                "134-7"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

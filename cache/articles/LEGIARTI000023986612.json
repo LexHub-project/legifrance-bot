@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023986612",
-    "num": "L333-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000039370366",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'autorit\u00e9 administrative \u00e9tablit et rend publique la liste des op\u00e9rateurs titulaires de l'autorisation mentionn\u00e9e \u00e0 l'article L. 333-1 .",
+            "texteHtml": "<p>L'autorit\u00e9 administrative \u00e9tablit et rend publique la liste des op\u00e9rateurs titulaires de l'autorisation mentionn\u00e9e \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023983208&idArticle=LEGIARTI000023986610&dateTexte=&categorieLien=cid'>L. 333-1</a>.</p>",
+            "num": "L333-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1573344000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -56,36 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000039370366",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023986612",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023986608",
+            "sectionParentId": "LEGISCTA000023986608",
+            "sectionParentTitre": "Chapitre III : L'achat pour revente",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE III : LES DISPOSITIONS  RELATIVES A L'ELECTRICITE &gt; TITRE III : LA COMMERCIALISATION &gt; Chapitre III : L'achat pour revente",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000039370366",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. L333-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L333-1",
-                    "articleId": "LEGIARTI000023986610",
-                    "natureText": "CODE",
-                    "date": 1599123212764,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1573344000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000750321",
-                    "textTitle": "Loi n\u00b02000-108 du 10 f\u00e9vrier 2000 - art. 22 (VT) V",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "22",
-                    "articleId": "LEGIARTI000023181951",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -112,15 +144,84 @@
                     "dateDebutCible": "2019-11-10"
                 }
             ],
-            "num": "L333-2",
-            "origine": "LEGI",
-            "texte": "L'autorit\u00e9 administrative \u00e9tablit et rend publique la liste des op\u00e9rateurs titulaires de l'autorisation mentionn\u00e9e \u00e0 l'article L. 333-1 .",
-            "texteHtml": "<p>L'autorit\u00e9 administrative \u00e9tablit et rend publique la liste des op\u00e9rateurs titulaires de l'autorisation mentionn\u00e9e \u00e0 l'article <a href='/article/LEGIARTI000023986610'>L. 333-1</a>.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-11-10T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. L333-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L333-1",
+                    "articleId": "LEGIARTI000023986610",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1573344000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000750321",
+                    "textTitle": "Loi n\u00b02000-108 du 10 f\u00e9vrier 2000 - art. 22 (VT) V",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "22",
+                    "articleId": "LEGIARTI000023181951",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023986612",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 1573344000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000039370366",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1573344000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L333-2",
+                "333-2"
+            ],
+            "versionPrecedente": "LEGIARTI000023986612",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000023986612",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'autorit\u00e9 administrative \u00e9tablit et rend publique la liste des op\u00e9rateurs qui ach\u00e8tent pour revente aux clients ayant exerc\u00e9 leur \u00e9ligibilit\u00e9.",
+            "texteHtml": "<p><br/>L'autorit\u00e9 administrative \u00e9tablit et rend publique la liste des op\u00e9rateurs qui ach\u00e8tent pour revente aux clients ayant exerc\u00e9 leur \u00e9ligibilit\u00e9.</p>",
+            "num": "L333-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1306886400000,
+            "dateFin": 1573344000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -174,21 +275,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000023986612",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000023986612",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023986608",
+            "sectionParentId": "LEGISCTA000023986608",
+            "sectionParentTitre": "Chapitre III : L'achat pour revente",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE III : LES DISPOSITIONS  RELATIVES A L'ELECTRICITE &gt; TITRE III : LA COMMERCIALISATION &gt; Chapitre III : L'achat pour revente",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023986612",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000750321",
-                    "textTitle": "Loi n\u00b02000-108 du 10 f\u00e9vrier 2000 - art. 22 (VT) V",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "22",
-                    "articleId": "LEGIARTI000023181951",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -215,13 +348,52 @@
                     "dateDebutCible": "2011-06-01"
                 }
             ],
-            "num": "L333-2",
-            "origine": "LEGI",
-            "texte": "L'autorit\u00e9 administrative \u00e9tablit et rend publique la liste des op\u00e9rateurs qui ach\u00e8tent pour revente aux clients ayant exerc\u00e9 leur \u00e9ligibilit\u00e9.",
-            "texteHtml": "<p><br/>L'autorit\u00e9 administrative \u00e9tablit et rend publique la liste des op\u00e9rateurs qui ach\u00e8tent pour revente aux clients ayant exerc\u00e9 leur \u00e9ligibilit\u00e9.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-06-01T00:00:00.000Z",
-            "dateFin": "2019-11-10T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000750321",
+                    "textTitle": "Loi n\u00b02000-108 du 10 f\u00e9vrier 2000 - art. 22 (VT) V",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "22",
+                    "articleId": "LEGIARTI000023181951",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023986612",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 1573344000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000039370366",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1573344000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L333-2",
+                "333-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

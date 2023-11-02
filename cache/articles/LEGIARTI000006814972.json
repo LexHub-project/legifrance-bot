@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006814972",
-    "num": "L210-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006814972",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "En cas de vente d'un immeuble \u00e0 usage d'habitation, la commune peut faire usage de son droit de pr\u00e9emption pour assurer le maintien dans les lieux des locataires.",
+            "texteHtml": "<p></p>   En cas de vente d'un immeuble \u00e0 usage d'habitation, la commune peut faire usage de son droit de pr\u00e9emption pour assurer le maintien dans les lieux des locataires.<p></p><p></p>",
+            "num": "L210-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1150243200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 357913940,
             "context": {
                 "titresTM": [
                     {
@@ -47,40 +62,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006814972",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006814972",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006143285",
+            "sectionParentId": "LEGISCTA000006143285",
+            "sectionParentTitre": " Titre Ier : Droits de pr\u00e9emption",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Pr\u00e9emption et r\u00e9serves fonci\u00e8res &gt;  Titre Ier : Droits de pr\u00e9emption",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006814972",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2572-3 (T)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L2572-3",
-                    "articleId": "LEGIARTI000006391330",
-                    "natureText": "CODE",
-                    "date": 1599104695926,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1008115200000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2572-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L2572-5",
-                    "articleId": "LEGIARTI000021479291",
-                    "natureText": "CODE",
-                    "date": 1599104695926,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1260576000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -107,13 +135,60 @@
                     "dateDebutCible": "2006-06-14"
                 }
             ],
-            "num": "L210-2",
-            "origine": "LEGI",
-            "texte": "En cas de vente d'un immeuble \u00e0 usage d'habitation, la commune peut faire usage de son droit de pr\u00e9emption pour assurer le maintien dans les lieux des locataires.",
-            "texteHtml": "<p></p>   En cas de vente d'un immeuble \u00e0 usage d'habitation, la commune peut faire usage de son droit de pr\u00e9emption pour assurer le maintien dans les lieux des locataires.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-06-14T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2572-3 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2572-3",
+                    "articleId": "LEGIARTI000006391330",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1008115200000
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2572-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2572-5",
+                    "articleId": "LEGIARTI000021479291",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1260576000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006814972",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1150243200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L210-2",
+                "210-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

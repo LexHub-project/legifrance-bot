@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023985681",
-    "num": "L122-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033912320",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le m\u00e9diateur est nomm\u00e9 pour six ans par les ministres charg\u00e9s respectivement de l'\u00e9nergie et de la consommation.",
+            "texteHtml": "<p>Le m\u00e9diateur est nomm\u00e9 pour six ans par les ministres charg\u00e9s respectivement de l'\u00e9nergie et de la consommation. </p>",
+            "num": "L122-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1485043200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -65,21 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033912320",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000023985681",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023985676",
+            "sectionParentId": "LEGISCTA000023985676",
+            "sectionParentTitre": "Section 1 : Le m\u00e9diateur national de l'\u00e9nergie",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE IER : L'ORGANISATION GENERALE  DU SECTEUR DE L'ENERGIE &gt; TITRE II : LES OBLIGATIONS DE SERVICE PUBLIC  ET LA PROTECTION DES CONSOMMATEURS &gt; Chapitre II : La protection des consommateurs \nd'\u00e9lectricit\u00e9 et de gaz\n &gt; Section 1 : Le m\u00e9diateur national de l'\u00e9nergie",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033912320",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000750321",
-                    "textTitle": "Loi n\u00b02000-108 du 10 f\u00e9vrier 2000 - art. 43-1 (Ab), alin\u00e9a 4",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "43-1",
-                    "articleId": "LEGIARTI000006628266",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -118,15 +165,70 @@
                     "dateDebutCible": "2017-01-22"
                 }
             ],
-            "num": "L122-2",
-            "origine": "LEGI",
-            "texte": "Le m\u00e9diateur est nomm\u00e9 pour six ans par les ministres charg\u00e9s respectivement de l'\u00e9nergie et de la consommation.",
-            "texteHtml": "<p>Le m\u00e9diateur est nomm\u00e9 pour six ans par les ministres charg\u00e9s respectivement de l'\u00e9nergie et de la consommation. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000750321",
+                    "textTitle": "Loi n\u00b02000-108 du 10 f\u00e9vrier 2000 - art. 43-1 (Ab), alin\u00e9a 4",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "43-1",
+                    "articleId": "LEGIARTI000006628266",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023985681",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 1485043200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033912320",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1485043200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L122-2",
+                "122-2"
+            ],
+            "versionPrecedente": "LEGIARTI000023985681",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000023985681",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le m\u00e9diateur est nomm\u00e9 pour six ans par les ministres charg\u00e9s respectivement de l'\u00e9nergie et de la consommation. Son mandat n'est ni renouvelable ni r\u00e9vocable.",
+            "texteHtml": "<p><br/>Le m\u00e9diateur est nomm\u00e9 pour six ans par les ministres charg\u00e9s respectivement de l'\u00e9nergie et de la consommation. Son mandat n'est ni renouvelable ni r\u00e9vocable.</p>",
+            "num": "L122-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1306886400000,
+            "dateFin": 1485043200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -189,21 +291,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000023985681",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000023985681",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023985676",
+            "sectionParentId": "LEGISCTA000023985676",
+            "sectionParentTitre": "Section 1 : Le m\u00e9diateur national de l'\u00e9nergie",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE IER : L'ORGANISATION GENERALE  DU SECTEUR DE L'ENERGIE &gt; TITRE II : LES OBLIGATIONS DE SERVICE PUBLIC  ET LA PROTECTION DES CONSOMMATEURS &gt; Chapitre II : La protection des consommateurs \nd'\u00e9lectricit\u00e9 et de gaz\n &gt; Section 1 : Le m\u00e9diateur national de l'\u00e9nergie",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023985681",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000750321",
-                    "textTitle": "Loi n\u00b02000-108 du 10 f\u00e9vrier 2000 - art. 43-1 (Ab), alin\u00e9a 4",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "43-1",
-                    "articleId": "LEGIARTI000006628266",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -230,13 +364,52 @@
                     "dateDebutCible": "2011-06-01"
                 }
             ],
-            "num": "L122-2",
-            "origine": "LEGI",
-            "texte": "Le m\u00e9diateur est nomm\u00e9 pour six ans par les ministres charg\u00e9s respectivement de l'\u00e9nergie et de la consommation. Son mandat n'est ni renouvelable ni r\u00e9vocable.",
-            "texteHtml": "<p><br/>Le m\u00e9diateur est nomm\u00e9 pour six ans par les ministres charg\u00e9s respectivement de l'\u00e9nergie et de la consommation. Son mandat n'est ni renouvelable ni r\u00e9vocable.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-06-01T00:00:00.000Z",
-            "dateFin": "2017-01-22T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000750321",
+                    "textTitle": "Loi n\u00b02000-108 du 10 f\u00e9vrier 2000 - art. 43-1 (Ab), alin\u00e9a 4",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "43-1",
+                    "articleId": "LEGIARTI000006628266",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023985681",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 1485043200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033912320",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1485043200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L122-2",
+                "122-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

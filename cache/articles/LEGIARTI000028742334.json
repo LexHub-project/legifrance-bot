@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000028742334",
-    "num": "L4362-10-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000028742334",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lors de la vente en ligne de lentilles de contact oculaire correctrices ou de verres correcteurs, les prestataires concern\u00e9s permettent au patient d'obtenir des informations et conseils aupr\u00e8s d'un opticien-lunetier. Un d\u00e9cret en Conseil d'Etat d\u00e9termine les modalit\u00e9s d'application du pr\u00e9sent article et fixe les mentions et informations devant figurer sur le site internet.",
+            "texteHtml": "<div align='left'>Lors de la vente en ligne de lentilles de contact oculaire correctrices ou de verres correcteurs, les prestataires concern\u00e9s permettent au patient d'obtenir des informations et conseils aupr\u00e8s d'un opticien-lunetier. Un d\u00e9cret en Conseil d'Etat d\u00e9termine les modalit\u00e9s d'application du pr\u00e9sent article et fixe les mentions et informations devant figurer sur le site internet.<br/></div>",
+            "num": "L4362-10-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1395187200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 365066,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,40 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000028742334",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000028742334",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171330",
+            "sectionParentId": "LEGISCTA000006171330",
+            "sectionParentTitre": "Chapitre II : Opticien-lunetier.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre VI : Professions d'audioproth\u00e9siste, d'opticien-lunetier, de proth\u00e9siste et d'orth\u00e9siste pour l'appareillage des personnes handicap\u00e9es &gt; Chapitre II : Opticien-lunetier.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000028742334",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000031260102",
-                    "textTitle": "D\u00c9CRET n\u00b02015-1223 du 2 octobre 2015 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000031261578",
-                    "natureText": "DECRET",
-                    "date": 1599874076323,
-                    "parentCid": null,
-                    "numTexte": "2015-1223",
-                    "datePubli": 1443916800000,
-                    "dateDebut": 1446336000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4363-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4363-4",
-                    "articleId": "LEGIARTI000031930193",
-                    "natureText": "CODE",
-                    "date": 1599874076323,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1453939200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028738036",
@@ -131,13 +168,60 @@
                     "dateDebutCible": "2014-03-19"
                 }
             ],
-            "num": "L4362-10-1",
-            "origine": "LEGI",
-            "texte": "Lors de la vente en ligne de lentilles de contact oculaire correctrices ou de verres correcteurs, les prestataires concern\u00e9s permettent au patient d'obtenir des informations et conseils aupr\u00e8s d'un opticien-lunetier. Un d\u00e9cret en Conseil d'Etat d\u00e9termine les modalit\u00e9s d'application du pr\u00e9sent article et fixe les mentions et informations devant figurer sur le site internet.",
-            "texteHtml": "<div align='left'>Lors de la vente en ligne de lentilles de contact oculaire correctrices ou de verres correcteurs, les prestataires concern\u00e9s permettent au patient d'obtenir des informations et conseils aupr\u00e8s d'un opticien-lunetier. Un d\u00e9cret en Conseil d'Etat d\u00e9termine les modalit\u00e9s d'application du pr\u00e9sent article et fixe les mentions et informations devant figurer sur le site internet.<br/></div>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-03-19T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000031260102",
+                    "textTitle": "D\u00c9CRET n\u00b02015-1223 du 2 octobre 2015 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000031261578",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2015-1223",
+                    "datePubli": 1443916800000,
+                    "dateDebut": 1446336000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4363-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4363-4",
+                    "articleId": "LEGIARTI000031930193",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1453939200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000028742334",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1395187200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4362-10-1",
+                "4362-10-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

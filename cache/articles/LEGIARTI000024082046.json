@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000024082046",
-    "num": "D114-4-0-15",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000029113811",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le comit\u00e9 d'alerte pr\u00e9vu \u00e0 l'article L. 114-4-1 peut faire participer \u00e0 ses travaux les experts de son choix et proc\u00e9der \u00e0 toute audition qu'il jugera utile.",
+            "texteHtml": "<p></p>Le comit\u00e9 d'alerte pr\u00e9vu \u00e0 l'article L. 114-4-1 peut faire participer \u00e0 ses travaux les experts de son choix et proc\u00e9der \u00e0 toute audition qu'il jugera utile.<p></p><p></p>",
+            "num": "D114-4-0-15",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1403481600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 997045978,
             "context": {
                 "titresTM": [
                     {
@@ -65,21 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000029113811",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000024082046",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006172089",
+            "sectionParentId": "LEGISCTA000006172089",
+            "sectionParentTitre": "Section 7 : Comit\u00e9 d'alerte sur l'\u00e9volution des d\u00e9penses de l'assurance maladie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre I : G\u00e9n\u00e9ralit\u00e9s &gt; Chapitre 4 : Commissions et conseils &gt; Section 7 : Comit\u00e9 d'alerte sur l'\u00e9volution des d\u00e9penses de l'assurance maladie",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000029113811",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D114-4-0-5 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "D114-4-0-5",
-                    "articleId": "LEGIARTI000006735168",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029111348",
@@ -94,15 +141,70 @@
                     "dateDebutCible": "2014-06-23"
                 }
             ],
-            "num": "D114-4-0-15",
-            "origine": "LEGI",
-            "texte": "Le comit\u00e9 d'alerte pr\u00e9vu \u00e0 l'article L. 114-4-1 peut faire participer \u00e0 ses travaux les experts de son choix et proc\u00e9der \u00e0 toute audition qu'il jugera utile.",
-            "texteHtml": "<p></p>Le comit\u00e9 d'alerte pr\u00e9vu \u00e0 l'article L. 114-4-1 peut faire participer \u00e0 ses travaux les experts de son choix et proc\u00e9der \u00e0 toute audition qu'il jugera utile.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-06-23T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D114-4-0-5 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "D114-4-0-5",
+                    "articleId": "LEGIARTI000006735168",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000024082046",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1306627200000,
+                    "dateFin": 1403481600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029113811",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1403481600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D114-4-0-15",
+                "114-4-0-15"
+            ],
+            "versionPrecedente": "LEGIARTI000024082046",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000024082046",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le comit\u00e9 suit la r\u00e9alisation des objectifs de l'assurance vieillesse mentionn\u00e9s \u00e0 l'article L. 161-17 A au moyen d'indicateurs qu'il d\u00e9finit.",
+            "texteHtml": "Le comit\u00e9 suit la r\u00e9alisation des objectifs de l'assurance vieillesse mentionn\u00e9s \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000023024438&dateTexte=&categorieLien=cid'>L. 161-17 A</a> au moyen d'indicateurs qu'il d\u00e9finit.",
+            "num": "D114-4-0-15",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1306627200000,
+            "dateFin": 1403481600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -165,9 +267,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000024082046",
-            "lienAutres": [],
+            "cid": "LEGIARTI000024082046",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000024082042",
+            "sectionParentId": "LEGISCTA000024082042",
+            "sectionParentTitre": "Section 9 : Comit\u00e9 de pilotage des r\u00e9gimes de retraite \r\n\r\n",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre I : G\u00e9n\u00e9ralit\u00e9s &gt; Chapitre 4 : Commissions et conseils",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000024082046",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000024079774",
+                    "textTitle": "D\u00e9cret n\u00b02011-594\n du 27 mai 2011 - art. 1",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000024081495",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2011-05-28",
+                    "dateSignaTexte": "2011-05-27",
+                    "dateDebutCible": "2011-05-29"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006073189",
@@ -177,7 +337,6 @@
                     "articleNum": "L161-17 A",
                     "articleId": "LEGIARTI000023024438",
                     "natureText": "CODE",
-                    "date": 1622685084564,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -195,27 +354,40 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000024079774",
-                    "textTitle": "D\u00e9cret n\u00b02011-594\n du 27 mai 2011 - art. 1",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000024081495",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2011-05-28",
-                    "dateSignaTexte": "2011-05-27",
-                    "dateDebutCible": "2011-05-29"
+                    "id": "LEGIARTI000024082046",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1306627200000,
+                    "dateFin": 1403481600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029113811",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1403481600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "D114-4-0-15",
-            "origine": "LEGI",
-            "texte": "Le comit\u00e9 suit la r\u00e9alisation des objectifs de l'assurance vieillesse mentionn\u00e9s \u00e0 l'article L. 161-17 A au moyen d'indicateurs qu'il d\u00e9finit.",
-            "texteHtml": "Le comit\u00e9 suit la r\u00e9alisation des objectifs de l'assurance vieillesse mentionn\u00e9s \u00e0 l'article <a href='/article/LEGIARTI000023024438'>L. 161-17 A</a> au moyen d'indicateurs qu'il d\u00e9finit.",
-            "type": "AUTONOME",
-            "dateDebut": "2011-05-29T00:00:00.000Z",
-            "dateFin": "2014-06-23T00:00:00.000Z"
+            "computedNums": [
+                "D114-4-0-15",
+                "114-4-0-15"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

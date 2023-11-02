@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018680352",
-    "num": "R6123-118",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000044965151",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation a pour objet de pr\u00e9venir ou de r\u00e9duire les cons\u00e9quences fonctionnelles, d\u00e9ficiences et limitations d'activit\u00e9, soit dans le cadre de la prise en charge de patients atteints de pathologies chroniques, soit en amont ou dans les suites d'\u00e9pisodes de soins aigus, que ces cons\u00e9quences soient physiques, cognitives, psychologiques ou sociales. Cette activit\u00e9 comprend des actes \u00e0 vis\u00e9e diagnostique et th\u00e9rapeutique et des actions \u00e0 vis\u00e9e pr\u00e9ventive et d'\u00e9ducation th\u00e9rapeutique et de r\u00e9insertion dans le cadre du projet th\u00e9rapeutique du patient.",
+            "texteHtml": "<p>L'activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation a pour objet de pr\u00e9venir ou de r\u00e9duire les cons\u00e9quences fonctionnelles, d\u00e9ficiences et limitations d'activit\u00e9, soit dans le cadre de la prise en charge de patients atteints de pathologies chroniques, soit en amont ou dans les suites d'\u00e9pisodes de soins aigus, que ces cons\u00e9quences soient physiques, cognitives, psychologiques ou sociales.<br/><br/>\nCette activit\u00e9 comprend des actes \u00e0 vis\u00e9e diagnostique et th\u00e9rapeutique et des actions \u00e0 vis\u00e9e pr\u00e9ventive et d'\u00e9ducation th\u00e9rapeutique et de r\u00e9insertion dans le cadre du projet th\u00e9rapeutique du patient.</p>",
+            "num": "R6123-118",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018680350",
                         "id": "LEGISCTA000018681159",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018680350",
                         "id": "LEGISCTA000044965155",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -83,26 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000044965151",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018680352",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018680350",
+            "sectionParentId": "LEGISCTA000044965155",
+            "sectionParentTitre": "Section 11 : Activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 11 : Activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000044965151",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000018664450",
-                    "textTitle": "D\u00e9cret n\u00b02008-377\n du 17 avril 2008 - art. 5 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000044965735",
-                    "natureText": "DECRET",
-                    "date": 1642114032038,
-                    "parentCid": null,
-                    "numTexte": "2008-377",
-                    "datePubli": 1208649600000,
-                    "dateDebut": 1685577600000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Conform\u00e9ment au I de l'article 4 du d\u00e9cret n\u00b0 2022-24 du 11 janvier 2022, ces dispositions entrent en vigueur le 1er juin 2023. Se reporter aux II, III et IV du m\u00eame article pour les conditions d'application.",
+            "notaHtml": "<p>Conform\u00e9ment au I de l'article 4 du d\u00e9cret n\u00b0 2022-24 du 11 janvier 2022, ces dispositions entrent en vigueur le 1er juin 2023.</p><p>Se reporter aux II, III et IV du m\u00eame article pour les conditions d'application.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000044947210",
@@ -117,15 +159,74 @@
                     "dateDebutCible": "2023-06-01"
                 }
             ],
-            "num": "R6123-118",
-            "origine": "LEGI",
-            "texte": "L'activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation a pour objet de pr\u00e9venir ou de r\u00e9duire les cons\u00e9quences fonctionnelles, d\u00e9ficiences et limitations d'activit\u00e9, soit dans le cadre de la prise en charge de patients atteints de pathologies chroniques, soit en amont ou dans les suites d'\u00e9pisodes de soins aigus, que ces cons\u00e9quences soient physiques, cognitives, psychologiques ou sociales. Cette activit\u00e9 comprend des actes \u00e0 vis\u00e9e diagnostique et th\u00e9rapeutique et des actions \u00e0 vis\u00e9e pr\u00e9ventive et d'\u00e9ducation th\u00e9rapeutique et de r\u00e9insertion dans le cadre du projet th\u00e9rapeutique du patient.",
-            "texteHtml": "<p>L'activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation a pour objet de pr\u00e9venir ou de r\u00e9duire les cons\u00e9quences fonctionnelles, d\u00e9ficiences et limitations d'activit\u00e9, soit dans le cadre de la prise en charge de patients atteints de pathologies chroniques, soit en amont ou dans les suites d'\u00e9pisodes de soins aigus, que ces cons\u00e9quences soient physiques, cognitives, psychologiques ou sociales.<br/><br/>\nCette activit\u00e9 comprend des actes \u00e0 vis\u00e9e diagnostique et th\u00e9rapeutique et des actions \u00e0 vis\u00e9e pr\u00e9ventive et d'\u00e9ducation th\u00e9rapeutique et de r\u00e9insertion dans le cadre du projet th\u00e9rapeutique du patient.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000018664450",
+                    "textTitle": "D\u00e9cret n\u00b02008-377\n du 17 avril 2008 - art. 5 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000044965735",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2008-377",
+                    "datePubli": 1208649600000,
+                    "dateDebut": 1685577600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018681155",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1208736000000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044965151",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-118",
+                "6123-118"
+            ],
+            "versionPrecedente": "LEGIARTI000018681155",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018681155",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'activit\u00e9 de soins de suite et de r\u00e9adaptation mentionn\u00e9e au 5\u00b0 de l'article R. 6122-25 a pour objet de pr\u00e9venir ou de r\u00e9duire les cons\u00e9quences fonctionnelles, physiques, cognitives, psychologiques ou sociales des d\u00e9ficiences et des limitations de capacit\u00e9 des patients et de promouvoir leur r\u00e9adaptation et leur r\u00e9insertion. Elle comprend, le cas \u00e9ch\u00e9ant, des actes \u00e0 vis\u00e9e diagnostique ou th\u00e9rapeutique. Les patients accueillis dans une structure exer\u00e7ant l'activit\u00e9 de soins de suite et de r\u00e9adaptation y sont directement admis ; ils peuvent \u00e9galement \u00eatre transf\u00e9r\u00e9s d'un \u00e9tablissement de sant\u00e9 ou d'un \u00e9tablissement ou service m\u00e9dico-sociaux mentionn\u00e9s \u00e0 l'article L. 312-1 du code de l'action sociale et des familles.",
+            "texteHtml": "L'activit\u00e9 de soins de suite et de r\u00e9adaptation mentionn\u00e9e au 5\u00b0 de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006916682&dateTexte=&categorieLien=cid'>l'article R. 6122-25 </a>a pour objet de pr\u00e9venir ou de r\u00e9duire les cons\u00e9quences fonctionnelles, physiques, cognitives, psychologiques ou sociales des d\u00e9ficiences et des limitations de capacit\u00e9 des patients et de promouvoir leur r\u00e9adaptation et leur r\u00e9insertion. Elle comprend, le cas \u00e9ch\u00e9ant, des actes \u00e0 vis\u00e9e diagnostique ou th\u00e9rapeutique. <br/><br/>Les patients accueillis dans une structure exer\u00e7ant l'activit\u00e9 de soins de suite et de r\u00e9adaptation y sont directement admis ; ils peuvent \u00e9galement \u00eatre transf\u00e9r\u00e9s d'un \u00e9tablissement de sant\u00e9 ou d'un \u00e9tablissement ou service m\u00e9dico-sociaux mentionn\u00e9s \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074069&idArticle=LEGIARTI000006797382&dateTexte=&categorieLien=cid'>l'article L. 312-1</a> du code de l'action sociale et des familles.",
+            "num": "R6123-118",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1208736000000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -180,7 +281,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018680350",
                         "id": "LEGISCTA000018681159",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -189,7 +290,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018680350",
                         "id": "LEGISCTA000044965155",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -206,54 +307,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000018681155",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018680352",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018680350",
+            "sectionParentId": "LEGISCTA000044965155",
+            "sectionParentTitre": "Section 11 : Activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 11 : Activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000018681155",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000018664450",
-                    "textTitle": "D\u00e9cret n\u00b02008-377\n du 17 avril 2008 - art. 5 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000044965735",
-                    "natureText": "DECRET",
-                    "date": 1642114032559,
-                    "parentCid": null,
-                    "numTexte": "2008-377",
-                    "datePubli": 1208649600000,
-                    "dateDebut": 1685577600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6122-25",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6122-25",
-                    "articleId": "LEGIARTI000006916682",
-                    "natureText": "CODE",
-                    "date": 1642114032560,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1598918400000
-                },
-                {
-                    "textCid": "LEGITEXT000006074069",
-                    "textTitle": "Code de l'action sociale et des familles - art. L312-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L312-1",
-                    "articleId": "LEGIARTI000006797382",
-                    "natureText": "CODE",
-                    "date": 1642114032560,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1461456000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018664450",
@@ -268,13 +368,82 @@
                     "dateDebutCible": "2008-04-21"
                 }
             ],
-            "num": "R6123-118",
-            "origine": "LEGI",
-            "texte": "L'activit\u00e9 de soins de suite et de r\u00e9adaptation mentionn\u00e9e au 5\u00b0 de l'article R. 6122-25 a pour objet de pr\u00e9venir ou de r\u00e9duire les cons\u00e9quences fonctionnelles, physiques, cognitives, psychologiques ou sociales des d\u00e9ficiences et des limitations de capacit\u00e9 des patients et de promouvoir leur r\u00e9adaptation et leur r\u00e9insertion. Elle comprend, le cas \u00e9ch\u00e9ant, des actes \u00e0 vis\u00e9e diagnostique ou th\u00e9rapeutique. Les patients accueillis dans une structure exer\u00e7ant l'activit\u00e9 de soins de suite et de r\u00e9adaptation y sont directement admis ; ils peuvent \u00e9galement \u00eatre transf\u00e9r\u00e9s d'un \u00e9tablissement de sant\u00e9 ou d'un \u00e9tablissement ou service m\u00e9dico-sociaux mentionn\u00e9s \u00e0 l'article L. 312-1 du code de l'action sociale et des familles.",
-            "texteHtml": "L'activit\u00e9 de soins de suite et de r\u00e9adaptation mentionn\u00e9e au 5\u00b0 de <a href='/article/LEGIARTI000006916682'>l'article R. 6122-25 </a>a pour objet de pr\u00e9venir ou de r\u00e9duire les cons\u00e9quences fonctionnelles, physiques, cognitives, psychologiques ou sociales des d\u00e9ficiences et des limitations de capacit\u00e9 des patients et de promouvoir leur r\u00e9adaptation et leur r\u00e9insertion. Elle comprend, le cas \u00e9ch\u00e9ant, des actes \u00e0 vis\u00e9e diagnostique ou th\u00e9rapeutique. <br/><br/>Les patients accueillis dans une structure exer\u00e7ant l'activit\u00e9 de soins de suite et de r\u00e9adaptation y sont directement admis ; ils peuvent \u00e9galement \u00eatre transf\u00e9r\u00e9s d'un \u00e9tablissement de sant\u00e9 ou d'un \u00e9tablissement ou service m\u00e9dico-sociaux mentionn\u00e9s \u00e0 <a href='/article/LEGIARTI000006797382'>l'article L. 312-1</a> du code de l'action sociale et des familles.",
-            "type": "AUTONOME",
-            "dateDebut": "2008-04-21T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000018664450",
+                    "textTitle": "D\u00e9cret n\u00b02008-377\n du 17 avril 2008 - art. 5 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000044965735",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2008-377",
+                    "datePubli": 1208649600000,
+                    "dateDebut": 1685577600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6122-25",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6122-25",
+                    "articleId": "LEGIARTI000006916682",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L312-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L312-1",
+                    "articleId": "LEGIARTI000006797382",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1461456000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018681155",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1208736000000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044965151",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-118",
+                "6123-118"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

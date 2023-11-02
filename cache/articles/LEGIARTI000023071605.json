@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023071605",
-    "num": "L4122-10",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023083380",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'inscription hypoth\u00e9caire est radi\u00e9e au vu d'un acte constatant l'accord des parties ou en vertu d'un jugement pass\u00e9 en force de chose jug\u00e9e.",
+            "texteHtml": "<p><br/>L'inscription hypoth\u00e9caire est radi\u00e9e au vu d'un acte constatant l'accord des parties ou en vertu d'un jugement pass\u00e9 en force de chose jug\u00e9e.</p>",
+            "num": "L4122-10",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1291161600000,
+            "dateFin": 1672531200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2145386495,
             "context": {
                 "titresTM": [
                     {
@@ -74,36 +89,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000023083380",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023071605",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023071585",
+            "sectionParentId": "LEGISCTA000023083400",
+            "sectionParentTitre": "Section 1 : Hypoth\u00e8ques",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; QUATRIEME PARTIE : NAVIGATION INTERIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE IER : LE BATEAU &gt; TITRE II : REGIME DE PROPRIETE &gt; Chapitre II : Hypoth\u00e8ques et privil\u00e8ges &gt; Section 1 : Hypoth\u00e8ques",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000023083380",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R4122-6 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4122-6",
-                    "articleId": "LEGIARTI000027232377",
-                    "natureText": "CODE",
-                    "date": 1642113895503,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1364428800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000868914",
-                    "textTitle": "Loi du 5 juillet 1917, v. init., art. 23 et art. 24, alin\u00e9a 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000868914",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -142,13 +174,57 @@
                     "dateDebutCible": "2021-09-17"
                 }
             ],
-            "num": "L4122-10",
-            "origine": "LEGI",
-            "texte": "L'inscription hypoth\u00e9caire est radi\u00e9e au vu d'un acte constatant l'accord des parties ou en vertu d'un jugement pass\u00e9 en force de chose jug\u00e9e.",
-            "texteHtml": "<p><br/>L'inscription hypoth\u00e9caire est radi\u00e9e au vu d'un acte constatant l'accord des parties ou en vertu d'un jugement pass\u00e9 en force de chose jug\u00e9e.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2023-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R4122-6 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4122-6",
+                    "articleId": "LEGIARTI000027232377",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1364428800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000868914",
+                    "textTitle": "Loi du 5 juillet 1917, v. init., art. 23 et art. 24, alin\u00e9a 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000868914",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023083380",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4122-10",
+                "4122-10"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

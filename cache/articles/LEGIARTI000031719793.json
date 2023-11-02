@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031719793",
-    "num": "R123-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031720846",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le projet de d\u00e9limitation de la zone de protection naturelle, agricole et foresti\u00e8re est \u00e9labor\u00e9 par l'Etablissement public d'am\u00e9nagement de Paris-Saclay.",
+            "texteHtml": "<p><br/>Le projet de d\u00e9limitation de la zone de protection naturelle, agricole et foresti\u00e8re est \u00e9labor\u00e9 par l'Etablissement public d'am\u00e9nagement de Paris-Saclay.</p>",
+            "num": "R123-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1451606400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214748364,
             "context": {
                 "titresTM": [
                     {
@@ -74,21 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031720846",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000031719793",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031719791",
+            "sectionParentId": "LEGISCTA000031720848",
+            "sectionParentTitre": "Sous-section 1 : D\u00e9limitation de la zone de protection",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre Ier : R\u00e9glementation de l'urbanisme  &gt; Titre II : R\u00e8gles applicables dans certaines parties du territoire  &gt; Chapitre III : Dispositions particuli\u00e8res \u00e0 l'Ile-de-France &gt; Section 2 : Zone de protection naturelle, agricole et foresti\u00e8re du plateau de Saclay &gt; Sous-section 1 : D\u00e9limitation de la zone de protection",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031720846",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. R141-7, alin\u00e9a 1 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R141-7",
-                    "articleId": "LEGIARTI000023099661",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031704629",
@@ -115,13 +162,43 @@
                     "dateDebutCible": "2015-12-30"
                 }
             ],
-            "num": "R123-4",
-            "origine": "LEGI",
-            "texte": "Le projet de d\u00e9limitation de la zone de protection naturelle, agricole et foresti\u00e8re est \u00e9labor\u00e9 par l'Etablissement public d'am\u00e9nagement de Paris-Saclay.",
-            "texteHtml": "<p><br/>Le projet de d\u00e9limitation de la zone de protection naturelle, agricole et foresti\u00e8re est \u00e9labor\u00e9 par l'Etablissement public d'am\u00e9nagement de Paris-Saclay.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. R141-7, alin\u00e9a 1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R141-7",
+                    "articleId": "LEGIARTI000023099661",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031720846",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R123-4",
+                "123-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

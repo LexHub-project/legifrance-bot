@@ -1,12 +1,27 @@
 {
-    "cid": "LEGIARTI000045200253",
-    "num": "370-2-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045200253",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'adoption est internationale 1\u00b0 Lorsqu'un mineur r\u00e9sidant habituellement dans un Etat \u00e9tranger a \u00e9t\u00e9, est ou doit \u00eatre d\u00e9plac\u00e9, dans le cadre de son adoption, vers la France, o\u00f9 r\u00e9sident habituellement les adoptants ; 2\u00b0 Lorsqu'un mineur r\u00e9sidant habituellement en France a \u00e9t\u00e9, est ou doit \u00eatre d\u00e9plac\u00e9, dans le cadre de son adoption, vers un Etat \u00e9tranger, o\u00f9 r\u00e9sident habituellement les adoptants.",
+            "texteHtml": "<p>L'adoption est internationale<br/><br/>\n1\u00b0 Lorsqu'un mineur r\u00e9sidant habituellement dans un Etat \u00e9tranger a \u00e9t\u00e9, est ou doit \u00eatre d\u00e9plac\u00e9, dans le cadre de son adoption, vers la France, o\u00f9 r\u00e9sident habituellement les adoptants ;<br/><br/>\n2\u00b0 Lorsqu'un mineur r\u00e9sidant habituellement en France a \u00e9t\u00e9, est ou doit \u00eatre d\u00e9plac\u00e9, dans le cadre de son adoption, vers un Etat \u00e9tranger, o\u00f9 r\u00e9sident habituellement les adoptants.</p>",
+            "num": "370-2-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "TRANSFERE",
+            "dateDebut": 1645574400000,
+            "dateFin": 1672531200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 21474,
             "context": {
                 "titresTM": [
                     {
-                        "debut": "1803-03-14",
+                        "debut": "1804-03-21",
                         "fin": "2999-01-01",
                         "titre": "Livre Ier : Des personnes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
@@ -25,19 +40,28 @@
                     },
                     {
                         "debut": "2001-02-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Chapitre III : Du conflit des lois relatives \u00e0 la filiation adoptive et de l'effet en France des adoptions prononc\u00e9es \u00e0 l'\u00e9tranger",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006136193",
                         "id": "LEGISCTA000006136193",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Des effets de l'adoption",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006136193",
+                        "id": "LEGISCTA000046372058",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 41,
                 "titreTxt": [
                     {
-                        "debut": "1803-03-15",
+                        "debut": "1804-03-21",
                         "fin": "2999-01-01",
                         "titre": "Code civil",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
@@ -47,11 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045200253",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "cid": "LEGIARTI000045200253",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006136193",
+            "sectionParentId": "LEGISCTA000046372058",
+            "sectionParentTitre": "Chapitre III : Des effets de l'adoption",
+            "fullSectionsTitre": "Livre Ier : Des personnes &gt; Titre VIII : De la filiation adoptive &gt; Chapitre III : Des effets de l'adoption",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000045200253",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006070721",
+                    "titre": "Code civil",
+                    "titreLong": "Code civil",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -5231606400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006070721",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000045197698",
@@ -64,15 +130,56 @@
                     "datePubliTexte": "2022-02-22",
                     "dateSignaTexte": "2022-02-21",
                     "dateDebutCible": "2022-02-23"
+                },
+                {
+                    "textCid": "JORFTEXT000046368405",
+                    "textTitle": "Ordonnance n\u00b02022-1292 du 5 octobre 2022 - art. 23",
+                    "linkType": "TRANSFERE",
+                    "linkOrientation": "cible",
+                    "articleNum": "23",
+                    "articleId": "LEGIARTI000046369176",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2022-10-06",
+                    "dateSignaTexte": "2022-10-05",
+                    "dateDebutCible": "2022-10-07"
                 }
             ],
-            "num": "370-2-1",
-            "origine": "LEGI",
-            "texte": "L'adoption est internationale 1\u00b0 Lorsqu'un mineur r\u00e9sidant habituellement dans un Etat \u00e9tranger a \u00e9t\u00e9, est ou doit \u00eatre d\u00e9plac\u00e9, dans le cadre de son adoption, vers la France, o\u00f9 r\u00e9sident habituellement les adoptants ; 2\u00b0 Lorsqu'un mineur r\u00e9sidant habituellement en France a \u00e9t\u00e9, est ou doit \u00eatre d\u00e9plac\u00e9, dans le cadre de son adoption, vers un Etat \u00e9tranger, o\u00f9 r\u00e9sident habituellement les adoptants.",
-            "texteHtml": "<p>L'adoption est internationale<br/><br/>\n1\u00b0 Lorsqu'un mineur r\u00e9sidant habituellement dans un Etat \u00e9tranger a \u00e9t\u00e9, est ou doit \u00eatre d\u00e9plac\u00e9, dans le cadre de son adoption, vers la France, o\u00f9 r\u00e9sident habituellement les adoptants ;<br/><br/>\n2\u00b0 Lorsqu'un mineur r\u00e9sidant habituellement en France a \u00e9t\u00e9, est ou doit \u00eatre d\u00e9plac\u00e9, dans le cadre de son adoption, vers un Etat \u00e9tranger, o\u00f9 r\u00e9sident habituellement les adoptants.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-02-23T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006070721",
+                    "textTitle": "Code civil - art. 370-2 (VD)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "370-2",
+                    "articleId": "LEGIARTI000046378326",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000045200253",
+                    "etat": "TRANSFERE",
+                    "version": "1.0",
+                    "dateDebut": 1645574400000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "370-2-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

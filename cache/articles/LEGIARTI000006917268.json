@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006917268",
-    "num": "D6124-463",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031688862",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'organisation g\u00e9n\u00e9rale, le mat\u00e9riel et les locaux des \u00e9tablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie sont adapt\u00e9s \u00e0 la nature et au volume des prises en charge de l'\u00e9tablissement d\u00e9finies par le projet m\u00e9dical mentionn\u00e9 \u00e0 l'article D. 6161-4.",
+            "texteHtml": "<p>L'organisation g\u00e9n\u00e9rale, le mat\u00e9riel et les locaux des \u00e9tablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie sont adapt\u00e9s \u00e0 la nature et au volume des prises en charge de l'\u00e9tablissement d\u00e9finies par le projet m\u00e9dical mentionn\u00e9 \u00e0 l'article D. 6161-4. </p>",
+            "num": "D6124-463",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "ABROGE",
+            "dateDebut": 1450915200000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -70,12 +85,12 @@
                     },
                     {
                         "debut": "2015-12-24",
-                        "fin": "2999-01-01",
+                        "fin": "2023-06-01",
                         "titre": "Sous-section 7 : Etablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196717",
                         "id": "LEGISCTA000031688867",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -92,30 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031688862",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006917268",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196717",
+            "sectionParentId": "LEGISCTA000031688867",
+            "sectionParentTitre": "Sous-section 7 : Etablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 4 : Dispositions particuli\u00e8res \u00e0 certains \u00e9tablissements de sant\u00e9 priv\u00e9s",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031688862",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000869923",
-                    "textTitle": "D\u00e9cret 56-284 1956-03-09 annexe XXIII, art. 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000869923",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000869923",
-                    "textTitle": "D\u00e9cret n\u00b056-284 du 9 mars 1956 - art. 1 (V)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000006706362",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -140,17 +178,102 @@
                     "datePubliTexte": "2015-12-23",
                     "dateSignaTexte": "2015-12-21",
                     "dateDebutCible": "2015-12-24"
+                },
+                {
+                    "textCid": "JORFTEXT000046338159",
+                    "textTitle": "D\u00e9cret n\u00b02022-1264 du 28 septembre 2022 - art. 2",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000046338843",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2022-09-29",
+                    "dateSignaTexte": "2022-09-28",
+                    "dateDebutCible": "2022-09-30"
                 }
             ],
-            "num": "D6124-463",
-            "origine": "LEGI",
-            "texte": "L'organisation g\u00e9n\u00e9rale, le mat\u00e9riel et les locaux des \u00e9tablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie sont adapt\u00e9s \u00e0 la nature et au volume des prises en charge de l'\u00e9tablissement d\u00e9finies par le projet m\u00e9dical mentionn\u00e9 \u00e0 l'article D. 6161-4.",
-            "texteHtml": "<p>L'organisation g\u00e9n\u00e9rale, le mat\u00e9riel et les locaux des \u00e9tablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie sont adapt\u00e9s \u00e0 la nature et au volume des prises en charge de l'\u00e9tablissement d\u00e9finies par le projet m\u00e9dical mentionn\u00e9 \u00e0 l'article D. 6161-4. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-12-24T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000869923",
+                    "textTitle": "D\u00e9cret 56-284 1956-03-09 annexe XXIII, art. 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000869923",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000869923",
+                    "textTitle": "D\u00e9cret n\u00b056-284 du 9 mars 1956 - art. 1 (V)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000006706362",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006917268",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1122336000000,
+                    "dateFin": 1302998400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023868155",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1302998400000,
+                    "dateFin": 1450915200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031688862",
+                    "etat": "ABROGE",
+                    "version": "3.0",
+                    "dateDebut": 1450915200000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-463",
+                "6124-463"
+            ],
+            "versionPrecedente": "LEGIARTI000023868155",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000023868155",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'organisation g\u00e9n\u00e9rale, le personnel, le mat\u00e9riel et tous les services d'une maison de sant\u00e9 pour maladies mentales doivent \u00eatre fonction de sa capacit\u00e9 r\u00e9elle d'utilisation, c'est-\u00e0-dire du nombre maximum de malades pouvant y \u00eatre normalement admis.",
+            "texteHtml": "<p>L'organisation g\u00e9n\u00e9rale, le personnel, le mat\u00e9riel et tous les services d'une maison de sant\u00e9 pour maladies mentales doivent \u00eatre fonction de sa capacit\u00e9 r\u00e9elle d'utilisation, c'est-\u00e0-dire du nombre maximum de malades pouvant y \u00eatre normalement admis.</p><p></p>",
+            "num": "D6124-463",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1302998400000,
+            "dateFin": 1450915200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -218,12 +341,12 @@
                     },
                     {
                         "debut": "2015-12-24",
-                        "fin": "2999-01-01",
+                        "fin": "2023-06-01",
                         "titre": "Sous-section 7 : Etablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196717",
                         "id": "LEGISCTA000031688867",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -240,30 +363,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000023868155",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006917268",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196717",
+            "sectionParentId": "LEGISCTA000031688867",
+            "sectionParentTitre": "Sous-section 7 : Etablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 4 : Dispositions particuli\u00e8res \u00e0 certains \u00e9tablissements de sant\u00e9 priv\u00e9s &gt; Sous-section 7 : Etablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023868155",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000869923",
-                    "textTitle": "D\u00e9cret 56-284 1956-03-09 annexe XXIII, art. 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000869923",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000869923",
-                    "textTitle": "D\u00e9cret n\u00b056-284 du 9 mars 1956 - art. 1 (V)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000006706362",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -290,15 +436,88 @@
                     "dateDebutCible": "2011-04-17"
                 }
             ],
-            "num": "D6124-463",
-            "origine": "LEGI",
-            "texte": "L'organisation g\u00e9n\u00e9rale, le personnel, le mat\u00e9riel et tous les services d'une maison de sant\u00e9 pour maladies mentales doivent \u00eatre fonction de sa capacit\u00e9 r\u00e9elle d'utilisation, c'est-\u00e0-dire du nombre maximum de malades pouvant y \u00eatre normalement admis.",
-            "texteHtml": "<p>L'organisation g\u00e9n\u00e9rale, le personnel, le mat\u00e9riel et tous les services d'une maison de sant\u00e9 pour maladies mentales doivent \u00eatre fonction de sa capacit\u00e9 r\u00e9elle d'utilisation, c'est-\u00e0-dire du nombre maximum de malades pouvant y \u00eatre normalement admis.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-04-17T00:00:00.000Z",
-            "dateFin": "2015-12-24T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000869923",
+                    "textTitle": "D\u00e9cret 56-284 1956-03-09 annexe XXIII, art. 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000869923",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000869923",
+                    "textTitle": "D\u00e9cret n\u00b056-284 du 9 mars 1956 - art. 1 (V)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000006706362",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006917268",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1122336000000,
+                    "dateFin": 1302998400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023868155",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1302998400000,
+                    "dateFin": 1450915200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031688862",
+                    "etat": "ABROGE",
+                    "version": "3.0",
+                    "dateDebut": 1450915200000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-463",
+                "6124-463"
+            ],
+            "versionPrecedente": "LEGIARTI000006917268",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006917268",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'organisation g\u00e9n\u00e9rale, le personnel, le mat\u00e9riel et tous les services d'une maison de sant\u00e9 pour maladies mentales doivent \u00eatre fonction de sa capacit\u00e9 r\u00e9elle d'utilisation, c'est-\u00e0-dire du nombre maximum de malades pouvant y \u00eatre normalement admis. Toute maison de sant\u00e9 pour maladies mentales doit comporter, pour pouvoir \u00eatre autoris\u00e9e, vingt lits au moins et deux cents lits au plus.",
+            "texteHtml": "<p></p>   L'organisation g\u00e9n\u00e9rale, le personnel, le mat\u00e9riel et tous les services d'une maison de sant\u00e9 pour maladies mentales doivent \u00eatre fonction de sa capacit\u00e9 r\u00e9elle d'utilisation, c'est-\u00e0-dire du nombre maximum de malades pouvant y \u00eatre normalement admis.<p></p><p></p>   Toute maison de sant\u00e9 pour maladies mentales doit comporter, pour pouvoir \u00eatre autoris\u00e9e, vingt lits au moins et deux cents lits au plus.<p></p>",
+            "num": "D6124-463",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1122336000000,
+            "dateFin": 1302998400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -366,12 +585,12 @@
                     },
                     {
                         "debut": "2015-12-24",
-                        "fin": "2999-01-01",
+                        "fin": "2023-06-01",
                         "titre": "Sous-section 7 : Etablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196717",
                         "id": "LEGISCTA000031688867",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -388,9 +607,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006917268",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006917268",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196717",
+            "sectionParentId": "LEGISCTA000031688867",
+            "sectionParentTitre": "Sous-section 7 : Etablissements de sant\u00e9 priv\u00e9s autoris\u00e9s \u00e0 exercer l'activit\u00e9 de soins de psychiatrie.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 4 : Dispositions particuli\u00e8res \u00e0 certains \u00e9tablissements de sant\u00e9 priv\u00e9s &gt; Sous-section 7 : Maisons de sant\u00e9 pour personnes atteintes de troubles mentaux.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006917268",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000814956",
+                    "textTitle": "D\u00e9cret 2005-840 2005-07-20",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000814956",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2005-07-26",
+                    "dateSignaTexte": "2005-07-20",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -412,27 +689,49 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000814956",
-                    "textTitle": "D\u00e9cret 2005-840 2005-07-20",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000814956",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2005-07-26",
-                    "dateSignaTexte": "2005-07-20",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006917268",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1122336000000,
+                    "dateFin": 1302998400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023868155",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1302998400000,
+                    "dateFin": 1450915200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031688862",
+                    "etat": "ABROGE",
+                    "version": "3.0",
+                    "dateDebut": 1450915200000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "D6124-463",
-            "origine": "LEGI",
-            "texte": "L'organisation g\u00e9n\u00e9rale, le personnel, le mat\u00e9riel et tous les services d'une maison de sant\u00e9 pour maladies mentales doivent \u00eatre fonction de sa capacit\u00e9 r\u00e9elle d'utilisation, c'est-\u00e0-dire du nombre maximum de malades pouvant y \u00eatre normalement admis. Toute maison de sant\u00e9 pour maladies mentales doit comporter, pour pouvoir \u00eatre autoris\u00e9e, vingt lits au moins et deux cents lits au plus.",
-            "texteHtml": "<p></p>   L'organisation g\u00e9n\u00e9rale, le personnel, le mat\u00e9riel et tous les services d'une maison de sant\u00e9 pour maladies mentales doivent \u00eatre fonction de sa capacit\u00e9 r\u00e9elle d'utilisation, c'est-\u00e0-dire du nombre maximum de malades pouvant y \u00eatre normalement admis.<p></p><p></p>   Toute maison de sant\u00e9 pour maladies mentales doit comporter, pour pouvoir \u00eatre autoris\u00e9e, vingt lits au moins et deux cents lits au plus.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-07-26T00:00:00.000Z",
-            "dateFin": "2011-04-17T00:00:00.000Z"
+            "computedNums": [
+                "D6124-463",
+                "6124-463"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

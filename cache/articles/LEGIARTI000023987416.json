@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023987416",
-    "num": "L712-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023987416",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Est puni d'une amende de 300 000 euros le fait de contrevenir \u00e0 l'obligation de raccordement pr\u00e9vue \u00e0 l'article L. 712-3 .",
+            "texteHtml": "<p><br/>Est puni d'une amende de 300 000 euros le fait de contrevenir \u00e0 l'obligation de raccordement pr\u00e9vue \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023983208&idArticle=LEGIARTI000023987407&dateTexte=&categorieLien=cid' title='Code de l'\u00e9nergie - art. L712-3 (V)'>l'article L. 712-3</a>.</p>",
+            "num": "L712-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1306886400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -65,36 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023987416",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023987416",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023987414",
+            "sectionParentId": "LEGISCTA000023987414",
+            "sectionParentTitre": "Section 3 : Sanctions p\u00e9nales",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VII : LES DISPOSITIONS RELATIVES  AUX RESEAUX DE CHALEUR ET DE FROID &gt; TITRE IER : LA PRODUCTION DE CHALEUR ET LE CLASSEMENT  DES RESEAUX DE CHALEUR ET DE FROID &gt; Chapitre II : Le classement des r\u00e9seaux de chaleur et de froid\n &gt; Section 3 : Sanctions p\u00e9nales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023987416",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. L712-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L712-3",
-                    "articleId": "LEGIARTI000023987407",
-                    "natureText": "CODE",
-                    "date": 1599861064543,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1306886400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000886864",
-                    "textTitle": "Loi n\u00b080-531 du 15 juillet 1980 - art. 10 (Ab), alin\u00e9a 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000006846975",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -121,13 +153,57 @@
                     "dateDebutCible": "2011-06-01"
                 }
             ],
-            "num": "L712-5",
-            "origine": "LEGI",
-            "texte": "Est puni d'une amende de 300 000 euros le fait de contrevenir \u00e0 l'obligation de raccordement pr\u00e9vue \u00e0 l'article L. 712-3 .",
-            "texteHtml": "<p><br/>Est puni d'une amende de 300 000 euros le fait de contrevenir \u00e0 l'obligation de raccordement pr\u00e9vue \u00e0 <a href='/article/LEGIARTI000023987407' title='Code de l'\u00e9nergie - art. L712-3 (V)'>l'article L. 712-3</a>.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. L712-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L712-3",
+                    "articleId": "LEGIARTI000023987407",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1306886400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000886864",
+                    "textTitle": "Loi n\u00b080-531 du 15 juillet 1980 - art. 10 (Ab), alin\u00e9a 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000006846975",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023987416",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L712-5",
+                "712-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006795681",
-    "num": "L212-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006795681",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Est nulle toute clause des trait\u00e9s de r\u00e9assurance tendant \u00e0 exclure certains risques de la garantie de r\u00e9assurance en raison de la tarification adopt\u00e9e par le bureau central de tarification.",
+            "texteHtml": "<p></p>   Est nulle toute clause des trait\u00e9s de r\u00e9assurance tendant \u00e0 exclure certains risques de la garantie de r\u00e9assurance en raison de la tarification adopt\u00e9e par le bureau central de tarification.<p></p><p></p>",
+            "num": "L212-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 206755200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -56,31 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006795681",
-            "lienAutres": [
+            "cid": "LEGIARTI000006795681",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157492",
+            "sectionParentId": "LEGISCTA000006157492",
+            "sectionParentTitre": "Chapitre II : L'obligation d'assurer - Le bureau central de tarification.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Assurances obligatoires &gt; Titre Ier : L'assurance des v\u00e9hicules terrestres \u00e0 moteur et de leurs remorques et semi-remorques &gt; Chapitre II : L'obligation d'assurer - Le bureau central de tarification.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006795681",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. L214-2 (M)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "source",
-                    "articleNum": "L214-2",
-                    "articleId": "LEGIARTI000006795756",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000878373",
-                    "textTitle": "Loi n\u00b058-208 du 27 f\u00e9vrier 1958 - art. 9, v. init.",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "9",
-                    "articleId": "JORFARTI000001491412",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000305911",
@@ -95,13 +132,53 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L212-2",
-            "origine": "LEGI",
-            "texte": "Est nulle toute clause des trait\u00e9s de r\u00e9assurance tendant \u00e0 exclure certains risques de la garantie de r\u00e9assurance en raison de la tarification adopt\u00e9e par le bureau central de tarification.",
-            "texteHtml": "<p></p>   Est nulle toute clause des trait\u00e9s de r\u00e9assurance tendant \u00e0 exclure certains risques de la garantie de r\u00e9assurance en raison de la tarification adopt\u00e9e par le bureau central de tarification.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1976-07-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000878373",
+                    "textTitle": "Loi n\u00b058-208 du 27 f\u00e9vrier 1958 - art. 9, v. init.",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "9",
+                    "articleId": "JORFARTI000001491412",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L214-2 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "L214-2",
+                    "articleId": "LEGIARTI000006795756",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006795681",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L212-2",
+                "212-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018493070",
-    "num": "R4623-36",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045676595",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "A l'exception des situations d'urgence, les missions de l'infirmier sont principalement orient\u00e9es vers la pr\u00e9vention.",
+            "texteHtml": "<p>A l'exception des situations d'urgence, les missions de l'infirmier sont principalement orient\u00e9es vers la pr\u00e9vention.</p>",
+            "num": "R4623-36",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1651104000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -119,36 +143,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045676595",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493070",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025273373",
+            "sectionParentId": "LEGISCTA000025273384",
+            "sectionParentTitre": "Sous-section 3 : Le personnel infirmier au sein des services de sant\u00e9 au travail interentreprises.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 5 : Personnel infirmier. &gt; Sous-section 3 : Le personnel infirmier au sein des services de sant\u00e9 au travail interentreprises.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000045676595",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4623-28 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4623-28",
-                    "articleId": "LEGIARTI000018528330",
-                    "natureText": "CODE",
-                    "date": 1651092810963,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-1-4 al 1 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-1-4",
-                    "articleId": "LEGIARTI000018510326",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000045668051",
@@ -163,15 +204,93 @@
                     "dateDebutCible": "2022-04-28"
                 }
             ],
-            "num": "R4623-36",
-            "origine": "LEGI",
-            "texte": "A l'exception des situations d'urgence, les missions de l'infirmier sont principalement orient\u00e9es vers la pr\u00e9vention.",
-            "texteHtml": "<p>A l'exception des situations d'urgence, les missions de l'infirmier sont principalement orient\u00e9es vers la pr\u00e9vention.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-04-28T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-28 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-28",
+                    "articleId": "LEGIARTI000018528330",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-1-4 al 1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-1-4",
+                    "articleId": "LEGIARTI000018510326",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528312",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279774",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1651104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045676595",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1651104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4623-36",
+                "4623-36"
+            ],
+            "versionPrecedente": "LEGIARTI000025279774",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025279774",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les missions de l'infirmier sont exclusivement pr\u00e9ventives, \u00e0 l'exception des situations d'urgence.",
+            "texteHtml": "<p>Les missions de l'infirmier sont exclusivement pr\u00e9ventives, \u00e0 l'exception des situations d'urgence.</p>",
+            "num": "R4623-36",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1341100800000,
+            "dateFin": 1651104000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -212,11 +331,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -288,9 +416,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025279774",
-            "lienAutres": [],
+            "cid": "LEGIARTI000018493070",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025273373",
+            "sectionParentId": "LEGISCTA000025273384",
+            "sectionParentTitre": "Sous-section 3 : Le personnel infirmier au sein des services de sant\u00e9 au travail interentreprises.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 5 : Personnel infirmier. &gt; Sous-section 3 : Le personnel infirmier au sein des services de sant\u00e9 au travail interentreprises.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000025279774",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000025241584",
+                    "textTitle": "D\u00e9cret n\u00b02012-135\n du 30 janvier 2012 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000025266696",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2012-01-31",
+                    "dateSignaTexte": "2012-01-30",
+                    "dateDebutCible": "2012-07-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072050",
@@ -300,7 +486,6 @@
                     "articleNum": "R4623-28",
                     "articleId": "LEGIARTI000018528330",
                     "natureText": "CODE",
-                    "date": 1651092812043,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -318,29 +503,67 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000025241584",
-                    "textTitle": "D\u00e9cret n\u00b02012-135\n du 30 janvier 2012 - art. 1",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000025266696",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2012-01-31",
-                    "dateSignaTexte": "2012-01-30",
-                    "dateDebutCible": "2012-07-01"
+                    "id": "LEGIARTI000018528312",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279774",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1651104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045676595",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1651104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4623-36",
-            "origine": "LEGI",
-            "texte": "Les missions de l'infirmier sont exclusivement pr\u00e9ventives, \u00e0 l'exception des situations d'urgence.",
-            "texteHtml": "<p>Les missions de l'infirmier sont exclusivement pr\u00e9ventives, \u00e0 l'exception des situations d'urgence.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-01T00:00:00.000Z",
-            "dateFin": "2022-04-28T00:00:00.000Z"
+            "computedNums": [
+                "R4623-36",
+                "4623-36"
+            ],
+            "versionPrecedente": "LEGIARTI000018528312",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018528312",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'habilitation des personnes ou organismes intervenant en qualit\u00e9 d'intervenant en pr\u00e9vention des risques professionnels est d\u00e9livr\u00e9e par un coll\u00e8ge r\u00e9gional compos\u00e9 d'un nombre \u00e9gal de repr\u00e9sentants de la caisse r\u00e9gionale d'assurance maladie, de l'association r\u00e9gionale pour l'am\u00e9lioration des conditions de travail et du comit\u00e9 r\u00e9gional de l'Organisme professionnel de pr\u00e9vention du b\u00e2timent et des travaux publics.",
+            "texteHtml": "<p><br/>L'habilitation des personnes ou organismes intervenant en qualit\u00e9 d'intervenant en pr\u00e9vention des risques professionnels est d\u00e9livr\u00e9e par un coll\u00e8ge r\u00e9gional compos\u00e9 d'un nombre \u00e9gal de repr\u00e9sentants de la caisse r\u00e9gionale d'assurance maladie, de l'association r\u00e9gionale pour l'am\u00e9lioration des conditions de travail et du comit\u00e9 r\u00e9gional de l'Organisme professionnel de pr\u00e9vention du b\u00e2timent et des travaux publics.</p>",
+            "num": "R4623-36",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1341100800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -381,11 +604,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -448,9 +680,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018528312",
-            "lienAutres": [],
+            "cid": "LEGIARTI000018493070",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493068",
+            "sectionParentId": "LEGISCTA000018528314",
+            "sectionParentTitre": "Sous-section 3 : Habilitation.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 2 : Collaborateur m\u00e9decin.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000018528312",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000018442415",
+                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe",
+                    "articleId": "LEGIARTI000018456736",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2008-03-12",
+                    "dateSignaTexte": "2008-03-07",
+                    "dateDebutCible": "2008-03-13"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072050",
@@ -460,7 +750,6 @@
                     "articleNum": "R4623-28",
                     "articleId": "LEGIARTI000018528330",
                     "natureText": "CODE",
-                    "date": 1651092810912,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -478,27 +767,49 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000018442415",
-                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe",
-                    "articleId": "LEGIARTI000018456736",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2008-03-12",
-                    "dateSignaTexte": "2008-03-07",
-                    "dateDebutCible": "2008-03-13"
+                    "id": "LEGIARTI000018528312",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279774",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1651104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045676595",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1651104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4623-36",
-            "origine": "LEGI",
-            "texte": "L'habilitation des personnes ou organismes intervenant en qualit\u00e9 d'intervenant en pr\u00e9vention des risques professionnels est d\u00e9livr\u00e9e par un coll\u00e8ge r\u00e9gional compos\u00e9 d'un nombre \u00e9gal de repr\u00e9sentants de la caisse r\u00e9gionale d'assurance maladie, de l'association r\u00e9gionale pour l'am\u00e9lioration des conditions de travail et du comit\u00e9 r\u00e9gional de l'Organisme professionnel de pr\u00e9vention du b\u00e2timent et des travaux publics.",
-            "texteHtml": "<p><br/>L'habilitation des personnes ou organismes intervenant en qualit\u00e9 d'intervenant en pr\u00e9vention des risques professionnels est d\u00e9livr\u00e9e par un coll\u00e8ge r\u00e9gional compos\u00e9 d'un nombre \u00e9gal de repr\u00e9sentants de la caisse r\u00e9gionale d'assurance maladie, de l'association r\u00e9gionale pour l'am\u00e9lioration des conditions de travail et du comit\u00e9 r\u00e9gional de l'Organisme professionnel de pr\u00e9vention du b\u00e2timent et des travaux publics.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2012-07-01T00:00:00.000Z"
+            "computedNums": [
+                "R4623-36",
+                "4623-36"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

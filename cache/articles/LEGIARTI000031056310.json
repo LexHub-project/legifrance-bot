@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031056310",
-    "num": "L311-5-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031056310",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsqu'une installation de production regroupe plusieurs unit\u00e9s de production dont la puissance unitaire d\u00e9passe 800 m\u00e9gawatts, l'autorit\u00e9 administrative d\u00e9livre une autorisation d'exploiter par unit\u00e9 de production.",
+            "texteHtml": "<p align='left'>Lorsqu'une installation de production regroupe plusieurs unit\u00e9s de production dont la puissance unitaire d\u00e9passe 800 m\u00e9gawatts, l'autorit\u00e9 administrative d\u00e9livre une autorisation d'exploiter par unit\u00e9 de production. </p><p><br/></p>",
+            "num": "L311-5-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1439942400000,
+            "dateFin": 1687564800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1476395007,
             "context": {
                 "titresTM": [
                     {
@@ -65,11 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031056310",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "cid": "LEGIARTI000031056310",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023986337",
+            "sectionParentId": "LEGISCTA000023986337",
+            "sectionParentTitre": "Section 2 : L'autorisation d'exploiter",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE III : LES DISPOSITIONS  RELATIVES A L'ELECTRICITE &gt; TITRE IER : LA PRODUCTION &gt; Chapitre Ier : Les dispositions g\u00e9n\u00e9rales relatives \u00e0 la production d'\u00e9lectricit\u00e9 &gt; Section 2 : L'autorisation d'exploiter",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000031056310",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031044385",
@@ -82,15 +139,47 @@
                     "datePubliTexte": "2015-08-18",
                     "dateSignaTexte": "2015-08-17",
                     "dateDebutCible": "2015-08-19"
+                },
+                {
+                    "textCid": "JORFTEXT000047715784",
+                    "textTitle": "LOI n\u00b02023-491 du 22 juin 2023 - art. 2",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000047716786",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2023-06-23",
+                    "dateSignaTexte": "2023-06-22",
+                    "dateDebutCible": "2023-06-24"
                 }
             ],
-            "num": "L311-5-2",
-            "origine": "LEGI",
-            "texte": "Lorsqu'une installation de production regroupe plusieurs unit\u00e9s de production dont la puissance unitaire d\u00e9passe 800 m\u00e9gawatts, l'autorit\u00e9 administrative d\u00e9livre une autorisation d'exploiter par unit\u00e9 de production.",
-            "texteHtml": "<p align='left'>Lorsqu'une installation de production regroupe plusieurs unit\u00e9s de production dont la puissance unitaire d\u00e9passe 800 m\u00e9gawatts, l'autorit\u00e9 administrative d\u00e9livre une autorisation d'exploiter par unit\u00e9 de production. </p><p><br/></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-08-19T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031056310",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1439942400000,
+                    "dateFin": 1687564800000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L311-5-2",
+                "311-5-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

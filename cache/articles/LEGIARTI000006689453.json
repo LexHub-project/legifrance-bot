@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689453",
-    "num": "L4343-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006689453",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les orthophonistes et les orthoptistes inscrits sur les listes d\u00e9partementales ou ex\u00e9cutant en France un acte professionnel, tel que pr\u00e9vu respectivement aux articles L. 4341-1 et L. 4342-1, sont tenus de respecter les r\u00e8gles professionnelles fix\u00e9es par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p></p>   Les orthophonistes et les orthoptistes inscrits sur les listes d\u00e9partementales ou ex\u00e9cutant en France un acte professionnel, tel que pr\u00e9vu respectivement aux articles L. 4341-1 et L. 4342-1, sont tenus de respecter les r\u00e8gles professionnelles fix\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
+            "num": "L4343-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1170288000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,40 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006689453",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689453",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171321",
+            "sectionParentId": "LEGISCTA000006171321",
+            "sectionParentTitre": "Chapitre III : Dispositions communes.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre IV : Professions d'orthophoniste et d'orthoptiste &gt; Chapitre III : Dispositions communes.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006689453",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4341-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4341-1",
-                    "articleId": "LEGIARTI000006689431",
-                    "natureText": "CODE",
-                    "date": 1599819872767,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4342-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4342-1",
-                    "articleId": "LEGIARTI000006689442",
-                    "natureText": "CODE",
-                    "date": 1599819872767,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -155,13 +192,60 @@
                     "dateDebutCible": "2007-02-01"
                 }
             ],
-            "num": "L4343-2",
-            "origine": "LEGI",
-            "texte": "Les orthophonistes et les orthoptistes inscrits sur les listes d\u00e9partementales ou ex\u00e9cutant en France un acte professionnel, tel que pr\u00e9vu respectivement aux articles L. 4341-1 et L. 4342-1, sont tenus de respecter les r\u00e8gles professionnelles fix\u00e9es par d\u00e9cret en Conseil d'Etat.",
-            "texteHtml": "<p></p>   Les orthophonistes et les orthoptistes inscrits sur les listes d\u00e9partementales ou ex\u00e9cutant en France un acte professionnel, tel que pr\u00e9vu respectivement aux articles L. 4341-1 et L. 4342-1, sont tenus de respecter les r\u00e8gles professionnelles fix\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-02-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4341-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4341-1",
+                    "articleId": "LEGIARTI000006689431",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1453939200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4342-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4342-1",
+                    "articleId": "LEGIARTI000006689442",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1453939200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689453",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1170288000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4343-2",
+                "4343-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

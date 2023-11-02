@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018493182",
-    "num": "R4624-25",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033769100",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Cet examen ainsi que son renouvellement donnent lieu \u00e0 la d\u00e9livrance par le m\u00e9decin du travail d'un avis d'aptitude ou d'inaptitude rendu conform\u00e9ment aux dispositions de l'article L. 4624-4 . Cet avis d'aptitude ou d'inaptitude est transmis au travailleur et \u00e0 l'employeur et vers\u00e9 au dossier m\u00e9dical en sant\u00e9 au travail de l'int\u00e9ress\u00e9.",
+            "texteHtml": "<p>Cet examen ainsi que son renouvellement donnent lieu \u00e0 la d\u00e9livrance par le m\u00e9decin du travail d'un avis d'aptitude ou d'inaptitude rendu conform\u00e9ment aux dispositions de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000024391521&dateTexte=&categorieLien=cid' title='Code du travail - art. L4624-4 (V)'>L. 4624-4</a>. Cet avis d'aptitude ou d'inaptitude est transmis au travailleur et \u00e0 l'employeur et vers\u00e9 au dossier m\u00e9dical en sant\u00e9 au travail de l'int\u00e9ress\u00e9.</p><p></p>",
+            "num": "R4624-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -146,106 +170,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033769100",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493182",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033739340",
+            "sectionParentId": "LEGISCTA000033739671",
+            "sectionParentTitre": "Paragraphe 2 :  Examen m\u00e9dical d'aptitude \u00e0 l'embauche ",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre IV : Actions et moyens des membres de l'\u00e9quipe pluridisciplinaire de sant\u00e9 au travail &gt; Section 2 : Suivi individuel de l'\u00e9tat de sant\u00e9 du travailleur &gt; Sous-section 2 : Suivi individuel renforc\u00e9 de l'\u00e9tat de sant\u00e9 des travailleurs &gt; Paragraphe 2 :  Examen m\u00e9dical d'aptitude \u00e0 l'embauche ",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033769100",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000031560450",
-                    "textTitle": "D\u00c9CRET n\u00b02015-1575 du 3 d\u00e9cembre 2015 - art. 14 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "14",
-                    "articleId": "LEGIARTI000031562304",
-                    "natureText": "DECRET",
-                    "date": 1651092979724,
-                    "parentCid": null,
-                    "numTexte": "2015-1575",
-                    "datePubli": 1449187200000,
-                    "dateDebut": 1449273600000
-                },
-                {
-                    "textCid": "JORFTEXT000042092926",
-                    "textTitle": "Arr\u00eat\u00e9 du 11 juin 2020 - art. 4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "4",
-                    "articleId": "LEGIARTI000042093311",
-                    "natureText": "ARRETE",
-                    "date": 1651092979724,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1594166400000,
-                    "dateDebut": 1594252800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4622-45 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4622-45",
-                    "articleId": "LEGIARTI000018528489",
-                    "natureText": "CODE",
-                    "date": 1651092979724,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4622-54 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4622-54",
-                    "articleId": "LEGIARTI000036483069",
-                    "natureText": "CODE",
-                    "date": 1651092979725,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1514764800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. L4624-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4624-4",
-                    "articleId": "LEGIARTI000024391521",
-                    "natureText": "CODE",
-                    "date": 1651092979725,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R1262-9 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1262-9",
-                    "articleId": "LEGIARTI000022265994",
-                    "natureText": "CODE",
-                    "date": 1651092979725,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1273276800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-52 al 1 \u00e0 4 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-52",
-                    "articleId": "LEGIARTI000018510042",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033723789",
@@ -260,15 +231,171 @@
                     "dateDebutCible": "2017-01-01"
                 }
             ],
-            "num": "R4624-25",
-            "origine": "LEGI",
-            "texte": "Cet examen ainsi que son renouvellement donnent lieu \u00e0 la d\u00e9livrance par le m\u00e9decin du travail d'un avis d'aptitude ou d'inaptitude rendu conform\u00e9ment aux dispositions de l'article L. 4624-4 . Cet avis d'aptitude ou d'inaptitude est transmis au travailleur et \u00e0 l'employeur et vers\u00e9 au dossier m\u00e9dical en sant\u00e9 au travail de l'int\u00e9ress\u00e9.",
-            "texteHtml": "<p>Cet examen ainsi que son renouvellement donnent lieu \u00e0 la d\u00e9livrance par le m\u00e9decin du travail d'un avis d'aptitude ou d'inaptitude rendu conform\u00e9ment aux dispositions de l'article <a href='/article/LEGIARTI000024391521' title='Code du travail - art. L4624-4 (V)'>L. 4624-4</a>. Cet avis d'aptitude ou d'inaptitude est transmis au travailleur et \u00e0 l'employeur et vers\u00e9 au dossier m\u00e9dical en sant\u00e9 au travail de l'int\u00e9ress\u00e9.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000031560450",
+                    "textTitle": "D\u00c9CRET n\u00b02015-1575 du 3 d\u00e9cembre 2015 - art. 14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "14",
+                    "articleId": "LEGIARTI000031562304",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2015-1575",
+                    "datePubli": 1449187200000,
+                    "dateDebut": 1449273600000
+                },
+                {
+                    "textCid": "JORFTEXT000042092926",
+                    "textTitle": "Arr\u00eat\u00e9 du 11 juin 2020 - art. 4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000042093311",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1594166400000,
+                    "dateDebut": 1594252800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4622-45 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4622-45",
+                    "articleId": "LEGIARTI000018528489",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4622-54 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4622-54",
+                    "articleId": "LEGIARTI000036483069",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L4624-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4624-4",
+                    "articleId": "LEGIARTI000024391521",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R1262-9 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1262-9",
+                    "articleId": "LEGIARTI000022265994",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1273276800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-14",
+                    "articleId": "LEGIARTI000045676616",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651104000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-52 al 1 \u00e0 4 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-52",
+                    "articleId": "LEGIARTI000018510042",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528200",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279614",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033769100",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4624-25",
+                "4624-25"
+            ],
+            "versionPrecedente": "LEGIARTI000025279614",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025279614",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le m\u00e9decin du travail peut prescrire les examens compl\u00e9mentaires n\u00e9cessaires : 1\u00b0 A la d\u00e9termination de l'aptitude m\u00e9dicale du salari\u00e9 au poste de travail, notamment au d\u00e9pistage des affections comportant une contre-indication \u00e0 ce poste de travail ; 2\u00b0 Au d\u00e9pistage d'une maladie professionnelle ou \u00e0 caract\u00e8re professionnel susceptible de r\u00e9sulter de l'activit\u00e9 professionnelle du salari\u00e9 ; 3\u00b0 Au d\u00e9pistage des maladies dangereuses pour l'entourage du salari\u00e9.",
+            "texteHtml": "<p>Le m\u00e9decin du travail peut prescrire les examens compl\u00e9mentaires n\u00e9cessaires : </p><p> 1\u00b0 A la d\u00e9termination de l'aptitude m\u00e9dicale du salari\u00e9 au poste de travail, notamment au d\u00e9pistage des affections comportant une contre-indication \u00e0 ce poste de travail ; </p><p> 2\u00b0 Au d\u00e9pistage d'une maladie professionnelle ou \u00e0 caract\u00e8re professionnel susceptible de r\u00e9sulter de l'activit\u00e9 professionnelle du salari\u00e9 ; </p><p> 3\u00b0 Au d\u00e9pistage des maladies dangereuses pour l'entourage du salari\u00e9. </p><p></p><p></p>",
+            "num": "R4624-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1341100800000,
+            "dateFin": 1483228800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -309,11 +436,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -403,120 +539,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025279614",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493182",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493180",
+            "sectionParentId": "LEGISCTA000033769133",
+            "sectionParentTitre": "Sous-section 5 : Examens compl\u00e9mentaires",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre IV : Actions et moyens des membres de l'\u00e9quipe pluridisciplinaire de sant\u00e9 au travail &gt; Section 2 : Suivi individuel de l'\u00e9tat de sant\u00e9 du travailleur &gt; Sous-section 5 : Examens compl\u00e9mentaires",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025279614",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000031560450",
-                    "textTitle": "D\u00c9CRET n\u00b02015-1575 du 3 d\u00e9cembre 2015 - art. 14 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "14",
-                    "articleId": "LEGIARTI000031562304",
-                    "natureText": "DECRET",
-                    "date": 1651092980346,
-                    "parentCid": null,
-                    "numTexte": "2015-1575",
-                    "datePubli": 1449187200000,
-                    "dateDebut": 1449273600000
-                },
-                {
-                    "textCid": "JORFTEXT000042092926",
-                    "textTitle": "Arr\u00eat\u00e9 du 11 juin 2020 - art. 4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "4",
-                    "articleId": "LEGIARTI000042093311",
-                    "natureText": "ARRETE",
-                    "date": 1651092980346,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1594166400000,
-                    "dateDebut": 1594252800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4622-45 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4622-45",
-                    "articleId": "LEGIARTI000018528489",
-                    "natureText": "CODE",
-                    "date": 1651092980347,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4622-54 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4622-54",
-                    "articleId": "LEGIARTI000036483069",
-                    "natureText": "CODE",
-                    "date": 1651092980347,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1514764800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. L4111-6",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4111-6",
-                    "articleId": "LEGIARTI000006903146",
-                    "natureText": "CODE",
-                    "date": 1651092980347,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R1262-9 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1262-9",
-                    "articleId": "LEGIARTI000022265994",
-                    "natureText": "CODE",
-                    "date": 1651092980347,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1273276800000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L461-6",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L461-6",
-                    "articleId": "LEGIARTI000006743141",
-                    "natureText": "CODE",
-                    "date": 1651092980347,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 503971200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-52 al 1 \u00e0 4 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-52",
-                    "articleId": "LEGIARTI000018510042",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025241584",
@@ -531,15 +600,184 @@
                     "dateDebutCible": "2012-07-01"
                 }
             ],
-            "num": "R4624-25",
-            "origine": "LEGI",
-            "texte": "Le m\u00e9decin du travail peut prescrire les examens compl\u00e9mentaires n\u00e9cessaires : 1\u00b0 A la d\u00e9termination de l'aptitude m\u00e9dicale du salari\u00e9 au poste de travail, notamment au d\u00e9pistage des affections comportant une contre-indication \u00e0 ce poste de travail ; 2\u00b0 Au d\u00e9pistage d'une maladie professionnelle ou \u00e0 caract\u00e8re professionnel susceptible de r\u00e9sulter de l'activit\u00e9 professionnelle du salari\u00e9 ; 3\u00b0 Au d\u00e9pistage des maladies dangereuses pour l'entourage du salari\u00e9.",
-            "texteHtml": "<p>Le m\u00e9decin du travail peut prescrire les examens compl\u00e9mentaires n\u00e9cessaires : </p><p> 1\u00b0 A la d\u00e9termination de l'aptitude m\u00e9dicale du salari\u00e9 au poste de travail, notamment au d\u00e9pistage des affections comportant une contre-indication \u00e0 ce poste de travail ; </p><p> 2\u00b0 Au d\u00e9pistage d'une maladie professionnelle ou \u00e0 caract\u00e8re professionnel susceptible de r\u00e9sulter de l'activit\u00e9 professionnelle du salari\u00e9 ; </p><p> 3\u00b0 Au d\u00e9pistage des maladies dangereuses pour l'entourage du salari\u00e9. </p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-01T00:00:00.000Z",
-            "dateFin": "2017-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000031560450",
+                    "textTitle": "D\u00c9CRET n\u00b02015-1575 du 3 d\u00e9cembre 2015 - art. 14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "14",
+                    "articleId": "LEGIARTI000031562304",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2015-1575",
+                    "datePubli": 1449187200000,
+                    "dateDebut": 1449273600000
+                },
+                {
+                    "textCid": "JORFTEXT000042092926",
+                    "textTitle": "Arr\u00eat\u00e9 du 11 juin 2020 - art. 4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000042093311",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1594166400000,
+                    "dateDebut": 1594252800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4622-45 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4622-45",
+                    "articleId": "LEGIARTI000018528489",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4622-54 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4622-54",
+                    "articleId": "LEGIARTI000036483069",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L4111-6",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4111-6",
+                    "articleId": "LEGIARTI000006903146",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R1262-9 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1262-9",
+                    "articleId": "LEGIARTI000022265994",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1273276800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-14",
+                    "articleId": "LEGIARTI000045676616",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651104000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L461-6",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L461-6",
+                    "articleId": "LEGIARTI000006743141",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 503971200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-52 al 1 \u00e0 4 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-52",
+                    "articleId": "LEGIARTI000018510042",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528200",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279614",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033769100",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4624-25",
+                "4624-25"
+            ],
+            "versionPrecedente": "LEGIARTI000018528200",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018528200",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le m\u00e9decin du travail peut prescrire les examens compl\u00e9mentaires n\u00e9cessaires : 1\u00b0 A la d\u00e9termination de l'aptitude m\u00e9dicale au poste de travail, notamment au d\u00e9pistage des affections comportant une contre-indication \u00e0 ce poste de travail ; 2\u00b0 Au d\u00e9pistage des maladies \u00e0 caract\u00e8re professionnel pr\u00e9vues \u00e0 l'article L. 461-6 du code de la s\u00e9curit\u00e9 sociale et des maladies professionnelles non concern\u00e9es par les dispositions r\u00e9glementaires prises en application du 3\u00b0 de l'article L. 4111-6 ; 3\u00b0 Au d\u00e9pistage des maladies dangereuses pour l'entourage.",
+            "texteHtml": "<p>Le m\u00e9decin du travail peut prescrire les examens compl\u00e9mentaires n\u00e9cessaires : <br/>1\u00b0 A la d\u00e9termination de l'aptitude m\u00e9dicale au poste de travail, notamment au d\u00e9pistage des affections comportant une contre-indication \u00e0 ce poste de travail ; <br/>2\u00b0 Au d\u00e9pistage des maladies \u00e0 caract\u00e8re professionnel pr\u00e9vues \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000006743141&dateTexte=&categorieLien=cid' title='Code de la s\u00e9curit\u00e9 sociale. - art. L461-6 (V)'>L. 461-6 du code de la s\u00e9curit\u00e9 sociale </a>et des maladies professionnelles non concern\u00e9es par les dispositions r\u00e9glementaires prises en application du 3\u00b0 de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006903146&dateTexte=&categorieLien=cid' title='Code du travail - art. L4111-6 (VD)'>L. 4111-6</a> ; <br/>3\u00b0 Au d\u00e9pistage des maladies dangereuses pour l'entourage.</p>",
+            "num": "R4624-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1341100800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -580,11 +818,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -674,9 +921,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018528200",
-            "lienAutres": [],
+            "cid": "LEGIARTI000018493182",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493180",
+            "sectionParentId": "LEGISCTA000033769133",
+            "sectionParentTitre": "Sous-section 5 : Examens compl\u00e9mentaires",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre IV : Actions et moyens des membres de l'\u00e9quipe pluridisciplinaire de sant\u00e9 au travail &gt; Section 2 : Suivi individuel de l'\u00e9tat de sant\u00e9 du salari\u00e9. &gt; Sous-section 5 : Examens compl\u00e9mentaires.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000018528200",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000018442415",
+                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe",
+                    "articleId": "LEGIARTI000018456736",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2008-03-12",
+                    "dateSignaTexte": "2008-03-07",
+                    "dateDebutCible": "2008-03-13"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000031560450",
@@ -686,7 +991,6 @@
                     "articleNum": "14",
                     "articleId": "LEGIARTI000031562304",
                     "natureText": "DECRET",
-                    "date": 1651092979141,
                     "parentCid": null,
                     "numTexte": "2015-1575",
                     "datePubli": 1449187200000,
@@ -700,7 +1004,6 @@
                     "articleNum": "4",
                     "articleId": "LEGIARTI000042093311",
                     "natureText": "ARRETE",
-                    "date": 1651092979141,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 1594166400000,
@@ -714,7 +1017,6 @@
                     "articleNum": "D4622-45",
                     "articleId": "LEGIARTI000018528489",
                     "natureText": "CODE",
-                    "date": 1651092979141,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -728,7 +1030,6 @@
                     "articleNum": "D4622-54",
                     "articleId": "LEGIARTI000036483069",
                     "natureText": "CODE",
-                    "date": 1651092979141,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -742,7 +1043,6 @@
                     "articleNum": "L4111-6",
                     "articleId": "LEGIARTI000006903146",
                     "natureText": "CODE",
-                    "date": 1651092979141,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -756,11 +1056,23 @@
                     "articleNum": "R1262-9",
                     "articleId": "LEGIARTI000022265994",
                     "natureText": "CODE",
-                    "date": 1651092979141,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 1273276800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-14",
+                    "articleId": "LEGIARTI000045676616",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651104000000
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
@@ -770,7 +1082,6 @@
                     "articleNum": "L461-6",
                     "articleId": "LEGIARTI000006743141",
                     "natureText": "CODE",
-                    "date": 1651092979142,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -788,27 +1099,49 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000018442415",
-                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe",
-                    "articleId": "LEGIARTI000018456736",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2008-03-12",
-                    "dateSignaTexte": "2008-03-07",
-                    "dateDebutCible": "2008-03-13"
+                    "id": "LEGIARTI000018528200",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279614",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033769100",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4624-25",
-            "origine": "LEGI",
-            "texte": "Le m\u00e9decin du travail peut prescrire les examens compl\u00e9mentaires n\u00e9cessaires : 1\u00b0 A la d\u00e9termination de l'aptitude m\u00e9dicale au poste de travail, notamment au d\u00e9pistage des affections comportant une contre-indication \u00e0 ce poste de travail ; 2\u00b0 Au d\u00e9pistage des maladies \u00e0 caract\u00e8re professionnel pr\u00e9vues \u00e0 l'article L. 461-6 du code de la s\u00e9curit\u00e9 sociale et des maladies professionnelles non concern\u00e9es par les dispositions r\u00e9glementaires prises en application du 3\u00b0 de l'article L. 4111-6 ; 3\u00b0 Au d\u00e9pistage des maladies dangereuses pour l'entourage.",
-            "texteHtml": "<p>Le m\u00e9decin du travail peut prescrire les examens compl\u00e9mentaires n\u00e9cessaires : <br/>1\u00b0 A la d\u00e9termination de l'aptitude m\u00e9dicale au poste de travail, notamment au d\u00e9pistage des affections comportant une contre-indication \u00e0 ce poste de travail ; <br/>2\u00b0 Au d\u00e9pistage des maladies \u00e0 caract\u00e8re professionnel pr\u00e9vues \u00e0 l'article <a href='/article/LEGIARTI000006743141' title='Code de la s\u00e9curit\u00e9 sociale. - art. L461-6 (V)'>L. 461-6 du code de la s\u00e9curit\u00e9 sociale </a>et des maladies professionnelles non concern\u00e9es par les dispositions r\u00e9glementaires prises en application du 3\u00b0 de l'article <a href='/article/LEGIARTI000006903146' title='Code du travail - art. L4111-6 (VD)'>L. 4111-6</a> ; <br/>3\u00b0 Au d\u00e9pistage des maladies dangereuses pour l'entourage.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2012-07-01T00:00:00.000Z"
+            "computedNums": [
+                "R4624-25",
+                "4624-25"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

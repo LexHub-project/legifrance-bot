@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033819246",
-    "num": "R344-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033819246",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La p\u00e9riode pendant laquelle les personnes mentionn\u00e9es aux articles R. 344-3 et R. 344-4 peuvent pr\u00e9tendre au titre de r\u00e9fractaires commence \u00e0 courir, selon les cat\u00e9gories consid\u00e9r\u00e9es : 1\u00b0 Ou bien \u00e0 la date de d\u00e9part port\u00e9e sur l'ordre de r\u00e9quisition ou sur l'ordre de mobilisation ; 2\u00b0 Ou bien \u00e0 la date de leur \u00e9vasion ; 3\u00b0 Ou bien \u00e0 la date d'expiration de leur premi\u00e8re permission en France ; 4\u00b0 Ou bien \u00e0 la date \u00e0 laquelle elles auraient \u00e9t\u00e9, si elles ne s'\u00e9taient d\u00e9rob\u00e9es pr\u00e9ventivement, contraintes de r\u00e9pondre \u00e0 un ordre effectif de mobilisation ou de r\u00e9quisition ou, \u00e0 d\u00e9faut d'un tel ordre, \u00e0 la date \u00e0 laquelle elles ont commenc\u00e9 \u00e0 \u00eatre l'objet de recherches ou de poursuites. Cette p\u00e9riode prend fin au plus tard \u00e0 la date de lib\u00e9ration du territoire de la commune de refuge. Toutefois, pour les personnes mentionn\u00e9es au 3\u00b0 de l'article R. 344-4, cette p\u00e9riode prend fin, s'il y a lieu, \u00e0 la date de leur rapatriement en France.",
+            "texteHtml": "<p>La p\u00e9riode pendant laquelle les personnes mentionn\u00e9es aux articles R. 344-3 et R. 344-4 peuvent pr\u00e9tendre au titre de r\u00e9fractaires commence \u00e0 courir, selon les cat\u00e9gories consid\u00e9r\u00e9es :</p><p>1\u00b0 Ou bien \u00e0 la date de d\u00e9part port\u00e9e sur l'ordre de r\u00e9quisition ou sur l'ordre de mobilisation ;</p><p>2\u00b0 Ou bien \u00e0 la date de leur \u00e9vasion ;</p><p>3\u00b0 Ou bien \u00e0 la date d'expiration de leur premi\u00e8re permission en France ;</p><p>4\u00b0 Ou bien \u00e0 la date \u00e0 laquelle elles auraient \u00e9t\u00e9, si elles ne s'\u00e9taient d\u00e9rob\u00e9es pr\u00e9ventivement, contraintes de r\u00e9pondre \u00e0 un ordre effectif de mobilisation ou de r\u00e9quisition ou, \u00e0 d\u00e9faut d'un tel ordre, \u00e0 la date \u00e0 laquelle elles ont commenc\u00e9 \u00e0 \u00eatre l'objet de recherches ou de poursuites.</p><p>Cette p\u00e9riode prend fin au plus tard \u00e0 la date de lib\u00e9ration du territoire de la commune de refuge. Toutefois, pour les personnes mentionn\u00e9es au 3\u00b0 de l'article R. 344-4, cette p\u00e9riode prend fin, s'il y a lieu, \u00e0 la date de leur rapatriement en France.</p>",
+            "num": "R344-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-07-01",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033818960",
                         "id": "LEGISCTA000033818960",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION RECONNAISSANCE DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000033818960",
+                        "id": "LEGISCTA000047770455",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -64,15 +88,6 @@
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -80,24 +95,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033819246",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000033819246",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033819236",
+            "sectionParentId": "LEGISCTA000033819236",
+            "sectionParentTitre": "Sous-section 1 : Conditions d'obtention du titre de r\u00e9fractaire.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire (nouvelle)  &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre IV : AUTRES TITRES ET DROITS CORRESPONDANTS &gt; Chapitre IV : R\u00e9fractaires, personnes contraintes au travail en pays ennemi, patriotes transf\u00e9r\u00e9s en Allemagne et autres titres en lien avec la guerre 1939-1945 &gt; Section 1 : R\u00e9fractaires &gt; Sous-section 1 : Conditions d'obtention du titre de r\u00e9fractaire.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033819246",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R354 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R354",
-                    "articleId": "LEGIARTI000006795460",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                },
+                {
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033719487",
@@ -124,13 +208,43 @@
                     "dateDebutCible": "2016-12-30"
                 }
             ],
-            "num": "R344-5",
-            "origine": "LEGI",
-            "texte": "La p\u00e9riode pendant laquelle les personnes mentionn\u00e9es aux articles R. 344-3 et R. 344-4 peuvent pr\u00e9tendre au titre de r\u00e9fractaires commence \u00e0 courir, selon les cat\u00e9gories consid\u00e9r\u00e9es : 1\u00b0 Ou bien \u00e0 la date de d\u00e9part port\u00e9e sur l'ordre de r\u00e9quisition ou sur l'ordre de mobilisation ; 2\u00b0 Ou bien \u00e0 la date de leur \u00e9vasion ; 3\u00b0 Ou bien \u00e0 la date d'expiration de leur premi\u00e8re permission en France ; 4\u00b0 Ou bien \u00e0 la date \u00e0 laquelle elles auraient \u00e9t\u00e9, si elles ne s'\u00e9taient d\u00e9rob\u00e9es pr\u00e9ventivement, contraintes de r\u00e9pondre \u00e0 un ordre effectif de mobilisation ou de r\u00e9quisition ou, \u00e0 d\u00e9faut d'un tel ordre, \u00e0 la date \u00e0 laquelle elles ont commenc\u00e9 \u00e0 \u00eatre l'objet de recherches ou de poursuites. Cette p\u00e9riode prend fin au plus tard \u00e0 la date de lib\u00e9ration du territoire de la commune de refuge. Toutefois, pour les personnes mentionn\u00e9es au 3\u00b0 de l'article R. 344-4, cette p\u00e9riode prend fin, s'il y a lieu, \u00e0 la date de leur rapatriement en France.",
-            "texteHtml": "<p>La p\u00e9riode pendant laquelle les personnes mentionn\u00e9es aux articles R. 344-3 et R. 344-4 peuvent pr\u00e9tendre au titre de r\u00e9fractaires commence \u00e0 courir, selon les cat\u00e9gories consid\u00e9r\u00e9es :</p><p>1\u00b0 Ou bien \u00e0 la date de d\u00e9part port\u00e9e sur l'ordre de r\u00e9quisition ou sur l'ordre de mobilisation ;</p><p>2\u00b0 Ou bien \u00e0 la date de leur \u00e9vasion ;</p><p>3\u00b0 Ou bien \u00e0 la date d'expiration de leur premi\u00e8re permission en France ;</p><p>4\u00b0 Ou bien \u00e0 la date \u00e0 laquelle elles auraient \u00e9t\u00e9, si elles ne s'\u00e9taient d\u00e9rob\u00e9es pr\u00e9ventivement, contraintes de r\u00e9pondre \u00e0 un ordre effectif de mobilisation ou de r\u00e9quisition ou, \u00e0 d\u00e9faut d'un tel ordre, \u00e0 la date \u00e0 laquelle elles ont commenc\u00e9 \u00e0 \u00eatre l'objet de recherches ou de poursuites.</p><p>Cette p\u00e9riode prend fin au plus tard \u00e0 la date de lib\u00e9ration du territoire de la commune de refuge. Toutefois, pour les personnes mentionn\u00e9es au 3\u00b0 de l'article R. 344-4, cette p\u00e9riode prend fin, s'il y a lieu, \u00e0 la date de leur rapatriement en France.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R354 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R354",
+                    "articleId": "LEGIARTI000006795460",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033819246",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R344-5",
+                "344-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689260",
-    "num": "L4311-27",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006689261",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsqu'elle est motiv\u00e9e par une infirmit\u00e9 ou un \u00e9tat pathologique, la suspension du droit d'exercer prononc\u00e9e en application de l'article L. 4311-26 ne saurait avoir pour effet de priver l'infirmier ou l'infirmi\u00e8re salari\u00e9 de sa r\u00e9mun\u00e9ration jusqu'au prononc\u00e9 de la d\u00e9cision d\u00e9finitive.",
+            "texteHtml": "<p></p>   Lorsqu'elle est motiv\u00e9e par une infirmit\u00e9 ou un \u00e9tat pathologique, la suspension du droit d'exercer prononc\u00e9e en application de l'article L. 4311-26 ne saurait avoir pour effet de priver l'infirmier ou l'infirmi\u00e8re salari\u00e9 de sa r\u00e9mun\u00e9ration jusqu'au prononc\u00e9 de la d\u00e9cision d\u00e9finitive.<p></p><p></p>",
+            "num": "L4311-27",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1015286400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2147450,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -92,115 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006689261",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689260",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171306",
+            "sectionParentId": "LEGISCTA000021504202",
+            "sectionParentTitre": "Chapitre Ier : R\u00e8gles li\u00e9es \u00e0 l'exercice de la profession",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre Ier : Profession d'infirmier ou d'infirmi\u00e8re &gt; Chapitre Ier : Exercice de la profession.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689261",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4311-26 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4311-26",
-                    "articleId": "LEGIARTI000006689256",
-                    "natureText": "CODE",
-                    "date": 1599819945322,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4321-10 (AbD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4321-10",
-                    "articleId": "LEGIARTI000006689320",
-                    "natureText": "CODE",
-                    "date": 1599819945322,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1125100800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-2 (AbD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4322-2",
-                    "articleId": "LEGIARTI000006689360",
-                    "natureText": "CODE",
-                    "date": 1599819945323,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1092182400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4341-2 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4341-2",
-                    "articleId": "LEGIARTI000006689433",
-                    "natureText": "CODE",
-                    "date": 1599819945323,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1015286400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4342-2 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4342-2",
-                    "articleId": "LEGIARTI000006689445",
-                    "natureText": "CODE",
-                    "date": 1599819945323,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1015286400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4414-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4414-2",
-                    "articleId": "LEGIARTI000006689718",
-                    "natureText": "CODE",
-                    "date": 1599819945323,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1062806400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L482-13 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L482-13",
-                    "articleId": "LEGIARTI000006693290",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L482-13 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L482-13",
-                    "articleId": "LEGIARTI000006693290",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -239,15 +201,158 @@
                     "dateDebutCible": "2002-03-05"
                 }
             ],
-            "num": "L4311-27",
-            "origine": "LEGI",
-            "texte": "Lorsqu'elle est motiv\u00e9e par une infirmit\u00e9 ou un \u00e9tat pathologique, la suspension du droit d'exercer prononc\u00e9e en application de l'article L. 4311-26 ne saurait avoir pour effet de priver l'infirmier ou l'infirmi\u00e8re salari\u00e9 de sa r\u00e9mun\u00e9ration jusqu'au prononc\u00e9 de la d\u00e9cision d\u00e9finitive.",
-            "texteHtml": "<p></p>   Lorsqu'elle est motiv\u00e9e par une infirmit\u00e9 ou un \u00e9tat pathologique, la suspension du droit d'exercer prononc\u00e9e en application de l'article L. 4311-26 ne saurait avoir pour effet de priver l'infirmier ou l'infirmi\u00e8re salari\u00e9 de sa r\u00e9mun\u00e9ration jusqu'au prononc\u00e9 de la d\u00e9cision d\u00e9finitive.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2002-03-05T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4311-26 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4311-26",
+                    "articleId": "LEGIARTI000006689256",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1516320000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4321-10 (AbD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4321-10",
+                    "articleId": "LEGIARTI000006689320",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1125100800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-2 (AbD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4322-2",
+                    "articleId": "LEGIARTI000006689360",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1092182400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4341-2 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4341-2",
+                    "articleId": "LEGIARTI000006689433",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1015286400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4342-2 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4342-2",
+                    "articleId": "LEGIARTI000006689445",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1015286400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4414-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4414-2",
+                    "articleId": "LEGIARTI000006689718",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1062806400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L482-13 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L482-13",
+                    "articleId": "LEGIARTI000006693290",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L482-13 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L482-13",
+                    "articleId": "LEGIARTI000006693290",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689260",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1015286400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689261",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1015286400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4311-27",
+                "4311-27"
+            ],
+            "versionPrecedente": "LEGIARTI000006689260",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689260",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La suspension du droit d'exercer prononc\u00e9e en application de l'article L. 4311-26 ne saurait avoir pour effet de priver l'infirmier ou l'infirmi\u00e8re salari\u00e9 de sa r\u00e9mun\u00e9ration jusqu'au prononc\u00e9 de la d\u00e9cision d\u00e9finitive.",
+            "texteHtml": "<p></p>   La suspension du droit d'exercer prononc\u00e9e en application de l'article L. 4311-26 ne saurait avoir pour effet de priver l'infirmier ou l'infirmi\u00e8re salari\u00e9 de sa r\u00e9mun\u00e9ration jusqu'au prononc\u00e9 de la d\u00e9cision d\u00e9finitive.<p></p><p></p>",
+            "num": "L4311-27",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1015286400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2190399,
             "context": {
                 "titresTM": [
                     {
@@ -288,11 +393,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -337,115 +451,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689260",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689260",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171306",
+            "sectionParentId": "LEGISCTA000021504202",
+            "sectionParentTitre": "Chapitre Ier : R\u00e8gles li\u00e9es \u00e0 l'exercice de la profession",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre Ier : Profession d'infirmier ou d'infirmi\u00e8re &gt; Chapitre Ier : Exercice de la profession.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689260",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4311-26 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4311-26",
-                    "articleId": "LEGIARTI000006689256",
-                    "natureText": "CODE",
-                    "date": 1599819941890,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4321-10 (AbD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4321-10",
-                    "articleId": "LEGIARTI000006689320",
-                    "natureText": "CODE",
-                    "date": 1599819941890,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1125100800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-2 (AbD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4322-2",
-                    "articleId": "LEGIARTI000006689360",
-                    "natureText": "CODE",
-                    "date": 1599819941890,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1092182400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4341-2 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4341-2",
-                    "articleId": "LEGIARTI000006689433",
-                    "natureText": "CODE",
-                    "date": 1599819941890,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1015286400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4342-2 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4342-2",
-                    "articleId": "LEGIARTI000006689445",
-                    "natureText": "CODE",
-                    "date": 1599819941891,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1015286400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4414-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4414-2",
-                    "articleId": "LEGIARTI000006689718",
-                    "natureText": "CODE",
-                    "date": 1599819941891,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1062806400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L482-13 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L482-13",
-                    "articleId": "LEGIARTI000006693290",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L482-13 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L482-13",
-                    "articleId": "LEGIARTI000006693290",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -472,13 +524,140 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L4311-27",
-            "origine": "LEGI",
-            "texte": "La suspension du droit d'exercer prononc\u00e9e en application de l'article L. 4311-26 ne saurait avoir pour effet de priver l'infirmier ou l'infirmi\u00e8re salari\u00e9 de sa r\u00e9mun\u00e9ration jusqu'au prononc\u00e9 de la d\u00e9cision d\u00e9finitive.",
-            "texteHtml": "<p></p>   La suspension du droit d'exercer prononc\u00e9e en application de l'article L. 4311-26 ne saurait avoir pour effet de priver l'infirmier ou l'infirmi\u00e8re salari\u00e9 de sa r\u00e9mun\u00e9ration jusqu'au prononc\u00e9 de la d\u00e9cision d\u00e9finitive.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2002-03-05T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4311-26 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4311-26",
+                    "articleId": "LEGIARTI000006689256",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1516320000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4321-10 (AbD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4321-10",
+                    "articleId": "LEGIARTI000006689320",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1125100800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4322-2 (AbD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4322-2",
+                    "articleId": "LEGIARTI000006689360",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1092182400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4341-2 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4341-2",
+                    "articleId": "LEGIARTI000006689433",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1015286400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4342-2 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4342-2",
+                    "articleId": "LEGIARTI000006689445",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1015286400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4414-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4414-2",
+                    "articleId": "LEGIARTI000006689718",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1062806400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L482-13 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L482-13",
+                    "articleId": "LEGIARTI000006693290",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L482-13 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L482-13",
+                    "articleId": "LEGIARTI000006693290",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689260",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1015286400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689261",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1015286400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4311-27",
+                "4311-27"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689463",
-    "num": "L4351-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000021503933",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 l'article L. 4351-3 ou titulaires des autorisations pr\u00e9vues \u00e0 l'article L. 4351-4, et inscrites sur une liste d\u00e9partementale. L'int\u00e9ress\u00e9 porte le titre professionnel de manipulateur d'\u00e9lectroradiologie m\u00e9dicale, accompagn\u00e9 ou non d'un qualificatif.",
+            "texteHtml": "<p>Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006689464&dateTexte=&categorieLien=cid'>l'article L. 4351-3</a> ou titulaires des autorisations pr\u00e9vues \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006689465&dateTexte=&categorieLien=cid'>l'article L. 4351-4, </a>et inscrites sur une liste d\u00e9partementale. </p><p>L'int\u00e9ress\u00e9 porte le titre professionnel de manipulateur d'\u00e9lectroradiologie m\u00e9dicale, accompagn\u00e9 ou non d'un qualificatif. </p>",
+            "num": "L4351-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1261267200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -101,115 +125,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000021503933",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689463",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171323",
+            "sectionParentId": "LEGISCTA000021708987",
+            "sectionParentTitre": "Chapitre Ier : R\u00e8gles li\u00e9es \u00e0 l'exercice de la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre V : Profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale &gt; Chapitre Ier : Exercice de la profession.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000021503933",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000020527306",
-                    "textTitle": "D\u00e9cret n\u00b02009-414 du 15 avril 2009 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000020528564",
-                    "natureText": "DECRET",
-                    "date": 1599828656766,
-                    "parentCid": null,
-                    "numTexte": "2009-414",
-                    "datePubli": 1239926400000,
-                    "dateDebut": 1240012800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-3",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4351-3",
-                    "articleId": "LEGIARTI000006689464",
-                    "natureText": "CODE",
-                    "date": 1599828656766,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-4",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4351-4",
-                    "articleId": "LEGIARTI000006689465",
-                    "natureText": "CODE",
-                    "date": 1599828656766,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-5",
-                    "articleId": "LEGIARTI000006689467",
-                    "natureText": "CODE",
-                    "date": 1599828656766,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-6 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-6",
-                    "articleId": "LEGIARTI000006689468",
-                    "natureText": "CODE",
-                    "date": 1599828656767,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-7 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-7",
-                    "articleId": "LEGIARTI000006689469",
-                    "natureText": "CODE",
-                    "date": 1599828656767,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L504-14",
-                    "articleId": "LEGIARTI000006693369",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L504-14",
-                    "articleId": "LEGIARTI000006693368",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021495069",
@@ -224,15 +186,167 @@
                     "dateDebutCible": "2009-12-20"
                 }
             ],
-            "num": "L4351-2",
-            "origine": "LEGI",
-            "texte": "Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 l'article L. 4351-3 ou titulaires des autorisations pr\u00e9vues \u00e0 l'article L. 4351-4, et inscrites sur une liste d\u00e9partementale. L'int\u00e9ress\u00e9 porte le titre professionnel de manipulateur d'\u00e9lectroradiologie m\u00e9dicale, accompagn\u00e9 ou non d'un qualificatif.",
-            "texteHtml": "<p>Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 <a href='/article/LEGIARTI000006689464'>l'article L. 4351-3</a> ou titulaires des autorisations pr\u00e9vues \u00e0 <a href='/article/LEGIARTI000006689465'>l'article L. 4351-4, </a>et inscrites sur une liste d\u00e9partementale. </p><p>L'int\u00e9ress\u00e9 porte le titre professionnel de manipulateur d'\u00e9lectroradiologie m\u00e9dicale, accompagn\u00e9 ou non d'un qualificatif. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-12-20T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000020527306",
+                    "textTitle": "D\u00e9cret n\u00b02009-414 du 15 avril 2009 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000020528564",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2009-414",
+                    "datePubli": 1239926400000,
+                    "dateDebut": 1240012800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-3",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4351-3",
+                    "articleId": "LEGIARTI000006689464",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-4",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4351-4",
+                    "articleId": "LEGIARTI000006689465",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484956800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-5",
+                    "articleId": "LEGIARTI000006689467",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-6",
+                    "articleId": "LEGIARTI000006689468",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-7 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-7",
+                    "articleId": "LEGIARTI000006689469",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L504-14",
+                    "articleId": "LEGIARTI000006693369",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L504-14",
+                    "articleId": "LEGIARTI000006693368",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689463",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1212278400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018925413",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1212278400000,
+                    "dateFin": 1261267200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021503933",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1261267200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4351-2",
+                "4351-2"
+            ],
+            "versionPrecedente": "LEGIARTI000018925413",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018925413",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale et porter le titre de manipulateur d'\u00e9lectroradiologie m\u00e9dicale accompagn\u00e9 ou non d'un qualificatif les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 l'article L. 4351-3 ou titulaires des autorisations pr\u00e9vues \u00e0 l'article L. 4351-4, et inscrites sur une liste d\u00e9partementale. Le manipulateur d'\u00e9lectroradiologie m\u00e9dicale peut faire usage de son titre de formation dans la langue de l'Etat qui le lui a d\u00e9livr\u00e9. Il est tenu de faire figurer le lieu et l'\u00e9tablissement o\u00f9 il a \u00e9t\u00e9 obtenu. Le manipulateur d'\u00e9lectroradiologie m\u00e9dicale exerce son activit\u00e9 sous le titre professionnel fran\u00e7ais.",
+            "texteHtml": "<p>Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale et porter le titre de manipulateur d'\u00e9lectroradiologie m\u00e9dicale accompagn\u00e9 ou non d'un qualificatif les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006689464&dateTexte=&categorieLien=cid'>l'article L. 4351-3</a> ou titulaires des autorisations pr\u00e9vues \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006689465&dateTexte=&categorieLien=cid'>l'article L. 4351-4, </a>et inscrites sur une liste d\u00e9partementale. </p><p>Le manipulateur d'\u00e9lectroradiologie m\u00e9dicale peut faire usage de son titre de formation dans la langue de l'Etat qui le lui a d\u00e9livr\u00e9. Il est tenu de faire figurer le lieu et l'\u00e9tablissement o\u00f9 il a \u00e9t\u00e9 obtenu. Le manipulateur d'\u00e9lectroradiologie m\u00e9dicale exerce son activit\u00e9 sous le titre professionnel fran\u00e7ais.</p>",
+            "num": "L4351-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1212278400000,
+            "dateFin": 1261267200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -273,11 +387,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -331,115 +454,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018925413",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689463",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171323",
+            "sectionParentId": "LEGISCTA000021708987",
+            "sectionParentTitre": "Chapitre Ier : R\u00e8gles li\u00e9es \u00e0 l'exercice de la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre V : Profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale &gt; Chapitre Ier : Exercice de la profession.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000018925413",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000020527306",
-                    "textTitle": "D\u00e9cret n\u00b02009-414 du 15 avril 2009 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000020528564",
-                    "natureText": "DECRET",
-                    "date": 1599857140305,
-                    "parentCid": null,
-                    "numTexte": "2009-414",
-                    "datePubli": 1239926400000,
-                    "dateDebut": 1240012800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-3",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4351-3",
-                    "articleId": "LEGIARTI000006689464",
-                    "natureText": "CODE",
-                    "date": 1599857140306,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-4",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4351-4",
-                    "articleId": "LEGIARTI000006689465",
-                    "natureText": "CODE",
-                    "date": 1599857140306,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-5",
-                    "articleId": "LEGIARTI000006689467",
-                    "natureText": "CODE",
-                    "date": 1599857140306,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-6 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-6",
-                    "articleId": "LEGIARTI000006689468",
-                    "natureText": "CODE",
-                    "date": 1599857140306,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-7 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-7",
-                    "articleId": "LEGIARTI000006689469",
-                    "natureText": "CODE",
-                    "date": 1599857140306,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L504-14",
-                    "articleId": "LEGIARTI000006693369",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L504-14",
-                    "articleId": "LEGIARTI000006693368",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018885189",
@@ -454,15 +515,167 @@
                     "dateDebutCible": "2008-06-01"
                 }
             ],
-            "num": "L4351-2",
-            "origine": "LEGI",
-            "texte": "Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale et porter le titre de manipulateur d'\u00e9lectroradiologie m\u00e9dicale accompagn\u00e9 ou non d'un qualificatif les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 l'article L. 4351-3 ou titulaires des autorisations pr\u00e9vues \u00e0 l'article L. 4351-4, et inscrites sur une liste d\u00e9partementale. Le manipulateur d'\u00e9lectroradiologie m\u00e9dicale peut faire usage de son titre de formation dans la langue de l'Etat qui le lui a d\u00e9livr\u00e9. Il est tenu de faire figurer le lieu et l'\u00e9tablissement o\u00f9 il a \u00e9t\u00e9 obtenu. Le manipulateur d'\u00e9lectroradiologie m\u00e9dicale exerce son activit\u00e9 sous le titre professionnel fran\u00e7ais.",
-            "texteHtml": "<p>Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale et porter le titre de manipulateur d'\u00e9lectroradiologie m\u00e9dicale accompagn\u00e9 ou non d'un qualificatif les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 <a href='/article/LEGIARTI000006689464'>l'article L. 4351-3</a> ou titulaires des autorisations pr\u00e9vues \u00e0 <a href='/article/LEGIARTI000006689465'>l'article L. 4351-4, </a>et inscrites sur une liste d\u00e9partementale. </p><p>Le manipulateur d'\u00e9lectroradiologie m\u00e9dicale peut faire usage de son titre de formation dans la langue de l'Etat qui le lui a d\u00e9livr\u00e9. Il est tenu de faire figurer le lieu et l'\u00e9tablissement o\u00f9 il a \u00e9t\u00e9 obtenu. Le manipulateur d'\u00e9lectroradiologie m\u00e9dicale exerce son activit\u00e9 sous le titre professionnel fran\u00e7ais.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-06-01T00:00:00.000Z",
-            "dateFin": "2009-12-20T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000020527306",
+                    "textTitle": "D\u00e9cret n\u00b02009-414 du 15 avril 2009 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000020528564",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2009-414",
+                    "datePubli": 1239926400000,
+                    "dateDebut": 1240012800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-3",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4351-3",
+                    "articleId": "LEGIARTI000006689464",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-4",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4351-4",
+                    "articleId": "LEGIARTI000006689465",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484956800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-5",
+                    "articleId": "LEGIARTI000006689467",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-6",
+                    "articleId": "LEGIARTI000006689468",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-7 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-7",
+                    "articleId": "LEGIARTI000006689469",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L504-14",
+                    "articleId": "LEGIARTI000006693369",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L504-14",
+                    "articleId": "LEGIARTI000006693368",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689463",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1212278400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018925413",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1212278400000,
+                    "dateFin": 1261267200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021503933",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1261267200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4351-2",
+                "4351-2"
+            ],
+            "versionPrecedente": "LEGIARTI000006689463",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689463",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale et porter le titre de manipulateur d'\u00e9lectroradiologie m\u00e9dicale accompagn\u00e9 ou non d'un qualificatif les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 l'article L. 4351-3 ou titulaires des autorisations pr\u00e9vues \u00e0 l'article L. 4351-4, et inscrites sur une liste d\u00e9partementale.",
+            "texteHtml": "<p></p>   Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale et porter le titre de manipulateur d'\u00e9lectroradiologie m\u00e9dicale accompagn\u00e9 ou non d'un qualificatif les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 l'article L. 4351-3 ou titulaires des autorisations pr\u00e9vues \u00e0 l'article L. 4351-4, et inscrites sur une liste d\u00e9partementale.<p></p><p></p>",
+            "num": "L4351-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1212278400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -503,11 +716,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -561,101 +783,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689463",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689463",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171323",
+            "sectionParentId": "LEGISCTA000021708987",
+            "sectionParentTitre": "Chapitre Ier : R\u00e8gles li\u00e9es \u00e0 l'exercice de la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre V : Profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale &gt; Chapitre Ier : Exercice de la profession.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006689463",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000020527306",
-                    "textTitle": "D\u00e9cret n\u00b02009-414 du 15 avril 2009 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000020528564",
-                    "natureText": "DECRET",
-                    "date": 1599819871521,
-                    "parentCid": null,
-                    "numTexte": "2009-414",
-                    "datePubli": 1239926400000,
-                    "dateDebut": 1240012800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-3",
-                    "articleId": "LEGIARTI000006689464",
-                    "natureText": "CODE",
-                    "date": 1599819871521,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-5",
-                    "articleId": "LEGIARTI000006689467",
-                    "natureText": "CODE",
-                    "date": 1599819871521,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-6 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-6",
-                    "articleId": "LEGIARTI000006689468",
-                    "natureText": "CODE",
-                    "date": 1599819871521,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-7 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4351-7",
-                    "articleId": "LEGIARTI000006689469",
-                    "natureText": "CODE",
-                    "date": 1599819871522,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L504-14",
-                    "articleId": "LEGIARTI000006693369",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L504-14",
-                    "articleId": "LEGIARTI000006693368",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -682,13 +856,136 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L4351-2",
-            "origine": "LEGI",
-            "texte": "Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale et porter le titre de manipulateur d'\u00e9lectroradiologie m\u00e9dicale accompagn\u00e9 ou non d'un qualificatif les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 l'article L. 4351-3 ou titulaires des autorisations pr\u00e9vues \u00e0 l'article L. 4351-4, et inscrites sur une liste d\u00e9partementale.",
-            "texteHtml": "<p></p>   Peuvent exercer la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale et porter le titre de manipulateur d'\u00e9lectroradiologie m\u00e9dicale accompagn\u00e9 ou non d'un qualificatif les personnes titulaires des dipl\u00f4mes, certificats ou titres mentionn\u00e9s \u00e0 l'article L. 4351-3 ou titulaires des autorisations pr\u00e9vues \u00e0 l'article L. 4351-4, et inscrites sur une liste d\u00e9partementale.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2008-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000020527306",
+                    "textTitle": "D\u00e9cret n\u00b02009-414 du 15 avril 2009 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000020528564",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2009-414",
+                    "datePubli": 1239926400000,
+                    "dateDebut": 1240012800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-3",
+                    "articleId": "LEGIARTI000006689464",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-5",
+                    "articleId": "LEGIARTI000006689467",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-6",
+                    "articleId": "LEGIARTI000006689468",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4351-7 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4351-7",
+                    "articleId": "LEGIARTI000006689469",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L504-14",
+                    "articleId": "LEGIARTI000006693369",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L504-14 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L504-14",
+                    "articleId": "LEGIARTI000006693368",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689463",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1212278400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018925413",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1212278400000,
+                    "dateFin": 1261267200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021503933",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1261267200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4351-2",
+                "4351-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033740729",
-    "num": "R4624-55",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033740738",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'avis m\u00e9dical d'aptitude ou d'inaptitude \u00e9mis par le m\u00e9decin du travail est transmis au salari\u00e9 ainsi qu'\u00e0 l'employeur par tout moyen leur conf\u00e9rant une date certaine. L'employeur le conserve pour \u00eatre en mesure de le pr\u00e9senter \u00e0 tout moment, sur leur demande, \u00e0 l'inspecteur du travail et au m\u00e9decin inspecteur du travail. Une copie de l'avis est vers\u00e9e au dossier m\u00e9dical en sant\u00e9 au travail du travailleur.",
+            "texteHtml": "<p align='left'>L'avis m\u00e9dical d'aptitude ou d'inaptitude \u00e9mis par le m\u00e9decin du travail est transmis au salari\u00e9 ainsi qu'\u00e0 l'employeur par tout moyen leur conf\u00e9rant une date certaine. L'employeur le conserve pour \u00eatre en mesure de le pr\u00e9senter \u00e0 tout moment, sur leur demande, \u00e0 l'inspecteur du travail et au m\u00e9decin inspecteur du travail. Une copie de l'avis est vers\u00e9e au dossier m\u00e9dical en sant\u00e9 au travail du travailleur. </p>",
+            "num": "R4624-55",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 536870911,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -128,40 +152,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033740738",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033740729",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493236",
+            "sectionParentId": "LEGISCTA000033769141",
+            "sectionParentTitre": "Sous-section 3 : Avis m\u00e9dicaux d'aptitude et d'inaptitude",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre IV : Actions et moyens des membres de l'\u00e9quipe pluridisciplinaire de sant\u00e9 au travail &gt; Section 3 : Documents et rapports. &gt; Sous-section 3 : Avis m\u00e9dicaux d'aptitude et d'inaptitude",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033740738",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000035840515",
-                    "textTitle": "Arr\u00eat\u00e9 du 16 octobre 2017 - art. 2, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "JORFARTI000035840523",
-                    "natureText": "ARRETE",
-                    "date": 1599848856896,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1508544000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000035840515",
-                    "textTitle": "Arr\u00eat\u00e9 du 16 octobre 2017 - art. 3, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "JORFARTI000035840526",
-                    "natureText": "ARRETE",
-                    "date": 1599848856896,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1508544000000,
-                    "dateDebut": 32472144000000
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033723789",
@@ -176,13 +213,60 @@
                     "dateDebutCible": "2017-01-01"
                 }
             ],
-            "num": "R4624-55",
-            "origine": "LEGI",
-            "texte": "L'avis m\u00e9dical d'aptitude ou d'inaptitude \u00e9mis par le m\u00e9decin du travail est transmis au salari\u00e9 ainsi qu'\u00e0 l'employeur par tout moyen leur conf\u00e9rant une date certaine. L'employeur le conserve pour \u00eatre en mesure de le pr\u00e9senter \u00e0 tout moment, sur leur demande, \u00e0 l'inspecteur du travail et au m\u00e9decin inspecteur du travail. Une copie de l'avis est vers\u00e9e au dossier m\u00e9dical en sant\u00e9 au travail du travailleur.",
-            "texteHtml": "<p align='left'>L'avis m\u00e9dical d'aptitude ou d'inaptitude \u00e9mis par le m\u00e9decin du travail est transmis au salari\u00e9 ainsi qu'\u00e0 l'employeur par tout moyen leur conf\u00e9rant une date certaine. L'employeur le conserve pour \u00eatre en mesure de le pr\u00e9senter \u00e0 tout moment, sur leur demande, \u00e0 l'inspecteur du travail et au m\u00e9decin inspecteur du travail. Une copie de l'avis est vers\u00e9e au dossier m\u00e9dical en sant\u00e9 au travail du travailleur. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000035840515",
+                    "textTitle": "Arr\u00eat\u00e9 du 16 octobre 2017 - art. 2, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "JORFARTI000035840523",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1508544000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000035840515",
+                    "textTitle": "Arr\u00eat\u00e9 du 16 octobre 2017 - art. 3, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "JORFARTI000035840526",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1508544000000,
+                    "dateDebut": 32472144000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033740738",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4624-55",
+                "4624-55"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

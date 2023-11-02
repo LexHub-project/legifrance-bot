@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006833494",
-    "num": "L322-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006833494",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Des d\u00e9crets en Conseil d'Etat d\u00e9terminent les conditions d'application du pr\u00e9sent chapitre.",
+            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat d\u00e9terminent les conditions d'application du pr\u00e9sent chapitre.<p></p><p></p>",
+            "num": "L322-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 969494400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -65,45 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006833494",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006833494",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176500",
+            "sectionParentId": "LEGISCTA000006176500",
+            "sectionParentTitre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre III : Espaces naturels &gt; Titre II : Littoral &gt; Chapitre II : Conservatoire de l'espace littoral et des rivages lacustres &gt; Section 1 : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006833494",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L653-3 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L653-3",
-                    "articleId": "LEGIARTI000006834868",
-                    "natureText": "CODE",
-                    "date": 1599825813148,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1136073600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L243-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L243-2",
-                    "articleId": "LEGIARTI000006582956",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L243-2",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -130,13 +153,66 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L322-2",
-            "origine": "LEGI",
-            "texte": "Des d\u00e9crets en Conseil d'Etat d\u00e9terminent les conditions d'application du pr\u00e9sent chapitre.",
-            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat d\u00e9terminent les conditions d'application du pr\u00e9sent chapitre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-09-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L653-3 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L653-3",
+                    "articleId": "LEGIARTI000006834868",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1136073600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L243-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L243-2",
+                    "articleId": "LEGIARTI000006582956",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L243-2",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833494",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L322-2",
+                "322-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006687614",
-    "num": "L2323-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000020891854",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les modalit\u00e9s d'application du pr\u00e9sent chapitre, et notamment les conditions techniques d'organisation et de fonctionnement des lactariums, sont d\u00e9termin\u00e9es par d\u00e9cret.",
+            "texteHtml": "<p>Les modalit\u00e9s d'application du pr\u00e9sent chapitre, et notamment les conditions techniques d'organisation et de fonctionnement des lactariums, sont d\u00e9termin\u00e9es par d\u00e9cret. </p>",
+            "num": "L2323-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1248307200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -92,30 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000020891854",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006687614",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171155",
+            "sectionParentId": "LEGISCTA000006171155",
+            "sectionParentTitre": "Chapitre III : Lactariums.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Deuxi\u00e8me partie : Sant\u00e9 de la famille, de la m\u00e8re et de l'enfant &gt; Livre III : Etablissements, services et organismes &gt; Titre II : Autres \u00e9tablissements et services &gt; Chapitre III : Lactariums.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000020891854",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L190-2",
-                    "articleId": "LEGIARTI000006692591",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L190-2",
-                    "articleId": "LEGIARTI000006692591",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000020879475",
@@ -130,15 +168,79 @@
                     "dateDebutCible": "2009-07-23"
                 }
             ],
-            "num": "L2323-3",
-            "origine": "LEGI",
-            "texte": "Les modalit\u00e9s d'application du pr\u00e9sent chapitre, et notamment les conditions techniques d'organisation et de fonctionnement des lactariums, sont d\u00e9termin\u00e9es par d\u00e9cret.",
-            "texteHtml": "<p>Les modalit\u00e9s d'application du pr\u00e9sent chapitre, et notamment les conditions techniques d'organisation et de fonctionnement des lactariums, sont d\u00e9termin\u00e9es par d\u00e9cret. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-07-23T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L190-2",
+                    "articleId": "LEGIARTI000006692591",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L190-2",
+                    "articleId": "LEGIARTI000006692591",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006687614",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1248307200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020891854",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1248307200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2323-3",
+                "2323-3"
+            ],
+            "versionPrecedente": "LEGIARTI000006687614",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006687614",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p></p>   Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
+            "num": "L2323-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1248307200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -228,30 +330,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006687614",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006687614",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171155",
+            "sectionParentId": "LEGISCTA000006171155",
+            "sectionParentTitre": "Chapitre III : Lactariums.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Deuxi\u00e8me partie : Sant\u00e9 de la famille, de la m\u00e8re et de l'enfant &gt; Livre III : Etablissements, services et organismes &gt; Titre II : Autres \u00e9tablissements et services &gt; Chapitre III : Lactariums.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006687614",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L190-2",
-                    "articleId": "LEGIARTI000006692591",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L190-2",
-                    "articleId": "LEGIARTI000006692591",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -278,13 +403,61 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L2323-3",
-            "origine": "LEGI",
-            "texte": "Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.",
-            "texteHtml": "<p></p>   Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2009-07-23T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L190-2",
+                    "articleId": "LEGIARTI000006692591",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L190-2",
+                    "articleId": "LEGIARTI000006692591",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006687614",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1248307200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020891854",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1248307200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2323-3",
+                "2323-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

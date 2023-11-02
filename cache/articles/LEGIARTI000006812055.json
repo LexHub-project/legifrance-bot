@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006812055",
-    "num": "R150-16",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000020092824",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions du pr\u00e9sent titre sont applicables dans les territoires de la Nouvelle-Cal\u00e9donie, de la Polyn\u00e9sie fran\u00e7aise, des Terres australes et antarctiques fran\u00e7aises et de Wallis-et-Futuna.",
+            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre sont applicables dans les territoires de la Nouvelle-Cal\u00e9donie, de la Polyn\u00e9sie fran\u00e7aise, des Terres australes et antarctiques fran\u00e7aises et de Wallis-et-Futuna.</p><p></p><p></p>",
+            "num": "R150-16",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1230768000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 730133,
             "context": {
                 "titresTM": [
                     {
@@ -65,39 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000020092824",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006812055",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175363",
+            "sectionParentId": "LEGISCTA000006175363",
+            "sectionParentTitre": "Section III : Tirages au sort.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Le contrat. &gt; Titre V : Le contrat de capitalisation. &gt; Chapitre unique &gt; Section III : Tirages au sort.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000020092824",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000304082",
-                    "textTitle": "D\u00e9cret 72-936 1972-10-10 art. 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000304082",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R150-17 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R150-17",
-                    "articleId": "LEGIARTI000006812057",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R150-17 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R150-17",
-                    "articleId": "LEGIARTI000006812057",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000020020537",
@@ -112,15 +141,97 @@
                     "dateDebutCible": "2009-01-02"
                 }
             ],
-            "num": "R150-16",
-            "origine": "LEGI",
-            "texte": "Les dispositions du pr\u00e9sent titre sont applicables dans les territoires de la Nouvelle-Cal\u00e9donie, de la Polyn\u00e9sie fran\u00e7aise, des Terres australes et antarctiques fran\u00e7aises et de Wallis-et-Futuna.",
-            "texteHtml": "<p>Les dispositions du pr\u00e9sent titre sont applicables dans les territoires de la Nouvelle-Cal\u00e9donie, de la Polyn\u00e9sie fran\u00e7aise, des Terres australes et antarctiques fran\u00e7aises et de Wallis-et-Futuna.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000304082",
+                    "textTitle": "D\u00e9cret 72-936 1972-10-10 art. 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000304082",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R150-17 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R150-17",
+                    "articleId": "LEGIARTI000006812057",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R150-17 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R150-17",
+                    "articleId": "LEGIARTI000006812057",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006812055",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 504921600000,
+                    "dateFin": 741484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006812056",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 741484800000,
+                    "dateFin": 1230768000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020092824",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1230768000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R150-16",
+                "150-16"
+            ],
+            "versionPrecedente": "LEGIARTI000006812056",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006812056",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions du pr\u00e9sent titre sont applicables dans les territoires de la Nouvelle-Cal\u00e9donie, de la Polyn\u00e9sie fran\u00e7aise, des Terres australes et antarctiques fran\u00e7aises et de Wallis-et-Futuna et de Mayotte.",
+            "texteHtml": "<p></p>   Les dispositions du pr\u00e9sent titre sont applicables dans les territoires de la Nouvelle-Cal\u00e9donie, de la Polyn\u00e9sie fran\u00e7aise, des Terres australes et antarctiques fran\u00e7aises et de Wallis-et-Futuna et de Mayotte.<p></p><p></p>",
+            "num": "R150-16",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 741484800000,
+            "dateFin": 1230768000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 730133,
             "context": {
                 "titresTM": [
                     {
@@ -183,39 +294,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006812056",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006812055",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175363",
+            "sectionParentId": "LEGISCTA000006175363",
+            "sectionParentTitre": "Section III : Tirages au sort.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Le contrat. &gt; Titre V : Le contrat de capitalisation. &gt; Chapitre unique &gt; Section III : Tirages au sort.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006812056",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000304082",
-                    "textTitle": "D\u00e9cret 72-936 1972-10-10 art. 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000304082",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R150-17 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R150-17",
-                    "articleId": "LEGIARTI000006812057",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R150-17 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R150-17",
-                    "articleId": "LEGIARTI000006812057",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "Loi 2001-616 2001-07-11 art. 75 : Dans tous les textes l\u00e9gislatifs et r\u00e9glementaires en vigueur \u00e0 Mayotte, la r\u00e9f\u00e9rence \u00e0 la \"collectivit\u00e9 territoriale de Mayotte\" est remplac\u00e9e par la r\u00e9f\u00e9rence \u00e0 \"Mayotte\", et la r\u00e9f\u00e9rence \u00e0 la \"collectivit\u00e9 territoriale\" est remplac\u00e9e par la r\u00e9f\u00e9rence \u00e0 la \"collectivit\u00e9 d\u00e9partementale\".",
+            "notaHtml": "<p> Loi 2001-616 2001-07-11 art. 75 : Dans tous les textes l\u00e9gislatifs et r\u00e9glementaires en vigueur \u00e0 Mayotte, la r\u00e9f\u00e9rence \u00e0 la \"collectivit\u00e9 territoriale de Mayotte\" est remplac\u00e9e par la r\u00e9f\u00e9rence \u00e0 \"Mayotte\", et la r\u00e9f\u00e9rence \u00e0 la \"collectivit\u00e9 territoriale\" est remplac\u00e9e par la r\u00e9f\u00e9rence \u00e0 la \"collectivit\u00e9 d\u00e9partementale\". </p><p></p><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000507291",
@@ -254,15 +379,97 @@
                     "dateDebutCible": "1993-07-01"
                 }
             ],
-            "num": "R150-16",
-            "origine": "LEGI",
-            "texte": "Les dispositions du pr\u00e9sent titre sont applicables dans les territoires de la Nouvelle-Cal\u00e9donie, de la Polyn\u00e9sie fran\u00e7aise, des Terres australes et antarctiques fran\u00e7aises et de Wallis-et-Futuna et de Mayotte.",
-            "texteHtml": "<p></p>   Les dispositions du pr\u00e9sent titre sont applicables dans les territoires de la Nouvelle-Cal\u00e9donie, de la Polyn\u00e9sie fran\u00e7aise, des Terres australes et antarctiques fran\u00e7aises et de Wallis-et-Futuna et de Mayotte.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1993-07-01T00:00:00.000Z",
-            "dateFin": "2009-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000304082",
+                    "textTitle": "D\u00e9cret 72-936 1972-10-10 art. 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000304082",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R150-17 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R150-17",
+                    "articleId": "LEGIARTI000006812057",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R150-17 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R150-17",
+                    "articleId": "LEGIARTI000006812057",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006812055",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 504921600000,
+                    "dateFin": 741484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006812056",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 741484800000,
+                    "dateFin": 1230768000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020092824",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1230768000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R150-16",
+                "150-16"
+            ],
+            "versionPrecedente": "LEGIARTI000006812055",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006812055",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les documents remis au client au moment de la souscription et valant preuve de l'engagement doivent comporter l'indication de la dur\u00e9e du d\u00e9lai accord\u00e9 pour l'exercice du droit de d\u00e9nonciation, ainsi que le rappel des conditions de cet exercice.",
+            "texteHtml": "<p></p>   Les documents remis au client au moment de la souscription et valant preuve de l'engagement doivent comporter l'indication de la dur\u00e9e du d\u00e9lai accord\u00e9 pour l'exercice du droit de d\u00e9nonciation, ainsi que le rappel des conditions de cet exercice.<p></p><p></p>",
+            "num": "R150-16",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 504921600000,
+            "dateFin": 741484800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -325,26 +532,77 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006812055",
-            "lienAutres": [
+            "cid": "LEGIARTI000006812055",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175365",
+            "sectionParentId": "LEGISCTA000006175365",
+            "sectionParentTitre": "Section IV : Facult\u00e9 de d\u00e9nonciation.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Le contrat. &gt; Titre V : Le contrat de capitalisation. &gt; Chapitre unique",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006812055",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000507941",
-                    "textTitle": "D\u00e9cret 85-1447 1985-12-30 art. 4 III",
-                    "linkType": "SPEC_APPLI",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000507291",
+                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
+                    "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "JORFTEXT000000507941",
-                    "natureText": "DECRET"
+                    "articleId": "JORFTEXT000000507291",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
                 },
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. L150-1 (M)",
-                    "linkType": "TXT_SOURCE",
+                    "textCid": "JORFTEXT000000507941",
+                    "textTitle": "D\u00e9cret n\u00b085-1447 du 30 d\u00e9cembre 1985 - art. 4 (V) JORF 31 d\u00e9cembre 1985 en vigueur le 1er janvier 1986",
+                    "linkType": "MODIFICATION",
                     "linkOrientation": "source",
-                    "articleNum": "L150-1",
-                    "articleId": "LEGIARTI000006793851",
-                    "natureText": "CODE"
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000006843443",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1985-12-31",
+                    "dateSignaTexte": "1985-12-30",
+                    "dateDebutCible": "1986-01-01"
                 }
             ],
             "lienCitations": [
@@ -356,7 +614,6 @@
                     "articleNum": "L150-1",
                     "articleId": "LEGIARTI000006793851",
                     "natureText": "CODE",
-                    "date": 1599810641085,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -392,39 +649,68 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000000507291",
-                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000507291",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "1976-07-21",
-                    "dateSignaTexte": "1976-07-16",
-                    "dateDebutCible": "2999-01-01"
-                },
+            "lienAutres": [
                 {
                     "textCid": "JORFTEXT000000507941",
-                    "textTitle": "D\u00e9cret n\u00b085-1447 du 30 d\u00e9cembre 1985 - art. 4 (V) JORF 31 d\u00e9cembre 1985 en vigueur le 1er janvier 1986",
-                    "linkType": "MODIFICATION",
+                    "textTitle": "D\u00e9cret 85-1447 1985-12-30 art. 4 III",
+                    "linkType": "SPEC_APPLI",
                     "linkOrientation": "source",
-                    "articleNum": "4",
-                    "articleId": "LEGIARTI000006843443",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "1985-12-31",
-                    "dateSignaTexte": "1985-12-30",
-                    "dateDebutCible": "1986-01-01"
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000507941",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L150-1 (M)",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L150-1",
+                    "articleId": "LEGIARTI000006793851",
+                    "natureText": "CODE"
                 }
             ],
-            "num": "R150-16",
-            "origine": "LEGI",
-            "texte": "Les documents remis au client au moment de la souscription et valant preuve de l'engagement doivent comporter l'indication de la dur\u00e9e du d\u00e9lai accord\u00e9 pour l'exercice du droit de d\u00e9nonciation, ainsi que le rappel des conditions de cet exercice.",
-            "texteHtml": "<p></p>   Les documents remis au client au moment de la souscription et valant preuve de l'engagement doivent comporter l'indication de la dur\u00e9e du d\u00e9lai accord\u00e9 pour l'exercice du droit de d\u00e9nonciation, ainsi que le rappel des conditions de cet exercice.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1986-01-01T00:00:00.000Z",
-            "dateFin": "1993-07-01T00:00:00.000Z"
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006812055",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 504921600000,
+                    "dateFin": 741484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006812056",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 741484800000,
+                    "dateFin": 1230768000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020092824",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1230768000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R150-16",
+                "150-16"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

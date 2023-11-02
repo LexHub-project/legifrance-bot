@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000025505443",
-    "num": "L253-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025505443",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La commission d\u00e9partementale de vid\u00e9oprotection peut \u00e0 tout moment exercer, sauf en mati\u00e8re de d\u00e9fense nationale, un contr\u00f4le sur les conditions de fonctionnement des syst\u00e8mes de vid\u00e9oprotection r\u00e9pondant aux conditions fix\u00e9es aux articles L. 251-2 et L. 251-3 . Elle \u00e9met, le cas \u00e9ch\u00e9ant, des recommandations et propose la suspension ou la suppression des dispositifs non autoris\u00e9s, non conformes \u00e0 leur autorisation ou dont il est fait un usage anormal. Elle informe le maire de la commune concern\u00e9e de cette proposition.",
+            "texteHtml": "<p><br/>La commission d\u00e9partementale de vid\u00e9oprotection peut \u00e0 tout moment exercer, sauf en mati\u00e8re de d\u00e9fense nationale, un contr\u00f4le sur les conditions de fonctionnement des syst\u00e8mes de vid\u00e9oprotection r\u00e9pondant aux conditions fix\u00e9es aux articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000025505409&dateTexte=&categorieLien=cid' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L251-2 (VD)'>L. 251-2 et L. 251-3</a>. Elle \u00e9met, le cas \u00e9ch\u00e9ant, des recommandations et propose la suspension ou la suppression des dispositifs non autoris\u00e9s, non conformes \u00e0 leur autorisation ou dont il est fait un usage anormal. Elle informe le maire de la commune concern\u00e9e de cette proposition.</p>",
+            "num": "L253-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1335830400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -34,15 +49,24 @@
                     },
                     {
                         "debut": "2012-05-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Chapitre III : Contr\u00f4le et droit d'acc\u00e8s",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025505441",
                         "id": "LEGISCTA000025508168",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505441",
+                        "id": "LEGISCTA000047569426",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 44,
                 "titreTxt": [
                     {
@@ -56,64 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025505443",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025505443",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025505441",
+            "sectionParentId": "LEGISCTA000047569426",
+            "sectionParentTitre": "Chapitre III : Contr\u00f4le",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE II : ORDRE ET S\u00c9CURIT\u00c9 PUBLICS &gt; TITRE V : VID\u00c9OPROTECTION &gt; Chapitre III : Contr\u00f4le et droit d'acc\u00e8s",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025505443",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000032282279",
-                    "textTitle": "LOI n\u00b02016-339 du 22 mars 2016 - art. 2, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "JORFARTI000032282293",
-                    "natureText": "LOI",
-                    "date": 1599874249098,
-                    "parentCid": null,
-                    "numTexte": "2016-339",
-                    "datePubli": 1458691200000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L251-2 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L251-2",
-                    "articleId": "LEGIARTI000025505409",
-                    "natureText": "CODE",
-                    "date": 1599874249098,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1335830400000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L2251-4-1 (MMN)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L2251-4-1",
-                    "articleId": "LEGIARTI000032284053",
-                    "natureText": "CODE",
-                    "date": 1599874249098,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000369046",
-                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 10 III, al. 7 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000023721790",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025498645",
@@ -140,13 +153,83 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L253-1",
-            "origine": "LEGI",
-            "texte": "La commission d\u00e9partementale de vid\u00e9oprotection peut \u00e0 tout moment exercer, sauf en mati\u00e8re de d\u00e9fense nationale, un contr\u00f4le sur les conditions de fonctionnement des syst\u00e8mes de vid\u00e9oprotection r\u00e9pondant aux conditions fix\u00e9es aux articles L. 251-2 et L. 251-3 . Elle \u00e9met, le cas \u00e9ch\u00e9ant, des recommandations et propose la suspension ou la suppression des dispositifs non autoris\u00e9s, non conformes \u00e0 leur autorisation ou dont il est fait un usage anormal. Elle informe le maire de la commune concern\u00e9e de cette proposition.",
-            "texteHtml": "<p><br/>La commission d\u00e9partementale de vid\u00e9oprotection peut \u00e0 tout moment exercer, sauf en mati\u00e8re de d\u00e9fense nationale, un contr\u00f4le sur les conditions de fonctionnement des syst\u00e8mes de vid\u00e9oprotection r\u00e9pondant aux conditions fix\u00e9es aux articles <a href='/article/LEGIARTI000025505409' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L251-2 (VD)'>L. 251-2 et L. 251-3</a>. Elle \u00e9met, le cas \u00e9ch\u00e9ant, des recommandations et propose la suspension ou la suppression des dispositifs non autoris\u00e9s, non conformes \u00e0 leur autorisation ou dont il est fait un usage anormal. Elle informe le maire de la commune concern\u00e9e de cette proposition.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-05-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000032282279",
+                    "textTitle": "LOI n\u00b02016-339 du 22 mars 2016 - art. 2, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "JORFARTI000032282293",
+                    "natureText": "LOI",
+                    "parentCid": null,
+                    "numTexte": "2016-339",
+                    "datePubli": 1458691200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L251-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L251-2",
+                    "articleId": "LEGIARTI000025505409",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1509840000000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L2251-4-1 (MMN)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2251-4-1",
+                    "articleId": "LEGIARTI000032284053",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000369046",
+                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 10 III, al. 7 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000023721790",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025505443",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L253-1",
+                "253-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006905551",
-    "num": "R227-8",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006905551",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les personnes qui participent \u00e0 l'un des accueils mentionn\u00e9s \u00e0 l'article R. 227-1 doivent produire, avant leur entr\u00e9e en fonction, un document attestant qu'elles ont satisfait aux obligations l\u00e9gales en mati\u00e8re de vaccination.",
+            "texteHtml": "<p></p>Les personnes qui participent \u00e0 l'un des accueils mentionn\u00e9s \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074069&idArticle=LEGIARTI000006905537&dateTexte=&categorieLien=cid' title='Code de l'action sociale et des familles - art. R227-1 (VT)'>R. 227-1</a> doivent produire, avant leur entr\u00e9e en fonction, un document attestant qu'elles ont satisfait aux obligations l\u00e9gales en mati\u00e8re de vaccination.<p></p><p></p>",
+            "num": "R227-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1098748800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -83,9 +98,67 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006905551",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006905551",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196004",
+            "sectionParentId": "LEGISCTA000006196004",
+            "sectionParentTitre": "Paragraphe 1 : Dispositions relatives \u00e0 l'hygi\u00e8ne et \u00e0 la s\u00e9curit\u00e9",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre II : Diff\u00e9rentes formes d'aide et d'action sociales &gt; Titre II : Enfance &gt; Chapitre VII : Mineurs accueillis hors du domicile parental &gt; Section 1 : Protection des mineurs \u00e0 l'occasion des vacances scolaires, des cong\u00e9s professionnels et des loisirs &gt; Sous-section unique : Dispositions g\u00e9n\u00e9rales &gt; Paragraphe 1 : Dispositions relatives \u00e0 l'hygi\u00e8ne et \u00e0 la s\u00e9curit\u00e9",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006905551",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074069",
+                    "titre": "Code de l'action sociale et des familles",
+                    "titreLong": "Code de l'action sociale et des familles",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 977529600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074069",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000441044",
+                    "textTitle": "D\u00e9cret 2004-1136 2004-10-21",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000441044",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2004-10-26",
+                    "dateSignaTexte": "2004-10-21",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006074069",
@@ -95,7 +168,6 @@
                     "articleNum": "D432-7",
                     "articleId": "LEGIARTI000018261099",
                     "natureText": "CODE",
-                    "date": 1599108992961,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -109,7 +181,6 @@
                     "articleNum": "R227-1",
                     "articleId": "LEGIARTI000006905537",
                     "natureText": "CODE",
-                    "date": 1599108992961,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -123,7 +194,6 @@
                     "articleNum": "D773-2-5",
                     "articleId": "LEGIARTI000018518653",
                     "natureText": "CODE",
-                    "date": 1599108992961,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -150,27 +220,31 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000441044",
-                    "textTitle": "D\u00e9cret 2004-1136 2004-10-21",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000441044",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2004-10-26",
-                    "dateSignaTexte": "2004-10-21",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006905551",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1098748800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R227-8",
-            "origine": "LEGI",
-            "texte": "Les personnes qui participent \u00e0 l'un des accueils mentionn\u00e9s \u00e0 l'article R. 227-1 doivent produire, avant leur entr\u00e9e en fonction, un document attestant qu'elles ont satisfait aux obligations l\u00e9gales en mati\u00e8re de vaccination.",
-            "texteHtml": "<p></p>Les personnes qui participent \u00e0 l'un des accueils mentionn\u00e9s \u00e0 l'article <a href='/article/LEGIARTI000006905537' title='Code de l'action sociale et des familles - art. R227-1 (VT)'>R. 227-1</a> doivent produire, avant leur entr\u00e9e en fonction, un document attestant qu'elles ont satisfait aux obligations l\u00e9gales en mati\u00e8re de vaccination.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-10-26T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "R227-8",
+                "227-8"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

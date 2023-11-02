@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689441",
-    "num": "L4341-6",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006689441",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Par d\u00e9rogation aux dispositions de l'article L. 4341-2, les ministres charg\u00e9s de l'enseignement sup\u00e9rieur et de la sant\u00e9, apr\u00e8s avis d'une commission nomm\u00e9e par arr\u00eat\u00e9 conjoint, peuvent autoriser \u00e0 continuer \u00e0 exercer leur profession, soit sans limitation aucune, soit pour un ou plusieurs \u00e9tablissements ou pour un mode d'activit\u00e9 d\u00e9termin\u00e9, les personnes qui, \u00e0 la date du 1er janvier 1964, ex\u00e9cutaient habituellement des actes de r\u00e9\u00e9ducation \" constituant un traitement des anomalies de nature pathologique \" de la voix, de la parole et du langage oral ou \u00e9crit, hors de la pr\u00e9sence du m\u00e9decin, sans \u00eatre munies de l'un des titres mentionn\u00e9s \u00e0 l'article L. 4341-2 et qui avaient d\u00e9pos\u00e9 une demande d'autorisation avant le 1er juillet 1972.",
+            "texteHtml": "<p></p>   Par d\u00e9rogation aux dispositions de l'article L. 4341-2, les ministres charg\u00e9s de l'enseignement sup\u00e9rieur et de la sant\u00e9, apr\u00e8s avis d'une commission nomm\u00e9e par arr\u00eat\u00e9 conjoint, peuvent autoriser \u00e0 continuer \u00e0 exercer leur profession, soit sans limitation aucune, soit pour un ou plusieurs \u00e9tablissements ou pour un mode d'activit\u00e9 d\u00e9termin\u00e9, les personnes qui, \u00e0 la date du 1er janvier 1964, ex\u00e9cutaient habituellement des actes de r\u00e9\u00e9ducation \" constituant un traitement des anomalies de nature pathologique \" de la voix, de la parole et du langage oral ou \u00e9crit, hors de la pr\u00e9sence du m\u00e9decin, sans \u00eatre munies de l'un des titres mentionn\u00e9s \u00e0 l'article L. 4341-2 et qui avaient d\u00e9pos\u00e9 une demande d'autorisation avant le 1er juillet 1972.<p></p><p></p>",
+            "num": "L4341-6",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 961632000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 429490,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,59 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006689441",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689441",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171319",
+            "sectionParentId": "LEGISCTA000006171319",
+            "sectionParentTitre": "Chapitre Ier : Orthophoniste.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre IV : Professions d'orthophoniste et d'orthoptiste &gt; Chapitre Ier : Orthophoniste.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689441",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4341-2 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4341-2",
-                    "articleId": "LEGIARTI000006689432",
-                    "natureText": "CODE",
-                    "date": 1599819871518,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R4341-21 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4341-21",
-                    "articleId": "LEGIARTI000006914185",
-                    "natureText": "CODE",
-                    "date": 1599819871518,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1091923200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L504-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L504-2",
-                    "articleId": "LEGIARTI000006693354",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique L504-2 alin\u00e9a 3",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006072665",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -162,13 +180,79 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L4341-6",
-            "origine": "LEGI",
-            "texte": "Par d\u00e9rogation aux dispositions de l'article L. 4341-2, les ministres charg\u00e9s de l'enseignement sup\u00e9rieur et de la sant\u00e9, apr\u00e8s avis d'une commission nomm\u00e9e par arr\u00eat\u00e9 conjoint, peuvent autoriser \u00e0 continuer \u00e0 exercer leur profession, soit sans limitation aucune, soit pour un ou plusieurs \u00e9tablissements ou pour un mode d'activit\u00e9 d\u00e9termin\u00e9, les personnes qui, \u00e0 la date du 1er janvier 1964, ex\u00e9cutaient habituellement des actes de r\u00e9\u00e9ducation \" constituant un traitement des anomalies de nature pathologique \" de la voix, de la parole et du langage oral ou \u00e9crit, hors de la pr\u00e9sence du m\u00e9decin, sans \u00eatre munies de l'un des titres mentionn\u00e9s \u00e0 l'article L. 4341-2 et qui avaient d\u00e9pos\u00e9 une demande d'autorisation avant le 1er juillet 1972.",
-            "texteHtml": "<p></p>   Par d\u00e9rogation aux dispositions de l'article L. 4341-2, les ministres charg\u00e9s de l'enseignement sup\u00e9rieur et de la sant\u00e9, apr\u00e8s avis d'une commission nomm\u00e9e par arr\u00eat\u00e9 conjoint, peuvent autoriser \u00e0 continuer \u00e0 exercer leur profession, soit sans limitation aucune, soit pour un ou plusieurs \u00e9tablissements ou pour un mode d'activit\u00e9 d\u00e9termin\u00e9, les personnes qui, \u00e0 la date du 1er janvier 1964, ex\u00e9cutaient habituellement des actes de r\u00e9\u00e9ducation \" constituant un traitement des anomalies de nature pathologique \" de la voix, de la parole et du langage oral ou \u00e9crit, hors de la pr\u00e9sence du m\u00e9decin, sans \u00eatre munies de l'un des titres mentionn\u00e9s \u00e0 l'article L. 4341-2 et qui avaient d\u00e9pos\u00e9 une demande d'autorisation avant le 1er juillet 1972.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4341-2 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4341-2",
+                    "articleId": "LEGIARTI000006689432",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1516320000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R4341-21 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4341-21",
+                    "articleId": "LEGIARTI000006914185",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1091923200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L504-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L504-2",
+                    "articleId": "LEGIARTI000006693354",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique L504-2 alin\u00e9a 3",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072665",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689441",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4341-6",
+                "4341-6"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

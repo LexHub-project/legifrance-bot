@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000045849122",
-    "num": "L6432-13",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045849122",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les modalit\u00e9s d'application de la pr\u00e9sente section sont fix\u00e9es par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p>Les modalit\u00e9s d'application de la pr\u00e9sente section sont fix\u00e9es par d\u00e9cret en Conseil d'Etat.</p>",
+            "num": "L6432-13",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1654214400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -83,11 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045849122",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "cid": "LEGIARTI000045849122",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000045849112",
+            "sectionParentId": "LEGISCTA000045849112",
+            "sectionParentTitre": "Sous-section 2 :  Interdiction d'embarquement \u00e0 bord d'un a\u00e9ronef",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; SIXIEME PARTIE : AVIATION CIVILE &gt; LIVRE IV : LE TRANSPORT AERIEN &gt; TITRE III : MESURES DE POLICE, SANCTIONS ADMINISTRATIVES  ET DISPOSITIONS PENALES &gt; Chapitre II : Sanctions administratives &gt; Section 3 : Passagers perturbateurs &gt; Sous-section 2 :  Interdiction d'embarquement \u00e0 bord d'un a\u00e9ronef",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000045849122",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000045848052",
@@ -102,13 +159,60 @@
                     "dateDebutCible": "2022-06-03"
                 }
             ],
-            "num": "L6432-13",
-            "origine": "LEGI",
-            "texte": "Les modalit\u00e9s d'application de la pr\u00e9sente section sont fix\u00e9es par d\u00e9cret en Conseil d'Etat.",
-            "texteHtml": "<p>Les modalit\u00e9s d'application de la pr\u00e9sente section sont fix\u00e9es par d\u00e9cret en Conseil d'Etat.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-06-03T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L6432-10 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L6432-10",
+                    "articleId": "LEGIARTI000045849116",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1654214400000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L6432-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L6432-5",
+                    "articleId": "LEGIARTI000045849104",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1654214400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000045849122",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1654214400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L6432-13",
+                "6432-13"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

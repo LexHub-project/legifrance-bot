@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000043818397",
-    "num": "D121-18",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000043818397",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le secr\u00e9tariat du Conseil sup\u00e9rieur de la construction et de l'efficacit\u00e9 \u00e9nerg\u00e9tique est assur\u00e9 par la direction g\u00e9n\u00e9rale de l'am\u00e9nagement, du logement et de la nature.",
+            "texteHtml": "<p><br/>Le secr\u00e9tariat du Conseil sup\u00e9rieur de la construction et de l'efficacit\u00e9 \u00e9nerg\u00e9tique est assur\u00e9 par la direction g\u00e9n\u00e9rale de l'am\u00e9nagement, du logement et de la nature.</p>",
+            "num": "D121-18",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1625097600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2130706431,
             "context": {
                 "titresTM": [
                     {
@@ -65,21 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000043818397",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000043818397",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000043818383",
+            "sectionParentId": "LEGISCTA000043818383",
+            "sectionParentTitre": "Section 2 : Conseil sup\u00e9rieur de la construction et de l'efficacit\u00e9 \u00e9nerg\u00e9tique",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre II : ENCADREMENT DE LA CONCEPTION, DE LA R\u00c9ALISATION ET DE L'EXPLOITATION DES B\u00c2TIMENTS &gt; Chapitre Ier : STRUCTURES DE CONSEIL ET DE RECHERCHE POUR LE SECTEUR DE LA CONSTRUCTION &gt; Section 2 : Conseil sup\u00e9rieur de la construction et de l'efficacit\u00e9 \u00e9nerg\u00e9tique",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000043818397",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. D142-21 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "D142-21",
-                    "articleId": "LEGIARTI000031538415",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000043808633",
@@ -106,13 +153,43 @@
                     "dateDebutCible": "2021-07-01"
                 }
             ],
-            "num": "D121-18",
-            "origine": "LEGI",
-            "texte": "Le secr\u00e9tariat du Conseil sup\u00e9rieur de la construction et de l'efficacit\u00e9 \u00e9nerg\u00e9tique est assur\u00e9 par la direction g\u00e9n\u00e9rale de l'am\u00e9nagement, du logement et de la nature.",
-            "texteHtml": "<p><br/>Le secr\u00e9tariat du Conseil sup\u00e9rieur de la construction et de l'efficacit\u00e9 \u00e9nerg\u00e9tique est assur\u00e9 par la direction g\u00e9n\u00e9rale de l'am\u00e9nagement, du logement et de la nature.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-07-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. D142-21 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "D142-21",
+                    "articleId": "LEGIARTI000031538415",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000043818397",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1625097600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D121-18",
+                "121-18"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

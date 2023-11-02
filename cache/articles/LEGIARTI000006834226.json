@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006834226",
-    "num": "L438-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006834226",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret en Conseil d'Etat d\u00e9termine, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent titre.",
+            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat d\u00e9termine, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent titre.<p></p><p></p>",
+            "num": "L438-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 969494400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -65,55 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006834226",
-            "lienAutres": [
+            "cid": "LEGIARTI000006834226",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159271",
+            "sectionParentId": "LEGISCTA000006159271",
+            "sectionParentTitre": "Chapitre VIII : Dispositions diverses",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Faune et flore &gt; Titre III : P\u00eache en eau douce et gestion des ressources piscicoles &gt; Chapitre VIII : Dispositions diverses",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006834226",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L431-2 (V)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "source",
-                    "articleNum": "L431-2",
-                    "articleId": "LEGIARTI000006834091",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L654-1",
-                    "articleId": "LEGIARTI000006834870",
-                    "natureText": "CODE",
-                    "date": 1599825752230,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 994982400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L239-1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                },
-                {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L239-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L239-1",
-                    "articleId": "LEGIARTI000006582831",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -140,13 +153,76 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L438-2",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret en Conseil d'Etat d\u00e9termine, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent titre.",
-            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat d\u00e9termine, en tant que de besoin, les modalit\u00e9s d'application du pr\u00e9sent titre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-09-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L654-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L654-1",
+                    "articleId": "LEGIARTI000006834870",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 994982400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L239-1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L239-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L239-1",
+                    "articleId": "LEGIARTI000006582831",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L431-2 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "L431-2",
+                    "articleId": "LEGIARTI000006834091",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006834226",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L438-2",
+                "438-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

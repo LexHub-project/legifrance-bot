@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033992053",
-    "num": "R1413-82",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033992053",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le directeur g\u00e9n\u00e9ral de l'agence r\u00e9gionale de sant\u00e9 accuse r\u00e9ception de la d\u00e9claration re\u00e7ue au titre de l'article R. 1413-79 et s'assure de sa transmission au centre d'appui pour la pr\u00e9vention des infections associ\u00e9es aux soins mentionn\u00e9 \u00e0 l'article R. 1413-83 ainsi qu'\u00e0 l'Agence nationale de sant\u00e9 publique.",
+            "texteHtml": "<div align='left'>Le directeur g\u00e9n\u00e9ral de l'agence r\u00e9gionale de sant\u00e9 accuse r\u00e9ception de la d\u00e9claration re\u00e7ue au titre de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000033992047&dateTexte=&categorieLien=cid' title='Code de la sant\u00e9 publique - art. R1413-79 (V)'>R. 1413-79 </a>et s'assure de sa transmission au centre d'appui pour la pr\u00e9vention des infections associ\u00e9es aux soins mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000033992057&dateTexte=&categorieLien=cid' title='Code de la sant\u00e9 publique - art. R1413-83 (V)'>R. 1413-83</a> ainsi qu'\u00e0 l'Agence nationale de sant\u00e9 publique.</div>",
+            "num": "R1413-82",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1486339200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -70,11 +85,20 @@
                     },
                     {
                         "debut": "2019-12-09",
-                        "fin": "2999-01-01",
+                        "fin": "2022-11-21",
                         "titre": "Section 8 : Pr\u00e9vention des infections associ\u00e9es aux soins",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033992043",
                         "id": "LEGISCTA000039659024",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-11-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section 8 : Pr\u00e9vention des infections associ\u00e9es aux soins et de la r\u00e9sistance aux anti-infectieux",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000033992043",
+                        "id": "LEGISCTA000046581387",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -101,54 +125,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033992053",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033992053",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033992045",
+            "sectionParentId": "LEGISCTA000033992045",
+            "sectionParentTitre": "Sous-section 1 : D\u00e9claration des infections associ\u00e9es aux soins ",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Premi\u00e8re partie : Protection g\u00e9n\u00e9rale de la sant\u00e9 &gt; Livre IV : Administration g\u00e9n\u00e9rale de la sant\u00e9 &gt; Titre Ier : Institutions &gt; Chapitre III : Veille sanitaire, urgence sanitaire et promotion de la sant\u00e9 &gt; Section 7 : Pr\u00e9vention des infections associ\u00e9es aux soins &gt; Sous-section 1 : D\u00e9claration des infections associ\u00e9es aux soins ",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033992053",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R1413-79 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R1413-79",
-                    "articleId": "LEGIARTI000033992047",
-                    "natureText": "CODE",
-                    "date": 1599846344633,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1486339200000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R1413-83 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R1413-83",
-                    "articleId": "LEGIARTI000033992057",
-                    "natureText": "CODE",
-                    "date": 1599846344633,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1486339200000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R1524-6 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1524-6",
-                    "articleId": "LEGIARTI000034687243",
-                    "natureText": "CODE",
-                    "date": 1599846344633,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1494460800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033982071",
@@ -163,13 +186,73 @@
                     "dateDebutCible": "2017-02-06"
                 }
             ],
-            "num": "R1413-82",
-            "origine": "LEGI",
-            "texte": "Le directeur g\u00e9n\u00e9ral de l'agence r\u00e9gionale de sant\u00e9 accuse r\u00e9ception de la d\u00e9claration re\u00e7ue au titre de l'article R. 1413-79 et s'assure de sa transmission au centre d'appui pour la pr\u00e9vention des infections associ\u00e9es aux soins mentionn\u00e9 \u00e0 l'article R. 1413-83 ainsi qu'\u00e0 l'Agence nationale de sant\u00e9 publique.",
-            "texteHtml": "<div align='left'>Le directeur g\u00e9n\u00e9ral de l'agence r\u00e9gionale de sant\u00e9 accuse r\u00e9ception de la d\u00e9claration re\u00e7ue au titre de l'article <a href='/article/LEGIARTI000033992047' title='Code de la sant\u00e9 publique - art. R1413-79 (V)'>R. 1413-79 </a>et s'assure de sa transmission au centre d'appui pour la pr\u00e9vention des infections associ\u00e9es aux soins mentionn\u00e9 \u00e0 l'article <a href='/article/LEGIARTI000033992057' title='Code de la sant\u00e9 publique - art. R1413-83 (V)'>R. 1413-83</a> ainsi qu'\u00e0 l'Agence nationale de sant\u00e9 publique.</div>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-02-06T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R1413-79 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R1413-79",
+                    "articleId": "LEGIARTI000033992047",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1486339200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R1413-83 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R1413-83",
+                    "articleId": "LEGIARTI000033992057",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1486339200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R1524-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1524-6",
+                    "articleId": "LEGIARTI000034687243",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1494460800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033992053",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1486339200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R1413-82",
+                "1413-82"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

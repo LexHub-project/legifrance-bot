@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000025506564",
-    "num": "L632-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045453642",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le conseil d'administration comprend, outre son pr\u00e9sident : 1\u00b0 Pour la moiti\u00e9 au moins de ses membres, des repr\u00e9sentants de l'Etat ; 2\u00b0 Des personnes issues des activit\u00e9s mentionn\u00e9es au pr\u00e9sent livre ; 3\u00b0 Des personnalit\u00e9s qualifi\u00e9es dans les domaines de comp\u00e9tence de l'\u00e9tablissement ; 4\u00b0 Le pr\u00e9sident de la commission de discipline pr\u00e9vue \u00e0 l'article L. 634-11 ; 5\u00b0 Des repr\u00e9sentants du personnel de l'\u00e9tablissement.",
+            "texteHtml": "<p>Le conseil d'administration comprend, outre son pr\u00e9sident : <br/><br/>1\u00b0 Pour la moiti\u00e9 au moins de ses membres, des repr\u00e9sentants de l'Etat ; <br/><br/>2\u00b0 Des personnes issues des activit\u00e9s mentionn\u00e9es au pr\u00e9sent livre ; <br/><br/>3\u00b0 Des personnalit\u00e9s qualifi\u00e9es dans les domaines de comp\u00e9tence de l'\u00e9tablissement ; <br/><br/>4\u00b0 Le pr\u00e9sident de la commission de discipline pr\u00e9vue \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000045445084&dateTexte=&categorieLien=cid'>L. 634-11</a> ; <br/><br/>5\u00b0 Des repr\u00e9sentants du personnel de l'\u00e9tablissement.</p>",
+            "num": "L632-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1661990400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -43,21 +58,21 @@
                     },
                     {
                         "debut": "2012-05-01",
-                        "fin": "2022-12-31",
+                        "fin": "2022-09-01",
                         "titre": "Section 2 : Fonctionnement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506560",
                         "id": "LEGISCTA000025507350",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
-                        "debut": "2022-12-31",
+                        "debut": "2022-09-01",
                         "fin": "2999-01-01",
                         "titre": "Section 2 : Composition et fonctionnement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506560",
                         "id": "LEGISCTA000045453649",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -74,49 +89,54 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000045453642",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025506564",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025506560",
+            "sectionParentId": "LEGISCTA000045453649",
+            "sectionParentTitre": "Section 2 : Composition et fonctionnement",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S  PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre II : Missions et fonctionnement du Conseil national  des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 &gt; Section 2 : Composition et fonctionnement",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000045453642",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L634-11",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L634-11",
-                    "articleId": "LEGIARTI000045445084",
-                    "natureText": "CODE",
-                    "date": 1648759608455,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1672444800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000320194",
-                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-10 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "33-10",
-                    "articleId": "LEGIARTI000023711109",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "Conform\u00e9ment \u00e0 l\u2019article 4 de l\u2019ordonnance n\u00b0 2022-448 du 30 mars 2022, ces dispositions entrent en vigueur aux dates et dans les conditions pr\u00e9vues par le d\u00e9cret en Conseil d'Etat pr\u00e9vu \u00e0 l'article L. 636-1 du code de la s\u00e9curit\u00e9 int\u00e9rieure et au plus tard le 31 d\u00e9cembre 2022. Conform\u00e9ment \u00e0 l'article 8 du d\u00e9cret n\u00b0 2022-449 du 30 mars 2022, ces dispositions sont applicables \u00e0 compter du 1er septembre 2022.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l\u2019article 4 de l\u2019ordonnance n\u00b0 2022-448 du 30 mars 2022, ces dispositions entrent en vigueur aux dates et dans les conditions pr\u00e9vues par le d\u00e9cret en Conseil d'Etat pr\u00e9vu \u00e0 l'article L. 636-1 du code de la s\u00e9curit\u00e9 int\u00e9rieure et au plus tard le 31 d\u00e9cembre 2022.</p><p>Conform\u00e9ment \u00e0 l'article 8 du d\u00e9cret n\u00b0 2022-449 du 30 mars 2022, ces dispositions sont applicables \u00e0 compter du 1er septembre 2022.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000045441846",
-                    "textTitle": "Ordonnance n\u00b02022-448 du 30 mars 2022 - art. 1",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000045443435",
-                    "natureText": "ORDONNANCE",
-                    "datePubliTexte": "2022-03-31",
-                    "dateSignaTexte": "2022-03-30",
-                    "dateDebutCible": "2022-04-01"
-                },
                 {
                     "textCid": "",
                     "textTitle": "Ordonnance n\u00b02012-351 du 12 mars 2012 - art. Annexe",
@@ -128,17 +148,107 @@
                     "datePubliTexte": null,
                     "dateSignaTexte": null,
                     "dateDebutCible": null
+                },
+                {
+                    "textCid": "JORFTEXT000045441846",
+                    "textTitle": "Ordonnance n\u00b02022-448 du 30 mars 2022 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000045443435",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2022-03-31",
+                    "dateSignaTexte": "2022-03-30",
+                    "dateDebutCible": "2022-04-01"
                 }
             ],
-            "num": "L632-3",
-            "origine": "LEGI",
-            "texte": "Le conseil d'administration comprend, outre son pr\u00e9sident : 1\u00b0 Pour la moiti\u00e9 au moins de ses membres, des repr\u00e9sentants de l'Etat ; 2\u00b0 Des personnes issues des activit\u00e9s mentionn\u00e9es au pr\u00e9sent livre ; 3\u00b0 Des personnalit\u00e9s qualifi\u00e9es dans les domaines de comp\u00e9tence de l'\u00e9tablissement ; 4\u00b0 Le pr\u00e9sident de la commission de discipline pr\u00e9vue \u00e0 l'article L. 634-11 ; 5\u00b0 Des repr\u00e9sentants du personnel de l'\u00e9tablissement.",
-            "texteHtml": "<p>Le conseil d'administration comprend, outre son pr\u00e9sident : <br/><br/>1\u00b0 Pour la moiti\u00e9 au moins de ses membres, des repr\u00e9sentants de l'Etat ; <br/><br/>2\u00b0 Des personnes issues des activit\u00e9s mentionn\u00e9es au pr\u00e9sent livre ; <br/><br/>3\u00b0 Des personnalit\u00e9s qualifi\u00e9es dans les domaines de comp\u00e9tence de l'\u00e9tablissement ; <br/><br/>4\u00b0 Le pr\u00e9sident de la commission de discipline pr\u00e9vue \u00e0 l'article <a href='/article/LEGIARTI000045445084'>L. 634-11</a> ; <br/><br/>5\u00b0 Des repr\u00e9sentants du personnel de l'\u00e9tablissement.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-12-31T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L634-11",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L634-11",
+                    "articleId": "LEGIARTI000045445084",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651363200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000320194",
+                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-10 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "33-10",
+                    "articleId": "LEGIARTI000023711109",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025506564",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1622073600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043540517",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1622073600000,
+                    "dateFin": 1661990400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045453642",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1661990400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L632-3",
+                "632-3"
+            ],
+            "versionPrecedente": "LEGIARTI000043540517",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000043540517",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 peut recruter des agents contractuels de droit public ou des fonctionnaires d\u00e9tach\u00e9s aupr\u00e8s de lui. Le directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est nomm\u00e9 par d\u00e9cret, sur proposition du ministre de l'int\u00e9rieur.",
+            "texteHtml": "<p>Le Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 peut recruter des agents contractuels de droit public ou des fonctionnaires d\u00e9tach\u00e9s aupr\u00e8s de lui. Le directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est nomm\u00e9 par d\u00e9cret, sur proposition du ministre de l'int\u00e9rieur.</p>",
+            "num": "L632-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1622073600000,
+            "dateFin": 1661990400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -179,21 +289,21 @@
                     },
                     {
                         "debut": "2012-05-01",
-                        "fin": "2022-12-31",
+                        "fin": "2022-09-01",
                         "titre": "Section 2 : Fonctionnement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506560",
                         "id": "LEGISCTA000025507350",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
-                        "debut": "2022-12-31",
+                        "debut": "2022-09-01",
                         "fin": "2999-01-01",
                         "titre": "Section 2 : Composition et fonctionnement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506560",
                         "id": "LEGISCTA000045453649",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -210,21 +320,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000043540517",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000025506564",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025506560",
+            "sectionParentId": "LEGISCTA000045453649",
+            "sectionParentTitre": "Section 2 : Composition et fonctionnement",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S  PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre II : Missions et fonctionnement du Conseil national  des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 &gt; Section 2 : Composition et fonctionnement",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000043540517",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000320194",
-                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-10 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "33-10",
-                    "articleId": "LEGIARTI000023711109",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000043530276",
@@ -251,15 +393,79 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L632-3",
-            "origine": "LEGI",
-            "texte": "Le Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 peut recruter des agents contractuels de droit public ou des fonctionnaires d\u00e9tach\u00e9s aupr\u00e8s de lui. Le directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est nomm\u00e9 par d\u00e9cret, sur proposition du ministre de l'int\u00e9rieur.",
-            "texteHtml": "<p>Le Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 peut recruter des agents contractuels de droit public ou des fonctionnaires d\u00e9tach\u00e9s aupr\u00e8s de lui. Le directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est nomm\u00e9 par d\u00e9cret, sur proposition du ministre de l'int\u00e9rieur.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-05-27T00:00:00.000Z",
-            "dateFin": "2022-12-31T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000320194",
+                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-10 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "33-10",
+                    "articleId": "LEGIARTI000023711109",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025506564",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1622073600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043540517",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1622073600000,
+                    "dateFin": 1661990400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045453642",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1661990400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L632-3",
+                "632-3"
+            ],
+            "versionPrecedente": "LEGIARTI000025506564",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025506564",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 peut recruter des salari\u00e9s soumis aux dispositions du code du travail, des agents contractuels de droit public ou des fonctionnaires d\u00e9tach\u00e9s aupr\u00e8s de lui. Le directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est nomm\u00e9 par d\u00e9cret, sur proposition du ministre de l'int\u00e9rieur.",
+            "texteHtml": "<p><br/>Le Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 peut recruter des salari\u00e9s soumis aux dispositions du code du travail, des agents contractuels de droit public ou des fonctionnaires d\u00e9tach\u00e9s aupr\u00e8s de lui. Le directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est nomm\u00e9 par d\u00e9cret, sur proposition du ministre de l'int\u00e9rieur.</p>",
+            "num": "L632-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1335830400000,
+            "dateFin": 1622073600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -300,21 +506,21 @@
                     },
                     {
                         "debut": "2012-05-01",
-                        "fin": "2022-12-31",
+                        "fin": "2022-09-01",
                         "titre": "Section 2 : Fonctionnement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506560",
                         "id": "LEGISCTA000025507350",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
-                        "debut": "2022-12-31",
+                        "debut": "2022-09-01",
                         "fin": "2999-01-01",
                         "titre": "Section 2 : Composition et fonctionnement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506560",
                         "id": "LEGISCTA000045453649",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -331,21 +537,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025506564",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000025506564",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025506560",
+            "sectionParentId": "LEGISCTA000045453649",
+            "sectionParentTitre": "Section 2 : Composition et fonctionnement",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S  PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre II : Missions et fonctionnement du Conseil national  des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 &gt; Section 2 : Fonctionnement",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025506564",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000320194",
-                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-10 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "33-10",
-                    "articleId": "LEGIARTI000023711109",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025498645",
@@ -372,13 +610,61 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L632-3",
-            "origine": "LEGI",
-            "texte": "Le Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 peut recruter des salari\u00e9s soumis aux dispositions du code du travail, des agents contractuels de droit public ou des fonctionnaires d\u00e9tach\u00e9s aupr\u00e8s de lui. Le directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est nomm\u00e9 par d\u00e9cret, sur proposition du ministre de l'int\u00e9rieur.",
-            "texteHtml": "<p><br/>Le Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 peut recruter des salari\u00e9s soumis aux dispositions du code du travail, des agents contractuels de droit public ou des fonctionnaires d\u00e9tach\u00e9s aupr\u00e8s de lui. Le directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est nomm\u00e9 par d\u00e9cret, sur proposition du ministre de l'int\u00e9rieur.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-05-01T00:00:00.000Z",
-            "dateFin": "2021-05-27T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000320194",
+                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-10 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "33-10",
+                    "articleId": "LEGIARTI000023711109",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025506564",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1622073600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043540517",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1622073600000,
+                    "dateFin": 1661990400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045453642",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1661990400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L632-3",
+                "632-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

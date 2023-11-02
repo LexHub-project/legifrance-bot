@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000024544354",
-    "num": "L321-27",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000024544354",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le directeur g\u00e9n\u00e9ral est charg\u00e9 de l'administration de l'\u00e9tablissement.",
+            "texteHtml": "Le directeur g\u00e9n\u00e9ral est charg\u00e9 de l'administration de l'\u00e9tablissement.",
+            "num": "L321-27",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1315612800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2147352575,
             "context": {
                 "titresTM": [
                     {
@@ -74,26 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000024544354",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000024544354",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000024544326",
+            "sectionParentId": "LEGISCTA000024544326",
+            "sectionParentTitre": "Section 2 : Etablissements publics d'am\u00e9nagement\r\n\r\n\r\n",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre III : Am\u00e9nagement foncier &gt; Titre II : Organismes d'ex\u00e9cution &gt; Chapitre Ier : Etablissements publics fonciers et d'am\u00e9nagement de l'Etat &gt; Section 2 : Etablissements publics d'am\u00e9nagement\r\n\r\n\r\n",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000024544354",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000372279",
-                    "textTitle": "D\u00e9cret n\u00b095-1102 du 13 octobre 1995 - art. 4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "4",
-                    "articleId": "LEGIARTI000030976433",
-                    "natureText": "DECRET",
-                    "date": 1599843913356,
-                    "parentCid": null,
-                    "numTexte": "95-1102",
-                    "datePubli": 813628800000,
-                    "dateDebut": 1438819200000
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000024543442",
@@ -108,13 +150,47 @@
                     "dateDebutCible": "2011-09-10"
                 }
             ],
-            "num": "L321-27",
-            "origine": "LEGI",
-            "texte": "Le directeur g\u00e9n\u00e9ral est charg\u00e9 de l'administration de l'\u00e9tablissement.",
-            "texteHtml": "Le directeur g\u00e9n\u00e9ral est charg\u00e9 de l'administration de l'\u00e9tablissement.",
-            "type": "AUTONOME",
-            "dateDebut": "2011-09-10T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000372279",
+                    "textTitle": "D\u00e9cret n\u00b095-1102 du 13 octobre 1995 - art. 4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000030976433",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "95-1102",
+                    "datePubli": 813628800000,
+                    "dateDebut": 1438819200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000024544354",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1315612800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L321-27",
+                "321-27"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

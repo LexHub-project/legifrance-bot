@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000020523696",
-    "num": "R6123-129",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045416154",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie s'exerce suivant trois modalit\u00e9s : 1\u00b0 Rythmologie interventionnelle ; 2\u00b0 Cardiopathies cong\u00e9nitales hors rythmologie ; 3\u00b0 Cardiopathies isch\u00e9miques et structurelles de l'adulte.",
+            "texteHtml": "<p>L'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie s'exerce suivant trois modalit\u00e9s :<br/><br/>\n1\u00b0 Rythmologie interventionnelle ;<br/><br/>\n2\u00b0 Cardiopathies cong\u00e9nitales hors rythmologie ;<br/><br/>\n3\u00b0 Cardiopathies isch\u00e9miques et structurelles de l'adulte.</p>",
+            "num": "R6123-129",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020523645",
                         "id": "LEGISCTA000020524457",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020523645",
                         "id": "LEGISCTA000045416158",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -83,26 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000045416154",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000020523696",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000020523645",
+            "sectionParentId": "LEGISCTA000045416158",
+            "sectionParentTitre": "Section 13 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 13 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000045416154",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-133-2 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R6123-133-2",
-                    "articleId": "LEGIARTI000045375030",
-                    "natureText": "CODE",
-                    "date": 1648498981178,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Conform\u00e9ment au I de l'article 2 du d\u00e9cret n\u00b0 2022-380 du 16 mars 2022, ces dispositions entrent en vigueur le 1er juin 2023.",
+            "notaHtml": "<p>Conform\u00e9ment au I de l'article 2 du d\u00e9cret n\u00b0 2022-380 du 16 mars 2022, ces dispositions entrent en vigueur le 1er juin 2023.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000045373576",
@@ -117,15 +159,74 @@
                     "dateDebutCible": "2023-06-01"
                 }
             ],
-            "num": "R6123-129",
-            "origine": "LEGI",
-            "texte": "L'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie s'exerce suivant trois modalit\u00e9s : 1\u00b0 Rythmologie interventionnelle ; 2\u00b0 Cardiopathies cong\u00e9nitales hors rythmologie ; 3\u00b0 Cardiopathies isch\u00e9miques et structurelles de l'adulte.",
-            "texteHtml": "<p>L'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie s'exerce suivant trois modalit\u00e9s :<br/><br/>\n1\u00b0 Rythmologie interventionnelle ;<br/><br/>\n2\u00b0 Cardiopathies cong\u00e9nitales hors rythmologie ;<br/><br/>\n3\u00b0 Cardiopathies isch\u00e9miques et structurelles de l'adulte.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-133-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6123-133-2",
+                    "articleId": "LEGIARTI000045375030",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020524453",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1239926400000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045416154",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-129",
+                "6123-129"
+            ],
+            "versionPrecedente": "LEGIARTI000020524453",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000020524453",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'autorisation de pratiquer sur les patients adultes les activit\u00e9s interventionnelles d\u00e9finies \u00e0 l'article R. 6123-128 ne peut \u00eatre accord\u00e9e que pour un site sur lequel le demandeur dispose, dans un b\u00e2timent commun ou \u00e0 d\u00e9faut dans des b\u00e2timents voisins, d'une unit\u00e9 d'hospitalisation de m\u00e9decine \u00e0 temps complet et d'une unit\u00e9 de soins intensifs cardiologiques, \u00e9ventuellement mises \u00e0 disposition par convention avec un autre \u00e9tablissement implant\u00e9 sur ce site. Le demandeur doit \u00e9galement disposer sur le m\u00eame site : 1\u00b0 Lorsqu'il pratique les actes mentionn\u00e9s au 1\u00b0 de l'article R. 6123-128 d'au moins une salle d'imagerie num\u00e9ris\u00e9e d\u00e9di\u00e9e aux activit\u00e9s cardio-vasculaires ; 2\u00b0 Lorsqu'il pratique les actes mentionn\u00e9s au 2\u00b0 ou au 3\u00b0 de l'article R. 6123-128 d'au moins une salle d'angiographie num\u00e9ris\u00e9e d\u00e9di\u00e9e aux activit\u00e9s cardiovasculaires.",
+            "texteHtml": "<p>L'autorisation de pratiquer sur les patients adultes les activit\u00e9s interventionnelles d\u00e9finies \u00e0 l'article R. 6123-128 ne peut \u00eatre accord\u00e9e que pour un site sur lequel le demandeur dispose, dans un b\u00e2timent commun ou \u00e0 d\u00e9faut dans des b\u00e2timents voisins, d'une unit\u00e9 d'hospitalisation de m\u00e9decine \u00e0 temps complet et d'une unit\u00e9 de soins intensifs cardiologiques, \u00e9ventuellement mises \u00e0 disposition par convention avec un autre \u00e9tablissement implant\u00e9 sur ce site. <br/><br/> Le demandeur doit \u00e9galement disposer sur le m\u00eame site : <br/><br/> 1\u00b0 Lorsqu'il pratique les actes mentionn\u00e9s au 1\u00b0 de l'article R. 6123-128 d'au moins une salle d'imagerie num\u00e9ris\u00e9e d\u00e9di\u00e9e aux activit\u00e9s cardio-vasculaires ; <br/><br/> 2\u00b0 Lorsqu'il pratique les actes mentionn\u00e9s au 2\u00b0 ou au 3\u00b0 de l'article R. 6123-128 d'au moins une salle d'angiographie num\u00e9ris\u00e9e d\u00e9di\u00e9e aux activit\u00e9s cardiovasculaires.</p>",
+            "num": "R6123-129",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1239926400000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -180,7 +281,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020523645",
                         "id": "LEGISCTA000020524457",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -189,7 +290,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020523645",
                         "id": "LEGISCTA000045416158",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -206,26 +307,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000020524453",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000020523696",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000020523645",
+            "sectionParentId": "LEGISCTA000045416158",
+            "sectionParentTitre": "Section 13 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 13 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000020524453",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-133-2 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R6123-133-2",
-                    "articleId": "LEGIARTI000045375030",
-                    "natureText": "CODE",
-                    "date": 1648498980845,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000020522354",
@@ -240,13 +368,56 @@
                     "dateDebutCible": "2009-04-17"
                 }
             ],
-            "num": "R6123-129",
-            "origine": "LEGI",
-            "texte": "L'autorisation de pratiquer sur les patients adultes les activit\u00e9s interventionnelles d\u00e9finies \u00e0 l'article R. 6123-128 ne peut \u00eatre accord\u00e9e que pour un site sur lequel le demandeur dispose, dans un b\u00e2timent commun ou \u00e0 d\u00e9faut dans des b\u00e2timents voisins, d'une unit\u00e9 d'hospitalisation de m\u00e9decine \u00e0 temps complet et d'une unit\u00e9 de soins intensifs cardiologiques, \u00e9ventuellement mises \u00e0 disposition par convention avec un autre \u00e9tablissement implant\u00e9 sur ce site. Le demandeur doit \u00e9galement disposer sur le m\u00eame site : 1\u00b0 Lorsqu'il pratique les actes mentionn\u00e9s au 1\u00b0 de l'article R. 6123-128 d'au moins une salle d'imagerie num\u00e9ris\u00e9e d\u00e9di\u00e9e aux activit\u00e9s cardio-vasculaires ; 2\u00b0 Lorsqu'il pratique les actes mentionn\u00e9s au 2\u00b0 ou au 3\u00b0 de l'article R. 6123-128 d'au moins une salle d'angiographie num\u00e9ris\u00e9e d\u00e9di\u00e9e aux activit\u00e9s cardiovasculaires.",
-            "texteHtml": "<p>L'autorisation de pratiquer sur les patients adultes les activit\u00e9s interventionnelles d\u00e9finies \u00e0 l'article R. 6123-128 ne peut \u00eatre accord\u00e9e que pour un site sur lequel le demandeur dispose, dans un b\u00e2timent commun ou \u00e0 d\u00e9faut dans des b\u00e2timents voisins, d'une unit\u00e9 d'hospitalisation de m\u00e9decine \u00e0 temps complet et d'une unit\u00e9 de soins intensifs cardiologiques, \u00e9ventuellement mises \u00e0 disposition par convention avec un autre \u00e9tablissement implant\u00e9 sur ce site. <br/><br/> Le demandeur doit \u00e9galement disposer sur le m\u00eame site : <br/><br/> 1\u00b0 Lorsqu'il pratique les actes mentionn\u00e9s au 1\u00b0 de l'article R. 6123-128 d'au moins une salle d'imagerie num\u00e9ris\u00e9e d\u00e9di\u00e9e aux activit\u00e9s cardio-vasculaires ; <br/><br/> 2\u00b0 Lorsqu'il pratique les actes mentionn\u00e9s au 2\u00b0 ou au 3\u00b0 de l'article R. 6123-128 d'au moins une salle d'angiographie num\u00e9ris\u00e9e d\u00e9di\u00e9e aux activit\u00e9s cardiovasculaires.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-04-17T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-133-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6123-133-2",
+                    "articleId": "LEGIARTI000045375030",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020524453",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1239926400000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045416154",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-129",
+                "6123-129"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

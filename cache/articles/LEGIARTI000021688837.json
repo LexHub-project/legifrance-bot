@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000021688837",
-    "num": "L4351-11",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000021709001",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les organismes d\u00e9livrant les titres de formation transmettent ces titres au service ou \u00e0 l'organisme mentionn\u00e9 \u00e0 l'article L. 4352-1 sous forme d'informations certifi\u00e9es.",
+            "texteHtml": "<p>Les organismes d\u00e9livrant les titres de formation transmettent ces titres au service ou \u00e0 l'organisme mentionn\u00e9 \u00e0 l'article L. 4352-1 sous forme d'informations certifi\u00e9es. </p>",
+            "num": "L4351-11",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1263600000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080385520,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -101,9 +125,67 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000021709001",
-            "lienAutres": [],
+            "cid": "LEGIARTI000021688837",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171323",
+            "sectionParentId": "LEGISCTA000021708987",
+            "sectionParentTitre": "Chapitre Ier : R\u00e8gles li\u00e9es \u00e0 l'exercice de la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre V : Professions de manipulateur d'\u00e9lectroradiologie m\u00e9dicale et de technicien de laboratoire m\u00e9dical &gt; Chapitre Ier : R\u00e8gles li\u00e9es \u00e0 l'exercice de la profession de manipulateur d'\u00e9lectroradiologie m\u00e9dicale",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000021709001",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000021683301",
+                    "textTitle": "Ordonnance n\u00b02010-49\n du 13 janvier 2010 - art. 2",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000021684174",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2010-01-15",
+                    "dateSignaTexte": "2010-01-13",
+                    "dateDebutCible": "2010-01-16"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072665",
@@ -113,7 +195,6 @@
                     "articleNum": "D4354-2",
                     "articleId": "LEGIARTI000022913161",
                     "natureText": "CODE",
-                    "date": 1599829783948,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -127,7 +208,6 @@
                     "articleNum": "D4354-7",
                     "articleId": "LEGIARTI000022913141",
                     "natureText": "CODE",
-                    "date": 1599829783948,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -141,7 +221,6 @@
                     "articleNum": "R4354-10",
                     "articleId": "LEGIARTI000023914459",
                     "natureText": "CODE",
-                    "date": 1599829783948,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -159,27 +238,31 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000021683301",
-                    "textTitle": "Ordonnance n\u00b02010-49\n du 13 janvier 2010 - art. 2",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000021684174",
-                    "natureText": "ORDONNANCE",
-                    "datePubliTexte": "2010-01-15",
-                    "dateSignaTexte": "2010-01-13",
-                    "dateDebutCible": "2010-01-16"
+                    "id": "LEGIARTI000021709001",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1263600000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "L4351-11",
-            "origine": "LEGI",
-            "texte": "Les organismes d\u00e9livrant les titres de formation transmettent ces titres au service ou \u00e0 l'organisme mentionn\u00e9 \u00e0 l'article L. 4352-1 sous forme d'informations certifi\u00e9es.",
-            "texteHtml": "<p>Les organismes d\u00e9livrant les titres de formation transmettent ces titres au service ou \u00e0 l'organisme mentionn\u00e9 \u00e0 l'article L. 4352-1 sous forme d'informations certifi\u00e9es. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-01-16T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "L4351-11",
+                "4351-11"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

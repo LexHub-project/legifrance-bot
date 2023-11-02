@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000028285670",
-    "num": "R411-30",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000046140118",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tout policier r\u00e9serviste est tenu de r\u00e9pondre aux convocations qui lui sont adress\u00e9es.",
+            "texteHtml": "<p>Tout policier r\u00e9serviste est tenu de r\u00e9pondre aux convocations qui lui sont adress\u00e9es.</p>",
+            "num": "R411-30",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1659657600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -92,36 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000046140118",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000028285670",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000028285660",
+            "sectionParentId": "LEGISCTA000046140085",
+            "sectionParentTitre": "Sous-section 3 : Dispositions relatives aux policiers r\u00e9servistes dans la r\u00e9serve op\u00e9rationnelle de la police nationale",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE IV : POLICE NATIONALE  ET GENDARMERIE NATIONALE &gt; TITRE Ier : POLICE NATIONALE &gt; Chapitre Ier : Missions et personnels  de la police nationale &gt; Section 4 : R\u00e9serve op\u00e9rationnelle &gt; Sous-section 3 : Dispositions relatives aux policiers r\u00e9servistes dans la r\u00e9serve op\u00e9rationnelle de la police nationale",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000046140118",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L411-11",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L411-11",
-                    "articleId": "LEGIARTI000025505891",
-                    "natureText": "CODE",
-                    "date": 1659645555222,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1469145600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000024720431",
-                    "textTitle": "D\u00e9cret n\u00b02011-1372\n du 27 octobre 2011 - art. 10 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000024721168",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028276865",
@@ -148,15 +180,93 @@
                     "dateDebutCible": "2022-08-05"
                 }
             ],
-            "num": "R411-30",
-            "origine": "LEGI",
-            "texte": "Tout policier r\u00e9serviste est tenu de r\u00e9pondre aux convocations qui lui sont adress\u00e9es.",
-            "texteHtml": "<p>Tout policier r\u00e9serviste est tenu de r\u00e9pondre aux convocations qui lui sont adress\u00e9es.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-08-05T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L411-11",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L411-11",
+                    "articleId": "LEGIARTI000025505891",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1469145600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000024720431",
+                    "textTitle": "D\u00e9cret n\u00b02011-1372\n du 27 octobre 2011 - art. 10 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000024721168",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000028285670",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1388534400000,
+                    "dateFin": 1473206400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033097871",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1473206400000,
+                    "dateFin": 1659657600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046140118",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1659657600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R411-30",
+                "411-30"
+            ],
+            "versionPrecedente": "LEGIARTI000033097871",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000033097871",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "En dehors des cas mentionn\u00e9s au dernier alin\u00e9a de l'article L. 411-11 : 1\u00b0 La r\u00e9siliation du contrat est prononc\u00e9e, sur demande \u00e9crite du r\u00e9serviste volontaire de la police nationale, formul\u00e9e au moins un mois avant la date souhait\u00e9e de fin de contrat ; 2\u00b0 La suspension peut \u00eatre prononc\u00e9e, \u00e0 la demande du r\u00e9serviste volontaire de la police nationale, \u00e0 raison de son indisponibilit\u00e9, d\u00fbment justifi\u00e9e, notamment pour des raisons m\u00e9dicales. Elle n'a pas pour effet de proroger le terme du contrat d'engagement.",
+            "texteHtml": "<p>En dehors des cas mentionn\u00e9s au dernier alin\u00e9a de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000025505891&dateTexte=&categorieLien=cid'>l'article L. 411-11</a> : <br/>1\u00b0 La r\u00e9siliation du contrat est prononc\u00e9e, sur demande \u00e9crite du r\u00e9serviste volontaire de la police nationale, formul\u00e9e au moins un mois avant la date souhait\u00e9e de fin de contrat ; <br/>2\u00b0 La suspension peut \u00eatre prononc\u00e9e, \u00e0 la demande du r\u00e9serviste volontaire de la police nationale, \u00e0 raison de son indisponibilit\u00e9, d\u00fbment justifi\u00e9e, notamment pour des raisons m\u00e9dicales. Elle n'a pas pour effet de proroger le terme du contrat d'engagement.</p>",
+            "num": "R411-30",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1473206400000,
+            "dateFin": 1659657600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -246,36 +356,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000033097871",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000028285670",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000028285660",
+            "sectionParentId": "LEGISCTA000046140085",
+            "sectionParentTitre": "Sous-section 3 : Dispositions relatives aux policiers r\u00e9servistes dans la r\u00e9serve op\u00e9rationnelle de la police nationale",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE IV : POLICE NATIONALE  ET GENDARMERIE NATIONALE &gt; TITRE Ier : POLICE NATIONALE &gt; Chapitre Ier : Missions et personnels  de la police nationale &gt; Section 4 : R\u00e9serve op\u00e9rationnelle &gt; Sous-section 3 : Dispositions relatives aux policiers r\u00e9servistes dans la r\u00e9serve op\u00e9rationnelle de la police nationale",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033097871",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L411-11",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L411-11",
-                    "articleId": "LEGIARTI000025505891",
-                    "natureText": "CODE",
-                    "date": 1659645555143,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1469145600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000024720431",
-                    "textTitle": "D\u00e9cret n\u00b02011-1372\n du 27 octobre 2011 - art. 10 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000024721168",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028276865",
@@ -302,15 +429,93 @@
                     "dateDebutCible": "2016-09-07"
                 }
             ],
-            "num": "R411-30",
-            "origine": "LEGI",
-            "texte": "En dehors des cas mentionn\u00e9s au dernier alin\u00e9a de l'article L. 411-11 : 1\u00b0 La r\u00e9siliation du contrat est prononc\u00e9e, sur demande \u00e9crite du r\u00e9serviste volontaire de la police nationale, formul\u00e9e au moins un mois avant la date souhait\u00e9e de fin de contrat ; 2\u00b0 La suspension peut \u00eatre prononc\u00e9e, \u00e0 la demande du r\u00e9serviste volontaire de la police nationale, \u00e0 raison de son indisponibilit\u00e9, d\u00fbment justifi\u00e9e, notamment pour des raisons m\u00e9dicales. Elle n'a pas pour effet de proroger le terme du contrat d'engagement.",
-            "texteHtml": "<p>En dehors des cas mentionn\u00e9s au dernier alin\u00e9a de <a href='/article/LEGIARTI000025505891'>l'article L. 411-11</a> : <br/>1\u00b0 La r\u00e9siliation du contrat est prononc\u00e9e, sur demande \u00e9crite du r\u00e9serviste volontaire de la police nationale, formul\u00e9e au moins un mois avant la date souhait\u00e9e de fin de contrat ; <br/>2\u00b0 La suspension peut \u00eatre prononc\u00e9e, \u00e0 la demande du r\u00e9serviste volontaire de la police nationale, \u00e0 raison de son indisponibilit\u00e9, d\u00fbment justifi\u00e9e, notamment pour des raisons m\u00e9dicales. Elle n'a pas pour effet de proroger le terme du contrat d'engagement.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-09-07T00:00:00.000Z",
-            "dateFin": "2022-08-05T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L411-11",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L411-11",
+                    "articleId": "LEGIARTI000025505891",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1469145600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000024720431",
+                    "textTitle": "D\u00e9cret n\u00b02011-1372\n du 27 octobre 2011 - art. 10 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000024721168",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000028285670",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1388534400000,
+                    "dateFin": 1473206400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033097871",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1473206400000,
+                    "dateFin": 1659657600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046140118",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1659657600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R411-30",
+                "411-30"
+            ],
+            "versionPrecedente": "LEGIARTI000028285670",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000028285670",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "En dehors des cas mentionn\u00e9s au cinqui\u00e8me alin\u00e9a de l'article L. 411-11 : 1\u00b0 La r\u00e9siliation du contrat est prononc\u00e9e, sur demande \u00e9crite du r\u00e9serviste volontaire de la police nationale, formul\u00e9e au moins un mois avant la date souhait\u00e9e de fin de contrat ; 2\u00b0 La suspension peut \u00eatre prononc\u00e9e, \u00e0 la demande du r\u00e9serviste volontaire de la police nationale, \u00e0 raison de son indisponibilit\u00e9, d\u00fbment justifi\u00e9e, notamment pour des raisons m\u00e9dicales. Elle n'a pas pour effet de proroger le terme du contrat d'engagement.",
+            "texteHtml": "<p><br/>En dehors des cas mentionn\u00e9s au cinqui\u00e8me alin\u00e9a de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000025505891&dateTexte=&categorieLien=cid' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L411-11 (V)'>l'article L. 411-11</a> : <br/>1\u00b0 La r\u00e9siliation du contrat est prononc\u00e9e, sur demande \u00e9crite du r\u00e9serviste volontaire de la police nationale, formul\u00e9e au moins un mois avant la date souhait\u00e9e de fin de contrat ; <br/>2\u00b0 La suspension peut \u00eatre prononc\u00e9e, \u00e0 la demande du r\u00e9serviste volontaire de la police nationale, \u00e0 raison de son indisponibilit\u00e9, d\u00fbment justifi\u00e9e, notamment pour des raisons m\u00e9dicales. Elle n'a pas pour effet de proroger le terme du contrat d'engagement.</p>",
+            "num": "R411-30",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1388534400000,
+            "dateFin": 1473206400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -400,36 +605,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000028285670",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000028285670",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000028285660",
+            "sectionParentId": "LEGISCTA000046140085",
+            "sectionParentTitre": "Sous-section 3 : Dispositions relatives aux policiers r\u00e9servistes dans la r\u00e9serve op\u00e9rationnelle de la police nationale",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE IV : POLICE NATIONALE  ET GENDARMERIE NATIONALE &gt; TITRE Ier : POLICE NATIONALE &gt; Chapitre Ier : Missions et personnels  de la police nationale &gt; Section 4 : R\u00e9serve civile &gt; Sous-section 3 : Dispositions relatives aux volontaires  dans la r\u00e9serve civile de la police nationale",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000028285670",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L411-11 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L411-11",
-                    "articleId": "LEGIARTI000025505891",
-                    "natureText": "CODE",
-                    "date": 1659645553974,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1469145600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000024720431",
-                    "textTitle": "D\u00e9cret n\u00b02011-1372\n du 27 octobre 2011 - art. 10 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000024721168",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028276865",
@@ -456,13 +678,75 @@
                     "dateDebutCible": "2013-12-07"
                 }
             ],
-            "num": "R411-30",
-            "origine": "LEGI",
-            "texte": "En dehors des cas mentionn\u00e9s au cinqui\u00e8me alin\u00e9a de l'article L. 411-11 : 1\u00b0 La r\u00e9siliation du contrat est prononc\u00e9e, sur demande \u00e9crite du r\u00e9serviste volontaire de la police nationale, formul\u00e9e au moins un mois avant la date souhait\u00e9e de fin de contrat ; 2\u00b0 La suspension peut \u00eatre prononc\u00e9e, \u00e0 la demande du r\u00e9serviste volontaire de la police nationale, \u00e0 raison de son indisponibilit\u00e9, d\u00fbment justifi\u00e9e, notamment pour des raisons m\u00e9dicales. Elle n'a pas pour effet de proroger le terme du contrat d'engagement.",
-            "texteHtml": "<p><br/>En dehors des cas mentionn\u00e9s au cinqui\u00e8me alin\u00e9a de <a href='/article/LEGIARTI000025505891' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L411-11 (V)'>l'article L. 411-11</a> : <br/>1\u00b0 La r\u00e9siliation du contrat est prononc\u00e9e, sur demande \u00e9crite du r\u00e9serviste volontaire de la police nationale, formul\u00e9e au moins un mois avant la date souhait\u00e9e de fin de contrat ; <br/>2\u00b0 La suspension peut \u00eatre prononc\u00e9e, \u00e0 la demande du r\u00e9serviste volontaire de la police nationale, \u00e0 raison de son indisponibilit\u00e9, d\u00fbment justifi\u00e9e, notamment pour des raisons m\u00e9dicales. Elle n'a pas pour effet de proroger le terme du contrat d'engagement.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-01-01T00:00:00.000Z",
-            "dateFin": "2016-09-07T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L411-11 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L411-11",
+                    "articleId": "LEGIARTI000025505891",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1469145600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000024720431",
+                    "textTitle": "D\u00e9cret n\u00b02011-1372\n du 27 octobre 2011 - art. 10 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000024721168",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000028285670",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1388534400000,
+                    "dateFin": 1473206400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033097871",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1473206400000,
+                    "dateFin": 1659657600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046140118",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1659657600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R411-30",
+                "411-30"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006786810",
-    "num": "A211-8",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006786810",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'attestation d'assurance et l'attestation provisoire d'assurance doivent \u00eatre de couleur jaune. Leurs dimensions ne doivent pas \u00eatre inf\u00e9rieures \u00e0 7 x 8 cm ni sup\u00e9rieures \u00e0 21 x 29,5 cm. Ces documents doivent, en outre, \u00eatre conformes aux normes fix\u00e9es par le ministre de l'\u00e9conomie et des finances.",
+            "texteHtml": "<p></p>   L'attestation d'assurance et l'attestation provisoire d'assurance doivent \u00eatre de couleur jaune. Leurs dimensions ne doivent pas \u00eatre inf\u00e9rieures \u00e0 7 x 8 cm ni sup\u00e9rieures \u00e0 21 x 29,5 cm.<p></p><p></p>   Ces documents doivent, en outre, \u00eatre conformes aux normes fix\u00e9es par le ministre de l'\u00e9conomie et des finances.<p></p>",
+            "num": "A211-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 527904000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -74,21 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006786810",
-            "lienAutres": [
+            "cid": "LEGIARTI000006786810",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186863",
+            "sectionParentId": "LEGISCTA000006186863",
+            "sectionParentTitre": "Paragraphe 1 : L'attestation d'assurance.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Livre II : Assurances obligatoires &gt; Titre Ier : L'assurance des v\u00e9hicules terrestres \u00e0 moteur et de leurs remorques et semi-remorques &gt; Chapitre Ier : L'obligation de s'assurer &gt; Section IV : Contr\u00f4le de l'obligation d'assurance &gt; Paragraphe 1 : L'attestation d'assurance.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006786810",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances R211-19",
-                    "linkType": "TXT_SOURCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006073984",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -115,13 +162,43 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "A211-8",
-            "origine": "LEGI",
-            "texte": "L'attestation d'assurance et l'attestation provisoire d'assurance doivent \u00eatre de couleur jaune. Leurs dimensions ne doivent pas \u00eatre inf\u00e9rieures \u00e0 7 x 8 cm ni sup\u00e9rieures \u00e0 21 x 29,5 cm. Ces documents doivent, en outre, \u00eatre conformes aux normes fix\u00e9es par le ministre de l'\u00e9conomie et des finances.",
-            "texteHtml": "<p></p>   L'attestation d'assurance et l'attestation provisoire d'assurance doivent \u00eatre de couleur jaune. Leurs dimensions ne doivent pas \u00eatre inf\u00e9rieures \u00e0 7 x 8 cm ni sup\u00e9rieures \u00e0 21 x 29,5 cm.<p></p><p></p>   Ces documents doivent, en outre, \u00eatre conformes aux normes fix\u00e9es par le ministre de l'\u00e9conomie et des finances.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1986-09-24T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances R211-19",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006073984",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006786810",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 527904000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A211-8",
+                "211-8"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

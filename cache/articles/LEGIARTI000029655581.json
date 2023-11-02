@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029655581",
-    "num": "D321-25",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000042988664",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'op\u00e9ration de destruction est effectu\u00e9e en pr\u00e9sence d'un fonctionnaire du service de police comp\u00e9tent qui en dresse proc\u00e8s-verbal.",
+            "texteHtml": "<p><br/>L'op\u00e9ration de destruction est effectu\u00e9e en pr\u00e9sence d'un fonctionnaire du service de police comp\u00e9tent qui en dresse proc\u00e8s-verbal.</p>",
+            "num": "D321-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1609459200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -83,36 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000042988664",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029655581",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000042950131",
+            "sectionParentId": "LEGISCTA000042950131",
+            "sectionParentTitre": "Paragraphe 2 : Machines \u00e0 sous, postes de jeux \u00e9lectroniques et tables de jeux avec assistance \u00e9lectronique",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE III : POLICES ADMINISTRATIVES SP\u00c9CIALES &gt; TITRE II : JEUX D'ARGENT ET DE HASARD, CASINOS &gt; Chapitre Ier : Casinos &gt; Section 2 : Appareils et mat\u00e9riels de jeux &gt; Paragraphe 2 : Machines \u00e0 sous, postes de jeux \u00e9lectroniques et tables de jeux avec assistance \u00e9lectronique",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000042988664",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D346-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D346-1",
-                    "articleId": "LEGIARTI000042980093",
-                    "natureText": "CODE",
-                    "date": 1610752659297,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1609459200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000022363391",
-                    "textTitle": "D\u00e9cret n\u00b02010-673\r\n du 18 juin 2010 - art. 4 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "4",
-                    "articleId": "LEGIARTI000022372899",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -163,15 +195,84 @@
                     "dateDebutCible": "2021-01-01"
                 }
             ],
-            "num": "D321-25",
-            "origine": "LEGI",
-            "texte": "L'op\u00e9ration de destruction est effectu\u00e9e en pr\u00e9sence d'un fonctionnaire du service de police comp\u00e9tent qui en dresse proc\u00e8s-verbal.",
-            "texteHtml": "<p><br/>L'op\u00e9ration de destruction est effectu\u00e9e en pr\u00e9sence d'un fonctionnaire du service de police comp\u00e9tent qui en dresse proc\u00e8s-verbal.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D346-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D346-1",
+                    "articleId": "LEGIARTI000042980093",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1609459200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000022363391",
+                    "textTitle": "D\u00e9cret n\u00b02010-673\r\n du 18 juin 2010 - art. 4 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000022372899",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029655581",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042988664",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D321-25",
+                "321-25"
+            ],
+            "versionPrecedente": "LEGIARTI000029655581",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000029655581",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'op\u00e9ration de destruction est effectu\u00e9e en pr\u00e9sence d'un fonctionnaire du service de police comp\u00e9tent qui en dresse proc\u00e8s-verbal.",
+            "texteHtml": "<p><br/>L'op\u00e9ration de destruction est effectu\u00e9e en pr\u00e9sence d'un fonctionnaire du service de police comp\u00e9tent qui en dresse proc\u00e8s-verbal.</p>",
+            "num": "D321-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1417392000000,
+            "dateFin": 1609459200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612730,
             "context": {
                 "titresTM": [
                     {
@@ -243,36 +344,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000029655581",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029655581",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029655571",
+            "sectionParentId": "LEGISCTA000029658600",
+            "sectionParentTitre": "Section 2 : Appareils de jeux",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE III : POLICES ADMINISTRATIVES SP\u00c9CIALES &gt; TITRE II : JEUX D'ARGENT ET DE HASARD, CASINOS &gt; Chapitre Ier : Casinos",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000029655581",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D346-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D346-1",
-                    "articleId": "LEGIARTI000042980093",
-                    "natureText": "CODE",
-                    "date": 1610752659191,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1609459200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000022363391",
-                    "textTitle": "D\u00e9cret n\u00b02010-673\r\n du 18 juin 2010 - art. 4 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "4",
-                    "articleId": "LEGIARTI000022372899",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -299,13 +417,66 @@
                     "dateDebutCible": "2014-12-01"
                 }
             ],
-            "num": "D321-25",
-            "origine": "LEGI",
-            "texte": "L'op\u00e9ration de destruction est effectu\u00e9e en pr\u00e9sence d'un fonctionnaire du service de police comp\u00e9tent qui en dresse proc\u00e8s-verbal.",
-            "texteHtml": "<p><br/>L'op\u00e9ration de destruction est effectu\u00e9e en pr\u00e9sence d'un fonctionnaire du service de police comp\u00e9tent qui en dresse proc\u00e8s-verbal.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2021-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D346-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D346-1",
+                    "articleId": "LEGIARTI000042980093",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1609459200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000022363391",
+                    "textTitle": "D\u00e9cret n\u00b02010-673\r\n du 18 juin 2010 - art. 4 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000022372899",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029655581",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042988664",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D321-25",
+                "321-25"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

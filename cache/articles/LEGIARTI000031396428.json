@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031396428",
-    "num": "Annexe 5-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031396428",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Aides aux actions de pr\u00e9servation patrimoniale des \u0153uvres cin\u00e9matographiques (article 512-9 ) Liste des documents justificatifs : 1\u00b0 Les factures relatives aux travaux de transfert sur support photochimique ; 2\u00b0 Le support photochimique r\u00e9alis\u00e9, accompagn\u00e9 de la justification de l'approbation du r\u00e9alisateur et, le cas \u00e9ch\u00e9ant, du chef op\u00e9rateur.",
+            "texteHtml": "<p>Aides aux actions de pr\u00e9servation patrimoniale des \u0153uvres cin\u00e9matographiques (article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000020908868&idArticle=LEGIARTI000031396391&dateTexte=&categorieLien=id' title='Code du cin\u00e9ma et de l'image anim\u00e9e - art. 512-9 (Ab)'>512-9</a>) </p><p></p><p>Liste des documents justificatifs : </p><p>1\u00b0 Les factures relatives aux travaux de transfert sur support photochimique ; </p><p>2\u00b0 Le support photochimique r\u00e9alis\u00e9, accompagn\u00e9 de la justification de l'approbation du r\u00e9alisateur et, le cas \u00e9ch\u00e9ant, du chef op\u00e9rateur.</p><p></p>",
+            "num": "Annexe 5-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1439078400000,
+            "dateFin": 1675209600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -16,21 +31,21 @@
                     },
                     {
                         "debut": "2015-02-11",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-01",
                         "titre": "Livre V : Soutien aux actions en faveur du patrimoine cin\u00e9matographique",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000030226217",
                         "id": "LEGISCTA000030226217",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2015-02-11",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-01",
                         "titre": "ANNEXES AU LIVRE V",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000030226235",
                         "id": "LEGISCTA000030226235",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -47,26 +62,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031396428",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031396428",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000030226235",
+            "sectionParentId": "LEGISCTA000030226235",
+            "sectionParentTitre": "ANNEXES AU LIVRE V",
+            "fullSectionsTitre": "Annexe : R\u00c8GLEMENT G\u00c9N\u00c9RAL DES AIDES FINANCI\u00c8RES DU CENTRE NATIONAL DU CIN\u00c9MA ET DE L'IMAGE ANIM\u00c9E ",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031396428",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000020908868",
-                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. 512-9 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "512-9",
-                    "articleId": "LEGIARTI000031396391",
-                    "natureText": "CODE",
-                    "date": 1599840788424,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000020908868",
+                    "titre": "Code du cin\u00e9ma et de l'image anim\u00e9e",
+                    "titreLong": "Code du cin\u00e9ma et de l'image anim\u00e9e",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1248566400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000020908868",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1439078400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000030987447",
@@ -79,15 +121,61 @@
                     "datePubliTexte": "2015-08-08",
                     "dateSignaTexte": "2015-07-07",
                     "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000047138508",
+                    "textTitle": "D\u00e9lib\u00e9ration n\u00b02022/CA/38 du 8 d\u00e9cembre 2022 - art. 2 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000047143465",
+                    "natureText": "DELIBERATION",
+                    "datePubliTexte": "2023-01-24",
+                    "dateSignaTexte": "2022-12-08",
+                    "dateDebutCible": "2023-02-01"
                 }
             ],
-            "num": "Annexe 5-2",
-            "origine": "LEGI",
-            "texte": "Aides aux actions de pr\u00e9servation patrimoniale des \u0153uvres cin\u00e9matographiques (article 512-9 ) Liste des documents justificatifs : 1\u00b0 Les factures relatives aux travaux de transfert sur support photochimique ; 2\u00b0 Le support photochimique r\u00e9alis\u00e9, accompagn\u00e9 de la justification de l'approbation du r\u00e9alisateur et, le cas \u00e9ch\u00e9ant, du chef op\u00e9rateur.",
-            "texteHtml": "<p>Aides aux actions de pr\u00e9servation patrimoniale des \u0153uvres cin\u00e9matographiques (article <a href='/article/LEGIARTI000031396391' title='Code du cin\u00e9ma et de l'image anim\u00e9e - art. 512-9 (V)'>512-9</a>) </p><p></p><p>Liste des documents justificatifs : </p><p>1\u00b0 Les factures relatives aux travaux de transfert sur support photochimique ; </p><p>2\u00b0 Le support photochimique r\u00e9alis\u00e9, accompagn\u00e9 de la justification de l'approbation du r\u00e9alisateur et, le cas \u00e9ch\u00e9ant, du chef op\u00e9rateur.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-08-09T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000020908868",
+                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. 512-9 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "512-9",
+                    "articleId": "LEGIARTI000031396391",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1439078400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031396428",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1439078400000,
+                    "dateFin": 1675209600000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "Annexe 5-2",
+                "5-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006687478",
-    "num": "L2151-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006687478",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un embryon humain ne peut \u00eatre ni con\u00e7u, ni constitu\u00e9 par clonage, ni utilis\u00e9, \u00e0 des fins commerciales ou industrielles.",
+            "texteHtml": "<p></p>   Un embryon humain ne peut \u00eatre ni con\u00e7u, ni constitu\u00e9 par clonage, ni utilis\u00e9, \u00e0 des fins commerciales ou industrielles.<p></p><p></p>",
+            "num": "L2151-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1091836800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -110,26 +125,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006687478",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006687478",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171138",
+            "sectionParentId": "LEGISCTA000006171138",
+            "sectionParentTitre": "Chapitre unique.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Deuxi\u00e8me partie : Sant\u00e9 de la famille, de la m\u00e8re et de l'enfant &gt; Livre Ier : Protection et promotion de la sant\u00e9 maternelle et infantile &gt; Titre V : Recherche sur l'embryon et les cellules embryonnaires &gt; Chapitre unique.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006687478",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R2141-1-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R2141-1-1",
-                    "articleId": "LEGIARTI000044969067",
-                    "natureText": "CODE",
-                    "date": 1642202078228,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1640995200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -168,13 +210,47 @@
                     "dateDebutCible": "2004-08-07"
                 }
             ],
-            "num": "L2151-3",
-            "origine": "LEGI",
-            "texte": "Un embryon humain ne peut \u00eatre ni con\u00e7u, ni constitu\u00e9 par clonage, ni utilis\u00e9, \u00e0 des fins commerciales ou industrielles.",
-            "texteHtml": "<p></p>   Un embryon humain ne peut \u00eatre ni con\u00e7u, ni constitu\u00e9 par clonage, ni utilis\u00e9, \u00e0 des fins commerciales ou industrielles.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-08-07T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R2141-1-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R2141-1-1",
+                    "articleId": "LEGIARTI000044969067",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1640995200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006687478",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1091836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2151-3",
+                "2151-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

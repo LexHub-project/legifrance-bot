@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006688623",
-    "num": "L3826-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000036393239",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les articles L. 3116-3, L. 3116-5 et L. 3116-6 sont applicables dans le territoire des \u00eeles Wallis et Futuna.",
+            "texteHtml": "<p>Les articles L. 3116-3, L. 3116-5 et L. 3116-6 sont applicables dans le territoire des \u00eeles Wallis et Futuna.</p><p></p><p></p>",
+            "num": "L3826-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1514764800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -65,26 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000036393239",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006688623",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171255",
+            "sectionParentId": "LEGISCTA000006171255",
+            "sectionParentTitre": "Chapitre VI : Dispositions p\u00e9nales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Troisi\u00e8me partie : Lutte contre les maladies et d\u00e9pendances &gt; Livre VIII : Mayotte, \u00eeles Wallis et Futuna et Terres australes et antarctiques fran\u00e7aises, Nouvelle-Cal\u00e9donie et Polyn\u00e9sie fran\u00e7aise &gt; Titre II : Iles Wallis et Futuna &gt; Chapitre VI : Dispositions p\u00e9nales.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000036393239",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L3116-3",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L3116-3",
-                    "articleId": "LEGIARTI000006687827",
-                    "natureText": "CODE",
-                    "date": 1599123837581,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000036339090",
@@ -99,15 +141,83 @@
                     "dateDebutCible": "2018-01-01"
                 }
             ],
-            "num": "L3826-1",
-            "origine": "LEGI",
-            "texte": "Les articles L. 3116-3, L. 3116-5 et L. 3116-6 sont applicables dans le territoire des \u00eeles Wallis et Futuna.",
-            "texteHtml": "<p>Les articles L. 3116-3, L. 3116-5 et L. 3116-6 sont applicables dans le territoire des \u00eeles Wallis et Futuna.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L3116-3",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L3116-3",
+                    "articleId": "LEGIARTI000006687827",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006688623",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1248307200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020891427",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1248307200000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036393239",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L3826-1",
+                "3826-1"
+            ],
+            "versionPrecedente": "LEGIARTI000020891427",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000020891427",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les articles L. 3116-3 \u00e0 L. 3116-6 sont applicables dans le territoire des \u00eeles Wallis et Futuna.",
+            "texteHtml": "<p>Les <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006687827&dateTexte=&categorieLien=cid'>articles L. 3116-3 \u00e0 L. 3116-6</a> sont applicables dans le territoire des \u00eeles Wallis et Futuna.</p><p></p><p></p>",
+            "num": "L3826-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1248307200000,
+            "dateFin": 1514764800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -170,26 +280,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000020891427",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006688623",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171255",
+            "sectionParentId": "LEGISCTA000006171255",
+            "sectionParentTitre": "Chapitre VI : Dispositions p\u00e9nales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Troisi\u00e8me partie : Lutte contre les maladies et d\u00e9pendances &gt; Livre VIII : Mayotte, \u00eeles Wallis et Futuna et Terres australes et antarctiques fran\u00e7aises, Nouvelle-Cal\u00e9donie et Polyn\u00e9sie fran\u00e7aise &gt; Titre II : Iles Wallis et Futuna &gt; Chapitre VI : Dispositions p\u00e9nales.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000020891427",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L3116-3",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L3116-3",
-                    "articleId": "LEGIARTI000006687827",
-                    "natureText": "CODE",
-                    "date": 1599857166494,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000020879475",
@@ -204,15 +341,83 @@
                     "dateDebutCible": "2009-07-23"
                 }
             ],
-            "num": "L3826-1",
-            "origine": "LEGI",
-            "texte": "Les articles L. 3116-3 \u00e0 L. 3116-6 sont applicables dans le territoire des \u00eeles Wallis et Futuna.",
-            "texteHtml": "<p>Les <a href='/article/LEGIARTI000006687827'>articles L. 3116-3 \u00e0 L. 3116-6</a> sont applicables dans le territoire des \u00eeles Wallis et Futuna.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-07-23T00:00:00.000Z",
-            "dateFin": "2018-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L3116-3",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L3116-3",
+                    "articleId": "LEGIARTI000006687827",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006688623",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1248307200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020891427",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1248307200000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036393239",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L3826-1",
+                "3826-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006688623",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006688623",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les articles L. 3116-3 \u00e0 L. 3116-5 sont applicables dans le territoire des \u00eeles Wallis et Futuna.",
+            "texteHtml": "<p></p>   Les articles L. 3116-3 \u00e0 L. 3116-5 sont applicables dans le territoire des \u00eeles Wallis et Futuna.<p></p><p></p>",
+            "num": "L3826-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1248307200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -275,26 +480,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006688623",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006688623",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171255",
+            "sectionParentId": "LEGISCTA000006171255",
+            "sectionParentTitre": "Chapitre VI : Dispositions p\u00e9nales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Troisi\u00e8me partie : Lutte contre les maladies et d\u00e9pendances &gt; Livre VIII : Mayotte, \u00eeles Wallis et Futuna et Terres australes et antarctiques fran\u00e7aises, Nouvelle-Cal\u00e9donie et Polyn\u00e9sie fran\u00e7aise &gt; Titre II : Iles Wallis et Futuna &gt; Chapitre VI : Dispositions p\u00e9nales.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006688623",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique L3116-3 \u00e0 L3116-5",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006072665",
-                    "natureText": "CODE",
-                    "date": 1599117002150,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": -512352000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -321,13 +553,65 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L3826-1",
-            "origine": "LEGI",
-            "texte": "Les articles L. 3116-3 \u00e0 L. 3116-5 sont applicables dans le territoire des \u00eeles Wallis et Futuna.",
-            "texteHtml": "<p></p>   Les articles L. 3116-3 \u00e0 L. 3116-5 sont applicables dans le territoire des \u00eeles Wallis et Futuna.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2009-07-23T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique L3116-3 \u00e0 L3116-5",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072665",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": -512352000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006688623",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1248307200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020891427",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1248307200000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036393239",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L3826-1",
+                "3826-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

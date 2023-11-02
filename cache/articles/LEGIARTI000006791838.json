@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006791838",
-    "num": "L111-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006791841",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'autorit\u00e9 administrative peut imposer l'usage de clauses types de contrats.",
+            "texteHtml": "<p></p>   L'autorit\u00e9 administrative peut imposer l'usage de clauses types de contrats.<p></p><p></p>",
+            "num": "L111-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 773020800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 515388,
             "context": {
                 "titresTM": [
                     {
@@ -65,50 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006791841",
-            "lienAutres": [
+            "cid": "LEGIARTI000006791838",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157198",
+            "sectionParentId": "LEGISCTA000006157198",
+            "sectionParentTitre": "Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Le contrat &gt; Titre Ier : R\u00e8gles communes aux assurances de dommages non maritimes et aux assurances de personnes &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006791841",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000544780",
-                    "textTitle": "Loi 94-5 1994-01-04 art. 41 *champ d'application \u00e0 Mayotte*",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000544780",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. L433-3 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L433-3",
-                    "articleId": "LEGIARTI000006802844",
-                    "natureText": "CODE",
-                    "date": 1599825057129,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 423878400000
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R111-2 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R111-2",
-                    "articleId": "LEGIARTI000006811588",
-                    "natureText": "CODE",
-                    "date": 1599825057129,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 981590400000
-                }
-            ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000305911",
@@ -147,15 +165,115 @@
                     "dateDebutCible": "2015-01-15"
                 }
             ],
-            "num": "L111-4",
-            "origine": "LEGI",
-            "texte": "L'autorit\u00e9 administrative peut imposer l'usage de clauses types de contrats.",
-            "texteHtml": "<p></p>   L'autorit\u00e9 administrative peut imposer l'usage de clauses types de contrats.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1994-07-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L433-3 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L433-3",
+                    "articleId": "LEGIARTI000006802844",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 423878400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R111-2 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R111-2",
+                    "articleId": "LEGIARTI000006811588",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 981590400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "JORFTEXT000000544780",
+                    "textTitle": "Loi 94-5 1994-01-04 art. 41 *champ d'application \u00e0 Mayotte*",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000544780",
+                    "natureText": "LOI"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006791838",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 488073600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791839",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 488073600000,
+                    "dateFin": 673574400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791840",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 673574400000,
+                    "dateFin": 773020800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791841",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 773020800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L111-4",
+                "111-4"
+            ],
+            "versionPrecedente": "LEGIARTI000006791840",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006791840",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le pr\u00e9sent code est applicable dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, sous r\u00e9serve des dispositions du titre IX ci-apr\u00e8s et des articles 129 \u00e0 148 de la loi locale du 30 mai 1908 sur le contrat d'assurance. Les dispositions des articles 1er \u00e0 128 et des articles 149 \u00e0 191 de la loi locale du 30 mai 1908 pr\u00e9cit\u00e9e sont abrog\u00e9es.",
+            "texteHtml": "<p></p>   Le pr\u00e9sent code est applicable dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, sous r\u00e9serve des dispositions du titre IX ci-apr\u00e8s et des articles 129 \u00e0 148 de la loi locale du 30 mai 1908 sur le contrat d'assurance.<p></p><p></p>   Les dispositions des articles 1er \u00e0 128 et des articles 149 \u00e0 191 de la loi locale du 30 mai 1908 pr\u00e9cit\u00e9e sont abrog\u00e9es.<p></p>",
+            "num": "L111-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 673574400000,
+            "dateFin": 773020800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 386541,
             "context": {
                 "titresTM": [
                     {
@@ -218,54 +336,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006791840",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006791838",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157198",
+            "sectionParentId": "LEGISCTA000006157198",
+            "sectionParentTitre": "Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Le contrat &gt; Titre Ier : R\u00e8gles communes aux assurances de dommages non maritimes et aux assurances de personnes &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006791840",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. L433-3 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L433-3",
-                    "articleId": "LEGIARTI000006802844",
-                    "natureText": "CODE",
-                    "date": 1599825057363,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 423878400000
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R111-2 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R111-2",
-                    "articleId": "LEGIARTI000006811588",
-                    "natureText": "CODE",
-                    "date": 1599825057363,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 981590400000
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Loi 1908-05-30 art. 129 \u00e0 148, art. 149 \u00e0 191",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "date": 1599825057363,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": null,
-                    "dateDebut": null
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000720043",
@@ -280,15 +397,118 @@
                     "dateDebutCible": "1991-05-07"
                 }
             ],
-            "num": "L111-4",
-            "origine": "LEGI",
-            "texte": "Le pr\u00e9sent code est applicable dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, sous r\u00e9serve des dispositions du titre IX ci-apr\u00e8s et des articles 129 \u00e0 148 de la loi locale du 30 mai 1908 sur le contrat d'assurance. Les dispositions des articles 1er \u00e0 128 et des articles 149 \u00e0 191 de la loi locale du 30 mai 1908 pr\u00e9cit\u00e9e sont abrog\u00e9es.",
-            "texteHtml": "<p></p>   Le pr\u00e9sent code est applicable dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, sous r\u00e9serve des dispositions du titre IX ci-apr\u00e8s et des articles 129 \u00e0 148 de la loi locale du 30 mai 1908 sur le contrat d'assurance.<p></p><p></p>   Les dispositions des articles 1er \u00e0 128 et des articles 149 \u00e0 191 de la loi locale du 30 mai 1908 pr\u00e9cit\u00e9e sont abrog\u00e9es.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1991-05-07T00:00:00.000Z",
-            "dateFin": "1994-07-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L433-3 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L433-3",
+                    "articleId": "LEGIARTI000006802844",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 423878400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R111-2 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R111-2",
+                    "articleId": "LEGIARTI000006811588",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 981590400000
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1908-05-30 art. 129 \u00e0 148, art. 149 \u00e0 191",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006791838",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 488073600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791839",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 488073600000,
+                    "dateFin": 673574400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791840",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 673574400000,
+                    "dateFin": 773020800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791841",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 773020800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L111-4",
+                "111-4"
+            ],
+            "versionPrecedente": "LEGIARTI000006791839",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006791839",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 la loi locale du 30 mai 1908 sur le contrat d'assurance, maintenue en vigueur par l'article 66 de la loi du 1er juin 1924, dans les conditions pr\u00e9vues par l'article 10 de la loi du 24 juillet 1921 pr\u00e9venant et r\u00e9glant les conflits entre la loi fran\u00e7aise et la loi locale d'Alsace et Lorraine en mati\u00e8re de droit priv\u00e9. L'assureur doit informer l'assur\u00e9 par \u00e9crit, pr\u00e9alablement \u00e0 la conclusion du contrat, que les parties peuvent, par une simple d\u00e9claration de leur volont\u00e9, le soustraire \u00e0 l'application de la loi locale, sous r\u00e9serve des dispositions imp\u00e9ratives que celle-ci contient, et le soumettre au droit commun. Il doit \u00e9galement l'informer de la diff\u00e9rence existant entre les deux l\u00e9gislations au regard de la possibilit\u00e9 de r\u00e9siliation p\u00e9riodique du contrat.",
+            "texteHtml": "<p></p>   Dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 la loi locale du 30 mai 1908 sur le contrat d'assurance, maintenue en vigueur par l'article 66 de la loi du 1er juin 1924, dans les conditions pr\u00e9vues par l'article 10 de la loi du 24 juillet 1921 pr\u00e9venant et r\u00e9glant les conflits entre la loi fran\u00e7aise et la loi locale d'Alsace et Lorraine en mati\u00e8re de droit priv\u00e9.<p></p><p></p>   L'assureur doit informer l'assur\u00e9 par \u00e9crit, pr\u00e9alablement \u00e0 la conclusion du contrat, que les parties peuvent, par une simple d\u00e9claration de leur volont\u00e9, le soustraire \u00e0 l'application de la loi locale, sous r\u00e9serve des dispositions imp\u00e9ratives que celle-ci contient, et le soumettre au droit commun.<p></p><p></p>   Il doit \u00e9galement l'informer de la diff\u00e9rence existant entre les deux l\u00e9gislations au regard de la possibilit\u00e9 de r\u00e9siliation p\u00e9riodique du contrat.<p></p>",
+            "num": "L111-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 488073600000,
+            "dateFin": 673574400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 472439,
             "context": {
                 "titresTM": [
                     {
@@ -351,82 +571,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006791839",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006791838",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157198",
+            "sectionParentId": "LEGISCTA000006157198",
+            "sectionParentTitre": "Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Le contrat &gt; Titre Ier : R\u00e8gles communes aux assurances de dommages non maritimes et aux assurances de personnes &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006791839",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. L433-3 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L433-3",
-                    "articleId": "LEGIARTI000006802844",
-                    "natureText": "CODE",
-                    "date": 1599825059736,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 423878400000
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R111-2 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R111-2",
-                    "articleId": "LEGIARTI000006811588",
-                    "natureText": "CODE",
-                    "date": 1599825059736,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 981590400000
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Loi 1908-05-30",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "date": 1599825059736,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": null,
-                    "dateDebut": null
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Loi 1921-07-24 art. 10",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "date": 1599825059736,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": null,
-                    "dateDebut": null
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Loi 1924-06-01 art. 66",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "date": 1599825059736,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": null,
-                    "dateDebut": null
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000878408",
@@ -441,15 +632,144 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L111-4",
-            "origine": "LEGI",
-            "texte": "Dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 la loi locale du 30 mai 1908 sur le contrat d'assurance, maintenue en vigueur par l'article 66 de la loi du 1er juin 1924, dans les conditions pr\u00e9vues par l'article 10 de la loi du 24 juillet 1921 pr\u00e9venant et r\u00e9glant les conflits entre la loi fran\u00e7aise et la loi locale d'Alsace et Lorraine en mati\u00e8re de droit priv\u00e9. L'assureur doit informer l'assur\u00e9 par \u00e9crit, pr\u00e9alablement \u00e0 la conclusion du contrat, que les parties peuvent, par une simple d\u00e9claration de leur volont\u00e9, le soustraire \u00e0 l'application de la loi locale, sous r\u00e9serve des dispositions imp\u00e9ratives que celle-ci contient, et le soumettre au droit commun. Il doit \u00e9galement l'informer de la diff\u00e9rence existant entre les deux l\u00e9gislations au regard de la possibilit\u00e9 de r\u00e9siliation p\u00e9riodique du contrat.",
-            "texteHtml": "<p></p>   Dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 la loi locale du 30 mai 1908 sur le contrat d'assurance, maintenue en vigueur par l'article 66 de la loi du 1er juin 1924, dans les conditions pr\u00e9vues par l'article 10 de la loi du 24 juillet 1921 pr\u00e9venant et r\u00e9glant les conflits entre la loi fran\u00e7aise et la loi locale d'Alsace et Lorraine en mati\u00e8re de droit priv\u00e9.<p></p><p></p>   L'assureur doit informer l'assur\u00e9 par \u00e9crit, pr\u00e9alablement \u00e0 la conclusion du contrat, que les parties peuvent, par une simple d\u00e9claration de leur volont\u00e9, le soustraire \u00e0 l'application de la loi locale, sous r\u00e9serve des dispositions imp\u00e9ratives que celle-ci contient, et le soumettre au droit commun.<p></p><p></p>   Il doit \u00e9galement l'informer de la diff\u00e9rence existant entre les deux l\u00e9gislations au regard de la possibilit\u00e9 de r\u00e9siliation p\u00e9riodique du contrat.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1985-06-20T00:00:00.000Z",
-            "dateFin": "1991-05-07T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L433-3 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L433-3",
+                    "articleId": "LEGIARTI000006802844",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 423878400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R111-2 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R111-2",
+                    "articleId": "LEGIARTI000006811588",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 981590400000
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1908-05-30",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1921-07-24 art. 10",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1924-06-01 art. 66",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006791838",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 488073600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791839",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 488073600000,
+                    "dateFin": 673574400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791840",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 673574400000,
+                    "dateFin": 773020800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791841",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 773020800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L111-4",
+                "111-4"
+            ],
+            "versionPrecedente": "LEGIARTI000006791838",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006791838",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 la loi locale du 30 mai 1908 sur le contrat d'assurance, maintenue en vigueur par l'article 66 de la loi du 1er juin 1924, dans les conditions pr\u00e9vues par l'article 10 de la loi du 24 juillet 1921 pr\u00e9venant et r\u00e9glant les conflits entre la loi fran\u00e7aise et la loi locale d'Alsace et Lorraine en mati\u00e8re de droit priv\u00e9.",
+            "texteHtml": "<p></p>   Dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 la loi locale du 30 mai 1908 sur le contrat d'assurance, maintenue en vigueur par l'article 66 de la loi du 1er juin 1924, dans les conditions pr\u00e9vues par l'article 10 de la loi du 24 juillet 1921 pr\u00e9venant et r\u00e9glant les conflits entre la loi fran\u00e7aise et la loi locale d'Alsace et Lorraine en mati\u00e8re de droit priv\u00e9.<p></p><p></p>",
+            "num": "L111-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 206755200000,
+            "dateFin": 488073600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 429490,
             "context": {
                 "titresTM": [
                     {
@@ -512,82 +832,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006791838",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006791838",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157198",
+            "sectionParentId": "LEGISCTA000006157198",
+            "sectionParentTitre": "Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Le contrat &gt; Titre Ier : R\u00e8gles communes aux assurances de dommages non maritimes et aux assurances de personnes &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006791838",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. L433-3 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L433-3",
-                    "articleId": "LEGIARTI000006802844",
-                    "natureText": "CODE",
-                    "date": 1599825058702,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 423878400000
-                },
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R111-2 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R111-2",
-                    "articleId": "LEGIARTI000006811588",
-                    "natureText": "CODE",
-                    "date": 1599825058702,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 981590400000
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Loi 1908-05-30",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "date": 1599825058702,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": null,
-                    "dateDebut": null
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Loi 1921-07-24 art. 10",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "date": 1599825058702,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": null,
-                    "dateDebut": null
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Loi 1924-06-01 art. 66",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "date": 1599825058702,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": null,
-                    "dateDebut": null
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000305911",
@@ -602,13 +893,126 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L111-4",
-            "origine": "LEGI",
-            "texte": "Dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 la loi locale du 30 mai 1908 sur le contrat d'assurance, maintenue en vigueur par l'article 66 de la loi du 1er juin 1924, dans les conditions pr\u00e9vues par l'article 10 de la loi du 24 juillet 1921 pr\u00e9venant et r\u00e9glant les conflits entre la loi fran\u00e7aise et la loi locale d'Alsace et Lorraine en mati\u00e8re de droit priv\u00e9.",
-            "texteHtml": "<p></p>   Dans les d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 la loi locale du 30 mai 1908 sur le contrat d'assurance, maintenue en vigueur par l'article 66 de la loi du 1er juin 1924, dans les conditions pr\u00e9vues par l'article 10 de la loi du 24 juillet 1921 pr\u00e9venant et r\u00e9glant les conflits entre la loi fran\u00e7aise et la loi locale d'Alsace et Lorraine en mati\u00e8re de droit priv\u00e9.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1976-07-21T00:00:00.000Z",
-            "dateFin": "1985-06-20T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L433-3 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L433-3",
+                    "articleId": "LEGIARTI000006802844",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 423878400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R111-2 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R111-2",
+                    "articleId": "LEGIARTI000006811588",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 981590400000
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1908-05-30",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1921-07-24 art. 10",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1924-06-01 art. 66",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": null,
+                    "dateDebut": null
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006791838",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 488073600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791839",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 488073600000,
+                    "dateFin": 673574400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791840",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 673574400000,
+                    "dateFin": 773020800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006791841",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 773020800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L111-4",
+                "111-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

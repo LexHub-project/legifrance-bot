@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023986212",
-    "num": "L221-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023986212",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les personnes qui n'ont pas produit les certificats d'\u00e9conomies d'\u00e9nergie n\u00e9cessaires sont mises en demeure d'en acqu\u00e9rir.",
+            "texteHtml": "<p><br/>Les personnes qui n'ont pas produit les certificats d'\u00e9conomies d'\u00e9nergie n\u00e9cessaires sont mises en demeure d'en acqu\u00e9rir.</p>",
+            "num": "L221-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1306886400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -56,36 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023986212",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023986212",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023986206",
+            "sectionParentId": "LEGISCTA000023986206",
+            "sectionParentTitre": "Chapitre Ier : Le dispositif des certificats d'\u00e9conomies d'\u00e9nergie\n\n",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE II : LA MAITRISE DE LA DEMANDE D'ENERGIE ET LE DEVELOPPEMENT DES ENERGIES RENOUVELABLES &gt; TITRE II : LES CERTIFICATS D'ECONOMIES D'ENERGIE &gt; Chapitre Ier : Le dispositif des certificats d'\u00e9conomies d'\u00e9nergie\n\n",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023986212",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000387696",
-                    "textTitle": "D\u00e9cret n\u00b097-1204 du 19 d\u00e9cembre 1997 - art. Annexe (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe",
-                    "articleId": "LEGIARTI000041985533",
-                    "natureText": "DECRET",
-                    "date": 1599861068605,
-                    "parentCid": null,
-                    "numTexte": "97-1204",
-                    "datePubli": 883180800000,
-                    "dateDebut": 1591920000000
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000813253",
-                    "textTitle": "Loi n\u00b02005-781 du 13 juillet 2005 - art. 14 (VT), III",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "14",
-                    "articleId": "LEGIARTI000022494492",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -112,13 +144,57 @@
                     "dateDebutCible": "2011-06-01"
                 }
             ],
-            "num": "L221-3",
-            "origine": "LEGI",
-            "texte": "Les personnes qui n'ont pas produit les certificats d'\u00e9conomies d'\u00e9nergie n\u00e9cessaires sont mises en demeure d'en acqu\u00e9rir.",
-            "texteHtml": "<p><br/>Les personnes qui n'ont pas produit les certificats d'\u00e9conomies d'\u00e9nergie n\u00e9cessaires sont mises en demeure d'en acqu\u00e9rir.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000387696",
+                    "textTitle": "D\u00e9cret n\u00b097-1204 du 19 d\u00e9cembre 1997 - art. Annexe (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe",
+                    "articleId": "LEGIARTI000041985533",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "97-1204",
+                    "datePubli": 883180800000,
+                    "dateDebut": 1591920000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000813253",
+                    "textTitle": "Loi n\u00b02005-781 du 13 juillet 2005 - art. 14 (VT), III",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "14",
+                    "articleId": "LEGIARTI000022494492",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023986212",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L221-3",
+                "221-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

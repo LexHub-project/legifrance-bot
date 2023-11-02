@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000043819161",
-    "num": "R151-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000043819161",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les logements doivent \u00eatre prot\u00e9g\u00e9s contre les infiltrations et les remont\u00e9es d'eau.",
+            "texteHtml": "<p><br/>Les logements doivent \u00eatre prot\u00e9g\u00e9s contre les infiltrations et les remont\u00e9es d'eau.</p>",
+            "num": "R151-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1625097600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -56,21 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000043819161",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000043819161",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000043819157",
+            "sectionParentId": "LEGISCTA000043819157",
+            "sectionParentTitre": "Chapitre Ier : OBJECTIFS G\u00c9N\u00c9RAUX DE QUALIT\u00c9 SANITAIRE DES B\u00c2TIMENTS",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre V : QUALIT\u00c9 SANITAIRE &gt; Chapitre Ier : OBJECTIFS G\u00c9N\u00c9RAUX DE QUALIT\u00c9 SANITAIRE DES B\u00c2TIMENTS",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000043819161",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. R111-8 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R111-8",
-                    "articleId": "LEGIARTI000039041431",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000043808633",
@@ -97,13 +144,57 @@
                     "dateDebutCible": "2021-07-01"
                 }
             ],
-            "num": "R151-2",
-            "origine": "LEGI",
-            "texte": "Les logements doivent \u00eatre prot\u00e9g\u00e9s contre les infiltrations et les remont\u00e9es d'eau.",
-            "texteHtml": "<p><br/>Les logements doivent \u00eatre prot\u00e9g\u00e9s contre les infiltrations et les remont\u00e9es d'eau.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-07-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R1331-25 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1331-25",
+                    "articleId": "LEGIARTI000047945607",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1696118400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R111-8 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R111-8",
+                    "articleId": "LEGIARTI000039041431",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000043819161",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1625097600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R151-2",
+                "151-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

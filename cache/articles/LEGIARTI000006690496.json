@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006690496",
-    "num": "L5424-14",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000028352122",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 75 000 \u20ac d'amende.",
+            "texteHtml": "<p>Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 75 000 \u20ac d'amende.</p><p></p><p></p>",
+            "num": "L5424-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1391212800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1288470,
             "context": {
                 "titresTM": [
                     {
@@ -74,39 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000028352122",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006690496",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171415",
+            "sectionParentId": "LEGISCTA000006171415",
+            "sectionParentTitre": "Chapitre IV : Distribution au d\u00e9tail.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Sanctions p\u00e9nales et financi\u00e8res &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre IV : Distribution au d\u00e9tail.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000028352122",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L518 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L518",
-                    "articleId": "LEGIARTI000006693446",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L518 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L518",
-                    "articleId": "LEGIARTI000006693445",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique L518, L580 alin\u00e9a 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006072665",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -145,15 +174,97 @@
                     "dateDebutCible": "2014-02-01"
                 }
             ],
-            "num": "L5424-14",
-            "origine": "LEGI",
-            "texte": "Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 75 000 \u20ac d'amende.",
-            "texteHtml": "<p>Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 75 000 \u20ac d'amende.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-02-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L518 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L518",
+                    "articleId": "LEGIARTI000006693446",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L518 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L518",
+                    "articleId": "LEGIARTI000006693445",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique L518, L580 alin\u00e9a 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072665",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006690496",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006690497",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1009843200000,
+                    "dateFin": 1391212800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028352122",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5424-14",
+                "5424-14"
+            ],
+            "versionPrecedente": "LEGIARTI000006690497",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006690497",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 3750 euros d'amende.",
+            "texteHtml": "<p></p>   Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 3750 euros d'amende.<p></p><p></p>",
+            "num": "L5424-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1009843200000,
+            "dateFin": 1391212800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1288470,
             "context": {
                 "titresTM": [
                     {
@@ -225,39 +336,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006690497",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006690496",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171415",
+            "sectionParentId": "LEGISCTA000006171415",
+            "sectionParentTitre": "Chapitre IV : Distribution au d\u00e9tail.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Sanctions p\u00e9nales et financi\u00e8res &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre IV : Distribution au d\u00e9tail.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006690497",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L518 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L518",
-                    "articleId": "LEGIARTI000006693446",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L518 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L518",
-                    "articleId": "LEGIARTI000006693445",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique L518, L580 alin\u00e9a 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006072665",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -296,15 +421,97 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L5424-14",
-            "origine": "LEGI",
-            "texte": "Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 3750 euros d'amende.",
-            "texteHtml": "<p></p>   Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 3750 euros d'amende.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2002-01-01T00:00:00.000Z",
-            "dateFin": "2014-02-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L518 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L518",
+                    "articleId": "LEGIARTI000006693446",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L518 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L518",
+                    "articleId": "LEGIARTI000006693445",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique L518, L580 alin\u00e9a 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072665",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006690496",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006690497",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1009843200000,
+                    "dateFin": 1391212800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028352122",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5424-14",
+                "5424-14"
+            ],
+            "versionPrecedente": "LEGIARTI000006690496",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006690496",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 25 000 F d'amende.",
+            "texteHtml": "<p></p>   Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 25 000 F d'amende.<p></p><p></p>",
+            "num": "L5424-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1009843200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1331419,
             "context": {
                 "titresTM": [
                     {
@@ -376,9 +583,79 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006690496",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006690496",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171415",
+            "sectionParentId": "LEGISCTA000006171415",
+            "sectionParentTitre": "Chapitre IV : Distribution au d\u00e9tail.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre IV : Dispositions p\u00e9nales &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre IV : Distribution au d\u00e9tail.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006690496",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000217229",
+                    "textTitle": "Ordonnance 2000-548 2000-06-15",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000217229",
+                    "natureText": "RAPPORT",
+                    "datePubliTexte": "2000-06-22",
+                    "dateSignaTexte": "2999-01-01",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000227015",
+                    "textTitle": "Loi 2002-303 2002-03-04 art. 92 JORF 5 mars 2002",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000227015",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2002-03-05",
+                    "dateSignaTexte": "2002-03-04",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -409,39 +686,49 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000217229",
-                    "textTitle": "Ordonnance 2000-548 2000-06-15",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000217229",
-                    "natureText": "RAPPORT",
-                    "datePubliTexte": "2000-06-22",
-                    "dateSignaTexte": "2999-01-01",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006690496",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1009843200000,
+                    "numero": null,
+                    "ordre": null
                 },
                 {
-                    "textCid": "JORFTEXT000000227015",
-                    "textTitle": "Loi 2002-303 2002-03-04 art. 92 JORF 5 mars 2002",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000227015",
-                    "natureText": "LOI",
-                    "datePubliTexte": "2002-03-05",
-                    "dateSignaTexte": "2002-03-04",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006690497",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1009843200000,
+                    "dateFin": 1391212800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028352122",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1391212800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "L5424-14",
-            "origine": "LEGI",
-            "texte": "Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 25 000 F d'amende.",
-            "texteHtml": "<p></p>   Le fait, pour le titulaire d'une officine qui reste ouverte en son absence, de ne pas se faire r\u00e9guli\u00e8rement remplacer, est puni de 25 000 F d'amende.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2002-01-01T00:00:00.000Z"
+            "computedNums": [
+                "L5424-14",
+                "5424-14"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

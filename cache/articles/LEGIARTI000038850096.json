@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000038850096",
-    "num": "R811-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000038879063",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le conseil de gestion se r\u00e9unit au moins une fois par an, sur convocation de son pr\u00e9sident. Il \u00e9tablit son r\u00e8glement int\u00e9rieur.",
+            "texteHtml": "<p><br/>Le conseil de gestion se r\u00e9unit au moins une fois par an, sur convocation de son pr\u00e9sident.<br/>Il \u00e9tablit son r\u00e8glement int\u00e9rieur.</p>",
+            "num": "R811-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1567296000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612733,
             "context": {
                 "titresTM": [
                     {
@@ -56,21 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000038879063",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000038850096",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000038850090",
+            "sectionParentId": "LEGISCTA000038879069",
+            "sectionParentTitre": "Chapitre Ier : Organisation",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VIII : Aides personnelles au logement &gt; Titre Ier : Fonds national d'aide au logement &gt; Chapitre Ier : Organisation",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000038879063",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. R351-35 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R351-35",
-                    "articleId": "LEGIARTI000006897469",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000038812273",
@@ -85,13 +132,43 @@
                     "dateDebutCible": "2019-07-26"
                 }
             ],
-            "num": "R811-3",
-            "origine": "LEGI",
-            "texte": "Le conseil de gestion se r\u00e9unit au moins une fois par an, sur convocation de son pr\u00e9sident. Il \u00e9tablit son r\u00e8glement int\u00e9rieur.",
-            "texteHtml": "<p><br/>Le conseil de gestion se r\u00e9unit au moins une fois par an, sur convocation de son pr\u00e9sident.<br/>Il \u00e9tablit son r\u00e8glement int\u00e9rieur.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-09-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R351-35 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R351-35",
+                    "articleId": "LEGIARTI000006897469",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000038879063",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1567296000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R811-3",
+                "811-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029656718",
-    "num": "R723-19",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045656779",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les caporaux de sapeurs-pompiers volontaires qui ont accompli trois ann\u00e9es dans leur grade et qui ont valid\u00e9 la formation de perfectionnement du caporal peuvent \u00eatre nomm\u00e9s sergent.",
+            "texteHtml": "<p>Les caporaux de sapeurs-pompiers volontaires qui ont accompli trois ann\u00e9es dans leur grade et qui ont valid\u00e9 la formation de perfectionnement du caporal peuvent \u00eatre nomm\u00e9s sergent.</p>",
+            "num": "R723-19",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1650153600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -92,36 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045656779",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029656718",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656712",
+            "sectionParentId": "LEGISCTA000029657847",
+            "sectionParentTitre": "  Sous-paragraphe  3 : Changements de grade",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 2 : Engagement citoyen &gt; Paragraphe 3 : D\u00e9roulement du volontariat &gt;   Sous-paragraphe  3 : Changements de grade",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000045656779",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027545649",
-                    "textTitle": "Arr\u00eat\u00e9 du 6 juin 2013 - art. 18 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "18",
-                    "articleId": "LEGIARTI000029779600",
-                    "natureText": "ARRETE",
-                    "date": 1651780894866,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1371254400000,
-                    "dateDebut": 1417392000000
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000027517141",
-                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 18 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "18",
-                    "articleId": "LEGIARTI000027520066",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -148,15 +189,84 @@
                     "dateDebutCible": "2022-04-17"
                 }
             ],
-            "num": "R723-19",
-            "origine": "LEGI",
-            "texte": "Les caporaux de sapeurs-pompiers volontaires qui ont accompli trois ann\u00e9es dans leur grade et qui ont valid\u00e9 la formation de perfectionnement du caporal peuvent \u00eatre nomm\u00e9s sergent.",
-            "texteHtml": "<p>Les caporaux de sapeurs-pompiers volontaires qui ont accompli trois ann\u00e9es dans leur grade et qui ont valid\u00e9 la formation de perfectionnement du caporal peuvent \u00eatre nomm\u00e9s sergent.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-04-17T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000027545649",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 juin 2013 - art. 18 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "18",
+                    "articleId": "LEGIARTI000029779600",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1371254400000,
+                    "dateDebut": 1417392000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000027517141",
+                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 18 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "18",
+                    "articleId": "LEGIARTI000027520066",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656718",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1650153600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045656779",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1650153600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R723-19",
+                "723-19"
+            ],
+            "versionPrecedente": "LEGIARTI000029656718",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000029656718",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les caporaux de sapeurs-pompiers volontaires qui ont accompli trois ann\u00e9es dans leur grade et qui ont acquis les comp\u00e9tences correspondant aux formations d\u00e9finies par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 civile peuvent \u00eatre nomm\u00e9s sergent.",
+            "texteHtml": "<p><br/>Les caporaux de sapeurs-pompiers volontaires qui ont accompli trois ann\u00e9es dans leur grade et qui ont acquis les comp\u00e9tences correspondant aux formations d\u00e9finies par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 civile peuvent \u00eatre nomm\u00e9s sergent.</p>",
+            "num": "R723-19",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1417392000000,
+            "dateFin": 1650153600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -197,11 +307,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -246,36 +365,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000029656718",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029656718",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656712",
+            "sectionParentId": "LEGISCTA000029657847",
+            "sectionParentTitre": "  Sous-paragraphe  3 : Changements de grade",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 2 : Engagement citoyen &gt; Paragraphe 3 : D\u00e9roulement du volontariat &gt;   Sous-paragraphe  3 : Changements de grade",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000029656718",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027545649",
-                    "textTitle": "Arr\u00eat\u00e9 du 6 juin 2013 - art. 18 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "18",
-                    "articleId": "LEGIARTI000029779600",
-                    "natureText": "ARRETE",
-                    "date": 1651780895217,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1371254400000,
-                    "dateDebut": 1417392000000
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000027517141",
-                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 18 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "18",
-                    "articleId": "LEGIARTI000027520066",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -302,13 +438,66 @@
                     "dateDebutCible": "2014-12-01"
                 }
             ],
-            "num": "R723-19",
-            "origine": "LEGI",
-            "texte": "Les caporaux de sapeurs-pompiers volontaires qui ont accompli trois ann\u00e9es dans leur grade et qui ont acquis les comp\u00e9tences correspondant aux formations d\u00e9finies par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 civile peuvent \u00eatre nomm\u00e9s sergent.",
-            "texteHtml": "<p><br/>Les caporaux de sapeurs-pompiers volontaires qui ont accompli trois ann\u00e9es dans leur grade et qui ont acquis les comp\u00e9tences correspondant aux formations d\u00e9finies par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 civile peuvent \u00eatre nomm\u00e9s sergent.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2022-04-17T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000027545649",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 juin 2013 - art. 18 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "18",
+                    "articleId": "LEGIARTI000029779600",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1371254400000,
+                    "dateDebut": 1417392000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000027517141",
+                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 18 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "18",
+                    "articleId": "LEGIARTI000027520066",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656718",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1650153600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045656779",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1650153600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R723-19",
+                "723-19"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

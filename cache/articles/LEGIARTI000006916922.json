@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006916922",
-    "num": "R6123-105",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000044941651",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour le traitement en neuroradiologie interventionnelle des l\u00e9sions canc\u00e9reuses, le titulaire de l'autorisation de pratiquer l'activit\u00e9 interventionnelle en neuroradiologie est d\u00e9tenteur de l'autorisation mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25.",
+            "texteHtml": "<p>Pour le traitement en neuroradiologie interventionnelle des l\u00e9sions canc\u00e9reuses, le titulaire de l'autorisation de pratiquer l'activit\u00e9 interventionnelle en neuroradiologie est d\u00e9tenteur de l'autorisation mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25.</p>",
+            "num": "R6123-105",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000006190817",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000044941657",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -83,26 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000044941651",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916922",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190817",
+            "sectionParentId": "LEGISCTA000044941657",
+            "sectionParentTitre": "Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000044941651",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000273267",
-                    "textTitle": "D\u00e9cret n\u00b02007-366 du 19 mars 2007 - art. 2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000006261380",
-                    "natureText": "DECRET",
-                    "date": 1642027219498,
-                    "parentCid": null,
-                    "numTexte": "2007-366",
-                    "datePubli": 1174435200000,
-                    "dateDebut": 1174435200000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Se reporter aux conditions d'application pr\u00e9vues \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-21 du 10 janvier 2022.",
+            "notaHtml": "<p>Se reporter aux conditions d'application pr\u00e9vues \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-21 du 10 janvier 2022.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -129,15 +171,74 @@
                     "dateDebutCible": "2023-06-01"
                 }
             ],
-            "num": "R6123-105",
-            "origine": "LEGI",
-            "texte": "Pour le traitement en neuroradiologie interventionnelle des l\u00e9sions canc\u00e9reuses, le titulaire de l'autorisation de pratiquer l'activit\u00e9 interventionnelle en neuroradiologie est d\u00e9tenteur de l'autorisation mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25.",
-            "texteHtml": "<p>Pour le traitement en neuroradiologie interventionnelle des l\u00e9sions canc\u00e9reuses, le titulaire de l'autorisation de pratiquer l'activit\u00e9 interventionnelle en neuroradiologie est d\u00e9tenteur de l'autorisation mentionn\u00e9e au 18\u00b0 de l'article R. 6122-25.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000273267",
+                    "textTitle": "D\u00e9cret n\u00b02007-366 du 19 mars 2007 - art. 2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006261380",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2007-366",
+                    "datePubli": 1174435200000,
+                    "dateDebut": 1174435200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916922",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044941651",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-105",
+                "6123-105"
+            ],
+            "versionPrecedente": "LEGIARTI000006916922",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006916922",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'autorisation pr\u00e9vue par l'article L. 6122-1 ne peut \u00eatre d\u00e9livr\u00e9e \u00e0 un \u00e9tablissement de sant\u00e9 ou \u00e0 un groupement de coop\u00e9ration sanitaire que s'il dispose sur un m\u00eame site, \u00e9ventuellement par convention avec un autre \u00e9tablissement implant\u00e9 sur ce site, dans un b\u00e2timent commun ou \u00e0 d\u00e9faut dans des b\u00e2timents voisins, des moyens suivants : 1\u00b0 Une unit\u00e9 d'hospitalisation prenant en charge les patients relevant des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie ; 2\u00b0 Une salle d'angiographie num\u00e9ris\u00e9e interventionnelle sp\u00e9cifique pour ces activit\u00e9s ; 3\u00b0 Une unit\u00e9 de neurochirurgie autoris\u00e9e ; 4\u00b0 Une unit\u00e9 de r\u00e9animation autoris\u00e9e ; 5\u00b0 Un plateau technique d'imagerie permettant de pratiquer des examens de neuroradiologie. L'autorisation pr\u00e9cise le site sur lequel l'activit\u00e9 est exerc\u00e9e. Il ne peut \u00eatre d\u00e9livr\u00e9 qu'une autorisation par site.",
+            "texteHtml": "<p></p>   L'autorisation pr\u00e9vue par l'article L. 6122-1 ne peut \u00eatre d\u00e9livr\u00e9e \u00e0 un \u00e9tablissement de sant\u00e9 ou \u00e0 un groupement de coop\u00e9ration sanitaire que s'il dispose sur un m\u00eame site, \u00e9ventuellement par convention avec un autre \u00e9tablissement implant\u00e9 sur ce site, dans un b\u00e2timent commun ou \u00e0 d\u00e9faut dans des b\u00e2timents voisins, des moyens suivants :<p></p><p></p>   1\u00b0 Une unit\u00e9 d'hospitalisation prenant en charge les patients relevant des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie ;<p></p><p></p>   2\u00b0 Une salle d'angiographie num\u00e9ris\u00e9e interventionnelle sp\u00e9cifique pour ces activit\u00e9s ;<p></p><p></p>   3\u00b0 Une unit\u00e9 de neurochirurgie autoris\u00e9e ;<p></p><p></p>   4\u00b0 Une unit\u00e9 de r\u00e9animation autoris\u00e9e ;<p></p><p></p>   5\u00b0 Un plateau technique d'imagerie permettant de pratiquer des examens de neuroradiologie.<p></p><p></p>   L'autorisation pr\u00e9cise le site sur lequel l'activit\u00e9 est exerc\u00e9e. Il ne peut \u00eatre d\u00e9livr\u00e9 qu'une autorisation par site.<p></p>",
+            "num": "R6123-105",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174435200000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -192,7 +293,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000006190817",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -201,7 +302,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000044941657",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -218,40 +319,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000006916922",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916922",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190817",
+            "sectionParentId": "LEGISCTA000044941657",
+            "sectionParentTitre": "Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006916922",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000273267",
-                    "textTitle": "D\u00e9cret n\u00b02007-366 du 19 mars 2007 - art. 2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000006261380",
-                    "natureText": "DECRET",
-                    "date": 1642027219933,
-                    "parentCid": null,
-                    "numTexte": "2007-366",
-                    "datePubli": 1174435200000,
-                    "dateDebut": 1174435200000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L6122-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L6122-1",
-                    "articleId": "LEGIARTI000006690809",
-                    "natureText": "CODE",
-                    "date": 1642027219933,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -278,13 +392,69 @@
                     "dateDebutCible": "2007-03-21"
                 }
             ],
-            "num": "R6123-105",
-            "origine": "LEGI",
-            "texte": "L'autorisation pr\u00e9vue par l'article L. 6122-1 ne peut \u00eatre d\u00e9livr\u00e9e \u00e0 un \u00e9tablissement de sant\u00e9 ou \u00e0 un groupement de coop\u00e9ration sanitaire que s'il dispose sur un m\u00eame site, \u00e9ventuellement par convention avec un autre \u00e9tablissement implant\u00e9 sur ce site, dans un b\u00e2timent commun ou \u00e0 d\u00e9faut dans des b\u00e2timents voisins, des moyens suivants : 1\u00b0 Une unit\u00e9 d'hospitalisation prenant en charge les patients relevant des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie ; 2\u00b0 Une salle d'angiographie num\u00e9ris\u00e9e interventionnelle sp\u00e9cifique pour ces activit\u00e9s ; 3\u00b0 Une unit\u00e9 de neurochirurgie autoris\u00e9e ; 4\u00b0 Une unit\u00e9 de r\u00e9animation autoris\u00e9e ; 5\u00b0 Un plateau technique d'imagerie permettant de pratiquer des examens de neuroradiologie. L'autorisation pr\u00e9cise le site sur lequel l'activit\u00e9 est exerc\u00e9e. Il ne peut \u00eatre d\u00e9livr\u00e9 qu'une autorisation par site.",
-            "texteHtml": "<p></p>   L'autorisation pr\u00e9vue par l'article L. 6122-1 ne peut \u00eatre d\u00e9livr\u00e9e \u00e0 un \u00e9tablissement de sant\u00e9 ou \u00e0 un groupement de coop\u00e9ration sanitaire que s'il dispose sur un m\u00eame site, \u00e9ventuellement par convention avec un autre \u00e9tablissement implant\u00e9 sur ce site, dans un b\u00e2timent commun ou \u00e0 d\u00e9faut dans des b\u00e2timents voisins, des moyens suivants :<p></p><p></p>   1\u00b0 Une unit\u00e9 d'hospitalisation prenant en charge les patients relevant des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie ;<p></p><p></p>   2\u00b0 Une salle d'angiographie num\u00e9ris\u00e9e interventionnelle sp\u00e9cifique pour ces activit\u00e9s ;<p></p><p></p>   3\u00b0 Une unit\u00e9 de neurochirurgie autoris\u00e9e ;<p></p><p></p>   4\u00b0 Une unit\u00e9 de r\u00e9animation autoris\u00e9e ;<p></p><p></p>   5\u00b0 Un plateau technique d'imagerie permettant de pratiquer des examens de neuroradiologie.<p></p><p></p>   L'autorisation pr\u00e9cise le site sur lequel l'activit\u00e9 est exerc\u00e9e. Il ne peut \u00eatre d\u00e9livr\u00e9 qu'une autorisation par site.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-21T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000273267",
+                    "textTitle": "D\u00e9cret n\u00b02007-366 du 19 mars 2007 - art. 2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006261380",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2007-366",
+                    "datePubli": 1174435200000,
+                    "dateDebut": 1174435200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L6122-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L6122-1",
+                    "articleId": "LEGIARTI000006690809",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916922",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044941651",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-105",
+                "6123-105"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

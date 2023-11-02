@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000038814596",
-    "num": "L842-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000038814849",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans le cas pr\u00e9vu \u00e0 l'article L. 824-3 , le versement reprend au profit du bailleur, sauf dans le cas pr\u00e9vu au troisi\u00e8me alin\u00e9a de l'article L. 842-1 ou en cas de refus de ce dernier.",
+            "texteHtml": "<p><br/>Dans le cas pr\u00e9vu \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000038814550&dateTexte=&categorieLien=cid' title='Code de la construction et de l'habitation. - art. L824-3 (VD)'>L. 824-3</a>, le versement reprend au profit du bailleur, sauf dans le cas pr\u00e9vu au troisi\u00e8me alin\u00e9a de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000038814594&dateTexte=&categorieLien=cid' title='Code de la construction et de l'habitation. - art. L842-1 (VD)'>L. 842-1</a> ou en cas de refus de ce dernier.</p>",
+            "num": "L842-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1567296000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1431655764,
             "context": {
                 "titresTM": [
                     {
@@ -56,10 +71,81 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000038814849",
-            "lienAutres": [],
+            "cid": "LEGIARTI000038814596",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000038814592",
+            "sectionParentId": "LEGISCTA000038814854",
+            "sectionParentTitre": "Chapitre II : Modalit\u00e9s de liquidation et de versement des allocations de logement",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre VIII : AIDES PERSONNELLES AU LOGEMENT &gt; Titre IV : Allocations de logement &gt; Chapitre II : Modalit\u00e9s de liquidation et de versement des allocations de logement",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000038814849",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000038812074",
+                    "textTitle": "Ordonnance n\u00b02019-770 du 17 juillet 2019 - art.",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000038813988",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2019-07-25",
+                    "dateSignaTexte": "2019-07-17",
+                    "dateDebutCible": "2019-09-01"
+                }
+            ],
             "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069565",
+                    "textTitle": "Code de la consommation - art. L722-10 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L722-10",
+                    "articleId": "LEGIARTI000038833747",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1567296000000
+                },
                 {
                     "textCid": "LEGITEXT000006074096",
                     "textTitle": "Code de la construction et de l'habitation. - art. L824-3 (VD)",
@@ -68,7 +154,6 @@
                     "articleNum": "L824-3",
                     "articleId": "LEGIARTI000038814550",
                     "natureText": "CODE",
-                    "date": 1599859890039,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -82,7 +167,6 @@
                     "articleNum": "L842-1",
                     "articleId": "LEGIARTI000038814594",
                     "natureText": "CODE",
-                    "date": 1599859890039,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -118,27 +202,31 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000038812074",
-                    "textTitle": "Ordonnance n\u00b02019-770 du 17 juillet 2019 - art.",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGIARTI000038813988",
-                    "natureText": "ORDONNANCE",
-                    "datePubliTexte": "2019-07-25",
-                    "dateSignaTexte": "2019-07-17",
-                    "dateDebutCible": "2019-09-01"
+                    "id": "LEGIARTI000038814849",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1567296000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "L842-2",
-            "origine": "LEGI",
-            "texte": "Dans le cas pr\u00e9vu \u00e0 l'article L. 824-3 , le versement reprend au profit du bailleur, sauf dans le cas pr\u00e9vu au troisi\u00e8me alin\u00e9a de l'article L. 842-1 ou en cas de refus de ce dernier.",
-            "texteHtml": "<p><br/>Dans le cas pr\u00e9vu \u00e0 l'article <a href='/article/LEGIARTI000038814550' title='Code de la construction et de l'habitation. - art. L824-3 (VD)'>L. 824-3</a>, le versement reprend au profit du bailleur, sauf dans le cas pr\u00e9vu au troisi\u00e8me alin\u00e9a de l'article <a href='/article/LEGIARTI000038814594' title='Code de la construction et de l'habitation. - art. L842-1 (VD)'>L. 842-1</a> ou en cas de refus de ce dernier.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-09-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "L842-2",
+                "842-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

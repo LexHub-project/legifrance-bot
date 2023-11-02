@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018493060",
-    "num": "R4623-32",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025279788",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans les \u00e9tablissements industriels de 200 \u00e0 800 salari\u00e9s, est pr\u00e9sent au moins un infirmier et, au-del\u00e0 de cet effectif, un infirmier suppl\u00e9mentaire par tranche de 600 salari\u00e9s. Dans les autres \u00e9tablissements de 500 \u00e0 1 000 salari\u00e9s, est pr\u00e9sent au moins un infirmier et, au-del\u00e0 de cet effectif, un infirmier suppl\u00e9mentaire par tranche de 1 000 salari\u00e9s.",
+            "texteHtml": "<p>Dans les \u00e9tablissements industriels de 200 \u00e0 800 salari\u00e9s, est pr\u00e9sent au moins un infirmier et, au-del\u00e0 de cet effectif, un infirmier suppl\u00e9mentaire par tranche de 600 salari\u00e9s. </p><p> Dans les autres \u00e9tablissements de 500 \u00e0 1 000 salari\u00e9s, est pr\u00e9sent au moins un infirmier et, au-del\u00e0 de cet effectif, un infirmier suppl\u00e9mentaire par tranche de 1 000 salari\u00e9s. </p><p></p><p></p>",
+            "num": "R4623-32",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1341100800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 536870911,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -119,36 +143,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025279788",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493060",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025273322",
+            "sectionParentId": "LEGISCTA000025273330",
+            "sectionParentTitre": "Sous-section 2 : Le personnel infirmier en entreprise.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 4 : Personnel infirmier. &gt; Sous-section 2 : Le personnel infirmier en entreprise.",
+            "refInjection": "MD-20230921_015047_421_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000025279788",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4745-6 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4745-6",
-                    "articleId": "LEGIARTI000029235495",
-                    "natureText": "CODE",
-                    "date": 1599875950260,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1405296000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-1-1 II al 2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-1-1",
-                    "articleId": "LEGIARTI000018510337",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025241584",
@@ -163,15 +204,110 @@
                     "dateDebutCible": "2012-07-01"
                 }
             ],
-            "num": "R4623-32",
-            "origine": "LEGI",
-            "texte": "Dans les \u00e9tablissements industriels de 200 \u00e0 800 salari\u00e9s, est pr\u00e9sent au moins un infirmier et, au-del\u00e0 de cet effectif, un infirmier suppl\u00e9mentaire par tranche de 600 salari\u00e9s. Dans les autres \u00e9tablissements de 500 \u00e0 1 000 salari\u00e9s, est pr\u00e9sent au moins un infirmier et, au-del\u00e0 de cet effectif, un infirmier suppl\u00e9mentaire par tranche de 1 000 salari\u00e9s.",
-            "texteHtml": "<p>Dans les \u00e9tablissements industriels de 200 \u00e0 800 salari\u00e9s, est pr\u00e9sent au moins un infirmier et, au-del\u00e0 de cet effectif, un infirmier suppl\u00e9mentaire par tranche de 600 salari\u00e9s. </p><p> Dans les autres \u00e9tablissements de 500 \u00e0 1 000 salari\u00e9s, est pr\u00e9sent au moins un infirmier et, au-del\u00e0 de cet effectif, un infirmier suppl\u00e9mentaire par tranche de 1 000 salari\u00e9s. </p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "KALITEXT000048074009",
+                    "textTitle": "\u00e0 l'accord du 7 f\u00e9vrier 2022 relatif \u00e0 la sant\u00e9... - art. 7 (VNE)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "7",
+                    "articleId": "KALIARTI000048074035",
+                    "natureText": "Avenant",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1694649600000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4745-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4745-6",
+                    "articleId": "LEGIARTI000029235495",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1405296000000
+                },
+                {
+                    "textCid": "KALITEXT000046478339",
+                    "textTitle": "Sant\u00e9, s\u00e9curit\u00e9, conditions et qualit\u00e9 de vie a... - art. 4.5.3 (VNE)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4.5.3",
+                    "articleId": "KALIARTI000048089386",
+                    "natureText": "Accord",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-1-1 II al 2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-1-1",
+                    "articleId": "LEGIARTI000018510337",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528322",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279788",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4623-32",
+                "4623-32"
+            ],
+            "versionPrecedente": "LEGIARTI000018528322",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018528322",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La convention ne peut comporter de clauses autorisant l'intervenant \u00e0 r\u00e9aliser des actes relevant de la comp\u00e9tence m\u00e9dicale du m\u00e9decin du travail et des infirmiers \u00e9ventuellement plac\u00e9s sous son autorit\u00e9.",
+            "texteHtml": "<p><br/>La convention ne peut comporter de clauses autorisant l'intervenant \u00e0 r\u00e9aliser des actes relevant de la comp\u00e9tence m\u00e9dicale du m\u00e9decin du travail et des infirmiers \u00e9ventuellement plac\u00e9s sous son autorit\u00e9.</p>",
+            "num": "R4623-32",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1341100800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -212,11 +348,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -279,36 +424,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018528322",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493060",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493050",
+            "sectionParentId": "LEGISCTA000018528332",
+            "sectionParentTitre": "Sous-section 2 : Conditions d'intervention.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 2 : Collaborateur m\u00e9decin.",
+            "refInjection": "MD-20230921_015047_421_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000018528322",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4745-6 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4745-6",
-                    "articleId": "LEGIARTI000029235495",
-                    "natureText": "CODE",
-                    "date": 1599857166493,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1405296000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-1-1 II al 2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-1-1",
-                    "articleId": "LEGIARTI000018510337",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018442415",
@@ -323,13 +485,92 @@
                     "dateDebutCible": "2008-03-13"
                 }
             ],
-            "num": "R4623-32",
-            "origine": "LEGI",
-            "texte": "La convention ne peut comporter de clauses autorisant l'intervenant \u00e0 r\u00e9aliser des actes relevant de la comp\u00e9tence m\u00e9dicale du m\u00e9decin du travail et des infirmiers \u00e9ventuellement plac\u00e9s sous son autorit\u00e9.",
-            "texteHtml": "<p><br/>La convention ne peut comporter de clauses autorisant l'intervenant \u00e0 r\u00e9aliser des actes relevant de la comp\u00e9tence m\u00e9dicale du m\u00e9decin du travail et des infirmiers \u00e9ventuellement plac\u00e9s sous son autorit\u00e9.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2012-07-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "KALITEXT000048074009",
+                    "textTitle": "\u00e0 l'accord du 7 f\u00e9vrier 2022 relatif \u00e0 la sant\u00e9... - art. 7 (VNE)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "7",
+                    "articleId": "KALIARTI000048074035",
+                    "natureText": "Avenant",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1694649600000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4745-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4745-6",
+                    "articleId": "LEGIARTI000029235495",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1405296000000
+                },
+                {
+                    "textCid": "KALITEXT000046478339",
+                    "textTitle": "Sant\u00e9, s\u00e9curit\u00e9, conditions et qualit\u00e9 de vie a... - art. 4.5.3 (VNE)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4.5.3",
+                    "articleId": "KALIARTI000048089386",
+                    "natureText": "Accord",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-1-1 II al 2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-1-1",
+                    "articleId": "LEGIARTI000018510337",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528322",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279788",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4623-32",
+                "4623-32"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

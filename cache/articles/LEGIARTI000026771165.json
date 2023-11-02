@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000026771165",
-    "num": "D3252-34-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000026771172",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le montant maximal des cr\u00e9ances r\u00e9siduelles pay\u00e9es prioritairement en application du second alin\u00e9a de l'article L. 3252-8 est fix\u00e9 \u00e0 500 \u20ac.",
+            "texteHtml": "<p>Le montant maximal des cr\u00e9ances r\u00e9siduelles pay\u00e9es prioritairement en application du second alin\u00e9a de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006902887&dateTexte=&categorieLien=cid'>L. 3252-8</a> est fix\u00e9 \u00e0 500 \u20ac.</p>",
+            "num": "D3252-34-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1356998400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1342177279,
             "context": {
                 "titresTM": [
                     {
@@ -83,26 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000026771172",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000026771165",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018487410",
+            "sectionParentId": "LEGISCTA000018533688",
+            "sectionParentTitre": "Sous-section 5 : R\u00e9partition",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Troisi\u00e8me partie : Dur\u00e9e du travail, salaire, int\u00e9ressement, participation et \u00e9pargne salariale  &gt; Livre II : Salaire et avantages divers  &gt; Titre V : Protection du salaire  &gt; Chapitre II : Saisies et cessions &gt; Section 2 : Saisie des sommes dues \u00e0 titre de r\u00e9mun\u00e9ration &gt; Sous-section 5 : R\u00e9partition",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000026771172",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. L3252-8",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L3252-8",
-                    "articleId": "LEGIARTI000006902887",
-                    "natureText": "CODE",
-                    "date": 1599837033002,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000026769648",
@@ -117,13 +159,47 @@
                     "dateDebutCible": "2013-01-01"
                 }
             ],
-            "num": "D3252-34-1",
-            "origine": "LEGI",
-            "texte": "Le montant maximal des cr\u00e9ances r\u00e9siduelles pay\u00e9es prioritairement en application du second alin\u00e9a de l'article L. 3252-8 est fix\u00e9 \u00e0 500 \u20ac.",
-            "texteHtml": "<p>Le montant maximal des cr\u00e9ances r\u00e9siduelles pay\u00e9es prioritairement en application du second alin\u00e9a de l'article <a href='/article/LEGIARTI000006902887'>L. 3252-8</a> est fix\u00e9 \u00e0 500 \u20ac.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2013-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L3252-8",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L3252-8",
+                    "articleId": "LEGIARTI000006902887",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000026771172",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1356998400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D3252-34-1",
+                "3252-34-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

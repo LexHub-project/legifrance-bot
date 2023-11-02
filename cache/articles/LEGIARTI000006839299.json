@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006839299",
-    "num": "R543-68",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000042962185",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions de la pr\u00e9sente sous-section ne sont pas applicables aux d\u00e9chets d'emballage de produits soumis aux dispositions du chapitre II du titre VI du livre IV de la quatri\u00e8me partie de la partie r\u00e9glementaire du code du travail.",
+            "texteHtml": "<p>Les dispositions de la pr\u00e9sente sous-section ne sont pas applicables aux d\u00e9chets d'emballage de produits soumis aux dispositions du chapitre II du titre VI du livre IV de la quatri\u00e8me partie de la partie r\u00e9glementaire du code du travail.</p>",
+            "num": "R543-68",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE",
+            "dateDebut": 1609459200000,
+            "dateFin": 1678320000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -74,26 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000042962185",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006839299",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188985",
+            "sectionParentId": "LEGISCTA000006188985",
+            "sectionParentTitre": "Sous-section 3 : D\u00e9chets d'emballages dont les d\u00e9tenteurs finaux ne sont pas les m\u00e9nages",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre III : Dispositions propres \u00e0 certaines cat\u00e9gories de produits et de d\u00e9chets (R) &gt; Section 5 : Emballages &gt; Sous-section 3 : D\u00e9chets d'emballages dont les d\u00e9tenteurs finaux ne sont pas les m\u00e9nages",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000042962185",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000519329",
-                    "textTitle": "D\u00e9cret n\u00b079-846 du 28 septembre 1979 - art. 75",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "75",
-                    "articleId": "LEGIARTI000006853100",
-                    "natureText": "DECRET",
-                    "date": 1610578258451,
-                    "parentCid": null,
-                    "numTexte": "79-846",
-                    "datePubli": 307670400000,
-                    "dateDebut": 339292800000
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Conform\u00e9ment au I de l'article 16 du d\u00e9cret n\u00b0 2020-1725 du 29 d\u00e9cembre 2020, ces dispositions entrent en vigueur le 1er janvier 2021. Se reporter aux conditions d'application pr\u00e9vues au IV de l'article 16 du pr\u00e9sent d\u00e9cret.",
+            "notaHtml": "<p>Conform\u00e9ment au I de l'article 16 du d\u00e9cret n\u00b0 2020-1725 du 29 d\u00e9cembre 2020, ces dispositions entrent en vigueur le 1er janvier 2021. Se reporter aux conditions d'application pr\u00e9vues au IV de l'article 16 du pr\u00e9sent d\u00e9cret.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000825108",
@@ -118,17 +160,88 @@
                     "datePubliTexte": "2020-12-30",
                     "dateSignaTexte": "2020-12-29",
                     "dateDebutCible": "2021-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000047274648",
+                    "textTitle": "D\u00e9cret n\u00b02023-162 du 7 mars 2023 - art. 3",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000047275037",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-03-08",
+                    "dateSignaTexte": "2023-03-07",
+                    "dateDebutCible": "2023-03-09"
                 }
             ],
-            "num": "R543-68",
-            "origine": "LEGI",
-            "texte": "Les dispositions de la pr\u00e9sente sous-section ne sont pas applicables aux d\u00e9chets d'emballage de produits soumis aux dispositions du chapitre II du titre VI du livre IV de la quatri\u00e8me partie de la partie r\u00e9glementaire du code du travail.",
-            "texteHtml": "<p>Les dispositions de la pr\u00e9sente sous-section ne sont pas applicables aux d\u00e9chets d'emballage de produits soumis aux dispositions du chapitre II du titre VI du livre IV de la quatri\u00e8me partie de la partie r\u00e9glementaire du code du travail.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000519329",
+                    "textTitle": "D\u00e9cret n\u00b079-846 du 28 septembre 1979 - art. 75",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "75",
+                    "articleId": "LEGIARTI000006853100",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "79-846",
+                    "datePubli": 307670400000,
+                    "dateDebut": 339292800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006839299",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1192492800000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042962185",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 1678320000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R543-68",
+                "543-68"
+            ],
+            "versionPrecedente": "LEGIARTI000006839299",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006839299",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions de la pr\u00e9sente sous-section ne sont pas applicables aux d\u00e9chets d'emballage de produits soumis aux dispositions des articles 75 \u00e0 79 du d\u00e9cret n\u00b0 79-846 du 28 septembre 1979 portant r\u00e8glement d'administration publique sur la protection des travailleurs contre les risques particuliers auxquels ils sont soumis dans les \u00e9tablissements pyrotechniques.",
+            "texteHtml": "<p></p>Les dispositions de la pr\u00e9sente sous-section ne sont pas applicables aux d\u00e9chets d'emballage de produits soumis aux dispositions des <a href='/affichTexteArticle.do?cidTexte=JORFTEXT000000519329&idArticle=LEGIARTI000006853100&dateTexte=&categorieLien=cid' title='D\u00e9cret n\u00b079-846 du 28 septembre 1979 - art. 75 (V)'>articles 75 \u00e0 79</a> du d\u00e9cret n\u00b0 79-846 du 28 septembre 1979 portant r\u00e8glement d'administration publique sur la protection des travailleurs contre les risques particuliers auxquels ils sont soumis dans les \u00e9tablissements pyrotechniques.<p></p><p></p>",
+            "num": "R543-68",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1192492800000,
+            "dateFin": 1609459200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -200,26 +313,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006839299",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006839299",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188985",
+            "sectionParentId": "LEGISCTA000006188985",
+            "sectionParentTitre": "Sous-section 3 : D\u00e9chets d'emballages dont les d\u00e9tenteurs finaux ne sont pas les m\u00e9nages",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre III : Dispositions propres \u00e0 certaines cat\u00e9gories de produits et de d\u00e9chets (R) &gt; Section 5 : Emballages &gt; Sous-section 3 : D\u00e9chets d'emballages dont les d\u00e9tenteurs finaux ne sont pas les m\u00e9nages",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006839299",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000519329",
-                    "textTitle": "D\u00e9cret n\u00b079-846 du 28 septembre 1979 - art. 75 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "75",
-                    "articleId": "LEGIARTI000006853100",
-                    "natureText": "DECRET",
-                    "date": 1610578258257,
-                    "parentCid": null,
-                    "numTexte": "79-846",
-                    "datePubli": 307670400000,
-                    "dateDebut": 339292800000
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000825108",
@@ -234,13 +374,56 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "R543-68",
-            "origine": "LEGI",
-            "texte": "Les dispositions de la pr\u00e9sente sous-section ne sont pas applicables aux d\u00e9chets d'emballage de produits soumis aux dispositions des articles 75 \u00e0 79 du d\u00e9cret n\u00b0 79-846 du 28 septembre 1979 portant r\u00e8glement d'administration publique sur la protection des travailleurs contre les risques particuliers auxquels ils sont soumis dans les \u00e9tablissements pyrotechniques.",
-            "texteHtml": "<p></p>Les dispositions de la pr\u00e9sente sous-section ne sont pas applicables aux d\u00e9chets d'emballage de produits soumis aux dispositions des <a href='/article/LEGIARTI000006853100' title='D\u00e9cret n\u00b079-846 du 28 septembre 1979 - art. 75 (V)'>articles 75 \u00e0 79</a> du d\u00e9cret n\u00b0 79-846 du 28 septembre 1979 portant r\u00e8glement d'administration publique sur la protection des travailleurs contre les risques particuliers auxquels ils sont soumis dans les \u00e9tablissements pyrotechniques.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-10-16T00:00:00.000Z",
-            "dateFin": "2021-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000519329",
+                    "textTitle": "D\u00e9cret n\u00b079-846 du 28 septembre 1979 - art. 75 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "75",
+                    "articleId": "LEGIARTI000006853100",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "79-846",
+                    "datePubli": 307670400000,
+                    "dateDebut": 339292800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006839299",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1192492800000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042962185",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 1678320000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R543-68",
+                "543-68"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

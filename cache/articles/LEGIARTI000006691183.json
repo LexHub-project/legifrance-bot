@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006691183",
-    "num": "L6162-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006691184",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Ces \u00e9tablissements sont des personnes morales de droit priv\u00e9. Ils peuvent recevoir des dons et legs.",
+            "texteHtml": "<p></p>   Ces \u00e9tablissements sont des personnes morales de droit priv\u00e9. Ils peuvent recevoir des dons et legs.<p></p><p></p>",
+            "num": "L6162-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1115078400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -65,45 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006691184",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006691183",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171479",
+            "sectionParentId": "LEGISCTA000006171479",
+            "sectionParentTitre": "Chapitre II : Centres de lutte contre le cancer.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre VI : Etablissements de sant\u00e9 priv\u00e9s &gt; Chapitre II : Centres de lutte contre le cancer.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006691184",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6161-18 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R6161-18",
-                    "articleId": "LEGIARTI000006918961",
-                    "natureText": "CODE",
-                    "date": 1599120487200,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1122336000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L313 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L313",
-                    "articleId": "LEGIARTI000006692791",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L313 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L313",
-                    "articleId": "LEGIARTI000006692791",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -142,15 +165,93 @@
                     "dateDebutCible": "2005-05-03"
                 }
             ],
-            "num": "L6162-2",
-            "origine": "LEGI",
-            "texte": "Ces \u00e9tablissements sont des personnes morales de droit priv\u00e9. Ils peuvent recevoir des dons et legs.",
-            "texteHtml": "<p></p>   Ces \u00e9tablissements sont des personnes morales de droit priv\u00e9. Ils peuvent recevoir des dons et legs.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-05-03T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6161-18 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6161-18",
+                    "articleId": "LEGIARTI000006918961",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1122336000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L313 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L313",
+                    "articleId": "LEGIARTI000006692791",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L313 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L313",
+                    "articleId": "LEGIARTI000006692791",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006691183",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1115078400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006691184",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1115078400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L6162-2",
+                "6162-2"
+            ],
+            "versionPrecedente": "LEGIARTI000006691183",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006691183",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Ces \u00e9tablissements sont des personnes morales de droit priv\u00e9. Ils peuvent recevoir des lib\u00e9ralit\u00e9s testamentaires ou entre vifs.",
+            "texteHtml": "<p></p>   Ces \u00e9tablissements sont des personnes morales de droit priv\u00e9. Ils peuvent recevoir des lib\u00e9ralit\u00e9s testamentaires ou entre vifs.<p></p><p></p>",
+            "num": "L6162-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1115078400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -213,45 +314,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006691183",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006691183",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171479",
+            "sectionParentId": "LEGISCTA000006171479",
+            "sectionParentTitre": "Chapitre II : Centres de lutte contre le cancer.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre VI : Etablissements de sant\u00e9 priv\u00e9s &gt; Chapitre II : Centres de lutte contre le cancer.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006691183",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6161-18 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R6161-18",
-                    "articleId": "LEGIARTI000006918961",
-                    "natureText": "CODE",
-                    "date": 1599120486964,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1122336000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L313 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L313",
-                    "articleId": "LEGIARTI000006692791",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L313 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L313",
-                    "articleId": "LEGIARTI000006692791",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -278,13 +387,75 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L6162-2",
-            "origine": "LEGI",
-            "texte": "Ces \u00e9tablissements sont des personnes morales de droit priv\u00e9. Ils peuvent recevoir des lib\u00e9ralit\u00e9s testamentaires ou entre vifs.",
-            "texteHtml": "<p></p>   Ces \u00e9tablissements sont des personnes morales de droit priv\u00e9. Ils peuvent recevoir des lib\u00e9ralit\u00e9s testamentaires ou entre vifs.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2005-05-03T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6161-18 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6161-18",
+                    "articleId": "LEGIARTI000006918961",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1122336000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L313 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L313",
+                    "articleId": "LEGIARTI000006692791",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L313 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L313",
+                    "articleId": "LEGIARTI000006692791",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006691183",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1115078400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006691184",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1115078400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L6162-2",
+                "6162-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

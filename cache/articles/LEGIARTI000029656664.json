@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029656664",
-    "num": "R723-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045656811",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les sapeurs-pompiers volontaires rel\u00e8vent d'un service d\u00e9partemental, territorial ou local d'incendie et de secours ou d'un service de l'Etat investi \u00e0 titre permanent de missions de s\u00e9curit\u00e9 civile. Ils ont vocation \u00e0 participer \u00e0 l'ensemble des missions de s\u00e9curit\u00e9 civile de toute nature confi\u00e9es aux services d'incendie et de secours ou aux services de l'Etat. Ils concourent notamment aux actions de pr\u00e9vention, de pr\u00e9vision, de formation et aux op\u00e9rations de secours que requiert, en toutes circonstances, la sauvegarde des personnes, des biens et de l'environnement. Ils ont vocation \u00e0 participer \u00e0 l'encadrement des services d'incendie et de secours et peuvent \u00e9galement se voir confier des missions ou des fonctions particuli\u00e8res dans le cadre de l'organisation des services.",
+            "texteHtml": "<p>Les sapeurs-pompiers volontaires rel\u00e8vent d'un service d\u00e9partemental, territorial ou local d'incendie et de secours ou d'un service de l'Etat investi \u00e0 titre permanent de missions de s\u00e9curit\u00e9 civile. Ils ont vocation \u00e0 participer \u00e0 l'ensemble des missions de s\u00e9curit\u00e9 civile de toute nature confi\u00e9es aux services d'incendie et de secours ou aux services de l'Etat.<br/><br/>\nIls concourent notamment aux actions de pr\u00e9vention, de pr\u00e9vision, de formation et aux op\u00e9rations de secours que requiert, en toutes circonstances, la sauvegarde des personnes, des biens et de l'environnement.<br/><br/>\nIls ont vocation \u00e0 participer \u00e0 l'encadrement des services d'incendie et de secours et peuvent \u00e9galement se voir confier des missions ou des fonctions particuli\u00e8res dans le cadre de l'organisation des services.</p><p></p>",
+            "num": "R723-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1650153600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -74,21 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045656811",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000029656664",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656662",
+            "sectionParentId": "LEGISCTA000029657883",
+            "sectionParentTitre": "Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000045656811",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027517141",
-                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 1 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000027520115",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -115,15 +171,70 @@
                     "dateDebutCible": "2022-04-17"
                 }
             ],
-            "num": "R723-1",
-            "origine": "LEGI",
-            "texte": "Les sapeurs-pompiers volontaires rel\u00e8vent d'un service d\u00e9partemental, territorial ou local d'incendie et de secours ou d'un service de l'Etat investi \u00e0 titre permanent de missions de s\u00e9curit\u00e9 civile. Ils ont vocation \u00e0 participer \u00e0 l'ensemble des missions de s\u00e9curit\u00e9 civile de toute nature confi\u00e9es aux services d'incendie et de secours ou aux services de l'Etat. Ils concourent notamment aux actions de pr\u00e9vention, de pr\u00e9vision, de formation et aux op\u00e9rations de secours que requiert, en toutes circonstances, la sauvegarde des personnes, des biens et de l'environnement. Ils ont vocation \u00e0 participer \u00e0 l'encadrement des services d'incendie et de secours et peuvent \u00e9galement se voir confier des missions ou des fonctions particuli\u00e8res dans le cadre de l'organisation des services.",
-            "texteHtml": "<p>Les sapeurs-pompiers volontaires rel\u00e8vent d'un service d\u00e9partemental, territorial ou local d'incendie et de secours ou d'un service de l'Etat investi \u00e0 titre permanent de missions de s\u00e9curit\u00e9 civile. Ils ont vocation \u00e0 participer \u00e0 l'ensemble des missions de s\u00e9curit\u00e9 civile de toute nature confi\u00e9es aux services d'incendie et de secours ou aux services de l'Etat.<br/><br/>\nIls concourent notamment aux actions de pr\u00e9vention, de pr\u00e9vision, de formation et aux op\u00e9rations de secours que requiert, en toutes circonstances, la sauvegarde des personnes, des biens et de l'environnement.<br/><br/>\nIls ont vocation \u00e0 participer \u00e0 l'encadrement des services d'incendie et de secours et peuvent \u00e9galement se voir confier des missions ou des fonctions particuli\u00e8res dans le cadre de l'organisation des services.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-04-17T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000027517141",
+                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 1 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000027520115",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656664",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1650153600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045656811",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1650153600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R723-1",
+                "723-1"
+            ],
+            "versionPrecedente": "LEGIARTI000029656664",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000029656664",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les sapeurs-pompiers volontaires rel\u00e8vent d'un corps d\u00e9partemental, communal ou intercommunal de sapeurs-pompiers ou d'un service de l'Etat investi \u00e0 titre permanent de missions de s\u00e9curit\u00e9 civile. Ils ont vocation \u00e0 participer \u00e0 l'ensemble des missions de s\u00e9curit\u00e9 civile de toute nature confi\u00e9es aux services d'incendie et de secours ou aux services de l'Etat. Ils concourent notamment aux actions de pr\u00e9vention, de pr\u00e9vision, de formation et aux op\u00e9rations de secours que requiert, en toutes circonstances, la sauvegarde des personnes, des biens et de l'environnement. Ils ont vocation \u00e0 participer \u00e0 l'encadrement des services d'incendie et de secours et peuvent \u00e9galement se voir confier des missions ou des fonctions particuli\u00e8res dans le cadre de l'organisation des services.",
+            "texteHtml": "<p><br/>Les sapeurs-pompiers volontaires rel\u00e8vent d'un corps d\u00e9partemental, communal ou intercommunal de sapeurs-pompiers ou d'un service de l'Etat investi \u00e0 titre permanent de missions de s\u00e9curit\u00e9 civile. Ils ont vocation \u00e0 participer \u00e0 l'ensemble des missions de s\u00e9curit\u00e9 civile de toute nature confi\u00e9es aux services d'incendie et de secours ou aux services de l'Etat.<br/>Ils concourent notamment aux actions de pr\u00e9vention, de pr\u00e9vision, de formation et aux op\u00e9rations de secours que requiert, en toutes circonstances, la sauvegarde des personnes, des biens et de l'environnement.<br/>Ils ont vocation \u00e0 participer \u00e0 l'encadrement des services d'incendie et de secours et peuvent \u00e9galement se voir confier des missions ou des fonctions particuli\u00e8res dans le cadre de l'organisation des services.</p>",
+            "num": "R723-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1417392000000,
+            "dateFin": 1650153600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -164,11 +275,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -195,21 +315,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000029656664",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000029656664",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656662",
+            "sectionParentId": "LEGISCTA000029657883",
+            "sectionParentTitre": "Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000029656664",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027517141",
-                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 1 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000027520115",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -236,13 +388,52 @@
                     "dateDebutCible": "2014-12-01"
                 }
             ],
-            "num": "R723-1",
-            "origine": "LEGI",
-            "texte": "Les sapeurs-pompiers volontaires rel\u00e8vent d'un corps d\u00e9partemental, communal ou intercommunal de sapeurs-pompiers ou d'un service de l'Etat investi \u00e0 titre permanent de missions de s\u00e9curit\u00e9 civile. Ils ont vocation \u00e0 participer \u00e0 l'ensemble des missions de s\u00e9curit\u00e9 civile de toute nature confi\u00e9es aux services d'incendie et de secours ou aux services de l'Etat. Ils concourent notamment aux actions de pr\u00e9vention, de pr\u00e9vision, de formation et aux op\u00e9rations de secours que requiert, en toutes circonstances, la sauvegarde des personnes, des biens et de l'environnement. Ils ont vocation \u00e0 participer \u00e0 l'encadrement des services d'incendie et de secours et peuvent \u00e9galement se voir confier des missions ou des fonctions particuli\u00e8res dans le cadre de l'organisation des services.",
-            "texteHtml": "<p><br/>Les sapeurs-pompiers volontaires rel\u00e8vent d'un corps d\u00e9partemental, communal ou intercommunal de sapeurs-pompiers ou d'un service de l'Etat investi \u00e0 titre permanent de missions de s\u00e9curit\u00e9 civile. Ils ont vocation \u00e0 participer \u00e0 l'ensemble des missions de s\u00e9curit\u00e9 civile de toute nature confi\u00e9es aux services d'incendie et de secours ou aux services de l'Etat.<br/>Ils concourent notamment aux actions de pr\u00e9vention, de pr\u00e9vision, de formation et aux op\u00e9rations de secours que requiert, en toutes circonstances, la sauvegarde des personnes, des biens et de l'environnement.<br/>Ils ont vocation \u00e0 participer \u00e0 l'encadrement des services d'incendie et de secours et peuvent \u00e9galement se voir confier des missions ou des fonctions particuli\u00e8res dans le cadre de l'organisation des services.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2022-04-17T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000027517141",
+                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 1 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000027520115",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656664",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1650153600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045656811",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1650153600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R723-1",
+                "723-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

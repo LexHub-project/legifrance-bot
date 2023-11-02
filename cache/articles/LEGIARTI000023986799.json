@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023986799",
-    "num": "L362-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031069276",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 l'article L. 121-7 , est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole.",
+            "texteHtml": "<p>Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023983208&idArticle=LEGIARTI000023985570&dateTexte=&categorieLien=cid'>l'article L. 121-7</a>, est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. </p><p>Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole. </p>",
+            "num": "L362-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1451606400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -25,12 +40,21 @@
                     },
                     {
                         "debut": "2011-06-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-10",
                         "titre": "TITRE VI : LES DISPOSITIONS RELATIVES A L'OUTRE MER",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000023986789",
                         "id": "LEGISCTA000023986789",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2023-11-10",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE VI : LES DISPOSITIONS RELATIVES A LA CORSE ET A L'OUTRE MER",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000023986789",
+                        "id": "LEGISCTA000047994005",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2011-06-01",
@@ -65,64 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031069276",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023986799",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023986791",
+            "sectionParentId": "LEGISCTA000027725168",
+            "sectionParentTitre": "Chapitre II : Dispositions relatives au D\u00e9partement de Mayotte",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE III : LES DISPOSITIONS  RELATIVES A L'ELECTRICITE &gt; TITRE VI : LES DISPOSITIONS RELATIVES A L'OUTRE MER &gt; Chapitre II : Dispositions relatives au D\u00e9partement de Mayotte",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000031069276",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000030008158",
-                    "textTitle": "D\u00c9LIB\u00c9RATION du 15 octobre 2014 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000030008228",
-                    "natureText": "DELIBERATION",
-                    "date": 1599840575060,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1419984000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000041794462",
-                    "textTitle": "Arr\u00eat\u00e9 du 6 avril 2020 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000041795762",
-                    "natureText": "ARRETE",
-                    "date": 1599840575060,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1586649600000,
-                    "dateDebut": 1586736000000
-                },
-                {
-                    "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. L121-7",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L121-7",
-                    "articleId": "LEGIARTI000023985570",
-                    "natureText": "CODE",
-                    "date": 1599840575060,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000813253",
-                    "textTitle": "Loi n\u00b02005-781 du 13 juillet 2005 - art. 76 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "76",
-                    "articleId": "LEGIARTI000023216188",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -149,15 +162,119 @@
                     "dateDebutCible": "2015-08-19"
                 }
             ],
-            "num": "L362-4",
-            "origine": "LEGI",
-            "texte": "Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 l'article L. 121-7 , est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole.",
-            "texteHtml": "<p>Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 <a href='/article/LEGIARTI000023985570'>l'article L. 121-7</a>, est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. </p><p>Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000030008158",
+                    "textTitle": "D\u00c9LIB\u00c9RATION du 15 octobre 2014 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000030008228",
+                    "natureText": "DELIBERATION",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1419984000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000041794462",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 avril 2020 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000041795762",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1586649600000,
+                    "dateDebut": 1586736000000
+                },
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. L121-7",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L121-7",
+                    "articleId": "LEGIARTI000023985570",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000813253",
+                    "textTitle": "Loi n\u00b02005-781 du 13 juillet 2005 - art. 76 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "76",
+                    "articleId": "LEGIARTI000023216188",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023986799",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 1334966400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025713363",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1334966400000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031069276",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L362-4",
+                "362-4"
+            ],
+            "versionPrecedente": "LEGIARTI000025713363",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025713363",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 l'article L. 121-7 , est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole. Les tarifs d'utilisation des r\u00e9seaux publics de distribution de l'\u00e9lectricit\u00e9, ainsi que la part correspondante de ces tarifs dans les tarifs r\u00e9glement\u00e9s de vente mentionn\u00e9s \u00e0 l'article L. 337-4, sont \u00e9gaux aux co\u00fbts d'utilisation des r\u00e9seaux publics de distribution de l'\u00e9lectricit\u00e9 de Mayotte r\u00e9ellement support\u00e9s par la soci\u00e9t\u00e9 concessionnaire mentionn\u00e9e \u00e0 l'article L. 362-1 . La m\u00e9thodologie utilis\u00e9e pour \u00e9tablir ces tarifs est fix\u00e9e, sur proposition de la soci\u00e9t\u00e9 concessionnaire mentionn\u00e9e \u00e0 l'article L. 362-1, par la Commission de r\u00e9gulation de l'\u00e9nergie.",
+            "texteHtml": "<p>Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023983208&idArticle=LEGIARTI000023985570&dateTexte=&categorieLien=cid'>l'article L. 121-7</a>, est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. <br/><br/>Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole. </p><p>Les tarifs d'utilisation des r\u00e9seaux publics de distribution de l'\u00e9lectricit\u00e9, ainsi que la part correspondante de ces tarifs dans les tarifs r\u00e9glement\u00e9s de vente mentionn\u00e9s \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023983208&idArticle=LEGIARTI000023986690&dateTexte=&categorieLien=cid'>l'article L. 337-4, </a>sont \u00e9gaux aux co\u00fbts d'utilisation des r\u00e9seaux publics de distribution de l'\u00e9lectricit\u00e9 de Mayotte r\u00e9ellement support\u00e9s par la soci\u00e9t\u00e9 concessionnaire mentionn\u00e9e \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023983208&idArticle=LEGIARTI000023986793&dateTexte=&categorieLien=cid'>l'article L. 362-1</a>. La m\u00e9thodologie utilis\u00e9e pour \u00e9tablir ces tarifs est fix\u00e9e, sur proposition de la soci\u00e9t\u00e9 concessionnaire mentionn\u00e9e \u00e0 l'article L. 362-1, par la Commission de r\u00e9gulation de l'\u00e9nergie.</p>",
+            "num": "L362-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1334966400000,
+            "dateFin": 1451606400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -180,12 +297,21 @@
                     },
                     {
                         "debut": "2011-06-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-10",
                         "titre": "TITRE VI : LES DISPOSITIONS RELATIVES A L'OUTRE MER",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000023986789",
                         "id": "LEGISCTA000023986789",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2023-11-10",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE VI : LES DISPOSITIONS RELATIVES A LA CORSE ET A L'OUTRE MER",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000023986789",
+                        "id": "LEGISCTA000047994005",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2011-06-01",
@@ -220,92 +346,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025713363",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023986799",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023986791",
+            "sectionParentId": "LEGISCTA000027725168",
+            "sectionParentTitre": "Chapitre II : Dispositions relatives au D\u00e9partement de Mayotte",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE III : LES DISPOSITIONS  RELATIVES A L'ELECTRICITE &gt; TITRE VI : LES DISPOSITIONS RELATIVES A L'OUTRE MER &gt; Chapitre II : Dispositions relatives au D\u00e9partement de Mayotte",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025713363",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000030008158",
-                    "textTitle": "D\u00c9LIB\u00c9RATION du 15 octobre 2014 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000030008228",
-                    "natureText": "DELIBERATION",
-                    "date": 1599874252582,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1419984000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000041794462",
-                    "textTitle": "Arr\u00eat\u00e9 du 6 avril 2020 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000041795762",
-                    "natureText": "ARRETE",
-                    "date": 1599874252583,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1586649600000,
-                    "dateDebut": 1586736000000
-                },
-                {
-                    "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. L121-7",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L121-7",
-                    "articleId": "LEGIARTI000023985570",
-                    "natureText": "CODE",
-                    "date": 1599874252583,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                },
-                {
-                    "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. L337-4",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L337-4",
-                    "articleId": "LEGIARTI000023986690",
-                    "natureText": "CODE",
-                    "date": 1599874252583,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1306886400000
-                },
-                {
-                    "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. L362-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L362-1",
-                    "articleId": "LEGIARTI000023986793",
-                    "natureText": "CODE",
-                    "date": 1599874252583,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1306886400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000813253",
-                    "textTitle": "Loi n\u00b02005-781 du 13 juillet 2005 - art. 76 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "76",
-                    "articleId": "LEGIARTI000023216188",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -332,15 +419,145 @@
                     "dateDebutCible": "2012-04-21"
                 }
             ],
-            "num": "L362-4",
-            "origine": "LEGI",
-            "texte": "Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 l'article L. 121-7 , est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole. Les tarifs d'utilisation des r\u00e9seaux publics de distribution de l'\u00e9lectricit\u00e9, ainsi que la part correspondante de ces tarifs dans les tarifs r\u00e9glement\u00e9s de vente mentionn\u00e9s \u00e0 l'article L. 337-4, sont \u00e9gaux aux co\u00fbts d'utilisation des r\u00e9seaux publics de distribution de l'\u00e9lectricit\u00e9 de Mayotte r\u00e9ellement support\u00e9s par la soci\u00e9t\u00e9 concessionnaire mentionn\u00e9e \u00e0 l'article L. 362-1 . La m\u00e9thodologie utilis\u00e9e pour \u00e9tablir ces tarifs est fix\u00e9e, sur proposition de la soci\u00e9t\u00e9 concessionnaire mentionn\u00e9e \u00e0 l'article L. 362-1, par la Commission de r\u00e9gulation de l'\u00e9nergie.",
-            "texteHtml": "<p>Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 <a href='/article/LEGIARTI000023985570'>l'article L. 121-7</a>, est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. <br/><br/>Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole. </p><p>Les tarifs d'utilisation des r\u00e9seaux publics de distribution de l'\u00e9lectricit\u00e9, ainsi que la part correspondante de ces tarifs dans les tarifs r\u00e9glement\u00e9s de vente mentionn\u00e9s \u00e0 <a href='/article/LEGIARTI000023986690'>l'article L. 337-4, </a>sont \u00e9gaux aux co\u00fbts d'utilisation des r\u00e9seaux publics de distribution de l'\u00e9lectricit\u00e9 de Mayotte r\u00e9ellement support\u00e9s par la soci\u00e9t\u00e9 concessionnaire mentionn\u00e9e \u00e0 <a href='/article/LEGIARTI000023986793'>l'article L. 362-1</a>. La m\u00e9thodologie utilis\u00e9e pour \u00e9tablir ces tarifs est fix\u00e9e, sur proposition de la soci\u00e9t\u00e9 concessionnaire mentionn\u00e9e \u00e0 l'article L. 362-1, par la Commission de r\u00e9gulation de l'\u00e9nergie.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-04-21T00:00:00.000Z",
-            "dateFin": "2016-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000030008158",
+                    "textTitle": "D\u00c9LIB\u00c9RATION du 15 octobre 2014 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000030008228",
+                    "natureText": "DELIBERATION",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1419984000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000041794462",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 avril 2020 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000041795762",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1586649600000,
+                    "dateDebut": 1586736000000
+                },
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. L121-7",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L121-7",
+                    "articleId": "LEGIARTI000023985570",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. L337-4",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L337-4",
+                    "articleId": "LEGIARTI000023986690",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1306886400000
+                },
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. L362-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L362-1",
+                    "articleId": "LEGIARTI000023986793",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1306886400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000813253",
+                    "textTitle": "Loi n\u00b02005-781 du 13 juillet 2005 - art. 76 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "76",
+                    "articleId": "LEGIARTI000023216188",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023986799",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 1334966400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025713363",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1334966400000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031069276",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L362-4",
+                "362-4"
+            ],
+            "versionPrecedente": "LEGIARTI000023986799",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000023986799",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 l'article L. 121-7 , est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole.",
+            "texteHtml": "<p><br/>Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023983208&idArticle=LEGIARTI000023985570&dateTexte=&categorieLien=cid' title='Code de l'\u00e9nergie - art. L121-7 (V)'>l'article L. 121-7</a>, est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. <br/>Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole.</p>",
+            "num": "L362-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1306886400000,
+            "dateFin": 1334966400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -363,12 +580,21 @@
                     },
                     {
                         "debut": "2011-06-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-10",
                         "titre": "TITRE VI : LES DISPOSITIONS RELATIVES A L'OUTRE MER",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000023986789",
                         "id": "LEGISCTA000023986789",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2023-11-10",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE VI : LES DISPOSITIONS RELATIVES A LA CORSE ET A L'OUTRE MER",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000023986789",
+                        "id": "LEGISCTA000047994005",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2011-06-01",
@@ -403,64 +629,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000023986799",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023986799",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023986791",
+            "sectionParentId": "LEGISCTA000027725168",
+            "sectionParentTitre": "Chapitre II : Dispositions relatives au D\u00e9partement de Mayotte",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE III : LES DISPOSITIONS  RELATIVES A L'ELECTRICITE &gt; TITRE VI : LES DISPOSITIONS RELATIVES A L'OUTRE MER &gt; Chapitre unique",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000023986799",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000030008158",
-                    "textTitle": "D\u00c9LIB\u00c9RATION du 15 octobre 2014 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000030008228",
-                    "natureText": "DELIBERATION",
-                    "date": 1599871952444,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1419984000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000041794462",
-                    "textTitle": "Arr\u00eat\u00e9 du 6 avril 2020 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000041795762",
-                    "natureText": "ARRETE",
-                    "date": 1599871952444,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1586649600000,
-                    "dateDebut": 1586736000000
-                },
-                {
-                    "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. L121-7 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L121-7",
-                    "articleId": "LEGIARTI000023985570",
-                    "natureText": "CODE",
-                    "date": 1599871952444,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000813253",
-                    "textTitle": "Loi n\u00b02005-781 du 13 juillet 2005 - art. 76 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "76",
-                    "articleId": "LEGIARTI000023216188",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -487,13 +702,101 @@
                     "dateDebutCible": "2011-06-01"
                 }
             ],
-            "num": "L362-4",
-            "origine": "LEGI",
-            "texte": "Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 l'article L. 121-7 , est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole.",
-            "texteHtml": "<p><br/>Le taux de r\u00e9mun\u00e9ration du capital immobilis\u00e9 dans des moyens de production d'\u00e9lectricit\u00e9, mentionn\u00e9 \u00e0 <a href='/article/LEGIARTI000023985570' title='Code de l'\u00e9nergie - art. L121-7 (V)'>l'article L. 121-7</a>, est d\u00e9termin\u00e9 de fa\u00e7on \u00e0 favoriser le d\u00e9veloppement du syst\u00e8me \u00e9lectrique. <br/>Les tarifs de vente de l'\u00e9lectricit\u00e9 sont identiques \u00e0 ceux pratiqu\u00e9s en m\u00e9tropole.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-06-01T00:00:00.000Z",
-            "dateFin": "2012-04-21T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000030008158",
+                    "textTitle": "D\u00c9LIB\u00c9RATION du 15 octobre 2014 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000030008228",
+                    "natureText": "DELIBERATION",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1419984000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000041794462",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 avril 2020 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000041795762",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1586649600000,
+                    "dateDebut": 1586736000000
+                },
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. L121-7 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L121-7",
+                    "articleId": "LEGIARTI000023985570",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000813253",
+                    "textTitle": "Loi n\u00b02005-781 du 13 juillet 2005 - art. 76 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "76",
+                    "articleId": "LEGIARTI000023216188",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023986799",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 1334966400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025713363",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1334966400000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031069276",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L362-4",
+                "362-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

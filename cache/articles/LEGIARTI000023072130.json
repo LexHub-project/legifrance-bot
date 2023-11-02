@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023072130",
-    "num": "L4451-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023082579",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le prix du transport inclut les charges de carburant n\u00e9cessaires \u00e0 la r\u00e9alisation du transport.",
+            "texteHtml": "<p><br/>Le prix du transport inclut les charges de carburant n\u00e9cessaires \u00e0 la r\u00e9alisation du transport.</p>",
+            "num": "L4451-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1291161600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -65,9 +80,67 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023082579",
-            "lienAutres": [],
+            "cid": "LEGIARTI000023072130",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023072124",
+            "sectionParentId": "LEGISCTA000023082606",
+            "sectionParentTitre": "Chapitre Ier : Le contrat de transport",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; QUATRIEME PARTIE : NAVIGATION INTERIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE IV : LE TRANSPORT FLUVIAL &gt; TITRE V : CONTRATS RELATIFS AU TRANSPORT  DE MARCHANDISES &gt; Chapitre Ier : Le contrat de transport",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000023082579",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "Ordonnance n\u00b0 2010-1307 du 28 octobre 2010 - art. (V)",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000023086525",
@@ -77,7 +150,6 @@
                     "articleNum": "L4451-6",
                     "articleId": "LEGIARTI000023082564",
                     "natureText": "CODE",
-                    "date": 1599866091106,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -95,27 +167,31 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "",
-                    "textTitle": "Ordonnance n\u00b0 2010-1307 du 28 octobre 2010 - art. (V)",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "datePubliTexte": null,
-                    "dateSignaTexte": null,
-                    "dateDebutCible": null
+                    "id": "LEGIARTI000023082579",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "L4451-3",
-            "origine": "LEGI",
-            "texte": "Le prix du transport inclut les charges de carburant n\u00e9cessaires \u00e0 la r\u00e9alisation du transport.",
-            "texteHtml": "<p><br/>Le prix du transport inclut les charges de carburant n\u00e9cessaires \u00e0 la r\u00e9alisation du transport.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "L4451-3",
+                "4451-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

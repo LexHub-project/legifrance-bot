@@ -1,150 +1,23 @@
 {
-    "cid": "LEGIARTI000006740988",
-    "num": "LO111-5-2",
+    "executionTime": 0,
     "listArticle": [
         {
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "1985-12-21",
-                        "fin": "2999-01-01",
-                        "titre": "Partie l\u00e9gislative",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006106050",
-                        "id": "LEGISCTA000006106050",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1985-12-21",
-                        "fin": "2999-01-01",
-                        "titre": "Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006126885",
-                        "id": "LEGISCTA000006126885",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1985-12-21",
-                        "fin": "2999-01-01",
-                        "titre": "Titre I : G\u00e9n\u00e9ralit\u00e9s",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006141600",
-                        "id": "LEGISCTA000006141600",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1996-07-23",
-                        "fin": "2999-01-01",
-                        "titre": "Chapitre 1 bis : Lois de financement de la s\u00e9curit\u00e9 sociale",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006155999",
-                        "id": "LEGISCTA000006155999",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 1,
-                "longeurChemin": 44,
-                "titreTxt": [
-                    {
-                        "debut": "1958-10-16",
-                        "fin": "2999-01-01",
-                        "titre": "Code de la s\u00e9curit\u00e9 sociale",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006073189",
-                        "id": "LEGITEXT000006073189",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "etat": "MODIFIE_MORT_NE",
-            "id": "LEGIARTI000006740988",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. LO111-5-1 (MMN)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "source",
-                    "articleNum": "LO111-5-1",
-                    "articleId": "LEGIARTI000006740986",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. LO111-5-1 (V)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "cible",
-                    "articleNum": "LO111-5-1",
-                    "articleId": "LEGIARTI000006740987",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. LO111-5-3 (MMN)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "LO111-5-3",
-                    "articleId": "LEGIARTI000006740990",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. LO111-5-3 (MMN)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "LO111-5-3",
-                    "articleId": "LEGIARTI000006740990",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000000866621",
-                    "textTitle": "D\u00e9cret 85-1353 1985-12-17",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000866621",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "1985-12-21",
-                    "dateSignaTexte": "1985-12-17",
-                    "dateDebutCible": "2999-01-01"
-                },
-                {
-                    "textCid": "JORFTEXT000000813423",
-                    "textTitle": "Loi n\u00b02005-881 du 2 ao\u00fbt 2005 - art. 22 () JORF 3 ao\u00fbt 2005",
-                    "linkType": "TRANSFERT",
-                    "linkOrientation": "source",
-                    "articleNum": "22",
-                    "articleId": "LEGIARTI000006243404",
-                    "natureText": "LOI_ORGANIQUE",
-                    "datePubliTexte": "2005-08-03",
-                    "dateSignaTexte": "2005-08-02",
-                    "dateDebutCible": "2005-08-03"
-                },
-                {
-                    "textCid": "JORFTEXT000000813423",
-                    "textTitle": "Loi n\u00b02005-881 du 2 ao\u00fbt 2005 - art. 5 () JORF 3 ao\u00fbt 2005",
-                    "linkType": "CREATION",
-                    "linkOrientation": "source",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000006243387",
-                    "natureText": "LOI_ORGANIQUE",
-                    "datePubliTexte": "2005-08-03",
-                    "dateSignaTexte": "2005-08-02",
-                    "dateDebutCible": "2005-08-03"
-                }
-            ],
+            "id": "LEGIARTI000006740989",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "En vue de l'examen et du vote du projet de loi de financement de la s\u00e9curit\u00e9 sociale de l'ann\u00e9e suivante par le Parlement, le Gouvernement pr\u00e9sente, au cours du dernier trimestre de la session ordinaire, un rapport sur les orientations des finances sociales comportant : 1\u00b0 Une description des grandes orientations de sa politique de s\u00e9curit\u00e9 sociale au regard des engagements europ\u00e9ens de la France ; 2\u00b0 Une \u00e9valuation pluriannuelle de l'\u00e9volution des recettes et des d\u00e9penses des administrations de s\u00e9curit\u00e9 sociale ainsi que de l'objectif national de d\u00e9penses d'assurance maladie. Ce rapport peut donner lieu \u00e0 un d\u00e9bat \u00e0 l'Assembl\u00e9e nationale et au S\u00e9nat. Ce d\u00e9bat peut \u00eatre concomitant du d\u00e9bat pr\u00e9vu \u00e0 l' article 48 de la loi organique n\u00b0 2001-692 du 1er ao\u00fbt 2001 relative aux lois de finances.",
+            "texteHtml": "<p></p>   En vue de l'examen et du vote du projet de loi de financement de la s\u00e9curit\u00e9 sociale de l'ann\u00e9e suivante par le Parlement, le Gouvernement pr\u00e9sente, au cours du dernier trimestre de la session ordinaire, un rapport sur les orientations des finances sociales comportant :<p></p><p></p>   1\u00b0 Une description des grandes orientations de sa politique de s\u00e9curit\u00e9 sociale au regard des engagements europ\u00e9ens de la France ;<p></p><p></p>   2\u00b0 Une \u00e9valuation pluriannuelle de l'\u00e9volution des recettes et des d\u00e9penses des administrations de s\u00e9curit\u00e9 sociale ainsi que de l'objectif national de d\u00e9penses d'assurance maladie.<p></p><p></p>   Ce rapport peut donner lieu \u00e0 un d\u00e9bat \u00e0 l'Assembl\u00e9e nationale et au S\u00e9nat. Ce d\u00e9bat peut \u00eatre concomitant du d\u00e9bat pr\u00e9vu \u00e0 l'<a href='/affichTexteArticle.do?cidTexte=JORFTEXT000000394028&idArticle=LEGIARTI000006321073&dateTexte=&categorieLien=cid' title='Loi organique n\u00b0 2001-692 du 1 ao\u00fbt 2001 - art. 48 (V)'>article 48 de la loi organique n\u00b0 2001-692 du 1er ao\u00fbt 2001</a> relative aux lois de finances.<p></p>",
             "num": "LO111-5-2",
             "origine": "LEGI",
-            "texte": "Pour la pr\u00e9paration du projet de loi de financement, les organismes gestionnaires d'un r\u00e9gime obligatoire de protection sociale doivent transmettre au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale les donn\u00e9es dont ils disposent concernant les recettes et d\u00e9penses relatives au dernier exercice clos et \u00e0 l'ann\u00e9e en cours, ainsi que leurs perspectives d'\u00e9volution au titre des quatre ann\u00e9es \u00e0 venir.",
-            "texteHtml": "<p></p>   Pour la pr\u00e9paration du projet de loi de financement, les organismes gestionnaires d'un r\u00e9gime obligatoire de protection sociale doivent transmettre au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale les donn\u00e9es dont ils disposent concernant les recettes et d\u00e9penses relatives au dernier exercice clos et \u00e0 l'ann\u00e9e en cours, ainsi que leurs perspectives d'\u00e9volution au titre des quatre ann\u00e9es \u00e0 venir.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-08-03T00:00:00.000Z",
-            "dateFin": "2005-08-03T00:00:00.000Z"
-        },
-        {
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1123027200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -190,7 +63,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006172897",
                         "id": "LEGISCTA000006172897",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2022-09-01",
@@ -199,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006172897",
                         "id": "LEGISCTA000045358080",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -216,9 +89,91 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006740989",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006740988",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006172897",
+            "sectionParentId": "LEGISCTA000045358080",
+            "sectionParentTitre": "Section 4 : Pr\u00e9paration des projets de loi de financement.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre I : G\u00e9n\u00e9ralit\u00e9s &gt; Chapitre 1 bis : Lois de financement de la s\u00e9curit\u00e9 sociale &gt; Section 2 : Pr\u00e9paration des projets de loi de financement.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006740989",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000866621",
+                    "textTitle": "D\u00e9cret 85-1353 1985-12-17",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000866621",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1985-12-21",
+                    "dateSignaTexte": "1985-12-17",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000813423",
+                    "textTitle": "Loi n\u00b02005-881 du 2 ao\u00fbt 2005 - art. 22 () JORF 3 ao\u00fbt 2005",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "22",
+                    "articleId": "LEGIARTI000006243404",
+                    "natureText": "LOI_ORGANIQUE",
+                    "datePubliTexte": "2005-08-03",
+                    "dateSignaTexte": "2005-08-02",
+                    "dateDebutCible": "2005-08-03"
+                },
+                {
+                    "textCid": "JORFTEXT000000813423",
+                    "textTitle": "Loi organique 2005-881 2005-08-02 art. 22 I, III JORF 3 ao\u00fbt 2005",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000813423",
+                    "natureText": "LOI_ORGANIQUE",
+                    "datePubliTexte": "2005-08-03",
+                    "dateSignaTexte": "2005-08-02",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000394028",
@@ -228,7 +183,6 @@
                     "articleNum": "48",
                     "articleId": "LEGIARTI000006321073",
                     "natureText": "LOI_ORGANIQUE",
-                    "date": 1647377977263,
                     "parentCid": null,
                     "numTexte": "2001-692",
                     "datePubli": 996710400000,
@@ -273,53 +227,58 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000866621",
-                    "textTitle": "D\u00e9cret 85-1353 1985-12-17",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000866621",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "1985-12-21",
-                    "dateSignaTexte": "1985-12-17",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006740988",
+                    "etat": "MODIFIE_MORT_NE",
+                    "version": "1.0",
+                    "dateDebut": 1123027200000,
+                    "dateFin": 1123027200000,
+                    "numero": null,
+                    "ordre": null
                 },
                 {
-                    "textCid": "JORFTEXT000000813423",
-                    "textTitle": "Loi n\u00b02005-881 du 2 ao\u00fbt 2005 - art. 22 () JORF 3 ao\u00fbt 2005",
-                    "linkType": "MODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "22",
-                    "articleId": "LEGIARTI000006243404",
-                    "natureText": "LOI_ORGANIQUE",
-                    "datePubliTexte": "2005-08-03",
-                    "dateSignaTexte": "2005-08-02",
-                    "dateDebutCible": "2005-08-03"
-                },
-                {
-                    "textCid": "JORFTEXT000000813423",
-                    "textTitle": "Loi organique 2005-881 2005-08-02 art. 22 I, III JORF 3 ao\u00fbt 2005",
-                    "linkType": "MODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000813423",
-                    "natureText": "LOI_ORGANIQUE",
-                    "datePubliTexte": "2005-08-03",
-                    "dateSignaTexte": "2005-08-02",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006740989",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1123027200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "LO111-5-2",
-            "origine": "LEGI",
-            "texte": "En vue de l'examen et du vote du projet de loi de financement de la s\u00e9curit\u00e9 sociale de l'ann\u00e9e suivante par le Parlement, le Gouvernement pr\u00e9sente, au cours du dernier trimestre de la session ordinaire, un rapport sur les orientations des finances sociales comportant : 1\u00b0 Une description des grandes orientations de sa politique de s\u00e9curit\u00e9 sociale au regard des engagements europ\u00e9ens de la France ; 2\u00b0 Une \u00e9valuation pluriannuelle de l'\u00e9volution des recettes et des d\u00e9penses des administrations de s\u00e9curit\u00e9 sociale ainsi que de l'objectif national de d\u00e9penses d'assurance maladie. Ce rapport peut donner lieu \u00e0 un d\u00e9bat \u00e0 l'Assembl\u00e9e nationale et au S\u00e9nat. Ce d\u00e9bat peut \u00eatre concomitant du d\u00e9bat pr\u00e9vu \u00e0 l' article 48 de la loi organique n\u00b0 2001-692 du 1er ao\u00fbt 2001 relative aux lois de finances.",
-            "texteHtml": "<p></p>   En vue de l'examen et du vote du projet de loi de financement de la s\u00e9curit\u00e9 sociale de l'ann\u00e9e suivante par le Parlement, le Gouvernement pr\u00e9sente, au cours du dernier trimestre de la session ordinaire, un rapport sur les orientations des finances sociales comportant :<p></p><p></p>   1\u00b0 Une description des grandes orientations de sa politique de s\u00e9curit\u00e9 sociale au regard des engagements europ\u00e9ens de la France ;<p></p><p></p>   2\u00b0 Une \u00e9valuation pluriannuelle de l'\u00e9volution des recettes et des d\u00e9penses des administrations de s\u00e9curit\u00e9 sociale ainsi que de l'objectif national de d\u00e9penses d'assurance maladie.<p></p><p></p>   Ce rapport peut donner lieu \u00e0 un d\u00e9bat \u00e0 l'Assembl\u00e9e nationale et au S\u00e9nat. Ce d\u00e9bat peut \u00eatre concomitant du d\u00e9bat pr\u00e9vu \u00e0 l'<a href='/article/LEGIARTI000006321073' title='Loi organique n\u00b0 2001-692 du 1 ao\u00fbt 2001 - art. 48 (V)'>article 48 de la loi organique n\u00b0 2001-692 du 1er ao\u00fbt 2001</a> relative aux lois de finances.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-08-03T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "LO111-5-2",
+                "111-5-2"
+            ],
+            "versionPrecedente": "LEGIARTI000006740988",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006740988",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour la pr\u00e9paration du projet de loi de financement, les organismes gestionnaires d'un r\u00e9gime obligatoire de protection sociale doivent transmettre au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale les donn\u00e9es dont ils disposent concernant les recettes et d\u00e9penses relatives au dernier exercice clos et \u00e0 l'ann\u00e9e en cours, ainsi que leurs perspectives d'\u00e9volution au titre des quatre ann\u00e9es \u00e0 venir.",
+            "texteHtml": "<p></p>   Pour la pr\u00e9paration du projet de loi de financement, les organismes gestionnaires d'un r\u00e9gime obligatoire de protection sociale doivent transmettre au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale les donn\u00e9es dont ils disposent concernant les recettes et d\u00e9penses relatives au dernier exercice clos et \u00e0 l'ann\u00e9e en cours, ainsi que leurs perspectives d'\u00e9volution au titre des quatre ann\u00e9es \u00e0 venir.<p></p><p></p>",
+            "num": "LO111-5-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE_MORT_NE",
+            "dateDebut": 1123027200000,
+            "dateFin": 1123027200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 343592,
             "context": {
                 "titresTM": [
                     {
@@ -373,9 +332,91 @@
                     }
                 ]
             },
-            "etat": "MODIFIE_MORT_NE",
-            "id": "LEGIARTI000006740988",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006740988",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006155999",
+            "sectionParentId": "LEGISCTA000006155999",
+            "sectionParentTitre": "Chapitre 1 bis : Lois de financement de la s\u00e9curit\u00e9 sociale",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre I : G\u00e9n\u00e9ralit\u00e9s &gt; Chapitre 1 bis : Lois de financement de la s\u00e9curit\u00e9 sociale",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006740988",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000866621",
+                    "textTitle": "D\u00e9cret 85-1353 1985-12-17",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000866621",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1985-12-21",
+                    "dateSignaTexte": "1985-12-17",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000813423",
+                    "textTitle": "Loi n\u00b02005-881 du 2 ao\u00fbt 2005 - art. 22 () JORF 3 ao\u00fbt 2005",
+                    "linkType": "TRANSFERT",
+                    "linkOrientation": "source",
+                    "articleNum": "22",
+                    "articleId": "LEGIARTI000006243404",
+                    "natureText": "LOI_ORGANIQUE",
+                    "datePubliTexte": "2005-08-03",
+                    "dateSignaTexte": "2005-08-02",
+                    "dateDebutCible": "2005-08-03"
+                },
+                {
+                    "textCid": "JORFTEXT000000813423",
+                    "textTitle": "Loi n\u00b02005-881 du 2 ao\u00fbt 2005 - art. 5 () JORF 3 ao\u00fbt 2005",
+                    "linkType": "CREATION",
+                    "linkOrientation": "source",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000006243387",
+                    "natureText": "LOI_ORGANIQUE",
+                    "datePubliTexte": "2005-08-03",
+                    "dateSignaTexte": "2005-08-02",
+                    "dateDebutCible": "2005-08-03"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -415,51 +456,40 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000866621",
-                    "textTitle": "D\u00e9cret 85-1353 1985-12-17",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000866621",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "1985-12-21",
-                    "dateSignaTexte": "1985-12-17",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006740988",
+                    "etat": "MODIFIE_MORT_NE",
+                    "version": "1.0",
+                    "dateDebut": 1123027200000,
+                    "dateFin": 1123027200000,
+                    "numero": null,
+                    "ordre": null
                 },
                 {
-                    "textCid": "JORFTEXT000000813423",
-                    "textTitle": "Loi n\u00b02005-881 du 2 ao\u00fbt 2005 - art. 22 () JORF 3 ao\u00fbt 2005",
-                    "linkType": "TRANSFERT",
-                    "linkOrientation": "source",
-                    "articleNum": "22",
-                    "articleId": "LEGIARTI000006243404",
-                    "natureText": "LOI_ORGANIQUE",
-                    "datePubliTexte": "2005-08-03",
-                    "dateSignaTexte": "2005-08-02",
-                    "dateDebutCible": "2005-08-03"
-                },
-                {
-                    "textCid": "JORFTEXT000000813423",
-                    "textTitle": "Loi n\u00b02005-881 du 2 ao\u00fbt 2005 - art. 5 () JORF 3 ao\u00fbt 2005",
-                    "linkType": "CREATION",
-                    "linkOrientation": "source",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000006243387",
-                    "natureText": "LOI_ORGANIQUE",
-                    "datePubliTexte": "2005-08-03",
-                    "dateSignaTexte": "2005-08-02",
-                    "dateDebutCible": "2005-08-03"
+                    "id": "LEGIARTI000006740989",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1123027200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "LO111-5-2",
-            "origine": "LEGI",
-            "texte": "Pour la pr\u00e9paration du projet de loi de financement, les organismes gestionnaires d'un r\u00e9gime obligatoire de protection sociale doivent transmettre au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale les donn\u00e9es dont ils disposent concernant les recettes et d\u00e9penses relatives au dernier exercice clos et \u00e0 l'ann\u00e9e en cours, ainsi que leurs perspectives d'\u00e9volution au titre des quatre ann\u00e9es \u00e0 venir.",
-            "texteHtml": "<p></p>   Pour la pr\u00e9paration du projet de loi de financement, les organismes gestionnaires d'un r\u00e9gime obligatoire de protection sociale doivent transmettre au ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale les donn\u00e9es dont ils disposent concernant les recettes et d\u00e9penses relatives au dernier exercice clos et \u00e0 l'ann\u00e9e en cours, ainsi que leurs perspectives d'\u00e9volution au titre des quatre ann\u00e9es \u00e0 venir.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-08-03T00:00:00.000Z",
-            "dateFin": "2005-08-03T00:00:00.000Z"
+            "computedNums": [
+                "LO111-5-2",
+                "111-5-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

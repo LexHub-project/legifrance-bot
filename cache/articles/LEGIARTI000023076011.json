@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023076011",
-    "num": "L6421-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023654532",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le contrat de transport des passagers est constat\u00e9 par la d\u00e9livrance d'un billet, individuel ou collectif. Le contrat de transport des bagages est constat\u00e9 par la d\u00e9livrance d'une fiche d'identification pour chaque bagage enregistr\u00e9.",
+            "texteHtml": "<p>Le contrat de transport des passagers est constat\u00e9 par la d\u00e9livrance d'un billet, individuel ou collectif.</p><p>Le contrat de transport des bagages est constat\u00e9 par la d\u00e9livrance d'une fiche d'identification pour chaque bagage enregistr\u00e9. </p>",
+            "num": "L6421-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1298678400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -74,21 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023654532",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000023076011",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023076009",
+            "sectionParentId": "LEGISCTA000023077810",
+            "sectionParentTitre": "Section 1 : Le contrat de transport",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; SIXIEME PARTIE : AVIATION CIVILE &gt; LIVRE IV : LE TRANSPORT AERIEN &gt; TITRE II : CONTRAT DE TRANSPORT &gt; Chapitre Ier : Transport de personnes et de bagages\n &gt; Section 1 : Le contrat de transport",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000023654532",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. L322-1 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L322-1",
-                    "articleId": "LEGIARTI000006844269",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023628099",
@@ -115,15 +162,70 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L6421-1",
-            "origine": "LEGI",
-            "texte": "Le contrat de transport des passagers est constat\u00e9 par la d\u00e9livrance d'un billet, individuel ou collectif. Le contrat de transport des bagages est constat\u00e9 par la d\u00e9livrance d'une fiche d'identification pour chaque bagage enregistr\u00e9.",
-            "texteHtml": "<p>Le contrat de transport des passagers est constat\u00e9 par la d\u00e9livrance d'un billet, individuel ou collectif.</p><p>Le contrat de transport des bagages est constat\u00e9 par la d\u00e9livrance d'une fiche d'identification pour chaque bagage enregistr\u00e9. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-02-26T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074234",
+                    "textTitle": "Code de l'aviation civile - art. L322-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-1",
+                    "articleId": "LEGIARTI000006844269",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023077808",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 1298678400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023654532",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1298678400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L6421-1",
+                "6421-1"
+            ],
+            "versionPrecedente": "LEGIARTI000023077808",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000023077808",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le contrat de transport des passagers est constat\u00e9 par la d\u00e9livrance d'un billet, individuel ou collectif. Le contrat de transport des bagages est constat\u00e9 par bagage enregistr\u00e9 par la d\u00e9livrance d'une fiche d'identification par bagage enregistr\u00e9.",
+            "texteHtml": "<p><br/>Le contrat de transport des passagers est constat\u00e9 par la d\u00e9livrance d'un billet, individuel ou collectif.<br/> Le contrat de transport des bagages est constat\u00e9 par bagage enregistr\u00e9 par la d\u00e9livrance d'une fiche d'identification par bagage enregistr\u00e9.</p>",
+            "num": "L6421-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1291161600000,
+            "dateFin": 1298678400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -195,21 +297,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000023077808",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000023076011",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023076009",
+            "sectionParentId": "LEGISCTA000023077810",
+            "sectionParentTitre": "Section 1 : Le contrat de transport",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; SIXIEME PARTIE : AVIATION CIVILE &gt; LIVRE IV : LE TRANSPORT AERIEN &gt; TITRE II : CONTRAT DE TRANSPORT &gt; Chapitre Ier : Transport de personnes et de bagages\n &gt; Section 1 : Le contrat de transport",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000023077808",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. L322-1 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L322-1",
-                    "articleId": "LEGIARTI000006844269",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -224,13 +358,52 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L6421-1",
-            "origine": "LEGI",
-            "texte": "Le contrat de transport des passagers est constat\u00e9 par la d\u00e9livrance d'un billet, individuel ou collectif. Le contrat de transport des bagages est constat\u00e9 par bagage enregistr\u00e9 par la d\u00e9livrance d'une fiche d'identification par bagage enregistr\u00e9.",
-            "texteHtml": "<p><br/>Le contrat de transport des passagers est constat\u00e9 par la d\u00e9livrance d'un billet, individuel ou collectif.<br/> Le contrat de transport des bagages est constat\u00e9 par bagage enregistr\u00e9 par la d\u00e9livrance d'une fiche d'identification par bagage enregistr\u00e9.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2011-02-26T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074234",
+                    "textTitle": "Code de l'aviation civile - art. L322-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-1",
+                    "articleId": "LEGIARTI000006844269",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023077808",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 1298678400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023654532",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1298678400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L6421-1",
+                "6421-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

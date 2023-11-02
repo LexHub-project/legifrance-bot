@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000039005984",
-    "num": "D323-7",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000043136691",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le taux de la subvention est au plus \u00e9gal \u00e0 35 % du prix de revient pr\u00e9visionnel de l'op\u00e9ration.",
+            "texteHtml": "<p>Le taux de la subvention est au plus \u00e9gal \u00e0 35 % du prix de revient pr\u00e9visionnel de l'op\u00e9ration.</p>",
+            "num": "D323-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1613347200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 21472,
             "context": {
                 "titresTM": [
                     {
@@ -65,21 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000043136691",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000039005984",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006177542",
+            "sectionParentId": "LEGISCTA000006177542",
+            "sectionParentTitre": "Section 1 : Subventions \u00e0 l'am\u00e9lioration des logements locatifs sociaux.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Aides diverses \u00e0 la construction d'habitations et \u00e0 l'am\u00e9lioration de l'habitat - Aide personnalis\u00e9e au logement. &gt; Titre II : Am\u00e9lioration de l'habitat. &gt; Chapitre III : Subventions de l'Etat. &gt; Section 1 : Subventions \u00e0 l'am\u00e9lioration des logements locatifs sociaux.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000043136691",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. R323-7 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R323-7",
-                    "articleId": "LEGIARTI000038928698",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000043131095",
@@ -94,15 +141,70 @@
                     "dateDebutCible": "2021-02-15"
                 }
             ],
-            "num": "D323-7",
-            "origine": "LEGI",
-            "texte": "Le taux de la subvention est au plus \u00e9gal \u00e0 35 % du prix de revient pr\u00e9visionnel de l'op\u00e9ration.",
-            "texteHtml": "<p>Le taux de la subvention est au plus \u00e9gal \u00e0 35 % du prix de revient pr\u00e9visionnel de l'op\u00e9ration.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-02-15T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R323-7 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R323-7",
+                    "articleId": "LEGIARTI000038928698",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000039006574",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1567296000000,
+                    "dateFin": 1613347200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043136691",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1613347200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D323-7",
+                "323-7"
+            ],
+            "versionPrecedente": "LEGIARTI000039006574",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000039006574",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le taux de la subvention est au plus \u00e9gal \u00e0 10 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse, o\u00f9 il est au plus \u00e9gal \u00e0 20 p. 100 du co\u00fbt pr\u00e9visionnel des travaux. Ce taux peut \u00eatre port\u00e9 \u00e0 15 % du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse o\u00f9 il est au plus \u00e9gal \u00e0 25 % du co\u00fbt pr\u00e9visionnel des travaux, dans les limites susvis\u00e9es : a) Pour les travaux d'installation de chauffe-eau solaires et de capteurs photovolta\u00efques ; b) Pour les travaux d'installation de vitres, de fen\u00eatres ou de baies dont les caract\u00e9ristiques thermiques permettent d'atteindre ou de d\u00e9passer des caract\u00e9ristiques thermiques fix\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 du logement ; c) Pour le surco\u00fbt r\u00e9sultant de la r\u00e9alisation de travaux d'installation sur les parois opaques de parois de doublage acoustique mince dont les caract\u00e9ristiques techniques sont pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 du logement. Ce taux peut \u00eatre port\u00e9 au plus \u00e0 25 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse, o\u00f9 il est au plus \u00e9gal \u00e0 30 p. 100 du co\u00fbt pr\u00e9visionnel des travaux. a) Pour la r\u00e9alisation de travaux destin\u00e9s \u00e0 am\u00e9liorer la s\u00e9curit\u00e9 dans les immeubles, y compris les travaux de renforcement des portes d'entr\u00e9e des logements, \u00e0 condition qu'une collectivit\u00e9 locale participe \u00e0 ces travaux pour un montant \u00e9quivalent ; b) Pour des op\u00e9rations \u00e0 caract\u00e8re exp\u00e9rimental ; c) Pour des op\u00e9rations \" habitat et vie sociale \" ou pour des op\u00e9rations r\u00e9alis\u00e9es dans le cadre des actions pour le d\u00e9veloppement social des quartiers ou pour des op\u00e9rations r\u00e9alis\u00e9es dans les grands ensembles et quartiers mentionn\u00e9s au I de l'article 1466 A du code g\u00e9n\u00e9ral des imp\u00f4ts ; il en est de m\u00eame pour la r\u00e9alisation de loges de gardien ; d) Pour des op\u00e9rations dont le ma\u00eetre d'ouvrage est une commune de moins de 5 000 habitants, lorsque l'importance des travaux et les conditions d'\u00e9quilibre financier de l'op\u00e9ration le justifient ; e) Pour la r\u00e9alisation de travaux effectu\u00e9s dans les logements-foyers pour travailleurs migrants mentionn\u00e9s au 3\u00b0 de l'article R. 832-20 lorsque, \u00e0 l'issue des travaux, le nouveau statut de ces logements-foyers est celui des r\u00e9sidences sociales mentionn\u00e9es au 2\u00b0 du m\u00eame article. En outre, le repr\u00e9sentant de l'Etat dans le d\u00e9partement peut, \u00e0 titre exceptionnel, porter le taux de la subvention au plus \u00e0 40 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, dans les limites d\u00e9finies \u00e0 l'article D. 323-6, lorsque le ma\u00eetre d'ouvrage, b\u00e9n\u00e9ficiaire de la subvention, rencontre des difficult\u00e9s financi\u00e8res particuli\u00e8res. Ce taux peut \u00e9galement \u00eatre port\u00e9 au plus \u00e0 40 % du co\u00fbt pr\u00e9visionnel des travaux, pour les travaux d'adaptation des logements mentionn\u00e9s au b de l'article D. 323-3.",
+            "texteHtml": "<p>Le taux de la subvention est au plus \u00e9gal \u00e0 10 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse, o\u00f9 il est au plus \u00e9gal \u00e0 20 p. 100 du co\u00fbt pr\u00e9visionnel des travaux.</p><p>Ce taux peut \u00eatre port\u00e9 \u00e0 15 % du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse o\u00f9 il est au plus \u00e9gal \u00e0 25 % du co\u00fbt pr\u00e9visionnel des travaux, dans les limites susvis\u00e9es :</p><p>a) Pour les travaux d'installation de chauffe-eau solaires et de capteurs photovolta\u00efques ;</p><p>b) Pour les travaux d'installation de vitres, de fen\u00eatres ou de baies dont les caract\u00e9ristiques thermiques permettent d'atteindre ou de d\u00e9passer des caract\u00e9ristiques thermiques fix\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 du logement ;</p><p>c) Pour le surco\u00fbt r\u00e9sultant de la r\u00e9alisation de travaux d'installation sur les parois opaques de parois de doublage acoustique mince dont les caract\u00e9ristiques techniques sont pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 du logement.</p><p>Ce taux peut \u00eatre port\u00e9 au plus \u00e0 25 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse, o\u00f9 il est au plus \u00e9gal \u00e0 30 p. 100 du co\u00fbt pr\u00e9visionnel des travaux.</p><p>a) Pour la r\u00e9alisation de travaux destin\u00e9s \u00e0 am\u00e9liorer la s\u00e9curit\u00e9 dans les immeubles, y compris les travaux de renforcement des portes d'entr\u00e9e des logements, \u00e0 condition qu'une collectivit\u00e9 locale participe \u00e0 ces travaux pour un montant \u00e9quivalent ;</p><p>b) Pour des op\u00e9rations \u00e0 caract\u00e8re exp\u00e9rimental ;</p><p>c) Pour des op\u00e9rations \" habitat et vie sociale \" ou pour des op\u00e9rations r\u00e9alis\u00e9es dans le cadre des actions pour le d\u00e9veloppement social des quartiers ou pour des op\u00e9rations r\u00e9alis\u00e9es dans les grands ensembles et quartiers mentionn\u00e9s au I de l'article 1466 A du code g\u00e9n\u00e9ral des imp\u00f4ts ; il en est de m\u00eame pour la r\u00e9alisation de loges de gardien ;</p><p>d) Pour des op\u00e9rations dont le ma\u00eetre d'ouvrage est une commune de moins de 5 000 habitants, lorsque l'importance des travaux et les conditions d'\u00e9quilibre financier de l'op\u00e9ration le justifient ;</p><p>e) Pour la r\u00e9alisation de travaux effectu\u00e9s dans les logements-foyers pour travailleurs migrants mentionn\u00e9s au 3\u00b0 de l'article R. 832-20 lorsque, \u00e0 l'issue des travaux, le nouveau statut de ces logements-foyers est celui des r\u00e9sidences sociales mentionn\u00e9es au 2\u00b0 du m\u00eame article.</p><p>En outre, le repr\u00e9sentant de l'Etat dans le d\u00e9partement peut, \u00e0 titre exceptionnel, porter le taux de la subvention au plus \u00e0 40 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, dans les limites d\u00e9finies \u00e0 l'article D. 323-6, lorsque le ma\u00eetre d'ouvrage, b\u00e9n\u00e9ficiaire de la subvention, rencontre des difficult\u00e9s financi\u00e8res particuli\u00e8res.</p><p>Ce taux peut \u00e9galement \u00eatre port\u00e9 au plus \u00e0 40 % du co\u00fbt pr\u00e9visionnel des travaux, pour les travaux d'adaptation des logements mentionn\u00e9s au b de l'article D. 323-3.</p>",
+            "num": "D323-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1567296000000,
+            "dateFin": 1613347200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 21472,
             "context": {
                 "titresTM": [
                     {
@@ -165,21 +267,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000039006574",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000039005984",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006177542",
+            "sectionParentId": "LEGISCTA000006177542",
+            "sectionParentTitre": "Section 1 : Subventions \u00e0 l'am\u00e9lioration des logements locatifs sociaux.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Aides diverses \u00e0 la construction d'habitations et \u00e0 l'am\u00e9lioration de l'habitat - Aide personnalis\u00e9e au logement. &gt; Titre II : Am\u00e9lioration de l'habitat. &gt; Chapitre III : Subventions de l'Etat. &gt; Section 1 : Subventions \u00e0 l'am\u00e9lioration des logements locatifs sociaux.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000039006574",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. R323-7 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R323-7",
-                    "articleId": "LEGIARTI000038928698",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000038947944",
@@ -194,13 +328,52 @@
                     "dateDebutCible": "2019-09-01"
                 }
             ],
-            "num": "D323-7",
-            "origine": "LEGI",
-            "texte": "Le taux de la subvention est au plus \u00e9gal \u00e0 10 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse, o\u00f9 il est au plus \u00e9gal \u00e0 20 p. 100 du co\u00fbt pr\u00e9visionnel des travaux. Ce taux peut \u00eatre port\u00e9 \u00e0 15 % du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse o\u00f9 il est au plus \u00e9gal \u00e0 25 % du co\u00fbt pr\u00e9visionnel des travaux, dans les limites susvis\u00e9es : a) Pour les travaux d'installation de chauffe-eau solaires et de capteurs photovolta\u00efques ; b) Pour les travaux d'installation de vitres, de fen\u00eatres ou de baies dont les caract\u00e9ristiques thermiques permettent d'atteindre ou de d\u00e9passer des caract\u00e9ristiques thermiques fix\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 du logement ; c) Pour le surco\u00fbt r\u00e9sultant de la r\u00e9alisation de travaux d'installation sur les parois opaques de parois de doublage acoustique mince dont les caract\u00e9ristiques techniques sont pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 du logement. Ce taux peut \u00eatre port\u00e9 au plus \u00e0 25 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse, o\u00f9 il est au plus \u00e9gal \u00e0 30 p. 100 du co\u00fbt pr\u00e9visionnel des travaux. a) Pour la r\u00e9alisation de travaux destin\u00e9s \u00e0 am\u00e9liorer la s\u00e9curit\u00e9 dans les immeubles, y compris les travaux de renforcement des portes d'entr\u00e9e des logements, \u00e0 condition qu'une collectivit\u00e9 locale participe \u00e0 ces travaux pour un montant \u00e9quivalent ; b) Pour des op\u00e9rations \u00e0 caract\u00e8re exp\u00e9rimental ; c) Pour des op\u00e9rations \" habitat et vie sociale \" ou pour des op\u00e9rations r\u00e9alis\u00e9es dans le cadre des actions pour le d\u00e9veloppement social des quartiers ou pour des op\u00e9rations r\u00e9alis\u00e9es dans les grands ensembles et quartiers mentionn\u00e9s au I de l'article 1466 A du code g\u00e9n\u00e9ral des imp\u00f4ts ; il en est de m\u00eame pour la r\u00e9alisation de loges de gardien ; d) Pour des op\u00e9rations dont le ma\u00eetre d'ouvrage est une commune de moins de 5 000 habitants, lorsque l'importance des travaux et les conditions d'\u00e9quilibre financier de l'op\u00e9ration le justifient ; e) Pour la r\u00e9alisation de travaux effectu\u00e9s dans les logements-foyers pour travailleurs migrants mentionn\u00e9s au 3\u00b0 de l'article R. 832-20 lorsque, \u00e0 l'issue des travaux, le nouveau statut de ces logements-foyers est celui des r\u00e9sidences sociales mentionn\u00e9es au 2\u00b0 du m\u00eame article. En outre, le repr\u00e9sentant de l'Etat dans le d\u00e9partement peut, \u00e0 titre exceptionnel, porter le taux de la subvention au plus \u00e0 40 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, dans les limites d\u00e9finies \u00e0 l'article D. 323-6, lorsque le ma\u00eetre d'ouvrage, b\u00e9n\u00e9ficiaire de la subvention, rencontre des difficult\u00e9s financi\u00e8res particuli\u00e8res. Ce taux peut \u00e9galement \u00eatre port\u00e9 au plus \u00e0 40 % du co\u00fbt pr\u00e9visionnel des travaux, pour les travaux d'adaptation des logements mentionn\u00e9s au b de l'article D. 323-3.",
-            "texteHtml": "<p>Le taux de la subvention est au plus \u00e9gal \u00e0 10 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse, o\u00f9 il est au plus \u00e9gal \u00e0 20 p. 100 du co\u00fbt pr\u00e9visionnel des travaux.</p><p>Ce taux peut \u00eatre port\u00e9 \u00e0 15 % du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse o\u00f9 il est au plus \u00e9gal \u00e0 25 % du co\u00fbt pr\u00e9visionnel des travaux, dans les limites susvis\u00e9es :</p><p>a) Pour les travaux d'installation de chauffe-eau solaires et de capteurs photovolta\u00efques ;</p><p>b) Pour les travaux d'installation de vitres, de fen\u00eatres ou de baies dont les caract\u00e9ristiques thermiques permettent d'atteindre ou de d\u00e9passer des caract\u00e9ristiques thermiques fix\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 du logement ;</p><p>c) Pour le surco\u00fbt r\u00e9sultant de la r\u00e9alisation de travaux d'installation sur les parois opaques de parois de doublage acoustique mince dont les caract\u00e9ristiques techniques sont pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 du logement.</p><p>Ce taux peut \u00eatre port\u00e9 au plus \u00e0 25 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, sauf pour les op\u00e9rations r\u00e9alis\u00e9es en Corse, o\u00f9 il est au plus \u00e9gal \u00e0 30 p. 100 du co\u00fbt pr\u00e9visionnel des travaux.</p><p>a) Pour la r\u00e9alisation de travaux destin\u00e9s \u00e0 am\u00e9liorer la s\u00e9curit\u00e9 dans les immeubles, y compris les travaux de renforcement des portes d'entr\u00e9e des logements, \u00e0 condition qu'une collectivit\u00e9 locale participe \u00e0 ces travaux pour un montant \u00e9quivalent ;</p><p>b) Pour des op\u00e9rations \u00e0 caract\u00e8re exp\u00e9rimental ;</p><p>c) Pour des op\u00e9rations \" habitat et vie sociale \" ou pour des op\u00e9rations r\u00e9alis\u00e9es dans le cadre des actions pour le d\u00e9veloppement social des quartiers ou pour des op\u00e9rations r\u00e9alis\u00e9es dans les grands ensembles et quartiers mentionn\u00e9s au I de l'article 1466 A du code g\u00e9n\u00e9ral des imp\u00f4ts ; il en est de m\u00eame pour la r\u00e9alisation de loges de gardien ;</p><p>d) Pour des op\u00e9rations dont le ma\u00eetre d'ouvrage est une commune de moins de 5 000 habitants, lorsque l'importance des travaux et les conditions d'\u00e9quilibre financier de l'op\u00e9ration le justifient ;</p><p>e) Pour la r\u00e9alisation de travaux effectu\u00e9s dans les logements-foyers pour travailleurs migrants mentionn\u00e9s au 3\u00b0 de l'article R. 832-20 lorsque, \u00e0 l'issue des travaux, le nouveau statut de ces logements-foyers est celui des r\u00e9sidences sociales mentionn\u00e9es au 2\u00b0 du m\u00eame article.</p><p>En outre, le repr\u00e9sentant de l'Etat dans le d\u00e9partement peut, \u00e0 titre exceptionnel, porter le taux de la subvention au plus \u00e0 40 p. 100 du co\u00fbt pr\u00e9visionnel des travaux, dans les limites d\u00e9finies \u00e0 l'article D. 323-6, lorsque le ma\u00eetre d'ouvrage, b\u00e9n\u00e9ficiaire de la subvention, rencontre des difficult\u00e9s financi\u00e8res particuli\u00e8res.</p><p>Ce taux peut \u00e9galement \u00eatre port\u00e9 au plus \u00e0 40 % du co\u00fbt pr\u00e9visionnel des travaux, pour les travaux d'adaptation des logements mentionn\u00e9s au b de l'article D. 323-3.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-09-01T00:00:00.000Z",
-            "dateFin": "2021-02-15T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R323-7 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R323-7",
+                    "articleId": "LEGIARTI000038928698",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000039006574",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1567296000000,
+                    "dateFin": 1613347200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043136691",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1613347200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D323-7",
+                "323-7"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

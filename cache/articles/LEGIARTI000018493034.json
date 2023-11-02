@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018493034",
-    "num": "R4623-22",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000036483048",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par tout moyen permettant de lui conf\u00e9rer une date certaine : 1\u00b0 A l'employeur ; 2\u00b0 Au m\u00e9decin du travail ; 3\u00b0 Dans le cas d'un service autonome, au   comit\u00e9 social et \u00e9conomique ; 4\u00b0 Dans le cas d'un service interentreprises, au conseil d'administration et, selon le cas, soit au comit\u00e9 interentreprises, soit \u00e0 la commission de contr\u00f4le.",
+            "texteHtml": "<p>La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par tout moyen permettant de lui conf\u00e9rer une date certaine : </p><p>1\u00b0 A l'employeur ; </p><p>2\u00b0 Au m\u00e9decin du travail ; </p><p>3\u00b0 Dans le cas d'un service autonome, au   comit\u00e9 social et \u00e9conomique ; </p><p>4\u00b0 Dans le cas d'un service interentreprises, au conseil d'administration et, selon le cas, soit au comit\u00e9 interentreprises, soit \u00e0 la commission de contr\u00f4le.</p><p></p>",
+            "num": "R4623-22",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1514764800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -119,50 +143,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000036483048",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493034",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493011",
+            "sectionParentId": "LEGISCTA000025279840",
+            "sectionParentTitre": "Sous-section 4 : Proc\u00e9dure d'autorisation applicable \u00e0 la rupture ou au transfert du contrat.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 1 : M\u00e9decin du travail. &gt; Sous-section 4 : Proc\u00e9dure d'autorisation applicable \u00e0 la rupture ou au transfert du contrat.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000036483048",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4623-24 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4623-24",
-                    "articleId": "LEGIARTI000029237365",
-                    "natureText": "CODE",
-                    "date": 1599843200248,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1405296000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R6222-40-1 (T)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R6222-40-1",
-                    "articleId": "LEGIARTI000033769671",
-                    "natureText": "CODE",
-                    "date": 1599843200248,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-31-2 al 2 \u00e0 4 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-31-2",
-                    "articleId": "LEGIARTI000018510111",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000036336033",
@@ -177,15 +204,141 @@
                     "dateDebutCible": "2017-12-31"
                 }
             ],
-            "num": "R4623-22",
-            "origine": "LEGI",
-            "texte": "La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par tout moyen permettant de lui conf\u00e9rer une date certaine : 1\u00b0 A l'employeur ; 2\u00b0 Au m\u00e9decin du travail ; 3\u00b0 Dans le cas d'un service autonome, au   comit\u00e9 social et \u00e9conomique ; 4\u00b0 Dans le cas d'un service interentreprises, au conseil d'administration et, selon le cas, soit au comit\u00e9 interentreprises, soit \u00e0 la commission de contr\u00f4le.",
-            "texteHtml": "<p>La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par tout moyen permettant de lui conf\u00e9rer une date certaine : </p><p>1\u00b0 A l'employeur ; </p><p>2\u00b0 Au m\u00e9decin du travail ; </p><p>3\u00b0 Dans le cas d'un service autonome, au   comit\u00e9 social et \u00e9conomique ; </p><p>4\u00b0 Dans le cas d'un service interentreprises, au conseil d'administration et, selon le cas, soit au comit\u00e9 interentreprises, soit \u00e0 la commission de contr\u00f4le.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-23 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-23",
+                    "articleId": "LEGIARTI000025279822",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1341100800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-24 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-24",
+                    "articleId": "LEGIARTI000029237365",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1405296000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R6222-36 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6222-36",
+                    "articleId": "LEGIARTI000041769788",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1585699200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R6222-40-1 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6222-40-1",
+                    "articleId": "LEGIARTI000033769671",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-31-2 al 2 \u00e0 4 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-31-2",
+                    "articleId": "LEGIARTI000018510111",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528348",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279824",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1405296000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029237326",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1405296000000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483048",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4623-22",
+                "4623-22"
+            ],
+            "versionPrecedente": "LEGIARTI000029237326",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000029237326",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par tout moyen permettant de lui conf\u00e9rer une date certaine : 1\u00b0 A l'employeur ; 2\u00b0 Au m\u00e9decin du travail ; 3\u00b0 Dans le cas d'un service autonome, au comit\u00e9 d'entreprise ; 4\u00b0 Dans le cas d'un service interentreprises, au conseil d'administration et, selon le cas, soit au comit\u00e9 interentreprises, soit \u00e0 la commission de contr\u00f4le.",
+            "texteHtml": "<p>La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par tout moyen permettant de lui conf\u00e9rer une date certaine : </p><p>1\u00b0 A l'employeur ; </p><p>2\u00b0 Au m\u00e9decin du travail ; </p><p>3\u00b0 Dans le cas d'un service autonome, au comit\u00e9 d'entreprise ; </p><p> 4\u00b0 Dans le cas d'un service interentreprises, au conseil d'administration et, selon le cas, soit au comit\u00e9 interentreprises, soit \u00e0 la commission de contr\u00f4le. </p><p></p>",
+            "num": "R4623-22",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1405296000000,
+            "dateFin": 1514764800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -226,11 +379,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -302,50 +464,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000029237326",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493034",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493011",
+            "sectionParentId": "LEGISCTA000025279840",
+            "sectionParentTitre": "Sous-section 4 : Proc\u00e9dure d'autorisation applicable \u00e0 la rupture ou au transfert du contrat.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 1 : M\u00e9decin du travail. &gt; Sous-section 4 : Proc\u00e9dure d'autorisation applicable \u00e0 la rupture ou au transfert du contrat.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000029237326",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4623-24 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4623-24",
-                    "articleId": "LEGIARTI000029237365",
-                    "natureText": "CODE",
-                    "date": 1599842699850,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1405296000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R6222-40-1 (T)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R6222-40-1",
-                    "articleId": "LEGIARTI000033769671",
-                    "natureText": "CODE",
-                    "date": 1599842699851,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-31-2 al 2 \u00e0 4 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-31-2",
-                    "articleId": "LEGIARTI000018510111",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029225399",
@@ -360,15 +525,141 @@
                     "dateDebutCible": "2014-07-14"
                 }
             ],
-            "num": "R4623-22",
-            "origine": "LEGI",
-            "texte": "La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par tout moyen permettant de lui conf\u00e9rer une date certaine : 1\u00b0 A l'employeur ; 2\u00b0 Au m\u00e9decin du travail ; 3\u00b0 Dans le cas d'un service autonome, au comit\u00e9 d'entreprise ; 4\u00b0 Dans le cas d'un service interentreprises, au conseil d'administration et, selon le cas, soit au comit\u00e9 interentreprises, soit \u00e0 la commission de contr\u00f4le.",
-            "texteHtml": "<p>La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par tout moyen permettant de lui conf\u00e9rer une date certaine : </p><p>1\u00b0 A l'employeur ; </p><p>2\u00b0 Au m\u00e9decin du travail ; </p><p>3\u00b0 Dans le cas d'un service autonome, au comit\u00e9 d'entreprise ; </p><p> 4\u00b0 Dans le cas d'un service interentreprises, au conseil d'administration et, selon le cas, soit au comit\u00e9 interentreprises, soit \u00e0 la commission de contr\u00f4le. </p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-07-14T00:00:00.000Z",
-            "dateFin": "2018-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-23 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-23",
+                    "articleId": "LEGIARTI000025279822",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1341100800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-24 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-24",
+                    "articleId": "LEGIARTI000029237365",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1405296000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R6222-36 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6222-36",
+                    "articleId": "LEGIARTI000041769788",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1585699200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R6222-40-1 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6222-40-1",
+                    "articleId": "LEGIARTI000033769671",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-31-2 al 2 \u00e0 4 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-31-2",
+                    "articleId": "LEGIARTI000018510111",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528348",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279824",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1405296000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029237326",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1405296000000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483048",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4623-22",
+                "4623-22"
+            ],
+            "versionPrecedente": "LEGIARTI000025279824",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025279824",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par lettre recommand\u00e9e avec avis de r\u00e9ception : 1\u00b0 A l'employeur ; 2\u00b0 Au m\u00e9decin du travail ; 3\u00b0 Au comit\u00e9 d'entreprise, au comit\u00e9 interentreprises ou \u00e0 la commission de contr\u00f4le.",
+            "texteHtml": "<p>La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par lettre recommand\u00e9e avec avis de r\u00e9ception : </p><p> 1\u00b0 A l'employeur ; </p><p> 2\u00b0 Au m\u00e9decin du travail ; </p><p> 3\u00b0 Au comit\u00e9 d'entreprise, au comit\u00e9 interentreprises ou \u00e0 la commission de contr\u00f4le.</p><p></p>",
+            "num": "R4623-22",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1341100800000,
+            "dateFin": 1405296000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -409,11 +700,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -485,50 +785,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025279824",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493034",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493011",
+            "sectionParentId": "LEGISCTA000025279840",
+            "sectionParentTitre": "Sous-section 4 : Proc\u00e9dure d'autorisation applicable \u00e0 la rupture ou au transfert du contrat.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 1 : M\u00e9decin du travail. &gt; Sous-section 4 : Proc\u00e9dure d'autorisation applicable \u00e0 la rupture ou au transfert du contrat.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025279824",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4623-24 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4623-24",
-                    "articleId": "LEGIARTI000029237365",
-                    "natureText": "CODE",
-                    "date": 1599876467367,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1405296000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R6222-40-1 (T)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R6222-40-1",
-                    "articleId": "LEGIARTI000033769671",
-                    "natureText": "CODE",
-                    "date": 1599876467367,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-31-2 al 2 \u00e0 4 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-31-2",
-                    "articleId": "LEGIARTI000018510111",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025241584",
@@ -543,15 +846,141 @@
                     "dateDebutCible": "2012-07-01"
                 }
             ],
-            "num": "R4623-22",
-            "origine": "LEGI",
-            "texte": "La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par lettre recommand\u00e9e avec avis de r\u00e9ception : 1\u00b0 A l'employeur ; 2\u00b0 Au m\u00e9decin du travail ; 3\u00b0 Au comit\u00e9 d'entreprise, au comit\u00e9 interentreprises ou \u00e0 la commission de contr\u00f4le.",
-            "texteHtml": "<p>La d\u00e9cision de l'inspecteur du travail est motiv\u00e9e. Elle est notifi\u00e9e par lettre recommand\u00e9e avec avis de r\u00e9ception : </p><p> 1\u00b0 A l'employeur ; </p><p> 2\u00b0 Au m\u00e9decin du travail ; </p><p> 3\u00b0 Au comit\u00e9 d'entreprise, au comit\u00e9 interentreprises ou \u00e0 la commission de contr\u00f4le.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-01T00:00:00.000Z",
-            "dateFin": "2014-07-14T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-23 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-23",
+                    "articleId": "LEGIARTI000025279822",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1341100800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-24 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-24",
+                    "articleId": "LEGIARTI000029237365",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1405296000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R6222-36 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6222-36",
+                    "articleId": "LEGIARTI000041769788",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1585699200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R6222-40-1 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6222-40-1",
+                    "articleId": "LEGIARTI000033769671",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-31-2 al 2 \u00e0 4 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-31-2",
+                    "articleId": "LEGIARTI000018510111",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528348",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279824",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1405296000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029237326",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1405296000000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483048",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4623-22",
+                "4623-22"
+            ],
+            "versionPrecedente": "LEGIARTI000018528348",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018528348",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La demande d'autorisation de licenciement d'un m\u00e9decin du travail est adress\u00e9e \u00e0 l'inspecteur du travail dont d\u00e9pend le service de sant\u00e9 au travail qui l'emploie, par lettre recommand\u00e9e avec avis de r\u00e9ception. La demande \u00e9nonce les motifs du licenciement envisag\u00e9. Elle est accompagn\u00e9e du proc\u00e8s-verbal de la r\u00e9union du comit\u00e9 d'entreprise ou de la commission de contr\u00f4le. Sauf dans le cas d'une mise \u00e0 pied, la demande est transmise dans les quinze jours suivant la d\u00e9lib\u00e9ration du comit\u00e9 ou de la commission de contr\u00f4le. En cas de mise \u00e0 pied, la consultation du comit\u00e9 d'entreprise ou de la commission de contr\u00f4le a lieu dans un d\u00e9lai de dix jours \u00e0 compter de la mise \u00e0 pied. La demande d'autorisation de licenciement est transmise \u00e0 l'inspecteur du travail dans les quarante-huit heures suivant la d\u00e9lib\u00e9ration du comit\u00e9 ou de la commission de contr\u00f4le.",
+            "texteHtml": "<p><br/>La demande d'autorisation de licenciement d'un m\u00e9decin du travail est adress\u00e9e \u00e0 l'inspecteur du travail dont d\u00e9pend le service de sant\u00e9 au travail qui l'emploie, par lettre recommand\u00e9e avec avis de r\u00e9ception.<br/> La demande \u00e9nonce les motifs du licenciement envisag\u00e9. Elle est accompagn\u00e9e du proc\u00e8s-verbal de la r\u00e9union du comit\u00e9 d'entreprise ou de la commission de contr\u00f4le.<br/> Sauf dans le cas d'une mise \u00e0 pied, la demande est transmise dans les quinze jours suivant la d\u00e9lib\u00e9ration du comit\u00e9 ou de la commission de contr\u00f4le.<br/> En cas de mise \u00e0 pied, la consultation du comit\u00e9 d'entreprise ou de la commission de contr\u00f4le a lieu dans un d\u00e9lai de dix jours \u00e0 compter de la mise \u00e0 pied. La demande d'autorisation de licenciement est transmise \u00e0 l'inspecteur du travail dans les quarante-huit heures suivant la d\u00e9lib\u00e9ration du comit\u00e9 ou de la commission de contr\u00f4le.</p>",
+            "num": "R4623-22",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1341100800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -592,11 +1021,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -668,10 +1106,81 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018528348",
-            "lienAutres": [],
+            "cid": "LEGIARTI000018493034",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493011",
+            "sectionParentId": "LEGISCTA000025279840",
+            "sectionParentTitre": "Sous-section 4 : Proc\u00e9dure d'autorisation applicable \u00e0 la rupture ou au transfert du contrat.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 1 : M\u00e9decin du travail. &gt; Sous-section 4 : Proc\u00e9dure d'autorisation applicable \u00e0 la rupture ou au transfert du contrat.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000018528348",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000018442415",
+                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe",
+                    "articleId": "LEGIARTI000018456736",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2008-03-12",
+                    "dateSignaTexte": "2008-03-07",
+                    "dateDebutCible": "2008-03-13"
+                }
+            ],
             "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-23 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4623-23",
+                    "articleId": "LEGIARTI000025279822",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1341100800000
+                },
                 {
                     "textCid": "LEGITEXT000006072050",
                     "textTitle": "Code du travail - art. R4623-24 (V)",
@@ -680,11 +1189,23 @@
                     "articleNum": "R4623-24",
                     "articleId": "LEGIARTI000029237365",
                     "natureText": "CODE",
-                    "date": 1599857166505,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 1405296000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R6222-36 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R6222-36",
+                    "articleId": "LEGIARTI000041769788",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1585699200000
                 },
                 {
                     "textCid": "LEGITEXT000006072050",
@@ -694,7 +1215,6 @@
                     "articleNum": "R6222-40-1",
                     "articleId": "LEGIARTI000033769671",
                     "natureText": "CODE",
-                    "date": 1599857166505,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -712,27 +1232,58 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000018442415",
-                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe",
-                    "articleId": "LEGIARTI000018456736",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2008-03-12",
-                    "dateSignaTexte": "2008-03-07",
-                    "dateDebutCible": "2008-03-13"
+                    "id": "LEGIARTI000018528348",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279824",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1405296000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029237326",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1405296000000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483048",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4623-22",
-            "origine": "LEGI",
-            "texte": "La demande d'autorisation de licenciement d'un m\u00e9decin du travail est adress\u00e9e \u00e0 l'inspecteur du travail dont d\u00e9pend le service de sant\u00e9 au travail qui l'emploie, par lettre recommand\u00e9e avec avis de r\u00e9ception. La demande \u00e9nonce les motifs du licenciement envisag\u00e9. Elle est accompagn\u00e9e du proc\u00e8s-verbal de la r\u00e9union du comit\u00e9 d'entreprise ou de la commission de contr\u00f4le. Sauf dans le cas d'une mise \u00e0 pied, la demande est transmise dans les quinze jours suivant la d\u00e9lib\u00e9ration du comit\u00e9 ou de la commission de contr\u00f4le. En cas de mise \u00e0 pied, la consultation du comit\u00e9 d'entreprise ou de la commission de contr\u00f4le a lieu dans un d\u00e9lai de dix jours \u00e0 compter de la mise \u00e0 pied. La demande d'autorisation de licenciement est transmise \u00e0 l'inspecteur du travail dans les quarante-huit heures suivant la d\u00e9lib\u00e9ration du comit\u00e9 ou de la commission de contr\u00f4le.",
-            "texteHtml": "<p><br/>La demande d'autorisation de licenciement d'un m\u00e9decin du travail est adress\u00e9e \u00e0 l'inspecteur du travail dont d\u00e9pend le service de sant\u00e9 au travail qui l'emploie, par lettre recommand\u00e9e avec avis de r\u00e9ception.<br/> La demande \u00e9nonce les motifs du licenciement envisag\u00e9. Elle est accompagn\u00e9e du proc\u00e8s-verbal de la r\u00e9union du comit\u00e9 d'entreprise ou de la commission de contr\u00f4le.<br/> Sauf dans le cas d'une mise \u00e0 pied, la demande est transmise dans les quinze jours suivant la d\u00e9lib\u00e9ration du comit\u00e9 ou de la commission de contr\u00f4le.<br/> En cas de mise \u00e0 pied, la consultation du comit\u00e9 d'entreprise ou de la commission de contr\u00f4le a lieu dans un d\u00e9lai de dix jours \u00e0 compter de la mise \u00e0 pied. La demande d'autorisation de licenciement est transmise \u00e0 l'inspecteur du travail dans les quarante-huit heures suivant la d\u00e9lib\u00e9ration du comit\u00e9 ou de la commission de contr\u00f4le.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2012-07-01T00:00:00.000Z"
+            "computedNums": [
+                "R4623-22",
+                "4623-22"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

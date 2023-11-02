@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018493382",
-    "num": "R4626-25",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031571252",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le m\u00e9decin du travail veille, sous la responsabilit\u00e9 du chef d'\u00e9tablissement, \u00e0 l'application des dispositions du  code de la sant\u00e9 publique  sur les vaccinations obligatoires. Il proc\u00e8de lui-m\u00eame ou fait proc\u00e9der \u00e0 ces vaccinations ainsi qu'\u00e0 celles qui seraient impos\u00e9es par une \u00e9pid\u00e9mie. Les agents peuvent les faire pratiquer par le m\u00e9decin de leur choix. Ils fournissent un certificat d\u00e9taill\u00e9. Le m\u00e9decin du travail est habilit\u00e9 \u00e0 pratiquer les vaccinations qui sont recommand\u00e9es en cas de risques particuliers de contagion.",
+            "texteHtml": "<p>Le m\u00e9decin du travail veille, sous la responsabilit\u00e9 du chef d'\u00e9tablissement, \u00e0 l'application des dispositions du  code de la sant\u00e9 publique  sur les vaccinations obligatoires. </p><p><br clear='none'/>Il proc\u00e8de lui-m\u00eame ou fait proc\u00e9der \u00e0 ces vaccinations ainsi qu'\u00e0 celles qui seraient impos\u00e9es par une \u00e9pid\u00e9mie. Les agents peuvent les faire pratiquer par le m\u00e9decin de leur choix. Ils fournissent un certificat d\u00e9taill\u00e9. </p><p><br clear='none'/>Le m\u00e9decin du travail est habilit\u00e9 \u00e0 pratiquer les vaccinations qui sont recommand\u00e9es en cas de risques particuliers de contagion.</p>",
+            "num": "R4626-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1451606400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -110,36 +134,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031571252",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493382",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493374",
+            "sectionParentId": "LEGISCTA000018528006",
+            "sectionParentTitre": "Paragraphe 1 : Examen m\u00e9dical pr\u00e9alable \u00e0 la prise de fonction  et vaccinations.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre VI : Services de sant\u00e9 au travail des \u00e9tablissements de sant\u00e9,  sociaux et m\u00e9dico-sociaux &gt; Section 4 : Actions et moyens des membres de l'\u00e9quipe pluridisciplinaire de sant\u00e9 au travail &gt; Sous-section 2 : Examens m\u00e9dicaux. &gt; Paragraphe 1 : Examen m\u00e9dical pr\u00e9alable \u00e0 la prise de fonction  et vaccinations.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031571252",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R1262-9 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1262-9",
-                    "articleId": "LEGIARTI000033769266",
-                    "natureText": "CODE",
-                    "date": 1656361559769,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R242-16 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R242-16",
-                    "articleId": "LEGIARTI000018509965",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031567022",
@@ -154,15 +195,97 @@
                     "dateDebutCible": "2016-01-01"
                 }
             ],
-            "num": "R4626-25",
-            "origine": "LEGI",
-            "texte": "Le m\u00e9decin du travail veille, sous la responsabilit\u00e9 du chef d'\u00e9tablissement, \u00e0 l'application des dispositions du code de la sant\u00e9 publique sur les vaccinations obligatoires. Il proc\u00e8de lui-m\u00eame ou fait proc\u00e9der \u00e0 ces vaccinations ainsi qu'\u00e0 celles qui seraient impos\u00e9es par une \u00e9pid\u00e9mie. Les agents peuvent les faire pratiquer par le m\u00e9decin de leur choix. Ils fournissent un certificat d\u00e9taill\u00e9. Le m\u00e9decin du travail est habilit\u00e9 \u00e0 pratiquer les vaccinations qui sont recommand\u00e9es en cas de risques particuliers de contagion.",
-            "texteHtml": "<p>Le m\u00e9decin du travail veille, sous la responsabilit\u00e9 du chef d'\u00e9tablissement, \u00e0 l'application des dispositions du code de la sant\u00e9 publique sur les vaccinations obligatoires. </p><p><br/>Il proc\u00e8de lui-m\u00eame ou fait proc\u00e9der \u00e0 ces vaccinations ainsi qu'\u00e0 celles qui seraient impos\u00e9es par une \u00e9pid\u00e9mie. Les agents peuvent les faire pratiquer par le m\u00e9decin de leur choix. Ils fournissent un certificat d\u00e9taill\u00e9. </p><p><br/>Le m\u00e9decin du travail est habilit\u00e9 \u00e0 pratiquer les vaccinations qui sont recommand\u00e9es en cas de risques particuliers de contagion.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R1262-9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1262-9",
+                    "articleId": "LEGIARTI000033769266",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072665",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": -512352000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R242-16 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R242-16",
+                    "articleId": "LEGIARTI000018509965",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018527998",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031571252",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4626-25",
+                "4626-25"
+            ],
+            "versionPrecedente": "LEGIARTI000018527998",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018527998",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le m\u00e9decin du travail veille, sous la responsabilit\u00e9 du chef d'\u00e9tablissement ou du secr\u00e9taire g\u00e9n\u00e9ral du syndicat, \u00e0 l'application des dispositions du code de la sant\u00e9 publique sur les vaccinations obligatoires. Il proc\u00e8de lui-m\u00eame ou fait proc\u00e9der \u00e0 ces vaccinations ainsi qu'\u00e0 celles qui seraient impos\u00e9es par une \u00e9pid\u00e9mie. Les agents peuvent les faire pratiquer par le m\u00e9decin de leur choix. Ils fournissent un certificat d\u00e9taill\u00e9. Le m\u00e9decin du travail est habilit\u00e9 \u00e0 pratiquer les vaccinations qui sont recommand\u00e9es en cas de risques particuliers de contagion.",
+            "texteHtml": "<p><br/>Le m\u00e9decin du travail veille, sous la responsabilit\u00e9 du chef d'\u00e9tablissement ou du secr\u00e9taire g\u00e9n\u00e9ral du syndicat, \u00e0 l'application des dispositions du code de la sant\u00e9 publique sur les vaccinations obligatoires.<br/> Il proc\u00e8de lui-m\u00eame ou fait proc\u00e9der \u00e0 ces vaccinations ainsi qu'\u00e0 celles qui seraient impos\u00e9es par une \u00e9pid\u00e9mie. Les agents peuvent les faire pratiquer par le m\u00e9decin de leur choix. Ils fournissent un certificat d\u00e9taill\u00e9.<br/> Le m\u00e9decin du travail est habilit\u00e9 \u00e0 pratiquer les vaccinations qui sont recommand\u00e9es en cas de risques particuliers de contagion.</p>",
+            "num": "R4626-25",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1451606400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -203,11 +326,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -270,9 +402,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018527998",
-            "lienAutres": [],
+            "cid": "LEGIARTI000018493382",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493374",
+            "sectionParentId": "LEGISCTA000018528006",
+            "sectionParentTitre": "Paragraphe 1 : Examen m\u00e9dical pr\u00e9alable \u00e0 la prise de fonction  et vaccinations.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre VI : Services de sant\u00e9 au travail des \u00e9tablissements de sant\u00e9,  sociaux et m\u00e9dico-sociaux &gt; Section 4 : Actions et moyens des membres de l'\u00e9quipe pluridisciplinaire de sant\u00e9 au travail &gt; Sous-section 2 : Examens m\u00e9dicaux. &gt; Paragraphe 1 : Examen m\u00e9dical pr\u00e9alable \u00e0 la prise de fonction  et vaccinations.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000018527998",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000018442415",
+                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe",
+                    "articleId": "LEGIARTI000018456736",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2008-03-12",
+                    "dateSignaTexte": "2008-03-07",
+                    "dateDebutCible": "2008-03-13"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072050",
@@ -282,7 +472,6 @@
                     "articleNum": "R1262-9",
                     "articleId": "LEGIARTI000033769266",
                     "natureText": "CODE",
-                    "date": 1656361558667,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -300,27 +489,40 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000018442415",
-                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe",
-                    "articleId": "LEGIARTI000018456736",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2008-03-12",
-                    "dateSignaTexte": "2008-03-07",
-                    "dateDebutCible": "2008-03-13"
+                    "id": "LEGIARTI000018527998",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031571252",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4626-25",
-            "origine": "LEGI",
-            "texte": "Le m\u00e9decin du travail veille, sous la responsabilit\u00e9 du chef d'\u00e9tablissement ou du secr\u00e9taire g\u00e9n\u00e9ral du syndicat, \u00e0 l'application des dispositions du code de la sant\u00e9 publique sur les vaccinations obligatoires. Il proc\u00e8de lui-m\u00eame ou fait proc\u00e9der \u00e0 ces vaccinations ainsi qu'\u00e0 celles qui seraient impos\u00e9es par une \u00e9pid\u00e9mie. Les agents peuvent les faire pratiquer par le m\u00e9decin de leur choix. Ils fournissent un certificat d\u00e9taill\u00e9. Le m\u00e9decin du travail est habilit\u00e9 \u00e0 pratiquer les vaccinations qui sont recommand\u00e9es en cas de risques particuliers de contagion.",
-            "texteHtml": "<p><br/>Le m\u00e9decin du travail veille, sous la responsabilit\u00e9 du chef d'\u00e9tablissement ou du secr\u00e9taire g\u00e9n\u00e9ral du syndicat, \u00e0 l'application des dispositions du code de la sant\u00e9 publique sur les vaccinations obligatoires.<br/> Il proc\u00e8de lui-m\u00eame ou fait proc\u00e9der \u00e0 ces vaccinations ainsi qu'\u00e0 celles qui seraient impos\u00e9es par une \u00e9pid\u00e9mie. Les agents peuvent les faire pratiquer par le m\u00e9decin de leur choix. Ils fournissent un certificat d\u00e9taill\u00e9.<br/> Le m\u00e9decin du travail est habilit\u00e9 \u00e0 pratiquer les vaccinations qui sont recommand\u00e9es en cas de risques particuliers de contagion.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2016-01-01T00:00:00.000Z"
+            "computedNums": [
+                "R4626-25",
+                "4626-25"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000021710054",
-    "num": "D6351-12",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000021710598",
+            "idTexte": null,
+            "type": null,
+            "texte": "Le d\u00e9lai mentionn\u00e9 au 3\u00b0 de l'article L. 6351-4 est fix\u00e9 \u00e0 trente jours.",
+            "texteHtml": "Le d\u00e9lai mentionn\u00e9 au 3\u00b0 de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006904393&dateTexte=&categorieLien=cid'>l'article L. 6351-4</a> est fix\u00e9 \u00e0 trente jours.",
+            "num": "D6351-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1263945600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -74,26 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000021710598",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000021710054",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018498960",
+            "sectionParentId": "LEGISCTA000018522376",
+            "sectionParentTitre": "Section 2 : D\u00e9claration rectificative et annulation",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Sixi\u00e8me partie : La formation professionnelle tout au long de la vie  &gt; Livre III : La formation professionnelle continue  &gt; Titre V : Organismes de formation  &gt; Chapitre Ier : D\u00e9claration d'activit\u00e9 &gt; Section 2 : D\u00e9claration rectificative et annulation",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000021710598",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. L6351-4",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L6351-4",
-                    "articleId": "LEGIARTI000006904393",
-                    "natureText": "CODE",
-                    "date": 1599128543540,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1546300800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021709337",
@@ -108,13 +150,47 @@
                     "dateDebutCible": "2010-01-20"
                 }
             ],
-            "num": "D6351-12",
-            "origine": "LEGI",
-            "texte": "Le d\u00e9lai mentionn\u00e9 au 3\u00b0 de l'article L. 6351-4 est fix\u00e9 \u00e0 trente jours.",
-            "texteHtml": "Le d\u00e9lai mentionn\u00e9 au 3\u00b0 de <a href='/article/LEGIARTI000006904393'>l'article L. 6351-4</a> est fix\u00e9 \u00e0 trente jours.",
-            "type": null,
-            "dateDebut": "2010-01-20T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L6351-4",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L6351-4",
+                    "articleId": "LEGIARTI000006904393",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1546300800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000021710598",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1263945600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6351-12",
+                "6351-12"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

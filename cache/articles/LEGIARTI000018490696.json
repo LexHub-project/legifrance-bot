@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018490696",
-    "num": "R4412-135",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025818895",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans le cas d'une d\u00e9molition, le plan de d\u00e9molition pr\u00e9voit le retrait pr\u00e9alable de l'amiante et des articles en contenant sauf lorsque celui-ci causerait un plus grand risque pour les travailleurs que si l'amiante ou les mat\u00e9riaux en contenant \u00e9taient laiss\u00e9s sur place.",
+            "texteHtml": "<p>Dans le cas d'une d\u00e9molition, le plan de d\u00e9molition pr\u00e9voit le retrait pr\u00e9alable de l'amiante et des articles en contenant sauf lorsque celui-ci causerait un plus grand risque pour les travailleurs que si l'amiante ou les mat\u00e9riaux en contenant \u00e9taient laiss\u00e9s sur place. </p>",
+            "num": "R4412-135",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1341100800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1486719441,
             "context": {
                 "titresTM": [
                     {
@@ -119,23 +134,80 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025818895",
-            "lienAutres": [],
+            "cid": "LEGIARTI000018490696",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018490651",
+            "sectionParentId": "LEGISCTA000025818907",
+            "sectionParentTitre": "Paragraphe 4 : Plan de d\u00e9molition, de retrait   ou d'encapsulage",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre IV : Pr\u00e9vention de certains risques d'exposition  &gt; Titre Ier : Risques chimiques  &gt; Chapitre II : Mesures de pr\u00e9vention des risques chimiques &gt;  Section 3 : Risques d'exposition \u00e0 l'amiante &gt; Sous-section 3 : Dispositions sp\u00e9cifiques aux activit\u00e9s d'encapsulage et de retrait d'amiante ou d'articles en contenant &gt; Paragraphe 4 : Plan de d\u00e9molition, de retrait   ou d'encapsulage",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025818895",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000025802482",
+                    "textTitle": "D\u00e9cret n\u00b02012-639\n du 4 mai 2012 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000025806014",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2012-05-05",
+                    "dateSignaTexte": "2012-05-04",
+                    "dateDebutCible": "2012-07-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4412-133 (V)",
+                    "textTitle": "Code du travail - art. R4412-133 (VD)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R4412-133",
-                    "articleId": "LEGIARTI000034670075",
+                    "articleId": "LEGIARTI000046882717",
                     "natureText": "CODE",
-                    "date": 1599874251582,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1538352000000
+                    "dateDebut": 1675209600000
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
@@ -145,7 +217,6 @@
                     "articleNum": "R1334-21",
                     "articleId": "LEGIARTI000006910355",
                     "natureText": "CODE",
-                    "date": 1599874251582,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -163,29 +234,58 @@
                     "natureText": "ARRETE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000025802482",
-                    "textTitle": "D\u00e9cret n\u00b02012-639\n du 4 mai 2012 - art. 1",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000025806014",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2012-05-05",
-                    "dateSignaTexte": "2012-05-04",
-                    "dateDebutCible": "2012-07-01"
+                    "id": "LEGIARTI000018530603",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025818895",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4412-135",
-            "origine": "LEGI",
-            "texte": "Dans le cas d'une d\u00e9molition, le plan de d\u00e9molition pr\u00e9voit le retrait pr\u00e9alable de l'amiante et des articles en contenant sauf lorsque celui-ci causerait un plus grand risque pour les travailleurs que si l'amiante ou les mat\u00e9riaux en contenant \u00e9taient laiss\u00e9s sur place.",
-            "texteHtml": "<p>Dans le cas d'une d\u00e9molition, le plan de d\u00e9molition pr\u00e9voit le retrait pr\u00e9alable de l'amiante et des articles en contenant sauf lorsque celui-ci causerait un plus grand risque pour les travailleurs que si l'amiante ou les mat\u00e9riaux en contenant \u00e9taient laiss\u00e9s sur place. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "R4412-135",
+                "4412-135"
+            ],
+            "versionPrecedente": "LEGIARTI000018530603",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018530603",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans le cas de retrait ou confinement de flocages ou calorifugeages contenant de l'amiante et apr\u00e8s nettoyage de la zone, une mesure du niveau d'empoussi\u00e8rement est r\u00e9alis\u00e9e conform\u00e9ment \u00e0 l'article R. 1334-21 du code de la sant\u00e9 publique.",
+            "texteHtml": "<p>Dans le cas de retrait ou confinement de flocages ou calorifugeages contenant de l'amiante et apr\u00e8s nettoyage de la zone, une mesure du niveau d'empoussi\u00e8rement est r\u00e9alis\u00e9e conform\u00e9ment \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006910355&dateTexte=&categorieLien=cid' title='Code de la sant\u00e9 publique - art. R1334-21 (V)'>R. 1334-21</a> du code de la sant\u00e9 publique.</p>",
+            "num": "R4412-135",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1341100800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -311,23 +411,80 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018530603",
-            "lienAutres": [],
+            "cid": "LEGIARTI000018490696",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018490692",
+            "sectionParentId": "LEGISCTA000018530607",
+            "sectionParentTitre": " Sous-paragraphe 3 : Dispositions applicables en fin de travaux",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre IV : Pr\u00e9vention de certains risques d'exposition  &gt; Titre Ier : Risques chimiques  &gt; Chapitre II : Mesures de pr\u00e9vention des risques chimiques &gt;  Section 3 : Risques d'exposition \u00e0 l'amiante &gt; Sous-section 3 : Dispositions sp\u00e9cifiques aux activit\u00e9s d'encapsulage et de retrait d'amiante ou d'articles en contenant &gt; Paragraphe 5 : Dispositions applicables en fin de travaux",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000018530603",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000018442415",
+                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe",
+                    "articleId": "LEGIARTI000018456736",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2008-03-12",
+                    "dateSignaTexte": "2008-03-07",
+                    "dateDebutCible": "2008-03-13"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4412-133 (V)",
+                    "textTitle": "Code du travail - art. R4412-133 (VD)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R4412-133",
-                    "articleId": "LEGIARTI000034670075",
+                    "articleId": "LEGIARTI000046882717",
                     "natureText": "CODE",
-                    "date": 1599856847226,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1538352000000
+                    "dateDebut": 1675209600000
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
@@ -337,7 +494,6 @@
                     "articleNum": "R1334-21",
                     "articleId": "LEGIARTI000006910355",
                     "natureText": "CODE",
-                    "date": 1599856847226,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -355,27 +511,40 @@
                     "natureText": "ARRETE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000018442415",
-                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe",
-                    "articleId": "LEGIARTI000018456736",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2008-03-12",
-                    "dateSignaTexte": "2008-03-07",
-                    "dateDebutCible": "2008-03-13"
+                    "id": "LEGIARTI000018530603",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025818895",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4412-135",
-            "origine": "LEGI",
-            "texte": "Dans le cas de retrait ou confinement de flocages ou calorifugeages contenant de l'amiante et apr\u00e8s nettoyage de la zone, une mesure du niveau d'empoussi\u00e8rement est r\u00e9alis\u00e9e conform\u00e9ment \u00e0 l'article R. 1334-21 du code de la sant\u00e9 publique.",
-            "texteHtml": "<p>Dans le cas de retrait ou confinement de flocages ou calorifugeages contenant de l'amiante et apr\u00e8s nettoyage de la zone, une mesure du niveau d'empoussi\u00e8rement est r\u00e9alis\u00e9e conform\u00e9ment \u00e0 l'article <a href='/article/LEGIARTI000006910355' title='Code de la sant\u00e9 publique - art. R1334-21 (V)'>R. 1334-21</a> du code de la sant\u00e9 publique.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2012-07-01T00:00:00.000Z"
+            "computedNums": [
+                "R4412-135",
+                "4412-135"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

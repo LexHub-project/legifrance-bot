@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023986797",
-    "num": "L362-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023986797",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "A Mayotte, les installations de production d'\u00e9lectricit\u00e9, r\u00e9guli\u00e8rement \u00e9tablies au 14 d\u00e9cembre 2002, sont r\u00e9put\u00e9es autoris\u00e9es au titre de l'article L. 311-5 .",
+            "texteHtml": "<p><br/>A Mayotte, les installations de production d'\u00e9lectricit\u00e9, r\u00e9guli\u00e8rement \u00e9tablies au 14 d\u00e9cembre 2002, sont r\u00e9put\u00e9es autoris\u00e9es au titre de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023983208&idArticle=LEGIARTI000023986339&dateTexte=&categorieLien=cid' title='Code de l'\u00e9nergie - art. L311-5 (V)'>l'article L. 311-5</a>.</p>",
+            "num": "L362-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1306886400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -25,12 +40,21 @@
                     },
                     {
                         "debut": "2011-06-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-10",
                         "titre": "TITRE VI : LES DISPOSITIONS RELATIVES A L'OUTRE MER",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000023986789",
                         "id": "LEGISCTA000023986789",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2023-11-10",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE VI : LES DISPOSITIONS RELATIVES A LA CORSE ET A L'OUTRE MER",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000023986789",
+                        "id": "LEGISCTA000047994005",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2011-06-01",
@@ -65,36 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023986797",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023986797",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023986791",
+            "sectionParentId": "LEGISCTA000027725168",
+            "sectionParentTitre": "Chapitre II : Dispositions relatives au D\u00e9partement de Mayotte",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE III : LES DISPOSITIONS  RELATIVES A L'ELECTRICITE &gt; TITRE VI : LES DISPOSITIONS RELATIVES A L'OUTRE MER &gt; Chapitre unique",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023986797",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. L311-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L311-5",
-                    "articleId": "LEGIARTI000023986339",
-                    "natureText": "CODE",
-                    "date": 1599871951954,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1306886400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000599562",
-                    "textTitle": "Ordonnance n\u00b02002-1451 du 12 d\u00e9cembre 2002 - art. 2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000006215597",
-                    "natureText": "ORDONNANCE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023974937",
@@ -121,13 +162,57 @@
                     "dateDebutCible": "2011-06-01"
                 }
             ],
-            "num": "L362-3",
-            "origine": "LEGI",
-            "texte": "A Mayotte, les installations de production d'\u00e9lectricit\u00e9, r\u00e9guli\u00e8rement \u00e9tablies au 14 d\u00e9cembre 2002, sont r\u00e9put\u00e9es autoris\u00e9es au titre de l'article L. 311-5 .",
-            "texteHtml": "<p><br/>A Mayotte, les installations de production d'\u00e9lectricit\u00e9, r\u00e9guli\u00e8rement \u00e9tablies au 14 d\u00e9cembre 2002, sont r\u00e9put\u00e9es autoris\u00e9es au titre de <a href='/article/LEGIARTI000023986339' title='Code de l'\u00e9nergie - art. L311-5 (V)'>l'article L. 311-5</a>.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. L311-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L311-5",
+                    "articleId": "LEGIARTI000023986339",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1306886400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000599562",
+                    "textTitle": "Ordonnance n\u00b02002-1451 du 12 d\u00e9cembre 2002 - art. 2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006215597",
+                    "natureText": "ORDONNANCE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023986797",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L362-3",
+                "362-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }
