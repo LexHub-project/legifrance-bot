@@ -1,0 +1,154 @@
+{
+    "cid": "LEGIARTI000032975899",
+    "num": "L123-19-7",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129022",
+                        "id": "LEGISCTA000006129022",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Information et participation des citoyens",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143733",
+                        "id": "LEGISCTA000006143733",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2017-01-01",
+                        "titre": "Chapitre III : Enqu\u00eates publiques relatives aux op\u00e9rations susceptibles d'affecter l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159210",
+                        "id": "LEGISCTA000006159210",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Participation du public aux d\u00e9cisions ayant une incidence sur l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159210",
+                        "id": "LEGISCTA000033038620",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Participation du public hors proc\u00e9dures particuli\u00e8res",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000032969087",
+                        "id": "LEGISCTA000032969101",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "ABROGE_DIFF",
+            "id": "LEGIARTI000032975952",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L122-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L122-1",
+                    "articleId": "LEGIARTI000006832878",
+                    "natureText": "CODE",
+                    "date": 1650053898779,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470441600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L120-3 (VT)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L120-3",
+                    "articleId": "LEGIARTI000026845277",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000032966914",
+                    "textTitle": "Ordonnance n\u00b0 2016-1060 du 3 ao\u00fbt 2016 - art. 2",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000032968880",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2016-08-05",
+                    "dateSignaTexte": "2016-08-03",
+                    "dateDebutCible": "2016-08-06"
+                },
+                {
+                    "textCid": "JORFTEXT000032966914",
+                    "textTitle": "Ordonnance n\u00b02016-1060 du 3 ao\u00fbt 2016 - art. 3",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000032968882",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2016-08-05",
+                    "dateSignaTexte": "2016-08-03",
+                    "dateDebutCible": "2016-08-06"
+                },
+                {
+                    "textCid": "JORFTEXT000045570540",
+                    "textTitle": "Ordonnance n\u00b02022-536 du 13 avril 2022 - art. 25",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "25",
+                    "articleId": "LEGIARTI000045572451",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2022-04-14",
+                    "dateSignaTexte": "2022-04-13",
+                    "dateDebutCible": "2022-04-15"
+                }
+            ],
+            "num": "L123-19-7",
+            "origine": "LEGI",
+            "texte": "Le respect de la proc\u00e9dure pr\u00e9vue par la pr\u00e9sente section conditionne la d\u00e9livrance du permis exclusif de recherches pr\u00e9vu aux articles L. 122-1 et suivants du code minier.",
+            "texteHtml": "<p>Le respect de la proc\u00e9dure pr\u00e9vue par la pr\u00e9sente section conditionne la d\u00e9livrance du permis exclusif de recherches pr\u00e9vu aux articles <a href='/article/LEGIARTI000006832878'>L. 122-1</a> et suivants du code minier.</p>",
+            "type": "AUTONOME",
+            "dateDebut": "2017-01-01T00:00:00.000Z",
+            "dateFin": "2024-01-01T00:00:00.000Z"
+        }
+    ]
+}

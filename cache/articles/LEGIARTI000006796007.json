@@ -1,0 +1,653 @@
+{
+    "cid": "LEGIARTI000006796007",
+    "num": "L243-1",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1976-07-16",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107964",
+                        "id": "LEGISCTA000006107964",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Assurances obligatoires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128442",
+                        "id": "LEGISCTA000006128442",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-09",
+                        "fin": "2999-01-01",
+                        "titre": "Titre IV : L'assurance des travaux de construction",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142820",
+                        "id": "LEGISCTA000006142820",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-09",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Dispositions communes.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006157527",
+                        "id": "LEGISCTA000006157527",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Code des assurances",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006073984",
+                        "id": "LEGITEXT000006073984",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000041587434",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L241-1 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L241-1",
+                    "articleId": "LEGIARTI000006795911",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*243-1 (Ab)",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R243-1",
+                    "articleId": "LEGIARTI000006812303",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L111-32 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L111-32",
+                    "articleId": "LEGIARTI000006824193",
+                    "natureText": "CODE",
+                    "date": 1625089201235,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1118275200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*241-1 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*241-1",
+                    "articleId": "LEGIARTI000006812287",
+                    "natureText": "CODE",
+                    "date": 1625089201235,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 359251200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*243-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R243-1",
+                    "articleId": "LEGIARTI000006812302",
+                    "natureText": "CODE",
+                    "date": 1625089201235,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 492912000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000305911",
+                    "textTitle": "D\u00e9cret n\u00b0 76-666 du 16 juillet 1976",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000305911",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000041506557",
+                    "textTitle": "Ordonnance n\u00b0 2020-71 du 29 janvier 2020 - art. 7",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "7",
+                    "articleId": "LEGIARTI000041562503",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2020-01-31",
+                    "dateSignaTexte": "2020-01-29",
+                    "dateDebutCible": "2021-07-01"
+                }
+            ],
+            "num": "L243-1",
+            "origine": "LEGI",
+            "texte": "Les obligations d'assurance ne s'appliquent pas \u00e0 l'Etat lorsqu'il construit pour son compte. Des d\u00e9rogations totales ou partielles peuvent \u00eatre accord\u00e9es par l'autorit\u00e9 administrative aux collectivit\u00e9s locales et \u00e0 leurs groupements, ainsi qu'aux \u00e9tablissements publics, justifiant de moyens permettant la r\u00e9paration rapide et compl\u00e8te des dommages.",
+            "texteHtml": "<p>Les obligations d'assurance ne s'appliquent pas \u00e0 l'Etat lorsqu'il construit pour son compte.</p><p>Des d\u00e9rogations totales ou partielles peuvent \u00eatre accord\u00e9es par l'autorit\u00e9 administrative aux collectivit\u00e9s locales et \u00e0 leurs groupements, ainsi qu'aux \u00e9tablissements publics, justifiant de moyens permettant la r\u00e9paration rapide et compl\u00e8te des dommages.</p>",
+            "type": "AUTONOME",
+            "dateDebut": "2021-07-01T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1976-07-16",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107964",
+                        "id": "LEGISCTA000006107964",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Assurances obligatoires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128442",
+                        "id": "LEGISCTA000006128442",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-09",
+                        "fin": "2999-01-01",
+                        "titre": "Titre IV : L'assurance des travaux de construction",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142820",
+                        "id": "LEGISCTA000006142820",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-09",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Dispositions communes.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006157527",
+                        "id": "LEGISCTA000006157527",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Code des assurances",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006073984",
+                        "id": "LEGITEXT000006073984",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006796009",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L241-1 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L241-1",
+                    "articleId": "LEGIARTI000006795911",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*243-1 (Ab)",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R243-1",
+                    "articleId": "LEGIARTI000006812303",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L111-32 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L111-32",
+                    "articleId": "LEGIARTI000006824193",
+                    "natureText": "CODE",
+                    "date": 1625089832415,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1118275200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*241-1 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*241-1",
+                    "articleId": "LEGIARTI000006812287",
+                    "natureText": "CODE",
+                    "date": 1625089832415,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 359251200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*243-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R243-1",
+                    "articleId": "LEGIARTI000006812302",
+                    "natureText": "CODE",
+                    "date": 1625089832415,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 492912000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000305911",
+                    "textTitle": "D\u00e9cret 76-666 1976-07-16",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000305911",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000808306",
+                    "textTitle": "Ordonnance n\u00b02005-658 du 8 juin 2005 - art. 3 () JORF 9 juin 2005",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006917561",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2005-06-09",
+                    "dateSignaTexte": "2005-06-08",
+                    "dateDebutCible": "2005-06-09"
+                }
+            ],
+            "num": "L243-1",
+            "origine": "LEGI",
+            "texte": "Les obligations d'assurance ne s'appliquent pas \u00e0 l'Etat lorsqu'il construit pour son compte.",
+            "texteHtml": "<p></p>   Les obligations d'assurance ne s'appliquent pas \u00e0 l'Etat lorsqu'il construit pour son compte.<p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2005-06-09T00:00:00.000Z",
+            "dateFin": "2021-07-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1976-07-16",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107964",
+                        "id": "LEGISCTA000006107964",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Assurances obligatoires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128442",
+                        "id": "LEGISCTA000006128442",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-01-01",
+                        "fin": "2005-06-09",
+                        "titre": "Titre IV : L'assurance des travaux du b\u00e2timent",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142811",
+                        "id": "LEGISCTA000006142811",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1979-01-01",
+                        "fin": "2005-06-09",
+                        "titre": "Chapitre III : Dispositions communes.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006157515",
+                        "id": "LEGISCTA000006157515",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Code des assurances",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006073984",
+                        "id": "LEGITEXT000006073984",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006796008",
+            "lienAutres": [
+                {
+                    "textCid": "JORFTEXT000000707718",
+                    "textTitle": "Loi 89-1014 1989-12-31 art. 60 *date d'effet*",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000707718",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L241-1 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L241-1",
+                    "articleId": "LEGIARTI000006795911",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*243-1 (Ab)",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R243-1",
+                    "articleId": "LEGIARTI000006812303",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L111-32 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L111-32",
+                    "articleId": "LEGIARTI000006824193",
+                    "natureText": "CODE",
+                    "date": 1625089512077,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1118275200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*241-1 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*241-1",
+                    "articleId": "LEGIARTI000006812287",
+                    "natureText": "CODE",
+                    "date": 1625089512077,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 359251200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*243-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R243-1",
+                    "articleId": "LEGIARTI000006812302",
+                    "natureText": "CODE",
+                    "date": 1625089512077,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 492912000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000305911",
+                    "textTitle": "D\u00e9cret 76-666 1976-07-16",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000305911",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000707718",
+                    "textTitle": "Loi n\u00b089-1014 du 31 d\u00e9cembre 1989 - art. 47 () JORF 3 janvier 1990 le 1er juillet 1990",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "47",
+                    "articleId": "LEGIARTI000006840051",
+                    "natureText": "LOI",
+                    "datePubliTexte": "1990-01-03",
+                    "dateSignaTexte": "1989-12-31",
+                    "dateDebutCible": "1990-07-01"
+                }
+            ],
+            "num": "L243-1",
+            "origine": "LEGI",
+            "texte": "Les obligations d'assurance ne s'appliquent pas \u00e0 l'Etat lorsqu'il construit pour son compte.",
+            "texteHtml": "<p></p>   Les obligations d'assurance ne s'appliquent pas \u00e0 l'Etat lorsqu'il construit pour son compte.<p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "1990-07-01T00:00:00.000Z",
+            "dateFin": "2005-06-09T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1976-07-16",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107964",
+                        "id": "LEGISCTA000006107964",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Assurances obligatoires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128442",
+                        "id": "LEGISCTA000006128442",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-01-01",
+                        "fin": "2003-08-02",
+                        "titre": "Titre IV : L'assurance des travaux du b\u00e2timent",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142818",
+                        "id": "LEGISCTA000006142818",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1979-01-01",
+                        "fin": "2002-01-01",
+                        "titre": "Chapitre III : Dispositions communes.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006157525",
+                        "id": "LEGISCTA000006157525",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Code des assurances",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006073984",
+                        "id": "LEGITEXT000006073984",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006796007",
+            "lienAutres": [
+                {
+                    "textCid": "JORFTEXT000000522720",
+                    "textTitle": "Loi 78-12 1978-01-04 art. 12, art. 14",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000522720",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000522720",
+                    "textTitle": "Loi n\u00b078-12 du 4 janvier 1978 - art. 14 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "14",
+                    "articleId": "LEGIARTI000006839928",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L241-1 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "L241-1",
+                    "articleId": "LEGIARTI000006795911",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*243-1 (Ab)",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R243-1",
+                    "articleId": "LEGIARTI000006812303",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L111-32 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L111-32",
+                    "articleId": "LEGIARTI000006824193",
+                    "natureText": "CODE",
+                    "date": 1625089512071,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1118275200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*241-1 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*241-1",
+                    "articleId": "LEGIARTI000006812287",
+                    "natureText": "CODE",
+                    "date": 1625089512071,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 359251200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*243-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R243-1",
+                    "articleId": "LEGIARTI000006812302",
+                    "natureText": "CODE",
+                    "date": 1625089512072,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 492912000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000305911",
+                    "textTitle": "D\u00e9cret 76-666 1976-07-16",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000305911",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000522720",
+                    "textTitle": "Loi n\u00b078-12 du 4 janvier 1978 - art. 12 () JORF 5 janvier 1978 en vigueur le 1er janvier 1979",
+                    "linkType": "CREATION",
+                    "linkOrientation": "source",
+                    "articleNum": "12",
+                    "articleId": "LEGIARTI000006839903",
+                    "natureText": "LOI",
+                    "datePubliTexte": "1978-01-05",
+                    "dateSignaTexte": "1978-01-04",
+                    "dateDebutCible": "1979-01-01"
+                }
+            ],
+            "num": "L243-1",
+            "origine": "LEGI",
+            "texte": "Les obligations d'assurance ne s'appliquent pas \u00e0 l'Etat lorsqu'il construit pour son compte. Des d\u00e9rogations totales ou partielles peuvent \u00eatre accord\u00e9es par l'autorit\u00e9 administrative aux collectivit\u00e9s locales et \u00e0 leurs groupements, ainsi qu'aux \u00e9tablissements publics, justifiant de moyens permettant la r\u00e9paration rapide et compl\u00e8te des dommages.",
+            "texteHtml": "<p></p>   Les obligations d'assurance ne s'appliquent pas \u00e0 l'Etat lorsqu'il construit pour son compte. Des d\u00e9rogations totales ou partielles peuvent \u00eatre accord\u00e9es par l'autorit\u00e9 administrative aux collectivit\u00e9s locales et \u00e0 leurs groupements, ainsi qu'aux \u00e9tablissements publics, justifiant de moyens permettant la r\u00e9paration rapide et compl\u00e8te des dommages.<p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "1979-01-01T00:00:00.000Z",
+            "dateFin": "1990-07-01T00:00:00.000Z"
+        }
+    ]
+}

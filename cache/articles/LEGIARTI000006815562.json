@@ -1,0 +1,736 @@
+{
+    "cid": "LEGIARTI000006815562",
+    "num": "L322-3",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1973-03-27",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107992",
+                        "id": "LEGISCTA000006107992",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Am\u00e9nagement foncier",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128562",
+                        "id": "LEGISCTA000006128562",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Organismes d'ex\u00e9cution",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143298",
+                        "id": "LEGISCTA000006143298",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Associations fonci\u00e8res urbaines",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006158583",
+                        "id": "LEGISCTA000006158583",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1973-01-03",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074075",
+                        "id": "LEGITEXT000006074075",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000006815565",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-2 (M)",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L322-2",
+                    "articleId": "LEGIARTI000006815561",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme R322-3",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000623191",
+                    "textTitle": "Ordonnance n\u00b0 2004-632 du 1 juillet 2004 - art. 14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "14",
+                    "articleId": "LEGIARTI000006479109",
+                    "natureText": "ORDONNANCE",
+                    "date": 1599810740653,
+                    "parentCid": null,
+                    "numTexte": "2004-632",
+                    "datePubli": 1088726400000,
+                    "dateDebut": 1088726400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-2",
+                    "articleId": "LEGIARTI000006815558",
+                    "natureText": "CODE",
+                    "date": 1599810740654,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 121996800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-3-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L322-3-1",
+                    "articleId": "LEGIARTI000006815269",
+                    "natureText": "CODE",
+                    "date": 1599810740654,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 490579200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-5",
+                    "articleId": "LEGIARTI000006815566",
+                    "natureText": "CODE",
+                    "date": 1599810740654,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 121996800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. R*322-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*322-3",
+                    "articleId": "LEGIARTI000033367553",
+                    "natureText": "CODE",
+                    "date": 1599810740654,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1478822400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000501076",
+                    "textTitle": "LOI 67-1253 1967-12-30 ART. 25 loi d'orientation fonci\u00e8re",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000501076",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000623191",
+                    "textTitle": "Ordonnance n\u00b02004-632 du 1 juillet 2004 - art. 51 () JORF 2 juillet 2004",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "51",
+                    "articleId": "LEGIARTI000006479611",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2004-07-02",
+                    "dateSignaTexte": "2004-07-01",
+                    "dateDebutCible": "2004-07-02"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 73-1022 1973-11-08 JORF 13 NOVEMBRE 1973",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "num": "L322-3",
+            "origine": "LEGI",
+            "texte": "L'autorit\u00e9 administrative peut autoriser une association fonci\u00e8re urbaine si les conditions suivantes sont remplies : 1\u00b0 Par d\u00e9rogation aux dispositions pr\u00e9vues \u00e0 l'article 14 de l'ordonnance du 1er juillet 2004 pr\u00e9cit\u00e9e : a) Pour les travaux sp\u00e9cifi\u00e9s aux 1\u00b0, 2\u00b0 et 5\u00b0 de l'article L. 322-2, les deux tiers au moins des propri\u00e9taires d\u00e9tenant ensemble les deux tiers au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association ; b) Pour les travaux sp\u00e9cifi\u00e9s au 3\u00b0 de l'article L. 322-2, la majorit\u00e9 des propri\u00e9taires d\u00e9tenant ensemble la moiti\u00e9 au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association ; c) Pour les op\u00e9rations sp\u00e9cifi\u00e9es au 6\u00b0 de l'article L. 322-2, tous les propri\u00e9taires ont adh\u00e9r\u00e9 \u00e0 l'association. 2\u00b0 Une personne publique ou priv\u00e9e prend l'engagement d'acqu\u00e9rir les immeubles dont le propri\u00e9taire opterait pour le d\u00e9laissement dans les conditions pr\u00e9vues \u00e0 l'article L. 322-5 ci-apr\u00e8s. Cette condition peut \u00eatre remplac\u00e9e par le m\u00eame engagement pris par l'association fonci\u00e8re urbaine et figurant dans ses statuts. Elle n'est pas applicable aux travaux sp\u00e9cifi\u00e9s au 6\u00b0 de l'article L. 322-2.",
+            "texteHtml": "<p></p>L'autorit\u00e9 administrative peut autoriser une association fonci\u00e8re urbaine si les conditions suivantes sont remplies : <p></p><p></p>1\u00b0 Par d\u00e9rogation aux dispositions pr\u00e9vues \u00e0 <a href='/article/LEGIARTI000006479109' title='Ordonnance n\u00b0 2004-632 du 1 juillet 2004 - art. 14 (V)'>l'article 14 </a>de l'ordonnance du 1er juillet 2004 pr\u00e9cit\u00e9e : <p></p><p></p>a) Pour les travaux sp\u00e9cifi\u00e9s aux 1\u00b0, 2\u00b0 et 5\u00b0 de <a href='/article/LEGIARTI000006815558' title='Code de l'urbanisme - art. L322-2 (V)'>l'article L. 322-2, </a>les deux tiers au moins des propri\u00e9taires d\u00e9tenant ensemble les deux tiers au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association ; <p></p><p></p>b) Pour les travaux sp\u00e9cifi\u00e9s au 3\u00b0 de l'article L. 322-2, la majorit\u00e9 des propri\u00e9taires d\u00e9tenant ensemble la moiti\u00e9 au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association ; <p></p><p></p>c) Pour les op\u00e9rations sp\u00e9cifi\u00e9es au 6\u00b0 de l'article L. 322-2, tous les propri\u00e9taires ont adh\u00e9r\u00e9 \u00e0 l'association. <p></p><p></p>2\u00b0 Une personne publique ou priv\u00e9e prend l'engagement d'acqu\u00e9rir les immeubles dont le propri\u00e9taire opterait pour le d\u00e9laissement dans les conditions pr\u00e9vues \u00e0 <a href='/article/LEGIARTI000006815566' title='Code de l'urbanisme - art. L322-5 (V)'>l'article L. 322-5</a> ci-apr\u00e8s. Cette condition peut \u00eatre remplac\u00e9e par le m\u00eame engagement pris par l'association fonci\u00e8re urbaine et figurant dans ses statuts. Elle n'est pas applicable aux travaux sp\u00e9cifi\u00e9s au 6\u00b0 de l'article L. 322-2.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2004-07-02T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1973-03-27",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107992",
+                        "id": "LEGISCTA000006107992",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Am\u00e9nagement foncier",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128562",
+                        "id": "LEGISCTA000006128562",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Organismes d'ex\u00e9cution",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143298",
+                        "id": "LEGISCTA000006143298",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Associations fonci\u00e8res urbaines",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006158583",
+                        "id": "LEGISCTA000006158583",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1973-01-03",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074075",
+                        "id": "LEGITEXT000006074075",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006815564",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-2 (M)",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L322-2",
+                    "articleId": "LEGIARTI000006815561",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme R322-3",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-2 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-2",
+                    "articleId": "LEGIARTI000006815558",
+                    "natureText": "CODE",
+                    "date": 1599810740421,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 121996800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-3-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L322-3-1",
+                    "articleId": "LEGIARTI000006815269",
+                    "natureText": "CODE",
+                    "date": 1599810740421,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 490579200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-5 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-5",
+                    "articleId": "LEGIARTI000006815566",
+                    "natureText": "CODE",
+                    "date": 1599810740421,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 121996800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. R*322-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*322-3",
+                    "articleId": "LEGIARTI000033367553",
+                    "natureText": "CODE",
+                    "date": 1599810740421,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1478822400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000501076",
+                    "textTitle": "LOI 67-1253 1967-12-30 ART. 25 loi d'orientation fonci\u00e8re",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000501076",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000196404",
+                    "textTitle": "Loi n\u00b096-987 du 14 novembre 1996 - art. 21 () JORF 15 novembre 1996",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "21",
+                    "articleId": "LEGIARTI000006340269",
+                    "natureText": "LOI",
+                    "datePubliTexte": "1996-11-15",
+                    "dateSignaTexte": "1996-11-14",
+                    "dateDebutCible": "1996-11-15"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 73-1022 1973-11-08 JORF 13 NOVEMBRE 1973",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "num": "L322-3",
+            "origine": "LEGI",
+            "texte": "L'autorit\u00e9 administrative peut autoriser une association fonci\u00e8re urbaine sur la demande de propri\u00e9taires int\u00e9ress\u00e9s ou, le cas \u00e9ch\u00e9ant, \u00e0 l'initiative de la commune, si les conditions sont remplies : 1. Pour les travaux sp\u00e9cifi\u00e9s au 1\u00b0, 2\u00b0 et 5\u00b0 de l'article L. 322-2, les deux tiers au moins des propri\u00e9taires d\u00e9tenant ensemble les deux tiers au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association. Pour les travaux sp\u00e9cifi\u00e9s au 3. de l'article L. 322-2, la majorit\u00e9 des propri\u00e9taires d\u00e9tenant ensemble la moiti\u00e9 au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association. Pour les op\u00e9rations sp\u00e9cifi\u00e9es au 6\u00b0 de l'article L. 322-2, tous les propri\u00e9taires ont adh\u00e9r\u00e9 \u00e0 l'association. 2. Une personne publique ou priv\u00e9e prend l'engagement d'acqu\u00e9rir les immeubles dont le propri\u00e9taire opterait pour le d\u00e9laissement dans les conditions pr\u00e9vues \u00e0 l'article L. 322-5 ci-apr\u00e8s. Cette condition peut \u00eatre remplac\u00e9e par le m\u00eame engagement pris par l'association fonci\u00e8re urbaine et figurant dans ses statuts. Elle n'est pas applicable aux travaux sp\u00e9cifi\u00e9s au 6\u00b0 de l'article L. 322-2.",
+            "texteHtml": "<p></p>   L'autorit\u00e9 administrative peut autoriser une association fonci\u00e8re urbaine sur la demande de propri\u00e9taires int\u00e9ress\u00e9s ou, le cas \u00e9ch\u00e9ant, \u00e0 l'initiative de la commune, si les conditions sont remplies :<p></p><p></p>   1. Pour les travaux sp\u00e9cifi\u00e9s au 1\u00b0, 2\u00b0 et 5\u00b0 de l'article L. 322-2, les deux tiers au moins des propri\u00e9taires d\u00e9tenant ensemble les deux tiers au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association.<p></p><p></p>   Pour les travaux sp\u00e9cifi\u00e9s au 3. de l'article L. 322-2, la majorit\u00e9 des propri\u00e9taires d\u00e9tenant ensemble la moiti\u00e9 au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association.<p></p><p></p>   Pour les op\u00e9rations sp\u00e9cifi\u00e9es au 6\u00b0 de l'article L. 322-2, tous les propri\u00e9taires ont adh\u00e9r\u00e9 \u00e0 l'association.<p></p><p></p>   2. Une personne publique ou priv\u00e9e prend l'engagement d'acqu\u00e9rir les immeubles dont le propri\u00e9taire opterait pour le d\u00e9laissement dans les conditions pr\u00e9vues \u00e0 l'article L. 322-5 ci-apr\u00e8s. Cette condition peut \u00eatre remplac\u00e9e par le m\u00eame engagement pris par l'association fonci\u00e8re urbaine et figurant dans ses statuts.<p></p><p></p>   Elle n'est pas applicable aux travaux sp\u00e9cifi\u00e9s au 6\u00b0 de l'article L. 322-2.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "1996-11-15T00:00:00.000Z",
+            "dateFin": "2004-07-02T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1973-03-27",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107992",
+                        "id": "LEGISCTA000006107992",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Am\u00e9nagement foncier",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128562",
+                        "id": "LEGISCTA000006128562",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Organismes d'ex\u00e9cution",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143298",
+                        "id": "LEGISCTA000006143298",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Associations fonci\u00e8res urbaines",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006158583",
+                        "id": "LEGISCTA000006158583",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1973-01-03",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074075",
+                        "id": "LEGITEXT000006074075",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006815563",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-2 (M)",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L322-2",
+                    "articleId": "LEGIARTI000006815561",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme R322-3",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-2 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-2",
+                    "articleId": "LEGIARTI000006815558",
+                    "natureText": "CODE",
+                    "date": 1599810739661,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 121996800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-3-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L322-3-1",
+                    "articleId": "LEGIARTI000006815269",
+                    "natureText": "CODE",
+                    "date": 1599810739661,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 490579200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-5 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-5",
+                    "articleId": "LEGIARTI000006815566",
+                    "natureText": "CODE",
+                    "date": 1599810739662,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 121996800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. R*322-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*322-3",
+                    "articleId": "LEGIARTI000033367553",
+                    "natureText": "CODE",
+                    "date": 1599810739662,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1478822400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000501076",
+                    "textTitle": "LOI 67-1253 1967-12-30 ART. 25 loi d'orientation fonci\u00e8re",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000501076",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000874467",
+                    "textTitle": "Loi n\u00b085-729 du 18 juillet 1985 - art. 21 (V) JORF 19 juillet 1985",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "21",
+                    "articleId": "LEGIARTI000006820810",
+                    "natureText": "LOI",
+                    "datePubliTexte": "1985-07-19",
+                    "dateSignaTexte": "1985-07-18",
+                    "dateDebutCible": "1985-07-19"
+                },
+                {
+                    "textCid": "JORFTEXT000000874467",
+                    "textTitle": "Loi n\u00b085-729 du 18 juillet 1985 - art. 26 (V) JORF 19 juillet 1985",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "26",
+                    "articleId": "LEGIARTI000006820815",
+                    "natureText": "LOI",
+                    "datePubliTexte": "1985-07-19",
+                    "dateSignaTexte": "1985-07-18",
+                    "dateDebutCible": "1985-07-19"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 73-1022 1973-11-08 JORF 13 NOVEMBRE 1973",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "num": "L322-3",
+            "origine": "LEGI",
+            "texte": "L'autorit\u00e9 administrative peut autoriser une association fonci\u00e8re urbaine sur la demande de propri\u00e9taires int\u00e9ress\u00e9s ou, le cas \u00e9ch\u00e9ant, \u00e0 l'initiative de la commune, si les conditions sont remplies : 1\u00b0 Pour les travaux sp\u00e9cifi\u00e9s au 1\u00b0, 2\u00b0 et 5\u00b0 de l'article L. 322-2, les deux tiers au moins des propri\u00e9taires d\u00e9tenant ensemble les deux tiers au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association. Pour les travaux sp\u00e9cifi\u00e9s au 3. de l'article L. 322-2, la majorit\u00e9 des propri\u00e9taires d\u00e9tenant ensemble la moiti\u00e9 au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association. 2. Une personne publique ou priv\u00e9e prend l'engagement d'acqu\u00e9rir les immeubles dont le propri\u00e9taire opterait pour le d\u00e9laissement dans les conditions pr\u00e9vues \u00e0 l'article L. 322-5 ci-apr\u00e8s. Cette condition peut \u00eatre remplac\u00e9e par le m\u00eame engagement pris par l'association fonci\u00e8re urbaine et figurant dans ses statuts.",
+            "texteHtml": "<p></p>        L'autorit\u00e9 administrative peut autoriser une association fonci\u00e8re urbaine sur la demande de propri\u00e9taires int\u00e9ress\u00e9s ou, le cas \u00e9ch\u00e9ant, \u00e0 l'initiative de la commune, si les conditions sont remplies :<p></p><p></p>   1\u00b0 Pour les travaux sp\u00e9cifi\u00e9s au 1\u00b0, 2\u00b0 et 5\u00b0 de l'article L. 322-2, les deux tiers au moins des propri\u00e9taires d\u00e9tenant ensemble les deux tiers au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association.<p></p><p></p>   Pour les travaux sp\u00e9cifi\u00e9s au 3. de l'article L. 322-2, la majorit\u00e9 des propri\u00e9taires d\u00e9tenant ensemble la moiti\u00e9 au moins de la superficie ont adh\u00e9r\u00e9 \u00e0 l'association.<p></p><p></p>   2. Une personne publique ou priv\u00e9e prend l'engagement d'acqu\u00e9rir les immeubles dont le propri\u00e9taire opterait pour le d\u00e9laissement dans les conditions pr\u00e9vues \u00e0 l'article L. 322-5 ci-apr\u00e8s. Cette condition peut \u00eatre remplac\u00e9e par le m\u00eame engagement pris par l'association fonci\u00e8re urbaine et figurant dans ses statuts.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "1985-07-19T00:00:00.000Z",
+            "dateFin": "1996-11-15T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1973-03-27",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107992",
+                        "id": "LEGISCTA000006107992",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "1986-12-24",
+                        "titre": "Am\u00e9nagement foncier",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128563",
+                        "id": "LEGISCTA000006128563",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "1985-07-19",
+                        "titre": "Organismes d'ex\u00e9cution",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143301",
+                        "id": "LEGISCTA000006143301",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "1985-07-19",
+                        "titre": "Associations fonci\u00e8res urbaines",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006158608",
+                        "id": "LEGISCTA000006158608",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1973-01-03",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074075",
+                        "id": "LEGITEXT000006074075",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006815562",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-2 (M)",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L322-2",
+                    "articleId": "LEGIARTI000006815561",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme R322-3",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-2 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-2",
+                    "articleId": "LEGIARTI000006815558",
+                    "natureText": "CODE",
+                    "date": 1599810741776,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 121996800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-3-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L322-3-1",
+                    "articleId": "LEGIARTI000006815269",
+                    "natureText": "CODE",
+                    "date": 1599810741777,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 490579200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L322-5 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-5",
+                    "articleId": "LEGIARTI000006815566",
+                    "natureText": "CODE",
+                    "date": 1599810741777,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 121996800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. R*322-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*322-3",
+                    "articleId": "LEGIARTI000033367553",
+                    "natureText": "CODE",
+                    "date": 1599810741777,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1478822400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000501076",
+                    "textTitle": "LOI 67-1253 1967-12-30 ART. 25 loi d'orientation fonci\u00e8re",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000501076",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 73-1022 1973-11-08 JORF 13 NOVEMBRE 1973",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "num": "L322-3",
+            "origine": "LEGI",
+            "texte": "L'autorit\u00e9 administrative peut autoriser une association fonci\u00e8re urbaine sur la demande des propri\u00e9taires int\u00e9ress\u00e9s si les conditions suivantes sont remplies : 1. La demande est pr\u00e9sent\u00e9e : a) Pour les travaux sp\u00e9cifi\u00e9s au 1. et au 2. de l'article L. 322-2, par les trois quarts au moins des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant ensembles les trois quarts au moins de la superficie ; //LOI  1285 ART. 64 : Toutefois, pour les travaux sp\u00e9cifi\u00e9s au 2. de l'article L. 322-2, lorsque le conseil municipal a, par d\u00e9lib\u00e9ration motiv\u00e9e, constat\u00e9 que les travaux pr\u00e9sentent un int\u00e9r\u00eat pour la commune, la demande peut \u00eatre pr\u00e9sent\u00e9e par les deux tiers des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant les deux tiers de la superficie// . b) Pour les travaux sp\u00e9cifi\u00e9s au 3. de l'article L. 322-2 par la majorit\u00e9 des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant ensemble la moiti\u00e9 au moins de la superficie ; /M/c) Pour les travaux sp\u00e9cifi\u00e9s aux 4. et 5. de l'article L. 322-2 par les quatre cinqui\u00e8mes au moins des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant ensemble les quatre cinqui\u00e8mes au moins de la superficie /M/LOI  1285 ART. 64 : c) Pour les travaux sp\u00e9cifi\u00e9s au 5. de l'article L. 322-2, par les trois quarts au moins des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant ensemble les trois quarts au moins de la superficie// . 2. Une personne publique ou priv\u00e9e prend l'engagement d'acqu\u00e9rir les immeubles dont le propri\u00e9taire opterait pour le d\u00e9laissement dans les conditions pr\u00e9vues \u00e0 l'article L. 322-5 ci-apr\u00e8s. Cette condition peut \u00eatre remplac\u00e9e par le m\u00eame engagement pris par l'association fonci\u00e8re urbaine et figurant dans ses statuts.",
+            "texteHtml": "<p></p>        L'autorit\u00e9 administrative peut autoriser une association fonci\u00e8re urbaine sur la demande des propri\u00e9taires int\u00e9ress\u00e9s si les conditions suivantes sont remplies :<p></p><p></p>   1. La demande est pr\u00e9sent\u00e9e :<p></p><p></p>   a) Pour les travaux sp\u00e9cifi\u00e9s au 1. et au 2. de l'article L. 322-2, par les trois quarts au moins des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant ensembles les trois quarts au moins de la superficie ; //LOI  1285 ART. 64 : Toutefois, pour les travaux sp\u00e9cifi\u00e9s au 2. de l'article L. 322-2, lorsque le conseil municipal a, par d\u00e9lib\u00e9ration motiv\u00e9e, constat\u00e9 que les travaux pr\u00e9sentent un int\u00e9r\u00eat pour la commune, la demande peut \u00eatre pr\u00e9sent\u00e9e par les deux tiers des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant les deux tiers de la superficie// .<p></p><p></p>   b) Pour les travaux sp\u00e9cifi\u00e9s au 3. de l'article L. 322-2 par la majorit\u00e9 des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant ensemble la moiti\u00e9 au moins de la superficie ; /M/c) Pour les travaux sp\u00e9cifi\u00e9s aux 4. et 5. de l'article L. 322-2 par les quatre cinqui\u00e8mes au moins des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant ensemble les quatre cinqui\u00e8mes au moins de la superficie /M/LOI  1285 ART. 64 :<p></p><p></p>   c) Pour les travaux sp\u00e9cifi\u00e9s au 5. de l'article L. 322-2, par les trois quarts au moins des propri\u00e9taires int\u00e9ress\u00e9s d\u00e9tenant ensemble les trois quarts au moins de la superficie// .<p></p><p></p>   2. Une personne publique ou priv\u00e9e prend l'engagement d'acqu\u00e9rir les immeubles dont le propri\u00e9taire opterait pour le d\u00e9laissement dans les conditions pr\u00e9vues \u00e0 l'article L. 322-5 ci-apr\u00e8s. Cette condition peut \u00eatre remplac\u00e9e par le m\u00eame engagement pris par l'association fonci\u00e8re urbaine et figurant dans ses statuts.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "1973-11-13T00:00:00.000Z",
+            "dateFin": "1985-07-19T00:00:00.000Z"
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "cid": "LEGIARTI000006833669",
+    "num": "L341-11",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Espaces naturels",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129024",
+                        "id": "LEGISCTA000006129024",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre IV : Sites",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143742",
+                        "id": "LEGISCTA000006143742",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2010-07-14",
+                        "titre": "Chapitre Ier : Sites inscrits et class\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159243",
+                        "id": "LEGISCTA000006159243",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre unique : Sites inscrits et class\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159243",
+                        "id": "LEGISCTA000022495764",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Inventaire et classement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176518",
+                        "id": "LEGISCTA000006176518",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000006833669",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L341-22 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "L341-22",
+                    "articleId": "LEGIARTI000006833687",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074236",
+                    "textTitle": "Code du patrimoine. - art. L630-1 (VD)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L630-1",
+                    "articleId": "LEGIARTI000022751394",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000551804",
+                    "textTitle": "Loi 95-101 1995-02-02 art. 91 I, III",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000551804",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000551804",
+                    "textTitle": "Loi n\u00b095-101 du 2 f\u00e9vrier 1995 - art. 91 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "91",
+                    "articleId": "LEGIARTI000006848516",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "num": "L341-11",
+            "origine": "LEGI",
+            "texte": "Sur le territoire d'un site class\u00e9 au titre du pr\u00e9sent chapitre, il est fait obligation d'enfouissement des r\u00e9seaux \u00e9lectriques ou t\u00e9l\u00e9phoniques ou, pour les lignes \u00e9lectriques d'une tension inf\u00e9rieure \u00e0 19 000 volts, d'utilisation de techniques de r\u00e9seaux torsad\u00e9s en fa\u00e7ade d'habitation, lors de la cr\u00e9ation de lignes \u00e9lectriques nouvelles ou de r\u00e9seaux t\u00e9l\u00e9phoniques nouveaux. Lorsque des n\u00e9cessit\u00e9s techniques imp\u00e9ratives ou des contraintes topographiques rendent l'enfouissement impossible, ou bien lorsque les impacts de cet enfouissement sont jug\u00e9s sup\u00e9rieurs \u00e0 ceux d'une pose de ligne a\u00e9rienne, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 titre exceptionnel \u00e0 cette interdiction par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de l'\u00e9nergie ou des t\u00e9l\u00e9communications et du ministre charg\u00e9 de l'environnement.",
+            "texteHtml": "<p></p>   Sur le territoire d'un site class\u00e9 au titre du pr\u00e9sent chapitre, il est fait obligation d'enfouissement des r\u00e9seaux \u00e9lectriques ou t\u00e9l\u00e9phoniques ou, pour les lignes \u00e9lectriques d'une tension inf\u00e9rieure \u00e0 19 000 volts, d'utilisation de techniques de r\u00e9seaux torsad\u00e9s en fa\u00e7ade d'habitation, lors de la cr\u00e9ation de lignes \u00e9lectriques nouvelles ou de r\u00e9seaux t\u00e9l\u00e9phoniques nouveaux.<p></p><p></p>   Lorsque des n\u00e9cessit\u00e9s techniques imp\u00e9ratives ou des contraintes topographiques rendent l'enfouissement impossible, ou bien lorsque les impacts de cet enfouissement sont jug\u00e9s sup\u00e9rieurs \u00e0 ceux d'une pose de ligne a\u00e9rienne, il peut \u00eatre d\u00e9rog\u00e9 \u00e0 titre exceptionnel \u00e0 cette interdiction par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de l'\u00e9nergie ou des t\u00e9l\u00e9communications et du ministre charg\u00e9 de l'environnement.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2000-09-21T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        }
+    ]
+}

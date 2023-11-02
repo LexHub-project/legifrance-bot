@@ -1,0 +1,847 @@
+{
+    "cid": "LEGIARTI000006832882",
+    "num": "L122-2",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129022",
+                        "id": "LEGISCTA000006129022",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Information et participation des citoyens",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143733",
+                        "id": "LEGISCTA000006143733",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-06-05",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Evaluation environnementale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159209",
+                        "id": "LEGISCTA000006159209",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-06-05",
+                        "fin": "2010-07-14",
+                        "titre": "Section 1 : Etudes d'impact des travaux et projets d'am\u00e9nagement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176669",
+                        "id": "LEGISCTA000006176669",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Etudes d'impact des projets de travaux, d'ouvrages et d'am\u00e9nagements",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176669",
+                        "id": "LEGISCTA000022496606",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000022496595",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006070933",
+                    "textTitle": "Code de justice administrative. - art. L554-11 (V)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L554-11",
+                    "articleId": "LEGIARTI000006449369",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006070933",
+                    "textTitle": "Code de justice administrative. - art. L554-11 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L554-11",
+                    "articleId": "LEGIARTI000006449369",
+                    "natureText": "CODE",
+                    "date": 1599831952039,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1086393600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L122-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L122-1",
+                    "articleId": "LEGIARTI000006832878",
+                    "natureText": "CODE",
+                    "date": 1599831952040,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1543104000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R122-17 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-17",
+                    "articleId": "LEGIARTI000032728579",
+                    "natureText": "CODE",
+                    "date": 1599831952040,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1466380800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L122-5-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L122-5-1",
+                    "articleId": "LEGIARTI000022493851",
+                    "natureText": "CODE",
+                    "date": 1599831952040,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1294876800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074233",
+                    "textTitle": "Code des ports maritimes - art. R*115-4 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*115-4",
+                    "articleId": "LEGIARTI000006842822",
+                    "natureText": "CODE",
+                    "date": 1599831952040,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000684998",
+                    "textTitle": "Loi 76-629 1976-07-10 art. 2 al. 6",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000684998",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000684998",
+                    "textTitle": "Loi n\u00b076-629 du 10 juillet 1976 - art. 2 (MMN)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006846406",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000022470434",
+                    "textTitle": "LOI n\u00b0 2010-788\n du 12 juillet 2010 - art. 230",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "230",
+                    "articleId": "LEGIARTI000022473256",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2010-07-13",
+                    "dateSignaTexte": "2010-07-12",
+                    "dateDebutCible": "2010-07-14"
+                }
+            ],
+            "num": "L122-2",
+            "origine": "LEGI",
+            "texte": "Si une requ\u00eate d\u00e9pos\u00e9e devant la juridiction administrative contre une autorisation ou une d\u00e9cision d'approbation d'un projet vis\u00e9 au I de l'article L. 122-1 est fond\u00e9e sur l'absence d'\u00e9tude d'impact, le juge des r\u00e9f\u00e9r\u00e9s, saisi d'une demande de suspension de la d\u00e9cision attaqu\u00e9e, y fait droit d\u00e8s que cette absence est constat\u00e9e.",
+            "texteHtml": "<p>Si une requ\u00eate d\u00e9pos\u00e9e devant la juridiction administrative contre une autorisation ou une d\u00e9cision d'approbation d'un projet vis\u00e9 au I de l'article <a href='/article/LEGIARTI000006832878' title='Code de l'environnement - art. L122-1 (V)'>L. 122-1</a> est fond\u00e9e sur l'absence d'\u00e9tude d'impact, le juge des r\u00e9f\u00e9r\u00e9s, saisi d'une demande de suspension de la d\u00e9cision attaqu\u00e9e, y fait droit d\u00e8s que cette absence est constat\u00e9e.</p><p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2010-07-14T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129022",
+                        "id": "LEGISCTA000006129022",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Information et participation des citoyens",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143733",
+                        "id": "LEGISCTA000006143733",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-06-05",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Evaluation environnementale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159209",
+                        "id": "LEGISCTA000006159209",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-06-05",
+                        "fin": "2010-07-14",
+                        "titre": "Section 1 : Etudes d'impact des travaux et projets d'am\u00e9nagement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176669",
+                        "id": "LEGISCTA000006176669",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Etudes d'impact des projets de travaux, d'ouvrages et d'am\u00e9nagements",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176669",
+                        "id": "LEGISCTA000022496606",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006832884",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006070933",
+                    "textTitle": "Code de justice administrative. - art. L554-11 (V)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L554-11",
+                    "articleId": "LEGIARTI000006449369",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Directive 2001-42 2001-06-27",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006070933",
+                    "textTitle": "Code de justice administrative. - art. L554-11 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L554-11",
+                    "articleId": "LEGIARTI000006449369",
+                    "natureText": "CODE",
+                    "date": 1599825960653,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1086393600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L122-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L122-1",
+                    "articleId": "LEGIARTI000006832878",
+                    "natureText": "CODE",
+                    "date": 1599825960653,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1543104000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R122-17 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-17",
+                    "articleId": "LEGIARTI000032728579",
+                    "natureText": "CODE",
+                    "date": 1599825960653,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1466380800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L122-5-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L122-5-1",
+                    "articleId": "LEGIARTI000022493851",
+                    "natureText": "CODE",
+                    "date": 1599825960654,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1294876800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074233",
+                    "textTitle": "Code des ports maritimes - art. R*115-4 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*115-4",
+                    "articleId": "LEGIARTI000006842822",
+                    "natureText": "CODE",
+                    "date": 1599825960654,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000684998",
+                    "textTitle": "Loi 76-629 1976-07-10 art. 2 al. 6",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000684998",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000684998",
+                    "textTitle": "Loi n\u00b076-629 du 10 juillet 1976 - art. 2 (MMN)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006846406",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000235462",
+                    "textTitle": "Ordonnance 2004-489 2004-06-03 art. 1 I, II JORF 5 juin 2004",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000235462",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2004-06-05",
+                    "dateSignaTexte": "2004-06-03",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000235462",
+                    "textTitle": "Ordonnance n\u00b02004-489 du 3 juin 2004 - art. 1 () JORF 5 juin 2004",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000006231177",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2004-06-05",
+                    "dateSignaTexte": "2004-06-03",
+                    "dateDebutCible": "2004-06-05"
+                }
+            ],
+            "num": "L122-2",
+            "origine": "LEGI",
+            "texte": "Si une requ\u00eate d\u00e9pos\u00e9e devant la juridiction administrative contre une autorisation ou une d\u00e9cision d'approbation d'un projet vis\u00e9 au second alin\u00e9a de l'article L. 122-1 est fond\u00e9e sur l'absence d'\u00e9tude d'impact, le juge des r\u00e9f\u00e9r\u00e9s, saisi d'une demande de suspension de la d\u00e9cision attaqu\u00e9e, y fait droit d\u00e8s que cette absence est constat\u00e9e.",
+            "texteHtml": "<p></p>   Si une requ\u00eate d\u00e9pos\u00e9e devant la juridiction administrative contre une autorisation ou une d\u00e9cision d'approbation d'un projet vis\u00e9 au second alin\u00e9a de l'article L. 122-1 est fond\u00e9e sur l'absence d'\u00e9tude d'impact, le juge des r\u00e9f\u00e9r\u00e9s, saisi d'une demande de suspension de la d\u00e9cision attaqu\u00e9e, y fait droit d\u00e8s que cette absence est constat\u00e9e.<p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2004-06-05T00:00:00.000Z",
+            "dateFin": "2010-07-14T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129022",
+                        "id": "LEGISCTA000006129022",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Information et participation des citoyens",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143733",
+                        "id": "LEGISCTA000006143733",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2004-06-05",
+                        "titre": "Chapitre II : Etudes d'impact",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159208",
+                        "id": "LEGISCTA000006159208",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006832883",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006070933",
+                    "textTitle": "Code de justice administrative. - art. L554-11 (V)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L554-11",
+                    "articleId": "LEGIARTI000006449369",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006070933",
+                    "textTitle": "Code de justice administrative. - art. L554-11 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L554-11",
+                    "articleId": "LEGIARTI000006449369",
+                    "natureText": "CODE",
+                    "date": 1599825960281,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1086393600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L122-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L122-1",
+                    "articleId": "LEGIARTI000006832878",
+                    "natureText": "CODE",
+                    "date": 1599825960281,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1543104000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R122-17 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-17",
+                    "articleId": "LEGIARTI000032728579",
+                    "natureText": "CODE",
+                    "date": 1599825960281,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1466380800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L122-5-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L122-5-1",
+                    "articleId": "LEGIARTI000022493851",
+                    "natureText": "CODE",
+                    "date": 1599825960281,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1294876800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074233",
+                    "textTitle": "Code des ports maritimes - art. R*115-4 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*115-4",
+                    "articleId": "LEGIARTI000006842822",
+                    "natureText": "CODE",
+                    "date": 1599825960281,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000684998",
+                    "textTitle": "Loi 76-629 1976-07-10 art. 2 al. 6",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000684998",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000684998",
+                    "textTitle": "Loi n\u00b076-629 du 10 juillet 1976 - art. 2 (MMN)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006846406",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 art. 12 1\u00b0 JORF 21 septembre 2000 en vigueur le 1er janvier 2001",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "num": "L122-2",
+            "origine": "LEGI",
+            "texte": "Si une requ\u00eate d\u00e9pos\u00e9e devant la juridiction administrative contre une autorisation ou une d\u00e9cision d'approbation d'un projet vis\u00e9 au second alin\u00e9a de l'article L. 122-1 est fond\u00e9e sur l'absence d'\u00e9tude d'impact, le juge des r\u00e9f\u00e9r\u00e9s, saisi d'une demande de suspension de la d\u00e9cision attaqu\u00e9e, y fait droit d\u00e8s que cette absence est constat\u00e9e.",
+            "texteHtml": "<p></p>   Si une requ\u00eate d\u00e9pos\u00e9e devant la juridiction administrative contre une autorisation ou une d\u00e9cision d'approbation d'un projet vis\u00e9 au second alin\u00e9a de l'article L. 122-1 est fond\u00e9e sur l'absence d'\u00e9tude d'impact, le juge des r\u00e9f\u00e9r\u00e9s, saisi d'une demande de suspension de la d\u00e9cision attaqu\u00e9e, y fait droit d\u00e8s que cette absence est constat\u00e9e.<p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2001-01-01T00:00:00.000Z",
+            "dateFin": "2004-06-05T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129022",
+                        "id": "LEGISCTA000006129022",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Information et participation des citoyens",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143733",
+                        "id": "LEGISCTA000006143733",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2004-06-05",
+                        "titre": "Chapitre II : Etudes d'impact",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159208",
+                        "id": "LEGISCTA000006159208",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006832882",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006070933",
+                    "textTitle": "Code de justice administrative. - art. L554-11 (V)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L554-11",
+                    "articleId": "LEGIARTI000006449369",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006070933",
+                    "textTitle": "Code de justice administrative. - art. L554-11 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L554-11",
+                    "articleId": "LEGIARTI000006449369",
+                    "natureText": "CODE",
+                    "date": 1599825961678,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1086393600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L122-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L122-1",
+                    "articleId": "LEGIARTI000006832878",
+                    "natureText": "CODE",
+                    "date": 1599825961678,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1543104000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R122-17 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-17",
+                    "articleId": "LEGIARTI000032728579",
+                    "natureText": "CODE",
+                    "date": 1599825961678,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1466380800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L122-5-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L122-5-1",
+                    "articleId": "LEGIARTI000022493851",
+                    "natureText": "CODE",
+                    "date": 1599825961678,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1294876800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074233",
+                    "textTitle": "Code des ports maritimes - art. R*115-4 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*115-4",
+                    "articleId": "LEGIARTI000006842822",
+                    "natureText": "CODE",
+                    "date": 1599825961678,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000684998",
+                    "textTitle": "Loi 76-629 1976-07-10 art. 2 al. 6",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000684998",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000684998",
+                    "textTitle": "Loi n\u00b076-629 du 10 juillet 1976 - art. 2 (MMN)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006846406",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "num": "L122-2",
+            "origine": "LEGI",
+            "texte": "Si une requ\u00eate d\u00e9pos\u00e9e devant la juridiction administrative contre une autorisation ou une d\u00e9cision d'approbation d'un projet vis\u00e9 au second alin\u00e9a de l'article L. 122-1 est fond\u00e9e sur l'absence d'\u00e9tude d'impact, la juridiction saisie fait droit \u00e0 la demande de sursis \u00e0 ex\u00e9cution de la d\u00e9cision attaqu\u00e9e d\u00e8s que cette absence est constat\u00e9e selon une proc\u00e9dure d'urgence.",
+            "texteHtml": "<p></p>   Si une requ\u00eate d\u00e9pos\u00e9e devant la juridiction administrative contre une autorisation ou une d\u00e9cision d'approbation d'un projet vis\u00e9 au second alin\u00e9a de l'article L. 122-1 est fond\u00e9e sur l'absence d'\u00e9tude d'impact, la juridiction saisie fait droit \u00e0 la demande de sursis \u00e0 ex\u00e9cution de la d\u00e9cision attaqu\u00e9e d\u00e8s que cette absence est constat\u00e9e selon une proc\u00e9dure d'urgence.<p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2000-09-21T00:00:00.000Z",
+            "dateFin": "2001-01-01T00:00:00.000Z"
+        }
+    ]
+}

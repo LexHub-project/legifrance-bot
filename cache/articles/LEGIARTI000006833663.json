@@ -1,0 +1,462 @@
+{
+    "cid": "LEGIARTI000006833663",
+    "num": "L341-6",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Espaces naturels",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129024",
+                        "id": "LEGISCTA000006129024",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre IV : Sites",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143742",
+                        "id": "LEGISCTA000006143742",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2010-07-14",
+                        "titre": "Chapitre Ier : Sites inscrits et class\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159243",
+                        "id": "LEGISCTA000006159243",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre unique : Sites inscrits et class\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159243",
+                        "id": "LEGISCTA000022495764",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Inventaire et classement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176518",
+                        "id": "LEGISCTA000006176518",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000006833664",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L341-22 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "L341-22",
+                    "articleId": "LEGIARTI000006833687",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074236",
+                    "textTitle": "Code du patrimoine. - art. L630-1 (VD)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L630-1",
+                    "articleId": "LEGIARTI000022751394",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L341-13 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L341-13",
+                    "articleId": "LEGIARTI000036671291",
+                    "natureText": "CODE",
+                    "date": 1599120466667,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1520121600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L341-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L341-4",
+                    "articleId": "LEGIARTI000006833661",
+                    "natureText": "CODE",
+                    "date": 1599120466667,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R341-4 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R341-4",
+                    "articleId": "LEGIARTI000025089490",
+                    "natureText": "CODE",
+                    "date": 1599120466667,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1338508800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R341-7 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R341-7",
+                    "articleId": "LEGIARTI000006837627",
+                    "natureText": "CODE",
+                    "date": 1599120466667,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1123200000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000312974",
+                    "textTitle": "Loi n\u00b01930-05-02 du 2 mai 1930 - art. 8 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "8",
+                    "articleId": "LEGIARTI000006847221",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1930-05-02 art. 8",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1930-05-02 art. 8",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000803875",
+                    "textTitle": "Ordonnance n\u00b02004-637 du 1 juillet 2004 - art. 28 () JORF 2 juillet 2004 en vigueur le 1er juillet 2006",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "28",
+                    "articleId": "LEGIARTI000006452112",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2004-07-02",
+                    "dateSignaTexte": "2004-07-01",
+                    "dateDebutCible": "2004-07-02"
+                }
+            ],
+            "num": "L341-6",
+            "origine": "LEGI",
+            "texte": "Le monument naturel ou le site appartenant \u00e0 toute autre personne que celles \u00e9num\u00e9r\u00e9es aux articles L. 341-4 et L. 341-5 est class\u00e9 par arr\u00eat\u00e9 du ministre charg\u00e9 des sites s'il y a consentement du propri\u00e9taire. L'arr\u00eat\u00e9 d\u00e9termine les conditions du classement. A d\u00e9faut du consentement du propri\u00e9taire, le classement est prononc\u00e9, apr\u00e8s avis de la commission sup\u00e9rieure, par d\u00e9cret en Conseil d'Etat. Le classement peut donner droit \u00e0 indemnit\u00e9 au profit du propri\u00e9taire s'il entra\u00eene une modification \u00e0 l'\u00e9tat ou \u00e0 l'utilisation des lieux d\u00e9terminant un pr\u00e9judice direct, mat\u00e9riel et certain. La demande d'indemnit\u00e9 doit \u00eatre produite dans le d\u00e9lai de six mois \u00e0 dater de la mise en demeure faite au propri\u00e9taire de modifier l'\u00e9tat ou l'utilisation des lieux en application des prescriptions particuli\u00e8res de la d\u00e9cision de classement. A d\u00e9faut d'accord amiable, l'indemnit\u00e9 est fix\u00e9e par le juge de l'expropriation. Si le Gouvernement entend ne pas donner suite au classement d'office dans les conditions ainsi fix\u00e9es, il peut, \u00e0 tout moment de la proc\u00e9dure et au plus tard dans le d\u00e9lai de trois mois \u00e0 compter de la notification de la d\u00e9cision judiciaire, abroger le d\u00e9cret de classement. Le classement d'un lac ou d'un cours d'eau pouvant produire une \u00e9nergie \u00e9lectrique permanente d'au moins 50 kilowatts ne peut \u00eatre prononc\u00e9 qu'apr\u00e8s avis des ministres int\u00e9ress\u00e9s. Cet avis doit \u00eatre formul\u00e9 dans le d\u00e9lai de trois mois, \u00e0 l'expiration duquel il peut \u00eatre pass\u00e9 outre. En cas d'accord avec les ministres int\u00e9ress\u00e9s, le classement peut \u00eatre prononc\u00e9 par arr\u00eat\u00e9 du ministre charg\u00e9 des sites. Dans le cas contraire, il est prononc\u00e9 par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p></p>Le monument naturel ou le site appartenant \u00e0 toute autre personne que celles \u00e9num\u00e9r\u00e9es aux <a href='/article/LEGIARTI000006833661' title='Code de l'environnement - art. L341-4 (V)'>articles L. 341-4 et L. 341-5</a> est class\u00e9 par arr\u00eat\u00e9 du ministre charg\u00e9 des sites s'il y a consentement du propri\u00e9taire. L'arr\u00eat\u00e9 d\u00e9termine les conditions du classement. <p></p><p></p>A d\u00e9faut du consentement du propri\u00e9taire, le classement est prononc\u00e9, apr\u00e8s avis de la commission sup\u00e9rieure, par d\u00e9cret en Conseil d'Etat. Le classement peut donner droit \u00e0 indemnit\u00e9 au profit du propri\u00e9taire s'il entra\u00eene une modification \u00e0 l'\u00e9tat ou \u00e0 l'utilisation des lieux d\u00e9terminant un pr\u00e9judice direct, mat\u00e9riel et certain. <p></p><p></p>La demande d'indemnit\u00e9 doit \u00eatre produite dans le d\u00e9lai de six mois \u00e0 dater de la mise en demeure faite au propri\u00e9taire de modifier l'\u00e9tat ou l'utilisation des lieux en application des prescriptions particuli\u00e8res de la d\u00e9cision de classement. A d\u00e9faut d'accord amiable, l'indemnit\u00e9 est fix\u00e9e par le juge de l'expropriation. <p></p><p></p>Si le Gouvernement entend ne pas donner suite au classement d'office dans les conditions ainsi fix\u00e9es, il peut, \u00e0 tout moment de la proc\u00e9dure et au plus tard dans le d\u00e9lai de trois mois \u00e0 compter de la notification de la d\u00e9cision judiciaire, abroger le d\u00e9cret de classement. <p></p><p></p>Le classement d'un lac ou d'un cours d'eau pouvant produire une \u00e9nergie \u00e9lectrique permanente d'au moins 50 kilowatts ne peut \u00eatre prononc\u00e9 qu'apr\u00e8s avis des ministres int\u00e9ress\u00e9s. Cet avis doit \u00eatre formul\u00e9 dans le d\u00e9lai de trois mois, \u00e0 l'expiration duquel il peut \u00eatre pass\u00e9 outre. <p></p><p></p>En cas d'accord avec les ministres int\u00e9ress\u00e9s, le classement peut \u00eatre prononc\u00e9 par arr\u00eat\u00e9 du ministre charg\u00e9 des sites. Dans le cas contraire, il est prononc\u00e9 par d\u00e9cret en Conseil d'Etat.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2006-07-01T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Espaces naturels",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129024",
+                        "id": "LEGISCTA000006129024",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre IV : Sites",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143742",
+                        "id": "LEGISCTA000006143742",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2010-07-14",
+                        "titre": "Chapitre Ier : Sites inscrits et class\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159243",
+                        "id": "LEGISCTA000006159243",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre unique : Sites inscrits et class\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159243",
+                        "id": "LEGISCTA000022495764",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Inventaire et classement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176518",
+                        "id": "LEGISCTA000006176518",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006833663",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L341-22 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "L341-22",
+                    "articleId": "LEGIARTI000006833687",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074236",
+                    "textTitle": "Code du patrimoine. - art. L630-1 (VD)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L630-1",
+                    "articleId": "LEGIARTI000022751394",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L341-13 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L341-13",
+                    "articleId": "LEGIARTI000036671291",
+                    "natureText": "CODE",
+                    "date": 1599120466687,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1520121600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L341-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L341-4",
+                    "articleId": "LEGIARTI000006833661",
+                    "natureText": "CODE",
+                    "date": 1599120466687,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L341-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L341-5",
+                    "articleId": "LEGIARTI000006833662",
+                    "natureText": "CODE",
+                    "date": 1599120466687,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R341-4 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R341-4",
+                    "articleId": "LEGIARTI000025089490",
+                    "natureText": "CODE",
+                    "date": 1599120466687,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1338508800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R341-7 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R341-7",
+                    "articleId": "LEGIARTI000006837627",
+                    "natureText": "CODE",
+                    "date": 1599120466687,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1123200000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000312974",
+                    "textTitle": "Loi n\u00b01930-05-02 du 2 mai 1930 - art. 8 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "8",
+                    "articleId": "LEGIARTI000006847221",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1930-05-02 art. 8",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Loi 1930-05-02 art. 8",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "num": "L341-6",
+            "origine": "LEGI",
+            "texte": "Le monument naturel ou le site appartenant \u00e0 toute autre personne que celles \u00e9num\u00e9r\u00e9es aux articles L. 341-4 et L. 341-5 est class\u00e9 par arr\u00eat\u00e9 du ministre charg\u00e9 des sites, apr\u00e8s avis de la commission d\u00e9partementale des sites, perspectives et paysages, s'il y a consentement du propri\u00e9taire. L'arr\u00eat\u00e9 d\u00e9termine les conditions du classement. A d\u00e9faut du consentement du propri\u00e9taire, le classement est prononc\u00e9, apr\u00e8s avis de la commission sup\u00e9rieure, par d\u00e9cret en Conseil d'Etat. Le classement peut donner droit \u00e0 indemnit\u00e9 au profit du propri\u00e9taire s'il entra\u00eene une modification \u00e0 l'\u00e9tat ou \u00e0 l'utilisation des lieux d\u00e9terminant un pr\u00e9judice direct, mat\u00e9riel et certain. La demande d'indemnit\u00e9 doit \u00eatre produite dans le d\u00e9lai de six mois \u00e0 dater de la mise en demeure faite au propri\u00e9taire de modifier l'\u00e9tat ou l'utilisation des lieux en application des prescriptions particuli\u00e8res de la d\u00e9cision de classement. A d\u00e9faut d'accord amiable, l'indemnit\u00e9 est fix\u00e9e par le juge de l'expropriation. Si le Gouvernement entend ne pas donner suite au classement d'office dans les conditions ainsi fix\u00e9es, il peut, \u00e0 tout moment de la proc\u00e9dure et au plus tard dans le d\u00e9lai de trois mois \u00e0 compter de la notification de la d\u00e9cision judiciaire, abroger le d\u00e9cret de classement. Le classement d'un lac ou d'un cours d'eau pouvant produire une \u00e9nergie \u00e9lectrique permanente d'au moins 50 kilowatts ne peut \u00eatre prononc\u00e9 qu'apr\u00e8s avis des ministres int\u00e9ress\u00e9s. Cet avis doit \u00eatre formul\u00e9 dans le d\u00e9lai de trois mois, \u00e0 l'expiration duquel il peut \u00eatre pass\u00e9 outre. En cas d'accord avec les ministres int\u00e9ress\u00e9s, le classement peut \u00eatre prononc\u00e9 par arr\u00eat\u00e9 du ministre charg\u00e9 des sites. Dans le cas contraire, il est prononc\u00e9 par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p></p>   Le monument naturel ou le site appartenant \u00e0 toute autre personne que celles \u00e9num\u00e9r\u00e9es aux articles L. 341-4 et L. 341-5 est class\u00e9 par arr\u00eat\u00e9 du ministre charg\u00e9 des sites, apr\u00e8s avis de la commission d\u00e9partementale des sites, perspectives et paysages, s'il y a consentement du propri\u00e9taire. L'arr\u00eat\u00e9 d\u00e9termine les conditions du classement.<p></p><p></p>   A d\u00e9faut du consentement du propri\u00e9taire, le classement est prononc\u00e9, apr\u00e8s avis de la commission sup\u00e9rieure, par d\u00e9cret en Conseil d'Etat. Le classement peut donner droit \u00e0 indemnit\u00e9 au profit du propri\u00e9taire s'il entra\u00eene une modification \u00e0 l'\u00e9tat ou \u00e0 l'utilisation des lieux d\u00e9terminant un pr\u00e9judice direct, mat\u00e9riel et certain.<p></p><p></p>   La demande d'indemnit\u00e9 doit \u00eatre produite dans le d\u00e9lai de six mois \u00e0 dater de la mise en demeure faite au propri\u00e9taire de modifier l'\u00e9tat ou l'utilisation des lieux en application des prescriptions particuli\u00e8res de la d\u00e9cision de classement. A d\u00e9faut d'accord amiable, l'indemnit\u00e9 est fix\u00e9e par le juge de l'expropriation.<p></p><p></p>   Si le Gouvernement entend ne pas donner suite au classement d'office dans les conditions ainsi fix\u00e9es, il peut, \u00e0 tout moment de la proc\u00e9dure et au plus tard dans le d\u00e9lai de trois mois \u00e0 compter de la notification de la d\u00e9cision judiciaire, abroger le d\u00e9cret de classement.<p></p><p></p>   Le classement d'un lac ou d'un cours d'eau pouvant produire une \u00e9nergie \u00e9lectrique permanente d'au moins 50 kilowatts ne peut \u00eatre prononc\u00e9 qu'apr\u00e8s avis des ministres int\u00e9ress\u00e9s. Cet avis doit \u00eatre formul\u00e9 dans le d\u00e9lai de trois mois, \u00e0 l'expiration duquel il peut \u00eatre pass\u00e9 outre.<p></p><p></p>   En cas d'accord avec les ministres int\u00e9ress\u00e9s, le classement peut \u00eatre prononc\u00e9 par arr\u00eat\u00e9 du ministre charg\u00e9 des sites. Dans le cas contraire, il est prononc\u00e9 par d\u00e9cret en Conseil d'Etat.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2000-09-21T00:00:00.000Z",
+            "dateFin": "2006-07-01T00:00:00.000Z"
+        }
+    ]
+}

@@ -1,0 +1,936 @@
+{
+    "cid": "LEGIARTI000006833034",
+    "num": "L213-1",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Milieux physiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129023",
+                        "id": "LEGISCTA000006129023",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2010-07-14",
+                        "titre": "Titre Ier : Eau et milieux aquatiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143737",
+                        "id": "LEGISCTA000006143737",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Eau et milieux aquatiques et marins",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143737",
+                        "id": "LEGISCTA000022494764",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Structures administratives et financi\u00e8res",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159222",
+                        "id": "LEGISCTA000006159222",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Comit\u00e9 national de l'eau",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176450",
+                        "id": "LEGISCTA000006176450",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000037290142",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000304273",
+                    "textTitle": "D\u00e9cret n\u00b065-749 du 3 septembre 1965 - art. 8 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "8",
+                    "articleId": "LEGIARTI000006854405",
+                    "natureText": "DECRET",
+                    "date": 1627654071380,
+                    "parentCid": null,
+                    "numTexte": "65-749",
+                    "datePubli": -136425600000,
+                    "dateDebut": 1131580800000
+                },
+                {
+                    "textCid": "JORFTEXT000019146895",
+                    "textTitle": "D\u00e9cret n\u00b02008-679\n du 9 juillet 2008 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000020603578",
+                    "natureText": "DECRET",
+                    "date": 1627654071380,
+                    "parentCid": null,
+                    "numTexte": "2008-679",
+                    "datePubli": 1215648000000,
+                    "dateDebut": 1242000000000
+                },
+                {
+                    "textCid": "JORFTEXT000043868004",
+                    "textTitle": "Arr\u00eat\u00e9 du 27 mai 2021 - art.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000043869417",
+                    "natureText": "ARRETE",
+                    "date": 1627654071381,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1627516800000,
+                    "dateDebut": 1627603200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-10 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-10",
+                    "articleId": "LEGIARTI000006837003",
+                    "natureText": "CODE",
+                    "date": 1627654071381,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174608000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-8",
+                    "articleId": "LEGIARTI000041463525",
+                    "natureText": "CODE",
+                    "date": 1627654071381,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-9",
+                    "articleId": "LEGIARTI000041463518",
+                    "natureText": "CODE",
+                    "date": 1627654071381,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L566-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L566-4",
+                    "articleId": "LEGIARTI000022479464",
+                    "natureText": "CODE",
+                    "date": 1627654071381,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1279065600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000509753",
+                    "textTitle": "Loi n\u00b064-1245 du 16 d\u00e9cembre 1964 - art. 15 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "15",
+                    "articleId": "LEGIARTI000006846627",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance n\u00b0 2000-914 du 18 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "LOI n\u00b0 2003-591 du 2 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000037284338",
+                    "textTitle": "LOI n\u00b02018-699 du 3 ao\u00fbt 2018 - art. 55",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "55",
+                    "articleId": "LEGIARTI000037285951",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2018-08-05",
+                    "dateSignaTexte": "2018-08-03",
+                    "dateDebutCible": "2018-08-06"
+                }
+            ],
+            "num": "L213-1",
+            "origine": "LEGI",
+            "texte": "I. \u2013 Le Comit\u00e9 national de l'eau a pour mission : 1\u00b0 De donner son avis sur les circonscriptions g\u00e9ographiques des bassins et groupements de bassins et sur tout probl\u00e8me commun \u00e0 deux ou plusieurs bassins ou groupements de bassin ; 2\u00b0 De donner son avis sur tous les projets d'am\u00e9nagement et de r\u00e9partition des eaux ayant un caract\u00e8re national ainsi que sur les grands am\u00e9nagements r\u00e9gionaux ; 3\u00b0 De donner son avis sur les projets de d\u00e9cret concernant la protection des peuplements piscicoles et conchylicoles ; 4\u00b0 De donner, sur proposition d'un comit\u00e9 consultatif constitu\u00e9 en son sein, son avis sur le prix de l'eau factur\u00e9 aux usagers et la qualit\u00e9 des services publics de distribution d'eau et d'assainissement. Il comprend parmi ses membres deux d\u00e9put\u00e9s et deux s\u00e9nateurs. II. \u2013 Les missions, la composition, l'organisation et le fonctionnement du comit\u00e9 sont pr\u00e9cis\u00e9s par d\u00e9cret.",
+            "texteHtml": "<p>I. \u2013 Le Comit\u00e9 national de l'eau a pour mission :</p><p>1\u00b0 De donner son avis sur les circonscriptions g\u00e9ographiques des bassins et groupements de bassins et sur tout probl\u00e8me commun \u00e0 deux ou plusieurs bassins ou groupements de bassin ;</p><p>2\u00b0 De donner son avis sur tous les projets d'am\u00e9nagement et de r\u00e9partition des eaux ayant un caract\u00e8re national ainsi que sur les grands am\u00e9nagements r\u00e9gionaux ;</p><p>3\u00b0 De donner son avis sur les projets de d\u00e9cret concernant la protection des peuplements piscicoles et conchylicoles ;</p><p>4\u00b0 De donner, sur proposition d'un comit\u00e9 consultatif constitu\u00e9 en son sein, son avis sur le prix de l'eau factur\u00e9 aux usagers et la qualit\u00e9 des services publics de distribution d'eau et d'assainissement.</p><p> Il comprend parmi ses membres deux d\u00e9put\u00e9s et deux s\u00e9nateurs.<br/><br/>\n II. \u2013 Les missions, la composition, l'organisation et le fonctionnement du comit\u00e9 sont pr\u00e9cis\u00e9s par d\u00e9cret.</p>",
+            "type": "AUTONOME",
+            "dateDebut": "2018-08-06T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Milieux physiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129023",
+                        "id": "LEGISCTA000006129023",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2010-07-14",
+                        "titre": "Titre Ier : Eau et milieux aquatiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143737",
+                        "id": "LEGISCTA000006143737",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Eau et milieux aquatiques et marins",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143737",
+                        "id": "LEGISCTA000022494764",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Structures administratives et financi\u00e8res",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159222",
+                        "id": "LEGISCTA000006159222",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Comit\u00e9 national de l'eau",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176450",
+                        "id": "LEGISCTA000006176450",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000032748383",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000304273",
+                    "textTitle": "D\u00e9cret n\u00b065-749 du 3 septembre 1965 - art. 8 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "8",
+                    "articleId": "LEGIARTI000006854405",
+                    "natureText": "DECRET",
+                    "date": 1627654071519,
+                    "parentCid": null,
+                    "numTexte": "65-749",
+                    "datePubli": -136425600000,
+                    "dateDebut": 1131580800000
+                },
+                {
+                    "textCid": "JORFTEXT000019146895",
+                    "textTitle": "D\u00e9cret n\u00b02008-679\n du 9 juillet 2008 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000020603578",
+                    "natureText": "DECRET",
+                    "date": 1627654071520,
+                    "parentCid": null,
+                    "numTexte": "2008-679",
+                    "datePubli": 1215648000000,
+                    "dateDebut": 1242000000000
+                },
+                {
+                    "textCid": "JORFTEXT000043868004",
+                    "textTitle": "Arr\u00eat\u00e9 du 27 mai 2021 - art.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000043869417",
+                    "natureText": "ARRETE",
+                    "date": 1627654071520,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1627516800000,
+                    "dateDebut": 1627603200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-10 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-10",
+                    "articleId": "LEGIARTI000006837003",
+                    "natureText": "CODE",
+                    "date": 1627654071520,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174608000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-8",
+                    "articleId": "LEGIARTI000041463525",
+                    "natureText": "CODE",
+                    "date": 1627654071520,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-9",
+                    "articleId": "LEGIARTI000041463518",
+                    "natureText": "CODE",
+                    "date": 1627654071520,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L566-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L566-4",
+                    "articleId": "LEGIARTI000022479464",
+                    "natureText": "CODE",
+                    "date": 1627654071520,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1279065600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000509753",
+                    "textTitle": "Loi n\u00b064-1245 du 16 d\u00e9cembre 1964 - art. 15 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "15",
+                    "articleId": "LEGIARTI000006846627",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance n\u00b0 2000-914 du 18 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "LOI n\u00b0 2003-591 du 2 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000032728685",
+                    "textTitle": "LOI n\u00b02016-816 du 20 juin 2016 - art. 80",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "80",
+                    "articleId": "LEGIARTI000032730865",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2016-06-21",
+                    "dateSignaTexte": "2016-06-20",
+                    "dateDebutCible": "2016-06-22"
+                }
+            ],
+            "num": "L213-1",
+            "origine": "LEGI",
+            "texte": "Le Comit\u00e9 national de l'eau a pour mission : 1\u00b0 De donner son avis sur les circonscriptions g\u00e9ographiques des bassins et groupements de bassins et sur tout probl\u00e8me commun \u00e0 deux ou plusieurs bassins ou groupements de bassin ; 2\u00b0 De donner son avis sur tous les projets d'am\u00e9nagement et de r\u00e9partition des eaux ayant un caract\u00e8re national ainsi que sur les grands am\u00e9nagements r\u00e9gionaux ; 3\u00b0 De donner son avis sur les projets de d\u00e9cret concernant la protection des peuplements piscicoles et conchylicoles ; 4\u00b0 De donner, sur proposition d'un comit\u00e9 consultatif constitu\u00e9 en son sein, son avis sur le prix de l'eau factur\u00e9 aux usagers et la qualit\u00e9 des services publics de distribution d'eau et d'assainissement.",
+            "texteHtml": "<p>Le Comit\u00e9 national de l'eau a pour mission :</p><p></p><p>1\u00b0 De donner son avis sur les circonscriptions g\u00e9ographiques des bassins et groupements de bassins et sur tout probl\u00e8me commun \u00e0 deux ou plusieurs bassins ou groupements de bassin ;</p><p></p><p>2\u00b0 De donner son avis sur tous les projets d'am\u00e9nagement et de r\u00e9partition des eaux ayant un caract\u00e8re national ainsi que sur les grands am\u00e9nagements r\u00e9gionaux ;</p><p></p><p>3\u00b0 De donner son avis sur les projets de d\u00e9cret concernant la protection des peuplements piscicoles et conchylicoles ;</p><p></p><p>4\u00b0 De donner, sur proposition d'un comit\u00e9 consultatif constitu\u00e9 en son sein, son avis sur le prix de l'eau factur\u00e9 aux usagers et la qualit\u00e9 des services publics de distribution d'eau et d'assainissement.</p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2016-06-22T00:00:00.000Z",
+            "dateFin": "2018-08-06T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Milieux physiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129023",
+                        "id": "LEGISCTA000006129023",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2010-07-14",
+                        "titre": "Titre Ier : Eau et milieux aquatiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143737",
+                        "id": "LEGISCTA000006143737",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Eau et milieux aquatiques et marins",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143737",
+                        "id": "LEGISCTA000022494764",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Structures administratives et financi\u00e8res",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159222",
+                        "id": "LEGISCTA000006159222",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Comit\u00e9 national de l'eau",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176450",
+                        "id": "LEGISCTA000006176450",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006833035",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000304273",
+                    "textTitle": "D\u00e9cret n\u00b065-749 du 3 septembre 1965 - art. 8 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "8",
+                    "articleId": "LEGIARTI000006854405",
+                    "natureText": "DECRET",
+                    "date": 1627654071503,
+                    "parentCid": null,
+                    "numTexte": "65-749",
+                    "datePubli": -136425600000,
+                    "dateDebut": 1131580800000
+                },
+                {
+                    "textCid": "JORFTEXT000019146895",
+                    "textTitle": "D\u00e9cret n\u00b02008-679\n du 9 juillet 2008 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000020603578",
+                    "natureText": "DECRET",
+                    "date": 1627654071503,
+                    "parentCid": null,
+                    "numTexte": "2008-679",
+                    "datePubli": 1215648000000,
+                    "dateDebut": 1242000000000
+                },
+                {
+                    "textCid": "JORFTEXT000043868004",
+                    "textTitle": "Arr\u00eat\u00e9 du 27 mai 2021 - art.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000043869417",
+                    "natureText": "ARRETE",
+                    "date": 1627654071503,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1627516800000,
+                    "dateDebut": 1627603200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-10 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-10",
+                    "articleId": "LEGIARTI000006837003",
+                    "natureText": "CODE",
+                    "date": 1627654071503,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174608000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-8",
+                    "articleId": "LEGIARTI000041463525",
+                    "natureText": "CODE",
+                    "date": 1627654071503,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-9",
+                    "articleId": "LEGIARTI000041463518",
+                    "natureText": "CODE",
+                    "date": 1627654071503,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L566-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L566-4",
+                    "articleId": "LEGIARTI000022479464",
+                    "natureText": "CODE",
+                    "date": 1627654071504,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1279065600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000509753",
+                    "textTitle": "Loi n\u00b064-1245 du 16 d\u00e9cembre 1964 - art. 15 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "15",
+                    "articleId": "LEGIARTI000006846627",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000649171",
+                    "textTitle": "Loi n\u00b02006-1772 du 30 d\u00e9cembre 2006 - art. 87 () JORF 31 d\u00e9cembre 2006",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "87",
+                    "articleId": "LEGIARTI000006849283",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2006-12-31",
+                    "dateSignaTexte": "2006-12-30",
+                    "dateDebutCible": "2006-12-31"
+                }
+            ],
+            "num": "L213-1",
+            "origine": "LEGI",
+            "texte": "Le Comit\u00e9 national de l'eau a pour mission : 1\u00b0 De donner son avis sur les circonscriptions g\u00e9ographiques des bassins et groupements de bassins et sur tout probl\u00e8me commun \u00e0 deux ou plusieurs bassins ou groupements de bassin ; 2\u00b0 De donner son avis sur tous les projets d'am\u00e9nagement et de r\u00e9partition des eaux ayant un caract\u00e8re national ainsi que sur les grands am\u00e9nagements r\u00e9gionaux ; 3\u00b0 De donner son avis sur les projets de d\u00e9cret concernant la protection des peuplements piscicoles ; 4\u00b0 De donner, sur proposition d'un comit\u00e9 consultatif constitu\u00e9 en son sein, son avis sur le prix de l'eau factur\u00e9 aux usagers et la qualit\u00e9 des services publics de distribution d'eau et d'assainissement.",
+            "texteHtml": "<p></p>   Le Comit\u00e9 national de l'eau a pour mission :<p></p><p></p>   1\u00b0 De donner son avis sur les circonscriptions g\u00e9ographiques des bassins et groupements de bassins et sur tout probl\u00e8me commun \u00e0 deux ou plusieurs bassins ou groupements de bassin ;<p></p><p></p>   2\u00b0 De donner son avis sur tous les projets d'am\u00e9nagement et de r\u00e9partition des eaux ayant un caract\u00e8re national ainsi que sur les grands am\u00e9nagements r\u00e9gionaux ;<p></p><p></p>   3\u00b0 De donner son avis sur les projets de d\u00e9cret concernant la protection des peuplements piscicoles ;<p></p><p></p>   4\u00b0 De donner, sur proposition d'un comit\u00e9 consultatif constitu\u00e9 en son sein, son avis sur le prix de l'eau factur\u00e9 aux usagers et la qualit\u00e9 des services publics de distribution d'eau et d'assainissement.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2006-12-31T00:00:00.000Z",
+            "dateFin": "2016-06-22T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Milieux physiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129023",
+                        "id": "LEGISCTA000006129023",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2010-07-14",
+                        "titre": "Titre Ier : Eau et milieux aquatiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143737",
+                        "id": "LEGISCTA000006143737",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2010-07-14",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Eau et milieux aquatiques et marins",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143737",
+                        "id": "LEGISCTA000022494764",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Structures administratives et financi\u00e8res",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159222",
+                        "id": "LEGISCTA000006159222",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Comit\u00e9 national de l'eau",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176450",
+                        "id": "LEGISCTA000006176450",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006833034",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000304273",
+                    "textTitle": "D\u00e9cret n\u00b065-749 du 3 septembre 1965 - art. 8 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "8",
+                    "articleId": "LEGIARTI000006854405",
+                    "natureText": "DECRET",
+                    "date": 1627654071504,
+                    "parentCid": null,
+                    "numTexte": "65-749",
+                    "datePubli": -136425600000,
+                    "dateDebut": 1131580800000
+                },
+                {
+                    "textCid": "JORFTEXT000019146895",
+                    "textTitle": "D\u00e9cret n\u00b02008-679\n du 9 juillet 2008 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000020603578",
+                    "natureText": "DECRET",
+                    "date": 1627654071504,
+                    "parentCid": null,
+                    "numTexte": "2008-679",
+                    "datePubli": 1215648000000,
+                    "dateDebut": 1242000000000
+                },
+                {
+                    "textCid": "JORFTEXT000043868004",
+                    "textTitle": "Arr\u00eat\u00e9 du 27 mai 2021 - art.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000043869417",
+                    "natureText": "ARRETE",
+                    "date": 1627654071504,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1627516800000,
+                    "dateDebut": 1627603200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-10 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-10",
+                    "articleId": "LEGIARTI000006837003",
+                    "natureText": "CODE",
+                    "date": 1627654071504,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174608000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-8",
+                    "articleId": "LEGIARTI000041463525",
+                    "natureText": "CODE",
+                    "date": 1627654071504,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. D213-9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D213-9",
+                    "articleId": "LEGIARTI000041463518",
+                    "natureText": "CODE",
+                    "date": 1627654071504,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L213-2 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L213-2",
+                    "articleId": "LEGIARTI000006833036",
+                    "natureText": "CODE",
+                    "date": 1627654071505,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L566-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L566-4",
+                    "articleId": "LEGIARTI000022479464",
+                    "natureText": "CODE",
+                    "date": 1627654071505,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1279065600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000509753",
+                    "textTitle": "Loi n\u00b064-1245 du 16 d\u00e9cembre 1964 - art. 15 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "15",
+                    "articleId": "LEGIARTI000006846627",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "num": "L213-1",
+            "origine": "LEGI",
+            "texte": "Le Comit\u00e9 national de l'eau a pour mission : 1\u00b0 De donner son avis sur les circonscriptions g\u00e9ographiques des bassins et groupements de bassins qui sont de la comp\u00e9tence des comit\u00e9s vis\u00e9s \u00e0 l'article L. 213-2 ; 2\u00b0 De donner son avis sur tous les projets d'am\u00e9nagement et de r\u00e9partition des eaux ayant un caract\u00e8re national ainsi que sur les grands am\u00e9nagements r\u00e9gionaux ; 3\u00b0 De donner son avis sur tout probl\u00e8me commun \u00e0 deux ou plusieurs comit\u00e9s de bassin ou agences de l'eau ; 4\u00b0 D'une fa\u00e7on g\u00e9n\u00e9rale, de rassembler la documentation n\u00e9cessaire et de formuler des avis sur toutes les questions faisant l'objet des chapitres Ier \u00e0 VII du pr\u00e9sent titre.",
+            "texteHtml": "<p></p>   Le Comit\u00e9 national de l'eau a pour mission :<p></p><p></p>   1\u00b0 De donner son avis sur les circonscriptions g\u00e9ographiques des bassins et groupements de bassins qui sont de la comp\u00e9tence des comit\u00e9s vis\u00e9s \u00e0 l'article L. 213-2 ;<p></p><p></p>   2\u00b0 De donner son avis sur tous les projets d'am\u00e9nagement et de r\u00e9partition des eaux ayant un caract\u00e8re national ainsi que sur les grands am\u00e9nagements r\u00e9gionaux ;<p></p><p></p>   3\u00b0 De donner son avis sur tout probl\u00e8me commun \u00e0 deux ou plusieurs comit\u00e9s de bassin ou agences de l'eau ;<p></p><p></p>   4\u00b0 D'une fa\u00e7on g\u00e9n\u00e9rale, de rassembler la documentation n\u00e9cessaire et de formuler des avis sur toutes les questions faisant l'objet des chapitres Ier \u00e0 VII du pr\u00e9sent titre.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2000-09-21T00:00:00.000Z",
+            "dateFin": "2006-12-31T00:00:00.000Z"
+        }
+    ]
+}

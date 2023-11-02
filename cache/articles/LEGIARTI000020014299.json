@@ -1,0 +1,75 @@
+{
+    "cid": "LEGIARTI000020014299",
+    "num": "Annexe \u00e0 l'article A931-10-14",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1985-12-21",
+                        "fin": "2999-01-01",
+                        "titre": "Annexes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006106026",
+                        "id": "LEGISCTA000006106026",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 35,
+                "titreTxt": [
+                    {
+                        "debut": "1958-10-16",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la s\u00e9curit\u00e9 sociale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006073189",
+                        "id": "LEGITEXT000006073189",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000020014337",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. A931-10-14",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "A931-10-14",
+                    "articleId": "LEGIARTI000006735027",
+                    "natureText": "CODE",
+                    "date": 1599838116533,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 858643200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000019997263",
+                    "textTitle": "Arr\u00eat\u00e9 du 22 d\u00e9cembre 2008 - art. 5",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000020014116",
+                    "natureText": "ARRETE",
+                    "datePubliTexte": "2008-12-28",
+                    "dateSignaTexte": "2008-12-22",
+                    "dateDebutCible": "2009-01-01"
+                }
+            ],
+            "num": "Annexe \u00e0 l'article A931-10-14",
+            "origine": "LEGI",
+            "texte": "Pour le calcul du b du 1\u00b0 de l'article A. 931-10-14 , le tableau suivant pourra \u00eatre utilis\u00e9 pour le calcul des taux de rendement par \u00e9ch\u00e9ance : EXERCICE N N + 1 k = N + i pour i = 2, 3, 4 et 5 k = N + i pour i \u00b9 5 Obligations (A) A (N) A (N + 1) A (k) A (k) Obligations amorties et arriv\u00e9es \u00e0 terme dans l'ann\u00e9e (B) A (N + 1)-A (N) B (k) = A (k)-A (k-1) B (k) = A (k)-A (k-1) Coupons de l'ann\u00e9e (C) = TME * (A) A (N + 1) * TME C (k) = A (k) * TME C (k) = A (k) * TME Coupons et r\u00e9investissements d'obligations capitalis\u00e9s (D) B (N + 1) * (1 + 75 % * TME) D (k) = (B (k) + C (k-1) + D (k-1) * (1 + 75 % * TME) D (k) = (B (k) + C (k-1) + D (k-1) * (1 + 60 % * TME) Autres actifs (E) E (N) E (N) * (1 + 75 % * TME) E (k) = E (k-1) * (1 + 75 % * TME) E (k) = E (k-1) * (1 + 60 % * TME) Total actif (F) = (A) + (C) + (D) + (E) F (N) F (N + 1) F (k) F (k) Rendement (G) F (N + 1) / F (N)-1 F (k) / F (k-1)-1 F (k) / F (k-1)-1",
+            "texteHtml": "<p>Pour le calcul du b du 1\u00b0 de <a href='/article/LEGIARTI000006735027'>l'article A. 931-10-14</a>, le tableau suivant pourra \u00eatre utilis\u00e9 pour le calcul des taux de rendement par \u00e9ch\u00e9ance : <br/><br/></p><center><table border='1'><tbody><tr><th><br/></th><th><br/></th><th><br/>EXERCICE N <br/></th><th><br/>N + 1 <br/></th><th><br/>k = N + i <br/><br/>pour i = 2, 3, 4 et 5 <br/></th><th><br/>k = N + i pour i \u00b9 5 <br/></th></tr><tr><td align='center'><br/>Obligations <br/></td><td align='center'><br/>(A) <br/></td><td align='center'><br/>A (N) <br/></td><td align='center'><br/>A (N + 1) <br/></td><td align='center'><br/>A (k) <br/></td><td align='center'><br/>A (k) <br/></td></tr><tr><td align='center'><br/>Obligations amorties et arriv\u00e9es \u00e0 terme dans l'ann\u00e9e <br/></td><td align='center'><br/>(B) <br/></td><td align='center'><br/><br/></td><td align='center'><br/>A (N + 1)-A (N) <br/></td><td align='center'><br/>B (k) = A (k)-A (k-1) <br/></td><td align='center'><br/>B (k) = A (k)-A (k-1) <br/></td></tr><tr><td align='center'><br/>Coupons de l'ann\u00e9e <br/></td><td align='center'><br/>(C) = TME * (A) <br/></td><td align='center'><br/><br/></td><td align='center'><br/>A (N + 1) * TME <br/></td><td align='center'><br/>C (k) = A (k) * TME <br/></td><td align='center'><br/>C (k) = A (k) * TME <br/></td></tr><tr><td align='center'><br/>Coupons et r\u00e9investissements d'obligations capitalis\u00e9s <br/></td><td align='center'><br/>(D) <br/></td><td align='center'><br/><br/></td><td align='center'><br/>B (N + 1) * (1 + 75 % * TME) <br/></td><td align='center'><br/>D (k) = (B (k) + C (k-1) + <br/><br/>D (k-1) * (1 + 75 % * TME) <br/></td><td align='center'><br/>D (k) = (B (k) + C (k-1) + <br/><br/>D (k-1) * (1 + 60 % * TME) <br/></td></tr><tr><td align='center'><br/>Autres actifs <br/></td><td align='center'><br/>(E) <br/></td><td align='center'><br/>E (N) <br/></td><td align='center'><br/>E (N) * (1 + 75 % * TME) <br/></td><td align='center'><br/>E (k) = E (k-1) * <br/><br/>(1 + 75 % * TME) <br/></td><td align='center'><br/>E (k) = E (k-1) * <br/><br/>(1 + 60 % * TME) <br/></td></tr><tr><td align='center'><br/>Total actif <br/></td><td align='center'><br/>(F) = (A) + (C) <br/><br/>+ (D) + (E) <br/></td><td align='center'><br/>F (N) <br/></td><td align='center'><br/>F (N + 1) <br/></td><td align='center'><br/>F (k) <br/></td><td align='center'><br/>F (k) <br/></td></tr><tr><td align='center'><br/>Rendement <br/></td><td align='center'><br/>(G) <br/></td><td align='center'><br/><br/></td><td align='center'><br/>F (N + 1) / F (N)-1 <br/></td><td align='center'><br/>F (k) / F (k-1)-1 <br/></td><td align='center'><br/>F (k) / F (k-1)-1</td></tr></tbody></table></center><p><br/><br/><br/></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2009-01-01T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        }
+    ]
+}
