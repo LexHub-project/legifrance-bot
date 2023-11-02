@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000034083704",
-    "num": "D542-92",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000046726624",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "S'ils ne figurent pas dans l'inventaire de r\u00e9f\u00e9rence, les combustibles us\u00e9s issus de l'exploitation des r\u00e9acteurs \u00e9lectronucl\u00e9aires, des r\u00e9acteurs exp\u00e9rimentaux et de la propulsion nucl\u00e9aire navale sont int\u00e9gr\u00e9s dans l'inventaire de r\u00e9serve.",
+            "texteHtml": "<p>S'ils ne figurent pas dans l'inventaire de r\u00e9f\u00e9rence, les combustibles us\u00e9s issus de l'exploitation des r\u00e9acteurs \u00e9lectronucl\u00e9aires, des r\u00e9acteurs exp\u00e9rimentaux et de la propulsion nucl\u00e9aire navale sont int\u00e9gr\u00e9s dans l'inventaire de r\u00e9serve.</p>",
+            "num": "D542-92",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1670716800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2145386495,
             "context": {
                 "titresTM": [
                     {
@@ -43,24 +58,42 @@
                     },
                     {
                         "debut": "2017-02-26",
-                        "fin": "2999-01-01",
+                        "fin": "2022-12-11",
                         "titre": "Section 9 : Plan national de gestion des mati\u00e8res et d\u00e9chets radioactifs",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000034083658",
                         "id": "LEGISCTA000034083658",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-12-11",
+                        "fin": "2999-01-01",
+                        "titre": "Section 9 : Plan national de gestion des mati\u00e8res et d\u00e9chets radioactifs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000034083658",
+                        "id": "LEGISCTA000046726691",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2017-02-26",
-                        "fin": "2999-01-01",
+                        "fin": "2022-12-11",
                         "titre": "Sous-section 4 : Gestion \u00e0 long terme des d\u00e9chets radioactifs",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000034083684",
                         "id": "LEGISCTA000034083684",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-12-11",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 4 : Gestion \u00e0 long terme des d\u00e9chets radioactifs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000034083684",
+                        "id": "LEGISCTA000046726682",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -74,26 +107,257 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000034083704",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000034083704",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000034083684",
+            "sectionParentId": "LEGISCTA000046726682",
+            "sectionParentTitre": "Sous-section 4 : Gestion \u00e0 long terme des d\u00e9chets radioactifs",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre II : Dispositions particuli\u00e8res \u00e0 la gestion durable des mati\u00e8res et des d\u00e9chets radioactifs &gt; Section 9 : Plan national de gestion des mati\u00e8res et d\u00e9chets radioactifs &gt; Sous-section 4 : Gestion \u00e0 long terme des d\u00e9chets radioactifs",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000046726624",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L542-1-3",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L542-1-3",
-                    "articleId": "LEGIARTI000025108232",
-                    "natureText": "CODE",
-                    "date": 1599835777781,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325894400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000046719283",
+                    "textTitle": "D\u00e9cret n\u00b02022-1547 du 9 d\u00e9cembre 2022 - art. 2",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000046722000",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2022-12-10",
+                    "dateSignaTexte": "2022-12-09",
+                    "dateDebutCible": "2022-12-11"
+                }
+            ],
+            "lienCitations": [],
             "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000034083704",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1488067200000,
+                    "dateFin": 1670716800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046726624",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1670716800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D542-92",
+                "542-92"
+            ],
+            "versionPrecedente": "LEGIARTI000034083704",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000034083704",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les producteurs de d\u00e9chets radioactifs \u00e9tudient les modes de conditionnement \u00e0 mettre en \u0153uvre pour les d\u00e9chets de moyenne activit\u00e9 \u00e0 vie longue produits avant 2015, de fa\u00e7on \u00e0 respecter l'\u00e9ch\u00e9ance fix\u00e9e \u00e0 l'article L. 542-1-3 . Avant chaque mise \u00e0 jour du plan national de gestion des mati\u00e8res et des d\u00e9chets radioactifs, ils pr\u00e9sentent un \u00e9tat d'avancement de ces travaux au ministre charg\u00e9 de l'\u00e9nergie et \u00e0 l'Autorit\u00e9 de s\u00fbret\u00e9 nucl\u00e9aire.",
+            "texteHtml": "<p>Les producteurs de d\u00e9chets radioactifs \u00e9tudient les modes de conditionnement \u00e0 mettre en \u0153uvre pour les d\u00e9chets de moyenne activit\u00e9 \u00e0 vie longue produits avant 2015, de fa\u00e7on \u00e0 respecter l'\u00e9ch\u00e9ance fix\u00e9e \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000025108232&dateTexte=&categorieLien=cid'>L. 542-1-3</a>. Avant chaque mise \u00e0 jour du plan national de gestion des mati\u00e8res et des d\u00e9chets radioactifs, ils pr\u00e9sentent un \u00e9tat d'avancement de ces travaux au ministre charg\u00e9 de l'\u00e9nergie et \u00e0 l'Autorit\u00e9 de s\u00fbret\u00e9 nucl\u00e9aire.</p>",
+            "num": "D542-92",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1488067200000,
+            "dateFin": 1670716800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2145386495,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2003-08-07",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108631",
+                        "id": "LEGISCTA000006108631",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2007-10-16",
+                        "fin": "2999-01-01",
+                        "titre": "Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129034",
+                        "id": "LEGISCTA000006129034",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2007-10-16",
+                        "fin": "2999-01-01",
+                        "titre": "Titre IV : D\u00e9chets",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143787",
+                        "id": "LEGISCTA000006143787",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2007-10-16",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Dispositions particuli\u00e8res \u00e0 la gestion durable des mati\u00e8res et des d\u00e9chets radioactifs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159432",
+                        "id": "LEGISCTA000006159432",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2017-02-26",
+                        "fin": "2022-12-11",
+                        "titre": "Section 9 : Plan national de gestion des mati\u00e8res et d\u00e9chets radioactifs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000034083658",
+                        "id": "LEGISCTA000034083658",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-12-11",
+                        "fin": "2999-01-01",
+                        "titre": "Section 9 : Plan national de gestion des mati\u00e8res et d\u00e9chets radioactifs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000034083658",
+                        "id": "LEGISCTA000046726691",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2017-02-26",
+                        "fin": "2022-12-11",
+                        "titre": "Sous-section 4 : Gestion \u00e0 long terme des d\u00e9chets radioactifs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000034083684",
+                        "id": "LEGISCTA000034083684",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-12-11",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 4 : Gestion \u00e0 long terme des d\u00e9chets radioactifs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000034083684",
+                        "id": "LEGISCTA000046726682",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000034083704",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000034083684",
+            "sectionParentId": "LEGISCTA000046726682",
+            "sectionParentTitre": "Sous-section 4 : Gestion \u00e0 long terme des d\u00e9chets radioactifs",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre II : Dispositions particuli\u00e8res \u00e0 la gestion durable des mati\u00e8res et des d\u00e9chets radioactifs &gt; Section 9 : Plan national de gestion des mati\u00e8res et d\u00e9chets radioactifs &gt; Sous-section 4 : Gestion \u00e0 long terme des d\u00e9chets radioactifs",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000034083704",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000034080281",
@@ -108,13 +372,56 @@
                     "dateDebutCible": "2017-02-26"
                 }
             ],
-            "num": "D542-92",
-            "origine": "LEGI",
-            "texte": "Les producteurs de d\u00e9chets radioactifs \u00e9tudient les modes de conditionnement \u00e0 mettre en \u0153uvre pour les d\u00e9chets de moyenne activit\u00e9 \u00e0 vie longue produits avant 2015, de fa\u00e7on \u00e0 respecter l'\u00e9ch\u00e9ance fix\u00e9e \u00e0 l'article L. 542-1-3 . Avant chaque mise \u00e0 jour du plan national de gestion des mati\u00e8res et des d\u00e9chets radioactifs, ils pr\u00e9sentent un \u00e9tat d'avancement de ces travaux au ministre charg\u00e9 de l'\u00e9nergie et \u00e0 l'Autorit\u00e9 de s\u00fbret\u00e9 nucl\u00e9aire.",
-            "texteHtml": "<p>Les producteurs de d\u00e9chets radioactifs \u00e9tudient les modes de conditionnement \u00e0 mettre en \u0153uvre pour les d\u00e9chets de moyenne activit\u00e9 \u00e0 vie longue produits avant 2015, de fa\u00e7on \u00e0 respecter l'\u00e9ch\u00e9ance fix\u00e9e \u00e0 l'article <a href='/article/LEGIARTI000025108232'>L. 542-1-3</a>. Avant chaque mise \u00e0 jour du plan national de gestion des mati\u00e8res et des d\u00e9chets radioactifs, ils pr\u00e9sentent un \u00e9tat d'avancement de ces travaux au ministre charg\u00e9 de l'\u00e9nergie et \u00e0 l'Autorit\u00e9 de s\u00fbret\u00e9 nucl\u00e9aire.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-02-26T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L542-1-3",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L542-1-3",
+                    "articleId": "LEGIARTI000025108232",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1325894400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000034083704",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1488067200000,
+                    "dateFin": 1670716800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046726624",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1670716800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D542-92",
+                "542-92"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

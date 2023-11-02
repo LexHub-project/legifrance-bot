@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031210187",
-    "num": "L111-6",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000047300284",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "En dehors des espaces urbanis\u00e9s des communes, les constructions ou installations sont interdites dans une bande de cent m\u00e8tres de part et d'autre de l'axe des autoroutes, des routes express et des d\u00e9viations au sens du code de la voirie routi\u00e8re et de soixante-quinze m\u00e8tres de part et d'autre de l'axe des autres routes class\u00e9es \u00e0 grande circulation.",
+            "texteHtml": "<p></p><p>En dehors des espaces urbanis\u00e9s des communes, les constructions ou installations sont interdites dans une bande de cent m\u00e8tres de part et d'autre de l'axe des autoroutes, des routes express et des d\u00e9viations au sens du code de la voirie routi\u00e8re et de soixante-quinze m\u00e8tres de part et d'autre de l'axe des autres routes class\u00e9es \u00e0 grande circulation.<br/></p><p></p>",
+            "num": "L111-6",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1678579200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -83,24 +98,80 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031210187",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031210187",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031210185",
+            "sectionParentId": "LEGISCTA000031212582",
+            "sectionParentTitre": "Paragraphe 2 : Constructibilit\u00e9 interdite le long des grands axes routiers",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : R\u00e9glementation de l'urbanisme &gt; Titre Ier : R\u00e8gles applicables sur l'ensemble du territoire &gt; Chapitre Ier : R\u00e8glement national d'urbanisme &gt; Section 1 : Localisation, implantation et desserte des constructions et am\u00e9nagements &gt; Sous-section 1 : Localisation et implantation &gt; Paragraphe 2 : Constructibilit\u00e9 interdite le long des grands axes routiers",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000047300284",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006070667",
-                    "textTitle": "Code de la voirie routi\u00e8re (V)",
-                    "linkType": "CITATION",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000031204500",
+                    "textTitle": "ORDONNANCE n\u00b02015-1174 du 23 septembre 2015 - art.",
+                    "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "LEGITEXT000006070667",
-                    "natureText": "CODE",
-                    "date": 1599840608226,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 614649600000
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
                 },
+                {
+                    "textCid": "JORFTEXT000047294244",
+                    "textTitle": "LOI n\u00b02023-175 du 10 mars 2023 - art. 34",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "34",
+                    "articleId": "LEGIARTI000047296461",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2023-03-11",
+                    "dateSignaTexte": "2023-03-10",
+                    "dateDebutCible": "2023-03-12"
+                }
+            ],
+            "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006074075",
                     "textTitle": "Code de l'urbanisme - art. L111-10 (VD)",
@@ -109,7 +180,6 @@
                     "articleNum": "L111-10",
                     "articleId": "LEGIARTI000031210195",
                     "natureText": "CODE",
-                    "date": 1599840608227,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -121,13 +191,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "L111-7",
-                    "articleId": "LEGIARTI000039369951",
+                    "articleId": "LEGIARTI000047300277",
                     "natureText": "CODE",
-                    "date": 1599840608227,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1573344000000
+                    "dateDebut": 1678579200000
                 },
                 {
                     "textCid": "LEGITEXT000006074075",
@@ -137,7 +206,6 @@
                     "articleNum": "L111-8",
                     "articleId": "LEGIARTI000031210191",
                     "natureText": "CODE",
-                    "date": 1599840608227,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -151,7 +219,6 @@
                     "articleNum": "L111-9",
                     "articleId": "LEGIARTI000031210193",
                     "natureText": "CODE",
-                    "date": 1599840608227,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -165,7 +232,6 @@
                     "articleNum": "L141-19",
                     "articleId": "LEGIARTI000031210954",
                     "natureText": "CODE",
-                    "date": 1599840608227,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -183,6 +249,185 @@
                     "natureText": "CODE"
                 }
             ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031210187",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1678579200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000047300284",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1678579200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L111-6",
+                "111-6"
+            ],
+            "versionPrecedente": "LEGIARTI000031210187",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000031210187",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "En dehors des espaces urbanis\u00e9s des communes, les constructions ou installations sont interdites dans une bande de cent m\u00e8tres de part et d'autre de l'axe des autoroutes, des routes express et des d\u00e9viations au sens du code de la voirie routi\u00e8re et de soixante-quinze m\u00e8tres de part et d'autre de l'axe des autres routes class\u00e9es \u00e0 grande circulation. Cette interdiction s'applique \u00e9galement dans une bande de soixante-quinze m\u00e8tres de part et d'autre des routes vis\u00e9es \u00e0 l'article L. 141-19.",
+            "texteHtml": "<p></p><p>En dehors des espaces urbanis\u00e9s des communes, les constructions ou installations sont interdites dans une bande de cent m\u00e8tres de part et d'autre de l'axe des autoroutes, des routes express et des d\u00e9viations au sens du code de la voirie routi\u00e8re et de soixante-quinze m\u00e8tres de part et d'autre de l'axe des autres routes class\u00e9es \u00e0 grande circulation.<br/>\nCette interdiction s'applique \u00e9galement dans une bande de soixante-quinze m\u00e8tres de part et d'autre des routes vis\u00e9es \u00e0 l'article L. 141-19.</p><p></p>",
+            "num": "L111-6",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1451606400000,
+            "dateFin": 1678579200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1973-03-27",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107992",
+                        "id": "LEGISCTA000006107992",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : R\u00e9glementation de l'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031210062",
+                        "id": "LEGISCTA000031212669",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : R\u00e8gles applicables sur l'ensemble du territoire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031210165",
+                        "id": "LEGISCTA000031212597",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : R\u00e8glement national d'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031210167",
+                        "id": "LEGISCTA000031212595",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Localisation, implantation et desserte des constructions et am\u00e9nagements",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031210173",
+                        "id": "LEGISCTA000031212591",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 1 : Localisation et implantation",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031210175",
+                        "id": "LEGISCTA000031212589",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 2 : Constructibilit\u00e9 interdite le long des grands axes routiers",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031210185",
+                        "id": "LEGISCTA000031212582",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 53,
+                "titreTxt": [
+                    {
+                        "debut": "1973-01-03",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074075",
+                        "id": "LEGITEXT000006074075",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000031210187",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031210185",
+            "sectionParentId": "LEGISCTA000031212582",
+            "sectionParentTitre": "Paragraphe 2 : Constructibilit\u00e9 interdite le long des grands axes routiers",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : R\u00e9glementation de l'urbanisme &gt; Titre Ier : R\u00e8gles applicables sur l'ensemble du territoire &gt; Chapitre Ier : R\u00e8glement national d'urbanisme &gt; Section 1 : Localisation, implantation et desserte des constructions et am\u00e9nagements &gt; Sous-section 1 : Localisation et implantation &gt; Paragraphe 2 : Constructibilit\u00e9 interdite le long des grands axes routiers",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031210187",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031204500",
@@ -209,13 +454,118 @@
                     "dateDebutCible": "2016-01-01"
                 }
             ],
-            "num": "L111-6",
-            "origine": "LEGI",
-            "texte": "En dehors des espaces urbanis\u00e9s des communes, les constructions ou installations sont interdites dans une bande de cent m\u00e8tres de part et d'autre de l'axe des autoroutes, des routes express et des d\u00e9viations au sens du code de la voirie routi\u00e8re et de soixante-quinze m\u00e8tres de part et d'autre de l'axe des autres routes class\u00e9es \u00e0 grande circulation. Cette interdiction s'applique \u00e9galement dans une bande de soixante-quinze m\u00e8tres de part et d'autre des routes vis\u00e9es \u00e0 l'article L. 141-19.",
-            "texteHtml": "<p></p><p>En dehors des espaces urbanis\u00e9s des communes, les constructions ou installations sont interdites dans une bande de cent m\u00e8tres de part et d'autre de l'axe des autoroutes, des routes express et des d\u00e9viations au sens du code de la voirie routi\u00e8re et de soixante-quinze m\u00e8tres de part et d'autre de l'axe des autres routes class\u00e9es \u00e0 grande circulation.<br/>\nCette interdiction s'applique \u00e9galement dans une bande de soixante-quinze m\u00e8tres de part et d'autre des routes vis\u00e9es \u00e0 l'article L. 141-19.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L111-10 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L111-10",
+                    "articleId": "LEGIARTI000031210195",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L111-7 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L111-7",
+                    "articleId": "LEGIARTI000039369951",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1573344000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L111-8 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L111-8",
+                    "articleId": "LEGIARTI000031210191",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L111-9 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L111-9",
+                    "articleId": "LEGIARTI000031210193",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L141-19 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L141-19",
+                    "articleId": "LEGIARTI000031210954",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L111-1-4, alin\u00e9as 1 et 2 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L111-1-4",
+                    "articleId": "LEGIARTI000028810564",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031210187",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1678579200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000047300284",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1678579200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L111-6",
+                "111-6"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }
