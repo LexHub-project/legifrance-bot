@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000044421017",
-    "num": "L137-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000044427568",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tout agent public a acc\u00e8s \u00e0 son dossier individuel.",
+            "texteHtml": "<p><br/>Tout agent public a acc\u00e8s \u00e0 son dossier individuel.</p>",
+            "num": "L137-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1646092800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1717986916,
             "context": {
                 "titresTM": [
                     {
@@ -56,21 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000044427568",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000044421017",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000044421009",
+            "sectionParentId": "LEGISCTA000044427576",
+            "sectionParentTitre": "Chapitre VII : Garanties relatives au dossier individuel",
+            "fullSectionsTitre": "PARTIE L\u00c9GISLATIVE &gt; Livre Ier : DROITS, OBLIGATIONS ET PROTECTIONS &gt; Titre III : PROTECTIONS ET GARANTIES &gt; Chapitre VII : Garanties relatives au dossier individuel",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000044427568",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000504704",
-                    "textTitle": "Loi n\u00b0 83-634 du 13 juillet 1983 - art. 18, al. 3 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "18",
-                    "articleId": "LEGIARTI000020959368",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000044416551",
+                    "titre": "Code g\u00e9n\u00e9ral de la fonction publique",
+                    "titreLong": "Code g\u00e9n\u00e9ral de la fonction publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1646092800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000044416551",
+                    "datePubli": 1638748800000,
+                    "datePubliComputed": 1638748800000,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000044411525",
@@ -97,13 +144,43 @@
                     "dateDebutCible": "2022-03-01"
                 }
             ],
-            "num": "L137-4",
-            "origine": "LEGI",
-            "texte": "Tout agent public a acc\u00e8s \u00e0 son dossier individuel.",
-            "texteHtml": "<p><br/>Tout agent public a acc\u00e8s \u00e0 son dossier individuel.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-03-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000504704",
+                    "textTitle": "Loi n\u00b0 83-634 du 13 juillet 1983 - art. 18, al. 3 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "18",
+                    "articleId": "LEGIARTI000020959368",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000044427568",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1646092800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L137-4",
+                "137-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

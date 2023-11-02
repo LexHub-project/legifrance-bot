@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006815278",
-    "num": "R322-154",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006815279",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les soci\u00e9t\u00e9s \u00e0 forme tontini\u00e8re ne peuvent avoir pour objet de garantir \u00e0 leurs adh\u00e9rents que la liquidation d'une association leur procurera une somme d\u00e9termin\u00e9e \u00e0 l'avance.",
+            "texteHtml": "<p></p>   Les soci\u00e9t\u00e9s \u00e0 forme tontini\u00e8re ne peuvent avoir pour objet de garantir \u00e0 leurs adh\u00e9rents que la liquidation d'une association leur procurera une somme d\u00e9termin\u00e9e \u00e0 l'avance.<p></p><p></p>",
+            "num": "R322-154",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 687484800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1374368,
             "context": {
                 "titresTM": [
                     {
@@ -65,36 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006815279",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006815278",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175656",
+            "sectionParentId": "LEGISCTA000006175656",
+            "sectionParentTitre": "Section VII : Tontines.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Les entreprises &gt; Titre II : R\u00e9gime administratif &gt; Chapitre II : R\u00e8gles de constitution et de fonctionnement &gt; Section VII : Tontines.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006815279",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R322-159 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R322-159",
-                    "articleId": "LEGIARTI000006815350",
-                    "natureText": "CODE",
-                    "date": 1599810804698,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 687484800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "",
-                    "textTitle": "D\u00e9cret 1938-12-30 art. 94",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000507291",
@@ -121,15 +153,84 @@
                     "dateDebutCible": "1991-10-15"
                 }
             ],
-            "num": "R322-154",
-            "origine": "LEGI",
-            "texte": "Les soci\u00e9t\u00e9s \u00e0 forme tontini\u00e8re ne peuvent avoir pour objet de garantir \u00e0 leurs adh\u00e9rents que la liquidation d'une association leur procurera une somme d\u00e9termin\u00e9e \u00e0 l'avance.",
-            "texteHtml": "<p></p>   Les soci\u00e9t\u00e9s \u00e0 forme tontini\u00e8re ne peuvent avoir pour objet de garantir \u00e0 leurs adh\u00e9rents que la liquidation d'une association leur procurera une somme d\u00e9termin\u00e9e \u00e0 l'avance.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1991-10-15T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R322-159 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R322-159",
+                    "articleId": "LEGIARTI000006815350",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 687484800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 1938-12-30 art. 94",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006815278",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 687484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006815279",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 687484800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R322-154",
+                "322-154"
+            ],
+            "versionPrecedente": "LEGIARTI000006815278",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006815278",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Il est interdit aux soci\u00e9t\u00e9s \u00e0 forme tontini\u00e8re de garantir \u00e0 leurs adh\u00e9rents que la liquidation des associations dont ils font partie leur procurera une somme d\u00e9termin\u00e9e \u00e0 l'avance.",
+            "texteHtml": "<p></p>   Il est interdit aux soci\u00e9t\u00e9s \u00e0 forme tontini\u00e8re de garantir \u00e0 leurs adh\u00e9rents que la liquidation des associations dont ils font partie leur procurera une somme d\u00e9termin\u00e9e \u00e0 l'avance.<p></p><p></p>",
+            "num": "R*322-154",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 206755200000,
+            "dateFin": 687484800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1417317,
             "context": {
                 "titresTM": [
                     {
@@ -192,9 +293,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006815278",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006815278",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175656",
+            "sectionParentId": "LEGISCTA000006175656",
+            "sectionParentTitre": "Section VII : Tontines.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Les entreprises &gt; Titre II : R\u00e9gime administratif &gt; Chapitre II : R\u00e8gles de constitution et de fonctionnement &gt; Section VII : Tontines.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006815278",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000507291",
+                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000507291",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006073984",
@@ -204,7 +363,6 @@
                     "articleNum": "R322-159",
                     "articleId": "LEGIARTI000006815350",
                     "natureText": "CODE",
-                    "date": 1599810804360,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -222,27 +380,41 @@
                     "natureText": ""
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000507291",
-                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000507291",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "1976-07-21",
-                    "dateSignaTexte": "1976-07-16",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006815278",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 687484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006815279",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 687484800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R*322-154",
-            "origine": "LEGI",
-            "texte": "Il est interdit aux soci\u00e9t\u00e9s \u00e0 forme tontini\u00e8re de garantir \u00e0 leurs adh\u00e9rents que la liquidation des associations dont ils font partie leur procurera une somme d\u00e9termin\u00e9e \u00e0 l'avance.",
-            "texteHtml": "<p></p>   Il est interdit aux soci\u00e9t\u00e9s \u00e0 forme tontini\u00e8re de garantir \u00e0 leurs adh\u00e9rents que la liquidation des associations dont ils font partie leur procurera une somme d\u00e9termin\u00e9e \u00e0 l'avance.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1976-07-21T00:00:00.000Z",
-            "dateFin": "1991-10-15T00:00:00.000Z"
+            "computedNums": [
+                "R*322-154",
+                "322-154",
+                "R322-154"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

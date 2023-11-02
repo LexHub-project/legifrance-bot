@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006906230",
-    "num": "D311-14",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045682233",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires.",
+            "texteHtml": "<p>Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires.</p>",
+            "num": "D311-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1672531200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 858980,
             "context": {
                 "titresTM": [
                     {
@@ -83,30 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000045682233",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006906230",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196044",
+            "sectionParentId": "LEGISCTA000006196044",
+            "sectionParentTitre": "Paragraphe 2 : Composition et fonctionnement.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Action sociale et m\u00e9dico-sociale mise en oeuvre par des \u00e9tablissements et des services &gt; Titre Ier : Etablissements et services soumis \u00e0 autorisation &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 2 : Droit des usagers &gt; Sous-section 3 : Conseil de la vie sociale et autres formes de participation &gt; Paragraphe 2 : Composition et fonctionnement.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000045682233",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000437022",
-                    "textTitle": "D\u00e9cret 2004-287 2004-03-25 art. 13",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000437022",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000437022",
-                    "textTitle": "D\u00e9cret n\u00b02004-287 du 25 mars 2004 - art. 13 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "13",
-                    "articleId": "LEGIARTI000006684362",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006074069",
+                    "titre": "Code de l'action sociale et des familles",
+                    "titreLong": "Code de l'action sociale et des familles",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 977529600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074069",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "Conform\u00e9ment \u00e0 l\u2019article 2 du d\u00e9cret n\u00b0 2022-688 du 25 avril 2022, ces dispositions entrent en vigueur le 1er janvier 2023.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l\u2019article 2 du d\u00e9cret n\u00b0 2022-688 du 25 avril 2022, ces dispositions entrent en vigueur le 1er janvier 2023.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000441044",
@@ -133,15 +171,88 @@
                     "dateDebutCible": "2022-04-28"
                 }
             ],
-            "num": "D311-14",
-            "origine": "LEGI",
-            "texte": "Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires.",
-            "texteHtml": "<p>Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000437022",
+                    "textTitle": "D\u00e9cret 2004-287 2004-03-25 art. 13",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000437022",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000437022",
+                    "textTitle": "D\u00e9cret n\u00b02004-287 du 25 mars 2004 - art. 13 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "13",
+                    "articleId": "LEGIARTI000006684362",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006906230",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1098748800000,
+                    "dateFin": 1131062400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006906231",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1131062400000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045682233",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D311-14",
+                "311-14"
+            ],
+            "versionPrecedente": "LEGIARTI000006906231",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006906231",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires. Le mandat des personnels au conseil de la vie sociale cesse \u00e0 l'expiration de leur mandat pr\u00e9vu \u00e0 l'article D. 311-13 .",
+            "texteHtml": "<p></p>Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires. Le mandat des personnels au conseil de la vie sociale cesse \u00e0 l'expiration de leur mandat pr\u00e9vu \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074069&idArticle=LEGIARTI000006906229&dateTexte=&categorieLien=cid' title='Code de l'action sociale et des familles - art. D311-13 (V)'>D. 311-13</a>.<p></p><p></p>",
+            "num": "D311-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1131062400000,
+            "dateFin": 1672531200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 858980,
             "context": {
                 "titresTM": [
                     {
@@ -222,45 +333,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000006906231",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006906230",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196044",
+            "sectionParentId": "LEGISCTA000006196044",
+            "sectionParentTitre": "Paragraphe 2 : Composition et fonctionnement.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Action sociale et m\u00e9dico-sociale mise en oeuvre par des \u00e9tablissements et des services &gt; Titre Ier : Etablissements et services soumis \u00e0 autorisation &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 2 : Droit des usagers &gt; Sous-section 3 : Conseil de la vie sociale et autres formes de participation &gt; Paragraphe 2 : Composition et fonctionnement.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006906231",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074069",
-                    "textTitle": "Code de l'action sociale et des familles - art. D311-13 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "D311-13",
-                    "articleId": "LEGIARTI000006906229",
-                    "natureText": "CODE",
-                    "date": 1651093002321,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074069",
+                    "titre": "Code de l'action sociale et des familles",
+                    "titreLong": "Code de l'action sociale et des familles",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 977529600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074069",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1098748800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000437022",
-                    "textTitle": "D\u00e9cret 2004-287 2004-03-25 art. 13",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000437022",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000437022",
-                    "textTitle": "D\u00e9cret n\u00b02004-287 du 25 mars 2004 - art. 13 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "13",
-                    "articleId": "LEGIARTI000006684362",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000441044",
@@ -287,15 +406,102 @@
                     "dateDebutCible": "2005-11-04"
                 }
             ],
-            "num": "D311-14",
-            "origine": "LEGI",
-            "texte": "Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires. Le mandat des personnels au conseil de la vie sociale cesse \u00e0 l'expiration de leur mandat pr\u00e9vu \u00e0 l'article D. 311-13 .",
-            "texteHtml": "<p></p>Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires. Le mandat des personnels au conseil de la vie sociale cesse \u00e0 l'expiration de leur mandat pr\u00e9vu \u00e0 l'article <a href='/article/LEGIARTI000006906229' title='Code de l'action sociale et des familles - art. D311-13 (V)'>D. 311-13</a>.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-11-04T00:00:00.000Z",
-            "dateFin": "2023-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. D311-13 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "D311-13",
+                    "articleId": "LEGIARTI000006906229",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1098748800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000437022",
+                    "textTitle": "D\u00e9cret 2004-287 2004-03-25 art. 13",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000437022",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000437022",
+                    "textTitle": "D\u00e9cret n\u00b02004-287 du 25 mars 2004 - art. 13 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "13",
+                    "articleId": "LEGIARTI000006684362",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006906230",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1098748800000,
+                    "dateFin": 1131062400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006906231",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1131062400000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045682233",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D311-14",
+                "311-14"
+            ],
+            "versionPrecedente": "LEGIARTI000006906230",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006906230",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires.",
+            "texteHtml": "<p></p>   Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires.<p></p><p></p>",
+            "num": "D311-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1098748800000,
+            "dateFin": 1131062400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 901929,
             "context": {
                 "titresTM": [
                     {
@@ -376,9 +582,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006906230",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006906230",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196044",
+            "sectionParentId": "LEGISCTA000006196044",
+            "sectionParentTitre": "Paragraphe 2 : Composition et fonctionnement.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Action sociale et m\u00e9dico-sociale mise en oeuvre par des \u00e9tablissements et des services &gt; Titre Ier : Etablissements et services soumis \u00e0 autorisation &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 2 : Droit des usagers &gt; Sous-section 3 : Conseil de la vie sociale et autres formes de participation &gt; Paragraphe 2 : Composition et fonctionnement.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006906230",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074069",
+                    "titre": "Code de l'action sociale et des familles",
+                    "titreLong": "Code de l'action sociale et des familles",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 977529600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074069",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000441044",
+                    "textTitle": "D\u00e9cret 2004-1136 2004-10-21",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000441044",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2004-10-26",
+                    "dateSignaTexte": "2004-10-21",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -400,27 +664,49 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000441044",
-                    "textTitle": "D\u00e9cret 2004-1136 2004-10-21",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000441044",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2004-10-26",
-                    "dateSignaTexte": "2004-10-21",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006906230",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1098748800000,
+                    "dateFin": 1131062400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006906231",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1131062400000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045682233",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "D311-14",
-            "origine": "LEGI",
-            "texte": "Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires.",
-            "texteHtml": "<p></p>   Les suppl\u00e9ants des personnels sont d\u00e9sign\u00e9s dans les m\u00eames conditions que les titulaires.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-10-26T00:00:00.000Z",
-            "dateFin": "2005-11-04T00:00:00.000Z"
+            "computedNums": [
+                "D311-14",
+                "311-14"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

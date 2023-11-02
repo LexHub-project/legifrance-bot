@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023071595",
-    "num": "L4122-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023083390",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'hypoth\u00e8que est valable dix ans \u00e0 compter du jour de son inscription. Son effet cesse si l'inscription n'est pas renouvel\u00e9e avant l'expiration de ce d\u00e9lai.",
+            "texteHtml": "<p><br/>L'hypoth\u00e8que est valable dix ans \u00e0 compter du jour de son inscription. Son effet cesse si l'inscription n'est pas renouvel\u00e9e avant l'expiration de ce d\u00e9lai.</p>",
+            "num": "L4122-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1291161600000,
+            "dateFin": 1672531200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -74,21 +89,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000023083390",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000023071595",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023071585",
+            "sectionParentId": "LEGISCTA000023083400",
+            "sectionParentTitre": "Section 1 : Hypoth\u00e8ques",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; QUATRIEME PARTIE : NAVIGATION INTERIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE IER : LE BATEAU &gt; TITRE II : REGIME DE PROPRIETE &gt; Chapitre II : Hypoth\u00e8ques et privil\u00e8ges &gt; Section 1 : Hypoth\u00e8ques",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023083390",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000868914",
-                    "textTitle": "Loi du 5 juillet 1917, v. init., art. 21",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000868914",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -127,13 +174,43 @@
                     "dateDebutCible": "2021-09-17"
                 }
             ],
-            "num": "L4122-5",
-            "origine": "LEGI",
-            "texte": "L'hypoth\u00e8que est valable dix ans \u00e0 compter du jour de son inscription. Son effet cesse si l'inscription n'est pas renouvel\u00e9e avant l'expiration de ce d\u00e9lai.",
-            "texteHtml": "<p><br/>L'hypoth\u00e8que est valable dix ans \u00e0 compter du jour de son inscription. Son effet cesse si l'inscription n'est pas renouvel\u00e9e avant l'expiration de ce d\u00e9lai.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2023-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000868914",
+                    "textTitle": "Loi du 5 juillet 1917, v. init., art. 21",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000868914",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023083390",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4122-5",
+                "4122-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

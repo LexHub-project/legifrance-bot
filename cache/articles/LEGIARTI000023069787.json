@@ -1,265 +1,23 @@
 {
-    "cid": "LEGIARTI000023069787",
-    "num": "L1613-1",
+    "executionTime": 0,
     "listArticle": [
         {
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "2010-12-01",
-                        "fin": "2999-01-01",
-                        "titre": "PARTIE LEGISLATIVE",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000023706480",
-                        "id": "LEGISCTA000023706480",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2010-12-01",
-                        "fin": "2999-01-01",
-                        "titre": "PREMIERE PARTIE : DISPOSITIONS COMMUNES",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000023068935",
-                        "id": "LEGISCTA000023086517",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2010-12-01",
-                        "fin": "2999-01-01",
-                        "titre": "LIVRE VI : SURETE ET SECURITE DES TRANSPORTS",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000023069758",
-                        "id": "LEGISCTA000023085222",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2010-12-01",
-                        "fin": "2999-01-01",
-                        "titre": "TITRE IER : DISPOSITIONS COMMUNES APPLICABLES AUX OUVRAGES, SYSTEMES ET INFRASTUCTURES DE TRANSPORT",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000023069760",
-                        "id": "LEGISCTA000023085220",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2010-12-01",
-                        "fin": "2999-01-01",
-                        "titre": "Chapitre III : La mise en service",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000023069785",
-                        "id": "LEGISCTA000023085190",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 1,
-                "longeurChemin": 47,
-                "titreTxt": [
-                    {
-                        "debut": "2010-12-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des transports",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000023086525",
-                        "id": "LEGITEXT000023086525",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000039785793",
-            "lienAutres": [],
-            "lienCitations": [
-                {
-                    "textCid": "JORFTEXT000029675264",
-                    "textTitle": "D\u00c9CRET n\u00b02014-1273 du 30 octobre 2014 - art. (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGIARTI000044342718",
-                    "natureText": "DECRET",
-                    "date": 1637362462885,
-                    "parentCid": null,
-                    "numTexte": "2014-1273",
-                    "datePubli": 1414800000000,
-                    "dateDebut": 1637366400000
-                },
-                {
-                    "textCid": "JORFTEXT000034565884",
-                    "textTitle": "D\u00e9cret n\u00b02017-694 du 2 mai 2017 - art. 22 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "22",
-                    "articleId": "LEGIARTI000034575867",
-                    "natureText": "DECRET",
-                    "date": 1637362462885,
-                    "parentCid": null,
-                    "numTexte": "2017-694",
-                    "datePubli": 1493856000000,
-                    "dateDebut": 1514764800000
-                },
-                {
-                    "textCid": "JORFTEXT000034565884",
-                    "textTitle": "D\u00e9cret n\u00b02017-694 du 2 mai 2017 - art. 61 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "61",
-                    "articleId": "LEGIARTI000034575895",
-                    "natureText": "DECRET",
-                    "date": 1637362462885,
-                    "parentCid": null,
-                    "numTexte": "2017-694",
-                    "datePubli": 1493856000000,
-                    "dateDebut": 1493942400000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. D1112-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D1112-1",
-                    "articleId": "LEGIARTI000031212993",
-                    "natureText": "CODE",
-                    "date": 1637362462885,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1443139200000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. D1112-6 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D1112-6",
-                    "articleId": "LEGIARTI000029720765",
-                    "natureText": "CODE",
-                    "date": 1637362462885,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1415318400000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L1612-2 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L1612-2",
-                    "articleId": "LEGIARTI000038434189",
-                    "natureText": "CODE",
-                    "date": 1637362462885,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1560643200000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L1612-2-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L1612-2-1",
-                    "articleId": "LEGIARTI000039702793",
-                    "natureText": "CODE",
-                    "date": 1637362462885,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1560643200000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L1613-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L1613-2",
-                    "articleId": "LEGIARTI000039785788",
-                    "natureText": "CODE",
-                    "date": 1637362462886,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1560643200000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L5311-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L5311-2",
-                    "articleId": "LEGIARTI000023080787",
-                    "natureText": "CODE",
-                    "date": 1637362462886,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1291161600000
-                }
-            ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000319738",
-                    "textTitle": "Loi n\u00b082-1153 du 30 d\u00e9cembre 1982 - art. 13-1 (VT), alin\u00e9as 2 et 4, ecqc la mise en service, art. 13-2 (VT), alin\u00e9a 3, ecqc la mise en service",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "13-1",
-                    "articleId": "LEGIARTI000021486360",
-                    "natureText": "LOI"
-                },
-                {
-                    "textCid": "LEGITEXT000006074233",
-                    "textTitle": "Code des ports maritimes - art. L155-1 (VT), alin\u00e9a 3, ecqc la mise en service",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L155-1",
-                    "articleId": "LEGIARTI000006842498",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006074237",
-                    "textTitle": "Code du domaine public fluvial et de la navigat... - art. 30 (VT), alin\u00e9a 3, ecqc la mise en service",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "30",
-                    "articleId": "LEGIARTI000006846058",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000039666574",
-                    "textTitle": "LOI n\u00b02019-1428 du 24 d\u00e9cembre 2019 - art. 129 (V)",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "129",
-                    "articleId": "LEGIARTI000039668829",
-                    "natureText": "LOI",
-                    "datePubliTexte": "2019-12-26",
-                    "dateSignaTexte": "2019-12-24",
-                    "dateDebutCible": "2019-12-27"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Ordonnance n\u00b0 2010-1307 du 28 octobre 2010 - art. (V)",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "datePubliTexte": null,
-                    "dateSignaTexte": null,
-                    "dateDebutCible": null
-                }
-            ],
+            "id": "LEGIARTI000038434180",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0, 3\u00b0 et 4\u00b0 de l'article L. 1612-2 est subordonn\u00e9e \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.",
+            "texteHtml": "<p>La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0, 3\u00b0 et 4\u00b0 de l'article L. 1612-2 est subordonn\u00e9e \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures.<br/>\nCette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.</p>",
             "num": "L1613-1",
             "origine": "LEGI",
-            "texte": "La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0, 3\u00b0 et 4\u00b0 de l'article L. 1612-2 ou consacr\u00e9s exclusivement aux activit\u00e9s de cyclo-draisine et la mise en service des v\u00e9hicules mentionn\u00e9s \u00e0 l'article L. 1612-2-1 sont subordonn\u00e9es \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.",
-            "texteHtml": "<p>La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0, 3\u00b0 et 4\u00b0 de l'article L. 1612-2 ou consacr\u00e9s exclusivement aux activit\u00e9s de cyclo-draisine et la mise en service des v\u00e9hicules mentionn\u00e9s \u00e0 l'article <a href='/article/LEGIARTI000039702793' title='Code des transports - art. L1612-2-1 (V)'>L. 1612-2-1</a> sont subordonn\u00e9es \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. <br/>Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-06-16T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
-        },
-        {
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1560643200000,
+            "dateFin": 1560643200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -322,152 +80,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000038434180",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023069787",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023069785",
+            "sectionParentId": "LEGISCTA000023085190",
+            "sectionParentTitre": "Chapitre III : La mise en service",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; PREMIERE PARTIE : DISPOSITIONS COMMUNES &gt; LIVRE VI : SURETE ET SECURITE DES TRANSPORTS &gt; TITRE IER : DISPOSITIONS COMMUNES APPLICABLES AUX OUVRAGES, SYSTEMES ET INFRASTUCTURES DE TRANSPORT &gt; Chapitre III : La mise en service",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000038434180",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000029675264",
-                    "textTitle": "D\u00c9CRET n\u00b02014-1273 du 30 octobre 2014 - art. (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGIARTI000044342718",
-                    "natureText": "DECRET",
-                    "date": 1637362462866,
-                    "parentCid": null,
-                    "numTexte": "2014-1273",
-                    "datePubli": 1414800000000,
-                    "dateDebut": 1637366400000
-                },
-                {
-                    "textCid": "JORFTEXT000034565884",
-                    "textTitle": "D\u00e9cret n\u00b02017-694 du 2 mai 2017 - art. 22 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "22",
-                    "articleId": "LEGIARTI000034575867",
-                    "natureText": "DECRET",
-                    "date": 1637362462866,
-                    "parentCid": null,
-                    "numTexte": "2017-694",
-                    "datePubli": 1493856000000,
-                    "dateDebut": 1514764800000
-                },
-                {
-                    "textCid": "JORFTEXT000034565884",
-                    "textTitle": "D\u00e9cret n\u00b02017-694 du 2 mai 2017 - art. 61 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "61",
-                    "articleId": "LEGIARTI000034575895",
-                    "natureText": "DECRET",
-                    "date": 1637362462866,
-                    "parentCid": null,
-                    "numTexte": "2017-694",
-                    "datePubli": 1493856000000,
-                    "dateDebut": 1493942400000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. D1112-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D1112-1",
-                    "articleId": "LEGIARTI000031212993",
-                    "natureText": "CODE",
-                    "date": 1637362462866,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1443139200000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. D1112-6 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D1112-6",
-                    "articleId": "LEGIARTI000029720765",
-                    "natureText": "CODE",
-                    "date": 1637362462866,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1415318400000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L1612-2 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L1612-2",
-                    "articleId": "LEGIARTI000038434189",
-                    "natureText": "CODE",
-                    "date": 1637362462867,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1560643200000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L1613-2 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L1613-2",
-                    "articleId": "LEGIARTI000038434175",
-                    "natureText": "CODE",
-                    "date": 1637362462867,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1560643200000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L5311-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L5311-2",
-                    "articleId": "LEGIARTI000023080787",
-                    "natureText": "CODE",
-                    "date": 1637362462867,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1291161600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000319738",
-                    "textTitle": "Loi n\u00b082-1153 du 30 d\u00e9cembre 1982 - art. 13-1 (VT), alin\u00e9as 2 et 4, ecqc la mise en service, art. 13-2 (VT), alin\u00e9a 3, ecqc la mise en service",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "13-1",
-                    "articleId": "LEGIARTI000021486360",
-                    "natureText": "LOI"
-                },
-                {
-                    "textCid": "LEGITEXT000006074233",
-                    "textTitle": "Code des ports maritimes - art. L155-1 (VT), alin\u00e9a 3, ecqc la mise en service",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L155-1",
-                    "articleId": "LEGIARTI000006842498",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006074237",
-                    "textTitle": "Code du domaine public fluvial et de la navigat... - art. 30 (VT), alin\u00e9a 3, ecqc la mise en service",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "30",
-                    "articleId": "LEGIARTI000006846058",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "Conform\u00e9ment aux dispositions de l'article 7 de l'ordonnance n\u00b0 2019-397 du 30 avril 2019, ces dispositions entrent en vigueur le 16 juin 2019.",
+            "notaHtml": "<p>Conform\u00e9ment aux dispositions de l'article 7 de l'ordonnance n\u00b0 2019-397 du 30 avril 2019, ces dispositions entrent en vigueur le 16 juin 2019.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000038431722",
@@ -494,15 +153,202 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L1613-1",
-            "origine": "LEGI",
-            "texte": "La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0, 3\u00b0 et 4\u00b0 de l'article L. 1612-2 est subordonn\u00e9e \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.",
-            "texteHtml": "<p>La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0, 3\u00b0 et 4\u00b0 de l'article L. 1612-2 est subordonn\u00e9e \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures.<br/>\nCette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-06-16T00:00:00.000Z",
-            "dateFin": "2019-06-16T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000029675264",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1273 du 30 octobre 2014 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000047556041",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2014-1273",
+                    "datePubli": 1414800000000,
+                    "dateDebut": 1684368000000
+                },
+                {
+                    "textCid": "JORFTEXT000034565884",
+                    "textTitle": "D\u00e9cret n\u00b02017-694 du 2 mai 2017 - art. 22 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "22",
+                    "articleId": "LEGIARTI000034575867",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2017-694",
+                    "datePubli": 1493856000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "JORFTEXT000034565884",
+                    "textTitle": "D\u00e9cret n\u00b02017-694 du 2 mai 2017 - art. 61 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "61",
+                    "articleId": "LEGIARTI000034575895",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2017-694",
+                    "datePubli": 1493856000000,
+                    "dateDebut": 1493942400000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. D1112-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D1112-1",
+                    "articleId": "LEGIARTI000031212993",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1443139200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. D1112-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D1112-6",
+                    "articleId": "LEGIARTI000029720765",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1415318400000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L1612-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L1612-2",
+                    "articleId": "LEGIARTI000038434189",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1560643200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L1613-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L1613-2",
+                    "articleId": "LEGIARTI000038434175",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1560643200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L5311-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L5311-2",
+                    "articleId": "LEGIARTI000023080787",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1291161600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000319738",
+                    "textTitle": "Loi n\u00b082-1153 du 30 d\u00e9cembre 1982 - art. 13-1 (VT), alin\u00e9as 2 et 4, ecqc la mise en service, art. 13-2 (VT), alin\u00e9a 3, ecqc la mise en service",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "13-1",
+                    "articleId": "LEGIARTI000021486360",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "LEGITEXT000006074233",
+                    "textTitle": "Code des ports maritimes - art. L155-1 (VT), alin\u00e9a 3, ecqc la mise en service",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L155-1",
+                    "articleId": "LEGIARTI000006842498",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074237",
+                    "textTitle": "Code du domaine public fluvial et de la navigat... - art. 30 (VT), alin\u00e9a 3, ecqc la mise en service",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "30",
+                    "articleId": "LEGIARTI000006846058",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023085187",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 1560643200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038434180",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1560643200000,
+                    "dateFin": 1560643200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000039785793",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1560643200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L1613-1",
+                "1613-1"
+            ],
+            "versionPrecedente": "LEGIARTI000023085187",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000039785793",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0, 3\u00b0 et 4\u00b0 de l'article L. 1612-2 ou consacr\u00e9s exclusivement aux activit\u00e9s de cyclo-draisine et la mise en service des v\u00e9hicules mentionn\u00e9s \u00e0 l'article L. 1612-2-1 sont subordonn\u00e9es \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.",
+            "texteHtml": "<p>La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0, 3\u00b0 et 4\u00b0 de l'article L. 1612-2 ou consacr\u00e9s exclusivement aux activit\u00e9s de cyclo-draisine et la mise en service des v\u00e9hicules mentionn\u00e9s \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023086525&idArticle=LEGIARTI000039702793&dateTexte=&categorieLien=cid' title='Code des transports - art. L1612-2-1 (V)'>L. 1612-2-1</a> sont subordonn\u00e9es \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. <br/>Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.</p>",
+            "num": "L1613-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1560643200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -565,23 +411,92 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000023085187",
-            "lienAutres": [],
+            "cid": "LEGIARTI000023069787",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023069785",
+            "sectionParentId": "LEGISCTA000023085190",
+            "sectionParentTitre": "Chapitre III : La mise en service",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; PREMIERE PARTIE : DISPOSITIONS COMMUNES &gt; LIVRE VI : SURETE ET SECURITE DES TRANSPORTS &gt; TITRE IER : DISPOSITIONS COMMUNES APPLICABLES AUX OUVRAGES, SYSTEMES ET INFRASTUCTURES DE TRANSPORT &gt; Chapitre III : La mise en service",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000039785793",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "Conform\u00e9ment aux dispositions de l'article 7 de l'ordonnance n\u00b0 2019-397 du 30 avril 2019, ces dispositions entrent en vigueur le 16 juin 2019. Conform\u00e9ment au II de l\u2019article 129 de la loi n\u00b0 2019-1428 du 24 d\u00e9cembre 2019, ces dispositions entrent en vigueur \u00e0 compter de la date d'entr\u00e9e en vigueur de l'ordonnance n\u00b0 2019-397 du 30 avril 2019 portant transposition de la directive (UE) 2016/797 du Parlement europ\u00e9en et du Conseil du 11 mai 2016 relative \u00e0 l'interop\u00e9rabilit\u00e9 du syst\u00e8me ferroviaire au sein de l'Union europ\u00e9enne et de la directive (UE) 2016/798 du Parlement europ\u00e9en et du Conseil du 11 mai 2016 relative \u00e0 la s\u00e9curit\u00e9 ferroviaire et adaptation du droit fran\u00e7ais au r\u00e8glement (UE) 2016/796 du Parlement europ\u00e9en et du Conseil du 11 mai 2016 relatif \u00e0 l'Agence de l'Union europ\u00e9enne pour les chemins de fer et abrogeant le r\u00e8glement (CE) n\u00b0 881/2004.",
+            "notaHtml": "<p>Conform\u00e9ment aux dispositions de l'article 7 de l'ordonnance n\u00b0 2019-397 du 30 avril 2019, ces dispositions entrent en vigueur le 16 juin 2019.</p><p>Conform\u00e9ment au II de l\u2019article 129 de la loi n\u00b0 2019-1428 du 24 d\u00e9cembre 2019, ces dispositions entrent en vigueur \u00e0 compter de la date d'entr\u00e9e en vigueur de l'ordonnance n\u00b0 2019-397 du 30 avril 2019 portant transposition de la directive (UE) 2016/797 du Parlement europ\u00e9en et du Conseil du 11 mai 2016 relative \u00e0 l'interop\u00e9rabilit\u00e9 du syst\u00e8me ferroviaire au sein de l'Union europ\u00e9enne et de la directive (UE) 2016/798 du Parlement europ\u00e9en et du Conseil du 11 mai 2016 relative \u00e0 la s\u00e9curit\u00e9 ferroviaire et adaptation du droit fran\u00e7ais au r\u00e8glement (UE) 2016/796 du Parlement europ\u00e9en et du Conseil du 11 mai 2016 relatif \u00e0 l'Agence de l'Union europ\u00e9enne pour les chemins de fer et abrogeant le r\u00e8glement (CE) n\u00b0 881/2004.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000039666574",
+                    "textTitle": "LOI n\u00b02019-1428 du 24 d\u00e9cembre 2019 - art. 129 (V)",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "129",
+                    "articleId": "LEGIARTI000039668829",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2019-12-26",
+                    "dateSignaTexte": "2019-12-24",
+                    "dateDebutCible": "2019-12-27"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Ordonnance n\u00b0 2010-1307 du 28 octobre 2010 - art. (V)",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000029675264",
-                    "textTitle": "D\u00c9CRET n\u00b02014-1273 du 30 octobre 2014 - art. (VT)",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1273 du 30 octobre 2014 - art. (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "",
-                    "articleId": "LEGIARTI000044342718",
+                    "articleId": "LEGIARTI000047556041",
                     "natureText": "DECRET",
-                    "date": 1637362462867,
                     "parentCid": null,
                     "numTexte": "2014-1273",
                     "datePubli": 1414800000000,
-                    "dateDebut": 1637366400000
+                    "dateDebut": 1684368000000
                 },
                 {
                     "textCid": "JORFTEXT000034565884",
@@ -591,7 +506,6 @@
                     "articleNum": "22",
                     "articleId": "LEGIARTI000034575867",
                     "natureText": "DECRET",
-                    "date": 1637362462867,
                     "parentCid": null,
                     "numTexte": "2017-694",
                     "datePubli": 1493856000000,
@@ -605,7 +519,6 @@
                     "articleNum": "61",
                     "articleId": "LEGIARTI000034575895",
                     "natureText": "DECRET",
-                    "date": 1637362462867,
                     "parentCid": null,
                     "numTexte": "2017-694",
                     "datePubli": 1493856000000,
@@ -619,7 +532,6 @@
                     "articleNum": "D1112-1",
                     "articleId": "LEGIARTI000031212993",
                     "natureText": "CODE",
-                    "date": 1637362462868,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -633,7 +545,6 @@
                     "articleNum": "D1112-6",
                     "articleId": "LEGIARTI000029720765",
                     "natureText": "CODE",
-                    "date": 1637362462868,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -647,7 +558,6 @@
                     "articleNum": "L1612-2",
                     "articleId": "LEGIARTI000038434189",
                     "natureText": "CODE",
-                    "date": 1637362462868,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -655,17 +565,29 @@
                 },
                 {
                     "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L1613-2 (VD)",
+                    "textTitle": "Code des transports - art. L1612-2-1 (V)",
                     "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L1613-2",
-                    "articleId": "LEGIARTI000023085185",
+                    "linkOrientation": "source",
+                    "articleNum": "L1612-2-1",
+                    "articleId": "LEGIARTI000039702793",
                     "natureText": "CODE",
-                    "date": 1637362462868,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1291161600000
+                    "dateDebut": 1560643200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L1613-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L1613-2",
+                    "articleId": "LEGIARTI000039785788",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1560643200000
                 },
                 {
                     "textCid": "LEGITEXT000023086525",
@@ -675,7 +597,6 @@
                     "articleNum": "L5311-2",
                     "articleId": "LEGIARTI000023080787",
                     "natureText": "CODE",
-                    "date": 1637362462868,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -711,6 +632,176 @@
                     "natureText": "CODE"
                 }
             ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023085187",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 1560643200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038434180",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1560643200000,
+                    "dateFin": 1560643200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000039785793",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1560643200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L1613-1",
+                "1613-1"
+            ],
+            "versionPrecedente": "LEGIARTI000038434180",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000023085187",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0 et 3\u00b0 de l'article L. 1612-2 est subordonn\u00e9e \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.",
+            "texteHtml": "<p><br/>La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0 et 3\u00b0 de l'article L. 1612-2 est subordonn\u00e9e \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. <br/>Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.</p>",
+            "num": "L1613-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1291161600000,
+            "dateFin": 1560643200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2010-12-01",
+                        "fin": "2999-01-01",
+                        "titre": "PARTIE LEGISLATIVE",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000023706480",
+                        "id": "LEGISCTA000023706480",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2010-12-01",
+                        "fin": "2999-01-01",
+                        "titre": "PREMIERE PARTIE : DISPOSITIONS COMMUNES",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000023068935",
+                        "id": "LEGISCTA000023086517",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2010-12-01",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE VI : SURETE ET SECURITE DES TRANSPORTS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000023069758",
+                        "id": "LEGISCTA000023085222",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2010-12-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE IER : DISPOSITIONS COMMUNES APPLICABLES AUX OUVRAGES, SYSTEMES ET INFRASTUCTURES DE TRANSPORT",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000023069760",
+                        "id": "LEGISCTA000023085220",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2010-12-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : La mise en service",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000023069785",
+                        "id": "LEGISCTA000023085190",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2010-12-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des transports",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000023086525",
+                        "id": "LEGITEXT000023086525",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000023069787",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023069785",
+            "sectionParentId": "LEGISCTA000023085190",
+            "sectionParentTitre": "Chapitre III : La mise en service",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; PREMIERE PARTIE : DISPOSITIONS COMMUNES &gt; LIVRE VI : SURETE ET SECURITE DES TRANSPORTS &gt; TITRE IER : DISPOSITIONS COMMUNES APPLICABLES AUX OUVRAGES, SYSTEMES ET INFRASTUCTURES DE TRANSPORT &gt; Chapitre III : La mise en service",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023085187",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -725,13 +816,184 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L1613-1",
-            "origine": "LEGI",
-            "texte": "La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0 et 3\u00b0 de l'article L. 1612-2 est subordonn\u00e9e \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.",
-            "texteHtml": "<p><br/>La mise en service des ouvrages, infrastructures et syst\u00e8mes de transport mentionn\u00e9s aux 1\u00b0 et 3\u00b0 de l'article L. 1612-2 est subordonn\u00e9e \u00e0 une autorisation d\u00e9livr\u00e9e par l'autorit\u00e9 comp\u00e9tente, en fonction des garanties de s\u00e9curit\u00e9 offertes par les caract\u00e9ristiques et les modalit\u00e9s d'exploitation de ces ouvrages, syst\u00e8mes ou infrastructures. <br/>Cette autorisation peut \u00eatre assortie de conditions restrictives d'utilisation.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2019-06-16T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000029675264",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1273 du 30 octobre 2014 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000047556041",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2014-1273",
+                    "datePubli": 1414800000000,
+                    "dateDebut": 1684368000000
+                },
+                {
+                    "textCid": "JORFTEXT000034565884",
+                    "textTitle": "D\u00e9cret n\u00b02017-694 du 2 mai 2017 - art. 22 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "22",
+                    "articleId": "LEGIARTI000034575867",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2017-694",
+                    "datePubli": 1493856000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "JORFTEXT000034565884",
+                    "textTitle": "D\u00e9cret n\u00b02017-694 du 2 mai 2017 - art. 61 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "61",
+                    "articleId": "LEGIARTI000034575895",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2017-694",
+                    "datePubli": 1493856000000,
+                    "dateDebut": 1493942400000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. D1112-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D1112-1",
+                    "articleId": "LEGIARTI000031212993",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1443139200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. D1112-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D1112-6",
+                    "articleId": "LEGIARTI000029720765",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1415318400000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L1612-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L1612-2",
+                    "articleId": "LEGIARTI000038434189",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1560643200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L1613-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L1613-2",
+                    "articleId": "LEGIARTI000023085185",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1291161600000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L5311-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L5311-2",
+                    "articleId": "LEGIARTI000023080787",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1291161600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000319738",
+                    "textTitle": "Loi n\u00b082-1153 du 30 d\u00e9cembre 1982 - art. 13-1 (VT), alin\u00e9as 2 et 4, ecqc la mise en service, art. 13-2 (VT), alin\u00e9a 3, ecqc la mise en service",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "13-1",
+                    "articleId": "LEGIARTI000021486360",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "LEGITEXT000006074233",
+                    "textTitle": "Code des ports maritimes - art. L155-1 (VT), alin\u00e9a 3, ecqc la mise en service",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L155-1",
+                    "articleId": "LEGIARTI000006842498",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074237",
+                    "textTitle": "Code du domaine public fluvial et de la navigat... - art. 30 (VT), alin\u00e9a 3, ecqc la mise en service",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "30",
+                    "articleId": "LEGIARTI000006846058",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023085187",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 1560643200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038434180",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1560643200000,
+                    "dateFin": 1560643200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000039785793",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1560643200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L1613-1",
+                "1613-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

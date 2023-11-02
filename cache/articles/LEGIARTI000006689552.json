@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689552",
-    "num": "L4381-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006689554",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.",
+            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.<p></p><p></p>",
+            "num": "L4381-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1092700800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,45 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006689554",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689552",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171600",
+            "sectionParentId": "LEGISCTA000006171600",
+            "sectionParentTitre": "Chapitre Ier : Dispositions diverses applicables aux auxiliaires m\u00e9dicaux.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre VIII : Dispositions communes et comp\u00e9tences respectives de l'Etat et de la r\u00e9gion &gt; Chapitre Ier : Dispositions diverses applicables aux auxiliaires m\u00e9dicaux.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689554",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000021003024",
-                    "textTitle": "D\u00e9cret n\u00b02009-1036 du 25 ao\u00fbt 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000021003024",
-                    "natureText": "DECRET",
-                    "date": 1599820017332,
-                    "parentCid": null,
-                    "numTexte": "2009-1036",
-                    "datePubli": 1251417600000,
-                    "dateDebut": 32472144000000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L510-10",
-                    "articleId": "LEGIARTI000006693409",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L510-10",
-                    "articleId": "LEGIARTI000006693409",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "Loi 2004-809 2004-08-13 art. 73 IV : en vertu de l'art. 99 IV de la loi n\u00b0 2004-806 du 9 ao\u00fbt 2004, le chapitre unique est remplac\u00e9 par le chapitre 1 : \" Dispositions diverses applicables aux auxiliaires m\u00e9dicaux \". Or, l'art. 73 IV de la loi n\u00b0 2004-809 dispose : le chapitre unique du titre 8 du livre 3 de la 4e partie est remplac\u00e9 par un chapitre 1 intitul\u00e9 \" Dispositions communes \", et ne tient pas compte de la pr\u00e9c\u00e9dente modification.",
+            "notaHtml": "<p></p>  Loi 2004-809 2004-08-13 art. 73 IV : en vertu de l'art. 99 IV de la loi n\u00b0 2004-806 du 9 ao\u00fbt 2004, le chapitre unique est remplac\u00e9 par le chapitre 1 : \" Dispositions diverses applicables aux auxiliaires m\u00e9dicaux \". Or, l'art. 73 IV de la loi n\u00b0 2004-809 dispose : le chapitre unique du titre 8 du livre 3 de la 4e partie est remplac\u00e9 par un chapitre 1 intitul\u00e9 \" Dispositions communes \", et ne tient pas compte de la pr\u00e9c\u00e9dente modification.<p></p><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -160,15 +192,102 @@
                     "dateDebutCible": "2005-01-01"
                 }
             ],
-            "num": "L4381-2",
-            "origine": "LEGI",
-            "texte": "Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.",
-            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-08-17T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000021003024",
+                    "textTitle": "D\u00e9cret n\u00b02009-1036 du 25 ao\u00fbt 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000021003024",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2009-1036",
+                    "datePubli": 1251417600000,
+                    "dateDebut": 32472144000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L510-10",
+                    "articleId": "LEGIARTI000006693409",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L510-10",
+                    "articleId": "LEGIARTI000006693409",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689552",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1092182400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689553",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1092182400000,
+                    "dateFin": 1092700800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689554",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1092700800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4381-2",
+                "4381-2"
+            ],
+            "versionPrecedente": "LEGIARTI000006689553",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689553",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.",
+            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.<p></p><p></p>",
+            "num": "L4381-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1092182400000,
+            "dateFin": 1092700800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -209,11 +328,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -249,45 +377,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689553",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689552",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171565",
+            "sectionParentId": "LEGISCTA000006171565",
+            "sectionParentTitre": "Chapitre Ier : Dispositions diverses applicables aux auxiliaires m\u00e9dicaux.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689553",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000021003024",
-                    "textTitle": "D\u00e9cret n\u00b02009-1036 du 25 ao\u00fbt 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000021003024",
-                    "natureText": "DECRET",
-                    "date": 1599820020206,
-                    "parentCid": null,
-                    "numTexte": "2009-1036",
-                    "datePubli": 1251417600000,
-                    "dateDebut": 32472144000000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L510-10",
-                    "articleId": "LEGIARTI000006693409",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L510-10",
-                    "articleId": "LEGIARTI000006693409",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -326,15 +462,102 @@
                     "dateDebutCible": "2004-08-11"
                 }
             ],
-            "num": "L4381-2",
-            "origine": "LEGI",
-            "texte": "Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.",
-            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-08-11T00:00:00.000Z",
-            "dateFin": "2004-08-17T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000021003024",
+                    "textTitle": "D\u00e9cret n\u00b02009-1036 du 25 ao\u00fbt 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000021003024",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2009-1036",
+                    "datePubli": 1251417600000,
+                    "dateDebut": 32472144000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L510-10",
+                    "articleId": "LEGIARTI000006693409",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L510-10",
+                    "articleId": "LEGIARTI000006693409",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689552",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1092182400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689553",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1092182400000,
+                    "dateFin": 1092700800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689554",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1092700800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4381-2",
+                "4381-2"
+            ],
+            "versionPrecedente": "LEGIARTI000006689552",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689552",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.",
+            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.<p></p><p></p>",
+            "num": "L4381-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1092182400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -375,11 +598,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -415,45 +647,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689552",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689552",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171335",
+            "sectionParentId": "LEGISCTA000006171335",
+            "sectionParentTitre": "Chapitre unique.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre VIII : Dispositions communes",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689552",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000021003024",
-                    "textTitle": "D\u00e9cret n\u00b02009-1036 du 25 ao\u00fbt 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000021003024",
-                    "natureText": "DECRET",
-                    "date": 1599820016771,
-                    "parentCid": null,
-                    "numTexte": "2009-1036",
-                    "datePubli": 1251417600000,
-                    "dateDebut": 32472144000000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L510-10",
-                    "articleId": "LEGIARTI000006693409",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L510-10",
-                    "articleId": "LEGIARTI000006693409",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -480,13 +720,84 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L4381-2",
-            "origine": "LEGI",
-            "texte": "Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.",
-            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat pr\u00e9cisent les modalit\u00e9s d'exercice des professions mentionn\u00e9es au pr\u00e9sent livre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2004-08-11T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000021003024",
+                    "textTitle": "D\u00e9cret n\u00b02009-1036 du 25 ao\u00fbt 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000021003024",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2009-1036",
+                    "datePubli": 1251417600000,
+                    "dateDebut": 32472144000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L510-10",
+                    "articleId": "LEGIARTI000006693409",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-10 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L510-10",
+                    "articleId": "LEGIARTI000006693409",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689552",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1092182400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689553",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1092182400000,
+                    "dateFin": 1092700800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689554",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1092700800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4381-2",
+                "4381-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

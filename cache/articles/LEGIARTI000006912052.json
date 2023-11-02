@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006912052",
-    "num": "R3131-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023454422",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le silence de l'office pendant un d\u00e9lai de six mois \u00e0 compter de la date de r\u00e9ception du dossier complet fait na\u00eetre une d\u00e9cision implicite de rejet.",
+            "texteHtml": "<p>Le silence de l'office pendant un d\u00e9lai de six mois \u00e0 compter de la date de r\u00e9ception du dossier complet fait na\u00eetre une d\u00e9cision implicite de rejet. </p>",
+            "num": "R3131-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1295568000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -110,30 +125,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023454422",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006912052",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190467",
+            "sectionParentId": "LEGISCTA000038445797",
+            "sectionParentTitre": "Section 1 : Indemnisation des dommages r\u00e9sultant de la mise en \u0153uvre de mesures sanitaires mentionn\u00e9es aux articles L. 3131-1, L. 3134-1 et L. 3135-1",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Troisi\u00e8me partie : Lutte contre les maladies et d\u00e9pendances &gt; Livre Ier : Lutte contre les maladies transmissibles &gt; Titre III : Menaces sanitaires graves &gt; Chapitre Ier : Mesures d'urgences &gt; Section 1 : Indemnisation des dommages r\u00e9sultant de la mise en \u0153uvre de mesures sanitaires mentionn\u00e9es aux articles L. 3131-1 et L. 3134-1",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000023454422",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R3110-3 (T)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R3110-3",
-                    "articleId": "LEGIARTI000006911681",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R3110-3 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R3110-3",
-                    "articleId": "LEGIARTI000006911681",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000412528",
@@ -160,15 +198,79 @@
                     "dateDebutCible": "2011-01-21"
                 }
             ],
-            "num": "R3131-3",
-            "origine": "LEGI",
-            "texte": "Le silence de l'office pendant un d\u00e9lai de six mois \u00e0 compter de la date de r\u00e9ception du dossier complet fait na\u00eetre une d\u00e9cision implicite de rejet.",
-            "texteHtml": "<p>Le silence de l'office pendant un d\u00e9lai de six mois \u00e0 compter de la date de r\u00e9ception du dossier complet fait na\u00eetre une d\u00e9cision implicite de rejet. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-01-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R3110-3 (T)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R3110-3",
+                    "articleId": "LEGIARTI000006911681",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R3110-3 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3110-3",
+                    "articleId": "LEGIARTI000006911681",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006912052",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1188259200000,
+                    "dateFin": 1295568000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023454422",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1295568000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R3131-3",
+                "3131-3"
+            ],
+            "versionPrecedente": "LEGIARTI000006912052",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006912052",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La commission mentionn\u00e9e \u00e0 l'article R. 3131-2 prononce un avis motiv\u00e9 sur l'existence d'un lien de causalit\u00e9 entre le dommage subi par la victime et la mesure d'urgence prise en cas de menace sanitaire grave auquel il est imput\u00e9. Cet avis \u00e9num\u00e8re, le cas \u00e9ch\u00e9ant, les diff\u00e9rents chefs de pr\u00e9judice et en d\u00e9termine l'\u00e9tendue ; il pr\u00e9cise \u00e9galement si, \u00e0 la date o\u00f9 il est rendu, l'\u00e9tat de la victime est consolid\u00e9 ou non. La commission transmet cet avis au directeur de l'office qui d\u00e9termine, s'il y a lieu, une offre d'indemnisation, d\u00e9duction faite des prestations et indemnit\u00e9s de toutes natures mentionn\u00e9es \u00e0 l'article L. 3131-4 dont a b\u00e9n\u00e9fici\u00e9 ou b\u00e9n\u00e9ficiera la victime et l'adresse \u00e0 la victime ou \u00e0 ses ayants droit.",
+            "texteHtml": "<p></p>   La commission mentionn\u00e9e \u00e0 l'article R. 3131-2 prononce un avis motiv\u00e9 sur l'existence d'un lien de causalit\u00e9 entre le dommage subi par la victime et la mesure d'urgence prise en cas de menace sanitaire grave auquel il est imput\u00e9. Cet avis \u00e9num\u00e8re, le cas \u00e9ch\u00e9ant, les diff\u00e9rents chefs de pr\u00e9judice et en d\u00e9termine l'\u00e9tendue ; il pr\u00e9cise \u00e9galement si, \u00e0 la date o\u00f9 il est rendu, l'\u00e9tat de la victime est consolid\u00e9 ou non.<p></p><p></p>   La commission transmet cet avis au directeur de l'office qui d\u00e9termine, s'il y a lieu, une offre d'indemnisation, d\u00e9duction faite des prestations et indemnit\u00e9s de toutes natures mentionn\u00e9es \u00e0 l'article L. 3131-4 dont a b\u00e9n\u00e9fici\u00e9 ou b\u00e9n\u00e9ficiera la victime et l'adresse \u00e0 la victime ou \u00e0 ses ayants droit.<p></p>",
+            "num": "R3131-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1188259200000,
+            "dateFin": 1295568000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -276,59 +378,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006912052",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006912052",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190467",
+            "sectionParentId": "LEGISCTA000038445797",
+            "sectionParentTitre": "Section 1 : Indemnisation des dommages r\u00e9sultant de la mise en \u0153uvre de mesures sanitaires mentionn\u00e9es aux articles L. 3131-1, L. 3134-1 et L. 3135-1",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Troisi\u00e8me partie : Lutte contre les maladies et d\u00e9pendances &gt; Livre Ier : Lutte contre les maladies transmissibles &gt; Titre III : Menaces sanitaires graves &gt; Chapitre Ier : Mesures d'urgences &gt; Section 1 : Indemnisation des dommages r\u00e9sultant de la mise en \u0153uvre de mesures sanitaires mentionn\u00e9es aux articles L. 3131-1 et L. 3134-1",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006912052",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L3131-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L3131-4",
-                    "articleId": "LEGIARTI000006687870",
-                    "natureText": "CODE",
-                    "date": 1599807112826,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1188345600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R3131-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R3131-2",
-                    "articleId": "LEGIARTI000006912051",
-                    "natureText": "CODE",
-                    "date": 1599807112826,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1557014400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R3110-3 (T)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R3110-3",
-                    "articleId": "LEGIARTI000006911681",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R3110-3 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R3110-3",
-                    "articleId": "LEGIARTI000006911681",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000412528",
@@ -355,13 +451,88 @@
                     "dateDebutCible": "2007-08-28"
                 }
             ],
-            "num": "R3131-3",
-            "origine": "LEGI",
-            "texte": "La commission mentionn\u00e9e \u00e0 l'article R. 3131-2 prononce un avis motiv\u00e9 sur l'existence d'un lien de causalit\u00e9 entre le dommage subi par la victime et la mesure d'urgence prise en cas de menace sanitaire grave auquel il est imput\u00e9. Cet avis \u00e9num\u00e8re, le cas \u00e9ch\u00e9ant, les diff\u00e9rents chefs de pr\u00e9judice et en d\u00e9termine l'\u00e9tendue ; il pr\u00e9cise \u00e9galement si, \u00e0 la date o\u00f9 il est rendu, l'\u00e9tat de la victime est consolid\u00e9 ou non. La commission transmet cet avis au directeur de l'office qui d\u00e9termine, s'il y a lieu, une offre d'indemnisation, d\u00e9duction faite des prestations et indemnit\u00e9s de toutes natures mentionn\u00e9es \u00e0 l'article L. 3131-4 dont a b\u00e9n\u00e9fici\u00e9 ou b\u00e9n\u00e9ficiera la victime et l'adresse \u00e0 la victime ou \u00e0 ses ayants droit.",
-            "texteHtml": "<p></p>   La commission mentionn\u00e9e \u00e0 l'article R. 3131-2 prononce un avis motiv\u00e9 sur l'existence d'un lien de causalit\u00e9 entre le dommage subi par la victime et la mesure d'urgence prise en cas de menace sanitaire grave auquel il est imput\u00e9. Cet avis \u00e9num\u00e8re, le cas \u00e9ch\u00e9ant, les diff\u00e9rents chefs de pr\u00e9judice et en d\u00e9termine l'\u00e9tendue ; il pr\u00e9cise \u00e9galement si, \u00e0 la date o\u00f9 il est rendu, l'\u00e9tat de la victime est consolid\u00e9 ou non.<p></p><p></p>   La commission transmet cet avis au directeur de l'office qui d\u00e9termine, s'il y a lieu, une offre d'indemnisation, d\u00e9duction faite des prestations et indemnit\u00e9s de toutes natures mentionn\u00e9es \u00e0 l'article L. 3131-4 dont a b\u00e9n\u00e9fici\u00e9 ou b\u00e9n\u00e9ficiera la victime et l'adresse \u00e0 la victime ou \u00e0 ses ayants droit.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-08-28T00:00:00.000Z",
-            "dateFin": "2011-01-21T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L3131-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L3131-4",
+                    "articleId": "LEGIARTI000006687870",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1188345600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R3131-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R3131-2",
+                    "articleId": "LEGIARTI000006912051",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1557014400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R3110-3 (T)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R3110-3",
+                    "articleId": "LEGIARTI000006911681",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R3110-3 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3110-3",
+                    "articleId": "LEGIARTI000006911681",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006912052",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1188259200000,
+                    "dateFin": 1295568000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023454422",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1295568000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R3131-3",
+                "3131-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

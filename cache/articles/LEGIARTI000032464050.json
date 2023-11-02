@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000032464050",
-    "num": "R632-16-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000032464050",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Une  charte d\u00e9finissant les principes d\u00e9ontologiques auxquels sont tenus de  se conformer les membres du coll\u00e8ge, les membres de la commission  nationale et des commissions locales d'agr\u00e9ment et de contr\u00f4le et les  agents du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est \u00e9tablie  par arr\u00eat\u00e9 du ministre de l'int\u00e9rieur.",
+            "texteHtml": "<div align='left'>Une  charte d\u00e9finissant les principes d\u00e9ontologiques auxquels sont tenus de  se conformer les membres du coll\u00e8ge, les membres de la commission  nationale et des commissions locales d'agr\u00e9ment et de contr\u00f4le et les  agents du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est \u00e9tablie  par arr\u00eat\u00e9 du ministre de l'int\u00e9rieur.</div>",
+            "num": "R632-16-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1461888000000,
+            "dateFin": 1661990400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656474",
                         "id": "LEGISCTA000029658006",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2022-09-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656474",
                         "id": "LEGISCTA000045456489",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -83,26 +98,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000032464050",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000032464050",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656474",
+            "sectionParentId": "LEGISCTA000045456489",
+            "sectionParentTitre": "Sous-section 3 : Directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre II : Missions et fonctionnement du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 &gt; Section 2 : Organisation administrative et fonctionnement &gt; Sous-section 3 : Directeur du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000032464050",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000034493381",
-                    "textTitle": "Arr\u00eat\u00e9 du 20 avril 2017 - art. (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGIARTI000034499389",
-                    "natureText": "ARRETE",
-                    "date": 1648759608903,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1493251200000,
-                    "dateDebut": 1493337600000
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000032459858",
@@ -129,13 +171,47 @@
                     "dateDebutCible": "2022-04-01"
                 }
             ],
-            "num": "R632-16-1",
-            "origine": "LEGI",
-            "texte": "Une  charte d\u00e9finissant les principes d\u00e9ontologiques auxquels sont tenus de  se conformer les membres du coll\u00e8ge, les membres de la commission  nationale et des commissions locales d'agr\u00e9ment et de contr\u00f4le et les  agents du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est \u00e9tablie  par arr\u00eat\u00e9 du ministre de l'int\u00e9rieur.",
-            "texteHtml": "<div align='left'>Une  charte d\u00e9finissant les principes d\u00e9ontologiques auxquels sont tenus de  se conformer les membres du coll\u00e8ge, les membres de la commission  nationale et des commissions locales d'agr\u00e9ment et de contr\u00f4le et les  agents du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 est \u00e9tablie  par arr\u00eat\u00e9 du ministre de l'int\u00e9rieur.</div>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-04-29T00:00:00.000Z",
-            "dateFin": "2022-09-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000034493381",
+                    "textTitle": "Arr\u00eat\u00e9 du 20 avril 2017 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000034499389",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1493251200000,
+                    "dateDebut": 1493337600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000032464050",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1461888000000,
+                    "dateFin": 1661990400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R632-16-1",
+                "632-16-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006687485",
-    "num": "L2161-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006687485",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Comme il est dit \u00e0 l'article 511-20 du code p\u00e9nal ci-apr\u00e8s reproduit : \" Le fait de proc\u00e9der au diagnostic pr\u00e9natal sans avoir re\u00e7u l'autorisation mentionn\u00e9e \u00e0 l'article L. 2131-1 du code de la sant\u00e9 publique est puni de deux ans d'emprisonnement et de 30 000 euros d'amende. \"",
+            "texteHtml": "<p>Comme il est dit \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006070719&idArticle=LEGIARTI000006418927&dateTexte=&categorieLien=cid' title='Code p\u00e9nal - art. 511-20 (V)'>511-20</a> du code p\u00e9nal ci-apr\u00e8s reproduit : </p><p>\" Le fait de proc\u00e9der au diagnostic pr\u00e9natal sans avoir re\u00e7u l'autorisation mentionn\u00e9e \u00e0 l'article L. 2131-1 du code de la sant\u00e9 publique est puni de deux ans d'emprisonnement et de 30 000 euros d'amende. \"</p>",
+            "num": "L2161-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1091836800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -92,55 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006687485",
-            "lienAutres": [
+            "cid": "LEGIARTI000006687485",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171139",
+            "sectionParentId": "LEGISCTA000006171139",
+            "sectionParentTitre": "Chapitre Ier : Diagnostic pr\u00e9natal.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Deuxi\u00e8me partie : Sant\u00e9 de la famille, de la m\u00e8re et de l'enfant &gt; Livre Ier : Protection et promotion de la sant\u00e9 maternelle et infantile &gt; Titre VI : Dispositions p\u00e9nales &gt; Chapitre Ier : Diagnostic pr\u00e9natal.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006687485",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006070719",
-                    "textTitle": "Code p\u00e9nal - art. 511-20 (V)",
-                    "linkType": "PILOTE_SUIVEUR",
-                    "linkOrientation": "source",
-                    "articleNum": "511-20",
-                    "articleId": "LEGIARTI000006418927",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L2131-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L2131-1",
-                    "articleId": "LEGIARTI000006687390",
-                    "natureText": "CODE",
-                    "date": 1599116950441,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L2151-1 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L2151-1",
-                    "articleId": "LEGIARTI000006687450",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L2151-1 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L2151-1",
-                    "articleId": "LEGIARTI000006687451",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -179,13 +192,76 @@
                     "dateDebutCible": "2004-08-07"
                 }
             ],
-            "num": "L2161-1",
-            "origine": "LEGI",
-            "texte": "Comme il est dit \u00e0 l'article 511-20 du code p\u00e9nal ci-apr\u00e8s reproduit : \" Le fait de proc\u00e9der au diagnostic pr\u00e9natal sans avoir re\u00e7u l'autorisation mentionn\u00e9e \u00e0 l'article L. 2131-1 du code de la sant\u00e9 publique est puni de deux ans d'emprisonnement et de 30 000 euros d'amende. \"",
-            "texteHtml": "<p>Comme il est dit \u00e0 l'article <a href='/article/LEGIARTI000006418927' title='Code p\u00e9nal - art. 511-20 (V)'>511-20</a> du code p\u00e9nal ci-apr\u00e8s reproduit : </p><p>\" Le fait de proc\u00e9der au diagnostic pr\u00e9natal sans avoir re\u00e7u l'autorisation mentionn\u00e9e \u00e0 l'article L. 2131-1 du code de la sant\u00e9 publique est puni de deux ans d'emprisonnement et de 30 000 euros d'amende. \"</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-08-07T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L2131-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L2131-1",
+                    "articleId": "LEGIARTI000006687390",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L2151-1 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L2151-1",
+                    "articleId": "LEGIARTI000006687450",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L2151-1 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2151-1",
+                    "articleId": "LEGIARTI000006687451",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006070719",
+                    "textTitle": "Code p\u00e9nal - art. 511-20 (V)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "source",
+                    "articleNum": "511-20",
+                    "articleId": "LEGIARTI000006418927",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006687485",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1091836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2161-1",
+                "2161-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

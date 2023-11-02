@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006749399",
-    "num": "R351-43",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045681407",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension : 1\u00b0 La cessation de son activit\u00e9 ; 2\u00b0 L'exercice de toute activit\u00e9 professionnelle autre que celle ou celles qui lui ouvrent droit au service de la fraction de pension ; 3\u00b0 La reprise de l'exercice d'une activit\u00e9 \u00e0 temps plein.",
+            "texteHtml": "<p>L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension :</p><p>1\u00b0 La cessation de son activit\u00e9 ;</p><p>2\u00b0 L'exercice de toute activit\u00e9 professionnelle autre que celle ou celles qui lui ouvrent droit au service de la fraction de pension ;</p><p>3\u00b0 La reprise de l'exercice d'une activit\u00e9 \u00e0 temps plein.</p><p></p>",
+            "num": "R351-43",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "ABROGE",
+            "dateDebut": 1640995200000,
+            "dateFin": 1693526400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -43,12 +58,12 @@
                     },
                     {
                         "debut": "1988-05-04",
-                        "fin": "2999-01-01",
+                        "fin": "2023-09-01",
                         "titre": "Section 10 : Retraite progressive.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006173405",
                         "id": "LEGISCTA000006173405",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -65,68 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045681407",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006749399",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006173405",
+            "sectionParentId": "LEGISCTA000006173405",
+            "sectionParentTitre": "Section 10 : Retraite progressive.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Dispositions relatives aux assurances sociales et \u00e0 diverses cat\u00e9gories de personnes rattach\u00e9es au r\u00e9gime g\u00e9n\u00e9ral &gt; Titre V : Assurance vieillesse - Assurance veuvage &gt; Chapitre 1er : Ouverture du droit, liquidation et calcul des pensions de retraite.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000045681407",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D634-1",
-                    "articleId": "LEGIARTI000041966654",
-                    "natureText": "CODE",
-                    "date": 1651092806716,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1590364800000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-19 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D634-19",
-                    "articleId": "LEGIARTI000036130408",
-                    "natureText": "CODE",
-                    "date": 1651092806716,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1512259200000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L351-16",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L351-16",
-                    "articleId": "LEGIARTI000006742646",
-                    "natureText": "CODE",
-                    "date": 1651092806717,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1514764800000
-                },
-                {
-                    "textCid": "KALITEXT000018562295",
-                    "textTitle": "Epargne salariale - art. (VE)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "KALIARTI000023106231",
-                    "natureText": "Avenant",
-                    "date": 1651092806717,
-                    "parentCid": null,
-                    "numTexte": "61",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1269388800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Conform\u00e9ment \u00e0 l'article 7 du d\u00e9cret n\u00b0 2022-677 du 26 avril 2022, ces dispositions entrent en vigueur le 1er janvier 2022 et s'appliquent aux pensions de retraite liquid\u00e9es \u00e0 titre provisoire qui prennent effet \u00e0 compter de cette date.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 7 du d\u00e9cret n\u00b0 2022-677 du 26 avril 2022, ces dispositions entrent en vigueur le 1er janvier 2022 et s'appliquent aux pensions de retraite liquid\u00e9es \u00e0 titre provisoire qui prennent effet \u00e0 compter de cette date.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000866621",
@@ -151,17 +151,136 @@
                     "datePubliTexte": "2022-04-27",
                     "dateSignaTexte": "2022-04-26",
                     "dateDebutCible": "2022-04-28"
+                },
+                {
+                    "textCid": "JORFTEXT000047956244",
+                    "textTitle": "D\u00e9cret n\u00b02023-751 du 10 ao\u00fbt 2023 - art. 2",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000047957565",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-08-11",
+                    "dateSignaTexte": "2023-08-10",
+                    "dateDebutCible": "2023-08-12"
                 }
             ],
-            "num": "R351-43",
-            "origine": "LEGI",
-            "texte": "L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension : 1\u00b0 La cessation de son activit\u00e9 ; 2\u00b0 L'exercice de toute activit\u00e9 professionnelle autre que celle ou celles qui lui ouvrent droit au service de la fraction de pension ; 3\u00b0 La reprise de l'exercice d'une activit\u00e9 \u00e0 temps plein.",
-            "texteHtml": "<p>L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension :</p><p>1\u00b0 La cessation de son activit\u00e9 ;</p><p>2\u00b0 L'exercice de toute activit\u00e9 professionnelle autre que celle ou celles qui lui ouvrent droit au service de la fraction de pension ;</p><p>3\u00b0 La reprise de l'exercice d'une activit\u00e9 \u00e0 temps plein.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D634-1",
+                    "articleId": "LEGIARTI000047961824",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1693526400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-19 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D634-19",
+                    "articleId": "LEGIARTI000036130408",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1512259200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L351-16",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L351-16",
+                    "articleId": "LEGIARTI000006742646",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "KALITEXT000018562295",
+                    "textTitle": "Epargne salariale - art. (VE)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "KALIARTI000023106231",
+                    "natureText": "Avenant",
+                    "parentCid": null,
+                    "numTexte": "61",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1269388800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006749399",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 578707200000,
+                    "dateFin": 1512259200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036130401",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1512259200000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045681407",
+                    "etat": "ABROGE",
+                    "version": "3.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1693526400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R351-43",
+                "351-43"
+            ],
+            "versionPrecedente": "LEGIARTI000036130401",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000036130401",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension : 1\u00b0 La cessation de son activit\u00e9 ; 2\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps partiel autre que celle ou celles qui lui ouvrent droit au service de la fraction de pension ; 3\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps complet. La suppression de la pension \u00e0 laquelle il est proc\u00e9d\u00e9 en application de l'article L. 351-16 prend effet au premier jour du mois suivant celui au cours duquel est intervenue la cessation ou la modification de l'activit\u00e9 professionnelle.",
+            "texteHtml": "<p>L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension : </p><p>1\u00b0 La cessation de son activit\u00e9 ; </p><p>2\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps partiel autre que celle ou celles qui lui ouvrent droit au service de la fraction de pension ; </p><p>3\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps complet. </p><p>La suppression de la pension \u00e0 laquelle il est proc\u00e9d\u00e9 en application de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000006742646&dateTexte=&categorieLien=cid'>L. 351-16</a> prend effet au premier jour du mois suivant celui au cours duquel est intervenue la cessation ou la modification de l'activit\u00e9 professionnelle.</p>",
+            "num": "R351-43",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1512259200000,
+            "dateFin": 1640995200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -202,12 +321,12 @@
                     },
                     {
                         "debut": "1988-05-04",
-                        "fin": "2999-01-01",
+                        "fin": "2023-09-01",
                         "titre": "Section 10 : Retraite progressive.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006173405",
                         "id": "LEGISCTA000006173405",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -224,68 +343,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000036130401",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006749399",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006173405",
+            "sectionParentId": "LEGISCTA000006173405",
+            "sectionParentTitre": "Section 10 : Retraite progressive.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Dispositions relatives aux assurances sociales et \u00e0 diverses cat\u00e9gories de personnes rattach\u00e9es au r\u00e9gime g\u00e9n\u00e9ral &gt; Titre V : Assurance vieillesse - Assurance veuvage &gt; Chapitre 1er : Ouverture du droit, liquidation et calcul des pensions de retraite. &gt; Section 10 : Retraite progressive.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000036130401",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D634-1",
-                    "articleId": "LEGIARTI000041966654",
-                    "natureText": "CODE",
-                    "date": 1651092806893,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1590364800000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-19 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D634-19",
-                    "articleId": "LEGIARTI000036130408",
-                    "natureText": "CODE",
-                    "date": 1651092806893,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1512259200000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L351-16",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L351-16",
-                    "articleId": "LEGIARTI000006742646",
-                    "natureText": "CODE",
-                    "date": 1651092806893,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1514764800000
-                },
-                {
-                    "textCid": "KALITEXT000018562295",
-                    "textTitle": "Epargne salariale - art. (VE)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "KALIARTI000023106231",
-                    "natureText": "Avenant",
-                    "date": 1651092806893,
-                    "parentCid": null,
-                    "numTexte": "61",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1269388800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000866621",
@@ -312,15 +416,122 @@
                     "dateDebutCible": "2017-12-03"
                 }
             ],
-            "num": "R351-43",
-            "origine": "LEGI",
-            "texte": "L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension : 1\u00b0 La cessation de son activit\u00e9 ; 2\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps partiel autre que celle ou celles qui lui ouvrent droit au service de la fraction de pension ; 3\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps complet. La suppression de la pension \u00e0 laquelle il est proc\u00e9d\u00e9 en application de l'article L. 351-16 prend effet au premier jour du mois suivant celui au cours duquel est intervenue la cessation ou la modification de l'activit\u00e9 professionnelle.",
-            "texteHtml": "<p>L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension : </p><p>1\u00b0 La cessation de son activit\u00e9 ; </p><p>2\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps partiel autre que celle ou celles qui lui ouvrent droit au service de la fraction de pension ; </p><p>3\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps complet. </p><p>La suppression de la pension \u00e0 laquelle il est proc\u00e9d\u00e9 en application de l'article <a href='/article/LEGIARTI000006742646'>L. 351-16</a> prend effet au premier jour du mois suivant celui au cours duquel est intervenue la cessation ou la modification de l'activit\u00e9 professionnelle.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-12-03T00:00:00.000Z",
-            "dateFin": "2022-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D634-1",
+                    "articleId": "LEGIARTI000047961824",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1693526400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-19 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D634-19",
+                    "articleId": "LEGIARTI000036130408",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1512259200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L351-16",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L351-16",
+                    "articleId": "LEGIARTI000006742646",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "KALITEXT000018562295",
+                    "textTitle": "Epargne salariale - art. (VE)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "KALIARTI000023106231",
+                    "natureText": "Avenant",
+                    "parentCid": null,
+                    "numTexte": "61",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1269388800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006749399",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 578707200000,
+                    "dateFin": 1512259200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036130401",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1512259200000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045681407",
+                    "etat": "ABROGE",
+                    "version": "3.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1693526400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R351-43",
+                "351-43"
+            ],
+            "versionPrecedente": "LEGIARTI000006749399",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006749399",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension : 1\u00b0 La cessation de son activit\u00e9 ; 2\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps partiel autre que celle qui lui ouvre droit au service de la fraction de pension ; 3\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps complet. La suppression de la pension \u00e0 laquelle il est proc\u00e9d\u00e9 en application de l'article L. 351-16 prend effet au premier jour du mois suivant celui au cours duquel est intervenue la cessation ou la modification de l'activit\u00e9 professionnelle.",
+            "texteHtml": "<p></p>   L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension :<p></p><p></p>   1\u00b0 La cessation de son activit\u00e9 ;<p></p><p></p>   2\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps partiel autre que celle qui lui ouvre droit au service de la fraction de pension ;<p></p><p></p>   3\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps complet.<p></p><p></p>   La suppression de la pension \u00e0 laquelle il est proc\u00e9d\u00e9 en application de l'article L. 351-16 prend effet au premier jour du mois suivant celui au cours duquel est intervenue la cessation ou la modification de l'activit\u00e9 professionnelle.<p></p>",
+            "num": "R351-43",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 578707200000,
+            "dateFin": 1512259200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -361,12 +572,12 @@
                     },
                     {
                         "debut": "1988-05-04",
-                        "fin": "2999-01-01",
+                        "fin": "2023-09-01",
                         "titre": "Section 10 : Retraite progressive.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006173405",
                         "id": "LEGISCTA000006173405",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -383,68 +594,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006749399",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006749399",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006173405",
+            "sectionParentId": "LEGISCTA000006173405",
+            "sectionParentTitre": "Section 10 : Retraite progressive.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Dispositions relatives aux assurances sociales et \u00e0 diverses cat\u00e9gories de personnes rattach\u00e9es au r\u00e9gime g\u00e9n\u00e9ral &gt; Titre V : Assurance vieillesse - Assurance veuvage &gt; Chapitre 1er : Ouverture du droit, liquidation et calcul des pensions de retraite. &gt; Section 10 : Retraite progressive.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006749399",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D634-1",
-                    "articleId": "LEGIARTI000041966654",
-                    "natureText": "CODE",
-                    "date": 1651092806660,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1590364800000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-19 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D634-19",
-                    "articleId": "LEGIARTI000036130408",
-                    "natureText": "CODE",
-                    "date": 1651092806660,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1512259200000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L351-16 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L351-16",
-                    "articleId": "LEGIARTI000006742646",
-                    "natureText": "CODE",
-                    "date": 1651092806660,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1514764800000
-                },
-                {
-                    "textCid": "KALITEXT000018562295",
-                    "textTitle": "Epargne salariale - art. (VE)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "KALIARTI000023106231",
-                    "natureText": "Avenant",
-                    "date": 1651092806660,
-                    "parentCid": null,
-                    "numTexte": "61",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1269388800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000866621",
@@ -471,13 +667,104 @@
                     "dateDebutCible": "1988-05-04"
                 }
             ],
-            "num": "R351-43",
-            "origine": "LEGI",
-            "texte": "L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension : 1\u00b0 La cessation de son activit\u00e9 ; 2\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps partiel autre que celle qui lui ouvre droit au service de la fraction de pension ; 3\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps complet. La suppression de la pension \u00e0 laquelle il est proc\u00e9d\u00e9 en application de l'article L. 351-16 prend effet au premier jour du mois suivant celui au cours duquel est intervenue la cessation ou la modification de l'activit\u00e9 professionnelle.",
-            "texteHtml": "<p></p>   L'assur\u00e9 est tenu de faire conna\u00eetre \u00e0 la caisse assurant le service de la fraction de pension :<p></p><p></p>   1\u00b0 La cessation de son activit\u00e9 ;<p></p><p></p>   2\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps partiel autre que celle qui lui ouvre droit au service de la fraction de pension ;<p></p><p></p>   3\u00b0 L'exercice d'une activit\u00e9 \u00e0 temps complet.<p></p><p></p>   La suppression de la pension \u00e0 laquelle il est proc\u00e9d\u00e9 en application de l'article L. 351-16 prend effet au premier jour du mois suivant celui au cours duquel est intervenue la cessation ou la modification de l'activit\u00e9 professionnelle.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1988-05-04T00:00:00.000Z",
-            "dateFin": "2017-12-03T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D634-1",
+                    "articleId": "LEGIARTI000047961824",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1693526400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. D634-19 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D634-19",
+                    "articleId": "LEGIARTI000036130408",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1512259200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L351-16 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L351-16",
+                    "articleId": "LEGIARTI000006742646",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "KALITEXT000018562295",
+                    "textTitle": "Epargne salariale - art. (VE)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "KALIARTI000023106231",
+                    "natureText": "Avenant",
+                    "parentCid": null,
+                    "numTexte": "61",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1269388800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006749399",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 578707200000,
+                    "dateFin": 1512259200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036130401",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1512259200000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045681407",
+                    "etat": "ABROGE",
+                    "version": "3.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1693526400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R351-43",
+                "351-43"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

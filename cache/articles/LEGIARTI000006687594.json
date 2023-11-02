@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006687594",
-    "num": "L2321-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006687595",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les conditions relatives au personnel, ainsi que, en tant que de besoin, les modalit\u00e9s d'application des dispositions du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p></p>   Les conditions relatives au personnel, ainsi que, en tant que de besoin, les modalit\u00e9s d'application des dispositions du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
+            "num": "L2321-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1062806400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -92,30 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006687595",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006687594",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171153",
+            "sectionParentId": "LEGISCTA000006171153",
+            "sectionParentTitre": "Chapitre Ier : Maisons d'enfants \u00e0 caract\u00e8re sanitaire.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Deuxi\u00e8me partie : Sant\u00e9 de la famille, de la m\u00e8re et de l'enfant &gt; Livre III : Etablissements, services et organismes &gt; Titre II : Autres \u00e9tablissements et services &gt; Chapitre Ier : Maisons d'enfants \u00e0 caract\u00e8re sanitaire.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006687595",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L202 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L202",
-                    "articleId": "LEGIARTI000006692542",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L202 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L202",
-                    "articleId": "LEGIARTI000006692541",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -154,15 +192,79 @@
                     "dateDebutCible": "2003-09-06"
                 }
             ],
-            "num": "L2321-4",
-            "origine": "LEGI",
-            "texte": "Les conditions relatives au personnel, ainsi que, en tant que de besoin, les modalit\u00e9s d'application des dispositions du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.",
-            "texteHtml": "<p></p>   Les conditions relatives au personnel, ainsi que, en tant que de besoin, les modalit\u00e9s d'application des dispositions du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2003-09-06T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L202 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L202",
+                    "articleId": "LEGIARTI000006692542",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L202 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L202",
+                    "articleId": "LEGIARTI000006692541",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006687594",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1062806400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006687595",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1062806400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2321-4",
+                "2321-4"
+            ],
+            "versionPrecedente": "LEGIARTI000006687594",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006687594",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La direction d'une maison d'enfants \u00e0 caract\u00e8re sanitaire est subordonn\u00e9e \u00e0 l'agr\u00e9ment pr\u00e9alable du repr\u00e9sentant de l'Etat dans le d\u00e9partement. Cet agr\u00e9ment n'intervient qu'apr\u00e8s une enqu\u00eate \u00e9tablissant que l'int\u00e9ress\u00e9 et son entourage pr\u00e9sentent les garanties indispensables telles qu'elles sont fix\u00e9es par voie r\u00e9glementaire.",
+            "texteHtml": "<p></p>   La direction d'une maison d'enfants \u00e0 caract\u00e8re sanitaire est subordonn\u00e9e \u00e0 l'agr\u00e9ment pr\u00e9alable du repr\u00e9sentant de l'Etat dans le d\u00e9partement. Cet agr\u00e9ment n'intervient qu'apr\u00e8s une enqu\u00eate \u00e9tablissant que l'int\u00e9ress\u00e9 et son entourage pr\u00e9sentent les garanties indispensables telles qu'elles sont fix\u00e9es par voie r\u00e9glementaire.<p></p><p></p>",
+            "num": "L2321-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1062806400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 343592,
             "context": {
                 "titresTM": [
                     {
@@ -252,30 +354,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006687594",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006687594",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171153",
+            "sectionParentId": "LEGISCTA000006171153",
+            "sectionParentTitre": "Chapitre Ier : Maisons d'enfants \u00e0 caract\u00e8re sanitaire.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Deuxi\u00e8me partie : Sant\u00e9 de la famille, de la m\u00e8re et de l'enfant &gt; Livre III : Etablissements, services et organismes &gt; Titre II : Autres \u00e9tablissements et services &gt; Chapitre Ier : Maisons d'enfants \u00e0 caract\u00e8re sanitaire.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006687594",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L202 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L202",
-                    "articleId": "LEGIARTI000006692542",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L202 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L202",
-                    "articleId": "LEGIARTI000006692541",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -302,13 +427,61 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L2321-4",
-            "origine": "LEGI",
-            "texte": "La direction d'une maison d'enfants \u00e0 caract\u00e8re sanitaire est subordonn\u00e9e \u00e0 l'agr\u00e9ment pr\u00e9alable du repr\u00e9sentant de l'Etat dans le d\u00e9partement. Cet agr\u00e9ment n'intervient qu'apr\u00e8s une enqu\u00eate \u00e9tablissant que l'int\u00e9ress\u00e9 et son entourage pr\u00e9sentent les garanties indispensables telles qu'elles sont fix\u00e9es par voie r\u00e9glementaire.",
-            "texteHtml": "<p></p>   La direction d'une maison d'enfants \u00e0 caract\u00e8re sanitaire est subordonn\u00e9e \u00e0 l'agr\u00e9ment pr\u00e9alable du repr\u00e9sentant de l'Etat dans le d\u00e9partement. Cet agr\u00e9ment n'intervient qu'apr\u00e8s une enqu\u00eate \u00e9tablissant que l'int\u00e9ress\u00e9 et son entourage pr\u00e9sentent les garanties indispensables telles qu'elles sont fix\u00e9es par voie r\u00e9glementaire.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2003-09-06T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L202 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L202",
+                    "articleId": "LEGIARTI000006692542",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L202 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L202",
+                    "articleId": "LEGIARTI000006692541",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006687594",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1062806400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006687595",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1062806400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2321-4",
+                "2321-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

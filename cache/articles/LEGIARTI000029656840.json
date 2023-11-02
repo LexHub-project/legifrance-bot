@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029656840",
-    "num": "D723-70",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000029656840",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le secr\u00e9tariat du Conseil national des sapeurs-pompiers volontaires et des autres formations mentionn\u00e9es \u00e0 l'article D. 723-69 est assur\u00e9 par la direction des sapeurs-pompiers de la direction g\u00e9n\u00e9rale de la s\u00e9curit\u00e9 civile et de la gestion des crises.",
+            "texteHtml": "<p><br/>Le secr\u00e9tariat du Conseil national des sapeurs-pompiers volontaires et des autres formations mentionn\u00e9es \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000029656838&dateTexte=&categorieLien=cid' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D723-69 (VD)'>D. 723-69</a> est assur\u00e9 par la direction des sapeurs-pompiers de la direction g\u00e9n\u00e9rale de la s\u00e9curit\u00e9 civile et de la gestion des crises.</p>",
+            "num": "D723-70",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1417392000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2130706431,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,36 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000029656840",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029656840",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656826",
+            "sectionParentId": "LEGISCTA000029657780",
+            "sectionParentTitre": "Paragraphe 1 : Conseil national des sapeurs-pompiers volontaires",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 3 : Instances consultatives &gt; Paragraphe 1 : Conseil national des sapeurs-pompiers volontaires",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000029656840",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D723-69 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "D723-69",
-                    "articleId": "LEGIARTI000029656838",
-                    "natureText": "CODE",
-                    "date": 1599842088228,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1417392000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000025263699",
-                    "textTitle": "D\u00e9cret n\u00b02012-154\n du 30 janvier 2012 - art. 7 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "7",
-                    "articleId": "LEGIARTI000025264632",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -139,13 +180,57 @@
                     "dateDebutCible": "2014-12-01"
                 }
             ],
-            "num": "D723-70",
-            "origine": "LEGI",
-            "texte": "Le secr\u00e9tariat du Conseil national des sapeurs-pompiers volontaires et des autres formations mentionn\u00e9es \u00e0 l'article D. 723-69 est assur\u00e9 par la direction des sapeurs-pompiers de la direction g\u00e9n\u00e9rale de la s\u00e9curit\u00e9 civile et de la gestion des crises.",
-            "texteHtml": "<p><br/>Le secr\u00e9tariat du Conseil national des sapeurs-pompiers volontaires et des autres formations mentionn\u00e9es \u00e0 l'article <a href='/article/LEGIARTI000029656838' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D723-69 (VD)'>D. 723-69</a> est assur\u00e9 par la direction des sapeurs-pompiers de la direction g\u00e9n\u00e9rale de la s\u00e9curit\u00e9 civile et de la gestion des crises.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. D723-69 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "D723-69",
+                    "articleId": "LEGIARTI000029656838",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1417392000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000025263699",
+                    "textTitle": "D\u00e9cret n\u00b02012-154\n du 30 janvier 2012 - art. 7 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "7",
+                    "articleId": "LEGIARTI000025264632",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656840",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D723-70",
+                "723-70"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

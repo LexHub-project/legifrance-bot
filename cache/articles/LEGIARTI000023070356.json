@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023070356",
-    "num": "L2121-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023084627",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Toute cr\u00e9ation ou suppression de la desserte d'un itin\u00e9raire par un service r\u00e9gional de personnes ou de la desserte d'un point d'arr\u00eat par un service r\u00e9gional de personnes est soumise pour avis aux d\u00e9partements et aux communes concern\u00e9s.",
+            "texteHtml": "<p><br/>Toute cr\u00e9ation ou suppression de la desserte d'un itin\u00e9raire par un service r\u00e9gional de personnes ou de la desserte d'un point d'arr\u00eat par un service r\u00e9gional de personnes est soumise pour avis aux d\u00e9partements et aux communes concern\u00e9s.</p>",
+            "num": "L2121-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1291161600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -83,21 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023084627",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000023070356",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023070350",
+            "sectionParentId": "LEGISCTA000023084633",
+            "sectionParentTitre": "Sous-section 2 : Services d'int\u00e9r\u00eat r\u00e9gional",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; DEUXIEME PARTIE : TRANSPORT FERROVIAIRE OU GUIDE &gt; LIVRE IER : SYSTEME DE TRANSPORT FERROVIAIRE  OU GUIDE &gt; TITRE II : EXPLOITATION &gt; Chapitre Ier : Organisation du transport ferroviaire ou guid\u00e9 &gt; Section 1 : Services assur\u00e9s sur les infrastructures appartenant \u00e0 l'Etat et \u00e0 ses \u00e9tablissements publics &gt; Sous-section 2 : Services d'int\u00e9r\u00eat r\u00e9gional",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023084627",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000319738",
-                    "textTitle": "Loi n\u00b082-1153 du 30 d\u00e9cembre 1982 - art. 22 (M), alin\u00e9a 4",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "22",
-                    "articleId": "LEGIARTI000006878474",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -112,13 +159,43 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L2121-5",
-            "origine": "LEGI",
-            "texte": "Toute cr\u00e9ation ou suppression de la desserte d'un itin\u00e9raire par un service r\u00e9gional de personnes ou de la desserte d'un point d'arr\u00eat par un service r\u00e9gional de personnes est soumise pour avis aux d\u00e9partements et aux communes concern\u00e9s.",
-            "texteHtml": "<p><br/>Toute cr\u00e9ation ou suppression de la desserte d'un itin\u00e9raire par un service r\u00e9gional de personnes ou de la desserte d'un point d'arr\u00eat par un service r\u00e9gional de personnes est soumise pour avis aux d\u00e9partements et aux communes concern\u00e9s.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000319738",
+                    "textTitle": "Loi n\u00b082-1153 du 30 d\u00e9cembre 1982 - art. 22 (M), alin\u00e9a 4",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "22",
+                    "articleId": "LEGIARTI000006878474",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023084627",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2121-5",
+                "2121-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

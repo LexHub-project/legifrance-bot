@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000028997116",
-    "num": "R1631-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000042450678",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions du pr\u00e9sent chapitre ne sont pas applicables dans la r\u00e9gion Ile-de-France.",
+            "texteHtml": "<p><br/>Les dispositions du pr\u00e9sent chapitre ne sont pas applicables dans la r\u00e9gion Ile-de-France.</p>",
+            "num": "R1631-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1603324800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -83,30 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000042450678",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000028997116",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000028997114",
+            "sectionParentId": "LEGISCTA000042450741",
+            "sectionParentTitre": "Chapitre Ier : Organisation de la pr\u00e9vention des atteintes \u00e0 la s\u00fbret\u00e9 dans les transports",
+            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; PREMI\u00c8RE PARTIE : DISPOSITIONS COMMUNES &gt; LIVRE VI : S\u00dbRET\u00c9 ET S\u00c9CURIT\u00c9 DU TRANSPORT &gt; TITRE III : ATTEINTES \u00c0 LA S\u00dbRET\u00c9 OU \u00c0 LA S\u00c9CURIT\u00c9 DES TRANSPORTS &gt; Chapitre Ier : Organisation de la pr\u00e9vention des atteintes \u00e0 la s\u00fbret\u00e9 dans les transports",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000042450678",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R1632-1 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1632-1",
-                    "articleId": "LEGIARTI000028997123",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R1633-1 (V)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "source",
-                    "articleNum": "R1633-1",
-                    "articleId": "LEGIARTI000042447786",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028992295",
@@ -133,15 +171,93 @@
                     "dateDebutCible": "2020-10-22"
                 }
             ],
-            "num": "R1631-1",
-            "origine": "LEGI",
-            "texte": "Les dispositions du pr\u00e9sent chapitre ne sont pas applicables dans la r\u00e9gion Ile-de-France.",
-            "texteHtml": "<p><br/>Les dispositions du pr\u00e9sent chapitre ne sont pas applicables dans la r\u00e9gion Ile-de-France.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2020-10-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R*1630-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*1630-1",
+                    "articleId": "LEGIARTI000046214477",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1661990400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R1632-1 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1632-1",
+                    "articleId": "LEGIARTI000028997123",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R1633-1 (V)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "R1633-1",
+                    "articleId": "LEGIARTI000042447786",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000028997116",
+                    "etat": "TRANSFERE",
+                    "version": "1.0",
+                    "dateDebut": 1401235200000,
+                    "dateFin": 1603324800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042450678",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1603324800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R1631-1",
+                "1631-1"
+            ],
+            "versionPrecedente": "LEGIARTI000028997116",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000028997116",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La proc\u00e9dure en cas de manquement \u00e0 l'obligation faite aux transporteurs ferroviaires, maritimes et a\u00e9riens de recueillir des donn\u00e9es \u00e0 caract\u00e8re personnel, mentionn\u00e9e \u00e0 l'article L. 1631-3, est r\u00e9gie par les dispositions des articles R. 232-2 \u00e0 R. 232-5 du code de la s\u00e9curit\u00e9 int\u00e9rieure.",
+            "texteHtml": "<p><br/>La proc\u00e9dure en cas de manquement \u00e0 l'obligation faite aux transporteurs ferroviaires, maritimes et a\u00e9riens de recueillir des donn\u00e9es \u00e0 caract\u00e8re personnel, mentionn\u00e9e \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023086525&idArticle=LEGIARTI000023069894&dateTexte=&categorieLien=cid' title='Code des transports - art. L1631-3 (V)'>l'article L. 1631-3, </a>est r\u00e9gie par les dispositions des <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000028285188&dateTexte=&categorieLien=cid' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R232-2 (V)'>articles R. 232-2 \u00e0 R. 232-5</a> du code de la s\u00e9curit\u00e9 int\u00e9rieure.</p>",
+            "num": "R1631-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "TRANSFERE",
+            "dateDebut": 1401235200000,
+            "dateFin": 1603324800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -222,59 +338,53 @@
                     }
                 ]
             },
-            "etat": "TRANSFERE",
-            "id": "LEGIARTI000028997116",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000028997116",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000028997114",
+            "sectionParentId": "LEGISCTA000042450741",
+            "sectionParentTitre": "Chapitre Ier : Organisation de la pr\u00e9vention des atteintes \u00e0 la s\u00fbret\u00e9 dans les transports",
+            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; PREMI\u00c8RE PARTIE : DISPOSITIONS COMMUNES &gt; LIVRE VI : S\u00dbRET\u00c9 ET S\u00c9CURIT\u00c9 DU TRANSPORT &gt; TITRE III : ATTEINTES \u00c0 LA S\u00dbRET\u00c9 OU \u00c0 LA S\u00c9CURIT\u00c9 DES TRANSPORTS &gt; Chapitre Ier : Organisation de la pr\u00e9vention des atteintes \u00e0 la s\u00fbret\u00e9 dans les transports",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000028997116",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L1631-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L1631-3",
-                    "articleId": "LEGIARTI000023069894",
-                    "natureText": "CODE",
-                    "date": 1603314423857,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1559347200000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R232-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R232-2",
-                    "articleId": "LEGIARTI000028285188",
-                    "natureText": "CODE",
-                    "date": 1603314423857,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1388534400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R1632-1 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1632-1",
-                    "articleId": "LEGIARTI000028997123",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R1633-1 (V)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "source",
-                    "articleNum": "R1633-1",
-                    "articleId": "LEGIARTI000042447786",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028992295",
@@ -313,13 +423,101 @@
                     "dateDebutCible": "2020-10-22"
                 }
             ],
-            "num": "R1631-1",
-            "origine": "LEGI",
-            "texte": "La proc\u00e9dure en cas de manquement \u00e0 l'obligation faite aux transporteurs ferroviaires, maritimes et a\u00e9riens de recueillir des donn\u00e9es \u00e0 caract\u00e8re personnel, mentionn\u00e9e \u00e0 l'article L. 1631-3, est r\u00e9gie par les dispositions des articles R. 232-2 \u00e0 R. 232-5 du code de la s\u00e9curit\u00e9 int\u00e9rieure.",
-            "texteHtml": "<p><br/>La proc\u00e9dure en cas de manquement \u00e0 l'obligation faite aux transporteurs ferroviaires, maritimes et a\u00e9riens de recueillir des donn\u00e9es \u00e0 caract\u00e8re personnel, mentionn\u00e9e \u00e0 <a href='/article/LEGIARTI000023069894' title='Code des transports - art. L1631-3 (V)'>l'article L. 1631-3, </a>est r\u00e9gie par les dispositions des <a href='/article/LEGIARTI000028285188' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R232-2 (V)'>articles R. 232-2 \u00e0 R. 232-5</a> du code de la s\u00e9curit\u00e9 int\u00e9rieure.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-05-28T00:00:00.000Z",
-            "dateFin": "2020-10-22T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L1631-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L1631-3",
+                    "articleId": "LEGIARTI000023069894",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1559347200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R*1630-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*1630-1",
+                    "articleId": "LEGIARTI000046214477",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1661990400000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R232-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R232-2",
+                    "articleId": "LEGIARTI000028285188",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1388534400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R1632-1 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1632-1",
+                    "articleId": "LEGIARTI000028997123",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R1633-1 (V)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "R1633-1",
+                    "articleId": "LEGIARTI000042447786",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000028997116",
+                    "etat": "TRANSFERE",
+                    "version": "1.0",
+                    "dateDebut": 1401235200000,
+                    "dateFin": 1603324800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042450678",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1603324800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R1631-1",
+                "1631-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

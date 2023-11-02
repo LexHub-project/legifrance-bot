@@ -1,151 +1,23 @@
 {
-    "cid": "LEGIARTI000006836819",
-    "num": "R212-13",
+    "executionTime": 0,
     "listArticle": [
         {
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "2003-08-07",
-                        "fin": "2999-01-01",
-                        "titre": "Partie r\u00e9glementaire",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006108631",
-                        "id": "LEGISCTA000006108631",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2007-03-23",
-                        "fin": "2999-01-01",
-                        "titre": "Livre II : Milieux physiques",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006129031",
-                        "id": "LEGISCTA000006129031",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2007-03-23",
-                        "fin": "2011-05-07",
-                        "titre": "Titre Ier : Eau et milieux aquatiques",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006143774",
-                        "id": "LEGISCTA000006143774",
-                        "etat": "MODIFIE"
-                    },
-                    {
-                        "debut": "2011-05-07",
-                        "fin": "2999-01-01",
-                        "titre": "Titre Ier :  Eau et milieux aquatiques et marins",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006143774",
-                        "id": "LEGISCTA000023954828",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2007-03-23",
-                        "fin": "2999-01-01",
-                        "titre": "Chapitre II : Planification",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006159376",
-                        "id": "LEGISCTA000006159376",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2007-03-23",
-                        "fin": "2999-01-01",
-                        "titre": "Section 1 : Sch\u00e9mas directeurs d'am\u00e9nagement et de gestion des eaux",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006176816",
-                        "id": "LEGISCTA000006176816",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2007-03-23",
-                        "fin": "2999-01-01",
-                        "titre": "Sous-section 4 : Contenu du sch\u00e9ma directeur d'am\u00e9nagement et de gestion des eaux",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006188704",
-                        "id": "LEGISCTA000006188704",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 1,
-                "longeurChemin": 50,
-                "titreTxt": [
-                    {
-                        "debut": "2000-09-21",
-                        "fin": "2999-01-01",
-                        "titre": "Code de l'environnement",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074220",
-                        "id": "LEGITEXT000006074220",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "etat": "VIGUEUR",
             "id": "LEGIARTI000046129844",
-            "lienAutres": [],
-            "lienCitations": [
-                {
-                    "textCid": "JORFTEXT000046139128",
-                    "textTitle": "D\u00e9cision n\u00b0429341 du 28 juillet 2022 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000046139129",
-                    "natureText": "DECISION",
-                    "date": 1659645556874,
-                    "parentCid": null,
-                    "numTexte": "429341",
-                    "datePubli": 1659571200000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L212-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L212-1",
-                    "articleId": "LEGIARTI000006833004",
-                    "natureText": "CODE",
-                    "date": 1659645556874,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
-                }
-            ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000810041",
-                    "textTitle": "D\u00e9cret 2005-475 2005-05-16 art. 13",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000810041",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000810041",
-                    "textTitle": "D\u00e9cret n\u00b02005-475 du 16 mai 2005 - art. 13 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "13",
-                    "articleId": "LEGIARTI000006868205",
-                    "natureText": "DECRET"
-                }
-            ],
-            "lienModifications": [],
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour l'application du 4\u00b0 du IV de l'article L. 212-1 , la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte que : \u2013 pour l'\u00e9tat \u00e9cologique et le potentiel \u00e9cologique des eaux de surface, aucun des \u00e9l\u00e9ments de qualit\u00e9 caract\u00e9risant cet \u00e9tat ou ce potentiel ne soit dans un \u00e9tat correspondant \u00e0 une classe inf\u00e9rieure \u00e0 celle qui le caract\u00e9risait ant\u00e9rieurement ; \u2013 pour l'\u00e9tat chimique des eaux de surface, les concentrations en polluants ne d\u00e9passent pas les normes de qualit\u00e9 environnementale lorsqu'elles ne les d\u00e9passaient pas ant\u00e9rieurement ; \u2013 pour l'\u00e9tat des eaux souterraines, aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait ant\u00e9rieurement. Pour appr\u00e9cier la compatibilit\u00e9 des programmes et d\u00e9cisions administratives mentionn\u00e9es au XI de l'article L. 212-1 avec l'objectif de pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux mentionn\u00e9 au 4\u00b0 du IV du m\u00eame article, il est tenu compte des mesures d'\u00e9vitement et de r\u00e9duction.",
+            "texteHtml": "<p>Pour l'application du 4\u00b0 du IV de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833004&dateTexte=&categorieLien=cid'>l'article L. 212-1</a>, la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte que :</p><p><br/>\n\u2013 pour l'\u00e9tat \u00e9cologique et le potentiel \u00e9cologique des eaux de surface, aucun des \u00e9l\u00e9ments de qualit\u00e9 caract\u00e9risant cet \u00e9tat ou ce potentiel ne soit dans un \u00e9tat correspondant \u00e0 une classe inf\u00e9rieure \u00e0 celle qui le caract\u00e9risait ant\u00e9rieurement ;<br/><br/>\n\u2013 pour l'\u00e9tat chimique des eaux de surface, les concentrations en polluants ne d\u00e9passent pas les normes de qualit\u00e9 environnementale lorsqu'elles ne les d\u00e9passaient pas ant\u00e9rieurement ;<br/><br/>\n\u2013 pour l'\u00e9tat des eaux souterraines, aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait ant\u00e9rieurement.</p><p><br/>\nPour appr\u00e9cier la compatibilit\u00e9 des programmes et d\u00e9cisions administratives mentionn\u00e9es au XI de l'article L. 212-1 avec l'objectif de pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux mentionn\u00e9 au 4\u00b0 du IV du m\u00eame article, il est tenu compte des mesures d'\u00e9vitement et de r\u00e9duction.</p><p></p>",
             "num": "R212-13",
             "origine": "LEGI",
-            "texte": "Pour l'application du 4\u00b0 du IV de l'article L. 212-1 , la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte que : \u2013 pour l'\u00e9tat \u00e9cologique et le potentiel \u00e9cologique des eaux de surface, aucun des \u00e9l\u00e9ments de qualit\u00e9 caract\u00e9risant cet \u00e9tat ou ce potentiel ne soit dans un \u00e9tat correspondant \u00e0 une classe inf\u00e9rieure \u00e0 celle qui le caract\u00e9risait ant\u00e9rieurement ; \u2013 pour l'\u00e9tat chimique des eaux de surface, les concentrations en polluants ne d\u00e9passent pas les normes de qualit\u00e9 environnementale lorsqu'elles ne les d\u00e9passaient pas ant\u00e9rieurement ; \u2013 pour l'\u00e9tat des eaux souterraines, aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait ant\u00e9rieurement. Pour appr\u00e9cier la compatibilit\u00e9 des programmes et d\u00e9cisions administratives mentionn\u00e9es au XI de l'article L. 212-1 avec l'objectif de pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux mentionn\u00e9 au 4\u00b0 du IV du m\u00eame article, il est tenu compte des mesures d'\u00e9vitement et de r\u00e9duction.",
-            "texteHtml": "<p>Pour l'application du 4\u00b0 du IV de <a href='/article/LEGIARTI000006833004'>l'article L. 212-1</a>, la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte que :</p><p><br/>\n\u2013 pour l'\u00e9tat \u00e9cologique et le potentiel \u00e9cologique des eaux de surface, aucun des \u00e9l\u00e9ments de qualit\u00e9 caract\u00e9risant cet \u00e9tat ou ce potentiel ne soit dans un \u00e9tat correspondant \u00e0 une classe inf\u00e9rieure \u00e0 celle qui le caract\u00e9risait ant\u00e9rieurement ;<br/><br/>\n\u2013 pour l'\u00e9tat chimique des eaux de surface, les concentrations en polluants ne d\u00e9passent pas les normes de qualit\u00e9 environnementale lorsqu'elles ne les d\u00e9passaient pas ant\u00e9rieurement ;<br/><br/>\n\u2013 pour l'\u00e9tat des eaux souterraines, aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait ant\u00e9rieurement.</p><p><br/>\nPour appr\u00e9cier la compatibilit\u00e9 des programmes et d\u00e9cisions administratives mentionn\u00e9es au XI de l'article L. 212-1 avec l'objectif de pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux mentionn\u00e9 au 4\u00b0 du IV du m\u00eame article, il est tenu compte des mesures d'\u00e9vitement et de r\u00e9duction.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-07-28T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
-        },
-        {
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1658966400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -226,9 +98,54 @@
                     }
                 ]
             },
-            "etat": "ANNULE",
-            "id": "LEGIARTI000037474781",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006836819",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188704",
+            "sectionParentId": "LEGISCTA000006188704",
+            "sectionParentTitre": "Sous-section 4 : Contenu du sch\u00e9ma directeur d'am\u00e9nagement et de gestion des eaux",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre II : Milieux physiques &gt; Titre Ier :  Eau et milieux aquatiques et marins &gt; Chapitre II : Planification &gt; Section 1 : Sch\u00e9mas directeurs d'am\u00e9nagement et de gestion des eaux &gt; Sous-section 4 : Contenu du sch\u00e9ma directeur d'am\u00e9nagement et de gestion des eaux",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000046129844",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000046139128",
@@ -238,7 +155,6 @@
                     "articleNum": "",
                     "articleId": "JORFARTI000046139129",
                     "natureText": "DECISION",
-                    "date": 1659645557042,
                     "parentCid": null,
                     "numTexte": "429341",
                     "datePubli": 1659571200000,
@@ -252,7 +168,6 @@
                     "articleNum": "L212-1",
                     "articleId": "LEGIARTI000006833004",
                     "natureText": "CODE",
-                    "date": 1659645557043,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -279,6 +194,194 @@
                     "natureText": "DECRET"
                 }
             ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006836819",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1538870400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037474781",
+                    "etat": "ANNULE",
+                    "version": "2.0",
+                    "dateDebut": 1538870400000,
+                    "dateFin": 1658966400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046129844",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1658966400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R212-13",
+                "212-13"
+            ],
+            "versionPrecedente": "LEGIARTI000037474781",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000037474781",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour l'application du 4\u00b0 du IV de l'article L. 212-1 , la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte que : \u2013 pour l'\u00e9tat \u00e9cologique et le potentiel \u00e9cologique des eaux de surface, aucun des \u00e9l\u00e9ments de qualit\u00e9 caract\u00e9risant cet \u00e9tat ou ce potentiel ne soit dans un \u00e9tat correspondant \u00e0 une classe inf\u00e9rieure \u00e0 celle qui le caract\u00e9risait ant\u00e9rieurement ; \u2013 pour l'\u00e9tat chimique des eaux de surface, les concentrations en polluants ne d\u00e9passent pas les normes de qualit\u00e9 environnementale lorsqu'elles ne les d\u00e9passaient pas ant\u00e9rieurement ; \u2013 pour l'\u00e9tat des eaux souterraines, aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait ant\u00e9rieurement. Pour appr\u00e9cier la compatibilit\u00e9 des programmes et d\u00e9cisions administratives mentionn\u00e9es au XI de l'article L. 212-1 avec l'objectif de pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux mentionn\u00e9 au 4\u00b0 du IV du m\u00eame article, il est tenu compte des mesures d'\u00e9vitement et de r\u00e9duction et il n'est pas tenu compte des impacts temporaires de courte dur\u00e9e et sans cons\u00e9quences de long terme.",
+            "texteHtml": "<p>Pour l'application du 4\u00b0 du IV de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833004&dateTexte=&categorieLien=cid'>l'article L. 212-1</a>, la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte que :</p><p><br/>\n\u2013 pour l'\u00e9tat \u00e9cologique et le potentiel \u00e9cologique des eaux de surface, aucun des \u00e9l\u00e9ments de qualit\u00e9 caract\u00e9risant cet \u00e9tat ou ce potentiel ne soit dans un \u00e9tat correspondant \u00e0 une classe inf\u00e9rieure \u00e0 celle qui le caract\u00e9risait ant\u00e9rieurement ;<br/><br/>\n\u2013 pour l'\u00e9tat chimique des eaux de surface, les concentrations en polluants ne d\u00e9passent pas les normes de qualit\u00e9 environnementale lorsqu'elles ne les d\u00e9passaient pas ant\u00e9rieurement ;<br/><br/>\n\u2013 pour l'\u00e9tat des eaux souterraines, aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait ant\u00e9rieurement.</p><p><br/>\n Pour appr\u00e9cier la compatibilit\u00e9 des programmes et d\u00e9cisions administratives mentionn\u00e9es au XI de l'article L. 212-1 avec l'objectif de pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux mentionn\u00e9 au 4\u00b0 du IV du m\u00eame article, il est tenu compte des mesures d'\u00e9vitement et de r\u00e9duction et il n'est pas tenu compte des impacts temporaires de courte dur\u00e9e et sans cons\u00e9quences de long terme.</p>",
+            "num": "R212-13",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ANNULE",
+            "dateDebut": 1538870400000,
+            "dateFin": 1658966400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2003-08-07",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108631",
+                        "id": "LEGISCTA000006108631",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2007-03-23",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Milieux physiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129031",
+                        "id": "LEGISCTA000006129031",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2007-03-23",
+                        "fin": "2011-05-07",
+                        "titre": "Titre Ier : Eau et milieux aquatiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143774",
+                        "id": "LEGISCTA000006143774",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2011-05-07",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier :  Eau et milieux aquatiques et marins",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143774",
+                        "id": "LEGISCTA000023954828",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2007-03-23",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Planification",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159376",
+                        "id": "LEGISCTA000006159376",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2007-03-23",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Sch\u00e9mas directeurs d'am\u00e9nagement et de gestion des eaux",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176816",
+                        "id": "LEGISCTA000006176816",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2007-03-23",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 4 : Contenu du sch\u00e9ma directeur d'am\u00e9nagement et de gestion des eaux",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006188704",
+                        "id": "LEGISCTA000006188704",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006836819",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188704",
+            "sectionParentId": "LEGISCTA000006188704",
+            "sectionParentTitre": "Sous-section 4 : Contenu du sch\u00e9ma directeur d'am\u00e9nagement et de gestion des eaux",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre II : Milieux physiques &gt; Titre Ier :  Eau et milieux aquatiques et marins &gt; Chapitre II : Planification &gt; Section 1 : Sch\u00e9mas directeurs d'am\u00e9nagement et de gestion des eaux &gt; Sous-section 4 : Contenu du sch\u00e9ma directeur d'am\u00e9nagement et de gestion des eaux",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000037474781",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "Par d\u00e9cision no 429341 du 28 juillet 2022 du Conseil d\u2019Etat statuant au contentieux, ECLI:FR:CECHR:2022:429341.20220728, le dernier alin\u00e9a de l\u2019article 7 du d\u00e9cret n\u00b0 2018-847 du 4 octobre 2018, relatif aux sch\u00e9mas directeurs d\u2019am\u00e9nagement et de gestion des eaux et sch\u00e9mas d\u2019am\u00e9nagement et de gestion des eaux (NOR : TREL1700192D), est annul\u00e9 en tant qu\u2019il modifie l\u2019article R. 212-13 du code de l\u2019environnement pour y ins\u00e9rer les termes : \" et il n\u2019est pas tenu compte des impacts temporaires de courte dur\u00e9e et sans cons\u00e9quences de long terme \".",
+            "notaHtml": "<p>Par d\u00e9cision no 429341 du 28 juillet 2022 du Conseil d\u2019Etat statuant au contentieux, ECLI:FR:CECHR:2022:429341.20220728, le dernier alin\u00e9a de l\u2019article 7 du d\u00e9cret n\u00b0 2018-847 du 4 octobre 2018, relatif aux sch\u00e9mas directeurs d\u2019am\u00e9nagement et de gestion des eaux et sch\u00e9mas d\u2019am\u00e9nagement et de gestion des eaux (NOR : TREL1700192D), est annul\u00e9 en tant qu\u2019il modifie l\u2019article R. 212-13 du code de l\u2019environnement pour y ins\u00e9rer les termes : \" et il n\u2019est pas tenu compte des impacts temporaires de courte dur\u00e9e et sans cons\u00e9quences de long terme \".</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000248208",
@@ -317,15 +420,115 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "R212-13",
-            "origine": "LEGI",
-            "texte": "Pour l'application du 4\u00b0 du IV de l'article L. 212-1 , la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte que : \u2013 pour l'\u00e9tat \u00e9cologique et le potentiel \u00e9cologique des eaux de surface, aucun des \u00e9l\u00e9ments de qualit\u00e9 caract\u00e9risant cet \u00e9tat ou ce potentiel ne soit dans un \u00e9tat correspondant \u00e0 une classe inf\u00e9rieure \u00e0 celle qui le caract\u00e9risait ant\u00e9rieurement ; \u2013 pour l'\u00e9tat chimique des eaux de surface, les concentrations en polluants ne d\u00e9passent pas les normes de qualit\u00e9 environnementale lorsqu'elles ne les d\u00e9passaient pas ant\u00e9rieurement ; \u2013 pour l'\u00e9tat des eaux souterraines, aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait ant\u00e9rieurement. Pour appr\u00e9cier la compatibilit\u00e9 des programmes et d\u00e9cisions administratives mentionn\u00e9es au XI de l'article L. 212-1 avec l'objectif de pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux mentionn\u00e9 au 4\u00b0 du IV du m\u00eame article, il est tenu compte des mesures d'\u00e9vitement et de r\u00e9duction et il n'est pas tenu compte des impacts temporaires de courte dur\u00e9e et sans cons\u00e9quences de long terme.",
-            "texteHtml": "<p>Pour l'application du 4\u00b0 du IV de <a href='/article/LEGIARTI000006833004'>l'article L. 212-1</a>, la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte que :</p><p><br/>\n\u2013 pour l'\u00e9tat \u00e9cologique et le potentiel \u00e9cologique des eaux de surface, aucun des \u00e9l\u00e9ments de qualit\u00e9 caract\u00e9risant cet \u00e9tat ou ce potentiel ne soit dans un \u00e9tat correspondant \u00e0 une classe inf\u00e9rieure \u00e0 celle qui le caract\u00e9risait ant\u00e9rieurement ;<br/><br/>\n\u2013 pour l'\u00e9tat chimique des eaux de surface, les concentrations en polluants ne d\u00e9passent pas les normes de qualit\u00e9 environnementale lorsqu'elles ne les d\u00e9passaient pas ant\u00e9rieurement ;<br/><br/>\n\u2013 pour l'\u00e9tat des eaux souterraines, aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait ant\u00e9rieurement.</p><p><br/>\n Pour appr\u00e9cier la compatibilit\u00e9 des programmes et d\u00e9cisions administratives mentionn\u00e9es au XI de l'article L. 212-1 avec l'objectif de pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux mentionn\u00e9 au 4\u00b0 du IV du m\u00eame article, il est tenu compte des mesures d'\u00e9vitement et de r\u00e9duction et il n'est pas tenu compte des impacts temporaires de courte dur\u00e9e et sans cons\u00e9quences de long terme.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-10-07T00:00:00.000Z",
-            "dateFin": "2022-07-28T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000046139128",
+                    "textTitle": "D\u00e9cision n\u00b0429341 du 28 juillet 2022 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000046139129",
+                    "natureText": "DECISION",
+                    "parentCid": null,
+                    "numTexte": "429341",
+                    "datePubli": 1659571200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L212-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L212-1",
+                    "articleId": "LEGIARTI000006833004",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000810041",
+                    "textTitle": "D\u00e9cret 2005-475 2005-05-16 art. 13",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000810041",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000810041",
+                    "textTitle": "D\u00e9cret n\u00b02005-475 du 16 mai 2005 - art. 13 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "13",
+                    "articleId": "LEGIARTI000006868205",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006836819",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1538870400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037474781",
+                    "etat": "ANNULE",
+                    "version": "2.0",
+                    "dateDebut": 1538870400000,
+                    "dateFin": 1658966400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046129844",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1658966400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R212-13",
+                "212-13"
+            ],
+            "versionPrecedente": "LEGIARTI000006836819",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006836819",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour l'application du 4\u00b0 du IV de l'article L. 212-1 , la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte qu'aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait au d\u00e9but de la p\u00e9riode consid\u00e9r\u00e9e.",
+            "texteHtml": "<p></p>Pour l'application du 4\u00b0 du IV de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833004&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. L212-1 (V)'>l'article L. 212-1</a>, la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte qu'aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait au d\u00e9but de la p\u00e9riode consid\u00e9r\u00e9e.<p></p><p></p>",
+            "num": "R212-13",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174608000000,
+            "dateFin": 1538870400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -406,9 +609,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006836819",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006836819",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188704",
+            "sectionParentId": "LEGISCTA000006188704",
+            "sectionParentTitre": "Sous-section 4 : Contenu du sch\u00e9ma directeur d'am\u00e9nagement et de gestion des eaux",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre II : Milieux physiques &gt; Titre Ier :  Eau et milieux aquatiques et marins &gt; Chapitre II : Planification &gt; Section 1 : Sch\u00e9mas directeurs d'am\u00e9nagement et de gestion des eaux &gt; Sous-section 4 : Contenu du sch\u00e9ma directeur d'am\u00e9nagement et de gestion des eaux",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006836819",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000248208",
+                    "textTitle": "D\u00e9cret 2007-397 2007-03-22 JORF 23 mars 2007",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000248208",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2007-03-23",
+                    "dateSignaTexte": "2007-03-22",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000046139128",
@@ -418,7 +679,6 @@
                     "articleNum": "",
                     "articleId": "JORFARTI000046139129",
                     "natureText": "DECISION",
-                    "date": 1659645557049,
                     "parentCid": null,
                     "numTexte": "429341",
                     "datePubli": 1659571200000,
@@ -432,7 +692,6 @@
                     "articleNum": "L212-1",
                     "articleId": "LEGIARTI000006833004",
                     "natureText": "CODE",
-                    "date": 1659645557049,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -459,27 +718,49 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000248208",
-                    "textTitle": "D\u00e9cret 2007-397 2007-03-22 JORF 23 mars 2007",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000248208",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2007-03-23",
-                    "dateSignaTexte": "2007-03-22",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006836819",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1538870400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037474781",
+                    "etat": "ANNULE",
+                    "version": "2.0",
+                    "dateDebut": 1538870400000,
+                    "dateFin": 1658966400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046129844",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1658966400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R212-13",
-            "origine": "LEGI",
-            "texte": "Pour l'application du 4\u00b0 du IV de l'article L. 212-1 , la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte qu'aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait au d\u00e9but de la p\u00e9riode consid\u00e9r\u00e9e.",
-            "texteHtml": "<p></p>Pour l'application du 4\u00b0 du IV de <a href='/article/LEGIARTI000006833004' title='Code de l'environnement - art. L212-1 (V)'>l'article L. 212-1</a>, la pr\u00e9vention de la d\u00e9t\u00e9rioration de la qualit\u00e9 des eaux consiste \u00e0 faire en sorte qu'aucune des masses d'eau du bassin ou groupement de bassins ne soit dans un \u00e9tat correspondant \u00e0 un classement inf\u00e9rieur \u00e0 celui qui la caract\u00e9risait au d\u00e9but de la p\u00e9riode consid\u00e9r\u00e9e.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-23T00:00:00.000Z",
-            "dateFin": "2018-10-07T00:00:00.000Z"
+            "computedNums": [
+                "R212-13",
+                "212-13"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

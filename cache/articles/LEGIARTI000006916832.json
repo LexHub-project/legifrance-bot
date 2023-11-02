@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006916832",
-    "num": "R6123-38-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006916832",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "En sus des missions pr\u00e9cis\u00e9es \u00e0 l'article R. 6123-38-3, la r\u00e9animation p\u00e9diatrique sp\u00e9cialis\u00e9e prend en charge des nourrissons, enfants et adolescents dont l'affection requiert des avis et prises en charge sp\u00e9cialis\u00e9s du fait de sa raret\u00e9 ou de sa complexit\u00e9.",
+            "texteHtml": "<p></p>   En sus des missions pr\u00e9cis\u00e9es \u00e0 l'article R. 6123-38-3, la r\u00e9animation p\u00e9diatrique sp\u00e9cialis\u00e9e prend en charge des nourrissons, enfants et adolescents dont l'affection requiert des avis et prises en charge sp\u00e9cialis\u00e9s du fait de sa raret\u00e9 ou de sa complexit\u00e9.<p></p><p></p>",
+            "num": "R6123-38-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1138233600000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190810",
                         "id": "LEGISCTA000006190810",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190810",
                         "id": "LEGISCTA000045678199",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2006-01-26",
@@ -75,7 +90,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196691",
                         "id": "LEGISCTA000006196691",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -92,26 +107,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000006916832",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916832",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196691",
+            "sectionParentId": "LEGISCTA000006196691",
+            "sectionParentTitre": "Sous-section 3 : R\u00e9animation p\u00e9diatrique et r\u00e9animation p\u00e9diatrique sp\u00e9cialis\u00e9e.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 2 : Soins critiques",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006916832",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-38-3 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6123-38-3",
-                    "articleId": "LEGIARTI000006916830",
-                    "natureText": "CODE",
-                    "date": 1651092975792,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1138233600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -150,13 +192,47 @@
                     "dateDebutCible": "2022-04-28"
                 }
             ],
-            "num": "R6123-38-5",
-            "origine": "LEGI",
-            "texte": "En sus des missions pr\u00e9cis\u00e9es \u00e0 l'article R. 6123-38-3, la r\u00e9animation p\u00e9diatrique sp\u00e9cialis\u00e9e prend en charge des nourrissons, enfants et adolescents dont l'affection requiert des avis et prises en charge sp\u00e9cialis\u00e9s du fait de sa raret\u00e9 ou de sa complexit\u00e9.",
-            "texteHtml": "<p></p>   En sus des missions pr\u00e9cis\u00e9es \u00e0 l'article R. 6123-38-3, la r\u00e9animation p\u00e9diatrique sp\u00e9cialis\u00e9e prend en charge des nourrissons, enfants et adolescents dont l'affection requiert des avis et prises en charge sp\u00e9cialis\u00e9s du fait de sa raret\u00e9 ou de sa complexit\u00e9.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-01-26T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-38-3 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6123-38-3",
+                    "articleId": "LEGIARTI000006916830",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1138233600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916832",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1138233600000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-38-5",
+                "6123-38-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

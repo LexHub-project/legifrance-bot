@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006687370",
-    "num": "L2112-10",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006687370",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Sauf disposition contraire, les conditions d'application du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p></p>   Sauf disposition contraire, les conditions d'application du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
+            "num": "L2112-10",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 961632000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 687184,
             "context": {
                 "titresTM": [
                     {
@@ -92,30 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006687370",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006687370",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171124",
+            "sectionParentId": "LEGISCTA000006171124",
+            "sectionParentTitre": "Chapitre II : Service d\u00e9partemental de protection maternelle et infantile.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Deuxi\u00e8me partie : Sant\u00e9 de la famille, de la m\u00e8re et de l'enfant &gt; Livre Ier : Protection et promotion de la sant\u00e9 maternelle et infantile &gt; Titre Ier : Organisation et missions &gt; Chapitre II : Service d\u00e9partemental de protection maternelle et infantile.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006687370",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L190-2",
-                    "articleId": "LEGIARTI000006692591",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L190-2",
-                    "articleId": "LEGIARTI000006692591",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -142,13 +180,52 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L2112-10",
-            "origine": "LEGI",
-            "texte": "Sauf disposition contraire, les conditions d'application du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.",
-            "texteHtml": "<p></p>   Sauf disposition contraire, les conditions d'application du pr\u00e9sent chapitre sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L190-2",
+                    "articleId": "LEGIARTI000006692591",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L190-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L190-2",
+                    "articleId": "LEGIARTI000006692591",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006687370",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2112-10",
+                "2112-10"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018492765",
-    "num": "D4622-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000036483092",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque le   comit\u00e9 social et \u00e9conomique s'est oppos\u00e9 \u00e0 la d\u00e9cision de l'employeur, celui-ci saisit le directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi, qui se prononce sur la forme du service, apr\u00e8s avis du m\u00e9decin inspecteur du travail.",
+            "texteHtml": "<p>Lorsque le   comit\u00e9 social et \u00e9conomique s'est oppos\u00e9 \u00e0 la d\u00e9cision de l'employeur, celui-ci saisit le directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi, qui se prononce sur la forme du service, apr\u00e8s avis du m\u00e9decin inspecteur du travail.</p>",
+            "num": "D4622-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1514764800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -79,15 +103,24 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 1 : Organisation des services de sant\u00e9 au travail.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492759",
                         "id": "LEGISCTA000025280090",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Organisation des services de pr\u00e9vention et de sant\u00e9 au travail.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492759",
+                        "id": "LEGISCTA000046340709",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -101,21 +134,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000036483092",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000018492765",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492759",
+            "sectionParentId": "LEGISCTA000046340709",
+            "sectionParentTitre": "Section 1 : Organisation des services de pr\u00e9vention et de sant\u00e9 au travail.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre II : Missions et organisation &gt; Section 1 : Organisation des services de sant\u00e9 au travail.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000036483092",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-1 al 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-1",
-                    "articleId": "LEGIARTI000018510342",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "<p></p><br clear='none'/><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000036336033",
@@ -130,15 +195,88 @@
                     "dateDebutCible": "2017-12-31"
                 }
             ],
-            "num": "D4622-3",
-            "origine": "LEGI",
-            "texte": "Lorsque le   comit\u00e9 social et \u00e9conomique s'est oppos\u00e9 \u00e0 la d\u00e9cision de l'employeur, celui-ci saisit le directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi, qui se prononce sur la forme du service, apr\u00e8s avis du m\u00e9decin inspecteur du travail.",
-            "texteHtml": "<p>Lorsque le   comit\u00e9 social et \u00e9conomique s'est oppos\u00e9 \u00e0 la d\u00e9cision de l'employeur, celui-ci saisit le directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi, qui se prononce sur la forme du service, apr\u00e8s avis du m\u00e9decin inspecteur du travail.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-1 al 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-1",
+                    "articleId": "LEGIARTI000018510342",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528602",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1266192000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022356338",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1266192000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025280250",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483092",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4622-3",
+                "4622-3"
+            ],
+            "versionPrecedente": "LEGIARTI000025280250",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025280250",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque le comit\u00e9 d'entreprise s'est oppos\u00e9 \u00e0 la d\u00e9cision de  l'employeur, celui-ci saisit le directeur r\u00e9gional des entreprises, de  la concurrence, de la consommation, du travail et de l'emploi, qui se  prononce sur la forme du service, apr\u00e8s avis du m\u00e9decin inspecteur du  travail.",
+            "texteHtml": "<p>Lorsque le comit\u00e9 d'entreprise s'est oppos\u00e9 \u00e0 la d\u00e9cision de  l'employeur, celui-ci saisit le directeur r\u00e9gional des entreprises, de  la concurrence, de la consommation, du travail et de l'emploi, qui se  prononce sur la forme du service, apr\u00e8s avis du m\u00e9decin inspecteur du  travail.</p>",
+            "num": "D4622-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1341100800000,
+            "dateFin": 1514764800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -179,11 +317,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -215,15 +362,24 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 1 : Organisation des services de sant\u00e9 au travail.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492759",
                         "id": "LEGISCTA000025280090",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Organisation des services de pr\u00e9vention et de sant\u00e9 au travail.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492759",
+                        "id": "LEGISCTA000046340709",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -237,21 +393,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025280250",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000018492765",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492759",
+            "sectionParentId": "LEGISCTA000046340709",
+            "sectionParentTitre": "Section 1 : Organisation des services de pr\u00e9vention et de sant\u00e9 au travail.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre II : Missions et organisation &gt; Section 1 : Organisation des services de sant\u00e9 au travail.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000025280250",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-1 al 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-1",
-                    "articleId": "LEGIARTI000018510342",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "<p></p><br clear='none'/><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025241642",
@@ -266,15 +454,88 @@
                     "dateDebutCible": "2012-07-01"
                 }
             ],
-            "num": "D4622-3",
-            "origine": "LEGI",
-            "texte": "Lorsque le comit\u00e9 d'entreprise s'est oppos\u00e9 \u00e0 la d\u00e9cision de  l'employeur, celui-ci saisit le directeur r\u00e9gional des entreprises, de  la concurrence, de la consommation, du travail et de l'emploi, qui se  prononce sur la forme du service, apr\u00e8s avis du m\u00e9decin inspecteur du  travail.",
-            "texteHtml": "<p>Lorsque le comit\u00e9 d'entreprise s'est oppos\u00e9 \u00e0 la d\u00e9cision de  l'employeur, celui-ci saisit le directeur r\u00e9gional des entreprises, de  la concurrence, de la consommation, du travail et de l'emploi, qui se  prononce sur la forme du service, apr\u00e8s avis du m\u00e9decin inspecteur du  travail.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-01T00:00:00.000Z",
-            "dateFin": "2018-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-1 al 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-1",
+                    "articleId": "LEGIARTI000018510342",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528602",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1266192000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022356338",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1266192000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025280250",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483092",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4622-3",
+                "4622-3"
+            ],
+            "versionPrecedente": "LEGIARTI000022356338",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000022356338",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque le comit\u00e9 d'entreprise ou les d\u00e9l\u00e9gu\u00e9s du personnel se sont oppos\u00e9s \u00e0 la d\u00e9cision de l'employeur, cette d\u00e9cision est subordonn\u00e9e \u00e0 l'autorisation du             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi. Le             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi se prononce apr\u00e8s avis du m\u00e9decin inspecteur du travail.",
+            "texteHtml": "<p><br/>Lorsque le comit\u00e9 d'entreprise ou les d\u00e9l\u00e9gu\u00e9s du personnel se sont oppos\u00e9s \u00e0 la d\u00e9cision de l'employeur, cette d\u00e9cision est subordonn\u00e9e \u00e0 l'autorisation du             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi. <br/>Le             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi se prononce apr\u00e8s avis du m\u00e9decin inspecteur du travail.</p>",
+            "num": "D4622-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1266192000000,
+            "dateFin": 1341100800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -315,11 +576,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -351,15 +621,24 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 1 : Organisation des services de sant\u00e9 au travail.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492759",
                         "id": "LEGISCTA000025280090",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Organisation des services de pr\u00e9vention et de sant\u00e9 au travail.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492759",
+                        "id": "LEGISCTA000046340709",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -373,21 +652,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000022356338",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000018492765",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492759",
+            "sectionParentId": "LEGISCTA000046340709",
+            "sectionParentTitre": "Section 1 : Organisation des services de pr\u00e9vention et de sant\u00e9 au travail.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre II : Missions et organisation &gt; Section 1 : Organisation des services de sant\u00e9 au travail.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000022356338",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-1 al 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-1",
-                    "articleId": "LEGIARTI000018510342",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "D\u00e9cret n\u00b0 2009-1377 du 10 novembre 2009 article 7 I : Les dispositions du pr\u00e9sent d\u00e9cret prennent effet, dans chaque r\u00e9gion, \u00e0 la date de nomination du directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi (Les arr\u00eat\u00e9s de nomination de ces directeurs ont \u00e9t\u00e9 publi\u00e9s par arr\u00eat\u00e9s des 30 d\u00e9cembre 2009 et 9 f\u00e9vrier 2010, parus respectivement au Journal officiel des 5 janvier et 14 f\u00e9vrier 2010). Conform\u00e9ment \u00e0 l'article 15 du m\u00eame d\u00e9cret elles ne s'appliquent ni \u00e0 la r\u00e9gion Ile-de-France ni aux r\u00e9gions d'outre-mer. Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2010-687 du 24 juin 2010, les dispositions du d\u00e9cret n\u00b0 2009-1377 du 10 novembre 2009            s'appliquent \u00e0 la r\u00e9gion Ile-de-France \u00e0 compter du 1er juillet 2010.",
+            "notaHtml": "<p>D\u00e9cret n\u00b0 2009-1377 du 10 novembre 2009 article 7 I : Les dispositions du pr\u00e9sent d\u00e9cret prennent effet, dans chaque r\u00e9gion, \u00e0 la date de nomination du directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi (Les arr\u00eat\u00e9s de nomination de ces directeurs ont \u00e9t\u00e9 publi\u00e9s par arr\u00eat\u00e9s des 30 d\u00e9cembre 2009 et 9 f\u00e9vrier 2010, parus respectivement au Journal officiel des 5 janvier et 14 f\u00e9vrier 2010). </p><p>Conform\u00e9ment \u00e0 l'article 15 du m\u00eame d\u00e9cret elles ne s'appliquent ni \u00e0 la r\u00e9gion Ile-de-France ni aux r\u00e9gions d'outre-mer. </p><p></p><p>Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2010-687 du 24 juin 2010, les dispositions du d\u00e9cret n\u00b0 2009-1377 du 10 novembre 2009            s'appliquent \u00e0 la r\u00e9gion Ile-de-France \u00e0 compter du 1er juillet 2010.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021259245",
@@ -402,15 +713,88 @@
                     "dateDebutCible": "2009-11-14"
                 }
             ],
-            "num": "D4622-3",
-            "origine": "LEGI",
-            "texte": "Lorsque le comit\u00e9 d'entreprise ou les d\u00e9l\u00e9gu\u00e9s du personnel se sont oppos\u00e9s \u00e0 la d\u00e9cision de l'employeur, cette d\u00e9cision est subordonn\u00e9e \u00e0 l'autorisation du             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi. Le             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi se prononce apr\u00e8s avis du m\u00e9decin inspecteur du travail.",
-            "texteHtml": "<p><br/>Lorsque le comit\u00e9 d'entreprise ou les d\u00e9l\u00e9gu\u00e9s du personnel se sont oppos\u00e9s \u00e0 la d\u00e9cision de l'employeur, cette d\u00e9cision est subordonn\u00e9e \u00e0 l'autorisation du             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi. <br/>Le             directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi se prononce apr\u00e8s avis du m\u00e9decin inspecteur du travail.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-02-15T00:00:00.000Z",
-            "dateFin": "2012-07-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-1 al 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-1",
+                    "articleId": "LEGIARTI000018510342",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528602",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1266192000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022356338",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1266192000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025280250",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483092",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4622-3",
+                "4622-3"
+            ],
+            "versionPrecedente": "LEGIARTI000018528602",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018528602",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque le comit\u00e9 d'entreprise ou les d\u00e9l\u00e9gu\u00e9s du personnel se sont oppos\u00e9s \u00e0 la d\u00e9cision de l'employeur, cette d\u00e9cision est subordonn\u00e9e \u00e0 l'autorisation du directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle. Le directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle se prononce apr\u00e8s avis du m\u00e9decin inspecteur du travail.",
+            "texteHtml": "<p><br/>Lorsque le comit\u00e9 d'entreprise ou les d\u00e9l\u00e9gu\u00e9s du personnel se sont oppos\u00e9s \u00e0 la d\u00e9cision de l'employeur, cette d\u00e9cision est subordonn\u00e9e \u00e0 l'autorisation du directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle.<br/> Le directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle se prononce apr\u00e8s avis du m\u00e9decin inspecteur du travail.</p>",
+            "num": "D4622-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1266192000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -451,11 +835,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -487,15 +880,24 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Section 1 : Organisation des services de sant\u00e9 au travail.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492759",
                         "id": "LEGISCTA000025280090",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Organisation des services de pr\u00e9vention et de sant\u00e9 au travail.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492759",
+                        "id": "LEGISCTA000046340709",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -509,21 +911,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018528602",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000018492765",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492759",
+            "sectionParentId": "LEGISCTA000046340709",
+            "sectionParentTitre": "Section 1 : Organisation des services de pr\u00e9vention et de sant\u00e9 au travail.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; TITRE II : SERVICES DE SANT\u00c9 AU TRAVAIL &gt; Chapitre II : Missions et organisation &gt; Section 1 : Organisation des services de sant\u00e9 au travail.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000018528602",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-1 al 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-1",
-                    "articleId": "LEGIARTI000018510342",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018442415",
@@ -538,13 +972,70 @@
                     "dateDebutCible": "2008-03-13"
                 }
             ],
-            "num": "D4622-3",
-            "origine": "LEGI",
-            "texte": "Lorsque le comit\u00e9 d'entreprise ou les d\u00e9l\u00e9gu\u00e9s du personnel se sont oppos\u00e9s \u00e0 la d\u00e9cision de l'employeur, cette d\u00e9cision est subordonn\u00e9e \u00e0 l'autorisation du directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle. Le directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle se prononce apr\u00e8s avis du m\u00e9decin inspecteur du travail.",
-            "texteHtml": "<p><br/>Lorsque le comit\u00e9 d'entreprise ou les d\u00e9l\u00e9gu\u00e9s du personnel se sont oppos\u00e9s \u00e0 la d\u00e9cision de l'employeur, cette d\u00e9cision est subordonn\u00e9e \u00e0 l'autorisation du directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle.<br/> Le directeur r\u00e9gional du travail, de l'emploi et de la formation professionnelle se prononce apr\u00e8s avis du m\u00e9decin inspecteur du travail.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2010-02-15T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-1 al 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-1",
+                    "articleId": "LEGIARTI000018510342",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528602",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1266192000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022356338",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1266192000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025280250",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483092",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4622-3",
+                "4622-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

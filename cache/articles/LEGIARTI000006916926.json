@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006916926",
-    "num": "R6123-108",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000044941642",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'autorisation d'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie de mention A ne peut \u00eatre accord\u00e9e que si le titulaire \u00e9tablit une convention avec une structure autoris\u00e9e \u00e0 r\u00e9aliser l'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie de mention B. La convention pr\u00e9voit notamment le partage des pratiques professionnelles et les modalit\u00e9s de connexion des syst\u00e8mes d'information afin, notamment, de permettre le partage d'images en temps r\u00e9el.",
+            "texteHtml": "<p>L'autorisation d'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie de mention A ne peut \u00eatre accord\u00e9e que si le titulaire \u00e9tablit une convention avec une structure autoris\u00e9e \u00e0 r\u00e9aliser l'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie de mention B.<br/><br/>\nLa convention pr\u00e9voit notamment le partage des pratiques professionnelles et les modalit\u00e9s de connexion des syst\u00e8mes d'information afin, notamment, de permettre le partage d'images en temps r\u00e9el.</p>",
+            "num": "R6123-108",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000006190817",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000044941657",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -83,40 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000044941642",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916926",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190817",
+            "sectionParentId": "LEGISCTA000044941657",
+            "sectionParentTitre": "Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000044941642",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000044931060",
-                    "textTitle": "Arr\u00eat\u00e9 du 10 janvier 2022 - art. 3, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "JORFARTI000044931065",
-                    "natureText": "ARRETE",
-                    "date": 1642114033149,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1641945600000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-150 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D6124-150",
-                    "articleId": "LEGIARTI000044948724",
-                    "natureText": "CODE",
-                    "date": 1642114033150,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Se reporter aux conditions d'application pr\u00e9vues \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-21 du 10 janvier 2022.",
+            "notaHtml": "<p>Se reporter aux conditions d'application pr\u00e9vues \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-21 du 10 janvier 2022.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000044930914",
@@ -131,15 +159,105 @@
                     "dateDebutCible": "2023-06-01"
                 }
             ],
-            "num": "R6123-108",
-            "origine": "LEGI",
-            "texte": "L'autorisation d'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie de mention A ne peut \u00eatre accord\u00e9e que si le titulaire \u00e9tablit une convention avec une structure autoris\u00e9e \u00e0 r\u00e9aliser l'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie de mention B. La convention pr\u00e9voit notamment le partage des pratiques professionnelles et les modalit\u00e9s de connexion des syst\u00e8mes d'information afin, notamment, de permettre le partage d'images en temps r\u00e9el.",
-            "texteHtml": "<p>L'autorisation d'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie de mention A ne peut \u00eatre accord\u00e9e que si le titulaire \u00e9tablit une convention avec une structure autoris\u00e9e \u00e0 r\u00e9aliser l'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie de mention B.<br/><br/>\nLa convention pr\u00e9voit notamment le partage des pratiques professionnelles et les modalit\u00e9s de connexion des syst\u00e8mes d'information afin, notamment, de permettre le partage d'images en temps r\u00e9el.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000044931060",
+                    "textTitle": "Arr\u00eat\u00e9 du 10 janvier 2022 - art. 3, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "JORFARTI000044931065",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1641945600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-150 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D6124-150",
+                    "articleId": "LEGIARTI000044948724",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916926",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1270080000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022068742",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1270080000000,
+                    "dateFin": 1538092800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037443729",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1538092800000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044941642",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-108",
+                "6123-108"
+            ],
+            "versionPrecedente": "LEGIARTI000037443729",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000037443729",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 l'article R. 6123-1 , le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients. Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional de sant\u00e9. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.",
+            "texteHtml": "<p>Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006916739&dateTexte=&categorieLien=cid'>l'article R. 6123-1</a>, le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients.</p><p>Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional de sant\u00e9. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.</p>",
+            "num": "R6123-108",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1538092800000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -194,7 +312,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000006190817",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -203,7 +321,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000044941657",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -220,54 +338,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000037443729",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916926",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190817",
+            "sectionParentId": "LEGISCTA000044941657",
+            "sectionParentTitre": "Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000037443729",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000044931060",
-                    "textTitle": "Arr\u00eat\u00e9 du 10 janvier 2022 - art. 3, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "JORFARTI000044931065",
-                    "natureText": "ARRETE",
-                    "date": 1642114032203,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1641945600000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-150 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D6124-150",
-                    "articleId": "LEGIARTI000044948724",
-                    "natureText": "CODE",
-                    "date": 1642114032203,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6123-1",
-                    "articleId": "LEGIARTI000006916739",
-                    "natureText": "CODE",
-                    "date": 1642114032203,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1122336000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000037436251",
@@ -282,15 +399,118 @@
                     "dateDebutCible": "2018-09-28"
                 }
             ],
-            "num": "R6123-108",
-            "origine": "LEGI",
-            "texte": "Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 l'article R. 6123-1 , le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients. Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional de sant\u00e9. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.",
-            "texteHtml": "<p>Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 <a href='/article/LEGIARTI000006916739'>l'article R. 6123-1</a>, le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients.</p><p>Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional de sant\u00e9. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-09-28T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000044931060",
+                    "textTitle": "Arr\u00eat\u00e9 du 10 janvier 2022 - art. 3, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "JORFARTI000044931065",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1641945600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-150 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D6124-150",
+                    "articleId": "LEGIARTI000044948724",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6123-1",
+                    "articleId": "LEGIARTI000006916739",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1650844800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916926",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1270080000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022068742",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1270080000000,
+                    "dateFin": 1538092800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037443729",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1538092800000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044941642",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-108",
+                "6123-108"
+            ],
+            "versionPrecedente": "LEGIARTI000022068742",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000022068742",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 l'article R. 6123-1 , le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients. Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional d'organisation des soins des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.",
+            "texteHtml": "<p>Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006916739&dateTexte=&categorieLien=cid' title='Code de la sant\u00e9 publique - art. R6123-1 (V)'>l'article R. 6123-1</a>, le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients. </p><p></p><p>Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional d'organisation des soins des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.</p><p></p>",
+            "num": "R6123-108",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1270080000000,
+            "dateFin": 1538092800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -345,7 +565,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000006190817",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -354,7 +574,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000044941657",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -371,54 +591,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000022068742",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916926",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190817",
+            "sectionParentId": "LEGISCTA000044941657",
+            "sectionParentTitre": "Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 9 : Activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000022068742",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000044931060",
-                    "textTitle": "Arr\u00eat\u00e9 du 10 janvier 2022 - art. 3, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "JORFARTI000044931065",
-                    "natureText": "ARRETE",
-                    "date": 1642114033227,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1641945600000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-150 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D6124-150",
-                    "articleId": "LEGIARTI000044948724",
-                    "natureText": "CODE",
-                    "date": 1642114033228,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6123-1",
-                    "articleId": "LEGIARTI000006916739",
-                    "natureText": "CODE",
-                    "date": 1642114033228,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1122336000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000022041034",
@@ -433,15 +652,118 @@
                     "dateDebutCible": "2010-04-02"
                 }
             ],
-            "num": "R6123-108",
-            "origine": "LEGI",
-            "texte": "Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 l'article R. 6123-1 , le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients. Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional d'organisation des soins des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.",
-            "texteHtml": "<p>Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 <a href='/article/LEGIARTI000006916739' title='Code de la sant\u00e9 publique - art. R6123-1 (V)'>l'article R. 6123-1</a>, le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients. </p><p></p><p>Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional d'organisation des soins des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-04-01T00:00:00.000Z",
-            "dateFin": "2018-09-28T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000044931060",
+                    "textTitle": "Arr\u00eat\u00e9 du 10 janvier 2022 - art. 3, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "JORFARTI000044931065",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1641945600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-150 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D6124-150",
+                    "articleId": "LEGIARTI000044948724",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6123-1",
+                    "articleId": "LEGIARTI000006916739",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1650844800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916926",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1270080000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022068742",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1270080000000,
+                    "dateFin": 1538092800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037443729",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1538092800000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044941642",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-108",
+                "6123-108"
+            ],
+            "versionPrecedente": "LEGIARTI000006916926",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006916926",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 l'article R. 6123-1, le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients. Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional d'organisation sanitaire des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.",
+            "texteHtml": "<p></p>   Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 l'article R. 6123-1, le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients.<p></p><p></p>   Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional d'organisation sanitaire des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.<p></p>",
+            "num": "R6123-108",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174435200000,
+            "dateFin": 1270080000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -496,7 +818,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000006190817",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -505,7 +827,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000044941657",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -522,54 +844,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006916926",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916926",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190817",
+            "sectionParentId": "LEGISCTA000044941657",
+            "sectionParentTitre": "Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 9 : Activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006916926",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000044931060",
-                    "textTitle": "Arr\u00eat\u00e9 du 10 janvier 2022 - art. 3, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "JORFARTI000044931065",
-                    "natureText": "ARRETE",
-                    "date": 1642114033296,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1641945600000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-150 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D6124-150",
-                    "articleId": "LEGIARTI000044948724",
-                    "natureText": "CODE",
-                    "date": 1642114033296,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1685577600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6123-1",
-                    "articleId": "LEGIARTI000006916739",
-                    "natureText": "CODE",
-                    "date": 1642114033296,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1122336000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -596,13 +917,100 @@
                     "dateDebutCible": "2007-03-21"
                 }
             ],
-            "num": "R6123-108",
-            "origine": "LEGI",
-            "texte": "Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 l'article R. 6123-1, le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients. Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional d'organisation sanitaire des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.",
-            "texteHtml": "<p></p>   Le titulaire de l'autorisation de pratiquer les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie assure en permanence, en liaison avec le service d'aide m\u00e9dicale urgente appel\u00e9 SAMU ou les structures des urgences mentionn\u00e9es \u00e0 l'article R. 6123-1, le diagnostic, y compris par t\u00e9l\u00e9m\u00e9decine, et le traitement des patients.<p></p><p></p>   Cette permanence peut \u00eatre commune \u00e0 plusieurs sites autoris\u00e9s \u00e0 pratiquer ces activit\u00e9s, selon les modalit\u00e9s d'organisation de l'acc\u00e8s aux soins d\u00e9finie dans le sch\u00e9ma interr\u00e9gional d'organisation sanitaire des activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie. Dans ce cas, une convention est \u00e9tablie entre les titulaires d'autorisation propre \u00e0 chaque site.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-21T00:00:00.000Z",
-            "dateFin": "2010-04-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000044931060",
+                    "textTitle": "Arr\u00eat\u00e9 du 10 janvier 2022 - art. 3, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "JORFARTI000044931065",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1641945600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-150 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D6124-150",
+                    "articleId": "LEGIARTI000044948724",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6123-1",
+                    "articleId": "LEGIARTI000006916739",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1650844800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916926",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1270080000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022068742",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1270080000000,
+                    "dateFin": 1538092800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037443729",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1538092800000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044941642",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-108",
+                "6123-108"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

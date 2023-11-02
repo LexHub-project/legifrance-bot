@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000038980044",
-    "num": "D381-8",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000039048371",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les deux derni\u00e8res phrases de l'article D. 381-2 ne sont pas applicables lorsqu'un \u00e9tablissement public de coop\u00e9ration intercommunale ou un d\u00e9partement a conclu avec l'Etat une convention de d\u00e9l\u00e9gation de comp\u00e9tence en application des articles L. 301-5-1 ou L. 301-5-2.",
+            "texteHtml": "<p>Les deux derni\u00e8res phrases de l'article D. 381-2 ne sont pas applicables lorsqu'un \u00e9tablissement public de coop\u00e9ration intercommunale ou un d\u00e9partement a conclu avec l'Etat une convention de d\u00e9l\u00e9gation de comp\u00e9tence en application des articles L. 301-5-1 ou L. 301-5-2.</p>",
+            "num": "D381-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1567296000000,
+            "dateFin": 1664323200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073784772,
             "context": {
                 "titresTM": [
                     {
@@ -34,21 +49,21 @@
                     },
                     {
                         "debut": "2000-07-06",
-                        "fin": "2999-01-01",
+                        "fin": "2022-09-28",
                         "titre": "Chapitre unique : Subventions sp\u00e9cifiques aux logements locatifs ou subventions fonci\u00e8res",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006160559",
                         "id": "LEGISCTA000006160559",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2005-04-03",
-                        "fin": "2999-01-01",
+                        "fin": "2022-09-28",
                         "titre": "Section 4 : Dispositions sp\u00e9cifiques applicables dans les cas de d\u00e9l\u00e9gation de comp\u00e9tence pr\u00e9vues aux articles L. 301-5-1 et L. 301-5-2.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177595",
                         "id": "LEGISCTA000006177595",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -65,21 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000039048371",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000038980044",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006177595",
+            "sectionParentId": "LEGISCTA000006177595",
+            "sectionParentTitre": "Section 4 : Dispositions sp\u00e9cifiques applicables dans les cas de d\u00e9l\u00e9gation de comp\u00e9tence pr\u00e9vues aux articles L. 301-5-1 et L. 301-5-2.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Aides diverses \u00e0 la construction d'habitations et \u00e0 l'am\u00e9lioration de l'habitat - Aide personnalis\u00e9e au logement. &gt; Titre VIII : Dispositions particuli\u00e8res \u00e0 la r\u00e9gion Ile-de-France",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000039048371",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. R381-8 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R381-8",
-                    "articleId": "LEGIARTI000006898112",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000038947944",
@@ -104,15 +151,57 @@
                     "datePubliTexte": "2019-08-23",
                     "dateSignaTexte": "2019-08-21",
                     "dateDebutCible": "2019-09-01"
+                },
+                {
+                    "textCid": "JORFTEXT000046331119",
+                    "textTitle": "D\u00e9cret n\u00b02022-1257 du 26 septembre 2022 - art. 3",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000046331701",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2022-09-27",
+                    "dateSignaTexte": "2022-09-26",
+                    "dateDebutCible": "2022-09-28"
                 }
             ],
-            "num": "D381-8",
-            "origine": "LEGI",
-            "texte": "Les deux derni\u00e8res phrases de l'article D. 381-2 ne sont pas applicables lorsqu'un \u00e9tablissement public de coop\u00e9ration intercommunale ou un d\u00e9partement a conclu avec l'Etat une convention de d\u00e9l\u00e9gation de comp\u00e9tence en application des articles L. 301-5-1 ou L. 301-5-2.",
-            "texteHtml": "<p>Les deux derni\u00e8res phrases de l'article D. 381-2 ne sont pas applicables lorsqu'un \u00e9tablissement public de coop\u00e9ration intercommunale ou un d\u00e9partement a conclu avec l'Etat une convention de d\u00e9l\u00e9gation de comp\u00e9tence en application des articles L. 301-5-1 ou L. 301-5-2.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-09-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R381-8 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R381-8",
+                    "articleId": "LEGIARTI000006898112",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000039048371",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1567296000000,
+                    "dateFin": 1664323200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D381-8",
+                "381-8"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029656784",
-    "num": "R723-49",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000029656784",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le sapeur-pompier volontaire conserve son grade et son anciennet\u00e9 en cas de suspension de son engagement. La dur\u00e9e maximale autoris\u00e9e de suspension durant l'ensemble des engagements du sapeur-pompier volontaire est fix\u00e9e \u00e0 cinq ans. Les p\u00e9riodes de suspension d'engagement ne sont pas prises en compte pour la d\u00e9termination des services effectifs ouvrant droit \u00e0 l'avancement ni pour le d\u00e9compte de l'anciennet\u00e9 du sapeur-pompier volontaire. Elles interrompent d'une dur\u00e9e \u00e9quivalente le d\u00e9roulement de l'engagement quinquennal en cours.",
+            "texteHtml": "<p><br/>Le sapeur-pompier volontaire conserve son grade et son anciennet\u00e9 en cas de suspension de son engagement.<br/>La dur\u00e9e maximale autoris\u00e9e de suspension durant l'ensemble des engagements du sapeur-pompier volontaire est fix\u00e9e \u00e0 cinq ans.<br/>Les p\u00e9riodes de suspension d'engagement ne sont pas prises en compte pour la d\u00e9termination des services effectifs ouvrant droit \u00e0 l'avancement ni pour le d\u00e9compte de l'anciennet\u00e9 du sapeur-pompier volontaire. Elles interrompent d'une dur\u00e9e \u00e9quivalente le d\u00e9roulement de l'engagement quinquennal en cours.</p>",
+            "num": "R723-49",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1417392000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -92,21 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000029656784",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000029656784",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656776",
+            "sectionParentId": "LEGISCTA000029657812",
+            "sectionParentTitre": "  Sous-paragraphe  6 : Suspension de l'engagement",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 2 : Engagement citoyen &gt; Paragraphe 3 : D\u00e9roulement du volontariat &gt;   Sous-paragraphe  6 : Suspension de l'engagement",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000029656784",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027517141",
-                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 47 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "47",
-                    "articleId": "LEGIARTI000027520174",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -133,13 +189,43 @@
                     "dateDebutCible": "2014-12-01"
                 }
             ],
-            "num": "R723-49",
-            "origine": "LEGI",
-            "texte": "Le sapeur-pompier volontaire conserve son grade et son anciennet\u00e9 en cas de suspension de son engagement. La dur\u00e9e maximale autoris\u00e9e de suspension durant l'ensemble des engagements du sapeur-pompier volontaire est fix\u00e9e \u00e0 cinq ans. Les p\u00e9riodes de suspension d'engagement ne sont pas prises en compte pour la d\u00e9termination des services effectifs ouvrant droit \u00e0 l'avancement ni pour le d\u00e9compte de l'anciennet\u00e9 du sapeur-pompier volontaire. Elles interrompent d'une dur\u00e9e \u00e9quivalente le d\u00e9roulement de l'engagement quinquennal en cours.",
-            "texteHtml": "<p><br/>Le sapeur-pompier volontaire conserve son grade et son anciennet\u00e9 en cas de suspension de son engagement.<br/>La dur\u00e9e maximale autoris\u00e9e de suspension durant l'ensemble des engagements du sapeur-pompier volontaire est fix\u00e9e \u00e0 cinq ans.<br/>Les p\u00e9riodes de suspension d'engagement ne sont pas prises en compte pour la d\u00e9termination des services effectifs ouvrant droit \u00e0 l'avancement ni pour le d\u00e9compte de l'anciennet\u00e9 du sapeur-pompier volontaire. Elles interrompent d'une dur\u00e9e \u00e9quivalente le d\u00e9roulement de l'engagement quinquennal en cours.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000027517141",
+                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 47 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "47",
+                    "articleId": "LEGIARTI000027520174",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656784",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R723-49",
+                "723-49"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

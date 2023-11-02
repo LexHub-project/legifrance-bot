@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006916943",
-    "num": "D6124-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006916944",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La structure de m\u00e9decine d'urgence dispose d'un personnel de secr\u00e9tariat.",
+            "texteHtml": "<p></p>   La structure de m\u00e9decine d'urgence dispose d'un personnel de secr\u00e9tariat.<p></p><p></p>",
+            "num": "D6124-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1148342400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -92,45 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006916944",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916943",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006198990",
+            "sectionParentId": "LEGISCTA000006198990",
+            "sectionParentTitre": "Paragraphe 1 : Structures de m\u00e9decine d'urgence",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 1 : M\u00e9decine d'urgence &gt; Paragraphe 1 : Structures de m\u00e9decine d'urgence",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006916944",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-15 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D6124-15",
-                    "articleId": "LEGIARTI000006916965",
-                    "natureText": "CODE",
-                    "date": 1599807049352,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1122336000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D712-55 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "D712-55",
-                    "articleId": "LEGIARTI000006691919",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D712-55 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "D712-55",
-                    "articleId": "LEGIARTI000006691918",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -157,15 +180,93 @@
                     "dateDebutCible": "2006-05-23"
                 }
             ],
-            "num": "D6124-4",
-            "origine": "LEGI",
-            "texte": "La structure de m\u00e9decine d'urgence dispose d'un personnel de secr\u00e9tariat.",
-            "texteHtml": "<p></p>   La structure de m\u00e9decine d'urgence dispose d'un personnel de secr\u00e9tariat.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-05-23T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-15 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D6124-15",
+                    "articleId": "LEGIARTI000006916965",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1122336000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D712-55 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "D712-55",
+                    "articleId": "LEGIARTI000006691919",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D712-55 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "D712-55",
+                    "articleId": "LEGIARTI000006691918",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916943",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1122336000000,
+                    "dateFin": 1148342400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006916944",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1148342400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-4",
+                "6124-4"
+            ],
+            "versionPrecedente": "LEGIARTI000006916943",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006916943",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'\u00e9quipe param\u00e9dicale du service, dirig\u00e9e par un cadre infirmier, est suffisante pour que, vingt-quatre heures sur vingt-quatre, tous les jours de l'ann\u00e9e, au moins deux infirmiers ou infirmi\u00e8res soient effectivement pr\u00e9sents pour dispenser les soins aux patients. Le service comprend, en outre, des aides-soignants ou \u00e9ventuellement des auxiliaires de pu\u00e9riculture, des agents de service, un assistant de service social et un agent charg\u00e9 des admissions. Tous les membres de l'\u00e9quipe param\u00e9dicale ont acquis une formation \u00e0 la prise en charge des urgences, soit au cours de leurs \u00e9tudes, soit par une formation ult\u00e9rieure.",
+            "texteHtml": "<p></p>   L'\u00e9quipe param\u00e9dicale du service, dirig\u00e9e par un cadre infirmier, est suffisante pour que, vingt-quatre heures sur vingt-quatre, tous les jours de l'ann\u00e9e, au moins deux infirmiers ou infirmi\u00e8res soient effectivement pr\u00e9sents pour dispenser les soins aux patients. Le service comprend, en outre, des aides-soignants ou \u00e9ventuellement des auxiliaires de pu\u00e9riculture, des agents de service, un assistant de service social et un agent charg\u00e9 des admissions.<p></p><p></p>   Tous les membres de l'\u00e9quipe param\u00e9dicale ont acquis une formation \u00e0 la prise en charge des urgences, soit au cours de leurs \u00e9tudes, soit par une formation ult\u00e9rieure.<p></p>",
+            "num": "D6124-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1122336000000,
+            "dateFin": 1148342400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -246,9 +347,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006916943",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006916943",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196697",
+            "sectionParentId": "LEGISCTA000006196697",
+            "sectionParentTitre": "Sous-section 1 : Accueil et traitement des urgences.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006916943",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000814956",
+                    "textTitle": "D\u00e9cret 2005-840 2005-07-20",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000814956",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2005-07-26",
+                    "dateSignaTexte": "2005-07-20",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072665",
@@ -258,7 +417,6 @@
                     "articleNum": "D6124-15",
                     "articleId": "LEGIARTI000006916965",
                     "natureText": "CODE",
-                    "date": 1599807048792,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -285,27 +443,40 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000814956",
-                    "textTitle": "D\u00e9cret 2005-840 2005-07-20",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000814956",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2005-07-26",
-                    "dateSignaTexte": "2005-07-20",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006916943",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1122336000000,
+                    "dateFin": 1148342400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006916944",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1148342400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "D6124-4",
-            "origine": "LEGI",
-            "texte": "L'\u00e9quipe param\u00e9dicale du service, dirig\u00e9e par un cadre infirmier, est suffisante pour que, vingt-quatre heures sur vingt-quatre, tous les jours de l'ann\u00e9e, au moins deux infirmiers ou infirmi\u00e8res soient effectivement pr\u00e9sents pour dispenser les soins aux patients. Le service comprend, en outre, des aides-soignants ou \u00e9ventuellement des auxiliaires de pu\u00e9riculture, des agents de service, un assistant de service social et un agent charg\u00e9 des admissions. Tous les membres de l'\u00e9quipe param\u00e9dicale ont acquis une formation \u00e0 la prise en charge des urgences, soit au cours de leurs \u00e9tudes, soit par une formation ult\u00e9rieure.",
-            "texteHtml": "<p></p>   L'\u00e9quipe param\u00e9dicale du service, dirig\u00e9e par un cadre infirmier, est suffisante pour que, vingt-quatre heures sur vingt-quatre, tous les jours de l'ann\u00e9e, au moins deux infirmiers ou infirmi\u00e8res soient effectivement pr\u00e9sents pour dispenser les soins aux patients. Le service comprend, en outre, des aides-soignants ou \u00e9ventuellement des auxiliaires de pu\u00e9riculture, des agents de service, un assistant de service social et un agent charg\u00e9 des admissions.<p></p><p></p>   Tous les membres de l'\u00e9quipe param\u00e9dicale ont acquis une formation \u00e0 la prise en charge des urgences, soit au cours de leurs \u00e9tudes, soit par une formation ult\u00e9rieure.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-07-26T00:00:00.000Z",
-            "dateFin": "2006-05-23T00:00:00.000Z"
+            "computedNums": [
+                "D6124-4",
+                "6124-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

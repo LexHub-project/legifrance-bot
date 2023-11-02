@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689325",
-    "num": "L4321-13",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000036515704",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'ordre des masseurs-kin\u00e9sith\u00e9rapeutes regroupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France. Conform\u00e9ment aux dispositions de l'article L. 4061-1, les masseurs-kin\u00e9sith\u00e9rapeutes relevant des dispositions de l'article L. 4138-2 du code de la d\u00e9fense ne sont inscrits \u00e0 aucun tableau de l'ordre.",
+            "texteHtml": "<p>L'ordre des masseurs-kin\u00e9sith\u00e9rapeutes regroupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France.</p><p>Conform\u00e9ment aux dispositions de l'article L. 4061-1, les masseurs-kin\u00e9sith\u00e9rapeutes relevant des dispositions de l'article L. 4138-2 du code de la d\u00e9fense ne sont inscrits \u00e0 aucun tableau de l'ordre.</p>",
+            "num": "L4321-13",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1516320000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1030776,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,30 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000036515704",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006689325",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171311",
+            "sectionParentId": "LEGISCTA000006171311",
+            "sectionParentTitre": "Chapitre Ier : Masseur-kin\u00e9sith\u00e9rapeute.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires &gt; Titre II : Professions de masseur-kin\u00e9sith\u00e9rapeute et de p\u00e9dicure-podologue &gt; Chapitre Ier : Masseur-kin\u00e9sith\u00e9rapeute.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000036515704",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L491-1",
-                    "articleId": "LEGIARTI000006693305",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L491-1",
-                    "articleId": "LEGIARTI000006693305",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -145,15 +192,88 @@
                     "dateDebutCible": "2018-01-19"
                 }
             ],
-            "num": "L4321-13",
-            "origine": "LEGI",
-            "texte": "L'ordre des masseurs-kin\u00e9sith\u00e9rapeutes regroupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France. Conform\u00e9ment aux dispositions de l'article L. 4061-1, les masseurs-kin\u00e9sith\u00e9rapeutes relevant des dispositions de l'article L. 4138-2 du code de la d\u00e9fense ne sont inscrits \u00e0 aucun tableau de l'ordre.",
-            "texteHtml": "<p>L'ordre des masseurs-kin\u00e9sith\u00e9rapeutes regroupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France.</p><p>Conform\u00e9ment aux dispositions de l'article L. 4061-1, les masseurs-kin\u00e9sith\u00e9rapeutes relevant des dispositions de l'article L. 4138-2 du code de la d\u00e9fense ne sont inscrits \u00e0 aucun tableau de l'ordre.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-01-19T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L491-1",
+                    "articleId": "LEGIARTI000006693305",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L491-1",
+                    "articleId": "LEGIARTI000006693305",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689325",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1015286400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689326",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1092182400000,
+                    "dateFin": 1516320000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036515704",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1516320000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4321-13",
+                "4321-13"
+            ],
+            "versionPrecedente": "LEGIARTI000006689326",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689326",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'ordre des masseurs-kin\u00e9sith\u00e9rapeutes regroupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France, \u00e0 l'exception des masseurs-kin\u00e9sith\u00e9rapeutes relevant du service de sant\u00e9 des arm\u00e9es.",
+            "texteHtml": "<p></p>   L'ordre des masseurs-kin\u00e9sith\u00e9rapeutes regroupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France, \u00e0 l'exception des masseurs-kin\u00e9sith\u00e9rapeutes relevant du service de sant\u00e9 des arm\u00e9es.<p></p><p></p>",
+            "num": "L4321-13",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1092182400000,
+            "dateFin": 1516320000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1030776,
             "context": {
                 "titresTM": [
                     {
@@ -194,11 +314,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -234,30 +363,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689326",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006689325",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171311",
+            "sectionParentId": "LEGISCTA000006171311",
+            "sectionParentTitre": "Chapitre Ier : Masseur-kin\u00e9sith\u00e9rapeute.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires &gt; Titre II : Professions de masseur-kin\u00e9sith\u00e9rapeute et de p\u00e9dicure-podologue &gt; Chapitre Ier : Masseur-kin\u00e9sith\u00e9rapeute.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006689326",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L491-1",
-                    "articleId": "LEGIARTI000006693305",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L491-1",
-                    "articleId": "LEGIARTI000006693305",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -296,15 +448,88 @@
                     "dateDebutCible": "2004-08-11"
                 }
             ],
-            "num": "L4321-13",
-            "origine": "LEGI",
-            "texte": "L'ordre des masseurs-kin\u00e9sith\u00e9rapeutes regroupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France, \u00e0 l'exception des masseurs-kin\u00e9sith\u00e9rapeutes relevant du service de sant\u00e9 des arm\u00e9es.",
-            "texteHtml": "<p></p>   L'ordre des masseurs-kin\u00e9sith\u00e9rapeutes regroupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France, \u00e0 l'exception des masseurs-kin\u00e9sith\u00e9rapeutes relevant du service de sant\u00e9 des arm\u00e9es.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-08-11T00:00:00.000Z",
-            "dateFin": "2018-01-19T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L491-1",
+                    "articleId": "LEGIARTI000006693305",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L491-1",
+                    "articleId": "LEGIARTI000006693305",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689325",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1015286400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689326",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1092182400000,
+                    "dateFin": 1516320000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036515704",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1516320000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4321-13",
+                "4321-13"
+            ],
+            "versionPrecedente": "LEGIARTI000006689325",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689325",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'ordre national des masseurs-kin\u00e9sith\u00e9rapeutes groupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France, \u00e0 l'exception des masseurs-kin\u00e9sith\u00e9rapeutes relevant du service de sant\u00e9 des arm\u00e9es.",
+            "texteHtml": "<p></p>   L'ordre national des masseurs-kin\u00e9sith\u00e9rapeutes groupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France, \u00e0 l'exception des masseurs-kin\u00e9sith\u00e9rapeutes relevant du service de sant\u00e9 des arm\u00e9es.<p></p><p></p>",
+            "num": "L4321-13",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 961632000000,
+            "dateFin": 1015286400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073725,
             "context": {
                 "titresTM": [
                     {
@@ -345,11 +570,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -385,30 +619,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE",
-            "id": "LEGIARTI000006689325",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006689325",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171311",
+            "sectionParentId": "LEGISCTA000006171311",
+            "sectionParentTitre": "Chapitre Ier : Masseur-kin\u00e9sith\u00e9rapeute.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre II : Professions de masseur-kin\u00e9sith\u00e9rapeute et de p\u00e9dicure-podologue &gt; Chapitre Ier : Masseur-kin\u00e9sith\u00e9rapeute.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006689325",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L491-1",
-                    "articleId": "LEGIARTI000006693305",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L491-1",
-                    "articleId": "LEGIARTI000006693305",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -447,13 +704,70 @@
                     "dateDebutCible": "2002-03-05"
                 }
             ],
-            "num": "L4321-13",
-            "origine": "LEGI",
-            "texte": "L'ordre national des masseurs-kin\u00e9sith\u00e9rapeutes groupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France, \u00e0 l'exception des masseurs-kin\u00e9sith\u00e9rapeutes relevant du service de sant\u00e9 des arm\u00e9es.",
-            "texteHtml": "<p></p>   L'ordre national des masseurs-kin\u00e9sith\u00e9rapeutes groupe obligatoirement tous les masseurs-kin\u00e9sith\u00e9rapeutes habilit\u00e9s \u00e0 exercer leur profession en France, \u00e0 l'exception des masseurs-kin\u00e9sith\u00e9rapeutes relevant du service de sant\u00e9 des arm\u00e9es.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2002-03-05T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L491-1",
+                    "articleId": "LEGIARTI000006693305",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L491-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L491-1",
+                    "articleId": "LEGIARTI000006693305",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689325",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1015286400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689326",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1092182400000,
+                    "dateFin": 1516320000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036515704",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1516320000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4321-13",
+                "4321-13"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

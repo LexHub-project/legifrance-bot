@@ -1,160 +1,23 @@
 {
-    "cid": "LEGIARTI000006746940",
-    "num": "R123-47-1",
+    "executionTime": 0,
     "listArticle": [
         {
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "1961-01-12",
-                        "fin": "2999-01-01",
-                        "titre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006106085",
-                        "id": "LEGISCTA000006106085",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1985-12-21",
-                        "fin": "2999-01-01",
-                        "titre": "Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006126950",
-                        "id": "LEGISCTA000006126950",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1985-12-21",
-                        "fin": "2999-01-01",
-                        "titre": "Titre II : Administration, fonctionnement et personnel des organismes",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006141845",
-                        "id": "LEGISCTA000006141845",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1985-12-21",
-                        "fin": "2999-01-01",
-                        "titre": "Chapitre 3 : Personnel",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006156500",
-                        "id": "LEGISCTA000006156500",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1985-12-21",
-                        "fin": "2999-01-01",
-                        "titre": "Section 2 : Agents de direction et agents comptables",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006173214",
-                        "id": "LEGISCTA000006173214",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2007-02-23",
-                        "fin": "2999-01-01",
-                        "titre": "Sous-section 3 : Nomination et parcours professionnel.",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006186358",
-                        "id": "LEGISCTA000006186358",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 1,
-                "longeurChemin": 50,
-                "titreTxt": [
-                    {
-                        "debut": "1958-10-16",
-                        "fin": "2999-01-01",
-                        "titre": "Code de la s\u00e9curit\u00e9 sociale",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006073189",
-                        "id": "LEGITEXT000006073189",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000020602370",
-            "lienAutres": [],
-            "lienCitations": [
-                {
-                    "textCid": "JORFTEXT000027814003",
-                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000027815189",
-                    "natureText": "ARRETE",
-                    "date": 1622677759417,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1375920000000,
-                    "dateDebut": 1376006400000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R122-4",
-                    "articleId": "LEGIARTI000036914509",
-                    "natureText": "CODE",
-                    "date": 1622677759417,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1526515200000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-45 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R123-45",
-                    "articleId": "LEGIARTI000027726088",
-                    "natureText": "CODE",
-                    "date": 1622677759418,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1396310400000
-                }
-            ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-37-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "source",
-                    "articleNum": "R123-37-2",
-                    "articleId": "LEGIARTI000020602374",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000020592479",
-                    "textTitle": "D\u00e9cret n\u00b02009-520\n du 7 mai 2009 - art. 4",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "4",
-                    "articleId": "LEGIARTI000020593033",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2009-05-10",
-                    "dateSignaTexte": "2009-05-07",
-                    "dateDebutCible": "2009-05-11"
-                }
-            ],
+            "id": "LEGIARTI000027726074",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour \u00eatre nomm\u00e9 sur un premier emploi d'agent comptable d'un organisme de s\u00e9curit\u00e9 sociale mentionn\u00e9 \u00e0 l'article R. 123-45, un candidat inscrit sur la liste d'aptitude mentionn\u00e9e \u00e0 cet article doit : 1\u00b0 Soit \u00eatre titulaire de l'attestation de la formation dans le domaine de la comptabilit\u00e9 d\u00e9livr\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale ; 2\u00b0 Soit justifier, dans des conditions pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, d'une exp\u00e9rience ou d'un dipl\u00f4me dans ce domaine ainsi que d'une formation relative au fonctionnement de la s\u00e9curit\u00e9 sociale organis\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale.",
+            "texteHtml": "<p>Pour \u00eatre nomm\u00e9 sur un premier emploi d'agent comptable d'un organisme de s\u00e9curit\u00e9 sociale mentionn\u00e9 \u00e0 l'article R. 123-45, un candidat inscrit sur la liste d'aptitude mentionn\u00e9e \u00e0 cet article doit : </p><p>1\u00b0 Soit \u00eatre titulaire de l'attestation de la formation dans le domaine de la comptabilit\u00e9 d\u00e9livr\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale ;  </p><p>2\u00b0 Soit justifier, dans des conditions pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, d'une exp\u00e9rience ou d'un dipl\u00f4me dans ce domaine ainsi que d'une formation relative au fonctionnement de la s\u00e9curit\u00e9 sociale organis\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale.</p><p></p>",
             "num": "R123-47-1",
             "origine": "LEGI",
-            "texte": "Pour \u00eatre nomm\u00e9 sur un premier emploi d'agent comptable d'un organisme de s\u00e9curit\u00e9 sociale mentionn\u00e9 \u00e0 l'article R. 123-45, un candidat inscrit sur la liste d'aptitude mentionn\u00e9e \u00e0 cet article doit : 1\u00b0 Soit avoir b\u00e9n\u00e9fici\u00e9 d'une formation dans le domaine de la comptabilit\u00e9 au cours de sa scolarit\u00e9 \u00e0 l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale, s'il est ancien \u00e9l\u00e8ve de cette \u00e9cole ; 2\u00b0 Soit justifier, dans des conditions pr\u00e9cis\u00e9es par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale et du ministre de l'agriculture, d'une exp\u00e9rience ou d'un dipl\u00f4me dans ce domaine ainsi que d'une formation relative au fonctionnement de la s\u00e9curit\u00e9 sociale organis\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale.",
-            "texteHtml": "<p>Pour \u00eatre nomm\u00e9 sur un premier emploi d'agent comptable d'un organisme de s\u00e9curit\u00e9 sociale mentionn\u00e9 \u00e0 l'article R. 123-45, un candidat inscrit sur la liste d'aptitude mentionn\u00e9e \u00e0 cet article doit : </p><p>1\u00b0 Soit avoir b\u00e9n\u00e9fici\u00e9 d'une formation dans le domaine de la comptabilit\u00e9 au cours de sa scolarit\u00e9 \u00e0 l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale, s'il est ancien \u00e9l\u00e8ve de cette \u00e9cole ; </p><p>2\u00b0 Soit justifier, dans des conditions pr\u00e9cis\u00e9es par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale et du ministre de l'agriculture, d'une exp\u00e9rience ou d'un dipl\u00f4me dans ce domaine ainsi que d'une formation relative au fonctionnement de la s\u00e9curit\u00e9 sociale organis\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-05-11T00:00:00.000Z",
-            "dateFin": "2009-05-11T00:00:00.000Z"
-        },
-        {
+            "nature": "Article",
+            "versionArticle": "5.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1242000000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -235,37 +98,106 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000027726074",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006746940",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000027719741",
+            "sectionParentId": "LEGISCTA000027719753",
+            "sectionParentTitre": "Paragraphe 2 : Nomination",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre II : Administration, fonctionnement et personnel des organismes &gt; Chapitre 3 : Personnel &gt; Section 2 : Agents de direction et agents comptables &gt; Sous-section 3 : Nomination et parcours professionnel.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000027726074",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000027714112",
+                    "textTitle": "D\u00e9cret n\u00b02013-624\n du 15 juillet 2013 - art. 2",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000027716437",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2013-07-17",
+                    "dateSignaTexte": "2013-07-15",
+                    "dateDebutCible": "2013-07-18"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000027814003",
-                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (V)",
+                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
                     "articleId": "LEGIARTI000027815189",
                     "natureText": "ARRETE",
-                    "date": 1622682603969,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 1375920000000,
                     "dateDebut": 1376006400000
                 },
                 {
+                    "textCid": "JORFTEXT000047537955",
+                    "textTitle": "Arr\u00eat\u00e9 du 7 avril 2023 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000047538727",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1683849600000,
+                    "dateDebut": 1683936000000
+                },
+                {
                     "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (V)",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (VD)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R122-4",
-                    "articleId": "LEGIARTI000036914509",
+                    "articleId": "LEGIARTI000046800529",
                     "natureText": "CODE",
-                    "date": 1622682603969,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1526515200000
+                    "dateDebut": 1672531200000
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
@@ -275,7 +207,6 @@
                     "articleNum": "R123-45",
                     "articleId": "LEGIARTI000027726088",
                     "natureText": "CODE",
-                    "date": 1622682603969,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -293,29 +224,85 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000027714112",
-                    "textTitle": "D\u00e9cret n\u00b02013-624\n du 15 juillet 2013 - art. 2",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000027716437",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2013-07-17",
-                    "dateSignaTexte": "2013-07-15",
-                    "dateDebutCible": "2013-07-18"
+                    "id": "LEGIARTI000006746940",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 766800000000,
+                    "dateFin": 1097625600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746941",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1097625600000,
+                    "dateFin": 1172188800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746942",
+                    "etat": "TRANSFERE",
+                    "version": "3.0",
+                    "dateDebut": 1172188800000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020602370",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027726074",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R123-47-1",
-            "origine": "LEGI",
-            "texte": "Pour \u00eatre nomm\u00e9 sur un premier emploi d'agent comptable d'un organisme de s\u00e9curit\u00e9 sociale mentionn\u00e9 \u00e0 l'article R. 123-45, un candidat inscrit sur la liste d'aptitude mentionn\u00e9e \u00e0 cet article doit : 1\u00b0 Soit \u00eatre titulaire de l'attestation de la formation dans le domaine de la comptabilit\u00e9 d\u00e9livr\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale ; 2\u00b0 Soit justifier, dans des conditions pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, d'une exp\u00e9rience ou d'un dipl\u00f4me dans ce domaine ainsi que d'une formation relative au fonctionnement de la s\u00e9curit\u00e9 sociale organis\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale.",
-            "texteHtml": "<p>Pour \u00eatre nomm\u00e9 sur un premier emploi d'agent comptable d'un organisme de s\u00e9curit\u00e9 sociale mentionn\u00e9 \u00e0 l'article R. 123-45, un candidat inscrit sur la liste d'aptitude mentionn\u00e9e \u00e0 cet article doit : </p><p>1\u00b0 Soit \u00eatre titulaire de l'attestation de la formation dans le domaine de la comptabilit\u00e9 d\u00e9livr\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale ;  </p><p>2\u00b0 Soit justifier, dans des conditions pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale, d'une exp\u00e9rience ou d'un dipl\u00f4me dans ce domaine ainsi que d'une formation relative au fonctionnement de la s\u00e9curit\u00e9 sociale organis\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-05-11T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "R123-47-1",
+                "123-47-1"
+            ],
+            "versionPrecedente": "LEGIARTI000020602370",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000020602370",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour \u00eatre nomm\u00e9 sur un premier emploi d'agent comptable d'un organisme de s\u00e9curit\u00e9 sociale mentionn\u00e9 \u00e0 l'article R. 123-45, un candidat inscrit sur la liste d'aptitude mentionn\u00e9e \u00e0 cet article doit : 1\u00b0 Soit avoir b\u00e9n\u00e9fici\u00e9 d'une formation dans le domaine de la comptabilit\u00e9 au cours de sa scolarit\u00e9 \u00e0 l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale, s'il est ancien \u00e9l\u00e8ve de cette \u00e9cole ; 2\u00b0 Soit justifier, dans des conditions pr\u00e9cis\u00e9es par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale et du ministre de l'agriculture, d'une exp\u00e9rience ou d'un dipl\u00f4me dans ce domaine ainsi que d'une formation relative au fonctionnement de la s\u00e9curit\u00e9 sociale organis\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale.",
+            "texteHtml": "<p>Pour \u00eatre nomm\u00e9 sur un premier emploi d'agent comptable d'un organisme de s\u00e9curit\u00e9 sociale mentionn\u00e9 \u00e0 l'article R. 123-45, un candidat inscrit sur la liste d'aptitude mentionn\u00e9e \u00e0 cet article doit : </p><p>1\u00b0 Soit avoir b\u00e9n\u00e9fici\u00e9 d'une formation dans le domaine de la comptabilit\u00e9 au cours de sa scolarit\u00e9 \u00e0 l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale, s'il est ancien \u00e9l\u00e8ve de cette \u00e9cole ; </p><p>2\u00b0 Soit justifier, dans des conditions pr\u00e9cis\u00e9es par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale et du ministre de l'agriculture, d'une exp\u00e9rience ou d'un dipl\u00f4me dans ce domaine ainsi que d'une formation relative au fonctionnement de la s\u00e9curit\u00e9 sociale organis\u00e9e par l'Ecole nationale sup\u00e9rieure de s\u00e9curit\u00e9 sociale.</p><p></p>",
+            "num": "R123-47-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1242000000000,
+            "dateFin": 1242000000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741816,
             "context": {
                 "titresTM": [
                     {
@@ -387,37 +374,106 @@
                     }
                 ]
             },
-            "etat": "TRANSFERE",
-            "id": "LEGIARTI000006746942",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006746940",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186358",
+            "sectionParentId": "LEGISCTA000006186358",
+            "sectionParentTitre": "Sous-section 3 : Nomination et parcours professionnel.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre II : Administration, fonctionnement et personnel des organismes &gt; Chapitre 3 : Personnel &gt; Section 2 : Agents de direction et agents comptables &gt; Sous-section 3 : Nomination et parcours professionnel.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000020602370",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000020592479",
+                    "textTitle": "D\u00e9cret n\u00b02009-520\n du 7 mai 2009 - art. 4",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000020593033",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2009-05-10",
+                    "dateSignaTexte": "2009-05-07",
+                    "dateDebutCible": "2009-05-11"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000027814003",
-                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (V)",
+                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
                     "articleId": "LEGIARTI000027815189",
                     "natureText": "ARRETE",
-                    "date": 1622685820080,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 1375920000000,
                     "dateDebut": 1376006400000
                 },
                 {
+                    "textCid": "JORFTEXT000047537955",
+                    "textTitle": "Arr\u00eat\u00e9 du 7 avril 2023 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000047538727",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1683849600000,
+                    "dateDebut": 1683936000000
+                },
+                {
                     "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (V)",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (VD)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R122-4",
-                    "articleId": "LEGIARTI000036914509",
+                    "articleId": "LEGIARTI000046800529",
                     "natureText": "CODE",
-                    "date": 1622685820080,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1526515200000
+                    "dateDebut": 1672531200000
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
@@ -427,7 +483,6 @@
                     "articleNum": "R123-45",
                     "articleId": "LEGIARTI000027726088",
                     "natureText": "CODE",
-                    "date": 1622685820080,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -445,6 +500,203 @@
                     "natureText": "CODE"
                 }
             ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006746940",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 766800000000,
+                    "dateFin": 1097625600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746941",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1097625600000,
+                    "dateFin": 1172188800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746942",
+                    "etat": "TRANSFERE",
+                    "version": "3.0",
+                    "dateDebut": 1172188800000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020602370",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027726074",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R123-47-1",
+                "123-47-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006746942",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006746942",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration de l'\u00e9cole est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes. A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation. Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.",
+            "texteHtml": "<p></p>   Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration de l'\u00e9cole est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes.<p></p><p></p>   A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation.<p></p><p></p>   Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.<p></p>",
+            "num": "R123-47-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "TRANSFERE",
+            "dateDebut": 1172188800000,
+            "dateFin": 1242000000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741816,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1961-01-12",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006106085",
+                        "id": "LEGISCTA000006106085",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1985-12-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006126950",
+                        "id": "LEGISCTA000006126950",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1985-12-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Administration, fonctionnement et personnel des organismes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006141845",
+                        "id": "LEGISCTA000006141845",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1985-12-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre 3 : Personnel",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006156500",
+                        "id": "LEGISCTA000006156500",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1985-12-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section 2 : Agents de direction et agents comptables",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006173214",
+                        "id": "LEGISCTA000006173214",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2007-02-23",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 3 : Nomination et parcours professionnel.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006186358",
+                        "id": "LEGISCTA000006186358",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "1958-10-16",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la s\u00e9curit\u00e9 sociale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006073189",
+                        "id": "LEGITEXT000006073189",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006746940",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186358",
+            "sectionParentId": "LEGISCTA000006186358",
+            "sectionParentTitre": "Sous-section 3 : Nomination et parcours professionnel.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre II : Administration, fonctionnement et personnel des organismes &gt; Chapitre 3 : Personnel &gt; Section 2 : Agents de direction et agents comptables &gt; Sous-section 3 : Nomination et parcours professionnel.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006746942",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "D\u00e9cret n\u00b0 2007-102 du 26 janvier 2007 art. 7 : les dispositions du pr\u00e9sent article entrent en vigueur \u00e0 la date d'installation des sections du comit\u00e9 des carri\u00e8res. Le comit\u00e9 a \u00e9t\u00e9 install\u00e9 le 23 f\u00e9vrier 2007.",
+            "notaHtml": "<p></p>  D\u00e9cret n\u00b0 2007-102 du 26 janvier 2007 art. 7 : les dispositions du pr\u00e9sent article entrent en vigueur \u00e0 la date d'installation des sections du comit\u00e9 des carri\u00e8res. Le comit\u00e9 a \u00e9t\u00e9 install\u00e9 le 23 f\u00e9vrier 2007.<p></p><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000866621",
@@ -483,15 +735,150 @@
                     "dateDebutCible": "2009-05-11"
                 }
             ],
-            "num": "R123-47-1",
-            "origine": "LEGI",
-            "texte": "Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration de l'\u00e9cole est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes. A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation. Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.",
-            "texteHtml": "<p></p>   Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration de l'\u00e9cole est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes.<p></p><p></p>   A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation.<p></p><p></p>   Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-02-23T00:00:00.000Z",
-            "dateFin": "2009-05-11T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000027814003",
+                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000027815189",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1375920000000,
+                    "dateDebut": 1376006400000
+                },
+                {
+                    "textCid": "JORFTEXT000047537955",
+                    "textTitle": "Arr\u00eat\u00e9 du 7 avril 2023 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000047538727",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1683849600000,
+                    "dateDebut": 1683936000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-4",
+                    "articleId": "LEGIARTI000046800529",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-45 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R123-45",
+                    "articleId": "LEGIARTI000027726088",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1396310400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-37-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "R123-37-2",
+                    "articleId": "LEGIARTI000020602374",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006746940",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 766800000000,
+                    "dateFin": 1097625600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746941",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1097625600000,
+                    "dateFin": 1172188800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746942",
+                    "etat": "TRANSFERE",
+                    "version": "3.0",
+                    "dateDebut": 1172188800000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020602370",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027726074",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R123-47-1",
+                "123-47-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006746941",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006746941",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration de l'\u00e9cole est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes. A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation. Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.",
+            "texteHtml": "<p></p>   Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration de l'\u00e9cole est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes.<p></p><p></p>   A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation.<p></p><p></p>   Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.<p></p>",
+            "num": "R123-47-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1097625600000,
+            "dateFin": 1172188800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741816,
             "context": {
                 "titresTM": [
                     {
@@ -563,64 +950,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006746941",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006746940",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186357",
+            "sectionParentId": "LEGISCTA000006186357",
+            "sectionParentTitre": "Sous-section 3 : Listes d'aptitude.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre II : Administration, fonctionnement et personnel des organismes &gt; Chapitre 3 : Personnel &gt; Section 2 : Agents de direction et agents comptables",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006746941",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027814003",
-                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000027815189",
-                    "natureText": "ARRETE",
-                    "date": 1622685819994,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1375920000000,
-                    "dateDebut": 1376006400000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R122-4",
-                    "articleId": "LEGIARTI000036914509",
-                    "natureText": "CODE",
-                    "date": 1622685819994,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1526515200000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-45 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R123-45",
-                    "articleId": "LEGIARTI000027726088",
-                    "natureText": "CODE",
-                    "date": 1622685819994,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1396310400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-37-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "source",
-                    "articleNum": "R123-37-2",
-                    "articleId": "LEGIARTI000020602374",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000866621",
@@ -647,15 +1023,150 @@
                     "dateDebutCible": "2004-10-13"
                 }
             ],
-            "num": "R123-47-1",
-            "origine": "LEGI",
-            "texte": "Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration de l'\u00e9cole est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes. A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation. Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.",
-            "texteHtml": "<p></p>   Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration de l'\u00e9cole est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes.<p></p><p></p>   A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation.<p></p><p></p>   Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-10-13T00:00:00.000Z",
-            "dateFin": "2007-02-23T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000027814003",
+                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000027815189",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1375920000000,
+                    "dateDebut": 1376006400000
+                },
+                {
+                    "textCid": "JORFTEXT000047537955",
+                    "textTitle": "Arr\u00eat\u00e9 du 7 avril 2023 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000047538727",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1683849600000,
+                    "dateDebut": 1683936000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-4",
+                    "articleId": "LEGIARTI000046800529",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-45 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R123-45",
+                    "articleId": "LEGIARTI000027726088",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1396310400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-37-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "R123-37-2",
+                    "articleId": "LEGIARTI000020602374",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006746940",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 766800000000,
+                    "dateFin": 1097625600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746941",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1097625600000,
+                    "dateFin": 1172188800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746942",
+                    "etat": "TRANSFERE",
+                    "version": "3.0",
+                    "dateDebut": 1172188800000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020602370",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027726074",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R123-47-1",
+                "123-47-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006746940",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006746940",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration du centre est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes. A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation. Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.",
+            "texteHtml": "<p></p>   Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration du centre est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes.<p></p><p></p>   A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation.<p></p><p></p>   Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.<p></p>",
+            "num": "R123-47-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 766800000000,
+            "dateFin": 1097625600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741816,
             "context": {
                 "titresTM": [
                     {
@@ -727,64 +1238,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006746940",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006746940",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186357",
+            "sectionParentId": "LEGISCTA000006186357",
+            "sectionParentTitre": "Sous-section 3 : Listes d'aptitude.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre II : Administration, fonctionnement et personnel des organismes &gt; Chapitre 3 : Personnel &gt; Section 2 : Agents de direction et agents comptables &gt; Sous-section 3 : Listes d'aptitude.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006746940",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027814003",
-                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000027815189",
-                    "natureText": "ARRETE",
-                    "date": 1622685819998,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1375920000000,
-                    "dateDebut": 1376006400000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R122-4",
-                    "articleId": "LEGIARTI000036914509",
-                    "natureText": "CODE",
-                    "date": 1622685819998,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1526515200000
-                },
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-45 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R123-45",
-                    "articleId": "LEGIARTI000027726088",
-                    "natureText": "CODE",
-                    "date": 1622685819999,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1396310400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-37-2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "source",
-                    "articleNum": "R123-37-2",
-                    "articleId": "LEGIARTI000020602374",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000866621",
@@ -811,13 +1311,132 @@
                     "dateDebutCible": "1994-04-20"
                 }
             ],
-            "num": "R123-47-1",
-            "origine": "LEGI",
-            "texte": "Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration du centre est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes. A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation. Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.",
-            "texteHtml": "<p></p>   Une liste des emplois vacants dans les organismes des r\u00e9gimes de s\u00e9curit\u00e9 sociale repr\u00e9sent\u00e9s au conseil d'administration du centre est fix\u00e9e chaque ann\u00e9e par le ministre charg\u00e9 de l'agriculture en ce qui concerne les organismes du r\u00e9gime agricole et par le ministre charg\u00e9 de la s\u00e9curit\u00e9 sociale pour les autres r\u00e9gimes.<p></p><p></p>   A l'issue de la scolarit\u00e9, chacun des anciens \u00e9l\u00e8ves est affect\u00e9 sur un emploi figurant sur la liste pr\u00e9vue au pr\u00e9c\u00e9dent alin\u00e9a par un arr\u00eat\u00e9 du ministre comp\u00e9tent. Cette affectation intervient selon des modalit\u00e9s d\u00e9finies par un arr\u00eat\u00e9 des ministres charg\u00e9s de la s\u00e9curit\u00e9 sociale et de l'agriculture et qui doivent comporter notamment la consultation du directeur de l'organisme d'affectation.<p></p><p></p>   Chaque ancien \u00e9l\u00e8ve ainsi affect\u00e9 est ensuite nomm\u00e9 par le directeur de l'organisme d'affectation.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1994-04-20T00:00:00.000Z",
-            "dateFin": "2004-10-13T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000027814003",
+                    "textTitle": "Arr\u00eat\u00e9 du 31 juillet 2013 - art. 1 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000027815189",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1375920000000,
+                    "dateDebut": 1376006400000
+                },
+                {
+                    "textCid": "JORFTEXT000047537955",
+                    "textTitle": "Arr\u00eat\u00e9 du 7 avril 2023 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000047538727",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1683849600000,
+                    "dateDebut": 1683936000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R122-4 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-4",
+                    "articleId": "LEGIARTI000046800529",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-45 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R123-45",
+                    "articleId": "LEGIARTI000027726088",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1396310400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R123-37-2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "R123-37-2",
+                    "articleId": "LEGIARTI000020602374",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006746940",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 766800000000,
+                    "dateFin": 1097625600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746941",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1097625600000,
+                    "dateFin": 1172188800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006746942",
+                    "etat": "TRANSFERE",
+                    "version": "3.0",
+                    "dateDebut": 1172188800000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020602370",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 1242000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000027726074",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1242000000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R123-47-1",
+                "123-47-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

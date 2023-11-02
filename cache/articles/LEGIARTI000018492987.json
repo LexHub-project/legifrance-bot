@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018492987",
-    "num": "R4623-11",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045677262",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans les     services autonomes de pr\u00e9vention et de sant\u00e9 au travail employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9, d\u00e9fini par l'employeur et dont l'effectif salari\u00e9 lui est communiqu\u00e9.",
+            "texteHtml": "<p>Dans les     services autonomes de pr\u00e9vention et de sant\u00e9 au travail employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9, d\u00e9fini par l'employeur et dont l'effectif salari\u00e9 lui est communiqu\u00e9.</p><p></p><p></p>",
+            "num": "R4623-11",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1651104000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2040109461,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -137,73 +161,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045677262",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018492987",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492971",
+            "sectionParentId": "LEGISCTA000025279903",
+            "sectionParentTitre": "Paragraphe 2 : Nomination.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 1 : M\u00e9decin du travail. &gt; Sous-section 2 : Recrutement, nomination, affectation  et conditions d'exercice. &gt; Paragraphe 2 : Nomination.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000045677262",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000031769537",
-                    "textTitle": "Arr\u00eat\u00e9 du 24 d\u00e9cembre 2015 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000031879621",
-                    "natureText": "ARRETE",
-                    "date": 1651092978654,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1452038400000,
-                    "dateDebut": 1452124800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R1262-9 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1262-9",
-                    "articleId": "LEGIARTI000018537122",
-                    "natureText": "CODE",
-                    "date": 1651092978654,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4623-9",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R4623-9",
-                    "articleId": "LEGIARTI000018492983",
-                    "natureText": "CODE",
-                    "date": 1651092978654,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-28 al 4 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-28",
-                    "articleId": "LEGIARTI000018510192",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R241-32 al 7 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R241-32",
-                    "articleId": "LEGIARTI000018510157",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000045668051",
@@ -218,15 +222,128 @@
                     "dateDebutCible": "2022-04-28"
                 }
             ],
-            "num": "R4623-11",
-            "origine": "LEGI",
-            "texte": "Dans les     services autonomes de pr\u00e9vention et de sant\u00e9 au travail employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9, d\u00e9fini par l'employeur et dont l'effectif salari\u00e9 lui est communiqu\u00e9.",
-            "texteHtml": "<p>Dans les     services autonomes de pr\u00e9vention et de sant\u00e9 au travail employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9, d\u00e9fini par l'employeur et dont l'effectif salari\u00e9 lui est communiqu\u00e9.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-04-28T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000031769537",
+                    "textTitle": "Arr\u00eat\u00e9 du 24 d\u00e9cembre 2015 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000031879621",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1452038400000,
+                    "dateDebut": 1452124800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R1262-9 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1262-9",
+                    "articleId": "LEGIARTI000018537122",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4623-9",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R4623-9",
+                    "articleId": "LEGIARTI000018492983",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651104000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-28 al 4 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-28",
+                    "articleId": "LEGIARTI000018510192",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R241-32 al 7 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R241-32",
+                    "articleId": "LEGIARTI000018510157",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528378",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279872",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1651104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045677262",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1651104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4623-11",
+                "4623-11"
+            ],
+            "versionPrecedente": "LEGIARTI000025279872",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025279872",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans les services autonomes de sant\u00e9 au travail employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9, d\u00e9fini par l'employeur et dont l'effectif salari\u00e9 lui est communiqu\u00e9.",
+            "texteHtml": "<p>Dans les services autonomes de sant\u00e9 au travail employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9, d\u00e9fini par l'employeur et dont l'effectif salari\u00e9 lui est communiqu\u00e9. </p><p></p><p></p>",
+            "num": "R4623-11",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1341100800000,
+            "dateFin": 1651104000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2040109461,
             "context": {
                 "titresTM": [
                     {
@@ -267,11 +384,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -361,9 +487,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025279872",
-            "lienAutres": [],
+            "cid": "LEGIARTI000018492987",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492971",
+            "sectionParentId": "LEGISCTA000025279903",
+            "sectionParentTitre": "Paragraphe 2 : Nomination.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 1 : M\u00e9decin du travail. &gt; Sous-section 2 : Recrutement, nomination, affectation  et conditions d'exercice. &gt; Paragraphe 2 : Nomination.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025279872",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000025241584",
+                    "textTitle": "D\u00e9cret n\u00b02012-135\n du 30 janvier 2012 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000025266696",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2012-01-31",
+                    "dateSignaTexte": "2012-01-30",
+                    "dateDebutCible": "2012-07-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000031769537",
@@ -373,7 +557,6 @@
                     "articleNum": "1",
                     "articleId": "LEGIARTI000031879621",
                     "natureText": "ARRETE",
-                    "date": 1651092980267,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 1452038400000,
@@ -387,7 +570,6 @@
                     "articleNum": "R1262-9",
                     "articleId": "LEGIARTI000018537122",
                     "natureText": "CODE",
-                    "date": 1651092980267,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -401,11 +583,10 @@
                     "articleNum": "R4623-9",
                     "articleId": "LEGIARTI000018492983",
                     "natureText": "CODE",
-                    "date": 1651092980267,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
+                    "dateDebut": 1651104000000
                 }
             ],
             "lienConcordes": [
@@ -428,29 +609,67 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000025241584",
-                    "textTitle": "D\u00e9cret n\u00b02012-135\n du 30 janvier 2012 - art. 1",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000025266696",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2012-01-31",
-                    "dateSignaTexte": "2012-01-30",
-                    "dateDebutCible": "2012-07-01"
+                    "id": "LEGIARTI000018528378",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279872",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1651104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045677262",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1651104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4623-11",
-            "origine": "LEGI",
-            "texte": "Dans les services autonomes de sant\u00e9 au travail employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9, d\u00e9fini par l'employeur et dont l'effectif salari\u00e9 lui est communiqu\u00e9.",
-            "texteHtml": "<p>Dans les services autonomes de sant\u00e9 au travail employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9, d\u00e9fini par l'employeur et dont l'effectif salari\u00e9 lui est communiqu\u00e9. </p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-07-01T00:00:00.000Z",
-            "dateFin": "2022-04-28T00:00:00.000Z"
+            "computedNums": [
+                "R4623-11",
+                "4623-11"
+            ],
+            "versionPrecedente": "LEGIARTI000018528378",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018528378",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans les services de sant\u00e9 au travail d'entreprise ou d'\u00e9tablissement employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9 de l'entreprise, d\u00e9fini par elle et dont l'effectif salari\u00e9 lui est communiqu\u00e9. Ce secteur d'entreprise est d\u00e9termin\u00e9 en fonction d'un effectif de salari\u00e9s suivis, dans les conditions d\u00e9finies \u00e0 l'article R. 4623-9 .",
+            "texteHtml": "<p><br/>Dans les services de sant\u00e9 au travail d'entreprise ou d'\u00e9tablissement employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9 de l'entreprise, d\u00e9fini par elle et dont l'effectif salari\u00e9 lui est communiqu\u00e9. <br/>Ce secteur d'entreprise est d\u00e9termin\u00e9 en fonction d'un effectif de salari\u00e9s suivis, dans les conditions d\u00e9finies \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000018492983&dateTexte=&categorieLien=cid' title='Code du travail - art. R4623-9 (VD)'>R. 4623-9</a>.</p>",
+            "num": "R4623-11",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1341100800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -491,11 +710,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -585,9 +813,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018528378",
-            "lienAutres": [],
+            "cid": "LEGIARTI000018492987",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018492979",
+            "sectionParentId": "LEGISCTA000025279870",
+            "sectionParentTitre": "Paragraphe 3 : Changement d'affectation.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre III : Personnels concourant aux services  de sant\u00e9 au travail &gt; Section 1 : M\u00e9decin du travail. &gt; Sous-section 2 : Recrutement, nomination, affectation  et conditions d'exercice. &gt; Paragraphe 3 : Changement d'affectation.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000018528378",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000018442415",
+                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe",
+                    "articleId": "LEGIARTI000018456736",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2008-03-12",
+                    "dateSignaTexte": "2008-03-07",
+                    "dateDebutCible": "2008-03-13"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000031769537",
@@ -597,7 +883,6 @@
                     "articleNum": "1",
                     "articleId": "LEGIARTI000031879621",
                     "natureText": "ARRETE",
-                    "date": 1651092978053,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 1452038400000,
@@ -611,7 +896,6 @@
                     "articleNum": "R1262-9",
                     "articleId": "LEGIARTI000018537122",
                     "natureText": "CODE",
-                    "date": 1651092978053,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -625,11 +909,10 @@
                     "articleNum": "R4623-9",
                     "articleId": "LEGIARTI000018492983",
                     "natureText": "CODE",
-                    "date": 1651092978054,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
+                    "dateDebut": 1651104000000
                 }
             ],
             "lienConcordes": [
@@ -652,27 +935,49 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000018442415",
-                    "textTitle": "D\u00e9cret n\u00b02008-244 du 7 mars 2008 - art. (V)",
-                    "linkType": "CREE",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe",
-                    "articleId": "LEGIARTI000018456736",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2008-03-12",
-                    "dateSignaTexte": "2008-03-07",
-                    "dateDebutCible": "2008-03-13"
+                    "id": "LEGIARTI000018528378",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1341100800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025279872",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1341100800000,
+                    "dateFin": 1651104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045677262",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1651104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4623-11",
-            "origine": "LEGI",
-            "texte": "Dans les services de sant\u00e9 au travail d'entreprise ou d'\u00e9tablissement employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9 de l'entreprise, d\u00e9fini par elle et dont l'effectif salari\u00e9 lui est communiqu\u00e9. Ce secteur d'entreprise est d\u00e9termin\u00e9 en fonction d'un effectif de salari\u00e9s suivis, dans les conditions d\u00e9finies \u00e0 l'article R. 4623-9 .",
-            "texteHtml": "<p><br/>Dans les services de sant\u00e9 au travail d'entreprise ou d'\u00e9tablissement employant plusieurs m\u00e9decins du travail, chacun d'eux est affect\u00e9 \u00e0 un secteur d\u00e9termin\u00e9 de l'entreprise, d\u00e9fini par elle et dont l'effectif salari\u00e9 lui est communiqu\u00e9. <br/>Ce secteur d'entreprise est d\u00e9termin\u00e9 en fonction d'un effectif de salari\u00e9s suivis, dans les conditions d\u00e9finies \u00e0 l'article <a href='/article/LEGIARTI000018492983' title='Code du travail - art. R4623-9 (VD)'>R. 4623-9</a>.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2012-07-01T00:00:00.000Z"
+            "computedNums": [
+                "R4623-11",
+                "4623-11"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

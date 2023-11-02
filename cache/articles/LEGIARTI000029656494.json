@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029656494",
-    "num": "R632-20",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000029656494",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les repr\u00e9sentants des professionnels, leurs suppl\u00e9ants et les personnalit\u00e9s qualifi\u00e9es sont nomm\u00e9s pour trois ans. Leur mandat est renouvelable. Sauf si elle intervient moins de six mois avant l'\u00e9ch\u00e9ance du mandat, toute vacance pour quelque cause que ce soit, ou perte de la qualit\u00e9 au titre de laquelle une personnalit\u00e9 qualifi\u00e9e ou un repr\u00e9sentant des professionnels a \u00e9t\u00e9 nomm\u00e9, donne lieu \u00e0 remplacement pour la dur\u00e9e du mandat restant \u00e0 courir.",
+            "texteHtml": "<p><br/>Les repr\u00e9sentants des professionnels, leurs suppl\u00e9ants et les personnalit\u00e9s qualifi\u00e9es sont nomm\u00e9s pour trois ans. Leur mandat est renouvelable.<br/>Sauf si elle intervient moins de six mois avant l'\u00e9ch\u00e9ance du mandat, toute vacance pour quelque cause que ce soit, ou perte de la qualit\u00e9 au titre de laquelle une personnalit\u00e9 qualifi\u00e9e ou un repr\u00e9sentant des professionnels a \u00e9t\u00e9 nomm\u00e9, donne lieu \u00e0 remplacement pour la dur\u00e9e du mandat restant \u00e0 courir.</p>",
+            "num": "R632-20",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1417392000000,
+            "dateFin": 1661990400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656492",
                         "id": "LEGISCTA000029657995",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -74,36 +89,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000029656494",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029656494",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656492",
+            "sectionParentId": "LEGISCTA000029657995",
+            "sectionParentTitre": "Sous-section 5 : Dispositions communes au coll\u00e8ge et \u00e0 la Commission nationale d'agr\u00e9ment et de contr\u00f4le",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre II : Missions et fonctionnement du Conseil national des activit\u00e9s priv\u00e9es de s\u00e9curit\u00e9 &gt; Section 2 : Organisation administrative et fonctionnement",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000029656494",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R633-6 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R633-6",
-                    "articleId": "LEGIARTI000032467298",
-                    "natureText": "CODE",
-                    "date": 1648759610391,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1461888000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000025015019",
-                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 17 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "17",
-                    "articleId": "LEGIARTI000025017497",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -166,13 +198,57 @@
                     "dateDebutCible": "2022-04-01"
                 }
             ],
-            "num": "R632-20",
-            "origine": "LEGI",
-            "texte": "Les repr\u00e9sentants des professionnels, leurs suppl\u00e9ants et les personnalit\u00e9s qualifi\u00e9es sont nomm\u00e9s pour trois ans. Leur mandat est renouvelable. Sauf si elle intervient moins de six mois avant l'\u00e9ch\u00e9ance du mandat, toute vacance pour quelque cause que ce soit, ou perte de la qualit\u00e9 au titre de laquelle une personnalit\u00e9 qualifi\u00e9e ou un repr\u00e9sentant des professionnels a \u00e9t\u00e9 nomm\u00e9, donne lieu \u00e0 remplacement pour la dur\u00e9e du mandat restant \u00e0 courir.",
-            "texteHtml": "<p><br/>Les repr\u00e9sentants des professionnels, leurs suppl\u00e9ants et les personnalit\u00e9s qualifi\u00e9es sont nomm\u00e9s pour trois ans. Leur mandat est renouvelable.<br/>Sauf si elle intervient moins de six mois avant l'\u00e9ch\u00e9ance du mandat, toute vacance pour quelque cause que ce soit, ou perte de la qualit\u00e9 au titre de laquelle une personnalit\u00e9 qualifi\u00e9e ou un repr\u00e9sentant des professionnels a \u00e9t\u00e9 nomm\u00e9, donne lieu \u00e0 remplacement pour la dur\u00e9e du mandat restant \u00e0 courir.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2022-09-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R633-6 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R633-6",
+                    "articleId": "LEGIARTI000032467298",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1461888000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000025015019",
+                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 17 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "17",
+                    "articleId": "LEGIARTI000025017497",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656494",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1661990400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R632-20",
+                "632-20"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

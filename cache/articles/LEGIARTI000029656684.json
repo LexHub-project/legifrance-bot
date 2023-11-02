@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029656684",
-    "num": "D723-8",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000029656684",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La charte nationale du sapeur-pompier volontaire pr\u00e9vue \u00e0 l'article L. 723-10 constitue l'annexe 3. Le sapeur-pompier volontaire signe la charte devant l'autorit\u00e9 de gestion dont il rel\u00e8ve.",
+            "texteHtml": "<p><br/>La charte nationale du sapeur-pompier volontaire pr\u00e9vue \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000025506708&dateTexte=&categorieLien=cid' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L723-10 (V)'>L. 723-10</a> constitue l'annexe 3. <br/>Le sapeur-pompier volontaire signe la charte devant l'autorit\u00e9 de gestion dont il rel\u00e8ve.</p>",
+            "num": "D723-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1417392000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -92,50 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000029656684",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029656684",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656678",
+            "sectionParentId": "LEGISCTA000029657872",
+            "sectionParentTitre": "  Sous-paragraphe  1 : Premier engagement de sapeur-pompier volontaire",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 2 : Engagement citoyen &gt; Paragraphe 1 : Engagements des sapeurs-pompiers volontaires &gt;   Sous-paragraphe  1 : Premier engagement de sapeur-pompier volontaire",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000029656684",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. Annexe 3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe 3",
-                    "articleId": "LEGIARTI000029660775",
-                    "natureText": "CODE",
-                    "date": 1599861184654,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1417392000000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L723-10 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L723-10",
-                    "articleId": "LEGIARTI000025506708",
-                    "natureText": "CODE",
-                    "date": 1599861184654,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1335830400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000026461771",
-                    "textTitle": "D\u00e9cret n\u00b02012-1132\n du 5 octobre 2012 - art. 2 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000026463209",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -162,13 +189,70 @@
                     "dateDebutCible": "2014-12-01"
                 }
             ],
-            "num": "D723-8",
-            "origine": "LEGI",
-            "texte": "La charte nationale du sapeur-pompier volontaire pr\u00e9vue \u00e0 l'article L. 723-10 constitue l'annexe 3. Le sapeur-pompier volontaire signe la charte devant l'autorit\u00e9 de gestion dont il rel\u00e8ve.",
-            "texteHtml": "<p><br/>La charte nationale du sapeur-pompier volontaire pr\u00e9vue \u00e0 l'article <a href='/article/LEGIARTI000025506708' title='Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L723-10 (V)'>L. 723-10</a> constitue l'annexe 3. <br/>Le sapeur-pompier volontaire signe la charte devant l'autorit\u00e9 de gestion dont il rel\u00e8ve.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. Annexe 3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe 3",
+                    "articleId": "LEGIARTI000029660775",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1417392000000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L723-10 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L723-10",
+                    "articleId": "LEGIARTI000025506708",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1335830400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000026461771",
+                    "textTitle": "D\u00e9cret n\u00b02012-1132\n du 5 octobre 2012 - art. 2 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000026463209",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656684",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D723-8",
+                "723-8"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

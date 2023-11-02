@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006742783",
-    "num": "L381-30-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000036390100",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La r\u00e9mun\u00e9ration vers\u00e9e aux d\u00e9tenus qui ex\u00e9cutent un travail p\u00e9nal est soumise \u00e0 cotisation patronale d'assurance maladie et maternit\u00e9 dans des conditions et selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat. Les obligations de l'employeur sont assum\u00e9es par l'administration p\u00e9nitentiaire.",
+            "texteHtml": "<p>La r\u00e9mun\u00e9ration vers\u00e9e aux d\u00e9tenus qui ex\u00e9cutent un travail p\u00e9nal est soumise \u00e0 cotisation patronale d'assurance maladie et maternit\u00e9 dans des conditions et selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat. Les obligations de l'employeur sont assum\u00e9es par l'administration p\u00e9nitentiaire.</p>",
+            "num": "L381-30-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE_DIFF",
+            "dateDebut": 1514764800000,
+            "dateFin": 1733011200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -61,21 +76,21 @@
                     },
                     {
                         "debut": "2018-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-12-01",
                         "titre": "Section 9 : Personnes \u00e9crou\u00e9es et retenues dans un centre socio-m\u00e9dico-judiciaire de s\u00fbret\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006172634",
                         "id": "LEGISCTA000036431132",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     },
                     {
                         "debut": "1994-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-12-01",
                         "titre": "Sous-section 1 : Assurances maladie et maternit\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006185926",
                         "id": "LEGISCTA000006185926",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -92,40 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000036390100",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006742783",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006185926",
+            "sectionParentId": "LEGISCTA000006185926",
+            "sectionParentTitre": "Sous-section 1 : Assurances maladie et maternit\u00e9",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre III : Dispositions relatives aux assurances sociales et \u00e0 diverses cat\u00e9gories de personnes rattach\u00e9es au r\u00e9gime g\u00e9n\u00e9ral &gt; Titre VIII : Dispositions relatives \u00e0 diverses cat\u00e9gories de personnes rattach\u00e9es au r\u00e9gime g\u00e9n\u00e9ral - Dispositions d'application du livre 3 &gt; Chapitre 1er : Personnes rattach\u00e9es au r\u00e9gime g\u00e9n\u00e9ral pour certains risques ou charges &gt; Section 9 : Personnes \u00e9crou\u00e9es et retenues dans un centre socio-m\u00e9dico-judiciaire de s\u00fbret\u00e9 &gt; Sous-section 1 : Assurances maladie et maternit\u00e9",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000036390100",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000045471364",
-                    "textTitle": "D\u00e9cret n\u00b02022-479 du 30 mars 2022 - art. R324-1, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R324-1",
-                    "articleId": "JORFARTI000045473111",
-                    "natureText": "DECRET",
-                    "date": 1651781049042,
-                    "parentCid": null,
-                    "numTexte": "2022-479",
-                    "datePubli": 1649116800000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000045476241",
-                    "textTitle": "Code p\u00e9nitentiaire - art. L412-24 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L412-24",
-                    "articleId": "LEGIARTI000045479876",
-                    "natureText": "CODE",
-                    "date": 1651781049042,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1649203200000,
-                    "dateDebut": 1651363200000
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000866621",
@@ -150,17 +178,114 @@
                     "datePubliTexte": "2017-12-31",
                     "dateSignaTexte": "2017-12-30",
                     "dateDebutCible": "2020-12-16"
+                },
+                {
+                    "textCid": "JORFTEXT000046446947",
+                    "textTitle": "Ordonnance n\u00b02022-1336 du 19 octobre 2022 - art. 5",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000046447861",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2022-10-20",
+                    "dateSignaTexte": "2022-10-19",
+                    "dateDebutCible": "2022-10-21"
                 }
             ],
-            "num": "L381-30-4",
-            "origine": "LEGI",
-            "texte": "La r\u00e9mun\u00e9ration vers\u00e9e aux d\u00e9tenus qui ex\u00e9cutent un travail p\u00e9nal est soumise \u00e0 cotisation patronale d'assurance maladie et maternit\u00e9 dans des conditions et selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat. Les obligations de l'employeur sont assum\u00e9es par l'administration p\u00e9nitentiaire.",
-            "texteHtml": "<p>La r\u00e9mun\u00e9ration vers\u00e9e aux d\u00e9tenus qui ex\u00e9cutent un travail p\u00e9nal est soumise \u00e0 cotisation patronale d'assurance maladie et maternit\u00e9 dans des conditions et selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat. Les obligations de l'employeur sont assum\u00e9es par l'administration p\u00e9nitentiaire.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000045471364",
+                    "textTitle": "D\u00e9cret n\u00b02022-479 du 30 mars 2022 - art. R324-1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R324-1",
+                    "articleId": "JORFARTI000045473111",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2022-479",
+                    "datePubli": 1649116800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000045476241",
+                    "textTitle": "Code p\u00e9nitentiaire - art. L412-24 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L412-24",
+                    "articleId": "LEGIARTI000045479876",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1649203200000,
+                    "dateDebut": 1651363200000
+                },
+                {
+                    "textCid": "LEGITEXT000045476241",
+                    "textTitle": "Code p\u00e9nitentiaire - art. R324-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R324-1",
+                    "articleId": "LEGIARTI000045492760",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1649203200000,
+                    "dateDebut": 1651363200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006742783",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 757382400000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036390100",
+                    "etat": "ABROGE_DIFF",
+                    "version": "2.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 1733011200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L381-30-4",
+                "381-30-4"
+            ],
+            "versionPrecedente": "LEGIARTI000006742783",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006742783",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La r\u00e9mun\u00e9ration vers\u00e9e aux d\u00e9tenus qui ex\u00e9cutent un travail p\u00e9nal est soumise \u00e0 cotisation patronale et salariale d'assurance maladie et maternit\u00e9 dans des conditions et selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat. Les obligations de l'employeur sont assum\u00e9es par l'administration p\u00e9nitentiaire.",
+            "texteHtml": "<p></p>   La r\u00e9mun\u00e9ration vers\u00e9e aux d\u00e9tenus qui ex\u00e9cutent un travail p\u00e9nal est soumise \u00e0 cotisation patronale et salariale d'assurance maladie et maternit\u00e9 dans des conditions et selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat. Les obligations de l'employeur sont assum\u00e9es par l'administration p\u00e9nitentiaire.<p></p><p></p>",
+            "num": "L381-30-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 757382400000,
+            "dateFin": 1514764800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -219,21 +344,21 @@
                     },
                     {
                         "debut": "2018-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-12-01",
                         "titre": "Section 9 : Personnes \u00e9crou\u00e9es et retenues dans un centre socio-m\u00e9dico-judiciaire de s\u00fbret\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006172634",
                         "id": "LEGISCTA000036431132",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     },
                     {
                         "debut": "1994-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-12-01",
                         "titre": "Sous-section 1 : Assurances maladie et maternit\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006185926",
                         "id": "LEGISCTA000006185926",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -250,40 +375,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006742783",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006742783",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006185926",
+            "sectionParentId": "LEGISCTA000006185926",
+            "sectionParentTitre": "Sous-section 1 : Assurances maladie et maternit\u00e9",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre III : Dispositions relatives aux assurances sociales et \u00e0 diverses cat\u00e9gories de personnes rattach\u00e9es au r\u00e9gime g\u00e9n\u00e9ral &gt; Titre VIII : Dispositions relatives \u00e0 diverses cat\u00e9gories de personnes rattach\u00e9es au r\u00e9gime g\u00e9n\u00e9ral - Dispositions d'application du livre 3 &gt; Chapitre 1er : Personnes rattach\u00e9es au r\u00e9gime g\u00e9n\u00e9ral pour certains risques ou charges &gt; Section 9 : Personnes \u00e9crou\u00e9es et retenues dans un centre socio-m\u00e9dico-judiciaire de s\u00fbret\u00e9 &gt; Sous-section 1 : Assurances maladie et maternit\u00e9",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006742783",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000045471364",
-                    "textTitle": "D\u00e9cret n\u00b02022-479 du 30 mars 2022 - art. R324-1, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R324-1",
-                    "articleId": "JORFARTI000045473111",
-                    "natureText": "DECRET",
-                    "date": 1651781049344,
-                    "parentCid": null,
-                    "numTexte": "2022-479",
-                    "datePubli": 1649116800000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000045476241",
-                    "textTitle": "Code p\u00e9nitentiaire - art. L412-24 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L412-24",
-                    "articleId": "LEGIARTI000045479876",
-                    "natureText": "CODE",
-                    "date": 1651781049344,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1649203200000,
-                    "dateDebut": 1651363200000
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000866621",
@@ -310,13 +448,82 @@
                     "dateDebutCible": "1994-01-19"
                 }
             ],
-            "num": "L381-30-4",
-            "origine": "LEGI",
-            "texte": "La r\u00e9mun\u00e9ration vers\u00e9e aux d\u00e9tenus qui ex\u00e9cutent un travail p\u00e9nal est soumise \u00e0 cotisation patronale et salariale d'assurance maladie et maternit\u00e9 dans des conditions et selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat. Les obligations de l'employeur sont assum\u00e9es par l'administration p\u00e9nitentiaire.",
-            "texteHtml": "<p></p>   La r\u00e9mun\u00e9ration vers\u00e9e aux d\u00e9tenus qui ex\u00e9cutent un travail p\u00e9nal est soumise \u00e0 cotisation patronale et salariale d'assurance maladie et maternit\u00e9 dans des conditions et selon des modalit\u00e9s fix\u00e9es par d\u00e9cret en Conseil d'Etat. Les obligations de l'employeur sont assum\u00e9es par l'administration p\u00e9nitentiaire.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1994-01-01T00:00:00.000Z",
-            "dateFin": "2018-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000045471364",
+                    "textTitle": "D\u00e9cret n\u00b02022-479 du 30 mars 2022 - art. R324-1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R324-1",
+                    "articleId": "JORFARTI000045473111",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2022-479",
+                    "datePubli": 1649116800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000045476241",
+                    "textTitle": "Code p\u00e9nitentiaire - art. L412-24 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L412-24",
+                    "articleId": "LEGIARTI000045479876",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1649203200000,
+                    "dateDebut": 1651363200000
+                },
+                {
+                    "textCid": "LEGITEXT000045476241",
+                    "textTitle": "Code p\u00e9nitentiaire - art. R324-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R324-1",
+                    "articleId": "LEGIARTI000045492760",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1649203200000,
+                    "dateDebut": 1651363200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006742783",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 757382400000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036390100",
+                    "etat": "ABROGE_DIFF",
+                    "version": "2.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 1733011200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L381-30-4",
+                "381-30-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

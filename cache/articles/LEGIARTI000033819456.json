@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033819456",
-    "num": "R355-6",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033819456",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les personnes en possession du titre de patriote r\u00e9fractaire \u00e0 l'annexion de fait mentionn\u00e9 \u00e0 l'article L. 343-12 ont droit au port d'un insigne. La possession de la carte de patriote r\u00e9fractaire \u00e0 l'annexion de fait vaut autorisation du port de l'insigne.",
+            "texteHtml": "<p>Les personnes en possession du titre de patriote r\u00e9fractaire \u00e0 l'annexion de fait mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074068&idArticle=LEGIARTI000031709885&dateTexte=&categorieLien=cid' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. L343-12 (V)'>L. 343-12</a> ont droit au port d'un insigne.</p><p>La possession de la carte de patriote r\u00e9fractaire \u00e0 l'annexion de fait vaut autorisation du port de l'insigne.</p>",
+            "num": "R355-6",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-07-01",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033818960",
                         "id": "LEGISCTA000033818960",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION RECONNAISSANCE DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000033818960",
+                        "id": "LEGISCTA000047770455",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -55,15 +79,6 @@
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -71,39 +86,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033819456",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033819456",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033819454",
+            "sectionParentId": "LEGISCTA000033819454",
+            "sectionParentTitre": "Section 4 : Insigne de patriote r\u00e9fractaire \u00e0 l'annexion de fait",
+            "fullSectionsTitre": "Partie r\u00e9glementaire (nouvelle)  &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre V : D\u00c9CORATIONS &gt; Chapitre V : Autres m\u00e9daille et insignes &gt; Section 4 : Insigne de patriote r\u00e9fractaire \u00e0 l'annexion de fait",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033819456",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L343-12 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L343-12",
-                    "articleId": "LEGIARTI000031709885",
-                    "natureText": "CODE",
-                    "date": 1599844993676,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                }
-            ],
-            "lienConcordes": [
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                },
                 {
-                    "textCid": "JORFTEXT000000574750",
-                    "textTitle": "D\u00e9cret n\u00b098-1098 du 7 d\u00e9cembre 1998 - art. 1 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000006544285",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033719487",
@@ -130,13 +199,57 @@
                     "dateDebutCible": "2016-12-30"
                 }
             ],
-            "num": "R355-6",
-            "origine": "LEGI",
-            "texte": "Les personnes en possession du titre de patriote r\u00e9fractaire \u00e0 l'annexion de fait mentionn\u00e9 \u00e0 l'article L. 343-12 ont droit au port d'un insigne. La possession de la carte de patriote r\u00e9fractaire \u00e0 l'annexion de fait vaut autorisation du port de l'insigne.",
-            "texteHtml": "<p>Les personnes en possession du titre de patriote r\u00e9fractaire \u00e0 l'annexion de fait mentionn\u00e9 \u00e0 l'article <a href='/article/LEGIARTI000031709885' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. L343-12 (V)'>L. 343-12</a> ont droit au port d'un insigne.</p><p>La possession de la carte de patriote r\u00e9fractaire \u00e0 l'annexion de fait vaut autorisation du port de l'insigne.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L343-12 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L343-12",
+                    "articleId": "LEGIARTI000031709885",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000574750",
+                    "textTitle": "D\u00e9cret n\u00b098-1098 du 7 d\u00e9cembre 1998 - art. 1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000006544285",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033819456",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R355-6",
+                "355-6"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

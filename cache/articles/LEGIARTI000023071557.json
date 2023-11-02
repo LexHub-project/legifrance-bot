@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023071557",
-    "num": "L4112-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000043343166",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes, circulant en France, doit faire l'objet d'un jaugeage par son propri\u00e9taire.",
+            "texteHtml": "<p></p><p><br/>\nTout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes, circulant en France, doit faire l'objet d'un jaugeage par son propri\u00e9taire.</p><p></p>",
+            "num": "L4112-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1618012800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -65,36 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000043343166",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023071557",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023071553",
+            "sectionParentId": "LEGISCTA000023083432",
+            "sectionParentTitre": "Chapitre II : Jaugeage",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; QUATRIEME PARTIE : NAVIGATION INTERIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE IER : LE BATEAU &gt; TITRE IER : IDENTIFICATION DU BATEAU &gt; Chapitre II : Jaugeage",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000043343166",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L4112-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4112-3",
-                    "articleId": "LEGIARTI000023083426",
-                    "natureText": "CODE",
-                    "date": 1618005297044,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1291161600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000868914",
-                    "textTitle": "Loi du 5 juillet 1917, v. init., art. 1, alin\u00e9as 1 et 2, ecqc jaugeage",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000868914",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -121,15 +153,84 @@
                     "dateDebutCible": "2021-04-10"
                 }
             ],
-            "num": "L4112-2",
-            "origine": "LEGI",
-            "texte": "Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes, circulant en France, doit faire l'objet d'un jaugeage par son propri\u00e9taire.",
-            "texteHtml": "<p></p><p><br/>\nTout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes, circulant en France, doit faire l'objet d'un jaugeage par son propri\u00e9taire.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-04-10T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L4112-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4112-3",
+                    "articleId": "LEGIARTI000023083426",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1291161600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000868914",
+                    "textTitle": "Loi du 5 juillet 1917, v. init., art. 1, alin\u00e9as 1 et 2, ecqc jaugeage",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000868914",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023083428",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 1618012800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043343166",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1618012800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4112-2",
+                "4112-2"
+            ],
+            "versionPrecedente": "LEGIARTI000023083428",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000023083428",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes ou tout autre bateau dont le d\u00e9placement est \u00e9gal ou sup\u00e9rieur \u00e0 dix m\u00e8tres cubes, circulant en France, doit faire l'objet d'un jaugeage par son propri\u00e9taire.",
+            "texteHtml": "<p><br/>Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes ou tout autre bateau dont le d\u00e9placement est \u00e9gal ou sup\u00e9rieur \u00e0 dix m\u00e8tres cubes, circulant en France, doit faire l'objet d'un jaugeage par son propri\u00e9taire.</p>",
+            "num": "L4112-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1291161600000,
+            "dateFin": 1618012800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -192,9 +293,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000023083428",
-            "lienAutres": [],
+            "cid": "LEGIARTI000023071557",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023071553",
+            "sectionParentId": "LEGISCTA000023083432",
+            "sectionParentTitre": "Chapitre II : Jaugeage",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; QUATRIEME PARTIE : NAVIGATION INTERIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE IER : LE BATEAU &gt; TITRE IER : IDENTIFICATION DU BATEAU &gt; Chapitre II : Jaugeage",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000023083428",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "Ordonnance n\u00b0 2010-1307 du 28 octobre 2010 - art. (V)",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000023086525",
@@ -204,7 +363,6 @@
                     "articleNum": "L4112-3",
                     "articleId": "LEGIARTI000023083426",
                     "natureText": "CODE",
-                    "date": 1618005297426,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -222,27 +380,40 @@
                     "natureText": "LOI"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "",
-                    "textTitle": "Ordonnance n\u00b0 2010-1307 du 28 octobre 2010 - art. (V)",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "datePubliTexte": null,
-                    "dateSignaTexte": null,
-                    "dateDebutCible": null
+                    "id": "LEGIARTI000023083428",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 1618012800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043343166",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1618012800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "L4112-2",
-            "origine": "LEGI",
-            "texte": "Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes ou tout autre bateau dont le d\u00e9placement est \u00e9gal ou sup\u00e9rieur \u00e0 dix m\u00e8tres cubes, circulant en France, doit faire l'objet d'un jaugeage par son propri\u00e9taire.",
-            "texteHtml": "<p><br/>Tout bateau de marchandises dont le port en lourd est \u00e9gal ou sup\u00e9rieur \u00e0 vingt tonnes ou tout autre bateau dont le d\u00e9placement est \u00e9gal ou sup\u00e9rieur \u00e0 dix m\u00e8tres cubes, circulant en France, doit faire l'objet d'un jaugeage par son propri\u00e9taire.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2021-04-10T00:00:00.000Z"
+            "computedNums": [
+                "L4112-2",
+                "4112-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018665718",
-    "num": "D6124-177-16",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000044972120",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'organisation des soins permet de dispenser \u00e0 chaque patient, selon son \u00e9tat clinique, chaque jour ouvr\u00e9 dans le cadre d'une hospitalisation compl\u00e8te ou \u00e0 chaque venue dans le cadre d'une hospitalisation \u00e0 temps partiel, au moins deux s\u00e9quences de traitement, individuelles ou collectives.",
+            "texteHtml": "<p>L'organisation des soins permet de dispenser \u00e0 chaque patient, selon son \u00e9tat clinique, chaque jour ouvr\u00e9 dans le cadre d'une hospitalisation compl\u00e8te ou \u00e0 chaque venue dans le cadre d'une hospitalisation \u00e0 temps partiel, au moins deux s\u00e9quences de traitement, individuelles ou collectives.</p>",
+            "num": "D6124-177-16",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1056964607,
             "context": {
                 "titresTM": [
                     {
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665681",
                         "id": "LEGISCTA000018681031",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -75,7 +90,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665681",
                         "id": "LEGISCTA000044972169",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2008-04-21",
@@ -84,7 +99,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665720",
                         "id": "LEGISCTA000018680914",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -93,7 +108,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665720",
                         "id": "LEGISCTA000044972138",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -110,26 +125,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000044972120",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018665718",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018665720",
+            "sectionParentId": "LEGISCTA000044972138",
+            "sectionParentTitre": "Paragraphe 3 : Conditions particuli\u00e8res \u00e0 la mention \u201c g\u00e9riatrie \u201d",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 14 : Activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation &gt; Paragraphe 3 : Conditions particuli\u00e8res \u00e0 la mention \u201c g\u00e9riatrie \u201d",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000044972120",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-122",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6123-122",
-                    "articleId": "LEGIARTI000018680361",
-                    "natureText": "CODE",
-                    "date": 1642202077693,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1491696000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-25 du 11 janvier 2022, ces dispositions entrent en vigueur le 1er juin 2023. Se reporter aux conditions d'application pr\u00e9vues au II du m\u00eame article.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-25 du 11 janvier 2022, ces dispositions entrent en vigueur le 1er juin 2023. Se reporter aux conditions d'application pr\u00e9vues au II du m\u00eame article.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000044947234",
@@ -144,15 +186,83 @@
                     "dateDebutCible": "2023-06-01"
                 }
             ],
-            "num": "D6124-177-16",
-            "origine": "LEGI",
-            "texte": "L'organisation des soins permet de dispenser \u00e0 chaque patient, selon son \u00e9tat clinique, chaque jour ouvr\u00e9 dans le cadre d'une hospitalisation compl\u00e8te ou \u00e0 chaque venue dans le cadre d'une hospitalisation \u00e0 temps partiel, au moins deux s\u00e9quences de traitement, individuelles ou collectives.",
-            "texteHtml": "<p>L'organisation des soins permet de dispenser \u00e0 chaque patient, selon son \u00e9tat clinique, chaque jour ouvr\u00e9 dans le cadre d'une hospitalisation compl\u00e8te ou \u00e0 chaque venue dans le cadre d'une hospitalisation \u00e0 temps partiel, au moins deux s\u00e9quences de traitement, individuelles ou collectives.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-122",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6123-122",
+                    "articleId": "LEGIARTI000018680361",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1208736000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018680920",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1208736000000,
+                    "dateFin": 1270080000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022068749",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1270080000000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044972120",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-177-16",
+                "6124-177-16"
+            ],
+            "versionPrecedente": "LEGIARTI000022068749",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000022068749",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le titulaire de l'autorisation accord\u00e9e en application de l'article R. 6123-122 d\u00e9clare \u00e0 l'agence r\u00e9gionale de sant\u00e9  ses dates d'ouverture et de fermeture, chaque ann\u00e9e, trois mois au moins avant sa date d'ouverture.",
+            "texteHtml": "<p>Le titulaire de l'autorisation accord\u00e9e en application de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000018680361&dateTexte=&categorieLien=cid'>l'article R. 6123-122</a> d\u00e9clare \u00e0 l'agence r\u00e9gionale de sant\u00e9  ses dates d'ouverture et de fermeture, chaque ann\u00e9e, trois mois au moins avant sa date d'ouverture.</p>",
+            "num": "D6124-177-16",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1270080000000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2130706431,
             "context": {
                 "titresTM": [
                     {
@@ -216,7 +326,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665681",
                         "id": "LEGISCTA000018681031",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -225,7 +335,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665681",
                         "id": "LEGISCTA000044972169",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2008-04-21",
@@ -234,7 +344,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665703",
                         "id": "LEGISCTA000018680966",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -243,7 +353,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665703",
                         "id": "LEGISCTA000044972155",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -260,26 +370,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000022068749",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018665718",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018665703",
+            "sectionParentId": "LEGISCTA000044972155",
+            "sectionParentTitre": "Paragraphe 2 : Conditions particuli\u00e8res \u00e0 la mention \u201c polyvalent \u201d",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 14 : Activit\u00e9 de soins m\u00e9dicaux et de r\u00e9adaptation &gt; Paragraphe 2 : Conditions particuli\u00e8res \u00e0 la mention \u201c polyvalent \u201d",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000022068749",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-122",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6123-122",
-                    "articleId": "LEGIARTI000018680361",
-                    "natureText": "CODE",
-                    "date": 1642202077111,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1491696000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000022041034",
@@ -294,15 +431,83 @@
                     "dateDebutCible": "2010-04-02"
                 }
             ],
-            "num": "D6124-177-16",
-            "origine": "LEGI",
-            "texte": "Le titulaire de l'autorisation accord\u00e9e en application de l'article R. 6123-122 d\u00e9clare \u00e0 l'agence r\u00e9gionale de sant\u00e9  ses dates d'ouverture et de fermeture, chaque ann\u00e9e, trois mois au moins avant sa date d'ouverture.",
-            "texteHtml": "<p>Le titulaire de l'autorisation accord\u00e9e en application de <a href='/article/LEGIARTI000018680361'>l'article R. 6123-122</a> d\u00e9clare \u00e0 l'agence r\u00e9gionale de sant\u00e9  ses dates d'ouverture et de fermeture, chaque ann\u00e9e, trois mois au moins avant sa date d'ouverture.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-04-01T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-122",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6123-122",
+                    "articleId": "LEGIARTI000018680361",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1208736000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018680920",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1208736000000,
+                    "dateFin": 1270080000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022068749",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1270080000000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044972120",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-177-16",
+                "6124-177-16"
+            ],
+            "versionPrecedente": "LEGIARTI000018680920",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018680920",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le titulaire de l'autorisation accord\u00e9e en application de l'article R. 6123-122 d\u00e9clare \u00e0 l'agence r\u00e9gionale de l'hospitalisation ses dates d'ouverture et de fermeture, chaque ann\u00e9e, trois mois au moins avant sa date d'ouverture.",
+            "texteHtml": "Le titulaire de l'autorisation accord\u00e9e en application de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000018680361&dateTexte=&categorieLien=cid' title='Code de la sant\u00e9 publique - art. R6123-122 (V)'>l'article R. 6123-122</a> d\u00e9clare \u00e0 l'agence r\u00e9gionale de l'hospitalisation ses dates d'ouverture et de fermeture, chaque ann\u00e9e, trois mois au moins avant sa date d'ouverture.",
+            "num": "D6124-177-16",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1208736000000,
+            "dateFin": 1270080000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2130706431,
             "context": {
                 "titresTM": [
                     {
@@ -366,7 +571,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665681",
                         "id": "LEGISCTA000018681031",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -375,7 +580,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665681",
                         "id": "LEGISCTA000044972169",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2008-04-21",
@@ -384,7 +589,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665703",
                         "id": "LEGISCTA000018680966",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -393,7 +598,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018665703",
                         "id": "LEGISCTA000044972155",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -410,26 +615,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018680920",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018665718",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018665703",
+            "sectionParentId": "LEGISCTA000044972155",
+            "sectionParentTitre": "Paragraphe 2 : Conditions particuli\u00e8res \u00e0 la mention \u201c polyvalent \u201d",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 14 : Soins de suite et de r\u00e9adaptation. \r\n\r\n\r\n\r\n\r\n\r\n &gt; Paragraphe 2 : Conditions particuli\u00e8res \u00e0 la prise en charge des enfants ou adolescents",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000018680920",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-122 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6123-122",
-                    "articleId": "LEGIARTI000018680361",
-                    "natureText": "CODE",
-                    "date": 1642202076108,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1491696000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018664432",
@@ -444,13 +676,65 @@
                     "dateDebutCible": "2008-04-21"
                 }
             ],
-            "num": "D6124-177-16",
-            "origine": "LEGI",
-            "texte": "Le titulaire de l'autorisation accord\u00e9e en application de l'article R. 6123-122 d\u00e9clare \u00e0 l'agence r\u00e9gionale de l'hospitalisation ses dates d'ouverture et de fermeture, chaque ann\u00e9e, trois mois au moins avant sa date d'ouverture.",
-            "texteHtml": "Le titulaire de l'autorisation accord\u00e9e en application de <a href='/article/LEGIARTI000018680361' title='Code de la sant\u00e9 publique - art. R6123-122 (V)'>l'article R. 6123-122</a> d\u00e9clare \u00e0 l'agence r\u00e9gionale de l'hospitalisation ses dates d'ouverture et de fermeture, chaque ann\u00e9e, trois mois au moins avant sa date d'ouverture.",
-            "type": "AUTONOME",
-            "dateDebut": "2008-04-21T00:00:00.000Z",
-            "dateFin": "2010-04-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6123-122 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6123-122",
+                    "articleId": "LEGIARTI000018680361",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1208736000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018680920",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1208736000000,
+                    "dateFin": 1270080000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022068749",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1270080000000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044972120",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-177-16",
+                "6124-177-16"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

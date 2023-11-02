@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006835030",
-    "num": "D123-37",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000024642204",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le pr\u00e9fet d\u00e9signe le service de l'Etat charg\u00e9 du secr\u00e9tariat de la commission.",
+            "texteHtml": "<p>Le pr\u00e9fet d\u00e9signe le service de l'Etat charg\u00e9 du secr\u00e9tariat de la commission. </p>",
+            "num": "D123-37",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1325376000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -83,39 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000024642204",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006835030",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188519",
+            "sectionParentId": "LEGISCTA000006188519",
+            "sectionParentTitre": "Sous-section 1 : Commission d\u00e9partementale charg\u00e9e d'\u00e9tablir la liste d'aptitude aux fonctions de commissaire enqu\u00eateur",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Dispositions communes &gt; Titre II : Information et participation des citoyens &gt; Chapitre III : Enqu\u00eates publiques relatives aux op\u00e9rations susceptibles d'affecter l'environnement &gt; Section 4 : Etablissement des listes d'aptitude aux fonctions de commissaire enqu\u00eateur &gt; Sous-section 1 : Commission d\u00e9partementale charg\u00e9e d'\u00e9tablir la liste d'aptitude aux fonctions de commissaire enqu\u00eateur",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000024642204",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000389058",
-                    "textTitle": "D\u00e9cret n\u00b098-622 du 20 juillet 1998 - art. 6 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "6",
-                    "articleId": "LEGIARTI000006866396",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000389058",
-                    "textTitle": "D\u00e9cret n\u00b098-622 du 20 juillet 1998 - art. 6 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "6",
-                    "articleId": "LEGIARTI000006866396",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000572639",
-                    "textTitle": "D\u00e9cret n\u00b098-623 du 21 juillet 1998 - art. 4 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "4",
-                    "articleId": "LEGIARTI000006866448",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000633739",
@@ -142,15 +171,88 @@
                     "dateDebutCible": "2011-10-07"
                 }
             ],
-            "num": "D123-37",
-            "origine": "LEGI",
-            "texte": "Le pr\u00e9fet d\u00e9signe le service de l'Etat charg\u00e9 du secr\u00e9tariat de la commission.",
-            "texteHtml": "<p>Le pr\u00e9fet d\u00e9signe le service de l'Etat charg\u00e9 du secr\u00e9tariat de la commission. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000389058",
+                    "textTitle": "D\u00e9cret n\u00b098-622 du 20 juillet 1998 - art. 6 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "6",
+                    "articleId": "LEGIARTI000006866396",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000389058",
+                    "textTitle": "D\u00e9cret n\u00b098-622 du 20 juillet 1998 - art. 6 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "6",
+                    "articleId": "LEGIARTI000006866396",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000572639",
+                    "textTitle": "D\u00e9cret n\u00b098-623 du 21 juillet 1998 - art. 4 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000006866448",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006835030",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1325376000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000024642204",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1325376000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D123-37",
+                "123-37"
+            ],
+            "versionPrecedente": "LEGIARTI000006835030",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006835030",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le secr\u00e9tariat de la commission est assur\u00e9 par les services de la pr\u00e9fecture.",
+            "texteHtml": "<p></p>   Le secr\u00e9tariat de la commission est assur\u00e9 par les services de la pr\u00e9fecture.<p></p><p></p>",
+            "num": "D123-37",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1123200000000,
+            "dateFin": 1325376000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -231,9 +333,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006835030",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006835030",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188519",
+            "sectionParentId": "LEGISCTA000006188519",
+            "sectionParentTitre": "Sous-section 1 : Commission d\u00e9partementale charg\u00e9e d'\u00e9tablir la liste d'aptitude aux fonctions de commissaire enqu\u00eateur",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Dispositions communes &gt; Titre II : Information et participation des citoyens &gt; Chapitre III : Enqu\u00eates publiques relatives aux op\u00e9rations susceptibles d'affecter l'environnement &gt; Section 4 : Etablissement des listes d'aptitude aux fonctions de commissaire enqu\u00eateur &gt; Sous-section 1 : Commission d\u00e9partementale charg\u00e9e d'\u00e9tablir la liste d'aptitude aux fonctions de commissaire enqu\u00eateur",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006835030",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000633739",
+                    "textTitle": "D\u00e9cret 2005-935 2005-08-02 JORF 5 ao\u00fbt 2005",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000633739",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2005-08-05",
+                    "dateSignaTexte": "2005-08-02",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -264,27 +424,40 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000633739",
-                    "textTitle": "D\u00e9cret 2005-935 2005-08-02 JORF 5 ao\u00fbt 2005",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000633739",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2005-08-05",
-                    "dateSignaTexte": "2005-08-02",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006835030",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1325376000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000024642204",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1325376000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "D123-37",
-            "origine": "LEGI",
-            "texte": "Le secr\u00e9tariat de la commission est assur\u00e9 par les services de la pr\u00e9fecture.",
-            "texteHtml": "<p></p>   Le secr\u00e9tariat de la commission est assur\u00e9 par les services de la pr\u00e9fecture.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-08-05T00:00:00.000Z",
-            "dateFin": "2012-01-01T00:00:00.000Z"
+            "computedNums": [
+                "D123-37",
+                "123-37"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

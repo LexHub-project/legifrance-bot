@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000030379396",
-    "num": "R6152-539-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000030379405",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les assistants associ\u00e9s per\u00e7oivent apr\u00e8s service fait : 1\u00b0 Des \u00e9moluments forfaitaires mensuels diff\u00e9rents selon qu'ils sont g\u00e9n\u00e9ralistes ou sp\u00e9cialistes, variables selon l'anciennet\u00e9, et dont le montant est fix\u00e9 par arr\u00eat\u00e9 des ministres charg\u00e9s du budget, de la sant\u00e9 et de la s\u00e9curit\u00e9 sociale. Le montant de ces \u00e9moluments est calcul\u00e9 au prorata du nombre de demi-journ\u00e9es hebdomadaires effectu\u00e9es, lorsque les fonctions sont exerc\u00e9es \u00e0 temps partiel. Ces \u00e9moluments suivent l'\u00e9volution des traitements de la fonction publique, constat\u00e9e par le ministre charg\u00e9 de la sant\u00e9 ; 2\u00b0 Des indemnit\u00e9s et allocations dont l'objet et le r\u00e9gime sont fix\u00e9s par d\u00e9cret.",
+            "texteHtml": "<p>Les assistants associ\u00e9s per\u00e7oivent apr\u00e8s service fait : </p><p> 1\u00b0 Des \u00e9moluments forfaitaires mensuels diff\u00e9rents selon qu'ils sont g\u00e9n\u00e9ralistes ou sp\u00e9cialistes, variables selon l'anciennet\u00e9, et dont le montant est fix\u00e9 par arr\u00eat\u00e9 des ministres charg\u00e9s du budget, de la sant\u00e9 et de la s\u00e9curit\u00e9 sociale. Le montant de ces \u00e9moluments est calcul\u00e9 au prorata du nombre de demi-journ\u00e9es hebdomadaires effectu\u00e9es, lorsque les fonctions sont exerc\u00e9es \u00e0 temps partiel. Ces \u00e9moluments suivent l'\u00e9volution des traitements de la fonction publique, constat\u00e9e par le ministre charg\u00e9 de la sant\u00e9 ; </p><p> 2\u00b0 Des indemnit\u00e9s et allocations dont l'objet et le r\u00e9gime sont fix\u00e9s par d\u00e9cret. </p><p></p>",
+            "num": "R6152-539-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1427846400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1234803095,
             "context": {
                 "titresTM": [
                     {
@@ -61,12 +76,12 @@
                     },
                     {
                         "debut": "2005-07-26",
-                        "fin": "2023-01-01",
+                        "fin": "2999-01-01",
                         "titre": "Sous-section 8 : Assistants associ\u00e9s.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196800",
                         "id": "LEGISCTA000006196800",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -83,26 +98,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000030379405",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000030379396",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196800",
+            "sectionParentId": "LEGISCTA000006196800",
+            "sectionParentTitre": "Sous-section 8 : Assistants associ\u00e9s.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre V : Personnels m\u00e9dicaux et pharmaceutiques &gt; Chapitre II : Praticiens hospitaliers &gt; Section 5 : Statut des assistants des h\u00f4pitaux &gt; Sous-section 8 : Assistants associ\u00e9s.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000030379405",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6152-539-4 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D6152-539-4",
-                    "articleId": "LEGIARTI000030379717",
-                    "natureText": "CODE",
-                    "date": 1617403718135,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1427846400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "L'article 3 du d\u00e9cret n\u00b0 2022-1693 du 27 d\u00e9cembre 2022 abroge l'article 6 du d\u00e9cret n\u00b0 2021-365 du 29 mars 2021 et r\u00e9tabli la sous-section 8 : Assistants associ\u00e9s.",
+            "notaHtml": "<p>L'article 3 du d\u00e9cret n\u00b0 2022-1693 du 27 d\u00e9cembre 2022 abroge l'article 6 du d\u00e9cret n\u00b0 2021-365 du 29 mars 2021 et r\u00e9tabli la sous-section 8 : Assistants associ\u00e9s.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000030378502",
@@ -129,13 +171,47 @@
                     "dateDebutCible": "2021-04-02"
                 }
             ],
-            "num": "R6152-539-3",
-            "origine": "LEGI",
-            "texte": "Les assistants associ\u00e9s per\u00e7oivent apr\u00e8s service fait : 1\u00b0 Des \u00e9moluments forfaitaires mensuels diff\u00e9rents selon qu'ils sont g\u00e9n\u00e9ralistes ou sp\u00e9cialistes, variables selon l'anciennet\u00e9, et dont le montant est fix\u00e9 par arr\u00eat\u00e9 des ministres charg\u00e9s du budget, de la sant\u00e9 et de la s\u00e9curit\u00e9 sociale. Le montant de ces \u00e9moluments est calcul\u00e9 au prorata du nombre de demi-journ\u00e9es hebdomadaires effectu\u00e9es, lorsque les fonctions sont exerc\u00e9es \u00e0 temps partiel. Ces \u00e9moluments suivent l'\u00e9volution des traitements de la fonction publique, constat\u00e9e par le ministre charg\u00e9 de la sant\u00e9 ; 2\u00b0 Des indemnit\u00e9s et allocations dont l'objet et le r\u00e9gime sont fix\u00e9s par d\u00e9cret.",
-            "texteHtml": "<p>Les assistants associ\u00e9s per\u00e7oivent apr\u00e8s service fait : </p><p> 1\u00b0 Des \u00e9moluments forfaitaires mensuels diff\u00e9rents selon qu'ils sont g\u00e9n\u00e9ralistes ou sp\u00e9cialistes, variables selon l'anciennet\u00e9, et dont le montant est fix\u00e9 par arr\u00eat\u00e9 des ministres charg\u00e9s du budget, de la sant\u00e9 et de la s\u00e9curit\u00e9 sociale. Le montant de ces \u00e9moluments est calcul\u00e9 au prorata du nombre de demi-journ\u00e9es hebdomadaires effectu\u00e9es, lorsque les fonctions sont exerc\u00e9es \u00e0 temps partiel. Ces \u00e9moluments suivent l'\u00e9volution des traitements de la fonction publique, constat\u00e9e par le ministre charg\u00e9 de la sant\u00e9 ; </p><p> 2\u00b0 Des indemnit\u00e9s et allocations dont l'objet et le r\u00e9gime sont fix\u00e9s par d\u00e9cret. </p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-04-01T00:00:00.000Z",
-            "dateFin": "2023-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6152-539-4 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D6152-539-4",
+                    "articleId": "LEGIARTI000030379717",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1427846400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000030379405",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1427846400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6152-539-3",
+                "6152-539-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

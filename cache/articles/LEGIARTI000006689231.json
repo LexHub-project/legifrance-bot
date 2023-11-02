@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689231",
-    "num": "L4311-14",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006689231",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Par d\u00e9rogation aux dispositions de l'article L. 4311-2, le repr\u00e9sentant de l'Etat dans la collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon peut autoriser, par arr\u00eat\u00e9, une infirmi\u00e8re ou un infirmier ne remplissant pas les conditions pr\u00e9vues \u00e0 l'article L. 4311-2 \u00e0 exercer son activit\u00e9 dans la collectivit\u00e9 territoriale.",
+            "texteHtml": "<p></p>   Par d\u00e9rogation aux dispositions de l'article L. 4311-2, le repr\u00e9sentant de l'Etat dans la collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon peut autoriser, par arr\u00eat\u00e9, une infirmi\u00e8re ou un infirmier ne remplissant pas les conditions pr\u00e9vues \u00e0 l'article L. 4311-2 \u00e0 exercer son activit\u00e9 dans la collectivit\u00e9 territoriale.<p></p><p></p>",
+            "num": "L4311-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 961632000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 944878,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -92,59 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006689231",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689231",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171306",
+            "sectionParentId": "LEGISCTA000021504202",
+            "sectionParentTitre": "Chapitre Ier : R\u00e8gles li\u00e9es \u00e0 l'exercice de la profession",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux &gt; Titre Ier : Profession d'infirmier ou d'infirmi\u00e8re &gt; Chapitre Ier : Exercice de la profession.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689231",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4311-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4311-2",
-                    "articleId": "LEGIARTI000006689211",
-                    "natureText": "CODE",
-                    "date": 1599819942330,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4413-1 (Ab)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L4413-1",
-                    "articleId": "LEGIARTI000006689692",
-                    "natureText": "CODE",
-                    "date": 1599819942330,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1062806400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000699946",
-                    "textTitle": "Ordonnance n\u00b077-1102 du 26 septembre 1977 - art. 27 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "27",
-                    "articleId": "LEGIARTI000006682492",
-                    "natureText": "ORDONNANCE"
-                },
-                {
-                    "textCid": "JORFTEXT000000699946",
-                    "textTitle": "Ordonnance n\u00b077-1102 du 26 septembre 1977 - art. 27 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "27",
-                    "articleId": "LEGIARTI000006682492",
-                    "natureText": "ORDONNANCE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -171,13 +189,79 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L4311-14",
-            "origine": "LEGI",
-            "texte": "Par d\u00e9rogation aux dispositions de l'article L. 4311-2, le repr\u00e9sentant de l'Etat dans la collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon peut autoriser, par arr\u00eat\u00e9, une infirmi\u00e8re ou un infirmier ne remplissant pas les conditions pr\u00e9vues \u00e0 l'article L. 4311-2 \u00e0 exercer son activit\u00e9 dans la collectivit\u00e9 territoriale.",
-            "texteHtml": "<p></p>   Par d\u00e9rogation aux dispositions de l'article L. 4311-2, le repr\u00e9sentant de l'Etat dans la collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon peut autoriser, par arr\u00eat\u00e9, une infirmi\u00e8re ou un infirmier ne remplissant pas les conditions pr\u00e9vues \u00e0 l'article L. 4311-2 \u00e0 exercer son activit\u00e9 dans la collectivit\u00e9 territoriale.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4311-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4311-2",
+                    "articleId": "LEGIARTI000006689211",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4413-1 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L4413-1",
+                    "articleId": "LEGIARTI000006689692",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1062806400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000699946",
+                    "textTitle": "Ordonnance n\u00b077-1102 du 26 septembre 1977 - art. 27 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "27",
+                    "articleId": "LEGIARTI000006682492",
+                    "natureText": "ORDONNANCE"
+                },
+                {
+                    "textCid": "JORFTEXT000000699946",
+                    "textTitle": "Ordonnance n\u00b077-1102 du 26 septembre 1977 - art. 27 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "27",
+                    "articleId": "LEGIARTI000006682492",
+                    "natureText": "ORDONNANCE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689231",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4311-14",
+                "4311-14"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

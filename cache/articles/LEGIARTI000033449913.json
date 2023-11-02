@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033449913",
-    "num": "R3116-16",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033966632",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pendant toute la dur\u00e9e du retrait temporaire des titres administratifs de transport, l'entreprise ne peut se voir d\u00e9livrer aucun nouveau titre de transport, quelle qu'en soit la nature.",
+            "texteHtml": "Pendant toute la dur\u00e9e du retrait temporaire des titres administratifs de transport, l'entreprise ne peut se voir d\u00e9livrer aucun nouveau titre de transport, quelle qu'en soit la nature.<p></p>",
+            "num": "R3116-16",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1485907200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -74,21 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033966632",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000033449913",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033961514",
+            "sectionParentId": "LEGISCTA000033961514",
+            "sectionParentTitre": "Section 4 : Sanctions administratives",
+            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; TROISI\u00c8ME PARTIE : TRANSPORT ROUTIER &gt; LIVRE Ier : LE TRANSPORT ROUTIER DE PERSONNES &gt; TITRE Ier : LES TRANSPORTS PUBLICS COLLECTIFS &gt; Chapitre VI : S\u00fbret\u00e9 et sanctions &gt; Section 4 : Sanctions administratives",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033966632",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000871783",
-                    "textTitle": "D\u00e9cret n\u00b085-891 du 16 ao\u00fbt 1985 - art. 46, alin\u00e9as 14 \u00e0 16, paragraphe III  (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "46",
-                    "articleId": "LEGIARTI000031310453",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033419103",
@@ -115,15 +162,70 @@
                     "dateDebutCible": "2017-02-01"
                 }
             ],
-            "num": "R3116-16",
-            "origine": "LEGI",
-            "texte": "Pendant toute la dur\u00e9e du retrait temporaire des titres administratifs de transport, l'entreprise ne peut se voir d\u00e9livrer aucun nouveau titre de transport, quelle qu'en soit la nature.",
-            "texteHtml": "Pendant toute la dur\u00e9e du retrait temporaire des titres administratifs de transport, l'entreprise ne peut se voir d\u00e9livrer aucun nouveau titre de transport, quelle qu'en soit la nature.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-02-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000871783",
+                    "textTitle": "D\u00e9cret n\u00b085-891 du 16 ao\u00fbt 1985 - art. 46, alin\u00e9as 14 \u00e0 16, paragraphe III  (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "46",
+                    "articleId": "LEGIARTI000031310453",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033449913",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 1485907200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033966632",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1485907200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R3116-16",
+                "3116-16"
+            ],
+            "versionPrecedente": "LEGIARTI000033449913",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000033449913",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions des trois premiers alin\u00e9as de l'article R. 3124-11 sont applicables aux v\u00e9hicules n'exc\u00e9dant pas neuf places y compris celle du conducteur ex\u00e9cutant des services occasionnels.",
+            "texteHtml": "<p><br/>Les dispositions des trois premiers alin\u00e9as de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023086525&idArticle=LEGIARTI000030048574&dateTexte=&categorieLien=cid' title='Code des transports - art. R3124-11 (V)'>R. 3124-11</a> sont applicables aux v\u00e9hicules n'exc\u00e9dant pas neuf places y compris celle du conducteur ex\u00e9cutant des services occasionnels.</p>",
+            "num": "R3116-16",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1483228800000,
+            "dateFin": 1485907200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -213,36 +315,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000033449913",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033449913",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033449909",
+            "sectionParentId": "LEGISCTA000033449909",
+            "sectionParentTitre": "Sous-section 1 : Dispositions relatives aux entreprises",
+            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; TROISI\u00c8ME PARTIE : TRANSPORT ROUTIER &gt; LIVRE Ier : LE TRANSPORT ROUTIER DE PERSONNES &gt; TITRE Ier : LES TRANSPORTS PUBLICS COLLECTIFS &gt; Chapitre VI : S\u00fbret\u00e9 et sanctions &gt; Section 3 : Recherche, constatation et poursuite des infractions",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033449913",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R3124-11 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R3124-11",
-                    "articleId": "LEGIARTI000030048574",
-                    "natureText": "CODE",
-                    "date": 1599848636945,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1420070400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000871783",
-                    "textTitle": "D\u00e9cret n\u00b085-891 du 16 ao\u00fbt 1985 - art. 46, alin\u00e9as 14 \u00e0 16, paragraphe III  (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "46",
-                    "articleId": "LEGIARTI000031310453",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033419103",
@@ -269,13 +388,66 @@
                     "dateDebutCible": "2017-01-01"
                 }
             ],
-            "num": "R3116-16",
-            "origine": "LEGI",
-            "texte": "Les dispositions des trois premiers alin\u00e9as de l'article R. 3124-11 sont applicables aux v\u00e9hicules n'exc\u00e9dant pas neuf places y compris celle du conducteur ex\u00e9cutant des services occasionnels.",
-            "texteHtml": "<p><br/>Les dispositions des trois premiers alin\u00e9as de l'article <a href='/article/LEGIARTI000030048574' title='Code des transports - art. R3124-11 (V)'>R. 3124-11</a> sont applicables aux v\u00e9hicules n'exc\u00e9dant pas neuf places y compris celle du conducteur ex\u00e9cutant des services occasionnels.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2017-02-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R3124-11 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R3124-11",
+                    "articleId": "LEGIARTI000030048574",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1491609600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000871783",
+                    "textTitle": "D\u00e9cret n\u00b085-891 du 16 ao\u00fbt 1985 - art. 46, alin\u00e9as 14 \u00e0 16, paragraphe III  (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "46",
+                    "articleId": "LEGIARTI000031310453",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033449913",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 1485907200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033966632",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1485907200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R3116-16",
+                "3116-16"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

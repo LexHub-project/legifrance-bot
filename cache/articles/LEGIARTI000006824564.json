@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006824564",
-    "num": "L252-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006824565",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le preneur est titulaire d'un droit r\u00e9el immobilier. Ce droit peut \u00eatre hypoth\u00e9qu\u00e9 ; il peut \u00eatre saisi dans les formes prescrites pour la saisie immobili\u00e8re. Ce droit est cessible nonobstant toute convention contraire. La cession ne peut \u00eatre consentie qu'\u00e0 l'un des organismes mentionn\u00e9s au premier alin\u00e9a de l'article L. 252-1 , avec l'accord du bailleur. Le droit ne peut \u00eatre c\u00e9d\u00e9 que s'il porte sur la totalit\u00e9 de l'immeuble lou\u00e9. Le c\u00e9dant demeure garant de l'ex\u00e9cution du bail par le cessionnaire.",
+            "texteHtml": "<p></p>Le preneur est titulaire d'un droit r\u00e9el immobilier. Ce droit peut \u00eatre hypoth\u00e9qu\u00e9 ; il peut \u00eatre saisi dans les formes prescrites pour la saisie immobili\u00e8re. <p></p><p></p>Ce droit est cessible nonobstant toute convention contraire. La cession ne peut \u00eatre consentie qu'\u00e0 l'un des organismes mentionn\u00e9s au premier alin\u00e9a de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000006824562&dateTexte=&categorieLien=cid' title='Code de la construction et de l'habitation. - art. L252-1 (V)'>L. 252-1</a>, avec l'accord du bailleur. Le droit ne peut \u00eatre c\u00e9d\u00e9 que s'il porte sur la totalit\u00e9 de l'immeuble lou\u00e9. Le c\u00e9dant demeure garant de l'ex\u00e9cution du bail par le cessionnaire.<p></p>",
+            "num": "L252-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1153008000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 858993458,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-10",
                         "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006143531",
                         "id": "LEGISCTA000032920084",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-10",
+                        "fin": "2999-01-01",
+                        "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire et bail r\u00e9el solidaire d'activit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143531",
+                        "id": "LEGISCTA000047108990",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -74,26 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006824565",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006824564",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159127",
+            "sectionParentId": "LEGISCTA000006159127",
+            "sectionParentTitre": "Chapitre II : Bail \u00e0 r\u00e9habilitation.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Statut des constructeurs. &gt; Titre V : Bail \u00e0 construction - Bail \u00e0 r\u00e9habilitation - Bail dans le cadre d'une convention d'usufruit. &gt; Chapitre II : Bail \u00e0 r\u00e9habilitation.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006824565",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L252-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L252-1",
-                    "articleId": "LEGIARTI000006824562",
-                    "natureText": "CODE",
-                    "date": 1599824392148,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
                     "datePubli": 32472144000000,
-                    "dateDebut": 644284800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000516442",
@@ -120,15 +171,74 @@
                     "dateDebutCible": "2006-07-16"
                 }
             ],
-            "num": "L252-2",
-            "origine": "LEGI",
-            "texte": "Le preneur est titulaire d'un droit r\u00e9el immobilier. Ce droit peut \u00eatre hypoth\u00e9qu\u00e9 ; il peut \u00eatre saisi dans les formes prescrites pour la saisie immobili\u00e8re. Ce droit est cessible nonobstant toute convention contraire. La cession ne peut \u00eatre consentie qu'\u00e0 l'un des organismes mentionn\u00e9s au premier alin\u00e9a de l'article L. 252-1 , avec l'accord du bailleur. Le droit ne peut \u00eatre c\u00e9d\u00e9 que s'il porte sur la totalit\u00e9 de l'immeuble lou\u00e9. Le c\u00e9dant demeure garant de l'ex\u00e9cution du bail par le cessionnaire.",
-            "texteHtml": "<p></p>Le preneur est titulaire d'un droit r\u00e9el immobilier. Ce droit peut \u00eatre hypoth\u00e9qu\u00e9 ; il peut \u00eatre saisi dans les formes prescrites pour la saisie immobili\u00e8re. <p></p><p></p>Ce droit est cessible nonobstant toute convention contraire. La cession ne peut \u00eatre consentie qu'\u00e0 l'un des organismes mentionn\u00e9s au premier alin\u00e9a de l'article <a href='/article/LEGIARTI000006824562' title='Code de la construction et de l'habitation. - art. L252-1 (V)'>L. 252-1</a>, avec l'accord du bailleur. Le droit ne peut \u00eatre c\u00e9d\u00e9 que s'il porte sur la totalit\u00e9 de l'immeuble lou\u00e9. Le c\u00e9dant demeure garant de l'ex\u00e9cution du bail par le cessionnaire.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-07-16T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L252-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L252-1",
+                    "articleId": "LEGIARTI000006824562",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1645574400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006824564",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 644284800000,
+                    "dateFin": 1153008000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006824565",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1153008000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L252-2",
+                "252-2"
+            ],
+            "versionPrecedente": "LEGIARTI000006824564",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006824564",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le preneur est titulaire d'un droit r\u00e9el immobilier. Ce droit peut \u00eatre hypoth\u00e9qu\u00e9 ; il peut \u00eatre saisi dans les formes prescrites pour la saisie immobili\u00e8re. Ce droit est cessible nonobstant toute convention contraire. La cession ne peut \u00eatre consentie qu'\u00e0 l'un des organismes mentionn\u00e9s au premier alin\u00e9a de l'article L. 252-1, avec l'accord du bailleur. Le droit ne peut \u00eatre c\u00e9d\u00e9 que s'il porte sur la totalit\u00e9 de l'immeuble lou\u00e9. Le c\u00e9dant demeure garant de l'ex\u00e9cution du bail par le cessionnaire.",
+            "texteHtml": "<p></p>   Le preneur est titulaire d'un droit r\u00e9el immobilier. Ce droit peut \u00eatre hypoth\u00e9qu\u00e9 ; il peut \u00eatre saisi dans les formes prescrites pour la saisie immobili\u00e8re.<p></p><p></p>   Ce droit est cessible nonobstant toute convention contraire. La cession ne peut \u00eatre consentie qu'\u00e0 l'un des organismes mentionn\u00e9s au premier alin\u00e9a de l'article L. 252-1, avec l'accord du bailleur. Le droit ne peut \u00eatre c\u00e9d\u00e9 que s'il porte sur la totalit\u00e9 de l'immeuble lou\u00e9. Le c\u00e9dant demeure garant de l'ex\u00e9cution du bail par le cessionnaire.<p></p>",
+            "num": "L252-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 644284800000,
+            "dateFin": 1153008000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 858993458,
             "context": {
                 "titresTM": [
                     {
@@ -169,11 +279,20 @@
                     },
                     {
                         "debut": "2016-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-10",
                         "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006143531",
                         "id": "LEGISCTA000032920084",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-10",
+                        "fin": "2999-01-01",
+                        "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire et bail r\u00e9el solidaire d'activit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143531",
+                        "id": "LEGISCTA000047108990",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -200,26 +319,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006824564",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006824564",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159127",
+            "sectionParentId": "LEGISCTA000006159127",
+            "sectionParentTitre": "Chapitre II : Bail \u00e0 r\u00e9habilitation.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Statut des constructeurs. &gt; Titre V : Bail \u00e0 construction - Bail \u00e0 r\u00e9habilitation - Bail dans le cadre d'une convention d'usufruit. &gt; Chapitre II : Bail \u00e0 r\u00e9habilitation.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006824564",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L252-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L252-1",
-                    "articleId": "LEGIARTI000006824562",
-                    "natureText": "CODE",
-                    "date": 1599824390215,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
                     "datePubli": 32472144000000,
-                    "dateDebut": 644284800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000516442",
@@ -246,13 +392,56 @@
                     "dateDebutCible": "1990-06-02"
                 }
             ],
-            "num": "L252-2",
-            "origine": "LEGI",
-            "texte": "Le preneur est titulaire d'un droit r\u00e9el immobilier. Ce droit peut \u00eatre hypoth\u00e9qu\u00e9 ; il peut \u00eatre saisi dans les formes prescrites pour la saisie immobili\u00e8re. Ce droit est cessible nonobstant toute convention contraire. La cession ne peut \u00eatre consentie qu'\u00e0 l'un des organismes mentionn\u00e9s au premier alin\u00e9a de l'article L. 252-1, avec l'accord du bailleur. Le droit ne peut \u00eatre c\u00e9d\u00e9 que s'il porte sur la totalit\u00e9 de l'immeuble lou\u00e9. Le c\u00e9dant demeure garant de l'ex\u00e9cution du bail par le cessionnaire.",
-            "texteHtml": "<p></p>   Le preneur est titulaire d'un droit r\u00e9el immobilier. Ce droit peut \u00eatre hypoth\u00e9qu\u00e9 ; il peut \u00eatre saisi dans les formes prescrites pour la saisie immobili\u00e8re.<p></p><p></p>   Ce droit est cessible nonobstant toute convention contraire. La cession ne peut \u00eatre consentie qu'\u00e0 l'un des organismes mentionn\u00e9s au premier alin\u00e9a de l'article L. 252-1, avec l'accord du bailleur. Le droit ne peut \u00eatre c\u00e9d\u00e9 que s'il porte sur la totalit\u00e9 de l'immeuble lou\u00e9. Le c\u00e9dant demeure garant de l'ex\u00e9cution du bail par le cessionnaire.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1990-06-02T00:00:00.000Z",
-            "dateFin": "2006-07-16T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L252-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L252-1",
+                    "articleId": "LEGIARTI000006824562",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1645574400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006824564",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 644284800000,
+                    "dateFin": 1153008000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006824565",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1153008000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L252-2",
+                "252-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006912881",
-    "num": "R4127-19",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000042795673",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La m\u00e9decine ne doit pas \u00eatre pratiqu\u00e9e comme un commerce.",
+            "texteHtml": "<p>La m\u00e9decine ne doit pas \u00eatre pratiqu\u00e9e comme un commerce.</p><p></p>",
+            "num": "R4127-19",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1608854400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 816031,
             "context": {
                 "titresTM": [
                     {
@@ -83,30 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000042795673",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006912881",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196408",
+            "sectionParentId": "LEGISCTA000006196408",
+            "sectionParentTitre": "Sous-section 1 : Devoirs g\u00e9n\u00e9raux des m\u00e9decins.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre Ier : Professions m\u00e9dicales &gt; Titre II : Organisation des professions m\u00e9dicales &gt; Chapitre VII : D\u00e9ontologie &gt; Section 1 : Code de d\u00e9ontologie m\u00e9dicale &gt; Sous-section 1 : Devoirs g\u00e9n\u00e9raux des m\u00e9decins.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000042795673",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000555170",
-                    "textTitle": "D\u00e9cret 95-1000 1995-09-06 art. 19",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000555170",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "LEGITEXT000006072634",
-                    "textTitle": "Code de d\u00e9ontologie m\u00e9dicale - art. 19 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "19",
-                    "articleId": "LEGIARTI000006680519",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000787339",
@@ -133,15 +171,79 @@
                     "dateDebutCible": "2020-12-25"
                 }
             ],
-            "num": "R4127-19",
-            "origine": "LEGI",
-            "texte": "La m\u00e9decine ne doit pas \u00eatre pratiqu\u00e9e comme un commerce.",
-            "texteHtml": "<p>La m\u00e9decine ne doit pas \u00eatre pratiqu\u00e9e comme un commerce.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2020-12-25T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000555170",
+                    "textTitle": "D\u00e9cret 95-1000 1995-09-06 art. 19",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000555170",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "LEGITEXT000006072634",
+                    "textTitle": "Code de d\u00e9ontologie m\u00e9dicale - art. 19 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "19",
+                    "articleId": "LEGIARTI000006680519",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006912881",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1091923200000,
+                    "dateFin": 1608854400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042795673",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1608854400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4127-19",
+                "4127-19"
+            ],
+            "versionPrecedente": "LEGIARTI000006912881",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006912881",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La m\u00e9decine ne doit pas \u00eatre pratiqu\u00e9e comme un commerce. Sont interdits tous proc\u00e9d\u00e9s directs ou indirects de publicit\u00e9 et notamment tout am\u00e9nagement ou signalisation donnant aux locaux une apparence commerciale.",
+            "texteHtml": "<p></p>   La m\u00e9decine ne doit pas \u00eatre pratiqu\u00e9e comme un commerce.<p></p><p></p>   Sont interdits tous proc\u00e9d\u00e9s directs ou indirects de publicit\u00e9 et notamment tout am\u00e9nagement ou signalisation donnant aux locaux une apparence commerciale.<p></p>",
+            "num": "R4127-19",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1091923200000,
+            "dateFin": 1608854400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 816031,
             "context": {
                 "titresTM": [
                     {
@@ -222,9 +324,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006912881",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006912881",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196408",
+            "sectionParentId": "LEGISCTA000006196408",
+            "sectionParentTitre": "Sous-section 1 : Devoirs g\u00e9n\u00e9raux des m\u00e9decins.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre Ier : Professions m\u00e9dicales &gt; Titre II : Organisation des professions m\u00e9dicales &gt; Chapitre VII : D\u00e9ontologie &gt; Section 1 : Code de d\u00e9ontologie m\u00e9dicale &gt; Sous-section 1 : Devoirs g\u00e9n\u00e9raux des m\u00e9decins.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006912881",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000787339",
+                    "textTitle": "D\u00e9cret 2004-802 2004-07-29",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000787339",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2004-08-08",
+                    "dateSignaTexte": "2004-07-29",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -246,27 +406,40 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000787339",
-                    "textTitle": "D\u00e9cret 2004-802 2004-07-29",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000787339",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2004-08-08",
-                    "dateSignaTexte": "2004-07-29",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006912881",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1091923200000,
+                    "dateFin": 1608854400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042795673",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1608854400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4127-19",
-            "origine": "LEGI",
-            "texte": "La m\u00e9decine ne doit pas \u00eatre pratiqu\u00e9e comme un commerce. Sont interdits tous proc\u00e9d\u00e9s directs ou indirects de publicit\u00e9 et notamment tout am\u00e9nagement ou signalisation donnant aux locaux une apparence commerciale.",
-            "texteHtml": "<p></p>   La m\u00e9decine ne doit pas \u00eatre pratiqu\u00e9e comme un commerce.<p></p><p></p>   Sont interdits tous proc\u00e9d\u00e9s directs ou indirects de publicit\u00e9 et notamment tout am\u00e9nagement ou signalisation donnant aux locaux une apparence commerciale.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-08-08T00:00:00.000Z",
-            "dateFin": "2020-12-25T00:00:00.000Z"
+            "computedNums": [
+                "R4127-19",
+                "4127-19"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

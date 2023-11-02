@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006813348",
-    "num": "R*322-48",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006813350",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.",
+            "texteHtml": "<p></p>   Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.<p></p><p></p>",
+            "num": "R*322-48",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1105056000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -74,46 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006813350",
-            "lienAutres": [
+            "cid": "LEGIARTI000006813348",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188359",
+            "sectionParentId": "LEGISCTA000006188359",
+            "sectionParentTitre": "Sous-section 1 : Constitution.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Les entreprises &gt; Titre II : R\u00e9gime administratif &gt; Chapitre II : R\u00e8gles de constitution et de fonctionnement &gt; Section IV : Soci\u00e9t\u00e9s d'assurance mutuelles &gt; Sous-section 1 : Constitution.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006813350",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances R322-90 *sanctions civiles*",
-                    "linkType": "TXT_ASSOCIE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006073984",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R322-161 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R322-161",
-                    "articleId": "LEGIARTI000030583440",
-                    "natureText": "CODE",
-                    "date": 1599810749030,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1431302400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "",
-                    "textTitle": "D\u00e9cret 1938-12-30 art. 18",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000507291",
@@ -140,15 +162,104 @@
                     "dateDebutCible": "2005-01-07"
                 }
             ],
-            "num": "R*322-48",
-            "origine": "LEGI",
-            "texte": "Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.",
-            "texteHtml": "<p></p>   Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-01-07T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R322-161 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R322-161",
+                    "articleId": "LEGIARTI000030583440",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1431302400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 1938-12-30 art. 18",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances R322-90 *sanctions civiles*",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006073984",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006813348",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 687484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006813349",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 687484800000,
+                    "dateFin": 1105056000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006813350",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1105056000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*322-48",
+                "322-48",
+                "R322-48"
+            ],
+            "versionPrecedente": "LEGIARTI000006813349",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006813349",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.",
+            "texteHtml": "<p></p>   Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.<p></p><p></p>",
+            "num": "R*322-48",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 687484800000,
+            "dateFin": 1105056000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 558337,
             "context": {
                 "titresTM": [
                     {
@@ -220,46 +331,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006813349",
-            "lienAutres": [
+            "cid": "LEGIARTI000006813348",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188340",
+            "sectionParentId": "LEGISCTA000006188340",
+            "sectionParentTitre": "Paragraphe 1 : Constitution.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Les entreprises &gt; Titre II : R\u00e9gime administratif &gt; Chapitre II : R\u00e8gles de constitution et de fonctionnement &gt; Section IV : Soci\u00e9t\u00e9s d'assurance mutuelles",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006813349",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances R322-90 *sanctions civiles*",
-                    "linkType": "TXT_ASSOCIE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006073984",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R322-161 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R322-161",
-                    "articleId": "LEGIARTI000030583440",
-                    "natureText": "CODE",
-                    "date": 1599810749143,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1431302400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "",
-                    "textTitle": "D\u00e9cret 1938-12-30 art. 18",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000507291",
@@ -286,15 +404,104 @@
                     "dateDebutCible": "1991-10-15"
                 }
             ],
-            "num": "R*322-48",
-            "origine": "LEGI",
-            "texte": "Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.",
-            "texteHtml": "<p></p>   Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1991-10-15T00:00:00.000Z",
-            "dateFin": "2005-01-07T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R322-161 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R322-161",
+                    "articleId": "LEGIARTI000030583440",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1431302400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 1938-12-30 art. 18",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances R322-90 *sanctions civiles*",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006073984",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006813348",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 687484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006813349",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 687484800000,
+                    "dateFin": 1105056000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006813350",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1105056000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*322-48",
+                "322-48",
+                "R322-48"
+            ],
+            "versionPrecedente": "LEGIARTI000006813348",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006813348",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.",
+            "texteHtml": "<p></p>   Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.<p></p><p></p>",
+            "num": "R*322-48",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 206755200000,
+            "dateFin": 687484800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 343592,
             "context": {
                 "titresTM": [
                     {
@@ -366,17 +573,65 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006813348",
-            "lienAutres": [
+            "cid": "LEGIARTI000006813348",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188035",
+            "sectionParentId": "LEGISCTA000006188035",
+            "sectionParentTitre": "Paragraphe 1 : Constitution.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Les entreprises &gt; Titre II : R\u00e9gime administratif &gt; Chapitre II : R\u00e8gles de constitution et de fonctionnement",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006813348",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances R322-90 *sanctions civiles*",
-                    "linkType": "TXT_ASSOCIE",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000507291",
+                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
+                    "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "LEGITEXT000006073984",
-                    "natureText": "CODE"
+                    "articleId": "JORFTEXT000000507291",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
                 }
             ],
             "lienCitations": [
@@ -388,7 +643,6 @@
                     "articleNum": "R322-161",
                     "articleId": "LEGIARTI000030583440",
                     "natureText": "CODE",
-                    "date": 1599810747573,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -406,27 +660,60 @@
                     "natureText": ""
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [
                 {
-                    "textCid": "JORFTEXT000000507291",
-                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
-                    "linkType": "CODIFICATION",
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances R322-90 *sanctions civiles*",
+                    "linkType": "TXT_ASSOCIE",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "JORFTEXT000000507291",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "1976-07-21",
-                    "dateSignaTexte": "1976-07-16",
-                    "dateDebutCible": "2999-01-01"
+                    "articleId": "LEGITEXT000006073984",
+                    "natureText": "CODE"
                 }
             ],
-            "num": "R*322-48",
-            "origine": "LEGI",
-            "texte": "Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.",
-            "texteHtml": "<p></p>   Dans les projets de statuts, il ne peut \u00eatre stipul\u00e9 aucun avantage particulier au profit des fondateurs.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1976-07-21T00:00:00.000Z",
-            "dateFin": "1991-10-15T00:00:00.000Z"
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006813348",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 687484800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006813349",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 687484800000,
+                    "dateFin": 1105056000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006813350",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1105056000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*322-48",
+                "322-48",
+                "R322-48"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

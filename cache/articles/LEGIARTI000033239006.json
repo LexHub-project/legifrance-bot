@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033239006",
-    "num": "L331-14",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033265035",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les conditions de fonctionnement du Conseil des pr\u00e9l\u00e8vements obligatoires et les modalit\u00e9s de suppression du Conseil des imp\u00f4ts, auquel le Conseil des pr\u00e9l\u00e8vements obligatoires se substitue, sont pr\u00e9cis\u00e9es par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p></p>   Les conditions de fonctionnement du Conseil des pr\u00e9l\u00e8vements obligatoires et les modalit\u00e9s de suppression du Conseil des imp\u00f4ts, auquel le Conseil des pr\u00e9l\u00e8vements obligatoires se substitue, sont pr\u00e9cis\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
+            "num": "L331-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "TRANSFERE",
+            "dateDebut": 1493596800000,
+            "dateFin": 1672531200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1074020992,
             "context": {
                 "titresTM": [
                     {
@@ -21,7 +36,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006115542",
                         "id": "LEGISCTA000006115542",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-01-01",
@@ -30,7 +45,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006115542",
                         "id": "LEGISCTA000045404351",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2005-10-01",
@@ -48,7 +63,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006134861",
                         "id": "LEGISCTA000033265033",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2005-10-01",
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006148683",
                         "id": "LEGISCTA000006148683",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -74,30 +89,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000033265035",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000033239006",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006148683",
+            "sectionParentId": "LEGISCTA000006148683",
+            "sectionParentTitre": "CHAPITRE UNIQUE",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE III : La cour d'appel financi\u00e8re",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033265035",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006070249",
-                    "textTitle": "Code des juridictions financi\u00e8res - art. L351-13 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L351-13",
-                    "articleId": "LEGIARTI000006358061",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006070249",
-                    "textTitle": "Code des juridictions financi\u00e8res - art. L411-14 (VD)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "source",
-                    "articleNum": "L411-14",
-                    "articleId": "LEGIARTI000045402097",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006070249",
+                    "titre": "Code des juridictions financi\u00e8res",
+                    "titreLong": "Code des juridictions financi\u00e8res",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 786672000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006070249",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "Conform\u00e9ment \u00e0 l'article 52 de l'ordonnance n\u00b0 2016-1360 du 13 octobre 2016, les pr\u00e9sentes dispositions entrent en vigueur le lendemain de la publication au Journal officiel de la R\u00e9publique fran\u00e7aise du d\u00e9cret en Conseil d'Etat relatif \u00e0 la partie r\u00e9glementaire du code des juridictions financi\u00e8res, et au plus tard le 1er juillet 2017. Conform\u00e9ment \u00e0 l'article 184 du d\u00e9cret n\u00b0 2017-671 du 28 avril 2017 modifiant la partie r\u00e9glementaire du code des juridictions financi\u00e8res, les pr\u00e9sentes dispositions entrent en vigueur le 1er mai 2017.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 52 de l'ordonnance n\u00b0 2016-1360 du 13 octobre 2016, les pr\u00e9sentes dispositions entrent en vigueur le lendemain de la publication au Journal officiel de la R\u00e9publique fran\u00e7aise du d\u00e9cret en Conseil d'Etat relatif \u00e0 la partie r\u00e9glementaire du code des juridictions financi\u00e8res, et au plus tard le 1er juillet 2017.</p><p>Conform\u00e9ment \u00e0 l'article 184 du d\u00e9cret n\u00b0 2017-671 du 28 avril 2017 modifiant la partie r\u00e9glementaire du code des juridictions financi\u00e8res, les pr\u00e9sentes dispositions entrent en vigueur le 1er mai 2017.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033233037",
@@ -124,13 +162,52 @@
                     "dateDebutCible": "2022-03-25"
                 }
             ],
-            "num": "L331-14",
-            "origine": "LEGI",
-            "texte": "Les conditions de fonctionnement du Conseil des pr\u00e9l\u00e8vements obligatoires et les modalit\u00e9s de suppression du Conseil des imp\u00f4ts, auquel le Conseil des pr\u00e9l\u00e8vements obligatoires se substitue, sont pr\u00e9cis\u00e9es par d\u00e9cret en Conseil d'Etat.",
-            "texteHtml": "<p></p>   Les conditions de fonctionnement du Conseil des pr\u00e9l\u00e8vements obligatoires et les modalit\u00e9s de suppression du Conseil des imp\u00f4ts, auquel le Conseil des pr\u00e9l\u00e8vements obligatoires se substitue, sont pr\u00e9cis\u00e9es par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-05-01T00:00:00.000Z",
-            "dateFin": "2023-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006070249",
+                    "textTitle": "Code des juridictions financi\u00e8res - art. L351-13 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L351-13",
+                    "articleId": "LEGIARTI000006358061",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006070249",
+                    "textTitle": "Code des juridictions financi\u00e8res - art. L411-14 (VD)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "L411-14",
+                    "articleId": "LEGIARTI000045402097",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033265035",
+                    "etat": "TRANSFERE",
+                    "version": "1.0",
+                    "dateDebut": 1493596800000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L331-14",
+                "331-14"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

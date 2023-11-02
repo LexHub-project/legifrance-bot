@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031919968",
-    "num": "L4021-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031919968",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'universit\u00e9 participe, par son expertise p\u00e9dagogique dans le domaine de la formation initiale et continue des professionnels de sant\u00e9, au d\u00e9veloppement professionnel continu.",
+            "texteHtml": "<div align='left'>L'universit\u00e9 participe, par son expertise p\u00e9dagogique dans le domaine de la formation initiale et continue des professionnels de sant\u00e9, au d\u00e9veloppement professionnel continu.<br/><br/></div>",
+            "num": "L4021-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1453939200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020888283",
                         "id": "LEGISCTA000031929697",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-01-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020888283",
                         "id": "LEGISCTA000043830352",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2009-07-23",
@@ -75,7 +90,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020888297",
                         "id": "LEGISCTA000020897548",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-01-01",
@@ -84,7 +99,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020888297",
                         "id": "LEGISCTA000043830350",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -101,54 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031919968",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031919968",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000020888297",
+            "sectionParentId": "LEGISCTA000043830350",
+            "sectionParentTitre": "Chapitre Ier",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre pr\u00e9liminaire : Dispositions communes &gt; Titre II : D\u00e9veloppement professionnel continu des professionnels de sant\u00e9 &gt; Chapitre unique",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031919968",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000032962986",
-                    "textTitle": "Arr\u00eat\u00e9 du 28 juillet 2016 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000032962994",
-                    "natureText": "ARRETE",
-                    "date": 1626906527002,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1470182400000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R4021-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4021-5",
-                    "articleId": "LEGIARTI000038395103",
-                    "natureText": "CODE",
-                    "date": 1626906527002,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1555718400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R4021-7 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4021-7",
-                    "articleId": "LEGIARTI000032886495",
-                    "natureText": "CODE",
-                    "date": 1626906527002,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1468195200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031912641",
@@ -163,13 +177,73 @@
                     "dateDebutCible": "2016-01-28"
                 }
             ],
-            "num": "L4021-4",
-            "origine": "LEGI",
-            "texte": "L'universit\u00e9 participe, par son expertise p\u00e9dagogique dans le domaine de la formation initiale et continue des professionnels de sant\u00e9, au d\u00e9veloppement professionnel continu.",
-            "texteHtml": "<div align='left'>L'universit\u00e9 participe, par son expertise p\u00e9dagogique dans le domaine de la formation initiale et continue des professionnels de sant\u00e9, au d\u00e9veloppement professionnel continu.<br/><br/></div>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-28T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000032962986",
+                    "textTitle": "Arr\u00eat\u00e9 du 28 juillet 2016 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000032962994",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1470182400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R4021-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4021-5",
+                    "articleId": "LEGIARTI000047276765",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1678320000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R4021-7 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4021-7",
+                    "articleId": "LEGIARTI000047276740",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1678320000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031919968",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1453939200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4021-4",
+                "4021-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

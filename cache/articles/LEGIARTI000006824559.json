@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006824559",
-    "num": "L251-8",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006824561",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3 , ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.",
+            "texteHtml": "<p></p>Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000006824546&dateTexte=&categorieLien=cid' title='Code de la construction et de l'habitation. - art. L251-3 (V)'>L. 251-3</a>, ainsi que celles de l'avant dernier alin\u00e9a de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000006824664&dateTexte=&categorieLien=cid' title='Code de la construction et de l'habitation. - art. L251-5 (V)'>L. 251-5</a> sont d'ordre public.<p></p><p></p>",
+            "num": "L251-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1153008000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 3432,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-10",
                         "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006143531",
                         "id": "LEGISCTA000032920084",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-10",
+                        "fin": "2999-01-01",
+                        "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire et bail r\u00e9el solidaire d'activit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143531",
+                        "id": "LEGISCTA000047108990",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -74,50 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006824561",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006824559",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159146",
+            "sectionParentId": "LEGISCTA000006159146",
+            "sectionParentTitre": "Chapitre Ier : Bail \u00e0 construction.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Statut des constructeurs. &gt; Titre V : Bail \u00e0 construction - Bail \u00e0 r\u00e9habilitation - Bail dans le cadre d'une convention d'usufruit. &gt; Chapitre Ier : Bail \u00e0 construction.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006824561",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L251-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L251-3",
-                    "articleId": "LEGIARTI000006824546",
-                    "natureText": "CODE",
-                    "date": 1599107383759,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
                     "datePubli": 32472144000000,
-                    "dateDebut": 266112000000
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L251-5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L251-5",
-                    "articleId": "LEGIARTI000006824664",
-                    "natureText": "CODE",
-                    "date": 1599107383759,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 266112000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000509982",
-                    "textTitle": "LOI 64-1247 1964-12-16 ART. 8",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000509982",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000516442",
@@ -144,15 +171,106 @@
                     "dateDebutCible": "2006-07-16"
                 }
             ],
-            "num": "L251-8",
-            "origine": "LEGI",
-            "texte": "Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3 , ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.",
-            "texteHtml": "<p></p>Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article <a href='/article/LEGIARTI000006824546' title='Code de la construction et de l'habitation. - art. L251-3 (V)'>L. 251-3</a>, ainsi que celles de l'avant dernier alin\u00e9a de l'article <a href='/article/LEGIARTI000006824664' title='Code de la construction et de l'habitation. - art. L251-5 (V)'>L. 251-5</a> sont d'ordre public.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-07-16T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L251-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L251-3",
+                    "articleId": "LEGIARTI000006824546",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 266112000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L251-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L251-5",
+                    "articleId": "LEGIARTI000006824664",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000509982",
+                    "textTitle": "LOI 64-1247 1964-12-16 ART. 8",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000509982",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006824559",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 266112000000,
+                    "dateFin": 644284800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006824560",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 644284800000,
+                    "dateFin": 1153008000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006824561",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1153008000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L251-8",
+                "251-8"
+            ],
+            "versionPrecedente": "LEGIARTI000006824560",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006824560",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3, ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.",
+            "texteHtml": "<p></p>   Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3, ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.<p></p><p></p>",
+            "num": "L251-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 644284800000,
+            "dateFin": 1153008000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 3432,
             "context": {
                 "titresTM": [
                     {
@@ -193,11 +311,20 @@
                     },
                     {
                         "debut": "2016-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-10",
                         "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006143531",
                         "id": "LEGISCTA000032920084",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-10",
+                        "fin": "2999-01-01",
+                        "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire et bail r\u00e9el solidaire d'activit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143531",
+                        "id": "LEGISCTA000047108990",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -224,36 +351,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006824560",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006824559",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159146",
+            "sectionParentId": "LEGISCTA000006159146",
+            "sectionParentTitre": "Chapitre Ier : Bail \u00e0 construction.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Statut des constructeurs. &gt; Titre V : Bail \u00e0 construction - Bail \u00e0 r\u00e9habilitation - Bail dans le cadre d'une convention d'usufruit. &gt; Chapitre Ier : Bail \u00e0 construction.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006824560",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation L251-5 AL. 4",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006074096",
-                    "natureText": "CODE",
-                    "date": 1599107383752,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
                     "datePubli": 32472144000000,
-                    "dateDebut": 226800000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000509982",
-                    "textTitle": "LOI 64-1247 1964-12-16 ART. 8",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000509982",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000516442",
@@ -280,15 +424,93 @@
                     "dateDebutCible": "1990-06-02"
                 }
             ],
-            "num": "L251-8",
-            "origine": "LEGI",
-            "texte": "Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3, ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.",
-            "texteHtml": "<p></p>   Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3, ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1990-06-02T00:00:00.000Z",
-            "dateFin": "2006-07-16T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation L251-5 AL. 4",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074096",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 226800000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000509982",
+                    "textTitle": "LOI 64-1247 1964-12-16 ART. 8",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000509982",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006824559",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 266112000000,
+                    "dateFin": 644284800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006824560",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 644284800000,
+                    "dateFin": 1153008000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006824561",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1153008000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L251-8",
+                "251-8"
+            ],
+            "versionPrecedente": "LEGIARTI000006824559",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006824559",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3, ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.",
+            "texteHtml": "<p></p>   Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3, ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.<p></p><p></p>",
+            "num": "L251-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 266112000000,
+            "dateFin": 644284800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 3432,
             "context": {
                 "titresTM": [
                     {
@@ -329,11 +551,20 @@
                     },
                     {
                         "debut": "2016-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-10",
                         "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006143531",
                         "id": "LEGISCTA000032920084",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-10",
+                        "fin": "2999-01-01",
+                        "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire et bail r\u00e9el solidaire d'activit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143531",
+                        "id": "LEGISCTA000047108990",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -360,21 +591,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006824559",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006824559",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159146",
+            "sectionParentId": "LEGISCTA000006159146",
+            "sectionParentTitre": "Chapitre Ier : Bail \u00e0 construction.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Statut des constructeurs.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006824559",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000509982",
-                    "textTitle": "LOI 64-1247 1964-12-16 ART. 8",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000509982",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000516442",
@@ -401,13 +664,61 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L251-8",
-            "origine": "LEGI",
-            "texte": "Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3, ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.",
-            "texteHtml": "<p></p>   Les dispositions des troisi\u00e8me et quatri\u00e8me alin\u00e9as de l'article L. 251-3, ainsi que celles de l'avant dernier alin\u00e9a de l'article L. 251-5 sont d'ordre public.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1978-06-08T00:00:00.000Z",
-            "dateFin": "1990-06-02T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000509982",
+                    "textTitle": "LOI 64-1247 1964-12-16 ART. 8",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000509982",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006824559",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 266112000000,
+                    "dateFin": 644284800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006824560",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 644284800000,
+                    "dateFin": 1153008000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006824561",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1153008000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L251-8",
+                "251-8"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

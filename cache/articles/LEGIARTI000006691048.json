@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006691048",
-    "num": "L6145-17",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006691048",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Des mesures r\u00e9glementaires d\u00e9terminent en tant que de besoin les modalit\u00e9s d'application des dispositions du pr\u00e9sent chapitre. Sauf dispositions contraires, elles sont prises par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p></p>   Des mesures r\u00e9glementaires d\u00e9terminent en tant que de besoin les modalit\u00e9s d'application des dispositions du pr\u00e9sent chapitre. Sauf dispositions contraires, elles sont prises par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
+            "num": "L6145-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 961632000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1632062,
             "context": {
                 "titresTM": [
                     {
@@ -65,30 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006691048",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006691048",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171468",
+            "sectionParentId": "LEGISCTA000006171468",
+            "sectionParentTitre": "Chapitre V : Organisation financi\u00e8re.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre IV : Etablissements publics de sant\u00e9 &gt; Chapitre V : Organisation financi\u00e8re.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006691048",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L716-9 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L716-9",
-                    "articleId": "LEGIARTI000006694996",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L716-9 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L716-9",
-                    "articleId": "LEGIARTI000006694995",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -115,13 +153,52 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L6145-17",
-            "origine": "LEGI",
-            "texte": "Des mesures r\u00e9glementaires d\u00e9terminent en tant que de besoin les modalit\u00e9s d'application des dispositions du pr\u00e9sent chapitre. Sauf dispositions contraires, elles sont prises par d\u00e9cret en Conseil d'Etat.",
-            "texteHtml": "<p></p>   Des mesures r\u00e9glementaires d\u00e9terminent en tant que de besoin les modalit\u00e9s d'application des dispositions du pr\u00e9sent chapitre. Sauf dispositions contraires, elles sont prises par d\u00e9cret en Conseil d'Etat.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L716-9 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L716-9",
+                    "articleId": "LEGIARTI000006694996",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L716-9 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L716-9",
+                    "articleId": "LEGIARTI000006694995",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006691048",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L6145-17",
+                "6145-17"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

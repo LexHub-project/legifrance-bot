@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031635904",
-    "num": "R661-1-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031635904",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour l'application des articles R. 341-16 \u00e0 R. 341-25 \u00e0 Saint-Martin, les mots : \u201c commission d\u00e9partementale \u201d sont remplac\u00e9s par les mots : \u201c commission territoriale \u201d.",
+            "texteHtml": "<div align='left'>Pour l'application des articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006837642&dateTexte=&categorieLien=cid'>R. 341-16 \u00e0 R. 341-25</a> \u00e0 Saint-Martin, les mots : \u201c commission d\u00e9partementale \u201d sont remplac\u00e9s par les mots : \u201c commission territoriale \u201d.<br/></div>",
+            "num": "R661-1-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1450396800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1342177279,
             "context": {
                 "titresTM": [
                     {
@@ -56,26 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031635904",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031635904",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000020726353",
+            "sectionParentId": "LEGISCTA000020727515",
+            "sectionParentTitre": "Titre VI : Dispositions applicables \u00e0 Saint-Martin",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VI : Dispositions applicables en Nouvelle-Cal\u00e9donie, en Polyn\u00e9sie fran\u00e7aise, \u00e0 Wallis-et-Futuna, dans les Terres Australes et Antarctiques fran\u00e7aises, \u00e0 Mayotte et \u00e0 Saint-Martin &gt; Titre VI : Dispositions applicables \u00e0 Saint-Martin",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031635904",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R341-16",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R341-16",
-                    "articleId": "LEGIARTI000006837642",
-                    "natureText": "CODE",
-                    "date": 1599125661981,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1123200000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031632419",
@@ -90,13 +132,47 @@
                     "dateDebutCible": "2015-12-18"
                 }
             ],
-            "num": "R661-1-1",
-            "origine": "LEGI",
-            "texte": "Pour l'application des articles R. 341-16 \u00e0 R. 341-25 \u00e0 Saint-Martin, les mots : \u201c commission d\u00e9partementale \u201d sont remplac\u00e9s par les mots : \u201c commission territoriale \u201d.",
-            "texteHtml": "<div align='left'>Pour l'application des articles <a href='/article/LEGIARTI000006837642'>R. 341-16 \u00e0 R. 341-25</a> \u00e0 Saint-Martin, les mots : \u201c commission d\u00e9partementale \u201d sont remplac\u00e9s par les mots : \u201c commission territoriale \u201d.<br/></div>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-12-18T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R341-16",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R341-16",
+                    "articleId": "LEGIARTI000006837642",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1123200000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031635904",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1450396800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R661-1-1",
+                "661-1-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

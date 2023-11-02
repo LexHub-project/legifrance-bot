@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031709905",
-    "num": "L344-7",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031710721",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le b\u00e9n\u00e9fice de la pr\u00e9sente section est subordonn\u00e9 \u00e0 une p\u00e9riode de contrainte de trois mois au minimum en pays ennemi ou occup\u00e9 par l'ennemi. Aucune condition de dur\u00e9e n'est exig\u00e9e en cas d'\u00e9vasion, de rapatriement sanitaire ou de d\u00e9c\u00e8s.",
+            "texteHtml": "<p>Le b\u00e9n\u00e9fice de la pr\u00e9sente section est subordonn\u00e9 \u00e0 une p\u00e9riode de contrainte de trois mois au minimum en pays ennemi ou occup\u00e9 par l'ennemi.</p><p>Aucune condition de dur\u00e9e n'est exig\u00e9e en cas d'\u00e9vasion, de rapatriement sanitaire ou de d\u00e9c\u00e8s.</p>",
+            "num": "L344-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-08-03",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000031709781",
                         "id": "LEGISCTA000031710845",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-08-03",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION DE RECONNAISSANCE  DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031709781",
+                        "id": "LEGISCTA000047925809",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -55,15 +79,6 @@
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -71,39 +86,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031710721",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031709905",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031709899",
+            "sectionParentId": "LEGISCTA000031710727",
+            "sectionParentTitre": "Section 2 : De la qualit\u00e9 de personne contrainte au travail en pays ennemi",
+            "fullSectionsTitre": "Partie l\u00e9gislative (nouvelle) &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre IV : AUTRES TITRES ET DROITS CORRESPONDANTS &gt; Chapitre IV : R\u00e9fractaires, personnes contraintes au travail en pays ennemi, patriotes transf\u00e9r\u00e9s en Allemagne et autres titres en lien avec la guerre 1939-1945 &gt; Section 2 : De la qualit\u00e9 de personne contrainte au travail en pays ennemi",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031710721",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L124-25 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L124-25",
-                    "articleId": "LEGIARTI000031711279",
-                    "natureText": "CODE",
-                    "date": 1599124316774,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                }
-            ],
-            "lienConcordes": [
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L310 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L310",
-                    "articleId": "LEGIARTI000006794648",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "Conform\u00e9ment \u00e0 l'article 8 de l'ordonnance n\u00b0 2015-1781 du 28 d\u00e9cembre 2015, les dispositions de la partie l\u00e9gislative du code des pensions militaires d'invalidit\u00e9 et des victimes de guerre entrent en vigueur le lendemain de la publication au Journal officiel de la R\u00e9publique fran\u00e7aise du d\u00e9cret en Conseil d'Etat relatif \u00e0 la partie r\u00e9glementaire dudit code, et au plus tard le 1er janvier 2017.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 8 de l'ordonnance n\u00b0 2015-1781 du 28 d\u00e9cembre 2015, les dispositions de la partie l\u00e9gislative du code des pensions militaires d'invalidit\u00e9 et des victimes de guerre entrent en vigueur le lendemain de la publication au Journal officiel de la R\u00e9publique fran\u00e7aise du d\u00e9cret en Conseil d'Etat relatif \u00e0 la partie r\u00e9glementaire dudit code, et au plus tard le 1er janvier 2017.<br clear='none'/><br clear='none'/></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031702175",
@@ -130,13 +199,57 @@
                     "dateDebutCible": "2015-12-30"
                 }
             ],
-            "num": "L344-7",
-            "origine": "LEGI",
-            "texte": "Le b\u00e9n\u00e9fice de la pr\u00e9sente section est subordonn\u00e9 \u00e0 une p\u00e9riode de contrainte de trois mois au minimum en pays ennemi ou occup\u00e9 par l'ennemi. Aucune condition de dur\u00e9e n'est exig\u00e9e en cas d'\u00e9vasion, de rapatriement sanitaire ou de d\u00e9c\u00e8s.",
-            "texteHtml": "<p>Le b\u00e9n\u00e9fice de la pr\u00e9sente section est subordonn\u00e9 \u00e0 une p\u00e9riode de contrainte de trois mois au minimum en pays ennemi ou occup\u00e9 par l'ennemi.</p><p>Aucune condition de dur\u00e9e n'est exig\u00e9e en cas d'\u00e9vasion, de rapatriement sanitaire ou de d\u00e9c\u00e8s.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L124-25 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L124-25",
+                    "articleId": "LEGIARTI000031711279",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L310 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L310",
+                    "articleId": "LEGIARTI000006794648",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031710721",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L344-7",
+                "344-7"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006914728",
-    "num": "R5121-12",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006914729",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les personnes qui dirigent et surveillent la r\u00e9alisation d'essais chimiques, pharmaceutiques, biologiques, pharmacologiques ou toxicologiques sont d\u00e9nomm\u00e9es exp\u00e9rimentateurs.",
+            "texteHtml": "<p></p>   Les personnes qui dirigent et surveillent la r\u00e9alisation d'essais chimiques, pharmaceutiques, biologiques, pharmacologiques ou toxicologiques sont d\u00e9nomm\u00e9es exp\u00e9rimentateurs.<p></p><p></p>",
+            "num": "R5121-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1146096000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -74,30 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006914729",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006914728",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190664",
+            "sectionParentId": "LEGISCTA000006190664",
+            "sectionParentTitre": "Section 4 : Exp\u00e9rimentations",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 4 : Exp\u00e9rimentations",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006914729",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5119-1 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5119-1",
-                    "articleId": "LEGIARTI000006800075",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5119-1 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R5119-1",
-                    "articleId": "LEGIARTI000006800073",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000787339",
@@ -124,15 +162,79 @@
                     "dateDebutCible": "2006-04-27"
                 }
             ],
-            "num": "R5121-12",
-            "origine": "LEGI",
-            "texte": "Les personnes qui dirigent et surveillent la r\u00e9alisation d'essais chimiques, pharmaceutiques, biologiques, pharmacologiques ou toxicologiques sont d\u00e9nomm\u00e9es exp\u00e9rimentateurs.",
-            "texteHtml": "<p></p>   Les personnes qui dirigent et surveillent la r\u00e9alisation d'essais chimiques, pharmaceutiques, biologiques, pharmacologiques ou toxicologiques sont d\u00e9nomm\u00e9es exp\u00e9rimentateurs.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-04-27T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5119-1 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5119-1",
+                    "articleId": "LEGIARTI000006800075",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5119-1 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R5119-1",
+                    "articleId": "LEGIARTI000006800073",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006914728",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1091923200000,
+                    "dateFin": 1146096000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006914729",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1146096000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R5121-12",
+                "5121-12"
+            ],
+            "versionPrecedente": "LEGIARTI000006914728",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006914728",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les personnes qui dirigent et surveillent la r\u00e9alisation d'essais chimiques, pharmaceutiques, biologiques, pharmacologiques ou toxicologiques sont d\u00e9nomm\u00e9es exp\u00e9rimentateurs. Les m\u00e9decins et les chirurgiens-dentistes qui dirigent et surveillent la r\u00e9alisation d'essais cliniques sont, dans la pr\u00e9sente section, d\u00e9nomm\u00e9s investigateurs. Les exp\u00e9rimentateurs et les investigateurs doivent, selon leur activit\u00e9, disposer des qualifications et de l'exp\u00e9rience mentionn\u00e9es \u00e0 l'article R. 5121-33.",
+            "texteHtml": "<p></p>   Les personnes qui dirigent et surveillent la r\u00e9alisation d'essais chimiques, pharmaceutiques, biologiques, pharmacologiques ou toxicologiques sont d\u00e9nomm\u00e9es exp\u00e9rimentateurs.<p></p><p></p>   Les m\u00e9decins et les chirurgiens-dentistes qui dirigent et surveillent la r\u00e9alisation d'essais cliniques sont, dans la pr\u00e9sente section, d\u00e9nomm\u00e9s investigateurs.<p></p><p></p>   Les exp\u00e9rimentateurs et les investigateurs doivent, selon leur activit\u00e9, disposer des qualifications et de l'exp\u00e9rience mentionn\u00e9es \u00e0 l'article R. 5121-33.<p></p>",
+            "num": "R5121-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1091923200000,
+            "dateFin": 1146096000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -204,9 +306,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006914728",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006914728",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190664",
+            "sectionParentId": "LEGISCTA000006190664",
+            "sectionParentTitre": "Section 4 : Exp\u00e9rimentations",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre II : M\u00e9dicaments \u00e0 usage humain &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 4 : Exp\u00e9rimentations",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006914728",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000787339",
+                    "textTitle": "D\u00e9cret 2004-802 2004-07-29",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000787339",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2004-08-08",
+                    "dateSignaTexte": "2004-07-29",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072665",
@@ -216,7 +376,6 @@
                     "articleNum": "R5121-33",
                     "articleId": "LEGIARTI000006914760",
                     "natureText": "CODE",
-                    "date": 1599120514193,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -243,27 +402,40 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000787339",
-                    "textTitle": "D\u00e9cret 2004-802 2004-07-29",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000787339",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2004-08-08",
-                    "dateSignaTexte": "2004-07-29",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006914728",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1091923200000,
+                    "dateFin": 1146096000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006914729",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1146096000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R5121-12",
-            "origine": "LEGI",
-            "texte": "Les personnes qui dirigent et surveillent la r\u00e9alisation d'essais chimiques, pharmaceutiques, biologiques, pharmacologiques ou toxicologiques sont d\u00e9nomm\u00e9es exp\u00e9rimentateurs. Les m\u00e9decins et les chirurgiens-dentistes qui dirigent et surveillent la r\u00e9alisation d'essais cliniques sont, dans la pr\u00e9sente section, d\u00e9nomm\u00e9s investigateurs. Les exp\u00e9rimentateurs et les investigateurs doivent, selon leur activit\u00e9, disposer des qualifications et de l'exp\u00e9rience mentionn\u00e9es \u00e0 l'article R. 5121-33.",
-            "texteHtml": "<p></p>   Les personnes qui dirigent et surveillent la r\u00e9alisation d'essais chimiques, pharmaceutiques, biologiques, pharmacologiques ou toxicologiques sont d\u00e9nomm\u00e9es exp\u00e9rimentateurs.<p></p><p></p>   Les m\u00e9decins et les chirurgiens-dentistes qui dirigent et surveillent la r\u00e9alisation d'essais cliniques sont, dans la pr\u00e9sente section, d\u00e9nomm\u00e9s investigateurs.<p></p><p></p>   Les exp\u00e9rimentateurs et les investigateurs doivent, selon leur activit\u00e9, disposer des qualifications et de l'exp\u00e9rience mentionn\u00e9es \u00e0 l'article R. 5121-33.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-08-08T00:00:00.000Z",
-            "dateFin": "2006-04-27T00:00:00.000Z"
+            "computedNums": [
+                "R5121-12",
+                "5121-12"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

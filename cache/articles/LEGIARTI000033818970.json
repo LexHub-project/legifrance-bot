@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033818970",
-    "num": "R311-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033818970",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Sont consid\u00e9r\u00e9s comme combattants au titre des op\u00e9rations effectu\u00e9es apr\u00e8s le 11 novembre 1918 et avant le 2 septembre 1939, les militaires des arm\u00e9es de terre et de mer ayant appartenu aux troupes ou missions militaires en territoires \u00e9trangers remplissant l'une des conditions suivantes : 1\u00b0 Avoir, pendant trois mois cons\u00e9cutifs ou non, pris une part effective \u00e0 des op\u00e9rations de guerre ; 2\u00b0 Avoir \u00e9t\u00e9, sans condition de dur\u00e9e de s\u00e9jour, mais en prenant part effectivement \u00e0 des op\u00e9rations de guerre, \u00e9vacu\u00e9 pour blessure re\u00e7ue ou maladie contract\u00e9e au service ou fait prisonnier ; 3\u00b0 Avoir re\u00e7u une blessure de guerre. Les personnes ayant acquis des droits \u00e0 une m\u00e9daille comm\u00e9morative de campagne de guerre ou \u00e0 la m\u00e9daille coloniale au titre des minist\u00e8res de la guerre ou de la marine sont \u00e9galement consid\u00e9r\u00e9es comme combattants si elles remplissent les m\u00eames conditions.",
+            "texteHtml": "<p>Sont consid\u00e9r\u00e9s comme combattants au titre des op\u00e9rations effectu\u00e9es apr\u00e8s le 11 novembre 1918 et avant le 2 septembre 1939, les militaires des arm\u00e9es de terre et de mer ayant appartenu aux troupes ou missions militaires en territoires \u00e9trangers remplissant l'une des conditions suivantes :</p><p>1\u00b0 Avoir, pendant trois mois cons\u00e9cutifs ou non, pris une part effective \u00e0 des op\u00e9rations de guerre ;</p><p>2\u00b0 Avoir \u00e9t\u00e9, sans condition de dur\u00e9e de s\u00e9jour, mais en prenant part effectivement \u00e0 des op\u00e9rations de guerre, \u00e9vacu\u00e9 pour blessure re\u00e7ue ou maladie contract\u00e9e au service ou fait prisonnier ;</p><p>3\u00b0 Avoir re\u00e7u une blessure de guerre.</p><p>Les personnes ayant acquis des droits \u00e0 une m\u00e9daille comm\u00e9morative de campagne de guerre ou \u00e0 la m\u00e9daille coloniale au titre des minist\u00e8res de la guerre ou de la marine sont \u00e9galement consid\u00e9r\u00e9es comme combattants si elles remplissent les m\u00eames conditions.</p>",
+            "num": "R311-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-07-01",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033818960",
                         "id": "LEGISCTA000033818960",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION RECONNAISSANCE DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000033818960",
+                        "id": "LEGISCTA000047770455",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -64,15 +88,6 @@
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -80,81 +95,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033818970",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033818970",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033818968",
+            "sectionParentId": "LEGISCTA000033818968",
+            "sectionParentTitre": "Sous-section 1 : Op\u00e9rations entre 1918 et 1939, guerre 1939-1945 et guerres d'Indochine et de Cor\u00e9e",
+            "fullSectionsTitre": "Partie r\u00e9glementaire (nouvelle)  &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre Ier : LA CARTE DU COMBATTANT &gt; Chapitre unique. &gt; Section 1 : Reconnaissance de la qualit\u00e9 de combattant &gt; Sous-section 1 : Op\u00e9rations entre 1918 et 1939, guerre 1939-1945 et guerres d'Indochine et de Cor\u00e9e",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033818970",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D331-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D331-1",
-                    "articleId": "LEGIARTI000033819080",
-                    "natureText": "CODE",
-                    "date": 1599844993396,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D353-7 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D353-7",
-                    "articleId": "LEGIARTI000033819398",
-                    "natureText": "CODE",
-                    "date": 1599844993396,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                },
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R311-17 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R311-17",
-                    "articleId": "LEGIARTI000033819010",
-                    "natureText": "CODE",
-                    "date": 1599844993396,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                },
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R311-27 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R311-27",
-                    "articleId": "LEGIARTI000033819038",
-                    "natureText": "CODE",
-                    "date": 1599844993396,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R224, alin\u00e9as 9 \u00e0 14 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R224",
-                    "articleId": "LEGIARTI000027447378",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033719487",
@@ -181,13 +208,96 @@
                     "dateDebutCible": "2016-12-30"
                 }
             ],
-            "num": "R311-1",
-            "origine": "LEGI",
-            "texte": "Sont consid\u00e9r\u00e9s comme combattants au titre des op\u00e9rations effectu\u00e9es apr\u00e8s le 11 novembre 1918 et avant le 2 septembre 1939, les militaires des arm\u00e9es de terre et de mer ayant appartenu aux troupes ou missions militaires en territoires \u00e9trangers remplissant l'une des conditions suivantes : 1\u00b0 Avoir, pendant trois mois cons\u00e9cutifs ou non, pris une part effective \u00e0 des op\u00e9rations de guerre ; 2\u00b0 Avoir \u00e9t\u00e9, sans condition de dur\u00e9e de s\u00e9jour, mais en prenant part effectivement \u00e0 des op\u00e9rations de guerre, \u00e9vacu\u00e9 pour blessure re\u00e7ue ou maladie contract\u00e9e au service ou fait prisonnier ; 3\u00b0 Avoir re\u00e7u une blessure de guerre. Les personnes ayant acquis des droits \u00e0 une m\u00e9daille comm\u00e9morative de campagne de guerre ou \u00e0 la m\u00e9daille coloniale au titre des minist\u00e8res de la guerre ou de la marine sont \u00e9galement consid\u00e9r\u00e9es comme combattants si elles remplissent les m\u00eames conditions.",
-            "texteHtml": "<p>Sont consid\u00e9r\u00e9s comme combattants au titre des op\u00e9rations effectu\u00e9es apr\u00e8s le 11 novembre 1918 et avant le 2 septembre 1939, les militaires des arm\u00e9es de terre et de mer ayant appartenu aux troupes ou missions militaires en territoires \u00e9trangers remplissant l'une des conditions suivantes :</p><p>1\u00b0 Avoir, pendant trois mois cons\u00e9cutifs ou non, pris une part effective \u00e0 des op\u00e9rations de guerre ;</p><p>2\u00b0 Avoir \u00e9t\u00e9, sans condition de dur\u00e9e de s\u00e9jour, mais en prenant part effectivement \u00e0 des op\u00e9rations de guerre, \u00e9vacu\u00e9 pour blessure re\u00e7ue ou maladie contract\u00e9e au service ou fait prisonnier ;</p><p>3\u00b0 Avoir re\u00e7u une blessure de guerre.</p><p>Les personnes ayant acquis des droits \u00e0 une m\u00e9daille comm\u00e9morative de campagne de guerre ou \u00e0 la m\u00e9daille coloniale au titre des minist\u00e8res de la guerre ou de la marine sont \u00e9galement consid\u00e9r\u00e9es comme combattants si elles remplissent les m\u00eames conditions.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D331-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D331-1",
+                    "articleId": "LEGIARTI000033819080",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D353-7 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D353-7",
+                    "articleId": "LEGIARTI000033819398",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R311-17 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R311-17",
+                    "articleId": "LEGIARTI000033819010",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R311-27 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R311-27",
+                    "articleId": "LEGIARTI000033819038",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R224, alin\u00e9as 9 \u00e0 14 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R224",
+                    "articleId": "LEGIARTI000027447378",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033818970",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R311-1",
+                "311-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

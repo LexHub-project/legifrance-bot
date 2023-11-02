@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006803962",
-    "num": "L540-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006803962",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le statut des agents g\u00e9n\u00e9raux d'assurance et ses avenants sont, apr\u00e8s avoir \u00e9t\u00e9 n\u00e9goci\u00e9s et \u00e9tablis par les organisations professionnelles int\u00e9ress\u00e9es, approuv\u00e9s par d\u00e9cret.",
+            "texteHtml": "<p></p>   Le statut des agents g\u00e9n\u00e9raux d'assurance et ses avenants sont, apr\u00e8s avoir \u00e9t\u00e9 n\u00e9goci\u00e9s et \u00e9tablis par les organisations professionnelles int\u00e9ress\u00e9es, approuv\u00e9s par d\u00e9cret.<p></p><p></p>",
+            "num": "L540-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1134691200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -65,26 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006803962",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006803962",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157849",
+            "sectionParentId": "LEGISCTA000006157849",
+            "sectionParentTitre": "Chapitre unique.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre V : Interm\u00e9diaires d'assurance &gt; Titre IV : Dispositions sp\u00e9ciales aux agents g\u00e9n\u00e9raux d'assurance &gt; Chapitre unique.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006803962",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006069574",
-                    "textTitle": "CODE GENERAL DES IMPOTS ANNEXE 3, CGIAN3. - art. 41-00 A bis (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "41-00 A bis",
-                    "articleId": "LEGIARTI000018617892",
-                    "natureText": "CODE",
-                    "date": 1599813921198,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1207180800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000305911",
@@ -111,13 +153,47 @@
                     "dateDebutCible": "2005-12-16"
                 }
             ],
-            "num": "L540-2",
-            "origine": "LEGI",
-            "texte": "Le statut des agents g\u00e9n\u00e9raux d'assurance et ses avenants sont, apr\u00e8s avoir \u00e9t\u00e9 n\u00e9goci\u00e9s et \u00e9tablis par les organisations professionnelles int\u00e9ress\u00e9es, approuv\u00e9s par d\u00e9cret.",
-            "texteHtml": "<p></p>   Le statut des agents g\u00e9n\u00e9raux d'assurance et ses avenants sont, apr\u00e8s avoir \u00e9t\u00e9 n\u00e9goci\u00e9s et \u00e9tablis par les organisations professionnelles int\u00e9ress\u00e9es, approuv\u00e9s par d\u00e9cret.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-12-16T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069574",
+                    "textTitle": "CODE GENERAL DES IMPOTS ANNEXE 3, CGIAN3. - art. 41-00 A bis (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "41-00 A bis",
+                    "articleId": "LEGIARTI000018617892",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1207180800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006803962",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1134691200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L540-2",
+                "540-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

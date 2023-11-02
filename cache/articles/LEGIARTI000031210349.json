@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031210349",
-    "num": "L113-18",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031210349",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les p\u00e9rim\u00e8tres d'intervention sont compatibles avec le sch\u00e9ma de coh\u00e9rence territoriale.",
+            "texteHtml": "<p><br/>Les p\u00e9rim\u00e8tres d'intervention sont compatibles avec le sch\u00e9ma de coh\u00e9rence territoriale.</p>",
+            "num": "L113-18",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1451606400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -74,21 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031210349",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000031210349",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031210343",
+            "sectionParentId": "LEGISCTA000031212476",
+            "sectionParentTitre": "Sous-section 1 : D\u00e9limitation du p\u00e9rim\u00e8tre d'intervention",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : R\u00e9glementation de l'urbanisme &gt; Titre Ier : R\u00e8gles applicables sur l'ensemble du territoire &gt; Chapitre III : Espaces prot\u00e9g\u00e9s &gt; Section 3 : Espaces agricoles et naturels p\u00e9riurbains &gt; Sous-section 1 : D\u00e9limitation du p\u00e9rim\u00e8tre d'intervention",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031210349",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L143-1, alin\u00e9a 2, phrase 1 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L143-1",
-                    "articleId": "LEGIARTI000029594007",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031204500",
@@ -115,13 +162,43 @@
                     "dateDebutCible": "2016-01-01"
                 }
             ],
-            "num": "L113-18",
-            "origine": "LEGI",
-            "texte": "Les p\u00e9rim\u00e8tres d'intervention sont compatibles avec le sch\u00e9ma de coh\u00e9rence territoriale.",
-            "texteHtml": "<p><br/>Les p\u00e9rim\u00e8tres d'intervention sont compatibles avec le sch\u00e9ma de coh\u00e9rence territoriale.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L143-1, alin\u00e9a 2, phrase 1 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L143-1",
+                    "articleId": "LEGIARTI000029594007",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031210349",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L113-18",
+                "113-18"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

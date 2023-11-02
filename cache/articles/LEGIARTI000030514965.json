@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000030514965",
-    "num": "R5511-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000030514965",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'exploitation \u00e0 bord comporte, pour l'application du 3\u00b0 de l'article L. 5511-1 , les activit\u00e9s professionnelles relatives \u00e0 la marche, \u00e0 la conduite ou \u00e0 l'entretien ainsi que celles qui sont n\u00e9cessaires pour assurer l'ensemble des fonctionnalit\u00e9s du navire.",
+            "texteHtml": "<div align='left'>L'exploitation \u00e0 bord comporte, pour l'application du 3\u00b0 de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023086525&idArticle=LEGIARTI000023073916&dateTexte=&categorieLien=cid'>L. 5511-1</a>, les activit\u00e9s professionnelles relatives \u00e0 la marche, \u00e0 la conduite ou \u00e0 l'entretien ainsi que celles qui sont n\u00e9cessaires pour assurer l'ensemble des fonctionnalit\u00e9s du navire.<br/><br/><br/><br/><br/><br/></div>",
+            "num": "R5511-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1429833600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -53,7 +68,7 @@
                     {
                         "debut": "2015-04-24",
                         "fin": "2999-01-01",
-                        "titre": "Section 1 : Marins \r\n\r\n",
+                        "titre": "Section 1 : Marins",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000030514963",
                         "id": "LEGISCTA000030514963",
@@ -74,68 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000030514965",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000030514965",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000030514963",
+            "sectionParentId": "LEGISCTA000030514963",
+            "sectionParentTitre": "Section 1 : Marins",
+            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; CINQUIEME PARTIE : TRANSPORT ET NAVIGATION MARITIMES &gt; LIVRE V : LES GENS DE MER &gt; TITRE Ier : D\u00c9FINITIONS ET DISPOSITIONS G\u00c9N\u00c9RALES  &gt; Chapitre Ier : D\u00e9finition  &gt; Section 1 : Marins",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000030514965",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L5511-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L5511-1",
-                    "articleId": "LEGIARTI000023073916",
-                    "natureText": "CODE",
-                    "date": 1638571039060,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1466553600000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R5765-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5765-1",
-                    "articleId": "LEGIARTI000038108151",
-                    "natureText": "CODE",
-                    "date": 1638571039060,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1549584000000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R5775-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5775-1",
-                    "articleId": "LEGIARTI000038108172",
-                    "natureText": "CODE",
-                    "date": 1638571039060,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1549584000000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R5785-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5785-1",
-                    "articleId": "LEGIARTI000038453647",
-                    "natureText": "CODE",
-                    "date": 1638571039060,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1569888000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000030513192",
@@ -150,13 +150,86 @@
                     "dateDebutCible": "2015-04-24"
                 }
             ],
-            "num": "R5511-1",
-            "origine": "LEGI",
-            "texte": "L'exploitation \u00e0 bord comporte, pour l'application du 3\u00b0 de l'article L. 5511-1 , les activit\u00e9s professionnelles relatives \u00e0 la marche, \u00e0 la conduite ou \u00e0 l'entretien ainsi que celles qui sont n\u00e9cessaires pour assurer l'ensemble des fonctionnalit\u00e9s du navire.",
-            "texteHtml": "<div align='left'>L'exploitation \u00e0 bord comporte, pour l'application du 3\u00b0 de l'article <a href='/article/LEGIARTI000023073916'>L. 5511-1</a>, les activit\u00e9s professionnelles relatives \u00e0 la marche, \u00e0 la conduite ou \u00e0 l'entretien ainsi que celles qui sont n\u00e9cessaires pour assurer l'ensemble des fonctionnalit\u00e9s du navire.<br/><br/><br/><br/><br/><br/></div>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-04-24T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L5511-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L5511-1",
+                    "articleId": "LEGIARTI000023073916",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1466553600000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R5765-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5765-1",
+                    "articleId": "LEGIARTI000046865363",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R5775-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5775-1",
+                    "articleId": "LEGIARTI000046865381",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R5785-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R5785-1",
+                    "articleId": "LEGIARTI000046865397",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1672531200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000030514965",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1429833600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R5511-1",
+                "5511-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

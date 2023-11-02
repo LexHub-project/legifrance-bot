@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031211372",
-    "num": "L153-22",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031211372",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le plan local d'urbanisme approuv\u00e9 est tenu \u00e0 la disposition du public.",
+            "texteHtml": "<p><br/>Le plan local d'urbanisme approuv\u00e9 est tenu \u00e0 la disposition du public.</p>",
+            "num": "L153-22",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1451606400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -74,21 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031211372",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000031211372",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031211368",
+            "sectionParentId": "LEGISCTA000031211774",
+            "sectionParentTitre": "Sous-section 5 : Approbation du plan local d'urbanisme",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : R\u00e9glementation de l'urbanisme &gt; Titre V : Plan local d'urbanisme  &gt; Chapitre III : Proc\u00e9dure d'\u00e9laboration, d'\u00e9valuation et d'\u00e9volution du plan local d'urbanisme &gt; Section 3 : Elaboration du plan local d'urbanisme &gt; Sous-section 5 : Approbation du plan local d'urbanisme",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031211372",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L123-10, alin\u00e9a 5  (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L123-10",
-                    "articleId": "LEGIARTI000031105208",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031204500",
@@ -115,13 +162,43 @@
                     "dateDebutCible": "2016-01-01"
                 }
             ],
-            "num": "L153-22",
-            "origine": "LEGI",
-            "texte": "Le plan local d'urbanisme approuv\u00e9 est tenu \u00e0 la disposition du public.",
-            "texteHtml": "<p><br/>Le plan local d'urbanisme approuv\u00e9 est tenu \u00e0 la disposition du public.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L123-10, alin\u00e9a 5  (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L123-10",
+                    "articleId": "LEGIARTI000031105208",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031211372",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L153-22",
+                "153-22"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

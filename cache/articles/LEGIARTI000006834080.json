@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006834080",
-    "num": "L429-33",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006834080",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Il est interdit de poursuivre le gibier bless\u00e9 ou de s'emparer du gibier tomb\u00e9 sur un domaine de chasse appartenant \u00e0 autrui, sans l'autorisation de celui \u00e0 qui le droit de chasse appartient.",
+            "texteHtml": "<p></p>   Il est interdit de poursuivre le gibier bless\u00e9 ou de s'emparer du gibier tomb\u00e9 sur un domaine de chasse appartenant \u00e0 autrui, sans l'autorisation de celui \u00e0 qui le droit de chasse appartient.<p></p><p></p>",
+            "num": "L429-33",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 969494400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -92,30 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006834080",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006834080",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006195244",
+            "sectionParentId": "LEGISCTA000006195244",
+            "sectionParentTitre": "Paragraphe 1 : Territoire",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Faune et flore &gt; Titre II : Chasse &gt; Chapitre IX : Dispositions particuli\u00e8res aux d\u00e9partements du Bas-Rhin, du Haut-Rhin et de la Moselle &gt; Section 4 : P\u00e9nalit\u00e9s &gt; Sous-section 1 : Peines &gt; Paragraphe 1 : Territoire",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006834080",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006071367",
-                    "textTitle": "Code rural - art. L229-30 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L229-30",
-                    "articleId": "LEGIARTI000006582643",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "Code rural L229-30",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -142,13 +180,52 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L429-33",
-            "origine": "LEGI",
-            "texte": "Il est interdit de poursuivre le gibier bless\u00e9 ou de s'emparer du gibier tomb\u00e9 sur un domaine de chasse appartenant \u00e0 autrui, sans l'autorisation de celui \u00e0 qui le droit de chasse appartient.",
-            "texteHtml": "<p></p>   Il est interdit de poursuivre le gibier bless\u00e9 ou de s'emparer du gibier tomb\u00e9 sur un domaine de chasse appartenant \u00e0 autrui, sans l'autorisation de celui \u00e0 qui le droit de chasse appartient.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-09-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006071367",
+                    "textTitle": "Code rural - art. L229-30 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L229-30",
+                    "articleId": "LEGIARTI000006582643",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Code rural L229-30",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006834080",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L429-33",
+                "429-33"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

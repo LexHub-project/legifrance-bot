@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006815971",
-    "num": "L426-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000037667634",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret en Conseil d'Etat pr\u00e9cise les conditions d'application du pr\u00e9sent titre.",
+            "texteHtml": "<p>Un d\u00e9cret en Conseil d'Etat pr\u00e9cise les conditions d'application du pr\u00e9sent titre.</p>",
+            "num": "L426-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1543104000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -56,40 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000037667634",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006815971",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006158640",
+            "sectionParentId": "LEGISCTA000006158640",
+            "sectionParentTitre": "Chapitre VI : Dispositions diverses",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : R\u00e9gime applicable aux constructions, am\u00e9nagements et d\u00e9molitions &gt; Titre II : Dispositions communes aux diverses autorisations et aux d\u00e9clarations pr\u00e9alables &gt; Chapitre VI : Dispositions diverses",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000037667634",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L740-1 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L740-1",
-                    "articleId": "LEGIARTI000006816164",
-                    "natureText": "CODE",
-                    "date": 1599832682563,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1191196800000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1614-20 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1614-20",
-                    "articleId": "LEGIARTI000006395395",
-                    "natureText": "CODE",
-                    "date": 1599832682563,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1191196800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "<p></p><p></p><p></p><p></p><p></p><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000037639478",
@@ -116,15 +144,100 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L426-1",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret en Conseil d'Etat pr\u00e9cise les conditions d'application du pr\u00e9sent titre.",
-            "texteHtml": "<p>Un d\u00e9cret en Conseil d'Etat pr\u00e9cise les conditions d'application du pr\u00e9sent titre.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-11-25T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L423-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L423-2",
+                    "articleId": "LEGIARTI000037667642",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1543104000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L740-1 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L740-1",
+                    "articleId": "LEGIARTI000006816164",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1191196800000
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1614-20 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1614-20",
+                    "articleId": "LEGIARTI000006395395",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1191196800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006815971",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1191196800000,
+                    "dateFin": 1543104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037667634",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1543104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L426-1",
+                "426-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006815971",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006815971",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret en Conseil d'Etat pr\u00e9cise les conditions d'application du pr\u00e9sent titre. Il pr\u00e9cise en outre les conditions dans lesquelles des informations statistiques sont demand\u00e9es aux p\u00e9titionnaires ainsi que les modalit\u00e9s de leur transmission par l'autorit\u00e9 comp\u00e9tente.",
+            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat pr\u00e9cise les conditions d'application du pr\u00e9sent titre. Il pr\u00e9cise en outre les conditions dans lesquelles des informations statistiques sont demand\u00e9es aux p\u00e9titionnaires ainsi que les modalit\u00e9s de leur transmission par l'autorit\u00e9 comp\u00e9tente.<p></p><p></p>",
+            "num": "L426-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1191196800000,
+            "dateFin": 1543104000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -178,40 +291,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006815971",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006815971",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006158640",
+            "sectionParentId": "LEGISCTA000006158640",
+            "sectionParentTitre": "Chapitre VI : Dispositions diverses",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : R\u00e9gime applicable aux constructions, am\u00e9nagements et d\u00e9molitions &gt; Titre II : Dispositions communes aux diverses autorisations et aux d\u00e9clarations pr\u00e9alables &gt; Chapitre VI : Dispositions diverses",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006815971",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L740-1 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L740-1",
-                    "articleId": "LEGIARTI000006816164",
-                    "natureText": "CODE",
-                    "date": 1599810778088,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1191196800000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1614-20 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1614-20",
-                    "articleId": "LEGIARTI000006395395",
-                    "natureText": "CODE",
-                    "date": 1599810778088,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1191196800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "<p></p><p></p><p></p><p></p><p></p><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000265422",
@@ -238,13 +364,82 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L426-1",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret en Conseil d'Etat pr\u00e9cise les conditions d'application du pr\u00e9sent titre. Il pr\u00e9cise en outre les conditions dans lesquelles des informations statistiques sont demand\u00e9es aux p\u00e9titionnaires ainsi que les modalit\u00e9s de leur transmission par l'autorit\u00e9 comp\u00e9tente.",
-            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat pr\u00e9cise les conditions d'application du pr\u00e9sent titre. Il pr\u00e9cise en outre les conditions dans lesquelles des informations statistiques sont demand\u00e9es aux p\u00e9titionnaires ainsi que les modalit\u00e9s de leur transmission par l'autorit\u00e9 comp\u00e9tente.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-10-01T00:00:00.000Z",
-            "dateFin": "2018-11-25T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L423-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L423-2",
+                    "articleId": "LEGIARTI000037667642",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1543104000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L740-1 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L740-1",
+                    "articleId": "LEGIARTI000006816164",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1191196800000
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1614-20 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R1614-20",
+                    "articleId": "LEGIARTI000006395395",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1191196800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006815971",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1191196800000,
+                    "dateFin": 1543104000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037667634",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1543104000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L426-1",
+                "426-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

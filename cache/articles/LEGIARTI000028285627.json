@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000028285627",
-    "num": "R411-14",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000028285627",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les r\u00e9servistes de la police nationale sont plac\u00e9s sous l'autorit\u00e9 du chef du service dans lequel ils sont appel\u00e9s \u00e0 servir.",
+            "texteHtml": "<p><br/>Les r\u00e9servistes de la police nationale sont plac\u00e9s sous l'autorit\u00e9 du chef du service dans lequel ils sont appel\u00e9s \u00e0 servir.</p>",
+            "num": "R411-14",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1388534400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -83,21 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000028285627",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000028285627",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000028285623",
+            "sectionParentId": "LEGISCTA000028286986",
+            "sectionParentTitre": "Sous-section 1 : Dispositions communes aux r\u00e9servistes de la police nationale",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE IV : POLICE NATIONALE  ET GENDARMERIE NATIONALE &gt; TITRE Ier : POLICE NATIONALE &gt; Chapitre Ier : Missions et personnels  de la police nationale &gt; Section 4 : R\u00e9serve civile &gt; Sous-section 1 : Dispositions communes aux r\u00e9servistes de la police nationale",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000028285627",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000024720431",
-                    "textTitle": "D\u00e9cret n\u00b02011-1372\r\n du 27 octobre 2011 - art. 1, alin\u00e9a 4 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000024721170",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000028276865",
@@ -124,13 +171,43 @@
                     "dateDebutCible": "2013-12-07"
                 }
             ],
-            "num": "R411-14",
-            "origine": "LEGI",
-            "texte": "Les r\u00e9servistes de la police nationale sont plac\u00e9s sous l'autorit\u00e9 du chef du service dans lequel ils sont appel\u00e9s \u00e0 servir.",
-            "texteHtml": "<p><br/>Les r\u00e9servistes de la police nationale sont plac\u00e9s sous l'autorit\u00e9 du chef du service dans lequel ils sont appel\u00e9s \u00e0 servir.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000024720431",
+                    "textTitle": "D\u00e9cret n\u00b02011-1372\r\n du 27 octobre 2011 - art. 1, alin\u00e9a 4 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000024721170",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000028285627",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1388534400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R411-14",
+                "411-14"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029656884",
-    "num": "R723-84",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045656981",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "D\u00e8s leur engagement et dans l'attente de la validation de la formation initiale de leur grade, en compl\u00e9ment des dispositions des deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article R. 723-15, les professionnels de sant\u00e9, les v\u00e9t\u00e9rinaires et les experts psychologues peuvent participer \u00e0 l'exercice de tout ou partie de leurs missions de sapeurs-pompiers volontaires, en fonction des dipl\u00f4mes et qualifications professionnelles qu'ils d\u00e9tiennent.",
+            "texteHtml": "<p>D\u00e8s leur engagement et dans l'attente de la validation de la formation initiale de leur grade, en compl\u00e9ment des dispositions des deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article R. 723-15, les professionnels de sant\u00e9, les v\u00e9t\u00e9rinaires et les experts psychologues peuvent participer \u00e0 l'exercice de tout ou partie de leurs missions de sapeurs-pompiers volontaires, en fonction des dipl\u00f4mes et qualifications professionnelles qu'ils d\u00e9tiennent.</p>",
+            "num": "R723-84",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1650153600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2113929215,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -92,21 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000045656981",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000029656884",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656872",
+            "sectionParentId": "LEGISCTA000045657010",
+            "sectionParentTitre": "Paragraphe 1 : Professionnels de sant\u00e9, v\u00e9t\u00e9rinaires et experts psychologues",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 4 : Cat\u00e9gories particuli\u00e8res de sapeurs-pompiers volontaires &gt; Paragraphe 1 : Professionnels de sant\u00e9, v\u00e9t\u00e9rinaires et experts psychologues",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000045656981",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027517141",
-                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 72 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "72",
-                    "articleId": "LEGIARTI000027520024",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -133,15 +189,70 @@
                     "dateDebutCible": "2022-04-17"
                 }
             ],
-            "num": "R723-84",
-            "origine": "LEGI",
-            "texte": "D\u00e8s leur engagement et dans l'attente de la validation de la formation initiale de leur grade, en compl\u00e9ment des dispositions des deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article R. 723-15, les professionnels de sant\u00e9, les v\u00e9t\u00e9rinaires et les experts psychologues peuvent participer \u00e0 l'exercice de tout ou partie de leurs missions de sapeurs-pompiers volontaires, en fonction des dipl\u00f4mes et qualifications professionnelles qu'ils d\u00e9tiennent.",
-            "texteHtml": "<p>D\u00e8s leur engagement et dans l'attente de la validation de la formation initiale de leur grade, en compl\u00e9ment des dispositions des deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article R. 723-15, les professionnels de sant\u00e9, les v\u00e9t\u00e9rinaires et les experts psychologues peuvent participer \u00e0 l'exercice de tout ou partie de leurs missions de sapeurs-pompiers volontaires, en fonction des dipl\u00f4mes et qualifications professionnelles qu'ils d\u00e9tiennent.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-04-17T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000027517141",
+                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 72 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "72",
+                    "articleId": "LEGIARTI000027520024",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656884",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1650153600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045656981",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1650153600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R723-84",
+                "723-84"
+            ],
+            "versionPrecedente": "LEGIARTI000029656884",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000029656884",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "D\u00e8s leur engagement, les sapeurs-pompiers volontaires, membres du service de sant\u00e9 et de secours m\u00e9dical, peuvent participer \u00e0 l'exercice de tout ou partie des missions du service de sant\u00e9 et de secours m\u00e9dical, et notamment aux activit\u00e9s op\u00e9rationnelles, conform\u00e9ment aux qualifications acquises et y compris dans l'attente de suivre les formations initiales de leur grade.",
+            "texteHtml": "<p><br/>D\u00e8s leur engagement, les sapeurs-pompiers volontaires, membres du service de sant\u00e9 et de secours m\u00e9dical, peuvent participer \u00e0 l'exercice de tout ou partie des missions du service de sant\u00e9 et de secours m\u00e9dical, et notamment aux activit\u00e9s op\u00e9rationnelles, conform\u00e9ment aux qualifications acquises et y compris dans l'attente de suivre les formations initiales de leur grade.</p>",
+            "num": "R723-84",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1417392000000,
+            "dateFin": 1650153600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2113929215,
             "context": {
                 "titresTM": [
                     {
@@ -182,11 +293,20 @@
                     },
                     {
                         "debut": "2014-12-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-24",
                         "titre": "Section unique :  Sapeurs-pompiers volontaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000029656660",
                         "id": "LEGISCTA000029657885",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 :  Sapeurs-pompiers volontaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000029656660",
+                        "id": "LEGISCTA000047215361",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -231,21 +351,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000029656884",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000029656884",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000029656872",
+            "sectionParentId": "LEGISCTA000045657010",
+            "sectionParentTitre": "Paragraphe 1 : Professionnels de sant\u00e9, v\u00e9t\u00e9rinaires et experts psychologues",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE II : ACTEURS DE LA S\u00c9CURIT\u00c9 CIVILE &gt; Chapitre III : Sapeurs-pompiers &gt; Section unique :  Sapeurs-pompiers volontaires &gt; Sous-section 4 : Cat\u00e9gories particuli\u00e8res de sapeurs-pompiers volontaires &gt; Paragraphe 1 : Professionnels de sant\u00e9, v\u00e9t\u00e9rinaires et experts psychologues",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000029656884",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000027517141",
-                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 72 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "72",
-                    "articleId": "LEGIARTI000027520024",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029648201",
@@ -272,13 +424,52 @@
                     "dateDebutCible": "2014-12-01"
                 }
             ],
-            "num": "R723-84",
-            "origine": "LEGI",
-            "texte": "D\u00e8s leur engagement, les sapeurs-pompiers volontaires, membres du service de sant\u00e9 et de secours m\u00e9dical, peuvent participer \u00e0 l'exercice de tout ou partie des missions du service de sant\u00e9 et de secours m\u00e9dical, et notamment aux activit\u00e9s op\u00e9rationnelles, conform\u00e9ment aux qualifications acquises et y compris dans l'attente de suivre les formations initiales de leur grade.",
-            "texteHtml": "<p><br/>D\u00e8s leur engagement, les sapeurs-pompiers volontaires, membres du service de sant\u00e9 et de secours m\u00e9dical, peuvent participer \u00e0 l'exercice de tout ou partie des missions du service de sant\u00e9 et de secours m\u00e9dical, et notamment aux activit\u00e9s op\u00e9rationnelles, conform\u00e9ment aux qualifications acquises et y compris dans l'attente de suivre les formations initiales de leur grade.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-12-01T00:00:00.000Z",
-            "dateFin": "2022-04-17T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000027517141",
+                    "textTitle": "D\u00e9cret n\u00b02013-412\n du 17 mai 2013 - art. 72 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "72",
+                    "articleId": "LEGIARTI000027520024",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029656884",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1417392000000,
+                    "dateFin": 1650153600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045656981",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1650153600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R723-84",
+                "723-84"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

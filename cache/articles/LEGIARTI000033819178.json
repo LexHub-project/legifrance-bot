@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033819178",
-    "num": "D342-19",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033819178",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le directeur du service de l'Office national des anciens combattants et victimes de guerre mentionn\u00e9 \u00e0 l'article R. 347-4 transmet au directeur g\u00e9n\u00e9ral de l'Office la demande accompagn\u00e9e d'une proposition d'attribution ou de refus du titre de d\u00e9port\u00e9 ou d'intern\u00e9 r\u00e9sistant.",
+            "texteHtml": "<p><br/>Le directeur du service de l'Office national des anciens combattants et victimes de guerre mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074068&idArticle=LEGIARTI000033819314&dateTexte=&categorieLien=cid' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. R347-4 (V)'>R. 347-4</a> transmet au directeur g\u00e9n\u00e9ral de l'Office la demande accompagn\u00e9e d'une proposition d'attribution ou de refus du titre de d\u00e9port\u00e9 ou d'intern\u00e9 r\u00e9sistant.</p>",
+            "num": "D342-19",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2113929215,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-07-01",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033818960",
                         "id": "LEGISCTA000033818960",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION RECONNAISSANCE DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000033818960",
+                        "id": "LEGISCTA000047770455",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -55,15 +79,6 @@
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -71,53 +86,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033819178",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033819178",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033819166",
+            "sectionParentId": "LEGISCTA000033819166",
+            "sectionParentTitre": "Section 3 : Proc\u00e9dure",
+            "fullSectionsTitre": "Partie r\u00e9glementaire (nouvelle)  &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre IV : AUTRES TITRES ET DROITS CORRESPONDANTS &gt; Chapitre II : D\u00e9port\u00e9s et intern\u00e9s r\u00e9sistants &gt; Section 3 : Proc\u00e9dure",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033819178",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D343-8 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D343-8",
-                    "articleId": "LEGIARTI000033819212",
-                    "natureText": "CODE",
-                    "date": 1599844991796,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R347-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R347-4",
-                    "articleId": "LEGIARTI000033819314",
-                    "natureText": "CODE",
-                    "date": 1599844991796,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R323 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R323",
-                    "articleId": "LEGIARTI000021635416",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033719487",
@@ -144,13 +199,70 @@
                     "dateDebutCible": "2016-12-30"
                 }
             ],
-            "num": "D342-19",
-            "origine": "LEGI",
-            "texte": "Le directeur du service de l'Office national des anciens combattants et victimes de guerre mentionn\u00e9 \u00e0 l'article R. 347-4 transmet au directeur g\u00e9n\u00e9ral de l'Office la demande accompagn\u00e9e d'une proposition d'attribution ou de refus du titre de d\u00e9port\u00e9 ou d'intern\u00e9 r\u00e9sistant.",
-            "texteHtml": "<p><br/>Le directeur du service de l'Office national des anciens combattants et victimes de guerre mentionn\u00e9 \u00e0 l'article <a href='/article/LEGIARTI000033819314' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. R347-4 (V)'>R. 347-4</a> transmet au directeur g\u00e9n\u00e9ral de l'Office la demande accompagn\u00e9e d'une proposition d'attribution ou de refus du titre de d\u00e9port\u00e9 ou d'intern\u00e9 r\u00e9sistant.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D343-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D343-8",
+                    "articleId": "LEGIARTI000033819212",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R347-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R347-4",
+                    "articleId": "LEGIARTI000033819314",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R323 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R323",
+                    "articleId": "LEGIARTI000021635416",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033819178",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D342-19",
+                "342-19"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

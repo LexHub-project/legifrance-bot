@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006738006",
-    "num": "D634-17",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006738006",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le service de la fraction de pension prend effet au 1er janvier qui suit la demande.",
+            "texteHtml": "<p>   Le service de la fraction de pension prend effet au 1er janvier qui suit la demande.</p><p></p><p></p>",
+            "num": "D634-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 665366400000,
+            "dateFin": 1693526400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -70,12 +85,12 @@
                     },
                     {
                         "debut": "1991-02-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-09-01",
                         "titre": "Section 5 : Retraite progressive",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006172258",
                         "id": "LEGISCTA000006172258",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -92,15 +107,57 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006738006",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "cid": "LEGIARTI000006738006",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006172258",
+            "sectionParentId": "LEGISCTA000006172258",
+            "sectionParentTitre": "Section 5 : Retraite progressive",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; Livre VI : Dispositions applicables aux travailleurs ind\u00e9pendants &gt; Titre III : Assurance invalidit\u00e9 et assurance vieillesse &gt; Chapitre 4 : Prestations",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006738006",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000507924",
-                    "textTitle": "D\u00e9cret 85-1354 1985-12-17",
+                    "textTitle": "D\u00e9cret n\u00b085-1354 du 17 d\u00e9cembre 1985",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -121,15 +178,47 @@
                     "datePubliTexte": "1991-01-01",
                     "dateSignaTexte": "1990-12-31",
                     "dateDebutCible": "1991-02-01"
+                },
+                {
+                    "textCid": "JORFTEXT000047956389",
+                    "textTitle": "D\u00e9cret n\u00b02023-753 du 10 ao\u00fbt 2023 - art. 3",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000047957678",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-08-11",
+                    "dateSignaTexte": "2023-08-10",
+                    "dateDebutCible": "2023-08-12"
                 }
             ],
-            "num": "D634-17",
-            "origine": "LEGI",
-            "texte": "Le service de la fraction de pension prend effet au 1er janvier qui suit la demande.",
-            "texteHtml": "<p>   Le service de la fraction de pension prend effet au 1er janvier qui suit la demande.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1991-02-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006738006",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 665366400000,
+                    "dateFin": 1693526400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D634-17",
+                "634-17"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

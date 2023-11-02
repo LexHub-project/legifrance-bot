@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000034423300",
-    "num": "R8124-21",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000034423329",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les agents du syst\u00e8me d'inspection du travail communiquent les documents administratifs aux usagers conform\u00e9ment aux articles L. 311-1 \u00e0 L. 311-14 du code des relations entre le public et l'administration.",
+            "texteHtml": "<p>Les agents du syst\u00e8me d'inspection du travail communiquent les documents administratifs aux usagers conform\u00e9ment aux articles L. 311-1 \u00e0 L. 311-14 du code des relations entre le public et l'administration.</p>",
+            "num": "R8124-21",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1492214400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -83,40 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000034423329",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000034423300",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000034423264",
+            "sectionParentId": "LEGISCTA000034423291",
+            "sectionParentTitre": "Sous-section 4 : Devoir d'information",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Huiti\u00e8me partie : Contr\u00f4le de l'application de la l\u00e9gislation du travail  &gt; Livre Ier : Inspection du travail  &gt; Titre II : Syst\u00e8me d'inspection du travail  &gt; Chapitre IV : De la d\u00e9ontologie des agents du syst\u00e8me d'inspection du travail &gt; Section 3 : Droits et devoirs envers chaque usager du service public de l'inspection du travail &gt; Sous-section 4 : Devoir d'information",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000034423329",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000031366350",
-                    "textTitle": "Code des relations entre le public et l'administration - art. L311-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L311-1",
-                    "articleId": "LEGIARTI000031367698",
-                    "natureText": "CODE",
-                    "date": 1599835840419,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1475971200000
-                },
-                {
-                    "textCid": "LEGITEXT000031366350",
-                    "textTitle": "Code des relations entre le public et l'administration - art. L311-14",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L311-14",
-                    "articleId": "LEGIARTI000031367731",
-                    "natureText": "CODE",
-                    "date": 1599835840419,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000034420489",
@@ -131,13 +159,60 @@
                     "dateDebutCible": "2017-04-15"
                 }
             ],
-            "num": "R8124-21",
-            "origine": "LEGI",
-            "texte": "Les agents du syst\u00e8me d'inspection du travail communiquent les documents administratifs aux usagers conform\u00e9ment aux articles L. 311-1 \u00e0 L. 311-14 du code des relations entre le public et l'administration.",
-            "texteHtml": "<p>Les agents du syst\u00e8me d'inspection du travail communiquent les documents administratifs aux usagers conform\u00e9ment aux articles L. 311-1 \u00e0 L. 311-14 du code des relations entre le public et l'administration.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-04-15T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000031366350",
+                    "textTitle": "Code des relations entre le public et l'administration - art. L311-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L311-1",
+                    "articleId": "LEGIARTI000031367698",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1475971200000
+                },
+                {
+                    "textCid": "LEGITEXT000031366350",
+                    "textTitle": "Code des relations entre le public et l'administration - art. L311-14",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L311-14",
+                    "articleId": "LEGIARTI000031367731",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000034423329",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1492214400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R8124-21",
+                "8124-21"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

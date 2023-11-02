@@ -1,145 +1,23 @@
 {
-    "cid": "LEGIARTI000020092029",
-    "num": "R4111-12",
+    "executionTime": 0,
     "listArticle": [
         {
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "2000-12-23",
-                        "fin": "2999-01-01",
-                        "titre": "Partie r\u00e9glementaire",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006112927",
-                        "id": "LEGISCTA000006112927",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2004-08-08",
-                        "fin": "2999-01-01",
-                        "titre": "Quatri\u00e8me partie : Professions de sant\u00e9",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006132386",
-                        "id": "LEGISCTA000006132386",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2004-08-08",
-                        "fin": "2999-01-01",
-                        "titre": "Livre Ier : Professions m\u00e9dicales",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006145486",
-                        "id": "LEGISCTA000006145486",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2004-08-08",
-                        "fin": "2999-01-01",
-                        "titre": "Titre Ier : Exercice des professions m\u00e9dicales",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006160992",
-                        "id": "LEGISCTA000006160992",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2004-08-08",
-                        "fin": "2999-01-01",
-                        "titre": "Chapitre Ier : Conditions g\u00e9n\u00e9rales d'exercice",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006178601",
-                        "id": "LEGISCTA000006178601",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2004-08-08",
-                        "fin": "2999-01-01",
-                        "titre": "Section 2 : Commission d'autorisation d'exercice.",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006190520",
-                        "id": "LEGISCTA000006190520",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2017-03-01",
-                        "fin": "2999-01-01",
-                        "titre": "Sous-section 1 : Commission comp\u00e9tente pour les demandes d'autorisation d'exercice des laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000034098535",
-                        "id": "LEGISCTA000034098535",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 1,
-                "longeurChemin": 53,
-                "titreTxt": [
-                    {
-                        "debut": "1953-10-07",
-                        "fin": "2999-01-01",
-                        "titre": "Code de la sant\u00e9 publique",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006072665",
-                        "id": "LEGITEXT000006072665",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "etat": "VIGUEUR",
             "id": "LEGIARTI000041981695",
-            "lienAutres": [],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4111-12-1",
-                    "articleId": "LEGIARTI000022152461",
-                    "natureText": "CODE",
-                    "date": 1610675436314,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1272672000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4111-2",
-                    "articleId": "LEGIARTI000006688647",
-                    "natureText": "CODE",
-                    "date": 1610675436315,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1484956800000
-                }
-            ],
-            "lienConcordes": [],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000041958915",
-                    "textTitle": "D\u00e9cret n\u00b02020-672 du 3 juin 2020 - art. 2",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000041960555",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2020-06-05",
-                    "dateSignaTexte": "2020-06-03",
-                    "dateDebutCible": "2020-06-06"
-                }
-            ],
-            "num": "R4111-12",
-            "origine": "LEGI",
+            "idTexte": null,
+            "type": "AUTONOME",
             "texte": "Le directeur g\u00e9n\u00e9ral du Centre national de gestion, au nom du ministre charg\u00e9 de la sant\u00e9, d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Cette demande est pr\u00e9sent\u00e9e \u00e0 l'issue du parcours de consolidation des comp\u00e9tences. Le silence gard\u00e9 par l'autorit\u00e9 comp\u00e9tente pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 comp\u00e9tente notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du directeur g\u00e9n\u00e9ral du Centre national de gestion est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
-            "texteHtml": "<p>Le directeur g\u00e9n\u00e9ral du Centre national de gestion, au nom du ministre charg\u00e9 de la sant\u00e9, d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de <a href='/article/LEGIARTI000006688647'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre.</p><p>Cette demande est pr\u00e9sent\u00e9e \u00e0 l'issue du parcours de consolidation des comp\u00e9tences.</p><p>Le silence gard\u00e9 par l'autorit\u00e9 comp\u00e9tente pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet.</p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 comp\u00e9tente notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat.</p><p>En cas de refus, la d\u00e9cision du directeur g\u00e9n\u00e9ral du Centre national de gestion est motiv\u00e9e.</p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2021-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
-        },
-        {
+            "texteHtml": "<p>Le directeur g\u00e9n\u00e9ral du Centre national de gestion, au nom du ministre charg\u00e9 de la sant\u00e9, d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006688647&dateTexte=&categorieLien=cid'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre.</p><p>Cette demande est pr\u00e9sent\u00e9e \u00e0 l'issue du parcours de consolidation des comp\u00e9tences.</p><p>Le silence gard\u00e9 par l'autorit\u00e9 comp\u00e9tente pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet.</p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 comp\u00e9tente notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat.</p><p>En cas de refus, la d\u00e9cision du directeur g\u00e9n\u00e9ral du Centre national de gestion est motiv\u00e9e.</p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
+            "num": "R4111-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "5.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1609459200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -220,40 +98,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000041962891",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000020092029",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000034098535",
+            "sectionParentId": "LEGISCTA000034098535",
+            "sectionParentTitre": "Sous-section 1 : Commission comp\u00e9tente pour les demandes d'autorisation d'exercice des laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre Ier : Professions m\u00e9dicales &gt; Titre Ier : Exercice des professions m\u00e9dicales &gt; Chapitre Ier : Conditions g\u00e9n\u00e9rales d'exercice &gt; Section 2 : Commission d'autorisation d'exercice. &gt; Sous-section 1 : Commission comp\u00e9tente pour les demandes d'autorisation d'exercice des laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000041981695",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4111-12-1",
-                    "articleId": "LEGIARTI000022152461",
-                    "natureText": "CODE",
-                    "date": 1610675436984,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1272672000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4111-2",
-                    "articleId": "LEGIARTI000006688647",
-                    "natureText": "CODE",
-                    "date": 1610675436984,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1484956800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Conform\u00e9ment au II de l'article 16 du d\u00e9cret n\u00b0 2020-672 du 3 juin 2020, l'article R. 4111-12, dans sa r\u00e9daction r\u00e9sultant du b du 4\u00b0 de l'article 2 dudit d\u00e9cret, s'applique aux laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances se d\u00e9roulant \u00e0 compter du 1er janvier 2021. Les laur\u00e9ats des \u00e9preuves organis\u00e9es avant le 1er janvier 2021 demeurent r\u00e9gis par les dispositions ant\u00e9rieures au d\u00e9cret. Toutefois, s'ils n'ont pas achev\u00e9 la p\u00e9riode d'exercice probatoire pr\u00e9vue par ces dispositions au 1er janvier 2022, les dispositions mentionn\u00e9es au pr\u00e9c\u00e9dent alin\u00e9a, \u00e0 l'exception de celles qui concernent la proc\u00e9dure d'affectation dans un poste en vue de l'accomplissement du parcours de consolidation des comp\u00e9tences, leur deviennent applicables \u00e0 cette date.",
+            "notaHtml": "<p>Conform\u00e9ment au II de l'article 16 du d\u00e9cret n\u00b0 2020-672 du 3 juin 2020, l'article R. 4111-12, dans sa r\u00e9daction r\u00e9sultant du b du 4\u00b0 de l'article 2 dudit d\u00e9cret, s'applique aux laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances se d\u00e9roulant \u00e0 compter du 1er janvier 2021.</p><p>Les laur\u00e9ats des \u00e9preuves organis\u00e9es avant le 1er janvier 2021 demeurent r\u00e9gis par les dispositions ant\u00e9rieures au d\u00e9cret. Toutefois, s'ils n'ont pas achev\u00e9 la p\u00e9riode d'exercice probatoire pr\u00e9vue par ces dispositions au 1er janvier 2022, les dispositions mentionn\u00e9es au pr\u00e9c\u00e9dent alin\u00e9a, \u00e0 l'exception de celles qui concernent la proc\u00e9dure d'affectation dans un poste en vue de l'accomplissement du parcours de consolidation des comp\u00e9tences, leur deviennent applicables \u00e0 cette date.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000041958915",
@@ -268,15 +159,123 @@
                     "dateDebutCible": "2020-06-06"
                 }
             ],
-            "num": "R4111-12",
-            "origine": "LEGI",
-            "texte": "Le directeur g\u00e9n\u00e9ral du Centre national de gestion, au nom du ministre charg\u00e9 de la sant\u00e9, d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 comp\u00e9tente pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 comp\u00e9tente notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du directeur g\u00e9n\u00e9ral du Centre national de gestion est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
-            "texteHtml": "<p>Le directeur g\u00e9n\u00e9ral du Centre national de gestion, au nom du ministre charg\u00e9 de la sant\u00e9, d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de <a href='/article/LEGIARTI000006688647'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre.</p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves.</p><p>Le silence gard\u00e9 par l'autorit\u00e9 comp\u00e9tente pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet.</p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 comp\u00e9tente notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat.</p><p>En cas de refus, la d\u00e9cision du directeur g\u00e9n\u00e9ral du Centre national de gestion est motiv\u00e9e.</p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2020-06-06T00:00:00.000Z",
-            "dateFin": "2021-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4111-12-1",
+                    "articleId": "LEGIARTI000022152461",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1272672000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4111-2",
+                    "articleId": "LEGIARTI000006688647",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484956800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020102938",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1231545600000,
+                    "dateFin": 1287187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022918673",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1287187200000,
+                    "dateFin": 1411603200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029502187",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1411603200000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034100433",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 1591401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041962891",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1591401600000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041981695",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4111-12",
+                "4111-12"
+            ],
+            "versionPrecedente": "LEGIARTI000041962891",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000041962891",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le directeur g\u00e9n\u00e9ral du Centre national de gestion, au nom du ministre charg\u00e9 de la sant\u00e9, d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 comp\u00e9tente pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 comp\u00e9tente notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du directeur g\u00e9n\u00e9ral du Centre national de gestion est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
+            "texteHtml": "<p>Le directeur g\u00e9n\u00e9ral du Centre national de gestion, au nom du ministre charg\u00e9 de la sant\u00e9, d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006688647&dateTexte=&categorieLien=cid'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre.</p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves.</p><p>Le silence gard\u00e9 par l'autorit\u00e9 comp\u00e9tente pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet.</p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 comp\u00e9tente notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat.</p><p>En cas de refus, la d\u00e9cision du directeur g\u00e9n\u00e9ral du Centre national de gestion est motiv\u00e9e.</p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p>",
+            "num": "R4111-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1591401600000,
+            "dateFin": 1609459200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -357,9 +356,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000034100433",
-            "lienAutres": [],
+            "cid": "LEGIARTI000020092029",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000034098535",
+            "sectionParentId": "LEGISCTA000034098535",
+            "sectionParentTitre": "Sous-section 1 : Commission comp\u00e9tente pour les demandes d'autorisation d'exercice des laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre Ier : Professions m\u00e9dicales &gt; Titre Ier : Exercice des professions m\u00e9dicales &gt; Chapitre Ier : Conditions g\u00e9n\u00e9rales d'exercice &gt; Section 2 : Commission d'autorisation d'exercice. &gt; Sous-section 1 : Commission comp\u00e9tente pour les demandes d'autorisation d'exercice des laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000041962891",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000041958915",
+                    "textTitle": "D\u00e9cret n\u00b02020-672 du 3 juin 2020 - art. 2",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000041960555",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2020-06-05",
+                    "dateSignaTexte": "2020-06-03",
+                    "dateDebutCible": "2020-06-06"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072665",
@@ -369,7 +426,6 @@
                     "articleNum": "D4111-12-1",
                     "articleId": "LEGIARTI000022152461",
                     "natureText": "CODE",
-                    "date": 1610675436259,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -383,7 +439,6 @@
                     "articleNum": "L4111-2",
                     "articleId": "LEGIARTI000006688647",
                     "natureText": "CODE",
-                    "date": 1610675436260,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -391,6 +446,221 @@
                 }
             ],
             "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020102938",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1231545600000,
+                    "dateFin": 1287187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022918673",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1287187200000,
+                    "dateFin": 1411603200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029502187",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1411603200000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034100433",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 1591401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041962891",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1591401600000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041981695",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4111-12",
+                "4111-12"
+            ],
+            "versionPrecedente": "LEGIARTI000034100433",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000034100433",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
+            "texteHtml": "<p>Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006688647&dateTexte=&categorieLien=cid'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. </p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. </p><p>Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. </p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. </p><p>En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. </p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
+            "num": "R4111-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1488326400000,
+            "dateFin": 1591401600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006112927",
+                        "id": "LEGISCTA000006112927",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-08-08",
+                        "fin": "2999-01-01",
+                        "titre": "Quatri\u00e8me partie : Professions de sant\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006132386",
+                        "id": "LEGISCTA000006132386",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-08-08",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Professions m\u00e9dicales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006145486",
+                        "id": "LEGISCTA000006145486",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-08-08",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Exercice des professions m\u00e9dicales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006160992",
+                        "id": "LEGISCTA000006160992",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-08-08",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Conditions g\u00e9n\u00e9rales d'exercice",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006178601",
+                        "id": "LEGISCTA000006178601",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-08-08",
+                        "fin": "2999-01-01",
+                        "titre": "Section 2 : Commission d'autorisation d'exercice.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190520",
+                        "id": "LEGISCTA000006190520",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2017-03-01",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 1 : Commission comp\u00e9tente pour les demandes d'autorisation d'exercice des laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000034098535",
+                        "id": "LEGISCTA000034098535",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 53,
+                "titreTxt": [
+                    {
+                        "debut": "1953-10-07",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la sant\u00e9 publique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006072665",
+                        "id": "LEGITEXT000006072665",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000020092029",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000034098535",
+            "sectionParentId": "LEGISCTA000034098535",
+            "sectionParentTitre": "Sous-section 1 : Commission comp\u00e9tente pour les demandes d'autorisation d'exercice des laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre Ier : Professions m\u00e9dicales &gt; Titre Ier : Exercice des professions m\u00e9dicales &gt; Chapitre Ier : Conditions g\u00e9n\u00e9rales d'exercice &gt; Section 2 : Commission d'autorisation d'exercice. &gt; Sous-section 1 : Commission comp\u00e9tente pour les demandes d'autorisation d'exercice des laur\u00e9ats des \u00e9preuves de v\u00e9rification des connaissances",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000034100433",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000034097078",
@@ -405,15 +675,123 @@
                     "dateDebutCible": "2017-03-01"
                 }
             ],
-            "num": "R4111-12",
-            "origine": "LEGI",
-            "texte": "Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
-            "texteHtml": "<p>Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de <a href='/article/LEGIARTI000006688647'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. </p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. </p><p>Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. </p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. </p><p>En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. </p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-03-01T00:00:00.000Z",
-            "dateFin": "2020-06-06T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4111-12-1",
+                    "articleId": "LEGIARTI000022152461",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1272672000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4111-2",
+                    "articleId": "LEGIARTI000006688647",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484956800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020102938",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1231545600000,
+                    "dateFin": 1287187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022918673",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1287187200000,
+                    "dateFin": 1411603200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029502187",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1411603200000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034100433",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 1591401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041962891",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1591401600000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041981695",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4111-12",
+                "4111-12"
+            ],
+            "versionPrecedente": "LEGIARTI000029502187",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000029502187",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
+            "texteHtml": "<p>Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006688647&dateTexte=&categorieLien=cid'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. </p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. </p><p>Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. </p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. </p><p>En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. </p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
+            "num": "R4111-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1411603200000,
+            "dateFin": 1488326400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1193046470,
             "context": {
                 "titresTM": [
                     {
@@ -485,40 +863,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000029502187",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000020092029",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190520",
+            "sectionParentId": "LEGISCTA000006190520",
+            "sectionParentTitre": "Section 2 : Commission d'autorisation d'exercice.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre Ier : Professions m\u00e9dicales &gt; Titre Ier : Exercice des professions m\u00e9dicales &gt; Chapitre Ier : Conditions g\u00e9n\u00e9rales d'exercice &gt; Section 2 : Commission d'autorisation d'exercice.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000029502187",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4111-12-1",
-                    "articleId": "LEGIARTI000022152461",
-                    "natureText": "CODE",
-                    "date": 1610675436639,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1272672000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4111-2",
-                    "articleId": "LEGIARTI000006688647",
-                    "natureText": "CODE",
-                    "date": 1610675436639,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1484956800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029493337",
@@ -533,15 +924,123 @@
                     "dateDebutCible": "2014-09-25"
                 }
             ],
-            "num": "R4111-12",
-            "origine": "LEGI",
-            "texte": "Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
-            "texteHtml": "<p>Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue au I de <a href='/article/LEGIARTI000006688647'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. </p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. </p><p>Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. </p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9 de deux mois, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. </p><p>En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. </p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-09-25T00:00:00.000Z",
-            "dateFin": "2017-03-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4111-12-1",
+                    "articleId": "LEGIARTI000022152461",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1272672000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4111-2",
+                    "articleId": "LEGIARTI000006688647",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484956800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020102938",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1231545600000,
+                    "dateFin": 1287187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022918673",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1287187200000,
+                    "dateFin": 1411603200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029502187",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1411603200000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034100433",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 1591401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041962891",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1591401600000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041981695",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4111-12",
+                "4111-12"
+            ],
+            "versionPrecedente": "LEGIARTI000022918673",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000022918673",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue aux I et I bis de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I et pendant six mois sur celles pr\u00e9sent\u00e9es en application du I bis de l'article L. 4111-2, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
+            "texteHtml": "<p>Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue aux I et I bis de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006688647&dateTexte=&categorieLien=cid'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. </p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves.  </p><p>Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I et pendant six mois sur celles pr\u00e9sent\u00e9es en application du I bis de l'article L. 4111-2, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. </p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. </p><p>En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e.</p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
+            "num": "R4111-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1287187200000,
+            "dateFin": 1411603200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1193046470,
             "context": {
                 "titresTM": [
                     {
@@ -613,40 +1112,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000022918673",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000020092029",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190520",
+            "sectionParentId": "LEGISCTA000006190520",
+            "sectionParentTitre": "Section 2 : Commission d'autorisation d'exercice.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre Ier : Professions m\u00e9dicales &gt; Titre Ier : Exercice des professions m\u00e9dicales &gt; Chapitre Ier : Conditions g\u00e9n\u00e9rales d'exercice &gt; Section 2 : Commission d'autorisation d'exercice.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000022918673",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4111-12-1",
-                    "articleId": "LEGIARTI000022152461",
-                    "natureText": "CODE",
-                    "date": 1610675436239,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1272672000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4111-2",
-                    "articleId": "LEGIARTI000006688647",
-                    "natureText": "CODE",
-                    "date": 1610675436239,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1484956800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000022917129",
@@ -661,15 +1173,123 @@
                     "dateDebutCible": "2010-10-16"
                 }
             ],
-            "num": "R4111-12",
-            "origine": "LEGI",
-            "texte": "Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue aux I et I bis de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I et pendant six mois sur celles pr\u00e9sent\u00e9es en application du I bis de l'article L. 4111-2, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
-            "texteHtml": "<p>Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue aux I et I bis de <a href='/article/LEGIARTI000006688647'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. </p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de fonctions pr\u00e9vue, selon leur profession, aux quatri\u00e8me, cinqui\u00e8me ou sixi\u00e8me alin\u00e9as du m\u00eame I, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves.  </p><p>Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I et pendant six mois sur celles pr\u00e9sent\u00e9es en application du I bis de l'article L. 4111-2, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. </p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. </p><p>En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e.</p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-10-16T00:00:00.000Z",
-            "dateFin": "2014-09-25T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4111-12-1",
+                    "articleId": "LEGIARTI000022152461",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1272672000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4111-2",
+                    "articleId": "LEGIARTI000006688647",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484956800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020102938",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1231545600000,
+                    "dateFin": 1287187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022918673",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1287187200000,
+                    "dateFin": 1411603200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029502187",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1411603200000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034100433",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 1591401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041962891",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1591401600000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041981695",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4111-12",
+                "4111-12"
+            ],
+            "versionPrecedente": "LEGIARTI000020102938",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000020102938",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue aux I et I bis de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de trois ans de fonctions accomplies dans un service ou organisme agr\u00e9\u00e9 pour la formation des internes, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I et pendant six mois sur celles pr\u00e9sent\u00e9es en application du I bis de l'article L. 4111-2, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
+            "texteHtml": "<p>Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue aux I et I bis de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006688647&dateTexte=&categorieLien=cid'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. </p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de trois ans de fonctions accomplies dans un service ou organisme agr\u00e9\u00e9 pour la formation des internes, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. </p><p>Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I et pendant six mois sur celles pr\u00e9sent\u00e9es en application du I bis de l'article L. 4111-2, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. </p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. </p><p>En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e.</p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
+            "num": "R4111-12",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1231545600000,
+            "dateFin": 1287187200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1193046470,
             "context": {
                 "titresTM": [
                     {
@@ -741,40 +1361,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000020102938",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000020092029",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190520",
+            "sectionParentId": "LEGISCTA000006190520",
+            "sectionParentTitre": "Section 2 : Commission d'autorisation d'exercice.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre Ier : Professions m\u00e9dicales &gt; Titre Ier : Exercice des professions m\u00e9dicales &gt; Chapitre Ier : Conditions g\u00e9n\u00e9rales d'exercice &gt; Section 2 : Commission d'autorisation d'exercice.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000020102938",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4111-12-1",
-                    "articleId": "LEGIARTI000022152461",
-                    "natureText": "CODE",
-                    "date": 1610675436277,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1272672000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4111-2",
-                    "articleId": "LEGIARTI000006688647",
-                    "natureText": "CODE",
-                    "date": 1610675436277,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1484956800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000020052810",
@@ -789,13 +1422,105 @@
                     "dateDebutCible": "2009-01-10"
                 }
             ],
-            "num": "R4111-12",
-            "origine": "LEGI",
-            "texte": "Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue aux I et I bis de l'article L. 4111-2 , au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de trois ans de fonctions accomplies dans un service ou organisme agr\u00e9\u00e9 pour la formation des internes, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I et pendant six mois sur celles pr\u00e9sent\u00e9es en application du I bis de l'article L. 4111-2, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. Ce d\u00e9lai peut \u00eatre prolong\u00e9, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e. L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.",
-            "texteHtml": "<p>Le ministre charg\u00e9 de la sant\u00e9 d\u00e9livre, apr\u00e8s avis de la commission, l'autorisation d'exercice pr\u00e9vue aux I et I bis de <a href='/article/LEGIARTI000006688647'>l'article L. 4111-2</a>, au vu d'une demande accompagn\u00e9e d'un dossier comportant les pi\u00e8ces pr\u00e9vues par arr\u00eat\u00e9 de ce ministre. </p><p>Les demandes pr\u00e9sent\u00e9es en application du I de l'article L. 4111-2 sont form\u00e9es par les laur\u00e9ats des \u00e9preuves soit \u00e0 l'issue de la p\u00e9riode de trois ans de fonctions accomplies dans un service ou organisme agr\u00e9\u00e9 pour la formation des internes, soit avant cette date lorsqu'ils sollicitent la prise en compte de fonctions exerc\u00e9es avant la r\u00e9ussite aux \u00e9preuves. </p><p>Le silence gard\u00e9 par l'autorit\u00e9 minist\u00e9rielle pendant un an sur les demandes pr\u00e9sent\u00e9es en application du I et pendant six mois sur celles pr\u00e9sent\u00e9es en application du I bis de l'article L. 4111-2, \u00e0 compter de la r\u00e9ception d'un dossier complet, vaut d\u00e9cision de rejet. </p><p>Ce d\u00e9lai peut \u00eatre prolong\u00e9, par d\u00e9cision de l'autorit\u00e9 minist\u00e9rielle notifi\u00e9e au plus tard un mois avant l'expiration de celui-ci, en cas de difficult\u00e9 s\u00e9rieuse portant sur l'appr\u00e9ciation de l'exp\u00e9rience professionnelle du candidat. </p><p>En cas de refus, la d\u00e9cision du ministre charg\u00e9 de la sant\u00e9 est motiv\u00e9e.</p><p>L'autorisation minist\u00e9rielle d'exercice est publi\u00e9e au Journal officiel de la R\u00e9publique fran\u00e7aise.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-01-10T00:00:00.000Z",
-            "dateFin": "2010-10-16T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D4111-12-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4111-12-1",
+                    "articleId": "LEGIARTI000022152461",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1272672000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4111-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4111-2",
+                    "articleId": "LEGIARTI000006688647",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1484956800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020102938",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1231545600000,
+                    "dateFin": 1287187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022918673",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1287187200000,
+                    "dateFin": 1411603200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000029502187",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1411603200000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034100433",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 1591401600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041962891",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1591401600000,
+                    "dateFin": 1609459200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041981695",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1609459200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4111-12",
+                "4111-12"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

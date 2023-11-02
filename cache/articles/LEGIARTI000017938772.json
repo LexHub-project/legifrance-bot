@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000017938772",
-    "num": "R563-19",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000017940675",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "A l'occasion de la fourniture des donn\u00e9es sollicit\u00e9es, des frais correspondant au co\u00fbt de reproduction et, le cas \u00e9ch\u00e9ant, de transmission de celles-ci peuvent \u00eatre mis \u00e0 la charge du demandeur. Pour le calcul de ces frais sont pris en compte les co\u00fbts d'amortissement du mat\u00e9riel utilis\u00e9 pour la reproduction ou la transmission des donn\u00e9es, les co\u00fbts de fonctionnement g\u00e9n\u00e9r\u00e9s pour la reproduction ou la mise \u00e0 disposition \u00e9lectronique des donn\u00e9es, ainsi que les co\u00fbts du support fourni au demandeur et le cas \u00e9ch\u00e9ant de l'affranchissement postal. La collectivit\u00e9 ou le groupement est avis\u00e9 du montant total des frais \u00e0 acquitter dont le paiement pr\u00e9alable peut \u00eatre exig\u00e9.",
+            "texteHtml": "<p>A l'occasion de la fourniture des donn\u00e9es sollicit\u00e9es, des frais correspondant au co\u00fbt de reproduction et, le cas \u00e9ch\u00e9ant, de transmission de celles-ci peuvent \u00eatre mis \u00e0 la charge du demandeur. </p><p>Pour le calcul de ces frais sont pris en compte les co\u00fbts d'amortissement du mat\u00e9riel utilis\u00e9 pour la reproduction ou la transmission des donn\u00e9es, les co\u00fbts de fonctionnement g\u00e9n\u00e9r\u00e9s pour la reproduction ou la mise \u00e0 disposition \u00e9lectronique des donn\u00e9es, ainsi que les co\u00fbts du support fourni au demandeur et le cas \u00e9ch\u00e9ant de l'affranchissement postal. </p><p>La collectivit\u00e9 ou le groupement est avis\u00e9 du montant total des frais \u00e0 acquitter dont le paiement pr\u00e9alable peut \u00eatre exig\u00e9. </p>",
+            "num": "R563-19",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1199491200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1431655764,
             "context": {
                 "titresTM": [
                     {
@@ -43,15 +58,24 @@
                     },
                     {
                         "debut": "2008-01-05",
-                        "fin": "2999-01-01",
+                        "fin": "2022-12-25",
                         "titre": "Section 5 : Communication de donn\u00e9es int\u00e9ressant la s\u00e9curit\u00e9 des personnes et des biens",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000017938794",
                         "id": "LEGISCTA000017940685",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-12-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 5 : Communication et captation de donn\u00e9es int\u00e9ressant la s\u00e9curit\u00e9 des personnes et des biens",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000017938794",
+                        "id": "LEGISCTA000046814082",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
@@ -65,40 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000017940675",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000017938772",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000017938794",
+            "sectionParentId": "LEGISCTA000046814082",
+            "sectionParentTitre": "Section 5 : Communication et captation de donn\u00e9es int\u00e9ressant la s\u00e9curit\u00e9 des personnes et des biens",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre VI : Pr\u00e9vention des risques naturels &gt; Chapitre III : Autres mesures de pr\u00e9vention &gt; Section 5 : Communication de donn\u00e9es int\u00e9ressant la s\u00e9curit\u00e9 des personnes et des biens",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000017940675",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R563-18 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R563-18",
-                    "articleId": "LEGIARTI000017940677",
-                    "natureText": "CODE",
-                    "date": 1599862393641,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1199491200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R563-20 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R563-20",
-                    "articleId": "LEGIARTI000017940672",
-                    "natureText": "CODE",
-                    "date": 1599862393641,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1199491200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000017786292",
@@ -113,13 +150,60 @@
                     "dateDebutCible": "2008-01-05"
                 }
             ],
-            "num": "R563-19",
-            "origine": "LEGI",
-            "texte": "A l'occasion de la fourniture des donn\u00e9es sollicit\u00e9es, des frais correspondant au co\u00fbt de reproduction et, le cas \u00e9ch\u00e9ant, de transmission de celles-ci peuvent \u00eatre mis \u00e0 la charge du demandeur. Pour le calcul de ces frais sont pris en compte les co\u00fbts d'amortissement du mat\u00e9riel utilis\u00e9 pour la reproduction ou la transmission des donn\u00e9es, les co\u00fbts de fonctionnement g\u00e9n\u00e9r\u00e9s pour la reproduction ou la mise \u00e0 disposition \u00e9lectronique des donn\u00e9es, ainsi que les co\u00fbts du support fourni au demandeur et le cas \u00e9ch\u00e9ant de l'affranchissement postal. La collectivit\u00e9 ou le groupement est avis\u00e9 du montant total des frais \u00e0 acquitter dont le paiement pr\u00e9alable peut \u00eatre exig\u00e9.",
-            "texteHtml": "<p>A l'occasion de la fourniture des donn\u00e9es sollicit\u00e9es, des frais correspondant au co\u00fbt de reproduction et, le cas \u00e9ch\u00e9ant, de transmission de celles-ci peuvent \u00eatre mis \u00e0 la charge du demandeur. </p><p>Pour le calcul de ces frais sont pris en compte les co\u00fbts d'amortissement du mat\u00e9riel utilis\u00e9 pour la reproduction ou la transmission des donn\u00e9es, les co\u00fbts de fonctionnement g\u00e9n\u00e9r\u00e9s pour la reproduction ou la mise \u00e0 disposition \u00e9lectronique des donn\u00e9es, ainsi que les co\u00fbts du support fourni au demandeur et le cas \u00e9ch\u00e9ant de l'affranchissement postal. </p><p>La collectivit\u00e9 ou le groupement est avis\u00e9 du montant total des frais \u00e0 acquitter dont le paiement pr\u00e9alable peut \u00eatre exig\u00e9. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-01-05T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R563-18 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R563-18",
+                    "articleId": "LEGIARTI000017940677",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1199491200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R563-20 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R563-20",
+                    "articleId": "LEGIARTI000017940672",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1199491200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000017940675",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1199491200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R563-19",
+                "563-19"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

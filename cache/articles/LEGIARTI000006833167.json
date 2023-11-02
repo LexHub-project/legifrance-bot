@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006833167",
-    "num": "L215-11",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006833167",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les propri\u00e9taires ou fermiers de moulins et usines, m\u00eame autoris\u00e9s ou ayant une existence l\u00e9gale, sont garants des dommages caus\u00e9s aux chemins et aux propri\u00e9t\u00e9s.",
+            "texteHtml": "<p></p>   Les propri\u00e9taires ou fermiers de moulins et usines, m\u00eame autoris\u00e9s ou ayant une existence l\u00e9gale, sont garants des dommages caus\u00e9s aux chemins et aux propri\u00e9t\u00e9s.<p></p><p></p>",
+            "num": "L215-11",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 969494400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -74,30 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006833167",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006833167",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176467",
+            "sectionParentId": "LEGISCTA000006176467",
+            "sectionParentTitre": "Section 2 : Police et conservation des eaux",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Milieux physiques &gt; Titre Ier : Eau et milieux aquatiques &gt; Chapitre V : Dispositions propres aux cours d'eau non domaniaux &gt; Section 2 : Police et conservation des eaux",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006833167",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006071366",
-                    "textTitle": "Code rural ancien - art. 110 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "110",
-                    "articleId": "LEGIARTI000006579462",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006071366",
-                    "textTitle": "Code rural ancien - art. 110 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "110",
-                    "articleId": "LEGIARTI000006579462",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -124,13 +162,52 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L215-11",
-            "origine": "LEGI",
-            "texte": "Les propri\u00e9taires ou fermiers de moulins et usines, m\u00eame autoris\u00e9s ou ayant une existence l\u00e9gale, sont garants des dommages caus\u00e9s aux chemins et aux propri\u00e9t\u00e9s.",
-            "texteHtml": "<p></p>   Les propri\u00e9taires ou fermiers de moulins et usines, m\u00eame autoris\u00e9s ou ayant une existence l\u00e9gale, sont garants des dommages caus\u00e9s aux chemins et aux propri\u00e9t\u00e9s.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-09-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006071366",
+                    "textTitle": "Code rural ancien - art. 110 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "110",
+                    "articleId": "LEGIARTI000006579462",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006071366",
+                    "textTitle": "Code rural ancien - art. 110 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "110",
+                    "articleId": "LEGIARTI000006579462",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833167",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L215-11",
+                "215-11"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

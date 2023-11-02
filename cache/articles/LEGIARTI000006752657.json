@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006752657",
-    "num": "R761-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006752657",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans tous les autres cas, les prestations d'assurances sociales sont servies aux travailleurs d\u00e9tach\u00e9s dans les m\u00eames conditions que s'ils r\u00e9sidaient en France.",
+            "texteHtml": "<p></p>      Dans tous les autres cas, les prestations d'assurances sociales sont servies aux travailleurs d\u00e9tach\u00e9s dans les m\u00eames conditions que s'ils r\u00e9sidaient en France. <p></p><p></p>",
+            "num": "R761-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 503971200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -74,30 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006752657",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006752657",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006173605",
+            "sectionParentId": "LEGISCTA000006173605",
+            "sectionParentTitre": "Section 1 : Dispositions g\u00e9n\u00e9rales.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre VII : R\u00e9gimes divers - Dispositions diverses &gt; Titre 6 : Fran\u00e7ais r\u00e9sidant \u00e0 l'\u00e9tranger - Travailleurs migrants &gt; Chapitre 1er : Travailleurs salari\u00e9s d\u00e9tach\u00e9s \u00e0 l'\u00e9tranger &gt; Section 1 : Dispositions g\u00e9n\u00e9rales.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006752657",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000519073",
-                    "textTitle": "D\u00e9cret n\u00b077-1367 du 12 d\u00e9cembre 1977 - art. 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000006763011",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000519073",
-                    "textTitle": "D\u00e9cret n\u00b077-1367 du 12 d\u00e9cembre 1977 - art. 5 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000006763011",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000866621",
@@ -124,13 +162,52 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "R761-5",
-            "origine": "LEGI",
-            "texte": "Dans tous les autres cas, les prestations d'assurances sociales sont servies aux travailleurs d\u00e9tach\u00e9s dans les m\u00eames conditions que s'ils r\u00e9sidaient en France.",
-            "texteHtml": "<p></p>      Dans tous les autres cas, les prestations d'assurances sociales sont servies aux travailleurs d\u00e9tach\u00e9s dans les m\u00eames conditions que s'ils r\u00e9sidaient en France. <p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1985-12-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000519073",
+                    "textTitle": "D\u00e9cret n\u00b077-1367 du 12 d\u00e9cembre 1977 - art. 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000006763011",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000519073",
+                    "textTitle": "D\u00e9cret n\u00b077-1367 du 12 d\u00e9cembre 1977 - art. 5 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000006763011",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006752657",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 503971200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R761-5",
+                "761-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

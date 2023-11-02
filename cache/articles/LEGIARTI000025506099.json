@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000025506099",
-    "num": "L522-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025506099",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les gardes champ\u00eatres sont nomm\u00e9s par le maire, agr\u00e9\u00e9s par le procureur de la R\u00e9publique et asserment\u00e9s.",
+            "texteHtml": "<p><br/>Les gardes champ\u00eatres sont nomm\u00e9s par le maire, agr\u00e9\u00e9s par le procureur de la R\u00e9publique et asserment\u00e9s.</p>",
+            "num": "L522-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1335830400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -56,45 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025506099",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025506099",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025506097",
+            "sectionParentId": "LEGISCTA000025507690",
+            "sectionParentTitre": "Chapitre II : Nomination, agr\u00e9ment et modalit\u00e9s d'exercice",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE V : POLICES MUNICIPALES &gt; TITRE II : GARDES CHAMP\u00caTRES &gt; Chapitre II : Nomination, agr\u00e9ment et modalit\u00e9s d'exercice",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025506099",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L545-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L545-1",
-                    "articleId": "LEGIARTI000032656425",
-                    "natureText": "CODE",
-                    "date": 1599874249214,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1465084800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006070162",
-                    "textTitle": "CODE DES COMMUNES. - art. L412-46 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L412-46",
-                    "articleId": "LEGIARTI000006347157",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006070162",
-                    "textTitle": "CODE DES COMMUNES. - art. L412-48 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L412-48",
-                    "articleId": "LEGIARTI000006346925",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025498645",
@@ -121,13 +144,66 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L522-1",
-            "origine": "LEGI",
-            "texte": "Les gardes champ\u00eatres sont nomm\u00e9s par le maire, agr\u00e9\u00e9s par le procureur de la R\u00e9publique et asserment\u00e9s.",
-            "texteHtml": "<p><br/>Les gardes champ\u00eatres sont nomm\u00e9s par le maire, agr\u00e9\u00e9s par le procureur de la R\u00e9publique et asserment\u00e9s.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-05-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L545-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L545-1",
+                    "articleId": "LEGIARTI000032656425",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1465084800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006070162",
+                    "textTitle": "CODE DES COMMUNES. - art. L412-46 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L412-46",
+                    "articleId": "LEGIARTI000006347157",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006070162",
+                    "textTitle": "CODE DES COMMUNES. - art. L412-48 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L412-48",
+                    "articleId": "LEGIARTI000006346925",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025506099",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L522-1",
+                "522-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

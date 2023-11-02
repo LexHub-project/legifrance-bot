@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006834596",
-    "num": "L564-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006834596",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'organisation de la surveillance, de la pr\u00e9vision et de la transmission de l'information sur les crues est assur\u00e9e par l'Etat.",
+            "texteHtml": "<p></p>   L'organisation de la surveillance, de la pr\u00e9vision et de la transmission de l'information sur les crues est assur\u00e9e par l'Etat.<p></p><p></p>",
+            "num": "L564-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1059609600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -56,26 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006834596",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006834596",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159298",
+            "sectionParentId": "LEGISCTA000006159298",
+            "sectionParentTitre": "Chapitre IV : Pr\u00e9vision des crues",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre VI : Pr\u00e9vention des risques naturels &gt; Chapitre IV : Pr\u00e9vision des crues",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006834596",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R563-16 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R563-16",
-                    "articleId": "LEGIARTI000017940681",
-                    "natureText": "CODE",
-                    "date": 1599825890203,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1199491200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -114,13 +156,60 @@
                     "dateDebutCible": "2003-07-31"
                 }
             ],
-            "num": "L564-1",
-            "origine": "LEGI",
-            "texte": "L'organisation de la surveillance, de la pr\u00e9vision et de la transmission de l'information sur les crues est assur\u00e9e par l'Etat.",
-            "texteHtml": "<p></p>   L'organisation de la surveillance, de la pr\u00e9vision et de la transmission de l'information sur les crues est assur\u00e9e par l'Etat.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2003-07-31T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000047464985",
+                    "textTitle": "D\u00e9cret n\u00b02023-284 du 18 avril 2023 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000047465843",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2023-284",
+                    "datePubli": 1681948800000,
+                    "dateDebut": 1682035200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R563-16 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R563-16",
+                    "articleId": "LEGIARTI000017940681",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1199491200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006834596",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1059609600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L564-1",
+                "564-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

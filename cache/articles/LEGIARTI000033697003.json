@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033697003",
-    "num": "R131-30-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000041463261",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le directeur g\u00e9n\u00e9ral de l'\u00e9tablissement est nomm\u00e9 pour une p\u00e9riode de quatre ans renouvelable une fois.",
+            "texteHtml": "<p>Le directeur g\u00e9n\u00e9ral de l'\u00e9tablissement est nomm\u00e9 pour une p\u00e9riode de quatre ans renouvelable une fois.</p>",
+            "num": "R131-30-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1577836800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1921432735,
             "context": {
                 "titresTM": [
                     {
@@ -101,26 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000041463261",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033697003",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033696965",
+            "sectionParentId": "LEGISCTA000041463316",
+            "sectionParentTitre": "Sous-section 1 : Administration de l'office",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Dispositions communes &gt; Titre III : Institutions &gt; Chapitre Ier : Institutions intervenant dans le domaine de la protection de l'environnement &gt; Section 2 : Office fran\u00e7ais de la biodiversit\u00e9 &gt; Sous-section 1 : Administration de l'office",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000041463261",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L131-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L131-1",
-                    "articleId": "LEGIARTI000006832940",
-                    "natureText": "CODE",
-                    "date": 1599851438033,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000039726400",
@@ -135,15 +177,74 @@
                     "dateDebutCible": "2020-01-02"
                 }
             ],
-            "num": "R131-30-1",
-            "origine": "LEGI",
-            "texte": "Le directeur g\u00e9n\u00e9ral de l'\u00e9tablissement est nomm\u00e9 pour une p\u00e9riode de quatre ans renouvelable une fois.",
-            "texteHtml": "<p>Le directeur g\u00e9n\u00e9ral de l'\u00e9tablissement est nomm\u00e9 pour une p\u00e9riode de quatre ans renouvelable une fois.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2020-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L131-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L131-1",
+                    "articleId": "LEGIARTI000006832940",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033701515",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041463261",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R131-30-1",
+                "131-30-1"
+            ],
+            "versionPrecedente": "LEGIARTI000033701515",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000033701515",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le directeur g\u00e9n\u00e9ral exerce notamment les comp\u00e9tences suivantes : 1\u00b0 Il assure le fonctionnement et l'organisation de l'ensemble des services ainsi que la gestion du personnel. A ce titre, il a autorit\u00e9 sur l'ensemble des personnels, d\u00e9finit leurs attributions et nomme \u00e0 toutes les fonctions pour lesquelles aucune autre autorit\u00e9 n'a re\u00e7u pouvoir de nomination ; 2\u00b0 Il repr\u00e9sente l'\u00e9tablissement en justice et dans tous les actes de la vie civile, dans ses rapports avec les tiers et dans les relations internationales ; 3\u00b0 Il propose l'ordre du jour et pr\u00e9pare les d\u00e9lib\u00e9rations du conseil d'administration et des comit\u00e9s d'orientation et en assure l'ex\u00e9cution ; 4\u00b0 Il signe les contrats, conventions et march\u00e9s ; 5\u00b0 Il pr\u00e9pare et ex\u00e9cute le budget de l'\u00e9tablissement ; 6\u00b0 Il est ordonnateur principal des d\u00e9penses et des recettes. Il peut d\u00e9signer des ordonnateurs secondaires ; 7\u00b0 Il met en \u0153uvre la politique sociale de l'\u00e9tablissement, garantit le respect des r\u00e8gles en mati\u00e8re d'hygi\u00e8ne et de conditions de travail, ainsi que d'\u00e9galit\u00e9 professionnelle. Le directeur g\u00e9n\u00e9ral peut d\u00e9l\u00e9guer sa signature aux personnels de l'\u00e9tablissement dans des limites qu'il d\u00e9termine. Il peut d\u00e9l\u00e9guer une partie de ses pouvoirs au directeur g\u00e9n\u00e9ral adjoint ou aux directeurs g\u00e9n\u00e9raux adjoints et \u00e0 des agents de l'\u00e9tablissement d\u00e9sign\u00e9s pour exercer des fonctions de responsabilit\u00e9 administrative dans l'\u00e9tablissement. Le ou les directeurs g\u00e9n\u00e9raux adjoints et ces agents peuvent d\u00e9l\u00e9guer leur signature. Il peut d\u00e9l\u00e9guer sa signature \u00e0 des personnels des \u00e9tablissements d\u00e9sign\u00e9s pour les affaires int\u00e9ressant les services et moyens mis en commun pr\u00e9vus \u00e0 l'article L. 131-1 dans des limites qu'il d\u00e9termine. Il rend compte de sa gestion au conseil d'administration.",
+            "texteHtml": "<p></p><p>Le directeur g\u00e9n\u00e9ral exerce notamment les comp\u00e9tences suivantes :</p><p>1\u00b0 Il assure le fonctionnement et l'organisation de l'ensemble des services ainsi que la gestion du personnel. A ce titre, il a autorit\u00e9 sur l'ensemble des personnels, d\u00e9finit leurs attributions et nomme \u00e0 toutes les fonctions pour lesquelles aucune autre autorit\u00e9 n'a re\u00e7u pouvoir de nomination ;</p><p>2\u00b0 Il repr\u00e9sente l'\u00e9tablissement en justice et dans tous les actes de la vie civile, dans ses rapports avec les tiers et dans les relations internationales ;</p><p>3\u00b0 Il propose l'ordre du jour et pr\u00e9pare les d\u00e9lib\u00e9rations du conseil d'administration et des comit\u00e9s d'orientation et en assure l'ex\u00e9cution ;</p><p>4\u00b0 Il signe les contrats, conventions et march\u00e9s ;</p><p>5\u00b0 Il pr\u00e9pare et ex\u00e9cute le budget de l'\u00e9tablissement ;</p><p>6\u00b0 Il est ordonnateur principal des d\u00e9penses et des recettes. Il peut d\u00e9signer des ordonnateurs secondaires ;</p><p>7\u00b0 Il met en \u0153uvre la politique sociale de l'\u00e9tablissement, garantit le respect des r\u00e8gles en mati\u00e8re d'hygi\u00e8ne et de conditions de travail, ainsi que d'\u00e9galit\u00e9 professionnelle.</p><p>Le directeur g\u00e9n\u00e9ral peut d\u00e9l\u00e9guer sa signature aux personnels de l'\u00e9tablissement dans des limites qu'il d\u00e9termine.</p><p>Il peut d\u00e9l\u00e9guer une partie de ses pouvoirs au directeur g\u00e9n\u00e9ral adjoint ou aux directeurs g\u00e9n\u00e9raux adjoints et \u00e0 des agents de l'\u00e9tablissement d\u00e9sign\u00e9s pour exercer des fonctions de responsabilit\u00e9 administrative dans l'\u00e9tablissement. Le ou les directeurs g\u00e9n\u00e9raux adjoints et ces agents peuvent d\u00e9l\u00e9guer leur signature.</p><p>Il peut d\u00e9l\u00e9guer sa signature \u00e0 des personnels des \u00e9tablissements d\u00e9sign\u00e9s pour les affaires int\u00e9ressant les services et moyens mis en commun pr\u00e9vus \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006832940&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. L131-1 (V)'>L. 131-1</a> dans des limites qu'il d\u00e9termine.</p><p>Il rend compte de sa gestion au conseil d'administration.</p><p></p>",
+            "num": "R131-30-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1483228800000,
+            "dateFin": 1577836800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1921432735,
             "context": {
                 "titresTM": [
                     {
@@ -242,26 +343,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000033701515",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033697003",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033696969",
+            "sectionParentId": "LEGISCTA000041463254",
+            "sectionParentTitre": "Sous-section 2 : Agences r\u00e9gionales de la biodiversit\u00e9",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Dispositions communes &gt; Titre III : Institutions &gt; Chapitre Ier : Institutions intervenant dans le domaine de la protection de l'environnement &gt; Section 2 : Office fran\u00e7ais de la biodiversit\u00e9 &gt; Sous-section 2 : Agences r\u00e9gionales de la biodiversit\u00e9",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033701515",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L131-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L131-1",
-                    "articleId": "LEGIARTI000006832940",
-                    "natureText": "CODE",
-                    "date": 1599128138596,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033691496",
@@ -276,13 +404,56 @@
                     "dateDebutCible": "2017-01-01"
                 }
             ],
-            "num": "R131-30-1",
-            "origine": "LEGI",
-            "texte": "Le directeur g\u00e9n\u00e9ral exerce notamment les comp\u00e9tences suivantes : 1\u00b0 Il assure le fonctionnement et l'organisation de l'ensemble des services ainsi que la gestion du personnel. A ce titre, il a autorit\u00e9 sur l'ensemble des personnels, d\u00e9finit leurs attributions et nomme \u00e0 toutes les fonctions pour lesquelles aucune autre autorit\u00e9 n'a re\u00e7u pouvoir de nomination ; 2\u00b0 Il repr\u00e9sente l'\u00e9tablissement en justice et dans tous les actes de la vie civile, dans ses rapports avec les tiers et dans les relations internationales ; 3\u00b0 Il propose l'ordre du jour et pr\u00e9pare les d\u00e9lib\u00e9rations du conseil d'administration et des comit\u00e9s d'orientation et en assure l'ex\u00e9cution ; 4\u00b0 Il signe les contrats, conventions et march\u00e9s ; 5\u00b0 Il pr\u00e9pare et ex\u00e9cute le budget de l'\u00e9tablissement ; 6\u00b0 Il est ordonnateur principal des d\u00e9penses et des recettes. Il peut d\u00e9signer des ordonnateurs secondaires ; 7\u00b0 Il met en \u0153uvre la politique sociale de l'\u00e9tablissement, garantit le respect des r\u00e8gles en mati\u00e8re d'hygi\u00e8ne et de conditions de travail, ainsi que d'\u00e9galit\u00e9 professionnelle. Le directeur g\u00e9n\u00e9ral peut d\u00e9l\u00e9guer sa signature aux personnels de l'\u00e9tablissement dans des limites qu'il d\u00e9termine. Il peut d\u00e9l\u00e9guer une partie de ses pouvoirs au directeur g\u00e9n\u00e9ral adjoint ou aux directeurs g\u00e9n\u00e9raux adjoints et \u00e0 des agents de l'\u00e9tablissement d\u00e9sign\u00e9s pour exercer des fonctions de responsabilit\u00e9 administrative dans l'\u00e9tablissement. Le ou les directeurs g\u00e9n\u00e9raux adjoints et ces agents peuvent d\u00e9l\u00e9guer leur signature. Il peut d\u00e9l\u00e9guer sa signature \u00e0 des personnels des \u00e9tablissements d\u00e9sign\u00e9s pour les affaires int\u00e9ressant les services et moyens mis en commun pr\u00e9vus \u00e0 l'article L. 131-1 dans des limites qu'il d\u00e9termine. Il rend compte de sa gestion au conseil d'administration.",
-            "texteHtml": "<p></p><p>Le directeur g\u00e9n\u00e9ral exerce notamment les comp\u00e9tences suivantes :</p><p>1\u00b0 Il assure le fonctionnement et l'organisation de l'ensemble des services ainsi que la gestion du personnel. A ce titre, il a autorit\u00e9 sur l'ensemble des personnels, d\u00e9finit leurs attributions et nomme \u00e0 toutes les fonctions pour lesquelles aucune autre autorit\u00e9 n'a re\u00e7u pouvoir de nomination ;</p><p>2\u00b0 Il repr\u00e9sente l'\u00e9tablissement en justice et dans tous les actes de la vie civile, dans ses rapports avec les tiers et dans les relations internationales ;</p><p>3\u00b0 Il propose l'ordre du jour et pr\u00e9pare les d\u00e9lib\u00e9rations du conseil d'administration et des comit\u00e9s d'orientation et en assure l'ex\u00e9cution ;</p><p>4\u00b0 Il signe les contrats, conventions et march\u00e9s ;</p><p>5\u00b0 Il pr\u00e9pare et ex\u00e9cute le budget de l'\u00e9tablissement ;</p><p>6\u00b0 Il est ordonnateur principal des d\u00e9penses et des recettes. Il peut d\u00e9signer des ordonnateurs secondaires ;</p><p>7\u00b0 Il met en \u0153uvre la politique sociale de l'\u00e9tablissement, garantit le respect des r\u00e8gles en mati\u00e8re d'hygi\u00e8ne et de conditions de travail, ainsi que d'\u00e9galit\u00e9 professionnelle.</p><p>Le directeur g\u00e9n\u00e9ral peut d\u00e9l\u00e9guer sa signature aux personnels de l'\u00e9tablissement dans des limites qu'il d\u00e9termine.</p><p>Il peut d\u00e9l\u00e9guer une partie de ses pouvoirs au directeur g\u00e9n\u00e9ral adjoint ou aux directeurs g\u00e9n\u00e9raux adjoints et \u00e0 des agents de l'\u00e9tablissement d\u00e9sign\u00e9s pour exercer des fonctions de responsabilit\u00e9 administrative dans l'\u00e9tablissement. Le ou les directeurs g\u00e9n\u00e9raux adjoints et ces agents peuvent d\u00e9l\u00e9guer leur signature.</p><p>Il peut d\u00e9l\u00e9guer sa signature \u00e0 des personnels des \u00e9tablissements d\u00e9sign\u00e9s pour les affaires int\u00e9ressant les services et moyens mis en commun pr\u00e9vus \u00e0 l'article <a href='/article/LEGIARTI000006832940' title='Code de l'environnement - art. L131-1 (V)'>L. 131-1</a> dans des limites qu'il d\u00e9termine.</p><p>Il rend compte de sa gestion au conseil d'administration.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2020-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L131-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L131-1",
+                    "articleId": "LEGIARTI000006832940",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033701515",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041463261",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R131-30-1",
+                "131-30-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

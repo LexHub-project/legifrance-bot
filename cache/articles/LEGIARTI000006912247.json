@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006912247",
-    "num": "D3411-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006912248",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les centres s'assurent les services d'une \u00e9quipe pluridisciplinaire dont la composition et le fonctionnement sont conformes aux objectifs du projet d'\u00e9tablissement et permettent sa mise en oeuvre.",
+            "texteHtml": "<p></p>   Les centres s'assurent les services d'une \u00e9quipe pluridisciplinaire dont la composition et le fonctionnement sont conformes aux objectifs du projet d'\u00e9tablissement et permettent sa mise en oeuvre.<p></p><p></p>",
+            "num": "D3411-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1179187200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 858993456,
             "context": {
                 "titresTM": [
                     {
@@ -74,30 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006912248",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006912247",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190499",
+            "sectionParentId": "LEGISCTA000006190499",
+            "sectionParentTitre": "Section 1 : Centres de soins d'accompagnement\r\net de pr\u00e9vention en addictologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Troisi\u00e8me partie : Lutte contre les maladies et d\u00e9pendances &gt; Livre IV : Lutte contre la toxicomanie &gt; Titre Ier : Organisation de la prise en charge sanitaire des toxicomanes &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 1 : Centres de soins d'accompagnement\r\net de pr\u00e9vention en addictologie",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006912248",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000784833",
-                    "textTitle": "D\u00e9cret n\u00b02003-160 du 26 f\u00e9vrier 2003 - art. 4, v. init.",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "4",
-                    "articleId": "JORFARTI000001854955",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000784833",
-                    "textTitle": "D\u00e9cret n\u00b02003-160 du 26 f\u00e9vrier 2003 - art. 4 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "4",
-                    "articleId": "LEGIARTI000006217423",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000412528",
@@ -124,15 +162,79 @@
                     "dateDebutCible": "2007-05-15"
                 }
             ],
-            "num": "D3411-4",
-            "origine": "LEGI",
-            "texte": "Les centres s'assurent les services d'une \u00e9quipe pluridisciplinaire dont la composition et le fonctionnement sont conformes aux objectifs du projet d'\u00e9tablissement et permettent sa mise en oeuvre.",
-            "texteHtml": "<p></p>   Les centres s'assurent les services d'une \u00e9quipe pluridisciplinaire dont la composition et le fonctionnement sont conformes aux objectifs du projet d'\u00e9tablissement et permettent sa mise en oeuvre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-05-15T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000784833",
+                    "textTitle": "D\u00e9cret n\u00b02003-160 du 26 f\u00e9vrier 2003 - art. 4, v. init.",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "4",
+                    "articleId": "JORFARTI000001854955",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000784833",
+                    "textTitle": "D\u00e9cret n\u00b02003-160 du 26 f\u00e9vrier 2003 - art. 4 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000006217423",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006912247",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1053993600000,
+                    "dateFin": 1179187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006912248",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1179187200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D3411-4",
+                "3411-4"
+            ],
+            "versionPrecedente": "LEGIARTI000006912247",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006912247",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Peuvent \u00eatre rattach\u00e9es au centre une ou plusieurs sections, qui correspondent \u00e0 des modes de prise en charge sp\u00e9cifiques comportant notamment : 1\u00b0 Des permanences d'accueil et d'orientation situ\u00e9es \u00e0 l'ext\u00e9rieur des centres ; 2\u00b0 Des appartements th\u00e9rapeutiques ; 3\u00b0 Des r\u00e9seaux de familles d'accueil ; 4\u00b0 Des structures d'h\u00e9bergement, individuel ou collectif, de transition ou d'urgence ; 5\u00b0 Des ateliers d'insertion. Les conditions d'organisation et de fonctionnement des sections d'appartements th\u00e9rapeutiques et de r\u00e9seaux de familles d'accueil sont d\u00e9finies par arr\u00eat\u00e9 des ministres charg\u00e9s des affaires sociales, de la sant\u00e9 et de la s\u00e9curit\u00e9 sociale.",
+            "texteHtml": "<p></p>   Peuvent \u00eatre rattach\u00e9es au centre une ou plusieurs sections, qui correspondent \u00e0 des modes de prise en charge sp\u00e9cifiques comportant notamment :<p></p><p></p>   1\u00b0 Des permanences d'accueil et d'orientation situ\u00e9es \u00e0 l'ext\u00e9rieur des centres ;<p></p><p></p>   2\u00b0 Des appartements th\u00e9rapeutiques ;<p></p><p></p>   3\u00b0 Des r\u00e9seaux de familles d'accueil ;<p></p><p></p>   4\u00b0 Des structures d'h\u00e9bergement, individuel ou collectif, de transition ou d'urgence ;<p></p><p></p>   5\u00b0 Des ateliers d'insertion.<p></p><p></p>   Les conditions d'organisation et de fonctionnement des sections d'appartements th\u00e9rapeutiques et de r\u00e9seaux de familles d'accueil sont d\u00e9finies par arr\u00eat\u00e9 des ministres charg\u00e9s des affaires sociales, de la sant\u00e9 et de la s\u00e9curit\u00e9 sociale.<p></p>",
+            "num": "D3411-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1053993600000,
+            "dateFin": 1179187200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 858993456,
             "context": {
                 "titresTM": [
                     {
@@ -213,9 +315,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006912247",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006912247",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196380",
+            "sectionParentId": "LEGISCTA000006196380",
+            "sectionParentTitre": "Sous-section 1 : Conditions d'organisation et de fonctionnement.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Troisi\u00e8me partie : Lutte contre les maladies et d\u00e9pendances &gt; Livre IV : Lutte contre la toxicomanie &gt; Titre Ier : Organisation de la prise en charge sanitaire des toxicomanes &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006912247",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000412528",
+                    "textTitle": "D\u00e9cret 2003-462 2003-05-21",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000412528",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2003-05-27",
+                    "dateSignaTexte": "2003-05-21",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -237,27 +397,40 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000412528",
-                    "textTitle": "D\u00e9cret 2003-462 2003-05-21",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000412528",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2003-05-27",
-                    "dateSignaTexte": "2003-05-21",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006912247",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1053993600000,
+                    "dateFin": 1179187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006912248",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1179187200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "D3411-4",
-            "origine": "LEGI",
-            "texte": "Peuvent \u00eatre rattach\u00e9es au centre une ou plusieurs sections, qui correspondent \u00e0 des modes de prise en charge sp\u00e9cifiques comportant notamment : 1\u00b0 Des permanences d'accueil et d'orientation situ\u00e9es \u00e0 l'ext\u00e9rieur des centres ; 2\u00b0 Des appartements th\u00e9rapeutiques ; 3\u00b0 Des r\u00e9seaux de familles d'accueil ; 4\u00b0 Des structures d'h\u00e9bergement, individuel ou collectif, de transition ou d'urgence ; 5\u00b0 Des ateliers d'insertion. Les conditions d'organisation et de fonctionnement des sections d'appartements th\u00e9rapeutiques et de r\u00e9seaux de familles d'accueil sont d\u00e9finies par arr\u00eat\u00e9 des ministres charg\u00e9s des affaires sociales, de la sant\u00e9 et de la s\u00e9curit\u00e9 sociale.",
-            "texteHtml": "<p></p>   Peuvent \u00eatre rattach\u00e9es au centre une ou plusieurs sections, qui correspondent \u00e0 des modes de prise en charge sp\u00e9cifiques comportant notamment :<p></p><p></p>   1\u00b0 Des permanences d'accueil et d'orientation situ\u00e9es \u00e0 l'ext\u00e9rieur des centres ;<p></p><p></p>   2\u00b0 Des appartements th\u00e9rapeutiques ;<p></p><p></p>   3\u00b0 Des r\u00e9seaux de familles d'accueil ;<p></p><p></p>   4\u00b0 Des structures d'h\u00e9bergement, individuel ou collectif, de transition ou d'urgence ;<p></p><p></p>   5\u00b0 Des ateliers d'insertion.<p></p><p></p>   Les conditions d'organisation et de fonctionnement des sections d'appartements th\u00e9rapeutiques et de r\u00e9seaux de familles d'accueil sont d\u00e9finies par arr\u00eat\u00e9 des ministres charg\u00e9s des affaires sociales, de la sant\u00e9 et de la s\u00e9curit\u00e9 sociale.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2003-05-27T00:00:00.000Z",
-            "dateFin": "2007-05-15T00:00:00.000Z"
+            "computedNums": [
+                "D3411-4",
+                "3411-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

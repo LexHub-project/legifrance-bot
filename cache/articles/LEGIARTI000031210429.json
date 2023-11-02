@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031210429",
-    "num": "L121-7",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031210429",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les op\u00e9rations d'am\u00e9nagement admises \u00e0 proximit\u00e9 du rivage organisent ou pr\u00e9servent le libre acc\u00e8s du public \u00e0 celui-ci.",
+            "texteHtml": "<p><br/>Les op\u00e9rations d'am\u00e9nagement admises \u00e0 proximit\u00e9 du rivage organisent ou pr\u00e9servent le libre acc\u00e8s du public \u00e0 celui-ci.</p>",
+            "num": "L121-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1451606400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 429496729,
             "context": {
                 "titresTM": [
                     {
@@ -74,21 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031210429",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000031210429",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031210427",
+            "sectionParentId": "LEGISCTA000031212415",
+            "sectionParentTitre": "Sous-section 2 : R\u00e9gime d'urbanisation",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : R\u00e9glementation de l'urbanisme &gt; Titre II : R\u00e8gles sp\u00e9cifiques \u00e0 certaines parties du territoire &gt; Chapitre Ier : Am\u00e9nagement et protection du littoral &gt; Section 1 : Dispositions g\u00e9n\u00e9rales &gt; Sous-section 2 : R\u00e9gime d'urbanisation",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031210429",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L146-3 (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L146-3",
-                    "articleId": "LEGIARTI000006814843",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031204500",
@@ -115,13 +162,43 @@
                     "dateDebutCible": "2016-01-01"
                 }
             ],
-            "num": "L121-7",
-            "origine": "LEGI",
-            "texte": "Les op\u00e9rations d'am\u00e9nagement admises \u00e0 proximit\u00e9 du rivage organisent ou pr\u00e9servent le libre acc\u00e8s du public \u00e0 celui-ci.",
-            "texteHtml": "<p><br/>Les op\u00e9rations d'am\u00e9nagement admises \u00e0 proximit\u00e9 du rivage organisent ou pr\u00e9servent le libre acc\u00e8s du public \u00e0 celui-ci.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L146-3 (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L146-3",
+                    "articleId": "LEGIARTI000006814843",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031210429",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L121-7",
+                "121-7"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

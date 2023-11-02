@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006837064",
-    "num": "R214-90",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000018440438",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque la d\u00e9claration d'utilit\u00e9 publique de l'op\u00e9ration est requise soit pour autoriser la d\u00e9rivation des eaux dans les conditions pr\u00e9vues par l'article L. 215-13 , soit pour proc\u00e9der aux acquisitions d'immeubles ou de droits r\u00e9els immobiliers, l'enqu\u00eate mentionn\u00e9e \u00e0 l'article R. 214-89 vaut enqu\u00eate pr\u00e9alable \u00e0 la d\u00e9claration d'utilit\u00e9 publique.",
+            "texteHtml": "<p>Lorsque la d\u00e9claration d'utilit\u00e9 publique de l'op\u00e9ration est requise soit pour autoriser la d\u00e9rivation des eaux dans les conditions pr\u00e9vues par l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006833169&dateTexte=&categorieLien=cid'>L. 215-13</a>, soit pour proc\u00e9der aux acquisitions d'immeubles ou de droits r\u00e9els immobiliers, l'enqu\u00eate mentionn\u00e9e \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006837063&dateTexte=&categorieLien=cid'>R. 214-89</a> vaut enqu\u00eate pr\u00e9alable \u00e0 la d\u00e9claration d'utilit\u00e9 publique.</p>",
+            "num": "R214-90",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1206662400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -74,9 +89,67 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000018440438",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006837064",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176826",
+            "sectionParentId": "LEGISCTA000006176826",
+            "sectionParentTitre": "Section 4 : Op\u00e9rations d\u00e9clar\u00e9es d'int\u00e9r\u00eat g\u00e9n\u00e9ral ou urgentes",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre II : Milieux physiques &gt; Titre Ier : Eau et milieux aquatiques &gt; Chapitre IV : Activit\u00e9s, installations et usage &gt; Section 4 : Op\u00e9rations d\u00e9clar\u00e9es d'int\u00e9r\u00eat g\u00e9n\u00e9ral ou urgentes",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000018440438",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000018437743",
+                    "textTitle": "D\u00e9cret n\u00b02008-283\n du 25 mars 2008 - art. 3",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000018438759",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2008-03-27",
+                    "dateSignaTexte": "2008-03-25",
+                    "dateDebutCible": "2008-03-28"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006074220",
@@ -86,7 +159,6 @@
                     "articleNum": "L215-13",
                     "articleId": "LEGIARTI000006833169",
                     "natureText": "CODE",
-                    "date": 1599855025465,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -100,7 +172,6 @@
                     "articleNum": "R214-89",
                     "articleId": "LEGIARTI000006837063",
                     "natureText": "CODE",
-                    "date": 1599855025465,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -127,29 +198,58 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000018437743",
-                    "textTitle": "D\u00e9cret n\u00b02008-283\n du 25 mars 2008 - art. 3",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "3",
-                    "articleId": "LEGIARTI000018438759",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2008-03-27",
-                    "dateSignaTexte": "2008-03-25",
-                    "dateDebutCible": "2008-03-28"
+                    "id": "LEGIARTI000006837064",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1206662400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018440438",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1206662400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R214-90",
-            "origine": "LEGI",
-            "texte": "Lorsque la d\u00e9claration d'utilit\u00e9 publique de l'op\u00e9ration est requise soit pour autoriser la d\u00e9rivation des eaux dans les conditions pr\u00e9vues par l'article L. 215-13 , soit pour proc\u00e9der aux acquisitions d'immeubles ou de droits r\u00e9els immobiliers, l'enqu\u00eate mentionn\u00e9e \u00e0 l'article R. 214-89 vaut enqu\u00eate pr\u00e9alable \u00e0 la d\u00e9claration d'utilit\u00e9 publique.",
-            "texteHtml": "<p>Lorsque la d\u00e9claration d'utilit\u00e9 publique de l'op\u00e9ration est requise soit pour autoriser la d\u00e9rivation des eaux dans les conditions pr\u00e9vues par l'article <a href='/article/LEGIARTI000006833169'>L. 215-13</a>, soit pour proc\u00e9der aux acquisitions d'immeubles ou de droits r\u00e9els immobiliers, l'enqu\u00eate mentionn\u00e9e \u00e0 l'article <a href='/article/LEGIARTI000006837063'>R. 214-89</a> vaut enqu\u00eate pr\u00e9alable \u00e0 la d\u00e9claration d'utilit\u00e9 publique.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-03-28T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "R214-90",
+                "214-90"
+            ],
+            "versionPrecedente": "LEGIARTI000006837064",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006837064",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque la d\u00e9claration d'utilit\u00e9 publique de l'op\u00e9ration est requise soit pour autoriser la d\u00e9rivation des eaux dans les conditions pr\u00e9vues par l'article L. 215-3, soit pour proc\u00e9der aux acquisitions d'immeubles ou de droits r\u00e9els immobiliers, l'enqu\u00eate mentionn\u00e9e \u00e0 l'article R. 214-89 vaut enqu\u00eate pr\u00e9alable \u00e0 la d\u00e9claration d'utilit\u00e9 publique.",
+            "texteHtml": "<p></p>   Lorsque la d\u00e9claration d'utilit\u00e9 publique de l'op\u00e9ration est requise soit pour autoriser la d\u00e9rivation des eaux dans les conditions pr\u00e9vues par l'article L. 215-3, soit pour proc\u00e9der aux acquisitions d'immeubles ou de droits r\u00e9els immobiliers, l'enqu\u00eate mentionn\u00e9e \u00e0 l'article R. 214-89 vaut enqu\u00eate pr\u00e9alable \u00e0 la d\u00e9claration d'utilit\u00e9 publique.<p></p><p></p>",
+            "num": "R214-90",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174608000000,
+            "dateFin": 1206662400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -221,9 +321,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006837064",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006837064",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176826",
+            "sectionParentId": "LEGISCTA000006176826",
+            "sectionParentTitre": "Section 4 : Op\u00e9rations d\u00e9clar\u00e9es d'int\u00e9r\u00eat g\u00e9n\u00e9ral ou urgentes",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre II : Milieux physiques &gt; Titre Ier : Eau et milieux aquatiques &gt; Chapitre IV : Activit\u00e9s, installations et usage &gt; Section 4 : Op\u00e9rations d\u00e9clar\u00e9es d'int\u00e9r\u00eat g\u00e9n\u00e9ral ou urgentes",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006837064",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000248208",
+                    "textTitle": "D\u00e9cret 2007-397 2007-03-22 JORF 23 mars 2007",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000248208",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2007-03-23",
+                    "dateSignaTexte": "2007-03-22",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -245,27 +403,40 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000248208",
-                    "textTitle": "D\u00e9cret 2007-397 2007-03-22 JORF 23 mars 2007",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000248208",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2007-03-23",
-                    "dateSignaTexte": "2007-03-22",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006837064",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1206662400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018440438",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1206662400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R214-90",
-            "origine": "LEGI",
-            "texte": "Lorsque la d\u00e9claration d'utilit\u00e9 publique de l'op\u00e9ration est requise soit pour autoriser la d\u00e9rivation des eaux dans les conditions pr\u00e9vues par l'article L. 215-3, soit pour proc\u00e9der aux acquisitions d'immeubles ou de droits r\u00e9els immobiliers, l'enqu\u00eate mentionn\u00e9e \u00e0 l'article R. 214-89 vaut enqu\u00eate pr\u00e9alable \u00e0 la d\u00e9claration d'utilit\u00e9 publique.",
-            "texteHtml": "<p></p>   Lorsque la d\u00e9claration d'utilit\u00e9 publique de l'op\u00e9ration est requise soit pour autoriser la d\u00e9rivation des eaux dans les conditions pr\u00e9vues par l'article L. 215-3, soit pour proc\u00e9der aux acquisitions d'immeubles ou de droits r\u00e9els immobiliers, l'enqu\u00eate mentionn\u00e9e \u00e0 l'article R. 214-89 vaut enqu\u00eate pr\u00e9alable \u00e0 la d\u00e9claration d'utilit\u00e9 publique.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-23T00:00:00.000Z",
-            "dateFin": "2008-03-28T00:00:00.000Z"
+            "computedNums": [
+                "R214-90",
+                "214-90"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

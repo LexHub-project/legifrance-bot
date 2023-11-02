@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689868",
-    "num": "L5111-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006689868",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "On entend par sp\u00e9cialit\u00e9 pharmaceutique, tout m\u00e9dicament pr\u00e9par\u00e9 \u00e0 l'avance, pr\u00e9sent\u00e9 sous un conditionnement particulier et caract\u00e9ris\u00e9 par une d\u00e9nomination sp\u00e9ciale.",
+            "texteHtml": "<p></p>   On entend par sp\u00e9cialit\u00e9 pharmaceutique, tout m\u00e9dicament pr\u00e9par\u00e9 \u00e0 l'avance, pr\u00e9sent\u00e9 sous un conditionnement particulier et caract\u00e9ris\u00e9 par une d\u00e9nomination sp\u00e9ciale.<p></p><p></p>",
+            "num": "L5111-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 961632000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -65,9 +80,79 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006689868",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006689868",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171363",
+            "sectionParentId": "LEGISCTA000006171363",
+            "sectionParentTitre": "Chapitre Ier : D\u00e9finitions.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre Ier : Dispositions g\u00e9n\u00e9rales relatives aux m\u00e9dicaments &gt; Chapitre Ier : D\u00e9finitions.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689868",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000217229",
+                    "textTitle": "Ordonnance 2000-548 2000-06-15",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000217229",
+                    "natureText": "RAPPORT",
+                    "datePubliTexte": "2000-06-22",
+                    "dateSignaTexte": "2999-01-01",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000227015",
+                    "textTitle": "Loi 2002-303 2002-03-04 art. 92 JORF 5 mars 2002",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000227015",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2002-03-05",
+                    "dateSignaTexte": "2002-03-04",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000415652",
@@ -77,7 +162,6 @@
                     "articleNum": "1",
                     "articleId": "LEGIARTI000006228008",
                     "natureText": "ARRETE",
-                    "date": 1652991373508,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 1074643200000,
@@ -91,7 +175,6 @@
                     "articleNum": "1",
                     "articleId": "LEGIARTI000025860019",
                     "natureText": "ARRETE",
-                    "date": 1652991373508,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 1091836800000,
@@ -103,13 +186,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
-                    "articleId": "LEGIARTI000006290520",
+                    "articleId": "LEGIARTI000047095158",
                     "natureText": "DECRET",
-                    "date": 1652991373509,
                     "parentCid": null,
                     "numTexte": "2006-352",
                     "datePubli": 1143244800000,
-                    "dateDebut": 1143244800000
+                    "dateDebut": 1675555200000
                 },
                 {
                     "textCid": "JORFTEXT000017726554",
@@ -119,7 +201,6 @@
                     "articleNum": "52",
                     "articleId": "LEGIARTI000017730785",
                     "natureText": "LOI",
-                    "date": 1652991373509,
                     "parentCid": null,
                     "numTexte": "2007-1786",
                     "datePubli": 1198195200000,
@@ -133,7 +214,6 @@
                     "articleNum": "1",
                     "articleId": "JORFARTI000018122958",
                     "natureText": "DELIBERATION",
-                    "date": 1652991373509,
                     "parentCid": null,
                     "numTexte": "2008-005",
                     "datePubli": 1203033600000,
@@ -147,7 +227,6 @@
                     "articleNum": "",
                     "articleId": "JORFARTI000018122953",
                     "natureText": "DELIBERATION",
-                    "date": 1652991373509,
                     "parentCid": null,
                     "numTexte": "2008-005",
                     "datePubli": 1203033600000,
@@ -161,7 +240,6 @@
                     "articleNum": "D6141-37",
                     "articleId": "LEGIARTI000018192491",
                     "natureText": "CODE",
-                    "date": 1652991373509,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -175,7 +253,6 @@
                     "articleNum": "L5141-1",
                     "articleId": "LEGIARTI000045405083",
                     "natureText": "CODE",
-                    "date": 1652991373509,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -189,7 +266,6 @@
                     "articleNum": "L5521-1",
                     "articleId": "LEGIARTI000006690650",
                     "natureText": "CODE",
-                    "date": 1652991373509,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -203,7 +279,6 @@
                     "articleNum": "R5121-150",
                     "articleId": "LEGIARTI000006914902",
                     "natureText": "CODE",
-                    "date": 1652991373510,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -211,17 +286,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L160-13 (M)",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L160-13 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "L160-13",
-                    "articleId": "LEGIARTI000045058666",
+                    "articleId": "LEGIARTI000046812734",
                     "natureText": "CODE",
-                    "date": 1652991373510,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1640995200000
+                    "dateDebut": 1671926400000
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
@@ -231,7 +305,6 @@
                     "articleNum": "L322-2",
                     "articleId": "LEGIARTI000025013117",
                     "natureText": "CODE",
-                    "date": 1652991373510,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -245,7 +318,6 @@
                     "articleNum": "1er",
                     "articleId": "KALIARTI000039117003",
                     "natureText": "Convention collective nationale",
-                    "date": 1652991373510,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -281,39 +353,31 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000217229",
-                    "textTitle": "Ordonnance 2000-548 2000-06-15",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000217229",
-                    "natureText": "RAPPORT",
-                    "datePubliTexte": "2000-06-22",
-                    "dateSignaTexte": "2999-01-01",
-                    "dateDebutCible": "2999-01-01"
-                },
-                {
-                    "textCid": "JORFTEXT000000227015",
-                    "textTitle": "Loi 2002-303 2002-03-04 art. 92 JORF 5 mars 2002",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000227015",
-                    "natureText": "LOI",
-                    "datePubliTexte": "2002-03-05",
-                    "dateSignaTexte": "2002-03-04",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006689868",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "L5111-2",
-            "origine": "LEGI",
-            "texte": "On entend par sp\u00e9cialit\u00e9 pharmaceutique, tout m\u00e9dicament pr\u00e9par\u00e9 \u00e0 l'avance, pr\u00e9sent\u00e9 sous un conditionnement particulier et caract\u00e9ris\u00e9 par une d\u00e9nomination sp\u00e9ciale.",
-            "texteHtml": "<p></p>   On entend par sp\u00e9cialit\u00e9 pharmaceutique, tout m\u00e9dicament pr\u00e9par\u00e9 \u00e0 l'avance, pr\u00e9sent\u00e9 sous un conditionnement particulier et caract\u00e9ris\u00e9 par une d\u00e9nomination sp\u00e9ciale.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "L5111-2",
+                "5111-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

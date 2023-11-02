@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000025506575",
-    "num": "L633-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000032466725",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tout recours contentieux form\u00e9 par une personne physique ou morale \u00e0 l'encontre d'actes pris par une commission d'agr\u00e9ment et de contr\u00f4le est pr\u00e9c\u00e9d\u00e9 d'un recours administratif pr\u00e9alable devant la Commission nationale d'agr\u00e9ment et de contr\u00f4le, \u00e0 peine d'irrecevabilit\u00e9 du recours contentieux.",
+            "texteHtml": "<p>Tout recours contentieux form\u00e9 par une personne physique ou morale \u00e0 l'encontre d'actes pris par une commission d'agr\u00e9ment et de contr\u00f4le est pr\u00e9c\u00e9d\u00e9 d'un recours administratif pr\u00e9alable devant la Commission nationale d'agr\u00e9ment et de contr\u00f4le, \u00e0 peine d'irrecevabilit\u00e9 du recours contentieux.<br/></p>",
+            "num": "L633-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE",
+            "dateDebut": 1461888000000,
+            "dateFin": 1651363200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -43,21 +58,21 @@
                     },
                     {
                         "debut": "2016-04-29",
-                        "fin": "2022-12-31",
+                        "fin": "2022-05-01",
                         "titre": "Chapitre III : Commissions d'agr\u00e9ment et de contr\u00f4le",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506569",
                         "id": "LEGISCTA000032466731",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
-                        "debut": "2022-12-31",
+                        "debut": "2022-05-01",
                         "fin": "2999-01-01",
                         "titre": "Chapitre III : Mission de police administrative",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506569",
                         "id": "LEGISCTA000045453636",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 3,
@@ -74,78 +89,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000032466725",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025506575",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025506569",
+            "sectionParentId": "LEGISCTA000045453636",
+            "sectionParentTitre": "Chapitre III : Mission de police administrative",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S  PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre III : Mission de police administrative",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000032466725",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000025015019",
-                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 10 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000029378027",
-                    "natureText": "DECRET",
-                    "date": 1648759609844,
-                    "parentCid": null,
-                    "numTexte": "2011-1919",
-                    "datePubli": 1324598400000,
-                    "dateDebut": 1408579200000
-                },
-                {
-                    "textCid": "JORFTEXT000025015019",
-                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 29 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "29",
-                    "articleId": "LEGIARTI000029378082",
-                    "natureText": "DECRET",
-                    "date": 1648759609844,
-                    "parentCid": null,
-                    "numTexte": "2011-1919",
-                    "datePubli": 1324598400000,
-                    "dateDebut": 1408579200000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-11 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R632-11",
-                    "articleId": "LEGIARTI000045456495",
-                    "natureText": "CODE",
-                    "date": 1648759609844,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1661990400000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R633-9 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R633-9",
-                    "articleId": "LEGIARTI000032467124",
-                    "natureText": "CODE",
-                    "date": 1648759609844,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1461888000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000320194",
-                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-7 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "33-7",
-                    "articleId": "LEGIARTI000023711103",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000032459858",
@@ -196,15 +186,123 @@
                     "dateDebutCible": "2022-04-01"
                 }
             ],
-            "num": "L633-3",
-            "origine": "LEGI",
-            "texte": "Tout recours contentieux form\u00e9 par une personne physique ou morale \u00e0 l'encontre d'actes pris par une commission d'agr\u00e9ment et de contr\u00f4le est pr\u00e9c\u00e9d\u00e9 d'un recours administratif pr\u00e9alable devant la Commission nationale d'agr\u00e9ment et de contr\u00f4le, \u00e0 peine d'irrecevabilit\u00e9 du recours contentieux.",
-            "texteHtml": "<p>Tout recours contentieux form\u00e9 par une personne physique ou morale \u00e0 l'encontre d'actes pris par une commission d'agr\u00e9ment et de contr\u00f4le est pr\u00e9c\u00e9d\u00e9 d'un recours administratif pr\u00e9alable devant la Commission nationale d'agr\u00e9ment et de contr\u00f4le, \u00e0 peine d'irrecevabilit\u00e9 du recours contentieux.<br/></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-04-29T00:00:00.000Z",
-            "dateFin": "2022-12-31T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000025015019",
+                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 10 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000029378027",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2011-1919",
+                    "datePubli": 1324598400000,
+                    "dateDebut": 1408579200000
+                },
+                {
+                    "textCid": "JORFTEXT000025015019",
+                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 29 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "29",
+                    "articleId": "LEGIARTI000029378082",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2011-1919",
+                    "datePubli": 1324598400000,
+                    "dateDebut": 1408579200000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-11 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R632-11",
+                    "articleId": "LEGIARTI000045456495",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1661990400000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R633-9 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R633-9",
+                    "articleId": "LEGIARTI000032467124",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1461888000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000320194",
+                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-7 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "33-7",
+                    "articleId": "LEGIARTI000023711103",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025506575",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1461888000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000032466725",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1461888000000,
+                    "dateFin": 1651363200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L633-3",
+                "633-3"
+            ],
+            "versionPrecedente": "LEGIARTI000025506575",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025506575",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tout recours contentieux form\u00e9 par une personne physique ou morale \u00e0 l'encontre d'actes pris par une commission r\u00e9gionale d'agr\u00e9ment et de contr\u00f4le est pr\u00e9c\u00e9d\u00e9 d'un recours administratif pr\u00e9alable devant la Commission nationale d'agr\u00e9ment et de contr\u00f4le, \u00e0 peine d'irrecevabilit\u00e9 du recours contentieux.",
+            "texteHtml": "<p><br/>Tout recours contentieux form\u00e9 par une personne physique ou morale \u00e0 l'encontre d'actes pris par une commission r\u00e9gionale d'agr\u00e9ment et de contr\u00f4le est pr\u00e9c\u00e9d\u00e9 d'un recours administratif pr\u00e9alable devant la Commission nationale d'agr\u00e9ment et de contr\u00f4le, \u00e0 peine d'irrecevabilit\u00e9 du recours contentieux.</p>",
+            "num": "L633-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1335830400000,
+            "dateFin": 1461888000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -245,21 +343,21 @@
                     },
                     {
                         "debut": "2016-04-29",
-                        "fin": "2022-12-31",
+                        "fin": "2022-05-01",
                         "titre": "Chapitre III : Commissions d'agr\u00e9ment et de contr\u00f4le",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506569",
                         "id": "LEGISCTA000032466731",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
-                        "debut": "2022-12-31",
+                        "debut": "2022-05-01",
                         "fin": "2999-01-01",
                         "titre": "Chapitre III : Mission de police administrative",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025506569",
                         "id": "LEGISCTA000045453636",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 3,
@@ -276,78 +374,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025506575",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025506575",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025506569",
+            "sectionParentId": "LEGISCTA000045453636",
+            "sectionParentTitre": "Chapitre III : Mission de police administrative",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VI : ACTIVIT\u00c9S PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; TITRE III : CONSEIL NATIONAL DES ACTIVIT\u00c9S  PRIV\u00c9ES DE S\u00c9CURIT\u00c9 &gt; Chapitre III : Commissions d'agr\u00e9ment et de contr\u00f4le",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000025506575",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000025015019",
-                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 10 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000029378027",
-                    "natureText": "DECRET",
-                    "date": 1648759608921,
-                    "parentCid": null,
-                    "numTexte": "2011-1919",
-                    "datePubli": 1324598400000,
-                    "dateDebut": 1408579200000
-                },
-                {
-                    "textCid": "JORFTEXT000025015019",
-                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 29 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "29",
-                    "articleId": "LEGIARTI000029378082",
-                    "natureText": "DECRET",
-                    "date": 1648759608921,
-                    "parentCid": null,
-                    "numTexte": "2011-1919",
-                    "datePubli": 1324598400000,
-                    "dateDebut": 1408579200000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-11 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R632-11",
-                    "articleId": "LEGIARTI000045456495",
-                    "natureText": "CODE",
-                    "date": 1648759608921,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1661990400000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R633-9 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R633-9",
-                    "articleId": "LEGIARTI000032467124",
-                    "natureText": "CODE",
-                    "date": 1648759608922,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1461888000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000320194",
-                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-7 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "33-7",
-                    "articleId": "LEGIARTI000023711103",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025498645",
@@ -374,13 +447,105 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L633-3",
-            "origine": "LEGI",
-            "texte": "Tout recours contentieux form\u00e9 par une personne physique ou morale \u00e0 l'encontre d'actes pris par une commission r\u00e9gionale d'agr\u00e9ment et de contr\u00f4le est pr\u00e9c\u00e9d\u00e9 d'un recours administratif pr\u00e9alable devant la Commission nationale d'agr\u00e9ment et de contr\u00f4le, \u00e0 peine d'irrecevabilit\u00e9 du recours contentieux.",
-            "texteHtml": "<p><br/>Tout recours contentieux form\u00e9 par une personne physique ou morale \u00e0 l'encontre d'actes pris par une commission r\u00e9gionale d'agr\u00e9ment et de contr\u00f4le est pr\u00e9c\u00e9d\u00e9 d'un recours administratif pr\u00e9alable devant la Commission nationale d'agr\u00e9ment et de contr\u00f4le, \u00e0 peine d'irrecevabilit\u00e9 du recours contentieux.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-05-01T00:00:00.000Z",
-            "dateFin": "2016-04-29T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000025015019",
+                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 10 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000029378027",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2011-1919",
+                    "datePubli": 1324598400000,
+                    "dateDebut": 1408579200000
+                },
+                {
+                    "textCid": "JORFTEXT000025015019",
+                    "textTitle": "D\u00e9cret n\u00b02011-1919\n du 22 d\u00e9cembre 2011 - art. 29 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "29",
+                    "articleId": "LEGIARTI000029378082",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2011-1919",
+                    "datePubli": 1324598400000,
+                    "dateDebut": 1408579200000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R632-11 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R632-11",
+                    "articleId": "LEGIARTI000045456495",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1661990400000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R633-9 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R633-9",
+                    "articleId": "LEGIARTI000032467124",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1461888000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000320194",
+                    "textTitle": "Loi n\u00b0 83-629 du 12 juillet 1983 - art. 33-7 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "33-7",
+                    "articleId": "LEGIARTI000023711103",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025506575",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1461888000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000032466725",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1461888000000,
+                    "dateFin": 1651363200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L633-3",
+                "633-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006916930",
-    "num": "R6123-112",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006916930",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'autorisation de pratiquer l'activit\u00e9 de traitement des grands br\u00fbl\u00e9s mentionne si le titulaire de l'autorisation prend en charge le traitement des adultes, des enfants ou \u00e0 la fois des adultes et des enfants.",
+            "texteHtml": "<p></p>   L'autorisation de pratiquer l'activit\u00e9 de traitement des grands br\u00fbl\u00e9s mentionne si le titulaire de l'autorisation prend en charge le traitement des adultes, des enfants ou \u00e0 la fois des adultes et des enfants.<p></p><p></p>",
+            "num": "R6123-112",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1187740800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -74,26 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006916930",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916930",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190818",
+            "sectionParentId": "LEGISCTA000006190818",
+            "sectionParentTitre": "Section 10 : Traitement des grands br\u00fbl\u00e9s",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 10 : Traitement des grands br\u00fbl\u00e9s",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006916930",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000425773",
-                    "textTitle": "D\u00e9cret n\u00b02007-1237 du 20 ao\u00fbt 2007 - art. 2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000006267531",
-                    "natureText": "DECRET",
-                    "date": 1599807049549,
-                    "parentCid": null,
-                    "numTexte": "2007-1237",
-                    "datePubli": 1187740800000,
-                    "dateDebut": 1187740800000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -120,13 +162,47 @@
                     "dateDebutCible": "2007-08-22"
                 }
             ],
-            "num": "R6123-112",
-            "origine": "LEGI",
-            "texte": "L'autorisation de pratiquer l'activit\u00e9 de traitement des grands br\u00fbl\u00e9s mentionne si le titulaire de l'autorisation prend en charge le traitement des adultes, des enfants ou \u00e0 la fois des adultes et des enfants.",
-            "texteHtml": "<p></p>   L'autorisation de pratiquer l'activit\u00e9 de traitement des grands br\u00fbl\u00e9s mentionne si le titulaire de l'autorisation prend en charge le traitement des adultes, des enfants ou \u00e0 la fois des adultes et des enfants.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-08-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000425773",
+                    "textTitle": "D\u00e9cret n\u00b02007-1237 du 20 ao\u00fbt 2007 - art. 2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006267531",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2007-1237",
+                    "datePubli": 1187740800000,
+                    "dateDebut": 1187740800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916930",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1187740800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-112",
+                "6123-112"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

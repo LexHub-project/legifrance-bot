@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006687486",
-    "num": "L2161-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006687486",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Comme il est dit \u00e0 l'article 511-21 du code p\u00e9nal ci-apr\u00e8s reproduit : \" Le fait de m\u00e9conna\u00eetre les dispositions des articles L. 2131-4 et L. 2131-4-1 relatifs au diagnostic pr\u00e9implantatoire est puni de deux ans d'emprisonnement et de 30 000 euros d'amende. \"",
+            "texteHtml": "<p>Comme il est dit \u00e0 l'article 511-21 du code p\u00e9nal ci-apr\u00e8s reproduit :</p><p></p><p>\" Le fait de m\u00e9conna\u00eetre les dispositions des articles L. 2131-4 et L. 2131-4-1 relatifs au diagnostic pr\u00e9implantatoire est puni de deux ans d'emprisonnement et de 30 000 euros d'amende. \"</p><p></p>",
+            "num": "L2161-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1091836800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -92,69 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006687486",
-            "lienAutres": [
+            "cid": "LEGIARTI000006687486",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171139",
+            "sectionParentId": "LEGISCTA000006171139",
+            "sectionParentTitre": "Chapitre Ier : Diagnostic pr\u00e9natal.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Deuxi\u00e8me partie : Sant\u00e9 de la famille, de la m\u00e8re et de l'enfant &gt; Livre Ier : Protection et promotion de la sant\u00e9 maternelle et infantile &gt; Titre VI : Dispositions p\u00e9nales &gt; Chapitre Ier : Diagnostic pr\u00e9natal.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006687486",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006070719",
-                    "textTitle": "Code p\u00e9nal - art. 511-21 (M)",
-                    "linkType": "PILOTE_SUIVEUR",
-                    "linkOrientation": "source",
-                    "articleNum": "511-21",
-                    "articleId": "LEGIARTI000006418929",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L2131-4 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L2131-4",
-                    "articleId": "LEGIARTI000006687397",
-                    "natureText": "CODE",
-                    "date": 1599116950350,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 961632000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L2131-4-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L2131-4-1",
-                    "articleId": "LEGIARTI000006687399",
-                    "natureText": "CODE",
-                    "date": 1599116950350,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1091836800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L2151-2 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L2151-2",
-                    "articleId": "LEGIARTI000006687453",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L2151-2 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L2151-2",
-                    "articleId": "LEGIARTI000006687454",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -193,13 +192,89 @@
                     "dateDebutCible": "2004-08-07"
                 }
             ],
-            "num": "L2161-2",
-            "origine": "LEGI",
-            "texte": "Comme il est dit \u00e0 l'article 511-21 du code p\u00e9nal ci-apr\u00e8s reproduit : \" Le fait de m\u00e9conna\u00eetre les dispositions des articles L. 2131-4 et L. 2131-4-1 relatifs au diagnostic pr\u00e9implantatoire est puni de deux ans d'emprisonnement et de 30 000 euros d'amende. \"",
-            "texteHtml": "<p>Comme il est dit \u00e0 l'article 511-21 du code p\u00e9nal ci-apr\u00e8s reproduit :</p><p></p><p>\" Le fait de m\u00e9conna\u00eetre les dispositions des articles L. 2131-4 et L. 2131-4-1 relatifs au diagnostic pr\u00e9implantatoire est puni de deux ans d'emprisonnement et de 30 000 euros d'amende. \"</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2004-08-07T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L2131-4 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L2131-4",
+                    "articleId": "LEGIARTI000006687397",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 961632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L2131-4-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L2131-4-1",
+                    "articleId": "LEGIARTI000006687399",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1091836800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L2151-2 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L2151-2",
+                    "articleId": "LEGIARTI000006687453",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L2151-2 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2151-2",
+                    "articleId": "LEGIARTI000006687454",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006070719",
+                    "textTitle": "Code p\u00e9nal - art. 511-21 (M)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "source",
+                    "articleNum": "511-21",
+                    "articleId": "LEGIARTI000006418929",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006687486",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1091836800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2161-2",
+                "2161-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

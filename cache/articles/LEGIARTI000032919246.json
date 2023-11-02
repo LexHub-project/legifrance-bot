@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000032919246",
-    "num": "L255-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000032919246",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "En cas de mutation, le prix de vente ou la valeur maximale des droits r\u00e9els immobiliers, parts et actions permettant la jouissance du bien sont limit\u00e9s \u00e0 leur valeur initiale, actualis\u00e9e selon des modalit\u00e9s d\u00e9finies par d\u00e9cret en Conseil d'Etat. L'acqu\u00e9reur, le donataire ou l'ayant droit de la succession des droits r\u00e9els immobiliers ou de parts ou actions donnant droit \u00e0 l'attribution en jouissance du bien doit r\u00e9pondre aux conditions d\u00e9finies aux articles L. 255-2 , L. 255-3 ou L. 255-4 .",
+            "texteHtml": "<div align='left'>En cas de mutation, le prix de vente ou la valeur maximale des droits r\u00e9els immobiliers, parts et actions permettant la jouissance du bien sont limit\u00e9s \u00e0 leur valeur initiale, actualis\u00e9e selon des modalit\u00e9s d\u00e9finies par d\u00e9cret en Conseil d'Etat. <br/><br/>L'acqu\u00e9reur, le donataire ou l'ayant droit de la succession des droits r\u00e9els immobiliers ou de parts ou actions donnant droit \u00e0 l'attribution en jouissance du bien doit r\u00e9pondre aux conditions d\u00e9finies aux articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000032919240&dateTexte=&categorieLien=cid'>L. 255-2</a>, L. 255-3 ou <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000032919244&dateTexte=&categorieLien=cid'>L. 255-4</a>.<br/><br/></div>",
+            "num": "L255-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1469145600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-02-10",
                         "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006143531",
                         "id": "LEGISCTA000032920084",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-02-10",
+                        "fin": "2999-01-01",
+                        "titre": "Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire et bail r\u00e9el solidaire d'activit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143531",
+                        "id": "LEGISCTA000047108990",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -62,7 +86,7 @@
                     {
                         "debut": "2016-07-22",
                         "fin": "2999-01-01",
-                        "titre": "Section 1 : D\u00e9finition\r\n",
+                        "titre": "Section 1 : D\u00e9finition",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000032919236",
                         "id": "LEGISCTA000032919236",
@@ -83,82 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000032919246",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000032919246",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000032919236",
+            "sectionParentId": "LEGISCTA000032919236",
+            "sectionParentTitre": "Section 1 : D\u00e9finition",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Statut des constructeurs. &gt; Titre V :  Bail \u00e0 construction, bail \u00e0 r\u00e9habilitation, bail dans le cadre d'une convention d'usufruit, bail r\u00e9el immobilier, bail r\u00e9el solidaire &gt; Chapitre V : Bail r\u00e9el solidaire &gt; Section 1 : D\u00e9finition",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000032919246",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L255-15 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L255-15",
-                    "articleId": "LEGIARTI000032919270",
-                    "natureText": "CODE",
-                    "date": 1599127572881,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074096",
+                    "titre": "Code de la construction et de l'habitation.",
+                    "titreLong": "Code de la construction et de l'habitation",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 226800000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074096",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1469145600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L255-16 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L255-16",
-                    "articleId": "LEGIARTI000032919272",
-                    "natureText": "CODE",
-                    "date": 1599127572881,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1469145600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L255-2",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L255-2",
-                    "articleId": "LEGIARTI000032919240",
-                    "natureText": "CODE",
-                    "date": 1599127572882,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1469145600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L255-4",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L255-4",
-                    "articleId": "LEGIARTI000032919244",
-                    "natureText": "CODE",
-                    "date": 1599127572882,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1469145600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L443-11 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L443-11",
-                    "articleId": "LEGIARTI000038834120",
-                    "natureText": "CODE",
-                    "date": 1599127572882,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1567296000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000032918507",
@@ -173,13 +168,99 @@
                     "dateDebutCible": "2016-07-22"
                 }
             ],
-            "num": "L255-5",
-            "origine": "LEGI",
-            "texte": "En cas de mutation, le prix de vente ou la valeur maximale des droits r\u00e9els immobiliers, parts et actions permettant la jouissance du bien sont limit\u00e9s \u00e0 leur valeur initiale, actualis\u00e9e selon des modalit\u00e9s d\u00e9finies par d\u00e9cret en Conseil d'Etat. L'acqu\u00e9reur, le donataire ou l'ayant droit de la succession des droits r\u00e9els immobiliers ou de parts ou actions donnant droit \u00e0 l'attribution en jouissance du bien doit r\u00e9pondre aux conditions d\u00e9finies aux articles L. 255-2 , L. 255-3 ou L. 255-4 .",
-            "texteHtml": "<div align='left'>En cas de mutation, le prix de vente ou la valeur maximale des droits r\u00e9els immobiliers, parts et actions permettant la jouissance du bien sont limit\u00e9s \u00e0 leur valeur initiale, actualis\u00e9e selon des modalit\u00e9s d\u00e9finies par d\u00e9cret en Conseil d'Etat. <br/><br/>L'acqu\u00e9reur, le donataire ou l'ayant droit de la succession des droits r\u00e9els immobiliers ou de parts ou actions donnant droit \u00e0 l'attribution en jouissance du bien doit r\u00e9pondre aux conditions d\u00e9finies aux articles <a href='/article/LEGIARTI000032919240'>L. 255-2</a>, L. 255-3 ou <a href='/article/LEGIARTI000032919244'>L. 255-4</a>.<br/><br/></div>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-07-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L255-15 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L255-15",
+                    "articleId": "LEGIARTI000032919270",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1469145600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L255-16 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L255-16",
+                    "articleId": "LEGIARTI000032919272",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1469145600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L255-2",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L255-2",
+                    "articleId": "LEGIARTI000032919240",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1469145600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L255-4",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L255-4",
+                    "articleId": "LEGIARTI000032919244",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1469145600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L443-11 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L443-11",
+                    "articleId": "LEGIARTI000038834120",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1567296000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000032919246",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1469145600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L255-5",
+                "255-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

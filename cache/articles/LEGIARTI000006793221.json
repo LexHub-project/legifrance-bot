@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006793221",
-    "num": "A134-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006793221",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les militaires de l'arm\u00e9e de mer qui, au cours de la guerre 1939-1945, justifient avoir appartenu \u00e0 des b\u00e2timents, unit\u00e9s ou \u00e0 des formations servant \u00e0 terre avec lesquelles ils ont effectivement particip\u00e9 \u00e0 une ou plusieurs op\u00e9rations de combat limitativement d\u00e9sign\u00e9es et figurant sur la liste publi\u00e9e en annexe au pr\u00e9sent chapitre sont admis \u00e0 b\u00e9n\u00e9ficier, dans les m\u00eames conditions que l'arm\u00e9e de terre, de la bonification vis\u00e9e au premier alin\u00e9a de l'article A. 134-2. Les militaires de l'arm\u00e9e de mer qui, au cours de la guerre 1939-1945, justifient avoir \u00e9t\u00e9 effectivement pr\u00e9sents \u00e0 bord des b\u00e2timents cit\u00e9s \u00e0 la date o\u00f9 une citation collective a \u00e9t\u00e9 obtenue, sont admis \u00e0 b\u00e9n\u00e9ficier de la bonification octroy\u00e9e pour citation individuelle.",
+            "texteHtml": "<p></p>   Les militaires de l'arm\u00e9e de mer qui, au cours de la guerre 1939-1945, justifient avoir appartenu \u00e0 des b\u00e2timents, unit\u00e9s ou \u00e0 des formations servant \u00e0 terre avec lesquelles ils ont effectivement particip\u00e9 \u00e0 une ou plusieurs op\u00e9rations de combat limitativement d\u00e9sign\u00e9es et figurant sur la liste publi\u00e9e en annexe au pr\u00e9sent chapitre sont admis \u00e0 b\u00e9n\u00e9ficier, dans les m\u00eames conditions que l'arm\u00e9e de terre, de la bonification vis\u00e9e au premier alin\u00e9a de l'article A. 134-2.<p></p><p></p>   Les militaires de l'arm\u00e9e de mer qui, au cours de la guerre 1939-1945, justifient avoir \u00e9t\u00e9 effectivement pr\u00e9sents \u00e0 bord des b\u00e2timents cit\u00e9s \u00e0 la date o\u00f9 une citation collective a \u00e9t\u00e9 obtenue, sont admis \u00e0 b\u00e9n\u00e9ficier de la bonification octroy\u00e9e pour citation individuelle.<p></p>",
+            "num": "A134-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": -515721600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 343592,
             "context": {
                 "titresTM": [
                     {
@@ -25,11 +40,20 @@
                     },
                     {
                         "debut": "1951-04-29",
-                        "fin": "2999-01-01",
+                        "fin": "2023-08-07",
                         "titre": "Titre Ier : Carte et retraite du combattant.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006142717",
                         "id": "LEGISCTA000006142717",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-08-07",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Carte et allocation de reconnaissance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142717",
+                        "id": "LEGISCTA000047941058",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -64,15 +88,6 @@
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -80,53 +95,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006793221",
-            "lienAutres": [
+            "cid": "LEGIARTI000006793221",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006186913",
+            "sectionParentId": "LEGISCTA000006186913",
+            "sectionParentTitre": "Paragraphe 1 : Calcul du temps de pr\u00e9sence ou de la dur\u00e9e d'appartenance.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Livre III : Droits et avantages attach\u00e9s \u00e0 la qualit\u00e9 d'ancien combattant ou de victime de guerre. &gt; Titre Ier : Carte et retraite du combattant. &gt; Chapitre Ier : Carte du combattant. &gt; Section 2 : Proc\u00e9dure d'attribution de la carte. &gt; Paragraphe 1 : Calcul du temps de pr\u00e9sence ou de la dur\u00e9e d'appartenance.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006793221",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A128 (V)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "source",
-                    "articleNum": "A128",
-                    "articleId": "LEGIARTI000006793211",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. A134-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "A134-1",
-                    "articleId": "LEGIARTI000037789658",
-                    "natureText": "CODE",
-                    "date": 1599824871734,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1544313600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A134-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "A134-2",
-                    "articleId": "LEGIARTI000006793220",
-                    "natureText": "CODE",
-                    "date": 1599824871734,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": -515721600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -141,13 +196,70 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "A134-3",
-            "origine": "LEGI",
-            "texte": "Les militaires de l'arm\u00e9e de mer qui, au cours de la guerre 1939-1945, justifient avoir appartenu \u00e0 des b\u00e2timents, unit\u00e9s ou \u00e0 des formations servant \u00e0 terre avec lesquelles ils ont effectivement particip\u00e9 \u00e0 une ou plusieurs op\u00e9rations de combat limitativement d\u00e9sign\u00e9es et figurant sur la liste publi\u00e9e en annexe au pr\u00e9sent chapitre sont admis \u00e0 b\u00e9n\u00e9ficier, dans les m\u00eames conditions que l'arm\u00e9e de terre, de la bonification vis\u00e9e au premier alin\u00e9a de l'article A. 134-2. Les militaires de l'arm\u00e9e de mer qui, au cours de la guerre 1939-1945, justifient avoir \u00e9t\u00e9 effectivement pr\u00e9sents \u00e0 bord des b\u00e2timents cit\u00e9s \u00e0 la date o\u00f9 une citation collective a \u00e9t\u00e9 obtenue, sont admis \u00e0 b\u00e9n\u00e9ficier de la bonification octroy\u00e9e pour citation individuelle.",
-            "texteHtml": "<p></p>   Les militaires de l'arm\u00e9e de mer qui, au cours de la guerre 1939-1945, justifient avoir appartenu \u00e0 des b\u00e2timents, unit\u00e9s ou \u00e0 des formations servant \u00e0 terre avec lesquelles ils ont effectivement particip\u00e9 \u00e0 une ou plusieurs op\u00e9rations de combat limitativement d\u00e9sign\u00e9es et figurant sur la liste publi\u00e9e en annexe au pr\u00e9sent chapitre sont admis \u00e0 b\u00e9n\u00e9ficier, dans les m\u00eames conditions que l'arm\u00e9e de terre, de la bonification vis\u00e9e au premier alin\u00e9a de l'article A. 134-2.<p></p><p></p>   Les militaires de l'arm\u00e9e de mer qui, au cours de la guerre 1939-1945, justifient avoir \u00e9t\u00e9 effectivement pr\u00e9sents \u00e0 bord des b\u00e2timents cit\u00e9s \u00e0 la date o\u00f9 une citation collective a \u00e9t\u00e9 obtenue, sont admis \u00e0 b\u00e9n\u00e9ficier de la bonification octroy\u00e9e pour citation individuelle.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1953-08-29T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. A134-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A134-1",
+                    "articleId": "LEGIARTI000037789658",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1544313600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A134-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "A134-2",
+                    "articleId": "LEGIARTI000006793220",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": -515721600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et des v - art. A128 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "A128",
+                    "articleId": "LEGIARTI000006793211",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006793221",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": -515721600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A134-3",
+                "134-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

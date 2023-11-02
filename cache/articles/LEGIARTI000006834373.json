@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006834373",
-    "num": "L521-23",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006834373",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Des d\u00e9crets en Conseil d'Etat fixent les conditions d'application du pr\u00e9sent chapitre.",
+            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat fixent les conditions d'application du pr\u00e9sent chapitre.<p></p><p></p>",
+            "num": "L521-23",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 987206400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -83,39 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006834373",
-            "lienAutres": [
+            "cid": "LEGIARTI000006834373",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176608",
+            "sectionParentId": "LEGISCTA000020317310",
+            "sectionParentTitre": "Section 4 : Sanctions p\u00e9nales",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre II : Produits chimiques et biocides &gt; Chapitre Ier : Contr\u00f4le des produits chimiques &gt; Section 5 : Sanctions p\u00e9nales",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006834373",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L521-1 (M)",
-                    "linkType": "SPEC_APPLI",
-                    "linkOrientation": "source",
-                    "articleNum": "L521-1",
-                    "articleId": "LEGIARTI000006834333",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "R\u00e8glement 2037-2000 CE 2000-06-29",
-                    "linkType": "TXT_SOURCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "R\u00e8glement 2455-92 CEE 1992-07-23",
-                    "linkType": "TXT_SOURCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -154,13 +183,61 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L521-23",
-            "origine": "LEGI",
-            "texte": "Des d\u00e9crets en Conseil d'Etat fixent les conditions d'application du pr\u00e9sent chapitre.",
-            "texteHtml": "<p></p>   Des d\u00e9crets en Conseil d'Etat fixent les conditions d'application du pr\u00e9sent chapitre.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2001-04-14T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L521-1 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "L521-1",
+                    "articleId": "LEGIARTI000006834333",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "R\u00e8glement 2037-2000 CE 2000-06-29",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "R\u00e8glement 2455-92 CEE 1992-07-23",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006834373",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 987206400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L521-23",
+                "521-23"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006797662",
-    "num": "L331-9",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000021941172",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p>Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat.</p>",
+            "num": "L331-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1267142400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 816031,
             "context": {
                 "titresTM": [
                     {
@@ -65,36 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000021941172",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006797662",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157636",
+            "sectionParentId": "LEGISCTA000006157636",
+            "sectionParentTitre": "Chapitre unique.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre III : Action sociale et m\u00e9dico-sociale mise en oeuvre par des \u00e9tablissements et des services &gt; Titre III : Dispositions communes aux \u00e9tablissements soumis \u00e0 autorisation et \u00e0 d\u00e9claration &gt; Chapitre unique.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000021941172",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074069",
-                    "textTitle": "Code de l'action sociale et des familles - art. L133-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L133-2",
-                    "articleId": "LEGIARTI000036514419",
-                    "natureText": "CODE",
-                    "date": 1599828967898,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074069",
+                    "titre": "Code de l'action sociale et des familles",
+                    "titreLong": "Code de l'action sociale et des familles",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 977529600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074069",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1516320000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072637",
-                    "textTitle": "Code de la famille et de l'aide sociale. - art. 215 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "215",
-                    "articleId": "LEGIARTI000006681496",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021868310",
@@ -109,15 +141,93 @@
                     "dateDebutCible": "2010-02-26"
                 }
             ],
-            "num": "L331-9",
-            "origine": "LEGI",
-            "texte": "Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat.",
-            "texteHtml": "<p>Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-02-26T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L133-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L133-2",
+                    "articleId": "LEGIARTI000036514419",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1516320000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 215 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "215",
+                    "articleId": "LEGIARTI000006681496",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006797662",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 977529600000,
+                    "dateFin": 1010016000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006797663",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1010016000000,
+                    "dateFin": 1267142400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021941172",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1267142400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L331-9",
+                "331-9"
+            ],
+            "versionPrecedente": "LEGIARTI000006797663",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006797663",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat, pris apr\u00e8s avis du conseil sup\u00e9rieur de l'aide sociale.",
+            "texteHtml": "<p></p>   Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat, pris apr\u00e8s avis du conseil sup\u00e9rieur de l'aide sociale.<p></p><p></p>",
+            "num": "L331-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1010016000000,
+            "dateFin": 1267142400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 816031,
             "context": {
                 "titresTM": [
                     {
@@ -180,36 +290,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006797663",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006797662",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157636",
+            "sectionParentId": "LEGISCTA000006157636",
+            "sectionParentTitre": "Chapitre unique.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre III : Action sociale et m\u00e9dico-sociale mise en oeuvre par des \u00e9tablissements et des services &gt; Titre III : Dispositions communes aux \u00e9tablissements soumis \u00e0 autorisation et \u00e0 d\u00e9claration &gt; Chapitre unique.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006797663",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074069",
-                    "textTitle": "Code de l'action sociale et des familles - art. L133-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L133-2",
-                    "articleId": "LEGIARTI000036514419",
-                    "natureText": "CODE",
-                    "date": 1599825052345,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074069",
+                    "titre": "Code de l'action sociale et des familles",
+                    "titreLong": "Code de l'action sociale et des familles",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 977529600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074069",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1516320000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072637",
-                    "textTitle": "Code de la famille et de l'aide sociale. - art. 215 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "215",
-                    "articleId": "LEGIARTI000006681496",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000402347",
@@ -248,15 +375,93 @@
                     "dateDebutCible": "2002-01-03"
                 }
             ],
-            "num": "L331-9",
-            "origine": "LEGI",
-            "texte": "Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat, pris apr\u00e8s avis du conseil sup\u00e9rieur de l'aide sociale.",
-            "texteHtml": "<p></p>   Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat, pris apr\u00e8s avis du conseil sup\u00e9rieur de l'aide sociale.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2002-01-03T00:00:00.000Z",
-            "dateFin": "2010-02-26T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L133-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L133-2",
+                    "articleId": "LEGIARTI000036514419",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1516320000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 215 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "215",
+                    "articleId": "LEGIARTI000006681496",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006797662",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 977529600000,
+                    "dateFin": 1010016000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006797663",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1010016000000,
+                    "dateFin": 1267142400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021941172",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1267142400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L331-9",
+                "331-9"
+            ],
+            "versionPrecedente": "LEGIARTI000006797662",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006797662",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat, pris apr\u00e8s avis du conseil sup\u00e9rieur de l'aide sociale.",
+            "texteHtml": "<p></p>   Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat, pris apr\u00e8s avis du conseil sup\u00e9rieur de l'aide sociale.<p></p><p></p>",
+            "num": "L331-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 977529600000,
+            "dateFin": 1010016000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 386541,
             "context": {
                 "titresTM": [
                     {
@@ -310,36 +515,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006797662",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006797662",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157624",
+            "sectionParentId": "LEGISCTA000006157624",
+            "sectionParentTitre": "Chapitre unique.",
+            "fullSectionsTitre": "Partie l\u00e9gislative",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006797662",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074069",
-                    "textTitle": "Code de l'action sociale et des familles - art. L133-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L133-2",
-                    "articleId": "LEGIARTI000036514419",
-                    "natureText": "CODE",
-                    "date": 1599825053698,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074069",
+                    "titre": "Code de l'action sociale et des familles",
+                    "titreLong": "Code de l'action sociale et des familles",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 977529600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074069",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1516320000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072637",
-                    "textTitle": "Code de la famille et de l'aide sociale. - art. 215 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "215",
-                    "articleId": "LEGIARTI000006681496",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000402347",
@@ -366,13 +588,75 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L331-9",
-            "origine": "LEGI",
-            "texte": "Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat, pris apr\u00e8s avis du conseil sup\u00e9rieur de l'aide sociale.",
-            "texteHtml": "<p></p>   Sauf disposition contraire, les modalit\u00e9s d'application du pr\u00e9sent chapitre sont prises par d\u00e9cret en Conseil d'Etat, pris apr\u00e8s avis du conseil sup\u00e9rieur de l'aide sociale.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-12-23T00:00:00.000Z",
-            "dateFin": "2002-01-03T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L133-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L133-2",
+                    "articleId": "LEGIARTI000036514419",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1516320000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 215 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "215",
+                    "articleId": "LEGIARTI000006681496",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006797662",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 977529600000,
+                    "dateFin": 1010016000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006797663",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1010016000000,
+                    "dateFin": 1267142400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021941172",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1267142400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L331-9",
+                "331-9"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

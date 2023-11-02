@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006818200",
-    "num": "R331-8",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025210946",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Pour le calcul de la part communale ou intercommunale de la taxe d'am\u00e9nagement, si le projet de construction ou d'am\u00e9nagement est r\u00e9alis\u00e9 dans des secteurs comportant des taux diff\u00e9rents en application des articles L. 331-14 et L. 331-15 , il est fait application du taux le moins \u00e9lev\u00e9.",
+            "texteHtml": "<p>Pour le calcul de la part communale ou intercommunale de la taxe d'am\u00e9nagement, si le projet de construction ou d'am\u00e9nagement est r\u00e9alis\u00e9 dans des secteurs comportant des taux diff\u00e9rents en application des articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074075&idArticle=LEGIARTI000023368848&dateTexte=&categorieLien=cid'>L. 331-14 </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074075&idArticle=LEGIARTI000023368860&dateTexte=&categorieLien=cid'>L. 331-15</a>, il est fait application du taux le moins \u00e9lev\u00e9.</p><p></p>",
+            "num": "R331-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE",
+            "dateDebut": 1330560000000,
+            "dateFin": 1678406400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -43,12 +58,12 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006158759",
                         "id": "LEGISCTA000025214673",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2001-03-28",
@@ -61,21 +76,21 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Section 1 : Taxe d'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006176070",
                         "id": "LEGISCTA000025214671",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Sous-section 5 : Taux d'imposition",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025206600",
                         "id": "LEGISCTA000025210965",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -92,54 +107,57 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025210946",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006818200",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025206600",
+            "sectionParentId": "LEGISCTA000025210965",
+            "sectionParentTitre": "Sous-section 5 : Taux d'imposition",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Am\u00e9nagement foncier &gt; Titre III : Dispositions financi\u00e8res",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025210946",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L331-14 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L331-14",
-                    "articleId": "LEGIARTI000023368848",
-                    "natureText": "CODE",
-                    "date": 1599862599171,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1546300800000
-                },
-                {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L331-15 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L331-15",
-                    "articleId": "LEGIARTI000023368860",
-                    "natureText": "CODE",
-                    "date": 1599862599171,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1546300800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000325880",
-                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 8",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000325880",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000337142",
-                    "textTitle": "D\u00e9cret n\u00b073-1023 du 8 novembre 1973 (V)",
+                    "textTitle": "D\u00e9cret n\u00b0 73-1023 du 8 novembre 1973",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -160,17 +178,111 @@
                     "datePubliTexte": "2012-01-27",
                     "dateSignaTexte": "2012-01-25",
                     "dateDebutCible": "2012-03-01"
+                },
+                {
+                    "textCid": "JORFTEXT000047277930",
+                    "textTitle": "D\u00e9cret n\u00b02023-165 du 7 mars 2023 - art. 5",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000047278728",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-03-09",
+                    "dateSignaTexte": "2023-03-07",
+                    "dateDebutCible": "2023-03-10"
                 }
             ],
-            "num": "R331-8",
-            "origine": "LEGI",
-            "texte": "Pour le calcul de la part communale ou intercommunale de la taxe d'am\u00e9nagement, si le projet de construction ou d'am\u00e9nagement est r\u00e9alis\u00e9 dans des secteurs comportant des taux diff\u00e9rents en application des articles L. 331-14 et L. 331-15 , il est fait application du taux le moins \u00e9lev\u00e9.",
-            "texteHtml": "<p>Pour le calcul de la part communale ou intercommunale de la taxe d'am\u00e9nagement, si le projet de construction ou d'am\u00e9nagement est r\u00e9alis\u00e9 dans des secteurs comportant des taux diff\u00e9rents en application des articles <a href='/article/LEGIARTI000023368848' title='Code de l'urbanisme - art. L331-14 (V)'>L. 331-14 </a>et <a href='/article/LEGIARTI000023368860' title='Code de l'urbanisme - art. L331-15 (V)'>L. 331-15</a>, il est fait application du taux le moins \u00e9lev\u00e9.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-03-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L331-14",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L331-14",
+                    "articleId": "LEGIARTI000023368848",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1546300800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L331-15",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L331-15",
+                    "articleId": "LEGIARTI000023368860",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1546300800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000325880",
+                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 8",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000325880",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006818200",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 121996800000,
+                    "dateFin": 1330560000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025210946",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1330560000000,
+                    "dateFin": 1678406400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R331-8",
+                "331-8"
+            ],
+            "versionPrecedente": "LEGIARTI000006818200",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006818200",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le ministre charg\u00e9 de l'urbanisme peut, apr\u00e8s avis de la commission r\u00e9gionale des op\u00e9rations immobili\u00e8res, de l'architecture et des espaces prot\u00e9g\u00e9s, proc\u00e9der aux acquisitions et aux travaux d'am\u00e9nagement n\u00e9cessaires pour la r\u00e9alisation d'op\u00e9rations entreprises aux fins pr\u00e9vues \u00e0 l'article R. 331-1.",
+            "texteHtml": "<p></p>   Le ministre charg\u00e9 de l'urbanisme peut, apr\u00e8s avis de la commission r\u00e9gionale des op\u00e9rations immobili\u00e8res, de l'architecture et des espaces prot\u00e9g\u00e9s, proc\u00e9der aux acquisitions et aux travaux d'am\u00e9nagement n\u00e9cessaires pour la r\u00e9alisation d'op\u00e9rations entreprises aux fins pr\u00e9vues \u00e0 l'article R. 331-1.<p></p><p></p>",
+            "num": "R*331-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 121996800000,
+            "dateFin": 1330560000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -211,12 +323,12 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006158759",
                         "id": "LEGISCTA000025214673",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1973-11-13",
@@ -242,46 +354,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006818200",
-            "lienAutres": [
+            "cid": "LEGIARTI000006818200",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175845",
+            "sectionParentId": "LEGISCTA000006175845",
+            "sectionParentTitre": " Section 4 : Op\u00e9rations r\u00e9alis\u00e9es par l'Etat",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Am\u00e9nagement foncier &gt; Titre III : Dispositions financi\u00e8res &gt; Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006818200",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme R331-12, R331-13",
-                    "linkType": "TXT_ASSOCIE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006074075",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme R331-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006074075",
-                    "natureText": "CODE",
-                    "date": 1599104642503,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 94867200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000325880",
-                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 8",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000325880",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -308,13 +427,77 @@
                     "dateDebutCible": "2007-10-01"
                 }
             ],
-            "num": "R*331-8",
-            "origine": "LEGI",
-            "texte": "Le ministre charg\u00e9 de l'urbanisme peut, apr\u00e8s avis de la commission r\u00e9gionale des op\u00e9rations immobili\u00e8res, de l'architecture et des espaces prot\u00e9g\u00e9s, proc\u00e9der aux acquisitions et aux travaux d'am\u00e9nagement n\u00e9cessaires pour la r\u00e9alisation d'op\u00e9rations entreprises aux fins pr\u00e9vues \u00e0 l'article R. 331-1.",
-            "texteHtml": "<p></p>   Le ministre charg\u00e9 de l'urbanisme peut, apr\u00e8s avis de la commission r\u00e9gionale des op\u00e9rations immobili\u00e8res, de l'architecture et des espaces prot\u00e9g\u00e9s, proc\u00e9der aux acquisitions et aux travaux d'am\u00e9nagement n\u00e9cessaires pour la r\u00e9alisation d'op\u00e9rations entreprises aux fins pr\u00e9vues \u00e0 l'article R. 331-1.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1973-11-13T00:00:00.000Z",
-            "dateFin": "2012-03-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme R331-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 94867200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000325880",
+                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 8",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000325880",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme R331-12, R331-13",
+                    "linkType": "TXT_ASSOCIE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006818200",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 121996800000,
+                    "dateFin": 1330560000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025210946",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1330560000000,
+                    "dateFin": 1678406400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*331-8",
+                "331-8",
+                "R331-8"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

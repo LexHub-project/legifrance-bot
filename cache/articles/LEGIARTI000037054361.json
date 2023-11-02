@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000037054361",
-    "num": "L137-39",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000037054563",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret fixe les conditions d'application des dispositions de la pr\u00e9sente section.",
+            "texteHtml": "<p>Un d\u00e9cret fixe les conditions d'application des dispositions de la pr\u00e9sente section.</p><p></p>",
+            "num": "L137-39",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1528934400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2145386495,
             "context": {
                 "titresTM": [
                     {
@@ -65,21 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000037054563",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000037054361",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000037054197",
+            "sectionParentId": "LEGISCTA000037054197",
+            "sectionParentTitre": "Section 13 : Contribution sociale de solidarit\u00e9 \u00e0 la charge des soci\u00e9t\u00e9s",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre I : G\u00e9n\u00e9ralit\u00e9s - Dispositions communes \u00e0 tout ou partie des r\u00e9gimes de base &gt; Titre III : Dispositions communes relatives au financement &gt; Chapitre 7 : Recettes diverses &gt; Section 13 : Contribution sociale de solidarit\u00e9 \u00e0 la charge des soci\u00e9t\u00e9s",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000037054563",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L651-9 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L651-9",
-                    "articleId": "LEGIARTI000023266560",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006073189",
+                    "titre": "Code de la s\u00e9curit\u00e9 sociale.",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 sociale",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -353808000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073189",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000037051001",
@@ -94,13 +141,43 @@
                     "dateDebutCible": "2018-06-14"
                 }
             ],
-            "num": "L137-39",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret fixe les conditions d'application des dispositions de la pr\u00e9sente section.",
-            "texteHtml": "<p>Un d\u00e9cret fixe les conditions d'application des dispositions de la pr\u00e9sente section.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-06-14T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006073189",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. L651-9 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L651-9",
+                    "articleId": "LEGIARTI000023266560",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000037054563",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1528934400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L137-39",
+                "137-39"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

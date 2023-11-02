@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006916921",
-    "num": "R6123-104",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000044941654",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie concerne les actes diagnostiques et th\u00e9rapeutiques qui portent sur la r\u00e9gion cervico-c\u00e9phalique et m\u00e9dullo-rachidienne et qui sont r\u00e9alis\u00e9s par voie endovasculaire ou par voie percutan\u00e9e, hors localisation ost\u00e9oarticulaire. Les actes portant sur la thyro\u00efde ne sont pas concern\u00e9s.",
+            "texteHtml": "<p>L'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie concerne les actes diagnostiques et th\u00e9rapeutiques qui portent sur la r\u00e9gion cervico-c\u00e9phalique et m\u00e9dullo-rachidienne et qui sont r\u00e9alis\u00e9s par voie endovasculaire ou par voie percutan\u00e9e, hors localisation ost\u00e9oarticulaire. Les actes portant sur la thyro\u00efde ne sont pas concern\u00e9s.</p>",
+            "num": "R6123-104",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -57,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000006190817",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000044941657",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -83,40 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000044941654",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916921",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190817",
+            "sectionParentId": "LEGISCTA000044941657",
+            "sectionParentTitre": "Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000044941654",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000020616958",
-                    "textTitle": "Arr\u00eat\u00e9 du 29 avril 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000020616958",
-                    "natureText": "ARRETE",
-                    "date": 1642027219577,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1242432000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-147 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D6124-147",
-                    "articleId": "LEGIARTI000006917157",
-                    "natureText": "CODE",
-                    "date": 1642027219577,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1174435200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Se reporter aux conditions d'application pr\u00e9vues \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-21 du 10 janvier 2022.",
+            "notaHtml": "<p>Se reporter aux conditions d'application pr\u00e9vues \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-21 du 10 janvier 2022.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -143,15 +171,191 @@
                     "dateDebutCible": "2023-06-01"
                 }
             ],
-            "num": "R6123-104",
-            "origine": "LEGI",
-            "texte": "L'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie concerne les actes diagnostiques et th\u00e9rapeutiques qui portent sur la r\u00e9gion cervico-c\u00e9phalique et m\u00e9dullo-rachidienne et qui sont r\u00e9alis\u00e9s par voie endovasculaire ou par voie percutan\u00e9e, hors localisation ost\u00e9oarticulaire. Les actes portant sur la thyro\u00efde ne sont pas concern\u00e9s.",
-            "texteHtml": "<p>L'activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie concerne les actes diagnostiques et th\u00e9rapeutiques qui portent sur la r\u00e9gion cervico-c\u00e9phalique et m\u00e9dullo-rachidienne et qui sont r\u00e9alis\u00e9s par voie endovasculaire ou par voie percutan\u00e9e, hors localisation ost\u00e9oarticulaire. Les actes portant sur la thyro\u00efde ne sont pas concern\u00e9s.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000020616958",
+                    "textTitle": "Arr\u00eat\u00e9 du 29 avril 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000020616958",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1242432000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000046298533",
+                    "textTitle": "Arr\u00eat\u00e9 du 14 septembre 2022 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000046298536",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1663372800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000046335120",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 septembre 2022 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000046335123",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1664323200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000046704609",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 d\u00e9cembre 2022 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000046704612",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1670457600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000046711907",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 d\u00e9cembre 2022 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000046711910",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1670544000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000047089878",
+                    "textTitle": "Arr\u00eat\u00e9 du 31 janvier 2023 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000047089882",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1675468800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000047234065",
+                    "textTitle": "Arr\u00eat\u00e9 du 24 f\u00e9vrier 2023 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000047234070",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1677542400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000047234083",
+                    "textTitle": "Arr\u00eat\u00e9 du 24 f\u00e9vrier 2023 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000047234090",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1677542400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000047396675",
+                    "textTitle": "Arr\u00eat\u00e9 du 29 mars 2023 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000047396679",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1680566400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-147 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D6124-147",
+                    "articleId": "LEGIARTI000006917157",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174435200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916921",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044941654",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-104",
+                "6123-104"
+            ],
+            "versionPrecedente": "LEGIARTI000006916921",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006916921",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie mentionn\u00e9es au 13\u00b0 de l'article R. 6122-25 portent sur la r\u00e9gion cervico-c\u00e9phalique et m\u00e9dullo-rachidienne.",
+            "texteHtml": "<p></p>   Les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie mentionn\u00e9es au 13\u00b0 de l'article R. 6122-25 portent sur la r\u00e9gion cervico-c\u00e9phalique et m\u00e9dullo-rachidienne.<p></p><p></p>",
+            "num": "R6123-104",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174435200000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -206,7 +410,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000006190817",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -215,7 +419,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190817",
                         "id": "LEGISCTA000044941657",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -232,54 +436,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000006916921",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006916921",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006190817",
+            "sectionParentId": "LEGISCTA000044941657",
+            "sectionParentTitre": "Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 9 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en neuroradiologie",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006916921",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000020616958",
-                    "textTitle": "Arr\u00eat\u00e9 du 29 avril 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000020616958",
-                    "natureText": "ARRETE",
-                    "date": 1642027219915,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1242432000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-147 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D6124-147",
-                    "articleId": "LEGIARTI000006917157",
-                    "natureText": "CODE",
-                    "date": 1642027219915,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1174435200000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R6122-25 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R6122-25",
-                    "articleId": "LEGIARTI000006916682",
-                    "natureText": "CODE",
-                    "date": 1642027219915,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1122336000000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -306,13 +509,186 @@
                     "dateDebutCible": "2007-03-21"
                 }
             ],
-            "num": "R6123-104",
-            "origine": "LEGI",
-            "texte": "Les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie mentionn\u00e9es au 13\u00b0 de l'article R. 6122-25 portent sur la r\u00e9gion cervico-c\u00e9phalique et m\u00e9dullo-rachidienne.",
-            "texteHtml": "<p></p>   Les activit\u00e9s interventionnelles par voie endovasculaire en neuroradiologie mentionn\u00e9es au 13\u00b0 de l'article R. 6122-25 portent sur la r\u00e9gion cervico-c\u00e9phalique et m\u00e9dullo-rachidienne.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-21T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000020616958",
+                    "textTitle": "Arr\u00eat\u00e9 du 29 avril 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000020616958",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1242432000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000046298533",
+                    "textTitle": "Arr\u00eat\u00e9 du 14 septembre 2022 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000046298536",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1663372800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000046335120",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 septembre 2022 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000046335123",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1664323200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000046704609",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 d\u00e9cembre 2022 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000046704612",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1670457600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000046711907",
+                    "textTitle": "Arr\u00eat\u00e9 du 6 d\u00e9cembre 2022 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000046711910",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1670544000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000047089878",
+                    "textTitle": "Arr\u00eat\u00e9 du 31 janvier 2023 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000047089882",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1675468800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000047234065",
+                    "textTitle": "Arr\u00eat\u00e9 du 24 f\u00e9vrier 2023 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000047234070",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1677542400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000047234083",
+                    "textTitle": "Arr\u00eat\u00e9 du 24 f\u00e9vrier 2023 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000047234090",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1677542400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000047396675",
+                    "textTitle": "Arr\u00eat\u00e9 du 29 mars 2023 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000047396679",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1680566400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D6124-147 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D6124-147",
+                    "articleId": "LEGIARTI000006917157",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174435200000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R6122-25 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R6122-25",
+                    "articleId": "LEGIARTI000006916682",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1685577600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916921",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174435200000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044941654",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R6123-104",
+                "6123-104"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

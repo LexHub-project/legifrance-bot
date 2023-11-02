@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018499642",
-    "num": "R7122-28",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000039159826",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les amendes mentionn\u00e9es \u00e0 la pr\u00e9sente section sont vers\u00e9es au Tr\u00e9sor et sont recouvr\u00e9es comme les cr\u00e9ances de l'Etat \u00e9trang\u00e8res \u00e0 l'imp\u00f4t et au domaine.",
+            "texteHtml": "<p>Les amendes mentionn\u00e9es \u00e0 la pr\u00e9sente section sont vers\u00e9es au Tr\u00e9sor et sont recouvr\u00e9es comme les cr\u00e9ances de l'Etat \u00e9trang\u00e8res \u00e0 l'imp\u00f4t et au domaine.</p>",
+            "num": "R7122-28",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1569888000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 805306365,
             "context": {
                 "titresTM": [
                     {
@@ -110,21 +125,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000039159826",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000018499642",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018499668",
+            "sectionParentId": "LEGISCTA000039159836",
+            "sectionParentTitre": "Section 4 : Sanctions administratives",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Septi\u00e8me partie : Dispositions particuli\u00e8res \u00e0 certaines professions et activit\u00e9s  &gt; Livre Ier : Journalistes professionnels, professions du spectacle, de la publicit\u00e9 et de la mode  &gt; Titre II : Professions du spectacle, de la publicit\u00e9 et de la mode  &gt; Chapitre II : Entreprises de spectacles vivants &gt; Section 4 : Sanctions administratives",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000039159826",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000204313",
-                    "textTitle": "D\u00e9cret n\u00b02000-609 du 29 juin 2000 - art. 10 al 1 et 2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000018504469",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000039147010",
@@ -139,15 +186,70 @@
                     "dateDebutCible": "2019-10-01"
                 }
             ],
-            "num": "R7122-28",
-            "origine": "LEGI",
-            "texte": "Les amendes mentionn\u00e9es \u00e0 la pr\u00e9sente section sont vers\u00e9es au Tr\u00e9sor et sont recouvr\u00e9es comme les cr\u00e9ances de l'Etat \u00e9trang\u00e8res \u00e0 l'imp\u00f4t et au domaine.",
-            "texteHtml": "<p>Les amendes mentionn\u00e9es \u00e0 la pr\u00e9sente section sont vers\u00e9es au Tr\u00e9sor et sont recouvr\u00e9es comme les cr\u00e9ances de l'Etat \u00e9trang\u00e8res \u00e0 l'imp\u00f4t et au domaine.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-10-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000204313",
+                    "textTitle": "D\u00e9cret n\u00b02000-609 du 29 juin 2000 - art. 10 al 1 et 2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000018504469",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018521687",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1569888000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000039159826",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1569888000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R7122-28",
+                "7122-28"
+            ],
+            "versionPrecedente": "LEGIARTI000018521687",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018521687",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La liste et les conditions de pr\u00e9sentation des documents requis pour la d\u00e9claration pr\u00e9alable sont fix\u00e9es par un arr\u00eat\u00e9 du ministre charg\u00e9 de la culture.",
+            "texteHtml": "<p><br/>La liste et les conditions de pr\u00e9sentation des documents requis pour la d\u00e9claration pr\u00e9alable sont fix\u00e9es par un arr\u00eat\u00e9 du ministre charg\u00e9 de la culture.</p>",
+            "num": "R7122-28",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1569888000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 805306365,
             "context": {
                 "titresTM": [
                     {
@@ -246,21 +348,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018521687",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000018499642",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018499636",
+            "sectionParentId": "LEGISCTA000039159747",
+            "sectionParentTitre": "Section 2 : Activit\u00e9 d'entrepreneur de spectacles vivants \u00e0 titre accessoire",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Septi\u00e8me partie : Dispositions particuli\u00e8res \u00e0 certaines professions et activit\u00e9s  &gt; Livre Ier : Journalistes professionnels, professions du spectacle, de la publicit\u00e9 et de la mode  &gt; Titre II : Professions du spectacle, de la publicit\u00e9 et de la mode  &gt; Chapitre II : Entreprises de spectacles vivants &gt; Section 2 : Activit\u00e9 d'entrepreneur de spectacles vivants \u00e0 titre accessoire",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000018521687",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000204313",
-                    "textTitle": "D\u00e9cret n\u00b02000-609 du 29 juin 2000 - art. 10 al 1 et 2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000018504469",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018442415",
@@ -275,13 +409,52 @@
                     "dateDebutCible": "2008-03-13"
                 }
             ],
-            "num": "R7122-28",
-            "origine": "LEGI",
-            "texte": "La liste et les conditions de pr\u00e9sentation des documents requis pour la d\u00e9claration pr\u00e9alable sont fix\u00e9es par un arr\u00eat\u00e9 du ministre charg\u00e9 de la culture.",
-            "texteHtml": "<p><br/>La liste et les conditions de pr\u00e9sentation des documents requis pour la d\u00e9claration pr\u00e9alable sont fix\u00e9es par un arr\u00eat\u00e9 du ministre charg\u00e9 de la culture.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2019-10-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000204313",
+                    "textTitle": "D\u00e9cret n\u00b02000-609 du 29 juin 2000 - art. 10 al 1 et 2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000018504469",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018521687",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1569888000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000039159826",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1569888000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R7122-28",
+                "7122-28"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

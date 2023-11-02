@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033819494",
-    "num": "D355-21",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033819494",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'insigne pr\u00e9vu \u00e0 l'article D. 355-20 , mais sans l'\u00e9toile blanche de m\u00e9tal \u00e0 cinq branches, est attribu\u00e9 d'office \u00e0 toute victime civile pensionn\u00e9e au titre du pr\u00e9sent code en qualit\u00e9 de victime directe qui ne remplit pas les conditions mentionn\u00e9es \u00e0 l'article R. 355-19 .",
+            "texteHtml": "<p><br/>L'insigne pr\u00e9vu \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074068&idArticle=LEGIARTI000033819492&dateTexte=&categorieLien=cid' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. D355-20 (V)'>D. 355-20</a>, mais sans l'\u00e9toile blanche de m\u00e9tal \u00e0 cinq branches, est attribu\u00e9 d'office \u00e0 toute victime civile pensionn\u00e9e au titre du pr\u00e9sent code en qualit\u00e9 de victime directe qui ne remplit pas les conditions mentionn\u00e9es \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074068&idArticle=LEGIARTI000033819490&dateTexte=&categorieLien=cid' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. R355-19 (V)'>R. 355-19</a>.</p>",
+            "num": "D355-21",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-07-01",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033818960",
                         "id": "LEGISCTA000033818960",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION RECONNAISSANCE DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000033818960",
+                        "id": "LEGISCTA000047770455",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -55,15 +79,6 @@
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -71,67 +86,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033819494",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033819494",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033819488",
+            "sectionParentId": "LEGISCTA000033819488",
+            "sectionParentTitre": "Section 8 : Insigne des victimes civiles",
+            "fullSectionsTitre": "Partie r\u00e9glementaire (nouvelle)  &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre V : D\u00c9CORATIONS &gt; Chapitre V : Autres m\u00e9daille et insignes &gt; Section 8 : Insigne des victimes civiles",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033819494",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D355-20 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "D355-20",
-                    "articleId": "LEGIARTI000033819492",
-                    "natureText": "CODE",
-                    "date": 1599844993774,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D355-22 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D355-22",
-                    "articleId": "LEGIARTI000033819496",
-                    "natureText": "CODE",
-                    "date": 1599844993774,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                },
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R355-19 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R355-19",
-                    "articleId": "LEGIARTI000033819490",
-                    "natureText": "CODE",
-                    "date": 1599844993774,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D309 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "D309",
-                    "articleId": "LEGIARTI000006793801",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033719487",
@@ -158,13 +199,83 @@
                     "dateDebutCible": "2016-12-30"
                 }
             ],
-            "num": "D355-21",
-            "origine": "LEGI",
-            "texte": "L'insigne pr\u00e9vu \u00e0 l'article D. 355-20 , mais sans l'\u00e9toile blanche de m\u00e9tal \u00e0 cinq branches, est attribu\u00e9 d'office \u00e0 toute victime civile pensionn\u00e9e au titre du pr\u00e9sent code en qualit\u00e9 de victime directe qui ne remplit pas les conditions mentionn\u00e9es \u00e0 l'article R. 355-19 .",
-            "texteHtml": "<p><br/>L'insigne pr\u00e9vu \u00e0 l'article <a href='/article/LEGIARTI000033819492' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. D355-20 (V)'>D. 355-20</a>, mais sans l'\u00e9toile blanche de m\u00e9tal \u00e0 cinq branches, est attribu\u00e9 d'office \u00e0 toute victime civile pensionn\u00e9e au titre du pr\u00e9sent code en qualit\u00e9 de victime directe qui ne remplit pas les conditions mentionn\u00e9es \u00e0 l'article <a href='/article/LEGIARTI000033819490' title='Code des pensions militaires d'invalidit\u00e9 et de... - art. R355-19 (V)'>R. 355-19</a>.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D355-20 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "D355-20",
+                    "articleId": "LEGIARTI000033819492",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D355-22 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D355-22",
+                    "articleId": "LEGIARTI000033819496",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R355-19 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R355-19",
+                    "articleId": "LEGIARTI000033819490",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. D309 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "D309",
+                    "articleId": "LEGIARTI000006793801",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033819494",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D355-21",
+                "355-21"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

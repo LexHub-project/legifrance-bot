@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033019799",
-    "num": "L412-16",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033019799",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un d\u00e9cret d\u00e9finit une proc\u00e9dure de d\u00e9claration annuelle simplifi\u00e9e pour les d\u00e9tenteurs de collections scientifiques.",
+            "texteHtml": "<p>Un d\u00e9cret d\u00e9finit une proc\u00e9dure de d\u00e9claration annuelle simplifi\u00e9e pour les d\u00e9tenteurs de collections scientifiques. </p>",
+            "num": "L412-16",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1470787200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -110,40 +125,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033019799",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033019799",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033019797",
+            "sectionParentId": "LEGISCTA000033019797",
+            "sectionParentTitre": "Paragraphe 7 :  Collections ",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre IV : Patrimoine naturel &gt; Titre Ier : Protection du patrimoine naturel &gt; Chapitre II : Encadrement des usages du patrimoine naturel &gt; Section 3 : Acc\u00e8s aux ressources g\u00e9n\u00e9tiques et aux connaissances traditionnelles associ\u00e9es et partage des avantages d\u00e9coulant de leur utilisation &gt; Sous-section 2 :  R\u00e8gles relatives \u00e0 l'acc\u00e8s aux ressources g\u00e9n\u00e9tiques et aux connaissances traditionnelles associ\u00e9es sur le territoire national, et au partage des avantages d\u00e9coulant de leur utilisation  &gt; Paragraphe 7 :  Collections ",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033019799",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L173-2 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L173-2",
-                    "articleId": "LEGIARTI000033932794",
-                    "natureText": "CODE",
-                    "date": 1599845044596,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1488326400000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R412-16 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R412-16",
-                    "articleId": "LEGIARTI000034670513",
-                    "natureText": "CODE",
-                    "date": 1599845044596,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1498867200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033016237",
@@ -158,13 +186,60 @@
                     "dateDebutCible": "2016-08-10"
                 }
             ],
-            "num": "L412-16",
-            "origine": "LEGI",
-            "texte": "Un d\u00e9cret d\u00e9finit une proc\u00e9dure de d\u00e9claration annuelle simplifi\u00e9e pour les d\u00e9tenteurs de collections scientifiques.",
-            "texteHtml": "<p>Un d\u00e9cret d\u00e9finit une proc\u00e9dure de d\u00e9claration annuelle simplifi\u00e9e pour les d\u00e9tenteurs de collections scientifiques. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-08-10T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L173-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L173-2",
+                    "articleId": "LEGIARTI000033932794",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1488326400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R412-16 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R412-16",
+                    "articleId": "LEGIARTI000034670513",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1498867200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033019799",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1470787200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L412-16",
+                "412-16"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031550322",
-    "num": "L854-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031550327",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les personnes qui exercent en France un mandat ou une profession mentionn\u00e9 \u00e0 l'article L. 821-7 ne peuvent faire l'objet d'une surveillance individuelle de leurs communications \u00e0 raison de l'exercice du mandat ou de la profession concern\u00e9.",
+            "texteHtml": "<p>Les personnes qui exercent en France un mandat ou une profession mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000025503132&idArticle=LEGIARTI000030935060&dateTexte=&categorieLien=cid'>L. 821-7</a> ne peuvent faire l'objet d'une surveillance individuelle de leurs communications \u00e0 raison de l'exercice du mandat ou de la profession concern\u00e9.</p>",
+            "num": "L854-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1449014400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -65,26 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031550327",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031550322",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000030935970",
+            "sectionParentId": "LEGISCTA000031552063",
+            "sectionParentTitre": "Chapitre IV : Des mesures de surveillance des communications \u00e9lectroniques internationales",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : DU RENSEIGNEMENT &gt; TITRE V : DES TECHNIQUES DE RECUEIL DE RENSEIGNEMENT SOUMISES A AUTORISATION &gt; Chapitre IV : Des mesures de surveillance des communications \u00e9lectroniques internationales",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031550327",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L821-7",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L821-7",
-                    "articleId": "LEGIARTI000030935060",
-                    "natureText": "CODE",
-                    "date": 1599125624497,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1443830400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031549747",
@@ -99,13 +141,47 @@
                     "dateDebutCible": "2015-12-02"
                 }
             ],
-            "num": "L854-3",
-            "origine": "LEGI",
-            "texte": "Les personnes qui exercent en France un mandat ou une profession mentionn\u00e9 \u00e0 l'article L. 821-7 ne peuvent faire l'objet d'une surveillance individuelle de leurs communications \u00e0 raison de l'exercice du mandat ou de la profession concern\u00e9.",
-            "texteHtml": "<p>Les personnes qui exercent en France un mandat ou une profession mentionn\u00e9 \u00e0 l'article <a href='/article/LEGIARTI000030935060'>L. 821-7</a> ne peuvent faire l'objet d'une surveillance individuelle de leurs communications \u00e0 raison de l'exercice du mandat ou de la profession concern\u00e9.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-12-02T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L821-7",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L821-7",
+                    "articleId": "LEGIARTI000030935060",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1443830400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031550327",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1449014400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L854-3",
+                "854-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

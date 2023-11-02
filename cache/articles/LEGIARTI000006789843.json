@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006789843",
-    "num": "A441-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006789843",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'unit\u00e9 de rente correspondant \u00e0 un rachat a la m\u00eame valeur d'acquisition que l'unit\u00e9 de rente acquise normalement dans l'ann\u00e9e du rachat.",
+            "texteHtml": "<p></p>   L'unit\u00e9 de rente correspondant \u00e0 un rachat a la m\u00eame valeur d'acquisition que l'unit\u00e9 de rente acquise normalement dans l'ann\u00e9e du rachat.<p></p><p></p>",
+            "num": "A441-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 803001600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -65,31 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006789843",
-            "lienAutres": [
+            "cid": "LEGIARTI000006789843",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006173946",
+            "sectionParentId": "LEGISCTA000006173946",
+            "sectionParentTitre": "Section II : R\u00e8gles techniques et comptables.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - Arr\u00eat\u00e9s &gt; Livre IV : Organisations et r\u00e9gimes particuliers d'assurance &gt; Titre IV : R\u00e9gimes particuliers d'assurance &gt; Chapitre Ier : Dispositions relatives \u00e0 certaines op\u00e9rations de pr\u00e9voyance collective et d'assurance. &gt; Section II : R\u00e8gles techniques et comptables.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006789843",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. R*441-6 (M)",
-                    "linkType": "TXT_SOURCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R*441-6",
-                    "articleId": "LEGIARTI000006823291",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [],
-            "lienConcordes": [
-                {
-                    "textCid": "",
-                    "textTitle": "Arr\u00eat\u00e9 1968-08-21 art. 5",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -116,13 +153,53 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "A441-5",
-            "origine": "LEGI",
-            "texte": "L'unit\u00e9 de rente correspondant \u00e0 un rachat a la m\u00eame valeur d'acquisition que l'unit\u00e9 de rente acquise normalement dans l'ann\u00e9e du rachat.",
-            "texteHtml": "<p></p>   L'unit\u00e9 de rente correspondant \u00e0 un rachat a la m\u00eame valeur d'acquisition que l'unit\u00e9 de rente acquise normalement dans l'ann\u00e9e du rachat.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1995-06-13T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "Arr\u00eat\u00e9 1968-08-21 art. 5",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*441-6 (M)",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R*441-6",
+                    "articleId": "LEGIARTI000006823291",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006789843",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 803001600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "A441-5",
+                "441-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

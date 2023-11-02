@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023070327",
-    "num": "L2112-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023084656",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans la r\u00e9gion Ile-de-France, les r\u00e8gles relatives aux r\u00e9seaux ferroviaires ou guid\u00e9s urbains sont fix\u00e9es par les articles L. 1241-1 \u00e0 L. 1241-20 .",
+            "texteHtml": "<p><br/>Dans la r\u00e9gion Ile-de-France, les r\u00e8gles relatives aux r\u00e9seaux ferroviaires ou guid\u00e9s urbains sont fix\u00e9es par les <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023086525&idArticle=LEGIARTI000023069299&dateTexte=&categorieLien=cid' title='Code des transports - art. L1241-1 (V)'>articles L. 1241-1 \u00e0 L. 1241-20</a>.</p>",
+            "num": "L2112-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1291161600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -74,26 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023084656",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000023070327",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023070325",
+            "sectionParentId": "LEGISCTA000023084658",
+            "sectionParentTitre": "Section 3 : R\u00e9seau d'Ile-de-France",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; DEUXIEME PARTIE : TRANSPORT FERROVIAIRE OU GUIDE &gt; LIVRE IER : SYSTEME DE TRANSPORT FERROVIAIRE  OU GUIDE &gt; TITRE IER : INFRASTRUCTURES &gt; Chapitre II : Infrastructures n'appartenant pas \u00e0 l'Etat et \u00e0 ses \u00e9tablissements publics &gt; Section 3 : R\u00e9seau d'Ile-de-France",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000023084656",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L1241-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L1241-1",
-                    "articleId": "LEGIARTI000023069299",
-                    "natureText": "CODE",
-                    "date": 1599860956685,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1291161600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -108,13 +150,47 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L2112-3",
-            "origine": "LEGI",
-            "texte": "Dans la r\u00e9gion Ile-de-France, les r\u00e8gles relatives aux r\u00e9seaux ferroviaires ou guid\u00e9s urbains sont fix\u00e9es par les articles L. 1241-1 \u00e0 L. 1241-20 .",
-            "texteHtml": "<p><br/>Dans la r\u00e9gion Ile-de-France, les r\u00e8gles relatives aux r\u00e9seaux ferroviaires ou guid\u00e9s urbains sont fix\u00e9es par les <a href='/article/LEGIARTI000023069299' title='Code des transports - art. L1241-1 (V)'>articles L. 1241-1 \u00e0 L. 1241-20</a>.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L1241-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L1241-1",
+                    "articleId": "LEGIARTI000023069299",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577404800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023084656",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2112-3",
+                "2112-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

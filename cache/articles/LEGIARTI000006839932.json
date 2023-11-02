@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006839932",
-    "num": "R656-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031637712",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le livre VII est applicable au   d\u00e9partement de Mayotte.",
+            "texteHtml": "<p>Le livre VII est applicable au   d\u00e9partement de Mayotte.</p>",
+            "num": "R656-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1450396800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -74,30 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031637712",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006839932",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159465",
+            "sectionParentId": "LEGISCTA000006159465",
+            "sectionParentTitre": "Chapitre VI : Protection de l'environnement en Antarctique",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VI : Dispositions applicables en Nouvelle-Cal\u00e9donie, en Polyn\u00e9sie fran\u00e7aise, \u00e0 Wallis-et-Futuna, dans les Terres Australes et Antarctiques fran\u00e7aises, \u00e0 Mayotte et \u00e0 Saint-Martin &gt; Titre V : Dispositions applicables au d\u00e9partement de Mayotte &gt; Chapitre VI : Protection de l'environnement en Antarctique",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000031637712",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000790101",
-                    "textTitle": "D\u00e9cret n\u00b02005-403 du 28 avril 2005 - art. 2, v. init.",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "2",
-                    "articleId": "JORFARTI000001529703",
-                    "natureText": "DECRET"
-                },
-                {
-                    "textCid": "JORFTEXT000000790101",
-                    "textTitle": "D\u00e9cret n\u00b02005-403 du 28 avril 2005 - art. 2 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000006240621",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000248208",
@@ -124,15 +162,79 @@
                     "dateDebutCible": "2015-12-18"
                 }
             ],
-            "num": "R656-1",
-            "origine": "LEGI",
-            "texte": "Le livre VII est applicable au   d\u00e9partement de Mayotte.",
-            "texteHtml": "<p>Le livre VII est applicable au   d\u00e9partement de Mayotte.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-12-18T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000790101",
+                    "textTitle": "D\u00e9cret n\u00b02005-403 du 28 avril 2005 - art. 2, v. init.",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "2",
+                    "articleId": "JORFARTI000001529703",
+                    "natureText": "DECRET"
+                },
+                {
+                    "textCid": "JORFTEXT000000790101",
+                    "textTitle": "D\u00e9cret n\u00b02005-403 du 28 avril 2005 - art. 2 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000006240621",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006839932",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1450396800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031637712",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1450396800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R656-1",
+                "656-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006839932",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006839932",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le livre VII est applicable \u00e0 la collectivit\u00e9 d\u00e9partementale de Mayotte.",
+            "texteHtml": "<p></p>   Le livre VII est applicable \u00e0 la collectivit\u00e9 d\u00e9partementale de Mayotte.<p></p><p></p>",
+            "num": "R656-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174608000000,
+            "dateFin": 1450396800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -204,9 +306,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006839932",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006839932",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159465",
+            "sectionParentId": "LEGISCTA000006159465",
+            "sectionParentTitre": "Chapitre VI : Protection de l'environnement en Antarctique",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VI : Dispositions applicables en Nouvelle-Cal\u00e9donie, en Polyn\u00e9sie fran\u00e7aise, \u00e0 Wallis-et-Futuna, dans les Terres Australes et Antarctiques fran\u00e7aises, \u00e0 Mayotte et \u00e0 Saint-Martin &gt; Titre V : Dispositions applicables au d\u00e9partement de Mayotte &gt; Chapitre VI : Protection de l'environnement en Antarctique",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006839932",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000248208",
+                    "textTitle": "D\u00e9cret 2007-397 2007-03-22 JORF 23 mars 2007",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000248208",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2007-03-23",
+                    "dateSignaTexte": "2007-03-22",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [
                 {
@@ -228,27 +388,40 @@
                     "natureText": "DECRET"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000248208",
-                    "textTitle": "D\u00e9cret 2007-397 2007-03-22 JORF 23 mars 2007",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000248208",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2007-03-23",
-                    "dateSignaTexte": "2007-03-22",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006839932",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1450396800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031637712",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1450396800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R656-1",
-            "origine": "LEGI",
-            "texte": "Le livre VII est applicable \u00e0 la collectivit\u00e9 d\u00e9partementale de Mayotte.",
-            "texteHtml": "<p></p>   Le livre VII est applicable \u00e0 la collectivit\u00e9 d\u00e9partementale de Mayotte.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-23T00:00:00.000Z",
-            "dateFin": "2015-12-18T00:00:00.000Z"
+            "computedNums": [
+                "R656-1",
+                "656-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

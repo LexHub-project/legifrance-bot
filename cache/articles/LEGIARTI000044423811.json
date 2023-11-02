@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000044423811",
-    "num": "L714-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000046195771",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les fonctionnaires actifs de la police nationale peuvent b\u00e9n\u00e9ficier d'indemnit\u00e9s exceptionnelles et d'un r\u00e9gime indemnitaire particulier.",
+            "texteHtml": "<p><br/>Les fonctionnaires actifs de la police nationale peuvent b\u00e9n\u00e9ficier d'indemnit\u00e9s exceptionnelles et d'un r\u00e9gime indemnitaire particulier.</p>",
+            "num": "L714-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1660780800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1431655764,
             "context": {
                 "titresTM": [
                     {
@@ -31,6 +46,15 @@
                         "cid": "LEGISCTA000044423737",
                         "id": "LEGISCTA000044424841",
                         "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2022-03-01",
+                        "fin": "2022-08-18",
+                        "titre": "Chapitre IV : R\u00e9gimes indemnitaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000044423801",
+                        "id": "LEGISCTA000044424777",
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2022-08-18",
@@ -74,21 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000046195771",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000044423811",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000044423807",
+            "sectionParentId": "LEGISCTA000046195786",
+            "sectionParentTitre": "Section 2 : R\u00e9gimes indemnitaires au sein de la fonction publique de l'Etat",
+            "fullSectionsTitre": "PARTIE L\u00c9GISLATIVE &gt; Livre VII : R\u00c9MUN\u00c9RATION ET ACTION SOCIALE &gt; Titre Ier : R\u00c9MUNERATION &gt; Chapitre IV : R\u00e9gimes indemnitaires &gt; Section 2 : R\u00e9gimes indemnitaires au sein de la fonction publique de l'Etat",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000046195771",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000369046",
-                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 19, al. 6, sauf r\u00e9gime de retraite (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "19",
-                    "articleId": "LEGIARTI000025544097",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000044416551",
+                    "titre": "Code g\u00e9n\u00e9ral de la fonction publique",
+                    "titreLong": "Code g\u00e9n\u00e9ral de la fonction publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1646092800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000044416551",
+                    "datePubli": 1638748800000,
+                    "datePubliComputed": 1638748800000,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000044411525",
@@ -115,15 +171,70 @@
                     "dateDebutCible": "2022-08-18"
                 }
             ],
-            "num": "L714-3",
-            "origine": "LEGI",
-            "texte": "Les fonctionnaires actifs de la police nationale peuvent b\u00e9n\u00e9ficier d'indemnit\u00e9s exceptionnelles et d'un r\u00e9gime indemnitaire particulier.",
-            "texteHtml": "<p><br/>Les fonctionnaires actifs de la police nationale peuvent b\u00e9n\u00e9ficier d'indemnit\u00e9s exceptionnelles et d'un r\u00e9gime indemnitaire particulier.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-08-18T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000369046",
+                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 19, al. 6, sauf r\u00e9gime de retraite (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "19",
+                    "articleId": "LEGIARTI000025544097",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000046195771",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1660780800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044424767",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1646092800000,
+                    "dateFin": 1660780800000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L714-3",
+                "714-3"
+            ],
+            "versionPrecedente": "LEGIARTI000044424767",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000044424767",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les fonctionnaires actifs de la police nationale peuvent b\u00e9n\u00e9ficier d'indemnit\u00e9s exceptionnelles et d'un r\u00e9gime indemnitaire particulier.",
+            "texteHtml": "<p><br/>Les fonctionnaires actifs de la police nationale peuvent b\u00e9n\u00e9ficier d'indemnit\u00e9s exceptionnelles et d'un r\u00e9gime indemnitaire particulier.</p>",
+            "num": "L714-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1646092800000,
+            "dateFin": 1660780800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1431655764,
             "context": {
                 "titresTM": [
                     {
@@ -163,6 +274,15 @@
                         "etat": "MODIFIE"
                     },
                     {
+                        "debut": "2022-08-18",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre IV : R\u00e9gimes indemnitaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000044423801",
+                        "id": "LEGISCTA000046195792",
+                        "etat": "VIGUEUR"
+                    },
+                    {
                         "debut": "2022-03-01",
                         "fin": "2022-08-18",
                         "titre": "Section 2 : R\u00e9gimes indemnitaires au sein de la fonction publique de l'Etat",
@@ -195,21 +315,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000044424767",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000044423811",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000044423807",
+            "sectionParentId": "LEGISCTA000046195786",
+            "sectionParentTitre": "Section 2 : R\u00e9gimes indemnitaires au sein de la fonction publique de l'Etat",
+            "fullSectionsTitre": "PARTIE L\u00c9GISLATIVE &gt; Livre VII : R\u00c9MUN\u00c9RATION ET ACTION SOCIALE &gt; Titre Ier : R\u00c9MUNERATION &gt; Chapitre IV : R\u00e9gimes indemnitaires &gt; Section 2 : R\u00e9gimes indemnitaires au sein de la fonction publique de l'Etat",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000044424767",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000369046",
-                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 19, al. 6, sauf r\u00e9gime de retraite (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "19",
-                    "articleId": "LEGIARTI000025544097",
-                    "natureText": "LOI"
+                    "id": "LEGITEXT000044416551",
+                    "titre": "Code g\u00e9n\u00e9ral de la fonction publique",
+                    "titreLong": "Code g\u00e9n\u00e9ral de la fonction publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1646092800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000044416551",
+                    "datePubli": 1638748800000,
+                    "datePubliComputed": 1638748800000,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000044411525",
@@ -236,13 +388,52 @@
                     "dateDebutCible": "2022-03-01"
                 }
             ],
-            "num": "L714-3",
-            "origine": "LEGI",
-            "texte": "Les fonctionnaires actifs de la police nationale peuvent b\u00e9n\u00e9ficier d'indemnit\u00e9s exceptionnelles et d'un r\u00e9gime indemnitaire particulier.",
-            "texteHtml": "<p><br/>Les fonctionnaires actifs de la police nationale peuvent b\u00e9n\u00e9ficier d'indemnit\u00e9s exceptionnelles et d'un r\u00e9gime indemnitaire particulier.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-03-01T00:00:00.000Z",
-            "dateFin": "2022-08-18T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000369046",
+                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 19, al. 6, sauf r\u00e9gime de retraite (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "19",
+                    "articleId": "LEGIARTI000025544097",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000046195771",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1660780800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044424767",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1646092800000,
+                    "dateFin": 1660780800000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L714-3",
+                "714-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

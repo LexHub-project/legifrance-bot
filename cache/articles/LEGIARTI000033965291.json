@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033965291",
-    "num": "R3114-6",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033965291",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La proc\u00e9dure publique d'allocation des capacit\u00e9s non utilis\u00e9es mentionn\u00e9e au troisi\u00e8me alin\u00e9a de l'article L. 3114-6 est d\u00e9finie de mani\u00e8re \u00e0 assurer la bonne information des entreprises de transport public routier sur l'existence d'emplacements d'arr\u00eats disponibles et leur acc\u00e8s effectif \u00e0 ces emplacements.",
+            "texteHtml": "<div align='left'>La proc\u00e9dure publique d'allocation des capacit\u00e9s non utilis\u00e9es mentionn\u00e9e au troisi\u00e8me alin\u00e9a de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023086525&idArticle=LEGIARTI000031960273&dateTexte=&categorieLien=cid'>L. 3114-6</a> est d\u00e9finie de mani\u00e8re \u00e0 assurer la bonne information des entreprises de transport public routier sur l'existence d'emplacements d'arr\u00eats disponibles et leur acc\u00e8s effectif \u00e0 ces emplacements.<br/><br/></div>",
+            "num": "R3114-6",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1485907200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -44,7 +59,7 @@
                     {
                         "debut": "2017-01-01",
                         "fin": "2999-01-01",
-                        "titre": "Chapitre IV : Gares et autres am\u00e9nagements de transport routier\n\n\n\n\n\n\n\n\n",
+                        "titre": "Chapitre IV : Gares et autres am\u00e9nagements de transport routier",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033452950",
                         "id": "LEGISCTA000033452950",
@@ -74,40 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033965291",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000033965291",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033965287",
+            "sectionParentId": "LEGISCTA000033965287",
+            "sectionParentTitre": "Section 2 : Exploitation ",
+            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; TROISI\u00c8ME PARTIE : TRANSPORT ROUTIER &gt; LIVRE Ier : LE TRANSPORT ROUTIER DE PERSONNES &gt; TITRE Ier : LES TRANSPORTS PUBLICS COLLECTIFS &gt; Chapitre IV : Gares et autres am\u00e9nagements de transport routier &gt; Section 2 : Exploitation ",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033965291",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000036086746",
-                    "textTitle": "D\u00e9cision n\u00b02017-117 du 18 octobre 2017 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000036086748",
-                    "natureText": "DECISION",
-                    "date": 1599845429721,
-                    "parentCid": null,
-                    "numTexte": "2017-117",
-                    "datePubli": 1511654400000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L3114-6",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L3114-6",
-                    "articleId": "LEGIARTI000031960273",
-                    "natureText": "CODE",
-                    "date": 1599845429721,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1454284800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033955597",
@@ -122,13 +150,60 @@
                     "dateDebutCible": "2017-02-01"
                 }
             ],
-            "num": "R3114-6",
-            "origine": "LEGI",
-            "texte": "La proc\u00e9dure publique d'allocation des capacit\u00e9s non utilis\u00e9es mentionn\u00e9e au troisi\u00e8me alin\u00e9a de l'article L. 3114-6 est d\u00e9finie de mani\u00e8re \u00e0 assurer la bonne information des entreprises de transport public routier sur l'existence d'emplacements d'arr\u00eats disponibles et leur acc\u00e8s effectif \u00e0 ces emplacements.",
-            "texteHtml": "<div align='left'>La proc\u00e9dure publique d'allocation des capacit\u00e9s non utilis\u00e9es mentionn\u00e9e au troisi\u00e8me alin\u00e9a de l'article <a href='/article/LEGIARTI000031960273'>L. 3114-6</a> est d\u00e9finie de mani\u00e8re \u00e0 assurer la bonne information des entreprises de transport public routier sur l'existence d'emplacements d'arr\u00eats disponibles et leur acc\u00e8s effectif \u00e0 ces emplacements.<br/><br/></div>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-02-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000036086746",
+                    "textTitle": "D\u00e9cision n\u00b02017-117 du 18 octobre 2017 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000036086748",
+                    "natureText": "DECISION",
+                    "parentCid": null,
+                    "numTexte": "2017-117",
+                    "datePubli": 1511654400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L3114-6",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L3114-6",
+                    "articleId": "LEGIARTI000031960273",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1454284800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033965291",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1485907200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R3114-6",
+                "3114-6"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

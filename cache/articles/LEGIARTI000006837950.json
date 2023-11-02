@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006837950",
-    "num": "D421-54",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000046010225",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le secr\u00e9tariat du comit\u00e9 d'experts est assur\u00e9 conjointement par l'Office fran\u00e7ais de la biodiversit\u00e9 et le Mus\u00e9um national d'histoire naturelle.",
+            "texteHtml": "<p>Le secr\u00e9tariat du comit\u00e9 d'experts est assur\u00e9 conjointement par l'Office fran\u00e7ais de la biodiversit\u00e9 et le Mus\u00e9um national d'histoire naturelle.</p>",
+            "num": "D421-54",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1656806400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -92,26 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000046010225",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837950",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176896",
+            "sectionParentId": "LEGISCTA000038209938",
+            "sectionParentTitre": "Section 8 : Comit\u00e9 d'experts sur la gestion adaptative",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre IV : Patrimoine naturel &gt; Titre II : Chasse &gt; Chapitre Ier : Organisation de la chasse &gt; Section 8 : Comit\u00e9 d'experts sur la gestion adaptative",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000046010225",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000038203616",
-                    "textTitle": "Arr\u00eat\u00e9 du 5 mars 2019 - art. 9 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "9",
-                    "articleId": "LEGIARTI000038208088",
-                    "natureText": "ARRETE",
-                    "date": 1656969257377,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1551916800000,
-                    "dateDebut": 1552003200000
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000633739",
@@ -138,15 +180,83 @@
                     "dateDebutCible": "2022-07-03"
                 }
             ],
-            "num": "D421-54",
-            "origine": "LEGI",
-            "texte": "Le secr\u00e9tariat du comit\u00e9 d'experts est assur\u00e9 conjointement par l'Office fran\u00e7ais de la biodiversit\u00e9 et le Mus\u00e9um national d'histoire naturelle.",
-            "texteHtml": "<p>Le secr\u00e9tariat du comit\u00e9 d'experts est assur\u00e9 conjointement par l'Office fran\u00e7ais de la biodiversit\u00e9 et le Mus\u00e9um national d'histoire naturelle.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2022-07-03T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000038203616",
+                    "textTitle": "Arr\u00eat\u00e9 du 5 mars 2019 - art. 9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000038208088",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1551916800000,
+                    "dateDebut": 1552003200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837950",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1239840000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038209925",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1552003200000,
+                    "dateFin": 1656806400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046010225",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1656806400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D421-54",
+                "421-54"
+            ],
+            "versionPrecedente": "LEGIARTI000038209925",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000038209925",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le secr\u00e9tariat du comit\u00e9 d'experts est assur\u00e9 conjointement par l'Office national de la chasse et de la faune sauvage, l'Agence fran\u00e7aise pour la biodiversit\u00e9 et le Mus\u00e9um national d'histoire naturelle.",
+            "texteHtml": "<p>Le secr\u00e9tariat du comit\u00e9 d'experts est assur\u00e9 conjointement par l'Office national de la chasse et de la faune sauvage, l'Agence fran\u00e7aise pour la biodiversit\u00e9 et le Mus\u00e9um national d'histoire naturelle.</p>",
+            "num": "D421-54",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1552003200000,
+            "dateFin": 1656806400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -236,26 +346,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000038209925",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837950",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176896",
+            "sectionParentId": "LEGISCTA000038209938",
+            "sectionParentTitre": "Section 8 : Comit\u00e9 d'experts sur la gestion adaptative",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre IV : Patrimoine naturel &gt; Titre II : Chasse &gt; Chapitre Ier : Organisation de la chasse &gt; Section 8 : Comit\u00e9 d'experts sur la gestion adaptative",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000038209925",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000038203616",
-                    "textTitle": "Arr\u00eat\u00e9 du 5 mars 2019 - art. 9 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "9",
-                    "articleId": "LEGIARTI000038208088",
-                    "natureText": "ARRETE",
-                    "date": 1656969258463,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1551916800000,
-                    "dateDebut": 1552003200000
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000633739",
@@ -282,15 +419,83 @@
                     "dateDebutCible": "2019-03-08"
                 }
             ],
-            "num": "D421-54",
-            "origine": "LEGI",
-            "texte": "Le secr\u00e9tariat du comit\u00e9 d'experts est assur\u00e9 conjointement par l'Office national de la chasse et de la faune sauvage, l'Agence fran\u00e7aise pour la biodiversit\u00e9 et le Mus\u00e9um national d'histoire naturelle.",
-            "texteHtml": "<p>Le secr\u00e9tariat du comit\u00e9 d'experts est assur\u00e9 conjointement par l'Office national de la chasse et de la faune sauvage, l'Agence fran\u00e7aise pour la biodiversit\u00e9 et le Mus\u00e9um national d'histoire naturelle.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2019-03-08T00:00:00.000Z",
-            "dateFin": "2022-07-03T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000038203616",
+                    "textTitle": "Arr\u00eat\u00e9 du 5 mars 2019 - art. 9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000038208088",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1551916800000,
+                    "dateDebut": 1552003200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837950",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1239840000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038209925",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1552003200000,
+                    "dateFin": 1656806400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046010225",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1656806400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D421-54",
+                "421-54"
+            ],
+            "versionPrecedente": "LEGIARTI000006837950",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006837950",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un arr\u00eat\u00e9 du ministre charg\u00e9 de la chasse fixe la composition de l'observatoire et ses modalit\u00e9s de fonctionnement.",
+            "texteHtml": "<p></p>   Un arr\u00eat\u00e9 du ministre charg\u00e9 de la chasse fixe la composition de l'observatoire et ses modalit\u00e9s de fonctionnement.<p></p><p></p>",
+            "num": "D421-54",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1123200000000,
+            "dateFin": 1239840000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 171796,
             "context": {
                 "titresTM": [
                     {
@@ -380,26 +585,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE",
-            "id": "LEGIARTI000006837950",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837950",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176896",
+            "sectionParentId": "LEGISCTA000038209938",
+            "sectionParentTitre": "Section 8 : Comit\u00e9 d'experts sur la gestion adaptative",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre IV : Faune et flore &gt; Titre II : Chasse &gt; Chapitre Ier : Organisation de la chasse &gt; Section 8 : Groupe d'experts sur les oiseaux et leur chasse",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006837950",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000038203616",
-                    "textTitle": "Arr\u00eat\u00e9 du 5 mars 2019 - art. 9 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "9",
-                    "articleId": "LEGIARTI000038208088",
-                    "natureText": "ARRETE",
-                    "date": 1656969256937,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1551916800000,
-                    "dateDebut": 1552003200000
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000633739",
@@ -426,13 +658,65 @@
                     "dateDebutCible": "2009-04-16"
                 }
             ],
-            "num": "D421-54",
-            "origine": "LEGI",
-            "texte": "Un arr\u00eat\u00e9 du ministre charg\u00e9 de la chasse fixe la composition de l'observatoire et ses modalit\u00e9s de fonctionnement.",
-            "texteHtml": "<p></p>   Un arr\u00eat\u00e9 du ministre charg\u00e9 de la chasse fixe la composition de l'observatoire et ses modalit\u00e9s de fonctionnement.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-08-05T00:00:00.000Z",
-            "dateFin": "2009-04-16T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000038203616",
+                    "textTitle": "Arr\u00eat\u00e9 du 5 mars 2019 - art. 9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000038208088",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1551916800000,
+                    "dateDebut": 1552003200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837950",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1239840000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038209925",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1552003200000,
+                    "dateFin": 1656806400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046010225",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1656806400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D421-54",
+                "421-54"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

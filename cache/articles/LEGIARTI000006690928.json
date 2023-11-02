@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006690928",
-    "num": "L6142-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006690928",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans le ressort d'une m\u00eame acad\u00e9mie, deux ou plusieurs centres hospitaliers r\u00e9gionaux ont la possibilit\u00e9 de passer convention avec la ou les universit\u00e9s de cette acad\u00e9mie, pour la constitution d'un centre hospitalier et universitaire unique.",
+            "texteHtml": "<p></p>   Dans le ressort d'une m\u00eame acad\u00e9mie, deux ou plusieurs centres hospitaliers r\u00e9gionaux ont la possibilit\u00e9 de passer convention avec la ou les universit\u00e9s de cette acad\u00e9mie, pour la constitution d'un centre hospitalier et universitaire unique.<p></p><p></p>",
+            "num": "L6142-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 961632000000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -65,31 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006690928",
-            "lienAutres": [
+            "cid": "LEGIARTI000006690928",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171464",
+            "sectionParentId": "LEGISCTA000006171464",
+            "sectionParentTitre": "Chapitre II : Organisation hospitali\u00e8re et universitaire.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre IV : Etablissements publics de sant\u00e9 &gt; Chapitre II : Organisation hospitali\u00e8re et universitaire.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006690928",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006071191",
-                    "textTitle": "Code de l'\u00e9ducation - art. L713-5 (M)",
-                    "linkType": "PILOTE_SUIVEUR",
-                    "linkOrientation": "cible",
-                    "articleNum": "L713-5",
-                    "articleId": "LEGIARTI000027700450",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L711-15 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L711-15",
-                    "articleId": "LEGIARTI000006694677",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000227015",
@@ -104,13 +141,53 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L6142-4",
-            "origine": "LEGI",
-            "texte": "Dans le ressort d'une m\u00eame acad\u00e9mie, deux ou plusieurs centres hospitaliers r\u00e9gionaux ont la possibilit\u00e9 de passer convention avec la ou les universit\u00e9s de cette acad\u00e9mie, pour la constitution d'un centre hospitalier et universitaire unique.",
-            "texteHtml": "<p></p>   Dans le ressort d'une m\u00eame acad\u00e9mie, deux ou plusieurs centres hospitaliers r\u00e9gionaux ont la possibilit\u00e9 de passer convention avec la ou les universit\u00e9s de cette acad\u00e9mie, pour la constitution d'un centre hospitalier et universitaire unique.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L711-15 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L711-15",
+                    "articleId": "LEGIARTI000006694677",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006071191",
+                    "textTitle": "Code de l'\u00e9ducation - art. L713-5 (M)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L713-5",
+                    "articleId": "LEGIARTI000027700450",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006690928",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L6142-4",
+                "6142-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

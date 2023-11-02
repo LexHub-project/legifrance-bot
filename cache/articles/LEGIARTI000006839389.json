@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006839389",
-    "num": "R543-152",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000024357613",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Est puni de l'amende pr\u00e9vue pour les contraventions de la 3e classe le fait pour les distributeurs de ne pas proc\u00e9der aux op\u00e9rations de reprise des d\u00e9chets de pneumatiques dans les conditions d\u00e9finies \u00e0 l'article R. 543-142 .",
+            "texteHtml": "<p>Est puni de l'amende pr\u00e9vue pour les contraventions de la 3e classe le fait pour les distributeurs de ne pas proc\u00e9der aux op\u00e9rations de reprise des d\u00e9chets de pneumatiques dans les conditions d\u00e9finies \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006839379&dateTexte=&categorieLien=cid'>l'article R. 543-142</a>.</p><p></p><p></p>",
+            "num": "R543-152",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE",
+            "dateDebut": 1310428800000,
+            "dateFin": 1677974400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612733,
             "context": {
                 "titresTM": [
                     {
@@ -52,24 +67,42 @@
                     },
                     {
                         "debut": "2011-07-12",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-05",
                         "titre": "Section 8 : D\u00e9chets de pneumatiques",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006176999",
                         "id": "LEGISCTA000024357669",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-03-05",
+                        "fin": "2999-01-01",
+                        "titre": "Section 8 : Pneumatiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176999",
+                        "id": "LEGISCTA000047265555",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2007-10-16",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-05",
                         "titre": "Sous-section 2 : Dispositions p\u00e9nales",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006188999",
                         "id": "LEGISCTA000006188999",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-03-05",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 2 : Obligations de responsabilit\u00e9 \u00e9largie des producteurs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006188999",
+                        "id": "LEGISCTA000047265533",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -83,26 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000024357613",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006839389",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188999",
+            "sectionParentId": "LEGISCTA000047265533",
+            "sectionParentTitre": "Sous-section 2 : Obligations de responsabilit\u00e9 \u00e9largie des producteurs",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre III : Dispositions propres \u00e0 certaines cat\u00e9gories de produits et de d\u00e9chets (R) &gt; Section 8 : Pneumatiques &gt; Sous-section 2 : Obligations de responsabilit\u00e9 \u00e9largie des producteurs",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000024357613",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R543-142 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R543-142",
-                    "articleId": "LEGIARTI000006839379",
-                    "natureText": "CODE",
-                    "date": 1599125970589,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1192492800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000825108",
@@ -127,17 +187,88 @@
                     "datePubliTexte": "2011-07-12",
                     "dateSignaTexte": "2011-07-11",
                     "dateDebutCible": "2011-07-13"
+                },
+                {
+                    "textCid": "JORFTEXT000047259904",
+                    "textTitle": "D\u00e9cret n\u00b02023-152 du 2 mars 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000047262550",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-03-04",
+                    "dateSignaTexte": "2023-03-02",
+                    "dateDebutCible": "2023-03-05"
                 }
             ],
-            "num": "R543-152",
-            "origine": "LEGI",
-            "texte": "Est puni de l'amende pr\u00e9vue pour les contraventions de la 3e classe le fait pour les distributeurs de ne pas proc\u00e9der aux op\u00e9rations de reprise des d\u00e9chets de pneumatiques dans les conditions d\u00e9finies \u00e0 l'article R. 543-142 .",
-            "texteHtml": "<p>Est puni de l'amende pr\u00e9vue pour les contraventions de la 3e classe le fait pour les distributeurs de ne pas proc\u00e9der aux op\u00e9rations de reprise des d\u00e9chets de pneumatiques dans les conditions d\u00e9finies \u00e0 <a href='/article/LEGIARTI000006839379' title='Code de l'environnement - art. R543-142 (V)'>l'article R. 543-142</a>.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-07-12T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R543-142",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R543-142",
+                    "articleId": "LEGIARTI000006839379",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1192492800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006839389",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1192492800000,
+                    "dateFin": 1310428800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000024357613",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1310428800000,
+                    "dateFin": 1677974400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R543-152",
+                "543-152"
+            ],
+            "versionPrecedente": "LEGIARTI000006839389",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006839389",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Est puni de l'amende pr\u00e9vue pour les contraventions de la 3e classe le fait pour les distributeurs de ne pas proc\u00e9der aux op\u00e9rations de reprise des pneumatiques usag\u00e9s dans les conditions d\u00e9finies \u00e0 l'article R. 543-142.",
+            "texteHtml": "<p></p>   Est puni de l'amende pr\u00e9vue pour les contraventions de la 3e classe le fait pour les distributeurs de ne pas proc\u00e9der aux op\u00e9rations de reprise des pneumatiques usag\u00e9s dans les conditions d\u00e9finies \u00e0 l'article R. 543-142.<p></p><p></p>",
+            "num": "R543-152",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1192492800000,
+            "dateFin": 1310428800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612733,
             "context": {
                 "titresTM": [
                     {
@@ -187,24 +318,42 @@
                     },
                     {
                         "debut": "2011-07-12",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-05",
                         "titre": "Section 8 : D\u00e9chets de pneumatiques",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006176999",
                         "id": "LEGISCTA000024357669",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-03-05",
+                        "fin": "2999-01-01",
+                        "titre": "Section 8 : Pneumatiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176999",
+                        "id": "LEGISCTA000047265555",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2007-10-16",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-05",
                         "titre": "Sous-section 2 : Dispositions p\u00e9nales",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006188999",
                         "id": "LEGISCTA000006188999",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-03-05",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 2 : Obligations de responsabilit\u00e9 \u00e9largie des producteurs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006188999",
+                        "id": "LEGISCTA000047265533",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -218,26 +367,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006839389",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006839389",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188999",
+            "sectionParentId": "LEGISCTA000047265533",
+            "sectionParentTitre": "Sous-section 2 : Obligations de responsabilit\u00e9 \u00e9largie des producteurs",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre III : Dispositions propres \u00e0 certaines cat\u00e9gories de produits et de d\u00e9chets (R) &gt; Section 8 : D\u00e9chets de pneumatiques &gt; Sous-section 2 : Dispositions p\u00e9nales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006839389",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R543-142 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R543-142",
-                    "articleId": "LEGIARTI000006839379",
-                    "natureText": "CODE",
-                    "date": 1599120458881,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1192492800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000825108",
@@ -252,13 +428,56 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "R543-152",
-            "origine": "LEGI",
-            "texte": "Est puni de l'amende pr\u00e9vue pour les contraventions de la 3e classe le fait pour les distributeurs de ne pas proc\u00e9der aux op\u00e9rations de reprise des pneumatiques usag\u00e9s dans les conditions d\u00e9finies \u00e0 l'article R. 543-142.",
-            "texteHtml": "<p></p>   Est puni de l'amende pr\u00e9vue pour les contraventions de la 3e classe le fait pour les distributeurs de ne pas proc\u00e9der aux op\u00e9rations de reprise des pneumatiques usag\u00e9s dans les conditions d\u00e9finies \u00e0 l'article R. 543-142.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-10-16T00:00:00.000Z",
-            "dateFin": "2011-07-12T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R543-142 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R543-142",
+                    "articleId": "LEGIARTI000006839379",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1192492800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006839389",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1192492800000,
+                    "dateFin": 1310428800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000024357613",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1310428800000,
+                    "dateFin": 1677974400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R543-152",
+                "543-152"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

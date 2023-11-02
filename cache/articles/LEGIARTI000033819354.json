@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033819354",
-    "num": "R352-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033819354",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les combattants volontaires de la R\u00e9sistance ont droit, m\u00eame \u00e0 titre posthume, \u00e0 la croix du combattant volontaire de la R\u00e9sistance. Le mod\u00e8le en est d\u00e9fini par arr\u00eat\u00e9 du ministre charg\u00e9 des anciens combattants et victimes de guerre. Lorsqu'elle est d\u00e9livr\u00e9e aux int\u00e9ress\u00e9s eux-m\u00eames, la carte de combattant volontaire de la R\u00e9sistance vaut autorisation du port de la croix.",
+            "texteHtml": "<p>Les combattants volontaires de la R\u00e9sistance ont droit, m\u00eame \u00e0 titre posthume, \u00e0 la croix du combattant volontaire de la R\u00e9sistance.</p><p>Le mod\u00e8le en est d\u00e9fini par arr\u00eat\u00e9 du ministre charg\u00e9 des anciens combattants et victimes de guerre.</p><p>Lorsqu'elle est d\u00e9livr\u00e9e aux int\u00e9ress\u00e9s eux-m\u00eames, la carte de combattant volontaire de la R\u00e9sistance vaut autorisation du port de la croix.</p>",
+            "num": "R352-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-07-01",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033818960",
                         "id": "LEGISCTA000033818960",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION RECONNAISSANCE DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000033818960",
+                        "id": "LEGISCTA000047770455",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -55,15 +79,6 @@
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -71,33 +86,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033819354",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000033819354",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033819352",
+            "sectionParentId": "LEGISCTA000033819352",
+            "sectionParentTitre": "Section 1 : Croix du combattant volontaire de la R\u00e9sistance",
+            "fullSectionsTitre": "Partie r\u00e9glementaire (nouvelle)  &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre V : D\u00c9CORATIONS &gt; Chapitre II : Croix du combattant volontaire de la R\u00e9sistance et croix du combattant volontaire &gt; Section 1 : Croix du combattant volontaire de la R\u00e9sistance",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033819354",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L383 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L383",
-                    "articleId": "LEGIARTI000006794752",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R394, alin\u00e9a 2 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R394",
-                    "articleId": "LEGIARTI000021635676",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033719487",
@@ -124,13 +199,52 @@
                     "dateDebutCible": "2016-12-30"
                 }
             ],
-            "num": "R352-1",
-            "origine": "LEGI",
-            "texte": "Les combattants volontaires de la R\u00e9sistance ont droit, m\u00eame \u00e0 titre posthume, \u00e0 la croix du combattant volontaire de la R\u00e9sistance. Le mod\u00e8le en est d\u00e9fini par arr\u00eat\u00e9 du ministre charg\u00e9 des anciens combattants et victimes de guerre. Lorsqu'elle est d\u00e9livr\u00e9e aux int\u00e9ress\u00e9s eux-m\u00eames, la carte de combattant volontaire de la R\u00e9sistance vaut autorisation du port de la croix.",
-            "texteHtml": "<p>Les combattants volontaires de la R\u00e9sistance ont droit, m\u00eame \u00e0 titre posthume, \u00e0 la croix du combattant volontaire de la R\u00e9sistance.</p><p>Le mod\u00e8le en est d\u00e9fini par arr\u00eat\u00e9 du ministre charg\u00e9 des anciens combattants et victimes de guerre.</p><p>Lorsqu'elle est d\u00e9livr\u00e9e aux int\u00e9ress\u00e9s eux-m\u00eames, la carte de combattant volontaire de la R\u00e9sistance vaut autorisation du port de la croix.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L383 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L383",
+                    "articleId": "LEGIARTI000006794752",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R394, alin\u00e9a 2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R394",
+                    "articleId": "LEGIARTI000021635676",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033819354",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R352-1",
+                "352-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

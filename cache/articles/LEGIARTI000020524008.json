@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000020524008",
-    "num": "D6124-181",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000045809547",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le titulaire organise le parcours du patient, qui comprend notamment son accueil, la r\u00e9alisation de l'acte interventionnel et la prise en charge jusqu'\u00e0 sa sortie et apr\u00e8s celle-ci. Dans le cadre de la prise en charge d'un enfant, le titulaire de l'autorisation facilite la pr\u00e9sence des parents au sein du secteur d'hospitalisation.",
+            "texteHtml": "<p>Le titulaire organise le parcours du patient, qui comprend notamment son accueil, la r\u00e9alisation de l'acte interventionnel et la prise en charge jusqu'\u00e0 sa sortie et apr\u00e8s celle-ci.<br/><br/>\n Dans le cadre de la prise en charge d'un enfant, le titulaire de l'autorisation facilite la pr\u00e9sence des parents au sein du secteur d'hospitalisation.</p>",
+            "num": "D6124-181",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1685577600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -66,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020524002",
                         "id": "LEGISCTA000020525129",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -75,7 +90,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020524002",
                         "id": "LEGISCTA000045809557",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -92,40 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR_DIFF",
-            "id": "LEGIARTI000045809547",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000020524008",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000020524002",
+            "sectionParentId": "LEGISCTA000045809557",
+            "sectionParentTitre": "Sous-section 16 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 16 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000045809547",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000025441892",
-                    "textTitle": "Arr\u00eat\u00e9 du 23 f\u00e9vrier 2012 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000025443462",
-                    "natureText": "ARRETE",
-                    "date": 1652818766968,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1330992000000,
-                    "dateDebut": 1331078400000
-                },
-                {
-                    "textCid": "JORFTEXT000025441892",
-                    "textTitle": "Arr\u00eat\u00e9 du 23 f\u00e9vrier 2012 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000025443464",
-                    "natureText": "ARRETE",
-                    "date": 1652818766968,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1330992000000,
-                    "dateDebut": 1331078400000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "Conform\u00e9ment \u00e0 l\u2019article 3 du d\u00e9cret n\u00b0 2022-382 du 16 mars 2022, ces dispositions entrent en vigueur le 1er juin 2023.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l\u2019article 3 du d\u00e9cret n\u00b0 2022-382 du 16 mars 2022, ces dispositions entrent en vigueur le 1er juin 2023.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000045373683",
@@ -140,15 +168,87 @@
                     "dateDebutCible": "2022-03-19"
                 }
             ],
-            "num": "D6124-181",
-            "origine": "LEGI",
-            "texte": "Le titulaire organise le parcours du patient, qui comprend notamment son accueil, la r\u00e9alisation de l'acte interventionnel et la prise en charge jusqu'\u00e0 sa sortie et apr\u00e8s celle-ci. Dans le cadre de la prise en charge d'un enfant, le titulaire de l'autorisation facilite la pr\u00e9sence des parents au sein du secteur d'hospitalisation.",
-            "texteHtml": "<p>Le titulaire organise le parcours du patient, qui comprend notamment son accueil, la r\u00e9alisation de l'acte interventionnel et la prise en charge jusqu'\u00e0 sa sortie et apr\u00e8s celle-ci.<br/><br/>\n Dans le cadre de la prise en charge d'un enfant, le titulaire de l'autorisation facilite la pr\u00e9sence des parents au sein du secteur d'hospitalisation.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2023-06-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000025441892",
+                    "textTitle": "Arr\u00eat\u00e9 du 23 f\u00e9vrier 2012 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000025443462",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1330992000000,
+                    "dateDebut": 1331078400000
+                },
+                {
+                    "textCid": "JORFTEXT000025441892",
+                    "textTitle": "Arr\u00eat\u00e9 du 23 f\u00e9vrier 2012 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000025443464",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1330992000000,
+                    "dateDebut": 1331078400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020525123",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1239926400000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045809547",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-181",
+                "6124-181"
+            ],
+            "versionPrecedente": "LEGIARTI000020525123",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000020525123",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Un acte interventionnel sous imagerie m\u00e9dicale, par voie endovasculaire, en cardiologie ne peut \u00eatre r\u00e9alis\u00e9, y compris en urgence, qu'avec la participation : 1\u00b0 D'au moins un m\u00e9decin justifiant d'une formation et d'une exp\u00e9rience dans la pratique d'actes interventionnels, sous imagerie m\u00e9dicale, par voie endovasculaire, en cardiologie attest\u00e9es selon les modalit\u00e9s pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 de la sant\u00e9 ; un second m\u00e9decin intervient sans d\u00e9lai, si n\u00e9cessaire ; 2\u00b0 D'au moins deux auxiliaires m\u00e9dicaux form\u00e9s \u00e0 la r\u00e9alisation de ces actes dont au moins un infirmier et, lorsque l'acte est pratiqu\u00e9 sur un enfant, un infirmier exp\u00e9riment\u00e9 dans la prise en charge des enfants. A la demande du m\u00e9decin qui prescrit ou qui r\u00e9alise l'acte interventionnel, un m\u00e9decin anesth\u00e9siste-r\u00e9animateur est en mesure d'intervenir lors de la prescription et de la r\u00e9alisation de l'acte. Lorsque l'acte est pratiqu\u00e9 sur un enfant, le m\u00e9decin anesth\u00e9siste-r\u00e9animateur est un m\u00e9decin exp\u00e9riment\u00e9 dans la prise en charge des enfants.",
+            "texteHtml": "<p>Un acte interventionnel sous imagerie m\u00e9dicale, par voie endovasculaire, en cardiologie ne peut \u00eatre r\u00e9alis\u00e9, y compris en urgence, qu'avec la participation : <br/><br/> 1\u00b0 D'au moins un m\u00e9decin justifiant d'une formation et d'une exp\u00e9rience dans la pratique d'actes interventionnels, sous imagerie m\u00e9dicale, par voie endovasculaire, en cardiologie attest\u00e9es selon les modalit\u00e9s pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 de la sant\u00e9 ; un second m\u00e9decin intervient sans d\u00e9lai, si n\u00e9cessaire ; <br/><br/> 2\u00b0 D'au moins deux auxiliaires m\u00e9dicaux form\u00e9s \u00e0 la r\u00e9alisation de ces actes dont au moins un infirmier et, lorsque l'acte est pratiqu\u00e9 sur un enfant, un infirmier exp\u00e9riment\u00e9 dans la prise en charge des enfants. <br/><br/> A la demande du m\u00e9decin qui prescrit ou qui r\u00e9alise l'acte interventionnel, un m\u00e9decin anesth\u00e9siste-r\u00e9animateur est en mesure d'intervenir lors de la prescription et de la r\u00e9alisation de l'acte. <br/><br/> Lorsque l'acte est pratiqu\u00e9 sur un enfant, le m\u00e9decin anesth\u00e9siste-r\u00e9animateur est un m\u00e9decin exp\u00e9riment\u00e9 dans la prise en charge des enfants.</p>",
+            "num": "D6124-181",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1239926400000,
+            "dateFin": 1685577600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1879048191,
             "context": {
                 "titresTM": [
                     {
@@ -212,7 +312,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020524002",
                         "id": "LEGISCTA000020525129",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2023-06-01",
@@ -221,7 +321,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020524002",
                         "id": "LEGISCTA000045809557",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -238,40 +338,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE_DIFF",
-            "id": "LEGIARTI000020525123",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000020524008",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000020524002",
+            "sectionParentId": "LEGISCTA000045809557",
+            "sectionParentTitre": "Sous-section 16 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 16 : Activit\u00e9 interventionnelle sous imagerie m\u00e9dicale en cardiologie",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000020525123",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000025441892",
-                    "textTitle": "Arr\u00eat\u00e9 du 23 f\u00e9vrier 2012 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000025443462",
-                    "natureText": "ARRETE",
-                    "date": 1652818767282,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1330992000000,
-                    "dateDebut": 1331078400000
-                },
-                {
-                    "textCid": "JORFTEXT000025441892",
-                    "textTitle": "Arr\u00eat\u00e9 du 23 f\u00e9vrier 2012 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000025443464",
-                    "natureText": "ARRETE",
-                    "date": 1652818767282,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1330992000000,
-                    "dateDebut": 1331078400000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000020522367",
@@ -286,13 +399,69 @@
                     "dateDebutCible": "2009-04-17"
                 }
             ],
-            "num": "D6124-181",
-            "origine": "LEGI",
-            "texte": "Un acte interventionnel sous imagerie m\u00e9dicale, par voie endovasculaire, en cardiologie ne peut \u00eatre r\u00e9alis\u00e9, y compris en urgence, qu'avec la participation : 1\u00b0 D'au moins un m\u00e9decin justifiant d'une formation et d'une exp\u00e9rience dans la pratique d'actes interventionnels, sous imagerie m\u00e9dicale, par voie endovasculaire, en cardiologie attest\u00e9es selon les modalit\u00e9s pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 de la sant\u00e9 ; un second m\u00e9decin intervient sans d\u00e9lai, si n\u00e9cessaire ; 2\u00b0 D'au moins deux auxiliaires m\u00e9dicaux form\u00e9s \u00e0 la r\u00e9alisation de ces actes dont au moins un infirmier et, lorsque l'acte est pratiqu\u00e9 sur un enfant, un infirmier exp\u00e9riment\u00e9 dans la prise en charge des enfants. A la demande du m\u00e9decin qui prescrit ou qui r\u00e9alise l'acte interventionnel, un m\u00e9decin anesth\u00e9siste-r\u00e9animateur est en mesure d'intervenir lors de la prescription et de la r\u00e9alisation de l'acte. Lorsque l'acte est pratiqu\u00e9 sur un enfant, le m\u00e9decin anesth\u00e9siste-r\u00e9animateur est un m\u00e9decin exp\u00e9riment\u00e9 dans la prise en charge des enfants.",
-            "texteHtml": "<p>Un acte interventionnel sous imagerie m\u00e9dicale, par voie endovasculaire, en cardiologie ne peut \u00eatre r\u00e9alis\u00e9, y compris en urgence, qu'avec la participation : <br/><br/> 1\u00b0 D'au moins un m\u00e9decin justifiant d'une formation et d'une exp\u00e9rience dans la pratique d'actes interventionnels, sous imagerie m\u00e9dicale, par voie endovasculaire, en cardiologie attest\u00e9es selon les modalit\u00e9s pr\u00e9cis\u00e9es par arr\u00eat\u00e9 du ministre charg\u00e9 de la sant\u00e9 ; un second m\u00e9decin intervient sans d\u00e9lai, si n\u00e9cessaire ; <br/><br/> 2\u00b0 D'au moins deux auxiliaires m\u00e9dicaux form\u00e9s \u00e0 la r\u00e9alisation de ces actes dont au moins un infirmier et, lorsque l'acte est pratiqu\u00e9 sur un enfant, un infirmier exp\u00e9riment\u00e9 dans la prise en charge des enfants. <br/><br/> A la demande du m\u00e9decin qui prescrit ou qui r\u00e9alise l'acte interventionnel, un m\u00e9decin anesth\u00e9siste-r\u00e9animateur est en mesure d'intervenir lors de la prescription et de la r\u00e9alisation de l'acte. <br/><br/> Lorsque l'acte est pratiqu\u00e9 sur un enfant, le m\u00e9decin anesth\u00e9siste-r\u00e9animateur est un m\u00e9decin exp\u00e9riment\u00e9 dans la prise en charge des enfants.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-04-17T00:00:00.000Z",
-            "dateFin": "2023-06-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000025441892",
+                    "textTitle": "Arr\u00eat\u00e9 du 23 f\u00e9vrier 2012 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000025443462",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1330992000000,
+                    "dateDebut": 1331078400000
+                },
+                {
+                    "textCid": "JORFTEXT000025441892",
+                    "textTitle": "Arr\u00eat\u00e9 du 23 f\u00e9vrier 2012 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000025443464",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1330992000000,
+                    "dateDebut": 1331078400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020525123",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1239926400000,
+                    "dateFin": 1685577600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045809547",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1685577600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-181",
+                "6124-181"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

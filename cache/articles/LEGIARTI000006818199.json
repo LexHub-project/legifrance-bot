@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006818199",
-    "num": "R331-7",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025210950",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La surface de plancher de la construction est \u00e9gale \u00e0 la somme des surfaces de plancher de chaque niveau clos et couvert, calcul\u00e9e \u00e0 partir du nu int\u00e9rieur des fa\u00e7ades apr\u00e8s d\u00e9duction : 1\u00b0 Des surfaces correspondant \u00e0 l'\u00e9paisseur des murs entourant les embrasures des portes et fen\u00eatres donnant sur l'ext\u00e9rieur ; 2\u00b0 Des vides et des tr\u00e9mies aff\u00e9rentes aux escaliers et ascenseurs ; 3\u00b0 Des surfaces de plancher sous une hauteur de plafond inf\u00e9rieure ou \u00e9gale \u00e0 1,80 m\u00e8tre.",
+            "texteHtml": "<p>La surface de plancher de la construction est \u00e9gale \u00e0 la somme des surfaces de plancher de chaque niveau clos et couvert, calcul\u00e9e \u00e0 partir du nu int\u00e9rieur des fa\u00e7ades apr\u00e8s d\u00e9duction : </p><p> 1\u00b0 Des surfaces correspondant \u00e0 l'\u00e9paisseur des murs entourant les embrasures des portes et fen\u00eatres donnant sur l'ext\u00e9rieur ; </p><p> 2\u00b0 Des vides et des tr\u00e9mies aff\u00e9rentes aux escaliers et ascenseurs ; </p><p> 3\u00b0 Des surfaces de plancher sous une hauteur de plafond inf\u00e9rieure ou \u00e9gale \u00e0 1,80 m\u00e8tre. </p><p></p>",
+            "num": "R331-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE",
+            "dateDebut": 1330560000000,
+            "dateFin": 1678406400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -43,12 +58,12 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006158759",
                         "id": "LEGISCTA000025214673",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2001-03-28",
@@ -61,21 +76,21 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Section 1 : Taxe d'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006176070",
                         "id": "LEGISCTA000025214671",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Sous-section 4 : Base d'imposition",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025206525",
                         "id": "LEGISCTA000025210967",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -92,25 +107,57 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025210950",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006818199",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025206525",
+            "sectionParentId": "LEGISCTA000025210967",
+            "sectionParentTitre": "Sous-section 4 : Base d'imposition",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Am\u00e9nagement foncier &gt; Titre III : Dispositions financi\u00e8res",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025210950",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000325880",
-                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 7",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000325880",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000337142",
-                    "textTitle": "D\u00e9cret n\u00b073-1023 du 8 novembre 1973 (V)",
+                    "textTitle": "D\u00e9cret n\u00b0 73-1023 du 8 novembre 1973",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -131,17 +178,84 @@
                     "datePubliTexte": "2012-01-27",
                     "dateSignaTexte": "2012-01-25",
                     "dateDebutCible": "2012-03-01"
+                },
+                {
+                    "textCid": "JORFTEXT000047277930",
+                    "textTitle": "D\u00e9cret n\u00b02023-165 du 7 mars 2023 - art. 5",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000047278728",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-03-09",
+                    "dateSignaTexte": "2023-03-07",
+                    "dateDebutCible": "2023-03-10"
                 }
             ],
-            "num": "R331-7",
-            "origine": "LEGI",
-            "texte": "La surface de plancher de la construction est \u00e9gale \u00e0 la somme des surfaces de plancher de chaque niveau clos et couvert, calcul\u00e9e \u00e0 partir du nu int\u00e9rieur des fa\u00e7ades apr\u00e8s d\u00e9duction : 1\u00b0 Des surfaces correspondant \u00e0 l'\u00e9paisseur des murs entourant les embrasures des portes et fen\u00eatres donnant sur l'ext\u00e9rieur ; 2\u00b0 Des vides et des tr\u00e9mies aff\u00e9rentes aux escaliers et ascenseurs ; 3\u00b0 Des surfaces de plancher sous une hauteur de plafond inf\u00e9rieure ou \u00e9gale \u00e0 1,80 m\u00e8tre.",
-            "texteHtml": "<p>La surface de plancher de la construction est \u00e9gale \u00e0 la somme des surfaces de plancher de chaque niveau clos et couvert, calcul\u00e9e \u00e0 partir du nu int\u00e9rieur des fa\u00e7ades apr\u00e8s d\u00e9duction : </p><p> 1\u00b0 Des surfaces correspondant \u00e0 l'\u00e9paisseur des murs entourant les embrasures des portes et fen\u00eatres donnant sur l'ext\u00e9rieur ; </p><p> 2\u00b0 Des vides et des tr\u00e9mies aff\u00e9rentes aux escaliers et ascenseurs ; </p><p> 3\u00b0 Des surfaces de plancher sous une hauteur de plafond inf\u00e9rieure ou \u00e9gale \u00e0 1,80 m\u00e8tre. </p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-03-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000325880",
+                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 7",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000325880",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006818199",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 121996800000,
+                    "dateFin": 1330560000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025210950",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1330560000000,
+                    "dateFin": 1678406400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R331-7",
+                "331-7"
+            ],
+            "versionPrecedente": "LEGIARTI000006818199",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006818199",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Dans chaque cas, une convention est pass\u00e9e entre le ministre charg\u00e9 de l'urbanisme, le ministre de l'\u00e9conomie et des finances et le b\u00e9n\u00e9ficiaire de la bonification d'int\u00e9r\u00eat. La convention fixe les conditions et les modalit\u00e9s de versement des bonifications d'int\u00e9r\u00eat. Elle d\u00e9termine, en particulier, les conditions de remboursement ou de suppression des bonifications d'int\u00e9r\u00eat si les travaux ne sont pas entrepris ou termin\u00e9s dans les d\u00e9lais fix\u00e9s.",
+            "texteHtml": "<p></p>   Dans chaque cas, une convention est pass\u00e9e entre le ministre charg\u00e9 de l'urbanisme, le ministre de l'\u00e9conomie et des finances et le b\u00e9n\u00e9ficiaire de la bonification d'int\u00e9r\u00eat.<p></p><p></p>   La convention fixe les conditions et les modalit\u00e9s de versement des bonifications d'int\u00e9r\u00eat. Elle d\u00e9termine, en particulier, les conditions de remboursement ou de suppression des bonifications d'int\u00e9r\u00eat si les travaux ne sont pas entrepris ou termin\u00e9s dans les d\u00e9lais fix\u00e9s.<p></p>",
+            "num": "R*331-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 121996800000,
+            "dateFin": 1330560000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 128847,
             "context": {
                 "titresTM": [
                     {
@@ -182,12 +296,12 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006158759",
                         "id": "LEGISCTA000025214673",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1973-11-13",
@@ -213,21 +327,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006818199",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006818199",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175844",
+            "sectionParentId": "LEGISCTA000006175844",
+            "sectionParentTitre": " Section 3 : Bonifications d'int\u00e9r\u00eat",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Am\u00e9nagement foncier &gt; Titre III : Dispositions financi\u00e8res &gt; Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006818199",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000325880",
-                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 7",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000325880",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -254,13 +400,53 @@
                     "dateDebutCible": "2007-10-01"
                 }
             ],
-            "num": "R*331-7",
-            "origine": "LEGI",
-            "texte": "Dans chaque cas, une convention est pass\u00e9e entre le ministre charg\u00e9 de l'urbanisme, le ministre de l'\u00e9conomie et des finances et le b\u00e9n\u00e9ficiaire de la bonification d'int\u00e9r\u00eat. La convention fixe les conditions et les modalit\u00e9s de versement des bonifications d'int\u00e9r\u00eat. Elle d\u00e9termine, en particulier, les conditions de remboursement ou de suppression des bonifications d'int\u00e9r\u00eat si les travaux ne sont pas entrepris ou termin\u00e9s dans les d\u00e9lais fix\u00e9s.",
-            "texteHtml": "<p></p>   Dans chaque cas, une convention est pass\u00e9e entre le ministre charg\u00e9 de l'urbanisme, le ministre de l'\u00e9conomie et des finances et le b\u00e9n\u00e9ficiaire de la bonification d'int\u00e9r\u00eat.<p></p><p></p>   La convention fixe les conditions et les modalit\u00e9s de versement des bonifications d'int\u00e9r\u00eat. Elle d\u00e9termine, en particulier, les conditions de remboursement ou de suppression des bonifications d'int\u00e9r\u00eat si les travaux ne sont pas entrepris ou termin\u00e9s dans les d\u00e9lais fix\u00e9s.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1973-11-13T00:00:00.000Z",
-            "dateFin": "2012-03-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000325880",
+                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 7",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000325880",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006818199",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 121996800000,
+                    "dateFin": 1330560000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025210950",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1330560000000,
+                    "dateFin": 1678406400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*331-7",
+                "331-7",
+                "R331-7"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

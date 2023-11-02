@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006833512",
-    "num": "L322-10-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006833512",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les contrevenants aux dispositions mentionn\u00e9es \u00e0 l'article pr\u00e9c\u00e9dent sont punis de l'amende pr\u00e9vue par les contraventions de la 4e classe.",
+            "texteHtml": "<p></p>   Les contrevenants aux dispositions mentionn\u00e9es \u00e0 l'article pr\u00e9c\u00e9dent sont punis de l'amende pr\u00e9vue par les contraventions de la 4e classe.<p></p><p></p>",
+            "num": "L322-10-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1014854400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 343592,
             "context": {
                 "titresTM": [
                     {
@@ -74,40 +89,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006833512",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006833512",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188381",
+            "sectionParentId": "LEGISCTA000006188381",
+            "sectionParentTitre": "Sous-section 2 : Gestion",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre III : Espaces naturels &gt; Titre II : Littoral &gt; Chapitre II : Conservatoire de l'espace littoral et des rivages lacustres &gt; Section 2 : Patrimoine du Conservatoire &gt; Sous-section 2 : Gestion",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006833512",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L322-10-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L322-10-1",
-                    "articleId": "LEGIARTI000006833510",
-                    "natureText": "CODE",
-                    "date": 1656969256730,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1470787200000
-                },
-                {
-                    "textCid": "LEGITEXT000006071154",
-                    "textTitle": "Code de proc\u00e9dure p\u00e9nale - art. R48-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R48-1",
-                    "articleId": "LEGIARTI000046013038",
-                    "natureText": "CODE",
-                    "date": 1656969256730,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1656892800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000401865",
@@ -146,13 +174,60 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L322-10-2",
-            "origine": "LEGI",
-            "texte": "Les contrevenants aux dispositions mentionn\u00e9es \u00e0 l'article pr\u00e9c\u00e9dent sont punis de l'amende pr\u00e9vue par les contraventions de la 4e classe.",
-            "texteHtml": "<p></p>   Les contrevenants aux dispositions mentionn\u00e9es \u00e0 l'article pr\u00e9c\u00e9dent sont punis de l'amende pr\u00e9vue par les contraventions de la 4e classe.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2002-02-28T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L322-10-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L322-10-1",
+                    "articleId": "LEGIARTI000006833510",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1470787200000
+                },
+                {
+                    "textCid": "LEGITEXT000006071154",
+                    "textTitle": "Code de proc\u00e9dure p\u00e9nale - art. R48-1 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R48-1",
+                    "articleId": "LEGIARTI000047920423",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1691020800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006833512",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1014854400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L322-10-2",
+                "322-10-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

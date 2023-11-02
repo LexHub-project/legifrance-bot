@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000021176399",
-    "num": "L113-4-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000021178397",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'assureur cr\u00e9dit qui renonce \u00e0 garantir les cr\u00e9ances d\u00e9tenues par son assur\u00e9 sur un client de ce dernier, lorsque ce client est situ\u00e9 en France, motive sa d\u00e9cision aupr\u00e8s de l'assur\u00e9 lorsque ce dernier le demande.",
+            "texteHtml": "<p>L'assureur cr\u00e9dit qui renonce \u00e0 garantir les cr\u00e9ances d\u00e9tenues par son assur\u00e9 sur un client de ce dernier, lorsque ce client est situ\u00e9 en France, motive sa d\u00e9cision aupr\u00e8s de l'assur\u00e9 lorsque ce dernier le demande.</p>",
+            "num": "L113-4-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1256083200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 365066,
             "context": {
                 "titresTM": [
                     {
@@ -65,26 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000021178397",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000021176399",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006157200",
+            "sectionParentId": "LEGISCTA000006157200",
+            "sectionParentTitre": "Chapitre III : Obligations de l'assureur et de l'assur\u00e9.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Le contrat &gt; Titre Ier : R\u00e8gles communes aux assurances de dommages non maritimes et aux assurances de personnes &gt; Chapitre III : Obligations de l'assureur et de l'assur\u00e9.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000021178397",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances - art. L111-1 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L111-1",
-                    "articleId": "LEGIARTI000024376802",
-                    "natureText": "CODE",
-                    "date": 1599828302337,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1341100800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021175122",
@@ -99,13 +141,47 @@
                     "dateDebutCible": "2009-10-21"
                 }
             ],
-            "num": "L113-4-1",
-            "origine": "LEGI",
-            "texte": "L'assureur cr\u00e9dit qui renonce \u00e0 garantir les cr\u00e9ances d\u00e9tenues par son assur\u00e9 sur un client de ce dernier, lorsque ce client est situ\u00e9 en France, motive sa d\u00e9cision aupr\u00e8s de l'assur\u00e9 lorsque ce dernier le demande.",
-            "texteHtml": "<p>L'assureur cr\u00e9dit qui renonce \u00e0 garantir les cr\u00e9ances d\u00e9tenues par son assur\u00e9 sur un client de ce dernier, lorsque ce client est situ\u00e9 en France, motive sa d\u00e9cision aupr\u00e8s de l'assur\u00e9 lorsque ce dernier le demande.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2009-10-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. L111-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L111-1",
+                    "articleId": "LEGIARTI000024376802",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1341100800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000021178397",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1256083200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L113-4-1",
+                "113-4-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

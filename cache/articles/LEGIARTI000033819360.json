@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000033819360",
-    "num": "D352-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033819360",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La croix du combattant volontaire porte \u00e0 l'avers l'inscription \" R\u00e9publique fran\u00e7aise \" et au revers l'inscription \" Croix du combattant volontaire \". Elle est suspendue \u00e0 un ruban par un anneau sans b\u00e9li\u00e8re. Le ruban, d'une largeur de 36 millim\u00e8tres, est rouge avec, au milieu, une bande verte de huit millim\u00e8tres et \u00e0 un millim\u00e8tre de chaque bord, une bande jaune de quatre millim\u00e8tres.",
+            "texteHtml": "<p>La croix du combattant volontaire porte \u00e0 l'avers l'inscription \" R\u00e9publique fran\u00e7aise \" et au revers l'inscription \" Croix du combattant volontaire \".</p><p>Elle est suspendue \u00e0 un ruban par un anneau sans b\u00e9li\u00e8re.</p><p>Le ruban, d'une largeur de 36 millim\u00e8tres, est rouge avec, au milieu, une bande verte de huit millim\u00e8tres et \u00e0 un millim\u00e8tre de chaque bord, une bande jaune de quatre millim\u00e8tres.</p>",
+            "num": "D352-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-07-01",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000033818960",
                         "id": "LEGISCTA000033818960",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION RECONNAISSANCE DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000033818960",
+                        "id": "LEGISCTA000047770455",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -55,15 +79,6 @@
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -71,24 +86,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033819360",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000033819360",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000033819356",
+            "sectionParentId": "LEGISCTA000033819356",
+            "sectionParentTitre": "Section 2 : Croix du combattant volontaire",
+            "fullSectionsTitre": "Partie r\u00e9glementaire (nouvelle)  &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre V : D\u00c9CORATIONS &gt; Chapitre II : Croix du combattant volontaire de la R\u00e9sistance et croix du combattant volontaire &gt; Section 2 : Croix du combattant volontaire",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033819360",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000701286",
-                    "textTitle": "D\u00e9cret n\u00b0 81-844 du 8 ao\u00fbt 1981 art. 2, v. init.",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000701286",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                },
+                {
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000033719487",
@@ -115,13 +199,43 @@
                     "dateDebutCible": "2016-12-30"
                 }
             ],
-            "num": "D352-3",
-            "origine": "LEGI",
-            "texte": "La croix du combattant volontaire porte \u00e0 l'avers l'inscription \" R\u00e9publique fran\u00e7aise \" et au revers l'inscription \" Croix du combattant volontaire \". Elle est suspendue \u00e0 un ruban par un anneau sans b\u00e9li\u00e8re. Le ruban, d'une largeur de 36 millim\u00e8tres, est rouge avec, au milieu, une bande verte de huit millim\u00e8tres et \u00e0 un millim\u00e8tre de chaque bord, une bande jaune de quatre millim\u00e8tres.",
-            "texteHtml": "<p>La croix du combattant volontaire porte \u00e0 l'avers l'inscription \" R\u00e9publique fran\u00e7aise \" et au revers l'inscription \" Croix du combattant volontaire \".</p><p>Elle est suspendue \u00e0 un ruban par un anneau sans b\u00e9li\u00e8re.</p><p>Le ruban, d'une largeur de 36 millim\u00e8tres, est rouge avec, au milieu, une bande verte de huit millim\u00e8tres et \u00e0 un millim\u00e8tre de chaque bord, une bande jaune de quatre millim\u00e8tres.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000701286",
+                    "textTitle": "D\u00e9cret n\u00b0 81-844 du 8 ao\u00fbt 1981 art. 2, v. init.",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000701286",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000033819360",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D352-3",
+                "352-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

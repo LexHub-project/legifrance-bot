@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006818194",
-    "num": "R331-3",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025210953",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Sont assujetties \u00e0 la taxe d'am\u00e9nagement les op\u00e9rations de construction soumises \u00e0 d\u00e9claration pr\u00e9alable ou \u00e0 permis de construire qui ont pour effet de changer la destination des locaux mentionn\u00e9s au 3\u00b0 de l'article L. 331-7 .",
+            "texteHtml": "<p>Sont assujetties \u00e0 la taxe d'am\u00e9nagement les op\u00e9rations de construction soumises \u00e0 d\u00e9claration pr\u00e9alable ou \u00e0 permis de construire qui ont pour effet de changer la destination des locaux mentionn\u00e9s au 3\u00b0 de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074075&idArticle=LEGIARTI000006815599&dateTexte=&categorieLien=cid'>L. 331-7</a>.</p>",
+            "num": "R331-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE",
+            "dateDebut": 1330560000000,
+            "dateFin": 1678406400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -43,12 +58,12 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006158759",
                         "id": "LEGISCTA000025214673",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2001-03-28",
@@ -61,21 +76,21 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Section 1 : Taxe d'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006176070",
                         "id": "LEGISCTA000025214671",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Sous-section 2 : Champ d'application et fait g\u00e9n\u00e9rateur",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025206460",
                         "id": "LEGISCTA000025210969",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -92,40 +107,57 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025210953",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006818194",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025206460",
+            "sectionParentId": "LEGISCTA000025210969",
+            "sectionParentTitre": "Sous-section 2 : Champ d'application et fait g\u00e9n\u00e9rateur",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Am\u00e9nagement foncier &gt; Titre III : Dispositions financi\u00e8res",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025210953",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. L331-7 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L331-7",
-                    "articleId": "LEGIARTI000006815599",
-                    "natureText": "CODE",
-                    "date": 1599862599275,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1546300800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000325880",
-                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 3",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000325880",
-                    "natureText": "DECRET"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000337142",
-                    "textTitle": "D\u00e9cret n\u00b073-1023 du 8 novembre 1973 (V)",
+                    "textTitle": "D\u00e9cret n\u00b0 73-1023 du 8 novembre 1973",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -146,17 +178,98 @@
                     "datePubliTexte": "2012-01-27",
                     "dateSignaTexte": "2012-01-25",
                     "dateDebutCible": "2012-03-01"
+                },
+                {
+                    "textCid": "JORFTEXT000047277930",
+                    "textTitle": "D\u00e9cret n\u00b02023-165 du 7 mars 2023 - art. 5",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000047278728",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-03-09",
+                    "dateSignaTexte": "2023-03-07",
+                    "dateDebutCible": "2023-03-10"
                 }
             ],
-            "num": "R331-3",
-            "origine": "LEGI",
-            "texte": "Sont assujetties \u00e0 la taxe d'am\u00e9nagement les op\u00e9rations de construction soumises \u00e0 d\u00e9claration pr\u00e9alable ou \u00e0 permis de construire qui ont pour effet de changer la destination des locaux mentionn\u00e9s au 3\u00b0 de l'article L. 331-7 .",
-            "texteHtml": "<p>Sont assujetties \u00e0 la taxe d'am\u00e9nagement les op\u00e9rations de construction soumises \u00e0 d\u00e9claration pr\u00e9alable ou \u00e0 permis de construire qui ont pour effet de changer la destination des locaux mentionn\u00e9s au 3\u00b0 de l'article <a href='/article/LEGIARTI000006815599' title='Code de l'urbanisme - art. L331-7 (V)'>L. 331-7</a>.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-03-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L331-7",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L331-7",
+                    "articleId": "LEGIARTI000006815599",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1546300800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000325880",
+                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 3",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000325880",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006818194",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 121996800000,
+                    "dateFin": 1330560000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025210953",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1330560000000,
+                    "dateFin": 1678406400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R331-3",
+                "331-3"
+            ],
+            "versionPrecedente": "LEGIARTI000006818194",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006818194",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le taux d'int\u00e9r\u00eat des avances est compris dans les limites fix\u00e9es par un arr\u00eat\u00e9 conjoint du ministre de l'\u00e9conomie et des finances et du ministre charg\u00e9 de l'urbanisme. Le d\u00e9lai de remboursement des avances ne peut exc\u00e9der deux ans. Il peut toutefois \u00eatre prolong\u00e9 pour une \u00e9gale dur\u00e9e : Deux fois en ce qui concerne les avances consenties en vue de la cr\u00e9ation de zones industrielles ; Trois fois en ce qui concerne les avances consenties en vue de l'exercice du droit de pr\u00e9emption dans les zones d'am\u00e9nagement diff\u00e9r\u00e9 ; Une fois pour les autres op\u00e9rations. Les prolongations de d\u00e9lais sont accord\u00e9es par d\u00e9cisions du comit\u00e9 de gestion pr\u00e9vu \u00e0 l'article pr\u00e9c\u00e9dent.",
+            "texteHtml": "<p></p>   Le taux d'int\u00e9r\u00eat des avances est compris dans les limites fix\u00e9es par un arr\u00eat\u00e9 conjoint du ministre de l'\u00e9conomie et des finances et du ministre charg\u00e9 de l'urbanisme.<p></p><p></p>   Le d\u00e9lai de remboursement des avances ne peut exc\u00e9der deux ans. Il peut toutefois \u00eatre prolong\u00e9 pour une \u00e9gale dur\u00e9e :<p></p><p></p>   Deux fois en ce qui concerne les avances consenties en vue de la cr\u00e9ation de zones industrielles ;<p></p><p></p>   Trois fois en ce qui concerne les avances consenties en vue de l'exercice du droit de pr\u00e9emption dans les zones d'am\u00e9nagement diff\u00e9r\u00e9 ;<p></p><p></p>   Une fois pour les autres op\u00e9rations.<p></p><p></p>   Les prolongations de d\u00e9lais sont accord\u00e9es par d\u00e9cisions du comit\u00e9 de gestion pr\u00e9vu \u00e0 l'article pr\u00e9c\u00e9dent.<p></p>",
+            "num": "R*331-3",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 121996800000,
+            "dateFin": 1330560000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -197,12 +310,12 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006158759",
                         "id": "LEGISCTA000025214673",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1973-11-13",
@@ -215,12 +328,12 @@
                     },
                     {
                         "debut": "2012-03-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-10",
                         "titre": "Section 2 : Versement pour sous-densit\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006175843",
                         "id": "LEGISCTA000025210992",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -237,21 +350,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006818194",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006818194",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175843",
+            "sectionParentId": "LEGISCTA000025210992",
+            "sectionParentTitre": "Section 2 : Versement pour sous-densit\u00e9",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Am\u00e9nagement foncier &gt; Titre III : Dispositions financi\u00e8res &gt; Chapitre Ier : Fiscalit\u00e9 de l'am\u00e9nagement &gt; Section 2 : Versement pour sous-densit\u00e9",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006818194",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000000325880",
-                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 3",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000325880",
-                    "natureText": "DECRET"
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -278,13 +423,53 @@
                     "dateDebutCible": "2007-10-01"
                 }
             ],
-            "num": "R*331-3",
-            "origine": "LEGI",
-            "texte": "Le taux d'int\u00e9r\u00eat des avances est compris dans les limites fix\u00e9es par un arr\u00eat\u00e9 conjoint du ministre de l'\u00e9conomie et des finances et du ministre charg\u00e9 de l'urbanisme. Le d\u00e9lai de remboursement des avances ne peut exc\u00e9der deux ans. Il peut toutefois \u00eatre prolong\u00e9 pour une \u00e9gale dur\u00e9e : Deux fois en ce qui concerne les avances consenties en vue de la cr\u00e9ation de zones industrielles ; Trois fois en ce qui concerne les avances consenties en vue de l'exercice du droit de pr\u00e9emption dans les zones d'am\u00e9nagement diff\u00e9r\u00e9 ; Une fois pour les autres op\u00e9rations. Les prolongations de d\u00e9lais sont accord\u00e9es par d\u00e9cisions du comit\u00e9 de gestion pr\u00e9vu \u00e0 l'article pr\u00e9c\u00e9dent.",
-            "texteHtml": "<p></p>   Le taux d'int\u00e9r\u00eat des avances est compris dans les limites fix\u00e9es par un arr\u00eat\u00e9 conjoint du ministre de l'\u00e9conomie et des finances et du ministre charg\u00e9 de l'urbanisme.<p></p><p></p>   Le d\u00e9lai de remboursement des avances ne peut exc\u00e9der deux ans. Il peut toutefois \u00eatre prolong\u00e9 pour une \u00e9gale dur\u00e9e :<p></p><p></p>   Deux fois en ce qui concerne les avances consenties en vue de la cr\u00e9ation de zones industrielles ;<p></p><p></p>   Trois fois en ce qui concerne les avances consenties en vue de l'exercice du droit de pr\u00e9emption dans les zones d'am\u00e9nagement diff\u00e9r\u00e9 ;<p></p><p></p>   Une fois pour les autres op\u00e9rations.<p></p><p></p>   Les prolongations de d\u00e9lais sont accord\u00e9es par d\u00e9cisions du comit\u00e9 de gestion pr\u00e9vu \u00e0 l'article pr\u00e9c\u00e9dent.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1973-11-13T00:00:00.000Z",
-            "dateFin": "2012-03-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000325880",
+                    "textTitle": "D\u00e9cret 57-526 1957-04-19 art. 3",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000325880",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006818194",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 121996800000,
+                    "dateFin": 1330560000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025210953",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1330560000000,
+                    "dateFin": 1678406400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*331-3",
+                "331-3",
+                "R331-3"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

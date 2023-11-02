@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000018493336",
-    "num": "D4626-7",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000036483907",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le rapport annuel est pr\u00e9sent\u00e9 en m\u00eame temps que le rapport mentionn\u00e9 \u00e0 l'article D. 4626-32 et que le bilan social au comit\u00e9 technique d'\u00e9tablissement, \u00e0 la commission m\u00e9dicale d'\u00e9tablissement et au comit\u00e9 social et \u00e9conomique. Il est transmis, assorti des observations \u00e9ventuelles de ces instances, dans un d\u00e9lai d'un mois, au directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.",
+            "texteHtml": "<p>Le rapport annuel est pr\u00e9sent\u00e9 en m\u00eame temps que le rapport mentionn\u00e9 \u00e0 l'article D. 4626-32 et que le bilan social au comit\u00e9 technique d'\u00e9tablissement, \u00e0 la commission m\u00e9dicale d'\u00e9tablissement et au comit\u00e9 social et \u00e9conomique. Il est transmis, assorti des observations \u00e9ventuelles de ces instances, dans un d\u00e9lai d'un mois, au directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.</p>",
+            "num": "D4626-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1514764800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -92,50 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000036483907",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493336",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493332",
+            "sectionParentId": "LEGISCTA000018528048",
+            "sectionParentTitre": "Sous-section 2 : Rapport annuel.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre VI : Services de sant\u00e9 au travail des \u00e9tablissements de sant\u00e9,  sociaux et m\u00e9dico-sociaux &gt; Section 2 : Services de sant\u00e9 au travail. &gt; Sous-section 2 : Rapport annuel.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000036483907",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4626-32 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4626-32",
-                    "articleId": "LEGIARTI000036483892",
-                    "natureText": "CODE",
-                    "date": 1606348736283,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1514764800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4626-8 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4626-8",
-                    "articleId": "LEGIARTI000031571185",
-                    "natureText": "CODE",
-                    "date": 1606348736284,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R242-3 al 2 \u00e0 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R242-3",
-                    "articleId": "LEGIARTI000018510013",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023592572",
@@ -162,15 +189,115 @@
                     "dateDebutCible": "2017-12-31"
                 }
             ],
-            "num": "D4626-7",
-            "origine": "LEGI",
-            "texte": "Le rapport annuel est pr\u00e9sent\u00e9 en m\u00eame temps que le rapport mentionn\u00e9 \u00e0 l'article D. 4626-32 et que le bilan social au comit\u00e9 technique d'\u00e9tablissement, \u00e0 la commission m\u00e9dicale d'\u00e9tablissement et au           comit\u00e9 social et \u00e9conomique. Il est transmis, assorti des observations \u00e9ventuelles de ces instances, dans un d\u00e9lai d'un mois, au directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.",
-            "texteHtml": "<p>Le rapport annuel est pr\u00e9sent\u00e9 en m\u00eame temps que le rapport mentionn\u00e9 \u00e0 l'article D. 4626-32 et que le bilan social au comit\u00e9 technique d'\u00e9tablissement, \u00e0 la commission m\u00e9dicale d'\u00e9tablissement et au           comit\u00e9 social et \u00e9conomique. Il est transmis, assorti des observations \u00e9ventuelles de ces instances, dans un d\u00e9lai d'un mois, au directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2018-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4626-32 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4626-32",
+                    "articleId": "LEGIARTI000036483892",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4626-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4626-8",
+                    "articleId": "LEGIARTI000045676879",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651104000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R242-3 al 2 \u00e0 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R242-3",
+                    "articleId": "LEGIARTI000018510013",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528044",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1320105600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023951974",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1320105600000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031571183",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483907",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4626-7",
+                "4626-7"
+            ],
+            "versionPrecedente": "LEGIARTI000031571183",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000031571183",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le rapport annuel est pr\u00e9sent\u00e9 en m\u00eame temps que le rapport mentionn\u00e9 \u00e0 l'article D. 4626-32 et que le bilan social au comit\u00e9 technique d'\u00e9tablissement, \u00e0 la commission m\u00e9dicale d'\u00e9tablissement et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des observations \u00e9ventuelles de ces instances, dans un d\u00e9lai d'un mois, au directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.",
+            "texteHtml": "<p>Le rapport annuel est pr\u00e9sent\u00e9 en m\u00eame temps que le rapport mentionn\u00e9 \u00e0 l'article D. 4626-32 et que le bilan social au comit\u00e9 technique d'\u00e9tablissement, \u00e0 la commission m\u00e9dicale d'\u00e9tablissement et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des observations \u00e9ventuelles de ces instances, dans un d\u00e9lai d'un mois, au directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi. </p>",
+            "num": "D4626-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1451606400000,
+            "dateFin": 1514764800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -211,11 +338,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -260,50 +396,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000031571183",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493336",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493332",
+            "sectionParentId": "LEGISCTA000018528048",
+            "sectionParentTitre": "Sous-section 2 : Rapport annuel.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre VI : Services de sant\u00e9 au travail des \u00e9tablissements de sant\u00e9,  sociaux et m\u00e9dico-sociaux &gt; Section 2 : Services de sant\u00e9 au travail. &gt; Sous-section 2 : Rapport annuel.",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031571183",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4626-32 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4626-32",
-                    "articleId": "LEGIARTI000031571270",
-                    "natureText": "CODE",
-                    "date": 1599125661159,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4626-8 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4626-8",
-                    "articleId": "LEGIARTI000031571185",
-                    "natureText": "CODE",
-                    "date": 1599125661159,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R242-3 al 2 \u00e0 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R242-3",
-                    "articleId": "LEGIARTI000018510013",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031567022",
@@ -318,15 +457,115 @@
                     "dateDebutCible": "2016-01-01"
                 }
             ],
-            "num": "D4626-7",
-            "origine": "LEGI",
-            "texte": "Le rapport annuel est pr\u00e9sent\u00e9 en m\u00eame temps que le rapport mentionn\u00e9 \u00e0 l'article D. 4626-32 et que le bilan social au comit\u00e9 technique d'\u00e9tablissement, \u00e0 la commission m\u00e9dicale d'\u00e9tablissement et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des observations \u00e9ventuelles de ces instances, dans un d\u00e9lai d'un mois, au directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.",
-            "texteHtml": "<p>Le rapport annuel est pr\u00e9sent\u00e9 en m\u00eame temps que le rapport mentionn\u00e9 \u00e0 l'article D. 4626-32 et que le bilan social au comit\u00e9 technique d'\u00e9tablissement, \u00e0 la commission m\u00e9dicale d'\u00e9tablissement et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des observations \u00e9ventuelles de ces instances, dans un d\u00e9lai d'un mois, au directeur r\u00e9gional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2018-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4626-32 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4626-32",
+                    "articleId": "LEGIARTI000031571270",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4626-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4626-8",
+                    "articleId": "LEGIARTI000045676879",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651104000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R242-3 al 2 \u00e0 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R242-3",
+                    "articleId": "LEGIARTI000018510013",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528044",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1320105600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023951974",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1320105600000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031571183",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483907",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4626-7",
+                "4626-7"
+            ],
+            "versionPrecedente": "LEGIARTI000023951974",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000023951974",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le rapport annuel est pr\u00e9sent\u00e9 pour avis au  comit\u00e9 technique et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des avis et observations de ces comit\u00e9s, dans un d\u00e9lai de deux mois \u00e0 compter de sa pr\u00e9sentation : 1\u00b0 A l'assembl\u00e9e gestionnaire ; 2\u00b0 A l'autorit\u00e9 de tutelle ; 3\u00b0 Au m\u00e9decin inspecteur du travail et \u00e0 l'inspecteur du travail.",
+            "texteHtml": "<p><br/>Le rapport annuel est pr\u00e9sent\u00e9 pour avis au  comit\u00e9 technique et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des avis et observations de ces comit\u00e9s, dans un d\u00e9lai de deux mois \u00e0 compter de sa pr\u00e9sentation : <br/>1\u00b0 A l'assembl\u00e9e gestionnaire ; <br/>2\u00b0 A l'autorit\u00e9 de tutelle ; <br/>3\u00b0 Au m\u00e9decin inspecteur du travail et \u00e0 l'inspecteur du travail.</p>",
+            "num": "D4626-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1320105600000,
+            "dateFin": 1451606400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -367,11 +606,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -416,50 +664,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000023951974",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493336",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493332",
+            "sectionParentId": "LEGISCTA000018528048",
+            "sectionParentTitre": "Sous-section 2 : Rapport annuel.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre VI : Services de sant\u00e9 au travail des \u00e9tablissements de sant\u00e9,  sociaux et m\u00e9dico-sociaux &gt; Section 2 : Services de sant\u00e9 au travail. &gt; Sous-section 2 : Rapport annuel.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023951974",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4626-32 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4626-32",
-                    "articleId": "LEGIARTI000031571270",
-                    "natureText": "CODE",
-                    "date": 1606348736051,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4626-8 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4626-8",
-                    "articleId": "LEGIARTI000031571185",
-                    "natureText": "CODE",
-                    "date": 1606348736051,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R242-3 al 2 \u00e0 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R242-3",
-                    "articleId": "LEGIARTI000018510013",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000023592572",
@@ -474,15 +725,115 @@
                     "dateDebutCible": "2011-02-18"
                 }
             ],
-            "num": "D4626-7",
-            "origine": "LEGI",
-            "texte": "Le rapport annuel est pr\u00e9sent\u00e9 pour avis au  comit\u00e9 technique et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des avis et observations de ces comit\u00e9s, dans un d\u00e9lai de deux mois \u00e0 compter de sa pr\u00e9sentation : 1\u00b0 A l'assembl\u00e9e gestionnaire ; 2\u00b0 A l'autorit\u00e9 de tutelle ; 3\u00b0 Au m\u00e9decin inspecteur du travail et \u00e0 l'inspecteur du travail.",
-            "texteHtml": "<p><br/>Le rapport annuel est pr\u00e9sent\u00e9 pour avis au  comit\u00e9 technique et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des avis et observations de ces comit\u00e9s, dans un d\u00e9lai de deux mois \u00e0 compter de sa pr\u00e9sentation : <br/>1\u00b0 A l'assembl\u00e9e gestionnaire ; <br/>2\u00b0 A l'autorit\u00e9 de tutelle ; <br/>3\u00b0 Au m\u00e9decin inspecteur du travail et \u00e0 l'inspecteur du travail.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2011-11-01T00:00:00.000Z",
-            "dateFin": "2016-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4626-32 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4626-32",
+                    "articleId": "LEGIARTI000031571270",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4626-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4626-8",
+                    "articleId": "LEGIARTI000045676879",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651104000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R242-3 al 2 \u00e0 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R242-3",
+                    "articleId": "LEGIARTI000018510013",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528044",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1320105600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023951974",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1320105600000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031571183",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483907",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4626-7",
+                "4626-7"
+            ],
+            "versionPrecedente": "LEGIARTI000018528044",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018528044",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le rapport annuel est pr\u00e9sent\u00e9 pour avis au comit\u00e9 technique paritaire et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des avis et observations de ces comit\u00e9s, dans un d\u00e9lai de deux mois \u00e0 compter de sa pr\u00e9sentation : 1\u00b0 A l'assembl\u00e9e gestionnaire ; 2\u00b0 A l'autorit\u00e9 de tutelle ; 3\u00b0 Au m\u00e9decin inspecteur du travail et \u00e0 l'inspecteur du travail.",
+            "texteHtml": "<p><br/>Le rapport annuel est pr\u00e9sent\u00e9 pour avis au comit\u00e9 technique paritaire et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des avis et observations de ces comit\u00e9s, dans un d\u00e9lai de deux mois \u00e0 compter de sa pr\u00e9sentation :<br/> 1\u00b0 A l'assembl\u00e9e gestionnaire ;<br/> 2\u00b0 A l'autorit\u00e9 de tutelle ;<br/> 3\u00b0 Au m\u00e9decin inspecteur du travail et \u00e0 l'inspecteur du travail.</p>",
+            "num": "D4626-7",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1209600000000,
+            "dateFin": 1320105600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -523,11 +874,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -572,50 +932,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018528044",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000018493336",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493332",
+            "sectionParentId": "LEGISCTA000018528048",
+            "sectionParentTitre": "Sous-section 2 : Rapport annuel.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; TITRE II : SERVICES DE SANT\u00c9 AU TRAVAIL &gt; Chapitre VI : Services de sant\u00e9 au travail des \u00e9tablissements de sant\u00e9,  sociaux et m\u00e9dico-sociaux &gt; Section 2 : Services de sant\u00e9 au travail. &gt; Sous-section 2 : Rapport annuel.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000018528044",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4626-32 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4626-32",
-                    "articleId": "LEGIARTI000031571270",
-                    "natureText": "CODE",
-                    "date": 1599855555685,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. D4626-8 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "D4626-8",
-                    "articleId": "LEGIARTI000031571185",
-                    "natureText": "CODE",
-                    "date": 1599855555685,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R242-3 al 2 \u00e0 5 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "R242-3",
-                    "articleId": "LEGIARTI000018510013",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018442415",
@@ -630,13 +993,97 @@
                     "dateDebutCible": "2008-03-13"
                 }
             ],
-            "num": "D4626-7",
-            "origine": "LEGI",
-            "texte": "Le rapport annuel est pr\u00e9sent\u00e9 pour avis au comit\u00e9 technique paritaire et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des avis et observations de ces comit\u00e9s, dans un d\u00e9lai de deux mois \u00e0 compter de sa pr\u00e9sentation : 1\u00b0 A l'assembl\u00e9e gestionnaire ; 2\u00b0 A l'autorit\u00e9 de tutelle ; 3\u00b0 Au m\u00e9decin inspecteur du travail et \u00e0 l'inspecteur du travail.",
-            "texteHtml": "<p><br/>Le rapport annuel est pr\u00e9sent\u00e9 pour avis au comit\u00e9 technique paritaire et au comit\u00e9 d'hygi\u00e8ne, de s\u00e9curit\u00e9 et des conditions de travail. Il est transmis, assorti des avis et observations de ces comit\u00e9s, dans un d\u00e9lai de deux mois \u00e0 compter de sa pr\u00e9sentation :<br/> 1\u00b0 A l'assembl\u00e9e gestionnaire ;<br/> 2\u00b0 A l'autorit\u00e9 de tutelle ;<br/> 3\u00b0 Au m\u00e9decin inspecteur du travail et \u00e0 l'inspecteur du travail.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-01T00:00:00.000Z",
-            "dateFin": "2011-11-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4626-32 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4626-32",
+                    "articleId": "LEGIARTI000031571270",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. D4626-8 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D4626-8",
+                    "articleId": "LEGIARTI000045676879",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651104000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R242-3 al 2 \u00e0 5 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R242-3",
+                    "articleId": "LEGIARTI000018510013",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000018528044",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1209600000000,
+                    "dateFin": 1320105600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023951974",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1320105600000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031571183",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036483907",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D4626-7",
+                "4626-7"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

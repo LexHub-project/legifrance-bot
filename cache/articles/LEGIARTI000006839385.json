@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006839385",
-    "num": "R543-148",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031090452",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'agr\u00e9ment mentionn\u00e9 \u00e0 l'article R. 543-145 ne conf\u00e8re, tant aux b\u00e9n\u00e9ficiaires qu'aux tiers dans leurs relations avec eux, aucune garantie commerciale, financi\u00e8re ou autre. Toute mention de son agr\u00e9ment par le titulaire doit se r\u00e9f\u00e9rer \u00e0 l'activit\u00e9 pour laquelle celui-ci est accord\u00e9. Ces agr\u00e9ments ne se substituent pas aux autorisations administratives dont les entreprises doivent \u00eatre pourvues dans le cadre des r\u00e9glementations existantes. Les titulaires de ces agr\u00e9ments restent pleinement responsables de leur exploitation industrielle et commerciale dans les conditions d\u00e9finies par les lois et r\u00e8glements en vigueur.",
+            "texteHtml": "<p>L'agr\u00e9ment mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006839382&dateTexte=&categorieLien=cid'>R. 543-145</a> ne conf\u00e8re, tant aux b\u00e9n\u00e9ficiaires qu'aux tiers dans leurs relations avec eux, aucune garantie commerciale, financi\u00e8re ou autre. </p><p>Toute mention de son agr\u00e9ment par le titulaire doit se r\u00e9f\u00e9rer \u00e0 l'activit\u00e9 pour laquelle celui-ci est accord\u00e9. </p><p>Ces agr\u00e9ments ne se substituent pas aux autorisations administratives dont les entreprises doivent \u00eatre pourvues dans le cadre des r\u00e9glementations existantes. </p><p>Les titulaires de ces agr\u00e9ments restent pleinement responsables de leur exploitation industrielle et commerciale dans les conditions d\u00e9finies par les lois et r\u00e8glements en vigueur.</p>",
+            "num": "R543-148",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "ABROGE",
+            "dateDebut": 1443657600000,
+            "dateFin": 1677974400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 429490,
             "context": {
                 "titresTM": [
                     {
@@ -52,11 +67,20 @@
                     },
                     {
                         "debut": "2011-07-12",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-05",
                         "titre": "Section 8 : D\u00e9chets de pneumatiques",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006176999",
                         "id": "LEGISCTA000024357669",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-03-05",
+                        "fin": "2999-01-01",
+                        "titre": "Section 8 : Pneumatiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176999",
+                        "id": "LEGISCTA000047265555",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -92,26 +116,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031090452",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006839385",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188998",
+            "sectionParentId": "LEGISCTA000024357660",
+            "sectionParentTitre": "Sous-section 1 : Gestion des d\u00e9chets de pneumatiques",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre III : Dispositions propres \u00e0 certaines cat\u00e9gories de produits et de d\u00e9chets (R) &gt; Section 8 : Pneumatiques &gt; Sous-section 1 : Gestion des d\u00e9chets de pneumatiques",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000031090452",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R543-145 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R543-145",
-                    "articleId": "LEGIARTI000006839382",
-                    "natureText": "CODE",
-                    "date": 1654201178741,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1192492800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000825108",
@@ -136,17 +187,88 @@
                     "datePubliTexte": "2015-08-20",
                     "dateSignaTexte": "2015-08-18",
                     "dateDebutCible": "2015-10-01"
+                },
+                {
+                    "textCid": "JORFTEXT000047259904",
+                    "textTitle": "D\u00e9cret n\u00b02023-152 du 2 mars 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000047262550",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-03-04",
+                    "dateSignaTexte": "2023-03-02",
+                    "dateDebutCible": "2023-03-05"
                 }
             ],
-            "num": "R543-148",
-            "origine": "LEGI",
-            "texte": "L'agr\u00e9ment mentionn\u00e9 \u00e0 l'article R. 543-145 ne conf\u00e8re, tant aux b\u00e9n\u00e9ficiaires qu'aux tiers dans leurs relations avec eux, aucune garantie commerciale, financi\u00e8re ou autre. Toute mention de son agr\u00e9ment par le titulaire doit se r\u00e9f\u00e9rer \u00e0 l'activit\u00e9 pour laquelle celui-ci est accord\u00e9. Ces agr\u00e9ments ne se substituent pas aux autorisations administratives dont les entreprises doivent \u00eatre pourvues dans le cadre des r\u00e9glementations existantes. Les titulaires de ces agr\u00e9ments restent pleinement responsables de leur exploitation industrielle et commerciale dans les conditions d\u00e9finies par les lois et r\u00e8glements en vigueur.",
-            "texteHtml": "<p>L'agr\u00e9ment mentionn\u00e9 \u00e0 l'article <a href='/article/LEGIARTI000006839382' title='Code de l'environnement - art. R543-145 (V)'>R. 543-145</a> ne conf\u00e8re, tant aux b\u00e9n\u00e9ficiaires qu'aux tiers dans leurs relations avec eux, aucune garantie commerciale, financi\u00e8re ou autre. </p><p>Toute mention de son agr\u00e9ment par le titulaire doit se r\u00e9f\u00e9rer \u00e0 l'activit\u00e9 pour laquelle celui-ci est accord\u00e9. </p><p>Ces agr\u00e9ments ne se substituent pas aux autorisations administratives dont les entreprises doivent \u00eatre pourvues dans le cadre des r\u00e9glementations existantes. </p><p>Les titulaires de ces agr\u00e9ments restent pleinement responsables de leur exploitation industrielle et commerciale dans les conditions d\u00e9finies par les lois et r\u00e8glements en vigueur.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-10-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R543-145",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R543-145",
+                    "articleId": "LEGIARTI000006839382",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1192492800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006839385",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1192492800000,
+                    "dateFin": 1443657600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031090452",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1443657600000,
+                    "dateFin": 1677974400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R543-148",
+                "543-148"
+            ],
+            "versionPrecedente": "LEGIARTI000006839385",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006839385",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les agr\u00e9ments mentionn\u00e9s aux articles R. 543-145 et R. 543-147 ne conf\u00e8rent, tant aux b\u00e9n\u00e9ficiaires qu'aux tiers dans leurs relations avec eux, aucune garantie commerciale, financi\u00e8re ou autre. Toute mention de son agr\u00e9ment par le titulaire doit se r\u00e9f\u00e9rer \u00e0 l'activit\u00e9 pour laquelle celui-ci est accord\u00e9. Ces agr\u00e9ments ne se substituent pas aux autorisations administratives dont les entreprises doivent \u00eatre pourvues dans le cadre des r\u00e9glementations existantes. Les titulaires de ces agr\u00e9ments restent pleinement responsables de leur exploitation industrielle et commerciale dans les conditions d\u00e9finies par les lois et r\u00e8glements en vigueur.",
+            "texteHtml": "<p></p>Les agr\u00e9ments mentionn\u00e9s aux <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006839382&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. R543-145 (V)'>articles R. 543-145 </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006839384&dateTexte=&categorieLien=cid' title='Code de l'environnement - art. R543-147 (V)'>R. 543-147</a> ne conf\u00e8rent, tant aux b\u00e9n\u00e9ficiaires qu'aux tiers dans leurs relations avec eux, aucune garantie commerciale, financi\u00e8re ou autre. <p></p><p></p>Toute mention de son agr\u00e9ment par le titulaire doit se r\u00e9f\u00e9rer \u00e0 l'activit\u00e9 pour laquelle celui-ci est accord\u00e9. <p></p><p></p>Ces agr\u00e9ments ne se substituent pas aux autorisations administratives dont les entreprises doivent \u00eatre pourvues dans le cadre des r\u00e9glementations existantes. <p></p><p></p>Les titulaires de ces agr\u00e9ments restent pleinement responsables de leur exploitation industrielle et commerciale dans les conditions d\u00e9finies par les lois et r\u00e8glements en vigueur.<p></p>",
+            "num": "R543-148",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1192492800000,
+            "dateFin": 1443657600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 429490,
             "context": {
                 "titresTM": [
                     {
@@ -196,11 +318,20 @@
                     },
                     {
                         "debut": "2011-07-12",
-                        "fin": "2999-01-01",
+                        "fin": "2023-03-05",
                         "titre": "Section 8 : D\u00e9chets de pneumatiques",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006176999",
                         "id": "LEGISCTA000024357669",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-03-05",
+                        "fin": "2999-01-01",
+                        "titre": "Section 8 : Pneumatiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176999",
+                        "id": "LEGISCTA000047265555",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -236,40 +367,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006839385",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006839385",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006188998",
+            "sectionParentId": "LEGISCTA000024357660",
+            "sectionParentTitre": "Sous-section 1 : Gestion des d\u00e9chets de pneumatiques",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre V : Pr\u00e9vention des pollutions, des risques et des nuisances &gt; Titre IV : D\u00e9chets &gt; Chapitre III : Dispositions propres \u00e0 certaines cat\u00e9gories de produits et de d\u00e9chets (R) &gt; Section 8 : D\u00e9chets de pneumatiques &gt; Sous-section 1 : Gestion des d\u00e9chets de pneumatiques",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006839385",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R543-145 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R543-145",
-                    "articleId": "LEGIARTI000006839382",
-                    "natureText": "CODE",
-                    "date": 1599826022497,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1192492800000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R543-147 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R543-147",
-                    "articleId": "LEGIARTI000006839384",
-                    "natureText": "CODE",
-                    "date": 1599826022497,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1192492800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000825108",
@@ -284,13 +428,69 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "R543-148",
-            "origine": "LEGI",
-            "texte": "Les agr\u00e9ments mentionn\u00e9s aux articles R. 543-145 et R. 543-147 ne conf\u00e8rent, tant aux b\u00e9n\u00e9ficiaires qu'aux tiers dans leurs relations avec eux, aucune garantie commerciale, financi\u00e8re ou autre. Toute mention de son agr\u00e9ment par le titulaire doit se r\u00e9f\u00e9rer \u00e0 l'activit\u00e9 pour laquelle celui-ci est accord\u00e9. Ces agr\u00e9ments ne se substituent pas aux autorisations administratives dont les entreprises doivent \u00eatre pourvues dans le cadre des r\u00e9glementations existantes. Les titulaires de ces agr\u00e9ments restent pleinement responsables de leur exploitation industrielle et commerciale dans les conditions d\u00e9finies par les lois et r\u00e8glements en vigueur.",
-            "texteHtml": "<p></p>Les agr\u00e9ments mentionn\u00e9s aux <a href='/article/LEGIARTI000006839382' title='Code de l'environnement - art. R543-145 (V)'>articles R. 543-145 </a>et <a href='/article/LEGIARTI000006839384' title='Code de l'environnement - art. R543-147 (V)'>R. 543-147</a> ne conf\u00e8rent, tant aux b\u00e9n\u00e9ficiaires qu'aux tiers dans leurs relations avec eux, aucune garantie commerciale, financi\u00e8re ou autre. <p></p><p></p>Toute mention de son agr\u00e9ment par le titulaire doit se r\u00e9f\u00e9rer \u00e0 l'activit\u00e9 pour laquelle celui-ci est accord\u00e9. <p></p><p></p>Ces agr\u00e9ments ne se substituent pas aux autorisations administratives dont les entreprises doivent \u00eatre pourvues dans le cadre des r\u00e9glementations existantes. <p></p><p></p>Les titulaires de ces agr\u00e9ments restent pleinement responsables de leur exploitation industrielle et commerciale dans les conditions d\u00e9finies par les lois et r\u00e8glements en vigueur.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-10-16T00:00:00.000Z",
-            "dateFin": "2015-10-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R543-145 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R543-145",
+                    "articleId": "LEGIARTI000006839382",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1192492800000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R543-147 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R543-147",
+                    "articleId": "LEGIARTI000006839384",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1192492800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006839385",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1192492800000,
+                    "dateFin": 1443657600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031090452",
+                    "etat": "ABROGE",
+                    "version": "2.0",
+                    "dateDebut": 1443657600000,
+                    "dateFin": 1677974400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R543-148",
+                "543-148"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

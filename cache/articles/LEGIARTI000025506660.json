@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000025506660",
-    "num": "L711-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025506660",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les missions de la s\u00e9curit\u00e9 civile sont d\u00e9finies au chapitre II du titre Ier du livre Ier du pr\u00e9sent code.",
+            "texteHtml": "<p><br/>Les missions de la s\u00e9curit\u00e9 civile sont d\u00e9finies au chapitre II du titre Ier du livre Ier du pr\u00e9sent code.</p>",
+            "num": "L711-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1335830400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -56,40 +71,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025506660",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025506660",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025506658",
+            "sectionParentId": "LEGISCTA000025507271",
+            "sectionParentTitre": "Chapitre unique : Missions de la s\u00e9curit\u00e9 civile",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VII : S\u00c9CURIT\u00c9 CIVILE &gt; TITRE Ier : DISPOSITIONS G\u00c9N\u00c9RALES &gt; Chapitre unique : Missions de la s\u00e9curit\u00e9 civile",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000025506660",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L765-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L765-1",
-                    "articleId": "LEGIARTI000042426499",
-                    "natureText": "CODE",
-                    "date": 1637966385544,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1602806400000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L766-1 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L766-1",
-                    "articleId": "LEGIARTI000042083997",
-                    "natureText": "CODE",
-                    "date": 1637966385545,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1593907200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025498645",
@@ -116,13 +144,60 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L711-1",
-            "origine": "LEGI",
-            "texte": "Les missions de la s\u00e9curit\u00e9 civile sont d\u00e9finies au chapitre II du titre Ier du livre Ier du pr\u00e9sent code.",
-            "texteHtml": "<p><br/>Les missions de la s\u00e9curit\u00e9 civile sont d\u00e9finies au chapitre II du titre Ier du livre Ier du pr\u00e9sent code.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-05-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L765-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L765-1",
+                    "articleId": "LEGIARTI000042426499",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1602806400000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L766-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L766-1",
+                    "articleId": "LEGIARTI000042083997",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1593907200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025506660",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L711-1",
+                "711-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

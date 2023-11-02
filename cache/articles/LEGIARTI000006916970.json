@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006916970",
-    "num": "D6124-17",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006916971",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.",
+            "texteHtml": "<p></p>   L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.<p></p><p></p>",
+            "num": "D6124-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1148342400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -92,30 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006916971",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000006916970",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006198992",
+            "sectionParentId": "LEGISCTA000006198992",
+            "sectionParentTitre": "Paragraphe 3 : Structure des urgences",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 1 : M\u00e9decine d'urgence &gt; Paragraphe 3 : Structure des urgences",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006916971",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D712-65-4 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "D712-65-4",
-                    "articleId": "LEGIARTI000006691951",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. D712-65-4 (M)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "D712-65-4",
-                    "articleId": "LEGIARTI000006691950",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
@@ -142,15 +180,79 @@
                     "dateDebutCible": "2006-05-23"
                 }
             ],
-            "num": "D6124-17",
-            "origine": "LEGI",
-            "texte": "L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.",
-            "texteHtml": "<p></p>   L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-05-23T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D712-65-4 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "D712-65-4",
+                    "articleId": "LEGIARTI000006691951",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D712-65-4 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "D712-65-4",
+                    "articleId": "LEGIARTI000006691950",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916970",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1122336000000,
+                    "dateFin": 1148342400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006916971",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1148342400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-17",
+                "6124-17"
+            ],
+            "versionPrecedente": "LEGIARTI000006916970",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006916970",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque l'\u00e9tat du patient exige qu'il soit pris en charge par un \u00e9tablissement de sant\u00e9 exer\u00e7ant la psychiatrie, le service d'accueil et de traitement des urgences ou l'unit\u00e9 de proximit\u00e9 l'oriente et, s'il y a lieu, le fait transf\u00e9rer sans d\u00e9lai vers les services ou \u00e9quipements, mentionn\u00e9s \u00e0 l'article L. 3221-4, mis \u00e0 la disposition de la population dans le secteur psychiatrique correspondant \u00e0 son lieu de r\u00e9sidence, sous r\u00e9serve des dispositions du second alin\u00e9a de l'article L. 3211-1 et de celles de l'article L. 3222-1. La convention pr\u00e9vue \u00e0 l'article D. 6124-16 r\u00e8gle en tant que de besoin les conditions dans lesquelles est assur\u00e9e cette orientation.",
+            "texteHtml": "<p></p>   Lorsque l'\u00e9tat du patient exige qu'il soit pris en charge par un \u00e9tablissement de sant\u00e9 exer\u00e7ant la psychiatrie, le service d'accueil et de traitement des urgences ou l'unit\u00e9 de proximit\u00e9 l'oriente et, s'il y a lieu, le fait transf\u00e9rer sans d\u00e9lai vers les services ou \u00e9quipements, mentionn\u00e9s \u00e0 l'article L. 3221-4, mis \u00e0 la disposition de la population dans le secteur psychiatrique correspondant \u00e0 son lieu de r\u00e9sidence, sous r\u00e9serve des dispositions du second alin\u00e9a de l'article L. 3211-1 et de celles de l'article L. 3222-1.<p></p><p></p>   La convention pr\u00e9vue \u00e0 l'article D. 6124-16 r\u00e8gle en tant que de besoin les conditions dans lesquelles est assur\u00e9e cette orientation.<p></p>",
+            "num": "D6124-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1122336000000,
+            "dateFin": 1148342400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 730133,
             "context": {
                 "titresTM": [
                     {
@@ -231,9 +333,67 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006916970",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006916970",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006196697",
+            "sectionParentId": "LEGISCTA000006196697",
+            "sectionParentTitre": "Sous-section 1 : Accueil et traitement des urgences.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006916970",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000814956",
+                    "textTitle": "D\u00e9cret 2005-840 2005-07-20",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000814956",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2005-07-26",
+                    "dateSignaTexte": "2005-07-20",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072665",
@@ -243,7 +403,6 @@
                     "articleNum": "D6124-16",
                     "articleId": "LEGIARTI000006916967",
                     "natureText": "CODE",
-                    "date": 1599807048812,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -257,7 +416,6 @@
                     "articleNum": "L3211-1",
                     "articleId": "LEGIARTI000006687900",
                     "natureText": "CODE",
-                    "date": 1599807048812,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -271,7 +429,6 @@
                     "articleNum": "L3221-4",
                     "articleId": "LEGIARTI000006687969",
                     "natureText": "CODE",
-                    "date": 1599807048812,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -285,7 +442,6 @@
                     "articleNum": "L3222-1",
                     "articleId": "LEGIARTI000006687972",
                     "natureText": "CODE",
-                    "date": 1599807048812,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -312,27 +468,40 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000000814956",
-                    "textTitle": "D\u00e9cret 2005-840 2005-07-20",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000814956",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2005-07-26",
-                    "dateSignaTexte": "2005-07-20",
-                    "dateDebutCible": "2999-01-01"
+                    "id": "LEGIARTI000006916970",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1122336000000,
+                    "dateFin": 1148342400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006916971",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1148342400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "D6124-17",
-            "origine": "LEGI",
-            "texte": "Lorsque l'\u00e9tat du patient exige qu'il soit pris en charge par un \u00e9tablissement de sant\u00e9 exer\u00e7ant la psychiatrie, le service d'accueil et de traitement des urgences ou l'unit\u00e9 de proximit\u00e9 l'oriente et, s'il y a lieu, le fait transf\u00e9rer sans d\u00e9lai vers les services ou \u00e9quipements, mentionn\u00e9s \u00e0 l'article L. 3221-4, mis \u00e0 la disposition de la population dans le secteur psychiatrique correspondant \u00e0 son lieu de r\u00e9sidence, sous r\u00e9serve des dispositions du second alin\u00e9a de l'article L. 3211-1 et de celles de l'article L. 3222-1. La convention pr\u00e9vue \u00e0 l'article D. 6124-16 r\u00e8gle en tant que de besoin les conditions dans lesquelles est assur\u00e9e cette orientation.",
-            "texteHtml": "<p></p>   Lorsque l'\u00e9tat du patient exige qu'il soit pris en charge par un \u00e9tablissement de sant\u00e9 exer\u00e7ant la psychiatrie, le service d'accueil et de traitement des urgences ou l'unit\u00e9 de proximit\u00e9 l'oriente et, s'il y a lieu, le fait transf\u00e9rer sans d\u00e9lai vers les services ou \u00e9quipements, mentionn\u00e9s \u00e0 l'article L. 3221-4, mis \u00e0 la disposition de la population dans le secteur psychiatrique correspondant \u00e0 son lieu de r\u00e9sidence, sous r\u00e9serve des dispositions du second alin\u00e9a de l'article L. 3211-1 et de celles de l'article L. 3222-1.<p></p><p></p>   La convention pr\u00e9vue \u00e0 l'article D. 6124-16 r\u00e8gle en tant que de besoin les conditions dans lesquelles est assur\u00e9e cette orientation.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-07-26T00:00:00.000Z",
-            "dateFin": "2006-05-23T00:00:00.000Z"
+            "computedNums": [
+                "D6124-17",
+                "6124-17"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

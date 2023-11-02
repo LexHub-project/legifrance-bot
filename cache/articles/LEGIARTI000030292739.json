@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000030292739",
-    "num": "R300-29",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000030292739",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsqu'un ou plusieurs propri\u00e9taires s'engagent \u00e0 r\u00e9aliser ou \u00e0 faire r\u00e9aliser les travaux dont le programme leur a \u00e9t\u00e9 notifi\u00e9, ils doivent produire \u00e0 l'autorit\u00e9 qui les a mis en demeure une note pr\u00e9cisant le calendrier d'ex\u00e9cution de ces travaux.",
+            "texteHtml": "<p></p>   Lorsqu'un ou plusieurs propri\u00e9taires s'engagent \u00e0 r\u00e9aliser ou \u00e0 faire r\u00e9aliser les travaux dont le programme leur a \u00e9t\u00e9 notifi\u00e9, ils doivent produire \u00e0 l'autorit\u00e9 qui les a mis en demeure une note pr\u00e9cisant le calendrier d'ex\u00e9cution de ces travaux.<p></p><p></p>",
+            "num": "R300-29",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1425081600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073784772,
             "context": {
                 "titresTM": [
                     {
@@ -34,15 +49,24 @@
                     },
                     {
                         "debut": "2015-02-28",
-                        "fin": "2999-01-01",
+                        "fin": "2022-12-25",
                         "titre": " Section 5 : R\u00e9habilitation des ensembles commerciaux dans les zones urbaines sensibles",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006143387",
                         "id": "LEGISCTA000030294196",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-12-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 5 : R\u00e9habilitation des ensembles commerciaux dans les quartiers prioritaires de la ville et de locaux, terrains et \u00e9quipements dans les zones d'activit\u00e9 \u00e9conomique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143387",
+                        "id": "LEGISCTA000046814108",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 41,
                 "titreTxt": [
                     {
@@ -56,21 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000030292739",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [
+            "cid": "LEGIARTI000030292739",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006143387",
+            "sectionParentId": "LEGISCTA000046814108",
+            "sectionParentTitre": "Section 5 : R\u00e9habilitation des ensembles commerciaux dans les quartiers prioritaires de la ville et de locaux, terrains et \u00e9quipements dans les zones d'activit\u00e9 \u00e9conomique",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre III : Am\u00e9nagement foncier &gt;  Section 5 : R\u00e9habilitation des ensembles commerciaux dans les zones urbaines sensibles",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000030292739",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074075",
-                    "textTitle": "Code de l'urbanisme - art. R*300-16 (T)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "R*300-16",
-                    "articleId": "LEGIARTI000006817831",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006074075",
+                    "titre": "Code de l'urbanisme",
+                    "titreLong": "Code de l'urbanisme",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074075",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000030290082",
@@ -85,13 +141,43 @@
                     "dateDebutCible": "2015-02-28"
                 }
             ],
-            "num": "R300-29",
-            "origine": "LEGI",
-            "texte": "Lorsqu'un ou plusieurs propri\u00e9taires s'engagent \u00e0 r\u00e9aliser ou \u00e0 faire r\u00e9aliser les travaux dont le programme leur a \u00e9t\u00e9 notifi\u00e9, ils doivent produire \u00e0 l'autorit\u00e9 qui les a mis en demeure une note pr\u00e9cisant le calendrier d'ex\u00e9cution de ces travaux.",
-            "texteHtml": "<p></p>   Lorsqu'un ou plusieurs propri\u00e9taires s'engagent \u00e0 r\u00e9aliser ou \u00e0 faire r\u00e9aliser les travaux dont le programme leur a \u00e9t\u00e9 notifi\u00e9, ils doivent produire \u00e0 l'autorit\u00e9 qui les a mis en demeure une note pr\u00e9cisant le calendrier d'ex\u00e9cution de ces travaux.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-02-28T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. R*300-16 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*300-16",
+                    "articleId": "LEGIARTI000006817831",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000030292739",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1425081600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R300-29",
+                "300-29"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

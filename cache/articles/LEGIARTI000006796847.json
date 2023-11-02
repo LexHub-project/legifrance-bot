@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006796847",
-    "num": "L225-4",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006796847",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Tout refus ou retrait d'agr\u00e9ment doit \u00eatre motiv\u00e9.",
+            "texteHtml": "<p></p>   Tout refus ou retrait d'agr\u00e9ment doit \u00eatre motiv\u00e9.<p></p><p></p>",
+            "num": "L225-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 977529600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 257694,
             "context": {
                 "titresTM": [
                     {
@@ -65,45 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006796847",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006796847",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006174338",
+            "sectionParentId": "LEGISCTA000006174338",
+            "sectionParentTitre": "Section 1 : Adoption des pupilles de l'Etat.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre II : Diff\u00e9rentes formes d'aide et d'action sociales &gt; Titre II : Enfance &gt; Chapitre V : Adoption &gt; Section 1 : Adoption des pupilles de l'Etat.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006796847",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074069",
-                    "textTitle": "Code de l'action sociale et des familles - art. Annexe 2-6 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe 2-6",
-                    "articleId": "LEGIARTI000019325563",
-                    "natureText": "CODE",
-                    "date": 1599877519847,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074069",
+                    "titre": "Code de l'action sociale et des familles",
+                    "titreLong": "Code de l'action sociale et des familles",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 977529600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074069",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1161129600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072637",
-                    "textTitle": "Code de la famille et de l'aide sociale 63 al. 5",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006072637",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072637",
-                    "textTitle": "Code de la famille et de l'aide sociale. - art. 63 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "63",
-                    "articleId": "LEGIARTI000006681177",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000402347",
@@ -130,13 +153,66 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L225-4",
-            "origine": "LEGI",
-            "texte": "Tout refus ou retrait d'agr\u00e9ment doit \u00eatre motiv\u00e9.",
-            "texteHtml": "<p></p>   Tout refus ou retrait d'agr\u00e9ment doit \u00eatre motiv\u00e9.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-12-23T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. Annexe 2-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe 2-6",
+                    "articleId": "LEGIARTI000019325563",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1161129600000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale 63 al. 5",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006072637",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 63 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "63",
+                    "articleId": "LEGIARTI000006681177",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006796847",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 977529600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L225-4",
+                "225-4"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

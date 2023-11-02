@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031709873",
-    "num": "L343-8",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000031710753",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les \u00e9trangers, victimes de la d\u00e9portation pour un motif d'ordre politique ou racial, n'ayant pas \u00e9t\u00e9 d\u00e9port\u00e9s de France, peuvent obtenir le titre de d\u00e9port\u00e9 politique s'ils ont depuis lors acquis la nationalit\u00e9 fran\u00e7aise.",
+            "texteHtml": "<p><br/>Les \u00e9trangers, victimes de la d\u00e9portation pour un motif d'ordre politique ou racial, n'ayant pas \u00e9t\u00e9 d\u00e9port\u00e9s de France, peuvent obtenir le titre de d\u00e9port\u00e9 politique s'ils ont depuis lors acquis la nationalit\u00e9 fran\u00e7aise.</p>",
+            "num": "L343-8",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -16,11 +31,20 @@
                     },
                     {
                         "debut": "2017-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-08-03",
                         "titre": "Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000031709781",
                         "id": "LEGISCTA000031710845",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-08-03",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : CARTES ET TITRES, ALLOCATION DE RECONNAISSANCE  DU COMBATTANT ET D\u00c9CORATIONS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031709781",
+                        "id": "LEGISCTA000047925809",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -55,15 +79,6 @@
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
-                        "debut": "2017-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074068",
-                        "id": "LEGITEXT000031712069",
-                        "etat": "VIGUEUR"
-                    },
-                    {
                         "debut": "1951-04-26",
                         "fin": "2017-01-01",
                         "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
@@ -71,39 +86,93 @@
                         "cid": "LEGITEXT000006074068",
                         "id": "LEGITEXT000006074068",
                         "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074068",
+                        "id": "LEGITEXT000031712069",
+                        "etat": "VIGUEUR"
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031710753",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000031709873",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031709857",
+            "sectionParentId": "LEGISCTA000031710769",
+            "sectionParentTitre": "Section 1 : De la qualit\u00e9 de d\u00e9port\u00e9 et d'intern\u00e9 politique",
+            "fullSectionsTitre": "Partie l\u00e9gislative (nouvelle) &gt; Livre III : CARTES ET TITRES, RETRAITE DU COMBATTANT ET D\u00c9CORATIONS &gt; Titre IV : AUTRES TITRES ET DROITS CORRESPONDANTS &gt; Chapitre III : D\u00e9port\u00e9s et intern\u00e9s politiques, patriotes r\u00e9sistant \u00e0 l'occupation des d\u00e9partements du Rhin et de la Moselle et patriotes r\u00e9fractaires \u00e0 l'annexion de fait &gt; Section 1 : De la qualit\u00e9 de d\u00e9port\u00e9 et d'intern\u00e9 politique",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000031710753",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R343-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R343-1",
-                    "articleId": "LEGIARTI000033819196",
-                    "natureText": "CODE",
-                    "date": 1599840966150,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074068",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de la guerre",
+                    "etat": "MODIFIE",
+                    "dateDebut": -589680000000,
+                    "dateFin": 1483228800000,
+                    "cid": "LEGITEXT000006074068",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                }
-            ],
-            "lienConcordes": [
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                },
                 {
-                    "textCid": "LEGITEXT000006074068",
-                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L293 bis (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L293 bis",
-                    "articleId": "LEGIARTI000006794627",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000031712069",
+                    "titre": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre.",
+                    "titreLong": "Code des pensions militaires d'invalidit\u00e9 et des victimes de guerre",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074068",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
+            "nota": "Conform\u00e9ment \u00e0 l'article 8 de l'ordonnance n\u00b0 2015-1781 du 28 d\u00e9cembre 2015, les dispositions de la partie l\u00e9gislative du code des pensions militaires d'invalidit\u00e9 et des victimes de guerre entrent en vigueur le lendemain de la publication au Journal officiel de la R\u00e9publique fran\u00e7aise du d\u00e9cret en Conseil d'Etat relatif \u00e0 la partie r\u00e9glementaire dudit code, et au plus tard le 1er janvier 2017.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 8 de l'ordonnance n\u00b0 2015-1781 du 28 d\u00e9cembre 2015, les dispositions de la partie l\u00e9gislative du code des pensions militaires d'invalidit\u00e9 et des victimes de guerre entrent en vigueur le lendemain de la publication au Journal officiel de la R\u00e9publique fran\u00e7aise du d\u00e9cret en Conseil d'Etat relatif \u00e0 la partie r\u00e9glementaire dudit code, et au plus tard le 1er janvier 2017.<br clear='none'/><br clear='none'/></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031702175",
@@ -130,13 +199,57 @@
                     "dateDebutCible": "2015-12-30"
                 }
             ],
-            "num": "L343-8",
-            "origine": "LEGI",
-            "texte": "Les \u00e9trangers, victimes de la d\u00e9portation pour un motif d'ordre politique ou racial, n'ayant pas \u00e9t\u00e9 d\u00e9port\u00e9s de France, peuvent obtenir le titre de d\u00e9port\u00e9 politique s'ils ont depuis lors acquis la nationalit\u00e9 fran\u00e7aise.",
-            "texteHtml": "<p><br/>Les \u00e9trangers, victimes de la d\u00e9portation pour un motif d'ordre politique ou racial, n'ayant pas \u00e9t\u00e9 d\u00e9port\u00e9s de France, peuvent obtenir le titre de d\u00e9port\u00e9 politique s'ils ont depuis lors acquis la nationalit\u00e9 fran\u00e7aise.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. R343-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R343-1",
+                    "articleId": "LEGIARTI000033819196",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074068",
+                    "textTitle": "Code des pensions militaires d'invalidit\u00e9 et de... - art. L293 bis (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L293 bis",
+                    "articleId": "LEGIARTI000006794627",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031710753",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L343-8",
+                "343-8"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

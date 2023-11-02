@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689397",
-    "num": "L4323-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000025104552",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs des agences r\u00e9gionales de sant\u00e9, les inspecteurs de          l'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 , ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 l'article L. 4323-6.",
+            "texteHtml": "<p>Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs des agences r\u00e9gionales de sant\u00e9, les inspecteurs de          l'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 , ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006689406&dateTexte=&categorieLien=cid'>l'article L. 4323-6.</a></p>",
+            "num": "L4323-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1335830400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,87 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000025104552",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689397",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171313",
+            "sectionParentId": "LEGISCTA000006171313",
+            "sectionParentTitre": "Chapitre III : Dispositions p\u00e9nales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre II : Professions de masseur-kin\u00e9sith\u00e9rapeute et de p\u00e9dicure-podologue &gt; Chapitre III : Dispositions p\u00e9nales.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025104552",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000032209352",
-                    "textTitle": "Ordonnance n\u00b02016-301 du 14 mars 2016 - art. L455-2, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L455-2",
-                    "articleId": "JORFARTI000032210151",
-                    "natureText": "ORDONNANCE",
-                    "date": 1648156251650,
-                    "parentCid": null,
-                    "numTexte": "2016-301",
-                    "datePubli": 1458086400000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006069565",
-                    "textTitle": "Code de la consommation - art. L213-5 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L213-5",
-                    "articleId": "LEGIARTI000030678507",
-                    "natureText": "CODE",
-                    "date": 1648156251650,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1433548800000
-                },
-                {
-                    "textCid": "LEGITEXT000006069565",
-                    "textTitle": "Code de la consommation - art. L455-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L455-2",
-                    "articleId": "LEGIARTI000045405689",
-                    "natureText": "CODE",
-                    "date": 1648156251651,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1648166400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4323-6",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4323-6",
-                    "articleId": "LEGIARTI000006689406",
-                    "natureText": "CODE",
-                    "date": 1648156251651,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1530403200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L510-9-3",
-                    "articleId": "LEGIARTI000006693404",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L510-9-3",
-                    "articleId": "LEGIARTI000006693404",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "Loi n\u00b0 2011-2012 du 29 d\u00e9cembre 2011 article 41 III : Les pr\u00e9sentes dispositions entrent en vigueur \u00e0 une date pr\u00e9vue par le d\u00e9cret pris pour leur application et au plus tard le 1er ao\u00fbt 2012. D\u00e8s cette entr\u00e9e en vigueur, l'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 exerce l'ensemble des droits et supporte l'ensemble des obligations de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9. Jusqu'\u00e0 l'entr\u00e9e en vigueur mentionn\u00e9e au premier alin\u00e9a du pr\u00e9sent III, les comp\u00e9tences et pouvoirs que la pr\u00e9sente loi attribue \u00e0 l'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 sont exerc\u00e9s par l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9. Le d\u00e9cret n\u00b0 2012-597 du 27 avril 2012 est entr\u00e9 en vigueur le 1er mai 2012.",
+            "notaHtml": "<p>Loi n\u00b0 2011-2012 du 29 d\u00e9cembre 2011 article 41 III : Les pr\u00e9sentes dispositions entrent en vigueur \u00e0 une date pr\u00e9vue par le d\u00e9cret pris pour leur application et au plus tard le 1er ao\u00fbt 2012. D\u00e8s cette entr\u00e9e en vigueur, l'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 exerce l'ensemble des droits et supporte l'ensemble des obligations de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9. Jusqu'\u00e0 l'entr\u00e9e en vigueur mentionn\u00e9e au premier alin\u00e9a du pr\u00e9sent III, les comp\u00e9tences et pouvoirs que la pr\u00e9sente loi attribue \u00e0 l'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 sont exerc\u00e9s par l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9.</p><p>Le d\u00e9cret n\u00b0 2012-597 du 27 avril 2012 est entr\u00e9 en vigueur le 1er mai 2012.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025053440",
@@ -178,15 +168,141 @@
                     "dateDebutCible": "2011-12-31"
                 }
             ],
-            "num": "L4323-2",
-            "origine": "LEGI",
-            "texte": "Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs des agences r\u00e9gionales de sant\u00e9, les inspecteurs de          l'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 , ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 l'article L. 4323-6.",
-            "texteHtml": "<p>Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs des agences r\u00e9gionales de sant\u00e9, les inspecteurs de          l'Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 , ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 <a href='/article/LEGIARTI000006689406'>l'article L. 4323-6.</a></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-05-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000032209352",
+                    "textTitle": "Ordonnance n\u00b02016-301 du 14 mars 2016 - art. L455-2, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L455-2",
+                    "articleId": "JORFARTI000032210151",
+                    "natureText": "ORDONNANCE",
+                    "parentCid": null,
+                    "numTexte": "2016-301",
+                    "datePubli": 1458086400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006069565",
+                    "textTitle": "Code de la consommation - art. L213-5 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L213-5",
+                    "articleId": "LEGIARTI000030678507",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1433548800000
+                },
+                {
+                    "textCid": "LEGITEXT000006069565",
+                    "textTitle": "Code de la consommation - art. L455-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L455-2",
+                    "articleId": "LEGIARTI000045405689",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1648166400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4323-6",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4323-6",
+                    "articleId": "LEGIARTI000006689406",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1530403200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L510-9-3",
+                    "articleId": "LEGIARTI000006693404",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L510-9-3",
+                    "articleId": "LEGIARTI000006693404",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689397",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1267142400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021941215",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1267142400000,
+                    "dateFin": 1335830400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025104552",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4323-2",
+                "4323-2"
+            ],
+            "versionPrecedente": "LEGIARTI000021941215",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000021941215",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs des agences r\u00e9gionales de sant\u00e9, les inspecteurs de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9, ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 l'article L. 4323-6.",
+            "texteHtml": "<p>Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs des agences r\u00e9gionales de sant\u00e9, les inspecteurs de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9, ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006689406&dateTexte=&categorieLien=cid'>l'article L. 4323-6.</a></p>",
+            "num": "L4323-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1267142400000,
+            "dateFin": 1335830400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -227,11 +343,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -267,87 +392,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000021941215",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689397",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171313",
+            "sectionParentId": "LEGISCTA000006171313",
+            "sectionParentTitre": "Chapitre III : Dispositions p\u00e9nales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre II : Professions de masseur-kin\u00e9sith\u00e9rapeute et de p\u00e9dicure-podologue &gt; Chapitre III : Dispositions p\u00e9nales.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000021941215",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000032209352",
-                    "textTitle": "Ordonnance n\u00b02016-301 du 14 mars 2016 - art. L455-2, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L455-2",
-                    "articleId": "JORFARTI000032210151",
-                    "natureText": "ORDONNANCE",
-                    "date": 1648156250031,
-                    "parentCid": null,
-                    "numTexte": "2016-301",
-                    "datePubli": 1458086400000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006069565",
-                    "textTitle": "Code de la consommation - art. L213-5 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L213-5",
-                    "articleId": "LEGIARTI000030678507",
-                    "natureText": "CODE",
-                    "date": 1648156250031,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1433548800000
-                },
-                {
-                    "textCid": "LEGITEXT000006069565",
-                    "textTitle": "Code de la consommation - art. L455-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L455-2",
-                    "articleId": "LEGIARTI000045405689",
-                    "natureText": "CODE",
-                    "date": 1648156250031,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1648166400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4323-6",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4323-6",
-                    "articleId": "LEGIARTI000006689406",
-                    "natureText": "CODE",
-                    "date": 1648156250031,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1530403200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L510-9-3",
-                    "articleId": "LEGIARTI000006693404",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L510-9-3",
-                    "articleId": "LEGIARTI000006693404",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000021868310",
@@ -362,15 +453,141 @@
                     "dateDebutCible": "2010-02-26"
                 }
             ],
-            "num": "L4323-2",
-            "origine": "LEGI",
-            "texte": "Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs des agences r\u00e9gionales de sant\u00e9, les inspecteurs de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9, ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 l'article L. 4323-6.",
-            "texteHtml": "<p>Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs des agences r\u00e9gionales de sant\u00e9, les inspecteurs de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9, ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 <a href='/article/LEGIARTI000006689406'>l'article L. 4323-6.</a></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-02-26T00:00:00.000Z",
-            "dateFin": "2012-05-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000032209352",
+                    "textTitle": "Ordonnance n\u00b02016-301 du 14 mars 2016 - art. L455-2, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L455-2",
+                    "articleId": "JORFARTI000032210151",
+                    "natureText": "ORDONNANCE",
+                    "parentCid": null,
+                    "numTexte": "2016-301",
+                    "datePubli": 1458086400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006069565",
+                    "textTitle": "Code de la consommation - art. L213-5 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L213-5",
+                    "articleId": "LEGIARTI000030678507",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1433548800000
+                },
+                {
+                    "textCid": "LEGITEXT000006069565",
+                    "textTitle": "Code de la consommation - art. L455-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L455-2",
+                    "articleId": "LEGIARTI000045405689",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1648166400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4323-6",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4323-6",
+                    "articleId": "LEGIARTI000006689406",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1530403200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L510-9-3",
+                    "articleId": "LEGIARTI000006693404",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L510-9-3",
+                    "articleId": "LEGIARTI000006693404",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689397",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1267142400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021941215",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1267142400000,
+                    "dateFin": 1335830400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025104552",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4323-2",
+                "4323-2"
+            ],
+            "versionPrecedente": "LEGIARTI000006689397",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689397",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9, ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 l'article L. 4323-6.",
+            "texteHtml": "<p></p>   Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9, ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 l'article L. 4323-6.<p></p><p></p>",
+            "num": "L4323-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1267142400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -411,11 +628,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -451,87 +677,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689397",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689397",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171313",
+            "sectionParentId": "LEGISCTA000006171313",
+            "sectionParentTitre": "Chapitre III : Dispositions p\u00e9nales.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre II : Professions de masseur-kin\u00e9sith\u00e9rapeute et de p\u00e9dicure-podologue &gt; Chapitre III : Dispositions p\u00e9nales.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689397",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000032209352",
-                    "textTitle": "Ordonnance n\u00b02016-301 du 14 mars 2016 - art. L455-2, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L455-2",
-                    "articleId": "JORFARTI000032210151",
-                    "natureText": "ORDONNANCE",
-                    "date": 1648156250634,
-                    "parentCid": null,
-                    "numTexte": "2016-301",
-                    "datePubli": 1458086400000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006069565",
-                    "textTitle": "Code de la consommation - art. L213-5 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L213-5",
-                    "articleId": "LEGIARTI000030678507",
-                    "natureText": "CODE",
-                    "date": 1648156250634,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1433548800000
-                },
-                {
-                    "textCid": "LEGITEXT000006069565",
-                    "textTitle": "Code de la consommation - art. L455-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L455-2",
-                    "articleId": "LEGIARTI000045405689",
-                    "natureText": "CODE",
-                    "date": 1648156250635,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1648166400000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L4323-6 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L4323-6",
-                    "articleId": "LEGIARTI000006689406",
-                    "natureText": "CODE",
-                    "date": 1648156250635,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1530403200000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L510-9-3",
-                    "articleId": "LEGIARTI000006693404",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L510-9-3",
-                    "articleId": "LEGIARTI000006693404",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -558,13 +750,123 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L4323-2",
-            "origine": "LEGI",
-            "texte": "Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9, ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 l'article L. 4323-6.",
-            "texteHtml": "<p></p>   Les m\u00e9decins et les pharmaciens inspecteurs de sant\u00e9 publique, les inspecteurs de l'Agence fran\u00e7aise de s\u00e9curit\u00e9 sanitaire des produits de sant\u00e9, ainsi que toutes les personnes habilit\u00e9es \u00e0 constater les infractions \u00e0 la l\u00e9gislation sur la r\u00e9pression des fraudes sont habilit\u00e9s \u00e0 proc\u00e9der \u00e0 la recherche et \u00e0 la constatation des infractions mentionn\u00e9es \u00e0 l'article L. 4323-6.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2010-02-26T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000032209352",
+                    "textTitle": "Ordonnance n\u00b02016-301 du 14 mars 2016 - art. L455-2, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L455-2",
+                    "articleId": "JORFARTI000032210151",
+                    "natureText": "ORDONNANCE",
+                    "parentCid": null,
+                    "numTexte": "2016-301",
+                    "datePubli": 1458086400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006069565",
+                    "textTitle": "Code de la consommation - art. L213-5 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L213-5",
+                    "articleId": "LEGIARTI000030678507",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1433548800000
+                },
+                {
+                    "textCid": "LEGITEXT000006069565",
+                    "textTitle": "Code de la consommation - art. L455-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L455-2",
+                    "articleId": "LEGIARTI000045405689",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1648166400000
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L4323-6 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L4323-6",
+                    "articleId": "LEGIARTI000006689406",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1530403200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L510-9-3",
+                    "articleId": "LEGIARTI000006693404",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L510-9-3 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L510-9-3",
+                    "articleId": "LEGIARTI000006693404",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689397",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1267142400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000021941215",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1267142400000,
+                    "dateFin": 1335830400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025104552",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4323-2",
+                "4323-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

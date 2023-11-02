@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006837284",
-    "num": "R331-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000034101406",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature.",
+            "texteHtml": "<p>   Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature.</p><p></p><p></p>",
+            "num": "R331-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "5.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1488326400000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -83,26 +98,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000034101406",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837284",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006195535",
+            "sectionParentId": "LEGISCTA000006195535",
+            "sectionParentTitre": "Paragraphe 1 : Proc\u00e9dure",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Espaces naturels &gt; Titre III : Parcs et r\u00e9serves &gt; Chapitre Ier : Parcs nationaux &gt; Section 1 : Cr\u00e9ation et dispositions g\u00e9n\u00e9rales &gt; Sous-section 1 : Cr\u00e9ation du parc &gt; Paragraphe 1 : Proc\u00e9dure",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000034101406",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R533-21",
-                    "articleId": "LEGIARTI000038232541",
-                    "natureText": "CODE",
-                    "date": 1599859358164,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1552694400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000812135",
@@ -129,15 +171,101 @@
                     "dateDebutCible": "2017-03-01"
                 }
             ],
-            "num": "R331-1",
-            "origine": "LEGI",
-            "texte": "Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature.",
-            "texteHtml": "<p>   Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-03-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R533-21",
+                    "articleId": "LEGIARTI000038232541",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1552694400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837284",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1154131200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837285",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1154131200000,
+                    "dateFin": 1174608000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837286",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033701745",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034101406",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R331-1",
+                "331-1"
+            ],
+            "versionPrecedente": "LEGIARTI000033701745",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000033701745",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'Agence fran\u00e7aise pour la biodiversit\u00e9.",
+            "texteHtml": "<p>   Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'Agence fran\u00e7aise pour la biodiversit\u00e9.</p><p></p><p></p>",
+            "num": "R331-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1483228800000,
+            "dateFin": 1488326400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -218,26 +346,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000033701745",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837284",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006195535",
+            "sectionParentId": "LEGISCTA000006195535",
+            "sectionParentTitre": "Paragraphe 1 : Proc\u00e9dure",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Espaces naturels &gt; Titre III : Parcs et r\u00e9serves &gt; Chapitre Ier : Parcs nationaux &gt; Section 1 : Cr\u00e9ation et dispositions g\u00e9n\u00e9rales &gt; Sous-section 1 : Cr\u00e9ation du parc &gt; Paragraphe 1 : Proc\u00e9dure",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000033701745",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R533-21",
-                    "articleId": "LEGIARTI000038232541",
-                    "natureText": "CODE",
-                    "date": 1599128130593,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1552694400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000812135",
@@ -264,15 +419,101 @@
                     "dateDebutCible": "2017-01-01"
                 }
             ],
-            "num": "R331-1",
-            "origine": "LEGI",
-            "texte": "Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'Agence fran\u00e7aise pour la biodiversit\u00e9.",
-            "texteHtml": "<p>   Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'Agence fran\u00e7aise pour la biodiversit\u00e9.</p><p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2017-03-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R533-21",
+                    "articleId": "LEGIARTI000038232541",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1552694400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837284",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1154131200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837285",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1154131200000,
+                    "dateFin": 1174608000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837286",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033701745",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034101406",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R331-1",
+                "331-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006837286",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006837286",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'\u00e9tablissement public Parcs nationaux de France.",
+            "texteHtml": "<p></p>   Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'\u00e9tablissement public Parcs nationaux de France.<p></p><p></p>",
+            "num": "R331-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1174608000000,
+            "dateFin": 1483228800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -353,26 +594,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006837286",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837284",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006195535",
+            "sectionParentId": "LEGISCTA000006195535",
+            "sectionParentTitre": "Paragraphe 1 : Proc\u00e9dure",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Espaces naturels &gt; Titre III : Parcs et r\u00e9serves &gt; Chapitre Ier : Parcs nationaux &gt; Section 1 : Cr\u00e9ation et dispositions g\u00e9n\u00e9rales &gt; Sous-section 1 : Cr\u00e9ation du parc &gt; Paragraphe 1 : Proc\u00e9dure",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006837286",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R533-21",
-                    "articleId": "LEGIARTI000038232541",
-                    "natureText": "CODE",
-                    "date": 1599120464755,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1552694400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000812135",
@@ -399,15 +667,101 @@
                     "dateDebutCible": "2007-03-23"
                 }
             ],
-            "num": "R331-1",
-            "origine": "LEGI",
-            "texte": "Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'\u00e9tablissement public Parcs nationaux de France.",
-            "texteHtml": "<p></p>   Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'\u00e9tablissement public Parcs nationaux de France.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2007-03-23T00:00:00.000Z",
-            "dateFin": "2017-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R533-21",
+                    "articleId": "LEGIARTI000038232541",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1552694400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837284",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1154131200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837285",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1154131200000,
+                    "dateFin": 1174608000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837286",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033701745",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034101406",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R331-1",
+                "331-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006837285",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006837285",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'\u00e9tablissement public Parcs nationaux de France.",
+            "texteHtml": "<p></p>   Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'\u00e9tablissement public Parcs nationaux de France.<p></p><p></p>",
+            "num": "R331-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1154131200000,
+            "dateFin": 1174608000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 85898,
             "context": {
                 "titresTM": [
                     {
@@ -488,26 +842,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006837285",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837284",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006195535",
+            "sectionParentId": "LEGISCTA000006195535",
+            "sectionParentTitre": "Paragraphe 1 : Proc\u00e9dure",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Espaces naturels &gt; Titre III : Parcs et r\u00e9serves &gt; Chapitre Ier : Parcs nationaux &gt; Section 1 : Cr\u00e9ation et dispositions g\u00e9n\u00e9rales &gt; Sous-section 1 : Cr\u00e9ation du parc &gt; Paragraphe 1 : Proc\u00e9dure",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006837285",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R533-21",
-                    "articleId": "LEGIARTI000038232541",
-                    "natureText": "CODE",
-                    "date": 1599120464639,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1552694400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000812135",
@@ -534,15 +915,101 @@
                     "dateDebutCible": "2006-07-29"
                 }
             ],
-            "num": "R331-1",
-            "origine": "LEGI",
-            "texte": "Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'\u00e9tablissement public Parcs nationaux de France.",
-            "texteHtml": "<p></p>   Les principes fondamentaux applicables \u00e0 l'ensemble des parcs nationaux sont arr\u00eat\u00e9s par le ministre charg\u00e9 de la protection de la nature apr\u00e8s avis du conseil d'administration de l'\u00e9tablissement public Parcs nationaux de France.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-07-29T00:00:00.000Z",
-            "dateFin": "2007-03-23T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R533-21",
+                    "articleId": "LEGIARTI000038232541",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1552694400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837284",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1154131200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837285",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1154131200000,
+                    "dateFin": 1174608000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837286",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033701745",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034101406",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R331-1",
+                "331-1"
+            ],
+            "versionPrecedente": "LEGIARTI000006837284",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006837284",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le ministre charg\u00e9 de la protection de la nature est charg\u00e9 de faire, en concertation avec les autres ministres int\u00e9ress\u00e9s, les \u00e9tudes concernant la cr\u00e9ation des parcs nationaux et de leurs zones p\u00e9riph\u00e9riques. Les cr\u00e9dits n\u00e9cessaires sont inscrits au budget du d\u00e9partement charg\u00e9 de la protection de la nature.",
+            "texteHtml": "<p></p>   Le ministre charg\u00e9 de la protection de la nature est charg\u00e9 de faire, en concertation avec les autres ministres int\u00e9ress\u00e9s, les \u00e9tudes concernant la cr\u00e9ation des parcs nationaux et de leurs zones p\u00e9riph\u00e9riques.<p></p><p></p>   Les cr\u00e9dits n\u00e9cessaires sont inscrits au budget du d\u00e9partement charg\u00e9 de la protection de la nature.<p></p>",
+            "num": "R*331-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "ABROGE",
+            "dateDebut": 1123200000000,
+            "dateFin": 1154131200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
             "context": {
                 "titresTM": [
                     {
@@ -605,26 +1072,53 @@
                     }
                 ]
             },
-            "etat": "ABROGE",
-            "id": "LEGIARTI000006837284",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837284",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006176856",
+            "sectionParentId": "LEGISCTA000006176856",
+            "sectionParentTitre": "Section 1 : Cr\u00e9ation et dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre III : Espaces naturels &gt; Titre III : Parcs et r\u00e9serves &gt; Chapitre Ier : Parcs nationaux &gt; Section 1 : Cr\u00e9ation et dispositions g\u00e9n\u00e9rales",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006837284",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R533-21",
-                    "articleId": "LEGIARTI000038232541",
-                    "natureText": "CODE",
-                    "date": 1599120464336,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1552694400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000812135",
@@ -663,13 +1157,84 @@
                     "dateDebutCible": "2006-07-29"
                 }
             ],
-            "num": "R*331-1",
-            "origine": "LEGI",
-            "texte": "Le ministre charg\u00e9 de la protection de la nature est charg\u00e9 de faire, en concertation avec les autres ministres int\u00e9ress\u00e9s, les \u00e9tudes concernant la cr\u00e9ation des parcs nationaux et de leurs zones p\u00e9riph\u00e9riques. Les cr\u00e9dits n\u00e9cessaires sont inscrits au budget du d\u00e9partement charg\u00e9 de la protection de la nature.",
-            "texteHtml": "<p></p>   Le ministre charg\u00e9 de la protection de la nature est charg\u00e9 de faire, en concertation avec les autres ministres int\u00e9ress\u00e9s, les \u00e9tudes concernant la cr\u00e9ation des parcs nationaux et de leurs zones p\u00e9riph\u00e9riques.<p></p><p></p>   Les cr\u00e9dits n\u00e9cessaires sont inscrits au budget du d\u00e9partement charg\u00e9 de la protection de la nature.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-08-05T00:00:00.000Z",
-            "dateFin": "2006-07-29T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R533-21 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R533-21",
+                    "articleId": "LEGIARTI000038232541",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1552694400000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837284",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1123200000000,
+                    "dateFin": 1154131200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837285",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1154131200000,
+                    "dateFin": 1174608000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006837286",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1174608000000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033701745",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 1488326400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000034101406",
+                    "etat": "VIGUEUR",
+                    "version": "5.0",
+                    "dateDebut": 1488326400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R*331-1",
+                "331-1",
+                "R331-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

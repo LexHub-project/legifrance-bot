@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006689514",
-    "num": "L4362-9",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000028748011",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La d\u00e9livrance de verres correcteurs d'am\u00e9tropie et de lentilles de contact oculaire correctrices est r\u00e9serv\u00e9e aux personnes autoris\u00e9es \u00e0 exercer la profession d'opticien-lunetier, dans les conditions pr\u00e9vues au pr\u00e9sent chapitre.",
+            "texteHtml": "La d\u00e9livrance de verres correcteurs d'am\u00e9tropie et de lentilles de contact oculaire correctrices est r\u00e9serv\u00e9e aux personnes autoris\u00e9es \u00e0 exercer la profession d'opticien-lunetier, dans les conditions pr\u00e9vues au pr\u00e9sent chapitre.",
+            "num": "L4362-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1395187200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -83,73 +107,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000028748011",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689514",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171330",
+            "sectionParentId": "LEGISCTA000006171330",
+            "sectionParentTitre": "Chapitre II : Opticien-lunetier.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre VI : Professions d'audioproth\u00e9siste, d'opticien-lunetier, de proth\u00e9siste et d'orth\u00e9siste pour l'appareillage des personnes handicap\u00e9es &gt; Chapitre II : Opticien-lunetier.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000028748011",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000034566766",
-                    "textTitle": "Arr\u00eat\u00e9 du 28 avril 2017 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000034568121",
-                    "natureText": "ARRETE",
-                    "date": 1599874061937,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1493856000000,
-                    "dateDebut": 1493942400000
-                },
-                {
-                    "textCid": "JORFTEXT000036848679",
-                    "textTitle": "Avis divers - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000036848686",
-                    "natureText": "AVIS",
-                    "date": 1599874061937,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1524873600000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000037800670",
-                    "textTitle": "Arr\u00eat\u00e9 du 3 d\u00e9cembre 2018 - art. 1, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "JORFARTI000037800676",
-                    "natureText": "ARRETE",
-                    "date": 1599874061937,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1544659200000,
-                    "dateDebut": 32472144000000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L508",
-                    "articleId": "LEGIARTI000006693378",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L508",
-                    "articleId": "LEGIARTI000006693378",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -188,15 +192,128 @@
                     "dateDebutCible": "2014-03-19"
                 }
             ],
-            "num": "L4362-9",
-            "origine": "LEGI",
-            "texte": "La d\u00e9livrance de verres correcteurs d'am\u00e9tropie et de lentilles de contact oculaire correctrices est r\u00e9serv\u00e9e aux personnes autoris\u00e9es \u00e0 exercer la profession d'opticien-lunetier, dans les conditions pr\u00e9vues au pr\u00e9sent chapitre.",
-            "texteHtml": "La d\u00e9livrance de verres correcteurs d'am\u00e9tropie et de lentilles de contact oculaire correctrices est r\u00e9serv\u00e9e aux personnes autoris\u00e9es \u00e0 exercer la profession d'opticien-lunetier, dans les conditions pr\u00e9vues au pr\u00e9sent chapitre.",
-            "type": "AUTONOME",
-            "dateDebut": "2014-03-19T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000034566766",
+                    "textTitle": "Arr\u00eat\u00e9 du 28 avril 2017 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000034568121",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1493856000000,
+                    "dateDebut": 1493942400000
+                },
+                {
+                    "textCid": "JORFTEXT000036848679",
+                    "textTitle": "Avis divers - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000036848686",
+                    "natureText": "AVIS",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1524873600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000037800670",
+                    "textTitle": "Arr\u00eat\u00e9 du 3 d\u00e9cembre 2018 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000037800676",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1544659200000,
+                    "dateDebut": 32472144000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L508",
+                    "articleId": "LEGIARTI000006693378",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L508",
+                    "articleId": "LEGIARTI000006693378",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689514",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1108166400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689515",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1108166400000,
+                    "dateFin": 1395187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028748011",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1395187200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4362-9",
+                "4362-9"
+            ],
+            "versionPrecedente": "LEGIARTI000006689515",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689515",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les \u00e9tablissements commerciaux dont l'objet principal est l'optique-lunetterie, leurs succursales et les rayons d'optique-lunetterie des magasins ne peuvent \u00eatre dirig\u00e9s ou g\u00e9r\u00e9s que par une personne remplissant les conditions requises pour l'exercice de la profession d'opticien-lunetier. Le colportage des verres correcteurs d'am\u00e9tropie est interdit. Aucun verre correcteur ne pourra \u00eatre d\u00e9livr\u00e9 \u00e0 une personne \u00e2g\u00e9e de moins de seize ans sans ordonnance m\u00e9dicale.",
+            "texteHtml": "<p></p>   Les \u00e9tablissements commerciaux dont l'objet principal est l'optique-lunetterie, leurs succursales et les rayons d'optique-lunetterie des magasins ne peuvent \u00eatre dirig\u00e9s ou g\u00e9r\u00e9s que par une personne remplissant les conditions requises pour l'exercice de la profession d'opticien-lunetier.<p></p><p></p>   Le colportage des verres correcteurs d'am\u00e9tropie est interdit.<p></p><p></p>   Aucun verre correcteur ne pourra \u00eatre d\u00e9livr\u00e9 \u00e0 une personne \u00e2g\u00e9e de moins de seize ans sans ordonnance m\u00e9dicale.<p></p>",
+            "num": "L4362-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1108166400000,
+            "dateFin": 1395187200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 300643,
             "context": {
                 "titresTM": [
                     {
@@ -237,11 +354,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -277,73 +403,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689515",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689514",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171330",
+            "sectionParentId": "LEGISCTA000006171330",
+            "sectionParentTitre": "Chapitre II : Opticien-lunetier.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture et ambulanciers &gt; Titre VI : Professions d'audioproth\u00e9siste, d'opticien-lunetier, de proth\u00e9siste et d'orth\u00e9siste pour l'appareillage des personnes handicap\u00e9es &gt; Chapitre II : Opticien-lunetier.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689515",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000034566766",
-                    "textTitle": "Arr\u00eat\u00e9 du 28 avril 2017 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000034568121",
-                    "natureText": "ARRETE",
-                    "date": 1599820019200,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1493856000000,
-                    "dateDebut": 1493942400000
-                },
-                {
-                    "textCid": "JORFTEXT000036848679",
-                    "textTitle": "Avis divers - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000036848686",
-                    "natureText": "AVIS",
-                    "date": 1599820019200,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1524873600000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000037800670",
-                    "textTitle": "Arr\u00eat\u00e9 du 3 d\u00e9cembre 2018 - art. 1, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "JORFARTI000037800676",
-                    "natureText": "ARRETE",
-                    "date": 1599820019200,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1544659200000,
-                    "dateDebut": 32472144000000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L508",
-                    "articleId": "LEGIARTI000006693378",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L508",
-                    "articleId": "LEGIARTI000006693378",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -382,15 +488,128 @@
                     "dateDebutCible": "2005-02-12"
                 }
             ],
-            "num": "L4362-9",
-            "origine": "LEGI",
-            "texte": "Les \u00e9tablissements commerciaux dont l'objet principal est l'optique-lunetterie, leurs succursales et les rayons d'optique-lunetterie des magasins ne peuvent \u00eatre dirig\u00e9s ou g\u00e9r\u00e9s que par une personne remplissant les conditions requises pour l'exercice de la profession d'opticien-lunetier. Le colportage des verres correcteurs d'am\u00e9tropie est interdit. Aucun verre correcteur ne pourra \u00eatre d\u00e9livr\u00e9 \u00e0 une personne \u00e2g\u00e9e de moins de seize ans sans ordonnance m\u00e9dicale.",
-            "texteHtml": "<p></p>   Les \u00e9tablissements commerciaux dont l'objet principal est l'optique-lunetterie, leurs succursales et les rayons d'optique-lunetterie des magasins ne peuvent \u00eatre dirig\u00e9s ou g\u00e9r\u00e9s que par une personne remplissant les conditions requises pour l'exercice de la profession d'opticien-lunetier.<p></p><p></p>   Le colportage des verres correcteurs d'am\u00e9tropie est interdit.<p></p><p></p>   Aucun verre correcteur ne pourra \u00eatre d\u00e9livr\u00e9 \u00e0 une personne \u00e2g\u00e9e de moins de seize ans sans ordonnance m\u00e9dicale.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2005-02-12T00:00:00.000Z",
-            "dateFin": "2014-03-19T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000034566766",
+                    "textTitle": "Arr\u00eat\u00e9 du 28 avril 2017 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000034568121",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1493856000000,
+                    "dateDebut": 1493942400000
+                },
+                {
+                    "textCid": "JORFTEXT000036848679",
+                    "textTitle": "Avis divers - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000036848686",
+                    "natureText": "AVIS",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1524873600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000037800670",
+                    "textTitle": "Arr\u00eat\u00e9 du 3 d\u00e9cembre 2018 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000037800676",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1544659200000,
+                    "dateDebut": 32472144000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L508",
+                    "articleId": "LEGIARTI000006693378",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L508",
+                    "articleId": "LEGIARTI000006693378",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689514",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1108166400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689515",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1108166400000,
+                    "dateFin": 1395187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028748011",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1395187200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4362-9",
+                "4362-9"
+            ],
+            "versionPrecedente": "LEGIARTI000006689514",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006689514",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les \u00e9tablissements commerciaux dont l'objet principal est l'optique-lunetterie, leurs succursales et les rayons d'optique-lunetterie des magasins ne peuvent \u00eatre dirig\u00e9s ou g\u00e9r\u00e9s que par une personne remplissant les conditions requises pour l'exercice de la profession d'opticien-lunetier. Le colportage des verres correcteurs d'am\u00e9tropie est interdit. Aucun verre correcteur ne pourra \u00eatre d\u00e9livr\u00e9 \u00e0 une personne \u00e2g\u00e9e de moins de seize ans sans ordonnance m\u00e9dicale.",
+            "texteHtml": "<p></p>   Les \u00e9tablissements commerciaux dont l'objet principal est l'optique-lunetterie, leurs succursales et les rayons d'optique-lunetterie des magasins ne peuvent \u00eatre dirig\u00e9s ou g\u00e9r\u00e9s que par une personne remplissant les conditions requises pour l'exercice de la profession d'opticien-lunetier.<p></p><p></p>   Le colportage des verres correcteurs d'am\u00e9tropie est interdit.<p></p><p></p>   Aucun verre correcteur ne pourra \u00eatre d\u00e9livr\u00e9 \u00e0 une personne \u00e2g\u00e9e de moins de seize ans sans ordonnance m\u00e9dicale.<p></p>",
+            "num": "L4362-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 961632000000,
+            "dateFin": 1108166400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 472439,
             "context": {
                 "titresTM": [
                     {
@@ -431,11 +650,20 @@
                     },
                     {
                         "debut": "2016-01-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers et assistants dentaires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006140627",
                         "id": "LEGISCTA000031929964",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre III : Auxiliaires m\u00e9dicaux, aides-soignants, auxiliaires de pu\u00e9riculture, ambulanciers, assistants dentaires et assistants de r\u00e9gulation m\u00e9dicale",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006140627",
+                        "id": "LEGISCTA000047568711",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -471,73 +699,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006689514",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006689514",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006171328",
+            "sectionParentId": "LEGISCTA000006171328",
+            "sectionParentTitre": "Chapitre II : Opticien-lunetier.",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Quatri\u00e8me partie : Professions de sant\u00e9 &gt; Livre III : Auxiliaires m\u00e9dicaux",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000006689514",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000034566766",
-                    "textTitle": "Arr\u00eat\u00e9 du 28 avril 2017 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000034568121",
-                    "natureText": "ARRETE",
-                    "date": 1599820019205,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1493856000000,
-                    "dateDebut": 1493942400000
-                },
-                {
-                    "textCid": "JORFTEXT000036848679",
-                    "textTitle": "Avis divers - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000036848686",
-                    "natureText": "AVIS",
-                    "date": 1599820019205,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1524873600000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000037800670",
-                    "textTitle": "Arr\u00eat\u00e9 du 3 d\u00e9cembre 2018 - art. 1, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "JORFARTI000037800676",
-                    "natureText": "ARRETE",
-                    "date": 1599820019205,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1544659200000,
-                    "dateDebut": 32472144000000
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "cible",
-                    "articleNum": "L508",
-                    "articleId": "LEGIARTI000006693378",
-                    "natureText": "CODE"
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "L508",
-                    "articleId": "LEGIARTI000006693378",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000217229",
@@ -564,13 +772,110 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "L4362-9",
-            "origine": "LEGI",
-            "texte": "Les \u00e9tablissements commerciaux dont l'objet principal est l'optique-lunetterie, leurs succursales et les rayons d'optique-lunetterie des magasins ne peuvent \u00eatre dirig\u00e9s ou g\u00e9r\u00e9s que par une personne remplissant les conditions requises pour l'exercice de la profession d'opticien-lunetier. Le colportage des verres correcteurs d'am\u00e9tropie est interdit. Aucun verre correcteur ne pourra \u00eatre d\u00e9livr\u00e9 \u00e0 une personne \u00e2g\u00e9e de moins de seize ans sans ordonnance m\u00e9dicale.",
-            "texteHtml": "<p></p>   Les \u00e9tablissements commerciaux dont l'objet principal est l'optique-lunetterie, leurs succursales et les rayons d'optique-lunetterie des magasins ne peuvent \u00eatre dirig\u00e9s ou g\u00e9r\u00e9s que par une personne remplissant les conditions requises pour l'exercice de la profession d'opticien-lunetier.<p></p><p></p>   Le colportage des verres correcteurs d'am\u00e9tropie est interdit.<p></p><p></p>   Aucun verre correcteur ne pourra \u00eatre d\u00e9livr\u00e9 \u00e0 une personne \u00e2g\u00e9e de moins de seize ans sans ordonnance m\u00e9dicale.<p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2000-06-22T00:00:00.000Z",
-            "dateFin": "2005-02-12T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000034566766",
+                    "textTitle": "Arr\u00eat\u00e9 du 28 avril 2017 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000034568121",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1493856000000,
+                    "dateDebut": 1493942400000
+                },
+                {
+                    "textCid": "JORFTEXT000036848679",
+                    "textTitle": "Avis divers - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000036848686",
+                    "natureText": "AVIS",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1524873600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000037800670",
+                    "textTitle": "Arr\u00eat\u00e9 du 3 d\u00e9cembre 2018 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000037800676",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1544659200000,
+                    "dateDebut": 32472144000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L508",
+                    "articleId": "LEGIARTI000006693378",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. L508 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "L508",
+                    "articleId": "LEGIARTI000006693378",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006689514",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 961632000000,
+                    "dateFin": 1108166400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006689515",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1108166400000,
+                    "dateFin": 1395187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028748011",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1395187200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L4362-9",
+                "4362-9"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

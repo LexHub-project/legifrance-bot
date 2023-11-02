@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000029235052",
-    "num": "R4624-43",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000033768961",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Avant d'\u00e9mettre son avis, le m\u00e9decin du travail peut consulter le m\u00e9decin inspecteur du travail.",
+            "texteHtml": "<p>Avant d'\u00e9mettre son avis, le m\u00e9decin du travail peut consulter le m\u00e9decin inspecteur du travail. </p>",
+            "num": "R4624-43",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1483228800000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1431655764,
             "context": {
                 "titresTM": [
                     {
@@ -43,11 +58,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -137,19 +161,89 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000033768961",
-            "lienAutres": [],
+            "cid": "LEGIARTI000029235052",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493196",
+            "sectionParentId": "LEGISCTA000033769137",
+            "sectionParentTitre": "Sous-section 7 : D\u00e9claration d'inaptitude",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre IV : Actions et moyens des membres de l'\u00e9quipe pluridisciplinaire de sant\u00e9 au travail &gt; Section 2 : Suivi individuel de l'\u00e9tat de sant\u00e9 du travailleur &gt; Sous-section 7 : D\u00e9claration d'inaptitude",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000033768961",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000033723789",
+                    "textTitle": "D\u00e9cret n\u00b02016-1908 du 27 d\u00e9cembre 2016 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000033738345",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2016-12-29",
+                    "dateSignaTexte": "2016-12-27",
+                    "dateDebutCible": "2017-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4624-54 (V)",
+                    "textTitle": "Code du travail - art. R4624-45-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4624-45-2",
+                    "articleId": "LEGIARTI000039726038",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4624-54 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R4624-54",
                     "articleId": "LEGIARTI000036483039",
                     "natureText": "CODE",
-                    "date": 1661458138090,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -167,29 +261,58 @@
                     "natureText": "CODE"
                 }
             ],
-            "lienModifications": [
+            "lienAutres": [],
+            "articleVersions": [
                 {
-                    "textCid": "JORFTEXT000033723789",
-                    "textTitle": "D\u00e9cret n\u00b02016-1908 du 27 d\u00e9cembre 2016 - art. 1",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000033738345",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2016-12-29",
-                    "dateSignaTexte": "2016-12-27",
-                    "dateDebutCible": "2017-01-01"
+                    "id": "LEGIARTI000029235052",
+                    "etat": "TRANSFERE",
+                    "version": "1.0",
+                    "dateDebut": 1405296000000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033768961",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
                 }
             ],
-            "num": "R4624-43",
-            "origine": "LEGI",
-            "texte": "Avant d'\u00e9mettre son avis, le m\u00e9decin du travail peut consulter le m\u00e9decin inspecteur du travail.",
-            "texteHtml": "<p>Avant d'\u00e9mettre son avis, le m\u00e9decin du travail peut consulter le m\u00e9decin inspecteur du travail. </p>",
-            "type": "AUTONOME",
-            "dateDebut": "2017-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "computedNums": [
+                "R4624-43",
+                "4624-43"
+            ],
+            "versionPrecedente": "LEGIARTI000029235052",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000029235052",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le rapport annuel d'activit\u00e9 est remis par le m\u00e9decin du travail : 1\u00b0 Pour les services autonomes, au comit\u00e9 d'entreprise ou d'\u00e9tablissement comp\u00e9tent ; 2\u00b0 Pour les services interentreprises, au conseil d'administration et, selon les cas, au comit\u00e9 interentreprises ou \u00e0 la commission de contr\u00f4le. Cette pr\u00e9sentation intervient au plus tard \u00e0 la fin du quatri\u00e8me mois qui suit l'ann\u00e9e pour laquelle le rapport a \u00e9t\u00e9 \u00e9tabli. Pour les services interentreprises, la synth\u00e8se annuelle mentionn\u00e9e \u00e0 l'article R. 4624-42 est remise aux organes mentionn\u00e9s au 2\u00b0 dans les m\u00eames conditions.",
+            "texteHtml": "Le rapport annuel d'activit\u00e9 est remis par le m\u00e9decin du travail : <br/><br/>1\u00b0 Pour les services autonomes, au comit\u00e9 d'entreprise ou d'\u00e9tablissement comp\u00e9tent ; <br/><br/>2\u00b0 Pour les services interentreprises, au conseil d'administration et, selon les cas, au comit\u00e9 interentreprises ou \u00e0 la commission de contr\u00f4le. <br/><br/>Cette pr\u00e9sentation intervient au plus tard \u00e0 la fin du quatri\u00e8me mois qui suit l'ann\u00e9e pour laquelle le rapport a \u00e9t\u00e9 \u00e9tabli. <br/><br/>Pour les services interentreprises, la synth\u00e8se annuelle mentionn\u00e9e \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000029235011&dateTexte=&categorieLien=cid'>l'article R. 4624-42</a> est remise aux organes mentionn\u00e9s au 2\u00b0 dans les m\u00eames conditions.<br/>",
+            "num": "R4624-43",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "TRANSFERE",
+            "dateDebut": 1405296000000,
+            "dateFin": 1483228800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1431655764,
             "context": {
                 "titresTM": [
                     {
@@ -230,11 +353,20 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-04-27",
                         "titre": "Titre II : Services de sant\u00e9 au travail ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018492751",
                         "id": "LEGISCTA000025280099",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2022-04-27",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Services de pr\u00e9vention et de sant\u00e9 au travail ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000018492751",
+                        "id": "LEGISCTA000046340635",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -284,12 +416,12 @@
                     },
                     {
                         "debut": "2012-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2022-11-17",
                         "titre": "Sous-section 2 : Rapport annuel d'activit\u00e9.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018493226",
                         "id": "LEGISCTA000025279558",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -306,50 +438,53 @@
                     }
                 ]
             },
-            "etat": "TRANSFERE",
-            "id": "LEGIARTI000029235052",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000029235052",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000018493226",
+            "sectionParentId": "LEGISCTA000025279558",
+            "sectionParentTitre": "Sous-section 2 : Rapport annuel d'activit\u00e9.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire   &gt; Quatri\u00e8me partie : Sant\u00e9 et s\u00e9curit\u00e9 au travail  &gt; Livre VI : Institutions et organismes de pr\u00e9vention  &gt; Titre II : Services de sant\u00e9 au travail  &gt; Chapitre IV : Actions et moyens des membres de l'\u00e9quipe pluridisciplinaire de sant\u00e9 au travail &gt; Section 3 : Documents et rapports. &gt; Sous-section 2 : Rapport annuel d'activit\u00e9.",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000029235052",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4624-42",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "R4624-42",
-                    "articleId": "LEGIARTI000029235011",
-                    "natureText": "CODE",
-                    "date": 1661458137523,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006072050",
+                    "titre": "Code du travail",
+                    "titreLong": "Code du travail",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 94867200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072050",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4624-54 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R4624-54",
-                    "articleId": "LEGIARTI000036483039",
-                    "natureText": "CODE",
-                    "date": 1661458137523,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1514764800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. R4624-52 (M)",
-                    "linkType": "CONCORDE",
-                    "linkOrientation": "source",
-                    "articleNum": "R4624-52",
-                    "articleId": "LEGIARTI000033738769",
-                    "natureText": "CODE"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000029225399",
@@ -376,13 +511,92 @@
                     "dateDebutCible": "2017-01-01"
                 }
             ],
-            "num": "R4624-43",
-            "origine": "LEGI",
-            "texte": "Le rapport annuel d'activit\u00e9 est remis par le m\u00e9decin du travail : 1\u00b0 Pour les services autonomes, au comit\u00e9 d'entreprise ou d'\u00e9tablissement comp\u00e9tent ; 2\u00b0 Pour les services interentreprises, au conseil d'administration et, selon les cas, au comit\u00e9 interentreprises ou \u00e0 la commission de contr\u00f4le. Cette pr\u00e9sentation intervient au plus tard \u00e0 la fin du quatri\u00e8me mois qui suit l'ann\u00e9e pour laquelle le rapport a \u00e9t\u00e9 \u00e9tabli. Pour les services interentreprises, la synth\u00e8se annuelle mentionn\u00e9e \u00e0 l'article R. 4624-42 est remise aux organes mentionn\u00e9s au 2\u00b0 dans les m\u00eames conditions.",
-            "texteHtml": "Le rapport annuel d'activit\u00e9 est remis par le m\u00e9decin du travail : <br/><br/>1\u00b0 Pour les services autonomes, au comit\u00e9 d'entreprise ou d'\u00e9tablissement comp\u00e9tent ; <br/><br/>2\u00b0 Pour les services interentreprises, au conseil d'administration et, selon les cas, au comit\u00e9 interentreprises ou \u00e0 la commission de contr\u00f4le. <br/><br/>Cette pr\u00e9sentation intervient au plus tard \u00e0 la fin du quatri\u00e8me mois qui suit l'ann\u00e9e pour laquelle le rapport a \u00e9t\u00e9 \u00e9tabli. <br/><br/>Pour les services interentreprises, la synth\u00e8se annuelle mentionn\u00e9e \u00e0 <a href='/article/LEGIARTI000029235011'>l'article R. 4624-42</a> est remise aux organes mentionn\u00e9s au 2\u00b0 dans les m\u00eames conditions.<br/>",
-            "type": "AUTONOME",
-            "dateDebut": "2014-07-14T00:00:00.000Z",
-            "dateFin": "2017-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4624-42",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R4624-42",
+                    "articleId": "LEGIARTI000029235011",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4624-45-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4624-45-2",
+                    "articleId": "LEGIARTI000039726038",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1577836800000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4624-54 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R4624-54",
+                    "articleId": "LEGIARTI000036483039",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1514764800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. R4624-52 (M)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "R4624-52",
+                    "articleId": "LEGIARTI000033738769",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000029235052",
+                    "etat": "TRANSFERE",
+                    "version": "1.0",
+                    "dateDebut": 1405296000000,
+                    "dateFin": 1483228800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000033768961",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1483228800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4624-43",
+                "4624-43"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

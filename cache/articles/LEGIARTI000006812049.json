@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006812049",
-    "num": "R150-11",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000006812049",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Toute personne int\u00e9ress\u00e9e a droit, apr\u00e8s chaque tirage, sur sa demande, \u00e0 la d\u00e9livrance d'une liste int\u00e9grale des titres sortis dans les s\u00e9ries qui l'int\u00e9ressent et non encore rembours\u00e9s.",
+            "texteHtml": "<p></p>   Toute personne int\u00e9ress\u00e9e a droit, apr\u00e8s chaque tirage, sur sa demande, \u00e0 la d\u00e9livrance d'une liste int\u00e9grale des titres sortis dans les s\u00e9ries qui l'int\u00e9ressent et non encore rembours\u00e9s.<p></p><p></p>",
+            "num": "R150-11",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 206755200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 472439,
             "context": {
                 "titresTM": [
                     {
@@ -65,31 +80,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000006812049",
-            "lienAutres": [
+            "cid": "LEGIARTI000006812049",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006175363",
+            "sectionParentId": "LEGISCTA000006175363",
+            "sectionParentTitre": "Section III : Tirages au sort.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Le contrat. &gt; Titre V : Le contrat de capitalisation. &gt; Chapitre unique &gt; Section III : Tirages au sort.",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006812049",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006073984",
-                    "textTitle": "Code des assurances R150-4",
-                    "linkType": "TXT_SOURCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "LEGITEXT000006073984",
-                    "natureText": "CODE"
+                    "id": "LEGITEXT000006073984",
+                    "titre": "Code des assurances",
+                    "titreLong": "Code des assurances",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 205891200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006073984",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienCitations": [],
-            "lienConcordes": [
-                {
-                    "textCid": "",
-                    "textTitle": "D\u00e9cret 1939-07-18 art. 7",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000507291",
@@ -104,13 +141,53 @@
                     "dateDebutCible": "2999-01-01"
                 }
             ],
-            "num": "R150-11",
-            "origine": "LEGI",
-            "texte": "Toute personne int\u00e9ress\u00e9e a droit, apr\u00e8s chaque tirage, sur sa demande, \u00e0 la d\u00e9livrance d'une liste int\u00e9grale des titres sortis dans les s\u00e9ries qui l'int\u00e9ressent et non encore rembours\u00e9s.",
-            "texteHtml": "<p></p>   Toute personne int\u00e9ress\u00e9e a droit, apr\u00e8s chaque tirage, sur sa demande, \u00e0 la d\u00e9livrance d'une liste int\u00e9grale des titres sortis dans les s\u00e9ries qui l'int\u00e9ressent et non encore rembours\u00e9s.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "1976-07-21T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 1939-07-18 art. 7",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances R150-4",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006073984",
+                    "natureText": "CODE"
+                }
+            ],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006812049",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 206755200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R150-11",
+                "150-11"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

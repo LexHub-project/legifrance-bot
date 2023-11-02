@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000023072358",
-    "num": "L5000-6",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000023081893",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'exercice par l'Etat des pouvoirs de police en mer qu'il tient des dispositions du pr\u00e9sent code est r\u00e9gi par les dispositions de la section 1 du chapitre unique du titre II du livre V de la partie I du code de la d\u00e9fense .",
+            "texteHtml": "<p><br/>L'exercice par l'Etat des pouvoirs de police en mer qu'il tient des dispositions du pr\u00e9sent code est r\u00e9gi par les dispositions de la section 1 du chapitre unique du titre II du livre V de la partie I du <a href='/affichCode.do?cidTexte=LEGITEXT000006071307&dateTexte=&categorieLien=cid' title='Code de la d\u00e9fense. (V)'>code de la d\u00e9fense</a>.</p>",
+            "num": "L5000-6",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1291161600000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2113929215,
             "context": {
                 "titresTM": [
                     {
@@ -38,11 +53,53 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000023081893",
-            "lienAutres": [],
-            "lienCitations": [],
-            "lienConcordes": [],
+            "cid": "LEGIARTI000023072358",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000023072346",
+            "sectionParentId": "LEGISCTA000023081942",
+            "sectionParentTitre": "CINQUIEME PARTIE : TRANSPORT ET NAVIGATION MARITIMES",
+            "fullSectionsTitre": "PARTIE LEGISLATIVE &gt; CINQUIEME PARTIE : TRANSPORT ET NAVIGATION MARITIMES",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000023081893",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "",
@@ -57,13 +114,99 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L5000-6",
-            "origine": "LEGI",
-            "texte": "L'exercice par l'Etat des pouvoirs de police en mer qu'il tient des dispositions du pr\u00e9sent code est r\u00e9gi par les dispositions de la section 1 du chapitre unique du titre II du livre V de la partie I du code de la d\u00e9fense.",
-            "texteHtml": "<p><br/>L'exercice par l'Etat des pouvoirs de police en mer qu'il tient des dispositions du pr\u00e9sent code est r\u00e9gi par les dispositions de la section 1 du chapitre unique du titre II du livre V de la partie I du code de la d\u00e9fense.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2010-12-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006071307",
+                    "textTitle": "Code de la d\u00e9fense. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006071307",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1103587200000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L5760-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L5760-1",
+                    "articleId": "LEGIARTI000044204482",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1634256000000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L5770-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L5770-1",
+                    "articleId": "LEGIARTI000044204546",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1634256000000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L5780-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L5780-1",
+                    "articleId": "LEGIARTI000044204650",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1634256000000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L5790-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L5790-1",
+                    "articleId": "LEGIARTI000044204709",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1634256000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000023081893",
+                    "etat": "VIGUEUR",
+                    "version": "1.0",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L5000-6",
+                "5000-6"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }
