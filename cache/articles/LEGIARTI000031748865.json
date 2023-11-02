@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000031748865",
-    "num": "R336-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000046508194",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La p\u00e9riode de livraison commence le 1er janvier. La quantit\u00e9 d'un produit, exprim\u00e9e en m\u00e9gawatts, est la puissance moyenne d'\u00e9lectricit\u00e9 d\u00e9livr\u00e9e pendant la p\u00e9riode de livraison de ce produit.",
+            "texteHtml": "<p>La p\u00e9riode de livraison commence le 1er janvier. La quantit\u00e9 d'un produit, exprim\u00e9e en m\u00e9gawatts, est la puissance moyenne d'\u00e9lectricit\u00e9 d\u00e9livr\u00e9e pendant la p\u00e9riode de livraison de ce produit.</p><p></p>",
+            "num": "R336-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1672531200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
             "context": {
                 "titresTM": [
                     {
@@ -65,9 +80,79 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031748865",
-            "lienAutres": [],
+            "cid": "LEGIARTI000031748865",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031748861",
+            "sectionParentId": "LEGISCTA000031748861",
+            "sectionParentTitre": "Section 1 : D\u00e9finitions",
+            "fullSectionsTitre": "Partie r\u00e9glementaire  &gt; LIVRE III : LES DISPOSITIONS RELATIVES \u00c0 L'\u00c9LECTRICIT\u00c9 &gt; TITRE III : LA COMMERCIALISATION &gt; Chapitre VI : L'acc\u00e8s r\u00e9gul\u00e9 \u00e0 l'\u00e9lectricit\u00e9 nucl\u00e9aire historique &gt; Section 1 : D\u00e9finitions",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000046508194",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-1380 du 29 octobre 2022, ces dispositions entrent en vigueur le 1er janvier 2023.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 2 du d\u00e9cret n\u00b0 2022-1380 du 29 octobre 2022, ces dispositions entrent en vigueur le 1er janvier 2023.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000031738398",
+                    "textTitle": "D\u00e9cret n\u00b02015-1823 du 30 d\u00e9cembre 2015 - art.",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                },
+                {
+                    "textCid": "JORFTEXT000046503702",
+                    "textTitle": "D\u00e9cret n\u00b02022-1380 du 29 octobre 2022 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000046505155",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2022-10-30",
+                    "dateSignaTexte": "2022-10-29",
+                    "dateDebutCible": "2022-10-31"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000045339201",
@@ -77,7 +162,6 @@
                     "articleNum": "2",
                     "articleId": "LEGIARTI000045345495",
                     "natureText": "DECRET",
-                    "date": 1647293294745,
                     "parentCid": null,
                     "numTexte": "2022-342",
                     "datePubli": 1647043200000,
@@ -85,20 +169,180 @@
                 },
                 {
                     "textCid": "LEGITEXT000023983208",
-                    "textTitle": "Code de l'\u00e9nergie - art. R336-16 (V)",
+                    "textTitle": "Code de l'\u00e9nergie - art. R336-16 (VD)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R336-16",
-                    "articleId": "LEGIARTI000034263204",
+                    "articleId": "LEGIARTI000046508166",
                     "natureText": "CODE",
-                    "date": 1647293294745,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1490313600000
+                    "dateDebut": 1672531200000
                 }
             ],
             "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031748865",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046508194",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R336-2",
+                "336-2"
+            ],
+            "versionPrecedente": "LEGIARTI000031748865",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000031748865",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les p\u00e9riodes de livraison commencent le 1er janvier et le 1er juillet. La quantit\u00e9 d'un produit, exprim\u00e9e en m\u00e9gawatts, est la puissance moyenne d'\u00e9lectricit\u00e9 d\u00e9livr\u00e9e pendant la p\u00e9riode de livraison de ce produit.",
+            "texteHtml": "<p><br/>Les p\u00e9riodes de livraison commencent le 1er janvier et le 1er juillet. La quantit\u00e9 d'un produit, exprim\u00e9e en m\u00e9gawatts, est la puissance moyenne d'\u00e9lectricit\u00e9 d\u00e9livr\u00e9e pendant la p\u00e9riode de livraison de ce produit.</p>",
+            "num": "R336-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1451606400000,
+            "dateFin": 1672531200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1610612735,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031747285",
+                        "id": "LEGISCTA000031747285",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE III : LES DISPOSITIONS RELATIVES \u00c0 L'\u00c9LECTRICIT\u00c9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031748265",
+                        "id": "LEGISCTA000031748265",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE III : LA COMMERCIALISATION",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031748669",
+                        "id": "LEGISCTA000031748669",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre VI : L'acc\u00e8s r\u00e9gul\u00e9 \u00e0 l'\u00e9lectricit\u00e9 nucl\u00e9aire historique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031748859",
+                        "id": "LEGISCTA000031748859",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : D\u00e9finitions",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031748861",
+                        "id": "LEGISCTA000031748861",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2011-06-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'\u00e9nergie",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000023983208",
+                        "id": "LEGITEXT000023983208",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000031748865",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000031748861",
+            "sectionParentId": "LEGISCTA000031748861",
+            "sectionParentTitre": "Section 1 : D\u00e9finitions",
+            "fullSectionsTitre": "Partie r\u00e9glementaire  &gt; LIVRE III : LES DISPOSITIONS RELATIVES \u00c0 L'\u00c9LECTRICIT\u00c9 &gt; TITRE III : LA COMMERCIALISATION &gt; Chapitre VI : L'acc\u00e8s r\u00e9gul\u00e9 \u00e0 l'\u00e9lectricit\u00e9 nucl\u00e9aire historique &gt; Section 1 : D\u00e9finitions",
+            "refInjection": "IG-20230918",
+            "idTechInjection": "LEGIARTI000031748865",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000031738398",
@@ -125,13 +369,69 @@
                     "dateDebutCible": "2016-01-01"
                 }
             ],
-            "num": "R336-2",
-            "origine": "LEGI",
-            "texte": "Les p\u00e9riodes de livraison commencent le 1er janvier et le 1er juillet. La quantit\u00e9 d'un produit, exprim\u00e9e en m\u00e9gawatts, est la puissance moyenne d'\u00e9lectricit\u00e9 d\u00e9livr\u00e9e pendant la p\u00e9riode de livraison de ce produit.",
-            "texteHtml": "<p><br/>Les p\u00e9riodes de livraison commencent le 1er janvier et le 1er juillet. La quantit\u00e9 d'un produit, exprim\u00e9e en m\u00e9gawatts, est la puissance moyenne d'\u00e9lectricit\u00e9 d\u00e9livr\u00e9e pendant la p\u00e9riode de livraison de ce produit.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000045339201",
+                    "textTitle": "D\u00e9cret n\u00b02022-342 du 11 mars 2022 - art. 2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000045345495",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2022-342",
+                    "datePubli": 1647043200000,
+                    "dateDebut": 1647129600000
+                },
+                {
+                    "textCid": "LEGITEXT000023983208",
+                    "textTitle": "Code de l'\u00e9nergie - art. R336-16 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R336-16",
+                    "articleId": "LEGIARTI000034263204",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1490313600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000031748865",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046508194",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R336-2",
+                "336-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

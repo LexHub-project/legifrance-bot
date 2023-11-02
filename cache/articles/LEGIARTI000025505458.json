@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000025505458",
-    "num": "L254-1",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000047569400",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le fait d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection est puni d'un an d'emprisonnement et de 15 000 euros d'amende.",
+            "texteHtml": "<p>Le fait d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection est puni d'un an d'emprisonnement et de 15 000 euros d'amende.</p>",
+            "num": "L254-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1684627200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -56,10 +71,93 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000031086352",
-            "lienAutres": [],
+            "cid": "LEGIARTI000025505458",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025505456",
+            "sectionParentId": "LEGISCTA000025508158",
+            "sectionParentTitre": "Chapitre IV : Dispositions p\u00e9nales",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE II : ORDRE ET S\u00c9CURIT\u00c9 PUBLICS &gt; TITRE V : VID\u00c9OPROTECTION &gt; Chapitre IV : Dispositions p\u00e9nales",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000047569400",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000025498645",
+                    "textTitle": "Ordonnance n\u00b02012-351 du 12 mars 2012 - art. Annexe",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                },
+                {
+                    "textCid": "JORFTEXT000047561974",
+                    "textTitle": "LOI n\u00b02023-380 du 19 mai 2023 - art. 9",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000047564437",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2023-05-20",
+                    "dateSignaTexte": "2023-05-19",
+                    "dateDebutCible": "2023-05-21"
+                }
+            ],
             "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000047562010",
+                    "textTitle": "D\u00e9cision n\u00b02023-850 DC du 17 mai 2023 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000047562011",
+                    "natureText": "DECISION",
+                    "parentCid": null,
+                    "numTexte": "2023-850 DC",
+                    "datePubli": 1684540800000,
+                    "dateDebut": 32472144000000
+                },
                 {
                     "textCid": "LEGITEXT000006070719",
                     "textTitle": "Code p\u00e9nal - art. 226-1",
@@ -68,11 +166,10 @@
                     "articleNum": "226-1",
                     "articleId": "LEGIARTI000006417928",
                     "natureText": "CODE",
-                    "date": 1599123894345,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 762480000000
+                    "dateDebut": 1596240000000
                 },
                 {
                     "textCid": "LEGITEXT000006072050",
@@ -82,7 +179,6 @@
                     "articleNum": "L1121-1",
                     "articleId": "LEGIARTI000006900785",
                     "natureText": "CODE",
-                    "date": 1599123894345,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -96,7 +192,6 @@
                     "articleNum": "L1221-9",
                     "articleId": "LEGIARTI000006900848",
                     "natureText": "CODE",
-                    "date": 1599123894345,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -110,7 +205,6 @@
                     "articleNum": "L1222-4",
                     "articleId": "LEGIARTI000006900861",
                     "natureText": "CODE",
-                    "date": 1599123894345,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -124,7 +218,6 @@
                     "articleNum": "L2323-47",
                     "articleId": "LEGIARTI000006901977",
                     "natureText": "CODE",
-                    "date": 1599123894345,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -136,13 +229,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "L223-3",
-                    "articleId": "LEGIARTI000025505242",
+                    "articleId": "LEGIARTI000047569475",
                     "natureText": "CODE",
-                    "date": 1599123894345,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1335830400000
+                    "dateDebut": 1684627200000
                 },
                 {
                     "textCid": "LEGITEXT000025503132",
@@ -152,7 +244,6 @@
                     "articleNum": "L282-2",
                     "articleId": "LEGIARTI000035910457",
                     "natureText": "CODE",
-                    "date": 1599123894345,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -164,13 +255,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "L285-2",
-                    "articleId": "LEGIARTI000030939713",
+                    "articleId": "LEGIARTI000047569686",
                     "natureText": "CODE",
-                    "date": 1599123894345,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1443830400000
+                    "dateDebut": 1684627200000
                 }
             ],
             "lienConcordes": [
@@ -184,6 +274,167 @@
                     "natureText": "LOI"
                 }
             ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025505458",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031086352",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1684627200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000047569400",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1684627200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L254-1",
+                "254-1"
+            ],
+            "versionPrecedente": "LEGIARTI000031086352",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000031086352",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le fait d'installer un syst\u00e8me de vid\u00e9oprotection ou de le maintenir sans autorisation, de proc\u00e9der \u00e0 des enregistrements de vid\u00e9oprotection sans autorisation, de ne pas les d\u00e9truire dans le d\u00e9lai pr\u00e9vu, de les falsifier, d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection ou de la Commission nationale de l'informatique et des libert\u00e9s, de faire acc\u00e9der des personnes non habilit\u00e9es aux images ou d'utiliser ces images \u00e0 d'autres fins que celles pour lesquelles elles sont autoris\u00e9es est puni de trois ans d'emprisonnement et de 45 000 euros d'amende, sans pr\u00e9judice des dispositions des articles 226-1 du code p\u00e9nal et L. 1121-1 , L. 1221-9 , L. 1222-4 et L. 2323-47 du code du travail.",
+            "texteHtml": "<p>Le fait d'installer un syst\u00e8me de vid\u00e9oprotection ou de le maintenir sans autorisation, de proc\u00e9der \u00e0 des enregistrements de vid\u00e9oprotection sans autorisation, de ne pas les d\u00e9truire dans le d\u00e9lai pr\u00e9vu, de les falsifier, d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection ou de la Commission nationale de l'informatique et des libert\u00e9s, de faire acc\u00e9der des personnes non habilit\u00e9es aux images ou d'utiliser ces images \u00e0 d'autres fins que celles pour lesquelles elles sont autoris\u00e9es est puni de trois ans d'emprisonnement et de 45 000 euros d'amende, sans pr\u00e9judice des <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006070719&idArticle=LEGIARTI000006417928&dateTexte=&categorieLien=cid'>dispositions des articles 226-1 du code p\u00e9nal </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006900785&dateTexte=&categorieLien=cid'>L. 1121-1</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006900848&dateTexte=&categorieLien=cid'>L. 1221-9</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006900861&dateTexte=&categorieLien=cid'>L. 1222-4 </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006901977&dateTexte=&categorieLien=cid'>L. 2323-47</a> du code du travail.</p>",
+            "num": "L254-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1451606400000,
+            "dateFin": 1684627200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000028275902",
+                        "id": "LEGISCTA000028275902",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE II : ORDRE ET S\u00c9CURIT\u00c9 PUBLICS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505125",
+                        "id": "LEGISCTA000025508388",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE V : VID\u00c9OPROTECTION",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505402",
+                        "id": "LEGISCTA000025508192",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre IV : Dispositions p\u00e9nales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505456",
+                        "id": "LEGISCTA000025508158",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000025503132",
+                        "id": "LEGITEXT000025503132",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000025505458",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025505456",
+            "sectionParentId": "LEGISCTA000025508158",
+            "sectionParentTitre": "Chapitre IV : Dispositions p\u00e9nales",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE II : ORDRE ET S\u00c9CURIT\u00c9 PUBLICS &gt; TITRE V : VID\u00c9OPROTECTION &gt; Chapitre IV : Dispositions p\u00e9nales",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000031086352",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025498645",
@@ -210,15 +461,197 @@
                     "dateDebutCible": "2015-08-19"
                 }
             ],
-            "num": "L254-1",
-            "origine": "LEGI",
-            "texte": "Le fait d'installer un syst\u00e8me de vid\u00e9oprotection ou de le maintenir sans autorisation, de proc\u00e9der \u00e0 des enregistrements de vid\u00e9oprotection sans autorisation, de ne pas les d\u00e9truire dans le d\u00e9lai pr\u00e9vu, de les falsifier, d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection ou de la Commission nationale de l'informatique et des libert\u00e9s, de faire acc\u00e9der des personnes non habilit\u00e9es aux images ou d'utiliser ces images \u00e0 d'autres fins que celles pour lesquelles elles sont autoris\u00e9es est puni de trois ans d'emprisonnement et de 45 000 euros d'amende, sans pr\u00e9judice des dispositions des articles 226-1 du code p\u00e9nal et L. 1121-1 , L. 1221-9 , L. 1222-4 et L. 2323-47 du code du travail.",
-            "texteHtml": "<p>Le fait d'installer un syst\u00e8me de vid\u00e9oprotection ou de le maintenir sans autorisation, de proc\u00e9der \u00e0 des enregistrements de vid\u00e9oprotection sans autorisation, de ne pas les d\u00e9truire dans le d\u00e9lai pr\u00e9vu, de les falsifier, d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection ou de la Commission nationale de l'informatique et des libert\u00e9s, de faire acc\u00e9der des personnes non habilit\u00e9es aux images ou d'utiliser ces images \u00e0 d'autres fins que celles pour lesquelles elles sont autoris\u00e9es est puni de trois ans d'emprisonnement et de 45 000 euros d'amende, sans pr\u00e9judice des <a href='/article/LEGIARTI000006417928'>dispositions des articles 226-1 du code p\u00e9nal </a>et <a href='/article/LEGIARTI000006900785'>L. 1121-1</a>, <a href='/article/LEGIARTI000006900848'>L. 1221-9</a>, <a href='/article/LEGIARTI000006900861'>L. 1222-4 </a>et <a href='/article/LEGIARTI000006901977'>L. 2323-47</a> du code du travail.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2016-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000047562010",
+                    "textTitle": "D\u00e9cision n\u00b02023-850 DC du 17 mai 2023 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000047562011",
+                    "natureText": "DECISION",
+                    "parentCid": null,
+                    "numTexte": "2023-850 DC",
+                    "datePubli": 1684540800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006070719",
+                    "textTitle": "Code p\u00e9nal - art. 226-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "226-1",
+                    "articleId": "LEGIARTI000006417928",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1596240000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L1121-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L1121-1",
+                    "articleId": "LEGIARTI000006900785",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L1221-9",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L1221-9",
+                    "articleId": "LEGIARTI000006900848",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L1222-4",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L1222-4",
+                    "articleId": "LEGIARTI000006900861",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L2323-47",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L2323-47",
+                    "articleId": "LEGIARTI000006901977",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1204329600000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L223-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L223-3",
+                    "articleId": "LEGIARTI000047569475",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1684627200000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L282-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L282-2",
+                    "articleId": "LEGIARTI000035910457",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L285-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L285-2",
+                    "articleId": "LEGIARTI000047569686",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1684627200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000369046",
+                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 10 VI (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000023721790",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025505458",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031086352",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1684627200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000047569400",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1684627200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L254-1",
+                "254-1"
+            ],
+            "versionPrecedente": "LEGIARTI000025505458",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025505458",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Le fait d'installer un syst\u00e8me de vid\u00e9oprotection ou de le maintenir sans autorisation, de proc\u00e9der \u00e0 des enregistrements de vid\u00e9oprotection sans autorisation, de ne pas les d\u00e9truire dans le d\u00e9lai pr\u00e9vu, de les falsifier, d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection ou de la Commission nationale de l'informatique et des libert\u00e9s, de faire acc\u00e9der des personnes non habilit\u00e9es aux images ou d'utiliser ces images \u00e0 d'autres fins que celles pour lesquelles elles sont autoris\u00e9es est puni de trois ans d'emprisonnement et de 45 000 euros d'amende, sans pr\u00e9judice des dispositions des articles 226-1 du code p\u00e9nal et L. 1121-1 , L. 1221-9 , L. 1222-4 et L. 2323-32 du code du travail.",
+            "texteHtml": "<p><br/>Le fait d'installer un syst\u00e8me de vid\u00e9oprotection ou de le maintenir sans autorisation, de proc\u00e9der \u00e0 des enregistrements de vid\u00e9oprotection sans autorisation, de ne pas les d\u00e9truire dans le d\u00e9lai pr\u00e9vu, de les falsifier, d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection ou de la Commission nationale de l'informatique et des libert\u00e9s, de faire acc\u00e9der des personnes non habilit\u00e9es aux images ou d'utiliser ces images \u00e0 d'autres fins que celles pour lesquelles elles sont autoris\u00e9es est puni de trois ans d'emprisonnement et de 45 000 euros d'amende, sans pr\u00e9judice des <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006070719&idArticle=LEGIARTI000006417928&dateTexte=&categorieLien=cid'>dispositions des articles 226-1 du code p\u00e9nal </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006900785&dateTexte=&categorieLien=cid' title='Code du travail - art. L1121-1 (V)'>L. 1121-1</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006900848&dateTexte=&categorieLien=cid' title='Code du travail - art. L1221-9 (V)'>L. 1221-9</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006900861&dateTexte=&categorieLien=cid' title='Code du travail - art. L1222-4 (V)'>L. 1222-4 </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006901962&dateTexte=&categorieLien=cid' title='Code du travail - art. L2323-32 (V)'>L. 2323-32</a> du code du travail.</p>",
+            "num": "L254-1",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1335830400000,
+            "dateFin": 1451606400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1073741823,
             "context": {
                 "titresTM": [
                     {
@@ -272,134 +705,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025505458",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025505458",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025505456",
+            "sectionParentId": "LEGISCTA000025508158",
+            "sectionParentTitre": "Chapitre IV : Dispositions p\u00e9nales",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE II : ORDRE ET S\u00c9CURIT\u00c9 PUBLICS &gt; TITRE V : VID\u00c9OPROTECTION &gt; Chapitre IV : Dispositions p\u00e9nales",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025505458",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "LEGITEXT000006070719",
-                    "textTitle": "Code p\u00e9nal - art. 226-1",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "226-1",
-                    "articleId": "LEGIARTI000006417928",
-                    "natureText": "CODE",
-                    "date": 1599863330529,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 762480000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. L1121-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L1121-1",
-                    "articleId": "LEGIARTI000006900785",
-                    "natureText": "CODE",
-                    "date": 1599863330529,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. L1221-9 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L1221-9",
-                    "articleId": "LEGIARTI000006900848",
-                    "natureText": "CODE",
-                    "date": 1599863330529,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. L1222-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L1222-4",
-                    "articleId": "LEGIARTI000006900861",
-                    "natureText": "CODE",
-                    "date": 1599863330530,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
-                },
-                {
-                    "textCid": "LEGITEXT000006072050",
-                    "textTitle": "Code du travail - art. L2323-32 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L2323-32",
-                    "articleId": "LEGIARTI000006901962",
-                    "natureText": "CODE",
-                    "date": 1599863330530,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1209600000000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L223-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L223-3",
-                    "articleId": "LEGIARTI000025505242",
-                    "natureText": "CODE",
-                    "date": 1599863330530,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1335830400000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L282-2 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L282-2",
-                    "articleId": "LEGIARTI000035910457",
-                    "natureText": "CODE",
-                    "date": 1599863330530,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1514764800000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L285-2 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L285-2",
-                    "articleId": "LEGIARTI000030939713",
-                    "natureText": "CODE",
-                    "date": 1599863330530,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1443830400000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000369046",
-                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 10 VI (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000023721790",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025498645",
@@ -426,13 +778,179 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L254-1",
-            "origine": "LEGI",
-            "texte": "Le fait d'installer un syst\u00e8me de vid\u00e9oprotection ou de le maintenir sans autorisation, de proc\u00e9der \u00e0 des enregistrements de vid\u00e9oprotection sans autorisation, de ne pas les d\u00e9truire dans le d\u00e9lai pr\u00e9vu, de les falsifier, d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection ou de la Commission nationale de l'informatique et des libert\u00e9s, de faire acc\u00e9der des personnes non habilit\u00e9es aux images ou d'utiliser ces images \u00e0 d'autres fins que celles pour lesquelles elles sont autoris\u00e9es est puni de trois ans d'emprisonnement et de 45 000 euros d'amende, sans pr\u00e9judice des dispositions des articles 226-1 du code p\u00e9nal et L. 1121-1 , L. 1221-9 , L. 1222-4 et L. 2323-32 du code du travail.",
-            "texteHtml": "<p><br/>Le fait d'installer un syst\u00e8me de vid\u00e9oprotection ou de le maintenir sans autorisation, de proc\u00e9der \u00e0 des enregistrements de vid\u00e9oprotection sans autorisation, de ne pas les d\u00e9truire dans le d\u00e9lai pr\u00e9vu, de les falsifier, d'entraver l'action de la commission d\u00e9partementale de vid\u00e9oprotection ou de la Commission nationale de l'informatique et des libert\u00e9s, de faire acc\u00e9der des personnes non habilit\u00e9es aux images ou d'utiliser ces images \u00e0 d'autres fins que celles pour lesquelles elles sont autoris\u00e9es est puni de trois ans d'emprisonnement et de 45 000 euros d'amende, sans pr\u00e9judice des <a href='/article/LEGIARTI000006417928'>dispositions des articles 226-1 du code p\u00e9nal </a>et <a href='/article/LEGIARTI000006900785' title='Code du travail - art. L1121-1 (V)'>L. 1121-1</a>, <a href='/article/LEGIARTI000006900848' title='Code du travail - art. L1221-9 (V)'>L. 1221-9</a>, <a href='/article/LEGIARTI000006900861' title='Code du travail - art. L1222-4 (V)'>L. 1222-4 </a>et <a href='/article/LEGIARTI000006901962' title='Code du travail - art. L2323-32 (V)'>L. 2323-32</a> du code du travail.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-05-01T00:00:00.000Z",
-            "dateFin": "2016-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000047562010",
+                    "textTitle": "D\u00e9cision n\u00b02023-850 DC du 17 mai 2023 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000047562011",
+                    "natureText": "DECISION",
+                    "parentCid": null,
+                    "numTexte": "2023-850 DC",
+                    "datePubli": 1684540800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006070719",
+                    "textTitle": "Code p\u00e9nal - art. 226-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "226-1",
+                    "articleId": "LEGIARTI000006417928",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1596240000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L1121-1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L1121-1",
+                    "articleId": "LEGIARTI000006900785",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L1221-9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L1221-9",
+                    "articleId": "LEGIARTI000006900848",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L1222-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L1222-4",
+                    "articleId": "LEGIARTI000006900861",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L2323-32 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L2323-32",
+                    "articleId": "LEGIARTI000006901962",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L223-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L223-3",
+                    "articleId": "LEGIARTI000047569475",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1684627200000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L282-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L282-2",
+                    "articleId": "LEGIARTI000035910457",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1514764800000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L285-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L285-2",
+                    "articleId": "LEGIARTI000047569686",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1684627200000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000369046",
+                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 10 VI (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000023721790",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025505458",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031086352",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1451606400000,
+                    "dateFin": 1684627200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000047569400",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1684627200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L254-1",
+                "254-1"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

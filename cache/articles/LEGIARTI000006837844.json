@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000006837844",
-    "num": "R414-8-2",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000046885032",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par l'autorit\u00e9 administrative et le commandant de la zone terre. Le commandant de la zone terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation \u00e0 l'autorit\u00e9 administrative dans les deux ans qui suivent la cr\u00e9ation du comit\u00e9 de pilotage.",
+            "texteHtml": "<p>Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par l'autorit\u00e9 administrative et le commandant de la zone terre. Le commandant de la zone terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation \u00e0 l'autorit\u00e9 administrative dans les deux ans qui suivent la cr\u00e9ation du comit\u00e9 de pilotage.</p>",
+            "num": "R414-8-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1672531200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -97,15 +112,24 @@
                     },
                     {
                         "debut": "2008-05-18",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement terrestres",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006195394",
                         "id": "LEGISCTA000018822781",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006195394",
+                        "id": "LEGISCTA000046885019",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 53,
                 "titreTxt": [
                     {
@@ -119,9 +143,67 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000030293492",
-            "lienAutres": [],
+            "cid": "LEGIARTI000006837844",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006195394",
+            "sectionParentId": "LEGISCTA000046885019",
+            "sectionParentTitre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre IV : Patrimoine naturel &gt; Titre Ier : Protection du patrimoine naturel &gt; Chapitre IV : Conservation des habitats naturels, de la faune et de la flore sauvages &gt; Section 1 : Sites Natura 2000 &gt; Sous-section 3 : Comit\u00e9s de pilotage et documents d'objectifs &gt; Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000046885032",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000046847745",
+                    "textTitle": "D\u00e9cret n\u00b02022-1757 du 30 d\u00e9cembre 2022 - art. 10",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000046864221",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2022-12-31",
+                    "dateSignaTexte": "2022-12-30",
+                    "dateDebutCible": "2023-01-01"
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000030289358",
@@ -131,7 +213,6 @@
                     "articleNum": "1",
                     "articleId": "JORFARTI000030289377",
                     "natureText": "DECRET",
-                    "date": 1599863756762,
                     "parentCid": null,
                     "numTexte": "2015-211",
                     "datePubli": 1424995200000,
@@ -145,7 +226,6 @@
                     "articleNum": "R3222-5",
                     "articleId": "LEGIARTI000039445478",
                     "natureText": "CODE",
-                    "date": 1599863756762,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -153,6 +233,248 @@
                 }
             ],
             "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837844",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1153958400000,
+                    "dateFin": 1211068800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018942764",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1211068800000,
+                    "dateFin": 1425081600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000030293492",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1425081600000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046885032",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R414-8-2",
+                "414-8-2"
+            ],
+            "versionPrecedente": "LEGIARTI000030293492",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000030293492",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la zone terre. Le commandant de la zone terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.",
+            "texteHtml": "<p>Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la zone terre. Le commandant de la zone terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.</p>",
+            "num": "R414-8-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1425081600000,
+            "dateFin": 1672531200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2003-08-07",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108631",
+                        "id": "LEGISCTA000006108631",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-08-05",
+                        "fin": "2015-12-31",
+                        "titre": "Livre IV : Faune et flore",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129033",
+                        "id": "LEGISCTA000006129033",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2015-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Livre IV : Patrimoine naturel",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129033",
+                        "id": "LEGISCTA000031793274",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-08-05",
+                        "fin": "2015-12-31",
+                        "titre": "Titre Ier : Protection de la faune et de la flore",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143781",
+                        "id": "LEGISCTA000006143781",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2015-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Protection du patrimoine naturel",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143781",
+                        "id": "LEGISCTA000031793272",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-08-05",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre IV : Conservation des habitats naturels, de la faune et de la flore sauvages",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159398",
+                        "id": "LEGISCTA000006159398",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-08-05",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Sites Natura 2000",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176885",
+                        "id": "LEGISCTA000006176885",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-08-05",
+                        "fin": "2008-05-18",
+                        "titre": "Sous-section 3 : Dispositions relatives aux documents d'objectifs.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006188807",
+                        "id": "LEGISCTA000006188807",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2008-05-18",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 3 : Comit\u00e9s de pilotage et documents d'objectifs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006188807",
+                        "id": "LEGISCTA000018822779",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2006-07-27",
+                        "fin": "2008-05-18",
+                        "titre": "Paragraphe 1 : Comit\u00e9 de pilotage.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006195394",
+                        "id": "LEGISCTA000006195394",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2008-05-18",
+                        "fin": "2023-01-01",
+                        "titre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement terrestres",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006195394",
+                        "id": "LEGISCTA000018822781",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006195394",
+                        "id": "LEGISCTA000046885019",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 3,
+                "longeurChemin": 53,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006837844",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006195394",
+            "sectionParentId": "LEGISCTA000046885019",
+            "sectionParentTitre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre IV : Patrimoine naturel &gt; Titre Ier : Protection du patrimoine naturel &gt; Chapitre IV : Conservation des habitats naturels, de la faune et de la flore sauvages &gt; Section 1 : Sites Natura 2000 &gt; Sous-section 3 : Comit\u00e9s de pilotage et documents d'objectifs &gt; Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000030293492",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000030289358",
@@ -167,15 +489,105 @@
                     "dateDebutCible": "2015-02-28"
                 }
             ],
-            "num": "R414-8-2",
-            "origine": "LEGI",
-            "texte": "Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la zone terre. Le commandant de la zone terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.",
-            "texteHtml": "<p>Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la zone terre. Le commandant de la zone terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2015-02-28T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000030289358",
+                    "textTitle": "D\u00c9CRET n\u00b02015-211 du 25 f\u00e9vrier 2015 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000030289377",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2015-211",
+                    "datePubli": 1424995200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006071307",
+                    "textTitle": "Code de la d\u00e9fense. - art. R3222-5 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3222-5",
+                    "articleId": "LEGIARTI000039445478",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1625097600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837844",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1153958400000,
+                    "dateFin": 1211068800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018942764",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1211068800000,
+                    "dateFin": 1425081600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000030293492",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1425081600000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046885032",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R414-8-2",
+                "414-8-2"
+            ],
+            "versionPrecedente": "LEGIARTI000018942764",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000018942764",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la r\u00e9gion terre. Le commandant de la r\u00e9gion terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.",
+            "texteHtml": "<p>Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la r\u00e9gion terre. Le commandant de la r\u00e9gion terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.</p>",
+            "num": "R414-8-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1211068800000,
+            "dateFin": 1425081600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -270,15 +682,24 @@
                     },
                     {
                         "debut": "2008-05-18",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement terrestres",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006195394",
                         "id": "LEGISCTA000018822781",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006195394",
+                        "id": "LEGISCTA000046885019",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 53,
                 "titreTxt": [
                     {
@@ -292,40 +713,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000018942764",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837844",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006195394",
+            "sectionParentId": "LEGISCTA000046885019",
+            "sectionParentTitre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre IV : Faune et flore &gt; Titre Ier : Protection de la faune et de la flore &gt; Chapitre IV : Conservation des habitats naturels, de la faune et de la flore sauvages &gt; Section 1 : Sites Natura 2000 &gt; Sous-section 3 : Comit\u00e9s de pilotage et documents d'objectifs &gt; Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement terrestres",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000018942764",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000030289358",
-                    "textTitle": "D\u00c9CRET n\u00b02015-211 du 25 f\u00e9vrier 2015 - art. 1, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "JORFARTI000030289377",
-                    "natureText": "DECRET",
-                    "date": 1599855014218,
-                    "parentCid": null,
-                    "numTexte": "2015-211",
-                    "datePubli": 1424995200000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006071307",
-                    "textTitle": "Code de la d\u00e9fense. - art. R3222-5 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R3222-5",
-                    "articleId": "LEGIARTI000039445478",
-                    "natureText": "CODE",
-                    "date": 1599855014218,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1625097600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000018800914",
@@ -340,15 +774,105 @@
                     "dateDebutCible": "2008-05-18"
                 }
             ],
-            "num": "R414-8-2",
-            "origine": "LEGI",
-            "texte": "Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la r\u00e9gion terre. Le commandant de la r\u00e9gion terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.",
-            "texteHtml": "<p>Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la r\u00e9gion terre. Le commandant de la r\u00e9gion terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9laboration et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2008-05-18T00:00:00.000Z",
-            "dateFin": "2015-02-28T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000030289358",
+                    "textTitle": "D\u00c9CRET n\u00b02015-211 du 25 f\u00e9vrier 2015 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000030289377",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2015-211",
+                    "datePubli": 1424995200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006071307",
+                    "textTitle": "Code de la d\u00e9fense. - art. R3222-5 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3222-5",
+                    "articleId": "LEGIARTI000039445478",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1625097600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837844",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1153958400000,
+                    "dateFin": 1211068800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018942764",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1211068800000,
+                    "dateFin": 1425081600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000030293492",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1425081600000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046885032",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R414-8-2",
+                "414-8-2"
+            ],
+            "versionPrecedente": "LEGIARTI000006837844",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000006837844",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la r\u00e9gion terre. Le commandant de la r\u00e9gion terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9tablissement et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.",
+            "texteHtml": "<p></p>   Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la r\u00e9gion terre. Le commandant de la r\u00e9gion terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9tablissement et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.<p></p><p></p>",
+            "num": "R414-8-2",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1153958400000,
+            "dateFin": 1211068800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
             "context": {
                 "titresTM": [
                     {
@@ -443,15 +967,24 @@
                     },
                     {
                         "debut": "2008-05-18",
-                        "fin": "2999-01-01",
+                        "fin": "2023-01-01",
                         "titre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement terrestres",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006195394",
                         "id": "LEGISCTA000018822781",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006195394",
+                        "id": "LEGISCTA000046885019",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 53,
                 "titreTxt": [
                     {
@@ -465,40 +998,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000006837844",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000006837844",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006195394",
+            "sectionParentId": "LEGISCTA000046885019",
+            "sectionParentTitre": "Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement ou exclusivement terrestres",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre IV : Faune et flore &gt; Titre Ier : Protection de la faune et de la flore &gt; Chapitre IV : Conservation des habitats naturels, de la faune et de la flore sauvages &gt; Section 1 : Sites Natura 2000 &gt; Sous-section 3 : Comit\u00e9s de pilotage et documents d'objectifs &gt; Paragraphe 1 : Dispositions applicables aux sites Natura 2000 majoritairement terrestres",
+            "refInjection": "IG-20230919",
+            "idTechInjection": "LEGIARTI000006837844",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000030289358",
-                    "textTitle": "D\u00c9CRET n\u00b02015-211 du 25 f\u00e9vrier 2015 - art. 1, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "JORFARTI000030289377",
-                    "natureText": "DECRET",
-                    "date": 1599119904247,
-                    "parentCid": null,
-                    "numTexte": "2015-211",
-                    "datePubli": 1424995200000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006071307",
-                    "textTitle": "Code de la d\u00e9fense. - art. R3222-5 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R3222-5",
-                    "articleId": "LEGIARTI000039445478",
-                    "natureText": "CODE",
-                    "date": 1599119904247,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000006074220",
+                    "titre": "Code de l'environnement",
+                    "titreLong": "Code de l'environnement",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 969494400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074220",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1625097600000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000633739",
@@ -525,13 +1071,87 @@
                     "dateDebutCible": "2006-07-27"
                 }
             ],
-            "num": "R414-8-2",
-            "origine": "LEGI",
-            "texte": "Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la r\u00e9gion terre. Le commandant de la r\u00e9gion terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9tablissement et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.",
-            "texteHtml": "<p></p>   Lorsque le site Natura 2000 est exclusivement constitu\u00e9 de terrains relevant du minist\u00e8re de la d\u00e9fense, la composition du comit\u00e9 de pilotage est arr\u00eat\u00e9e conjointement par le pr\u00e9fet et le commandant de la r\u00e9gion terre. Le commandant de la r\u00e9gion terre convoque et pr\u00e9side le comit\u00e9 de pilotage et d\u00e9finit les modalit\u00e9s de son association \u00e0 l'\u00e9tablissement et au suivi de la mise en oeuvre, sous son autorit\u00e9, du document d'objectifs. Il le transmet pour approbation au pr\u00e9fet dans les deux ans de la cr\u00e9ation du comit\u00e9 de pilotage.<p></p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2006-07-27T00:00:00.000Z",
-            "dateFin": "2008-05-18T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000030289358",
+                    "textTitle": "D\u00c9CRET n\u00b02015-211 du 25 f\u00e9vrier 2015 - art. 1, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "JORFARTI000030289377",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2015-211",
+                    "datePubli": 1424995200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006071307",
+                    "textTitle": "Code de la d\u00e9fense. - art. R3222-5 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3222-5",
+                    "articleId": "LEGIARTI000039445478",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1625097600000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006837844",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1153958400000,
+                    "dateFin": 1211068800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018942764",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1211068800000,
+                    "dateFin": 1425081600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000030293492",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1425081600000,
+                    "dateFin": 1672531200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046885032",
+                    "etat": "VIGUEUR",
+                    "version": "4.0",
+                    "dateDebut": 1672531200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R414-8-2",
+                "414-8-2"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }

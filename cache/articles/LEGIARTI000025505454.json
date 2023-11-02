@@ -1,8 +1,23 @@
 {
-    "cid": "LEGIARTI000025505454",
-    "num": "L253-5",
+    "executionTime": 0,
     "listArticle": [
         {
+            "id": "LEGIARTI000047569413",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Toute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection.",
+            "texteHtml": "<p>Toute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection.<br/><br/></p><p></p>",
+            "num": "L253-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "VIGUEUR",
+            "dateDebut": 1684627200000,
+            "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -34,15 +49,24 @@
                     },
                     {
                         "debut": "2012-05-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Chapitre III : Contr\u00f4le et droit d'acc\u00e8s",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025505441",
                         "id": "LEGISCTA000025508168",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505441",
+                        "id": "LEGISCTA000047569426",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 44,
                 "titreTxt": [
                     {
@@ -56,9 +80,79 @@
                     }
                 ]
             },
-            "etat": "VIGUEUR",
-            "id": "LEGIARTI000038791144",
-            "lienAutres": [],
+            "cid": "LEGIARTI000025505454",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025505441",
+            "sectionParentId": "LEGISCTA000047569426",
+            "sectionParentTitre": "Chapitre III : Contr\u00f4le",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE II : ORDRE ET S\u00c9CURIT\u00c9 PUBLICS &gt; TITRE V : VID\u00c9OPROTECTION &gt; Chapitre III : Contr\u00f4le",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000047569413",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000047561974",
+                    "textTitle": "LOI n\u00b02023-380 du 19 mai 2023 - art. 9",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000047564437",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2023-05-20",
+                    "dateSignaTexte": "2023-05-19",
+                    "dateDebutCible": "2023-05-21"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "Ordonnance n\u00b02012-351 du 12 mars 2012 - art. Annexe",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000031425652",
@@ -68,7 +162,6 @@
                     "articleNum": "Annexe 1",
                     "articleId": "LEGIARTI000034754869",
                     "natureText": "DECRET",
-                    "date": 1599856810103,
                     "parentCid": null,
                     "numTexte": "2015-1423",
                     "datePubli": 1446768000000,
@@ -82,7 +175,6 @@
                     "articleNum": "2",
                     "articleId": "JORFARTI000032282293",
                     "natureText": "LOI",
-                    "date": 1599856810103,
                     "parentCid": null,
                     "numTexte": "2016-339",
                     "datePubli": 1458691200000,
@@ -94,13 +186,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "L223-3",
-                    "articleId": "LEGIARTI000025505242",
+                    "articleId": "LEGIARTI000047569475",
                     "natureText": "CODE",
-                    "date": 1599856810103,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1335830400000
+                    "dateDebut": 1684627200000
                 },
                 {
                     "textCid": "LEGITEXT000025503132",
@@ -110,7 +201,6 @@
                     "articleNum": "R253-3",
                     "articleId": "LEGIARTI000030539117",
                     "natureText": "CODE",
-                    "date": 1599856810103,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -124,7 +214,6 @@
                     "articleNum": "R253-4",
                     "articleId": "LEGIARTI000028285451",
                     "natureText": "CODE",
-                    "date": 1599856810103,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -138,7 +227,6 @@
                     "articleNum": "L2251-4-1",
                     "articleId": "LEGIARTI000032284053",
                     "natureText": "CODE",
-                    "date": 1599856810103,
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
@@ -156,6 +244,176 @@
                     "natureText": "LOI"
                 }
             ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025505454",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038791144",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1684627200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000047569413",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1684627200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L253-5",
+                "253-5"
+            ],
+            "versionPrecedente": "LEGIARTI000038791144",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000038791144",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Toute personne int\u00e9ress\u00e9e peut s'adresser au responsable d'un syst\u00e8me de vid\u00e9oprotection afin d'obtenir un acc\u00e8s aux enregistrements qui la concernent ou d'en v\u00e9rifier la destruction dans le d\u00e9lai pr\u00e9vu. Cet acc\u00e8s est de droit. Un refus d'acc\u00e8s peut toutefois \u00eatre oppos\u00e9 pour un motif tenant \u00e0 la s\u00fbret\u00e9 de l'Etat, \u00e0 la d\u00e9fense, \u00e0 la s\u00e9curit\u00e9 publique, au d\u00e9roulement de proc\u00e9dures engag\u00e9es devant les juridictions ou d'op\u00e9rations pr\u00e9liminaires \u00e0 de telles proc\u00e9dures ou au droit des tiers. Toute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection ou la Commission nationale de l'informatique et des libert\u00e9s de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection. Les dispositions du pr\u00e9c\u00e9dent alin\u00e9a ne font pas obstacle au droit de la personne int\u00e9ress\u00e9e de saisir la juridiction comp\u00e9tente.",
+            "texteHtml": "<p></p><p><br/>\nToute personne int\u00e9ress\u00e9e peut s'adresser au responsable d'un syst\u00e8me de vid\u00e9oprotection afin d'obtenir un acc\u00e8s aux enregistrements qui la concernent ou d'en v\u00e9rifier la destruction dans le d\u00e9lai pr\u00e9vu. Cet acc\u00e8s est de droit. Un refus d'acc\u00e8s peut toutefois \u00eatre oppos\u00e9 pour un motif tenant \u00e0 la s\u00fbret\u00e9 de l'Etat, \u00e0 la d\u00e9fense, \u00e0 la s\u00e9curit\u00e9 publique, au d\u00e9roulement de proc\u00e9dures engag\u00e9es devant les juridictions ou d'op\u00e9rations pr\u00e9liminaires \u00e0 de telles proc\u00e9dures ou au droit des tiers.<br/><br/>\nToute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection ou la Commission nationale de l'informatique et des libert\u00e9s de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection.<br/><br/>\nLes dispositions du pr\u00e9c\u00e9dent alin\u00e9a ne font pas obstacle au droit de la personne int\u00e9ress\u00e9e de saisir la juridiction comp\u00e9tente.</p><p></p>",
+            "num": "L253-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1577836800000,
+            "dateFin": 1684627200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000028275902",
+                        "id": "LEGISCTA000028275902",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE II : ORDRE ET S\u00c9CURIT\u00c9 PUBLICS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505125",
+                        "id": "LEGISCTA000025508388",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE V : VID\u00c9OPROTECTION",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505402",
+                        "id": "LEGISCTA000025508192",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2023-05-21",
+                        "titre": "Chapitre III : Contr\u00f4le et droit d'acc\u00e8s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505441",
+                        "id": "LEGISCTA000025508168",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505441",
+                        "id": "LEGISCTA000047569426",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000025503132",
+                        "id": "LEGITEXT000025503132",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000025505454",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025505441",
+            "sectionParentId": "LEGISCTA000047569426",
+            "sectionParentTitre": "Chapitre III : Contr\u00f4le",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE II : ORDRE ET S\u00c9CURIT\u00c9 PUBLICS &gt; TITRE V : VID\u00c9OPROTECTION &gt; Chapitre III : Contr\u00f4le",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000038791144",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "Conform\u00e9ment \u00e0 l'article 30 de l'ordonnance n\u00b0 2019-738 du 17 juillet 2019, ces dispositions s'appliquent aux demandes introduites \u00e0 compter du 1er janvier 2020.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 30 de l'ordonnance n\u00b0 2019-738 du 17 juillet 2019, ces dispositions s'appliquent aux demandes introduites \u00e0 compter du 1er janvier 2020.</p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000038777188",
@@ -182,15 +440,158 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L253-5",
-            "origine": "LEGI",
-            "texte": "Toute personne int\u00e9ress\u00e9e peut s'adresser au responsable d'un syst\u00e8me de vid\u00e9oprotection afin d'obtenir un acc\u00e8s aux enregistrements qui la concernent ou d'en v\u00e9rifier la destruction dans le d\u00e9lai pr\u00e9vu. Cet acc\u00e8s est de droit. Un refus d'acc\u00e8s peut toutefois \u00eatre oppos\u00e9 pour un motif tenant \u00e0 la s\u00fbret\u00e9 de l'Etat, \u00e0 la d\u00e9fense, \u00e0 la s\u00e9curit\u00e9 publique, au d\u00e9roulement de proc\u00e9dures engag\u00e9es devant les juridictions ou d'op\u00e9rations pr\u00e9liminaires \u00e0 de telles proc\u00e9dures ou au droit des tiers. Toute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection ou la Commission nationale de l'informatique et des libert\u00e9s de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection. Les dispositions du pr\u00e9c\u00e9dent alin\u00e9a ne font pas obstacle au droit de la personne int\u00e9ress\u00e9e de saisir la juridiction comp\u00e9tente.",
-            "texteHtml": "<p></p><p><br/>\nToute personne int\u00e9ress\u00e9e peut s'adresser au responsable d'un syst\u00e8me de vid\u00e9oprotection afin d'obtenir un acc\u00e8s aux enregistrements qui la concernent ou d'en v\u00e9rifier la destruction dans le d\u00e9lai pr\u00e9vu. Cet acc\u00e8s est de droit. Un refus d'acc\u00e8s peut toutefois \u00eatre oppos\u00e9 pour un motif tenant \u00e0 la s\u00fbret\u00e9 de l'Etat, \u00e0 la d\u00e9fense, \u00e0 la s\u00e9curit\u00e9 publique, au d\u00e9roulement de proc\u00e9dures engag\u00e9es devant les juridictions ou d'op\u00e9rations pr\u00e9liminaires \u00e0 de telles proc\u00e9dures ou au droit des tiers.<br/><br/>\nToute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection ou la Commission nationale de l'informatique et des libert\u00e9s de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection.<br/><br/>\nLes dispositions du pr\u00e9c\u00e9dent alin\u00e9a ne font pas obstacle au droit de la personne int\u00e9ress\u00e9e de saisir la juridiction comp\u00e9tente.</p><p></p>",
-            "type": "AUTONOME",
-            "dateDebut": "2020-01-01T00:00:00.000Z",
-            "dateFin": "2999-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000031425652",
+                    "textTitle": "D\u00c9CRET n\u00b02015-1423 du 5 novembre 2015 - art. Annexe 1 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe 1",
+                    "articleId": "LEGIARTI000034754869",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2015-1423",
+                    "datePubli": 1446768000000,
+                    "dateDebut": 1494460800000
+                },
+                {
+                    "textCid": "JORFTEXT000032282279",
+                    "textTitle": "LOI n\u00b02016-339 du 22 mars 2016 - art. 2, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "JORFARTI000032282293",
+                    "natureText": "LOI",
+                    "parentCid": null,
+                    "numTexte": "2016-339",
+                    "datePubli": 1458691200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L223-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L223-3",
+                    "articleId": "LEGIARTI000047569475",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1684627200000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R253-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R253-3",
+                    "articleId": "LEGIARTI000030539117",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1430438400000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R253-4 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R253-4",
+                    "articleId": "LEGIARTI000028285451",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1388534400000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L2251-4-1 (MMN)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2251-4-1",
+                    "articleId": "LEGIARTI000032284053",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000369046",
+                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 10 V (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000023721790",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025505454",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038791144",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1684627200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000047569413",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1684627200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L253-5",
+                "253-5"
+            ],
+            "versionPrecedente": "LEGIARTI000025505454",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         },
         {
+            "id": "LEGIARTI000025505454",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Toute personne int\u00e9ress\u00e9e peut s'adresser au responsable d'un syst\u00e8me de vid\u00e9oprotection afin d'obtenir un acc\u00e8s aux enregistrements qui la concernent ou d'en v\u00e9rifier la destruction dans le d\u00e9lai pr\u00e9vu. Cet acc\u00e8s est de droit. Un refus d'acc\u00e8s peut toutefois \u00eatre oppos\u00e9 pour un motif tenant \u00e0 la s\u00fbret\u00e9 de l'Etat, \u00e0 la d\u00e9fense, \u00e0 la s\u00e9curit\u00e9 publique, au d\u00e9roulement de proc\u00e9dures engag\u00e9es devant les juridictions ou d'op\u00e9rations pr\u00e9liminaires \u00e0 de telles proc\u00e9dures ou au droit des tiers. Toute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection ou la Commission nationale de l'informatique et des libert\u00e9s de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection. Les dispositions du pr\u00e9c\u00e9dent alin\u00e9a ne font pas obstacle au droit de la personne int\u00e9ress\u00e9e de saisir la juridiction comp\u00e9tente, au besoin en la forme du r\u00e9f\u00e9r\u00e9.",
+            "texteHtml": "<p><br/>Toute personne int\u00e9ress\u00e9e peut s'adresser au responsable d'un syst\u00e8me de vid\u00e9oprotection afin d'obtenir un acc\u00e8s aux enregistrements qui la concernent ou d'en v\u00e9rifier la destruction dans le d\u00e9lai pr\u00e9vu. Cet acc\u00e8s est de droit. Un refus d'acc\u00e8s peut toutefois \u00eatre oppos\u00e9 pour un motif tenant \u00e0 la s\u00fbret\u00e9 de l'Etat, \u00e0 la d\u00e9fense, \u00e0 la s\u00e9curit\u00e9 publique, au d\u00e9roulement de proc\u00e9dures engag\u00e9es devant les juridictions ou d'op\u00e9rations pr\u00e9liminaires \u00e0 de telles proc\u00e9dures ou au droit des tiers.<br/> Toute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection ou la Commission nationale de l'informatique et des libert\u00e9s de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection.<br/> Les dispositions du pr\u00e9c\u00e9dent alin\u00e9a ne font pas obstacle au droit de la personne int\u00e9ress\u00e9e de saisir la juridiction comp\u00e9tente, au besoin en la forme du r\u00e9f\u00e9r\u00e9.</p>",
+            "num": "L253-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1335830400000,
+            "dateFin": 1577836800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2080374783,
             "context": {
                 "titresTM": [
                     {
@@ -222,15 +623,24 @@
                     },
                     {
                         "debut": "2012-05-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-05-21",
                         "titre": "Chapitre III : Contr\u00f4le et droit d'acc\u00e8s",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000025505441",
                         "id": "LEGISCTA000025508168",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-05-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre III : Contr\u00f4le",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000025505441",
+                        "id": "LEGISCTA000047569426",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 44,
                 "titreTxt": [
                     {
@@ -244,106 +654,53 @@
                     }
                 ]
             },
-            "etat": "MODIFIE",
-            "id": "LEGIARTI000025505454",
-            "lienAutres": [],
-            "lienCitations": [
+            "cid": "LEGIARTI000025505454",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000025505441",
+            "sectionParentId": "LEGISCTA000047569426",
+            "sectionParentTitre": "Chapitre III : Contr\u00f4le",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE II : ORDRE ET S\u00c9CURIT\u00c9 PUBLICS &gt; TITRE V : VID\u00c9OPROTECTION &gt; Chapitre III : Contr\u00f4le et droit d'acc\u00e8s",
+            "refInjection": "IG-20230926",
+            "idTechInjection": "LEGIARTI000025505454",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
                 {
-                    "textCid": "JORFTEXT000031425652",
-                    "textTitle": "D\u00c9CRET n\u00b02015-1423 du 5 novembre 2015 - art. Annexe 1 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "Annexe 1",
-                    "articleId": "LEGIARTI000034754869",
-                    "natureText": "DECRET",
-                    "date": 1599874249097,
-                    "parentCid": null,
-                    "numTexte": "2015-1423",
-                    "datePubli": 1446768000000,
-                    "dateDebut": 1494460800000
-                },
-                {
-                    "textCid": "JORFTEXT000032282279",
-                    "textTitle": "LOI n\u00b02016-339 du 22 mars 2016 - art. 2, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "JORFARTI000032282293",
-                    "natureText": "LOI",
-                    "date": 1599874249097,
-                    "parentCid": null,
-                    "numTexte": "2016-339",
-                    "datePubli": 1458691200000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L223-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L223-3",
-                    "articleId": "LEGIARTI000025505242",
-                    "natureText": "CODE",
-                    "date": 1599874249098,
-                    "parentCid": null,
-                    "numTexte": "",
+                    "id": "LEGITEXT000025503132",
+                    "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "titreLong": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000025503132",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1335830400000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R253-3 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R253-3",
-                    "articleId": "LEGIARTI000030539117",
-                    "natureText": "CODE",
-                    "date": 1599874249098,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1430438400000
-                },
-                {
-                    "textCid": "LEGITEXT000025503132",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R253-4 (VD)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R253-4",
-                    "articleId": "LEGIARTI000028285451",
-                    "natureText": "CODE",
-                    "date": 1599874249098,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1388534400000
-                },
-                {
-                    "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L2251-4-1 (MMN)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L2251-4-1",
-                    "articleId": "LEGIARTI000032284053",
-                    "natureText": "CODE",
-                    "date": 1599874249098,
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
                 }
             ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000369046",
-                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 10 V (VT)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "10",
-                    "articleId": "LEGIARTI000023721790",
-                    "natureText": "LOI"
-                }
-            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000025498645",
@@ -370,13 +727,140 @@
                     "dateDebutCible": null
                 }
             ],
-            "num": "L253-5",
-            "origine": "LEGI",
-            "texte": "Toute personne int\u00e9ress\u00e9e peut s'adresser au responsable d'un syst\u00e8me de vid\u00e9oprotection afin d'obtenir un acc\u00e8s aux enregistrements qui la concernent ou d'en v\u00e9rifier la destruction dans le d\u00e9lai pr\u00e9vu. Cet acc\u00e8s est de droit. Un refus d'acc\u00e8s peut toutefois \u00eatre oppos\u00e9 pour un motif tenant \u00e0 la s\u00fbret\u00e9 de l'Etat, \u00e0 la d\u00e9fense, \u00e0 la s\u00e9curit\u00e9 publique, au d\u00e9roulement de proc\u00e9dures engag\u00e9es devant les juridictions ou d'op\u00e9rations pr\u00e9liminaires \u00e0 de telles proc\u00e9dures ou au droit des tiers. Toute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection ou la Commission nationale de l'informatique et des libert\u00e9s de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection. Les dispositions du pr\u00e9c\u00e9dent alin\u00e9a ne font pas obstacle au droit de la personne int\u00e9ress\u00e9e de saisir la juridiction comp\u00e9tente, au besoin en la forme du r\u00e9f\u00e9r\u00e9.",
-            "texteHtml": "<p><br/>Toute personne int\u00e9ress\u00e9e peut s'adresser au responsable d'un syst\u00e8me de vid\u00e9oprotection afin d'obtenir un acc\u00e8s aux enregistrements qui la concernent ou d'en v\u00e9rifier la destruction dans le d\u00e9lai pr\u00e9vu. Cet acc\u00e8s est de droit. Un refus d'acc\u00e8s peut toutefois \u00eatre oppos\u00e9 pour un motif tenant \u00e0 la s\u00fbret\u00e9 de l'Etat, \u00e0 la d\u00e9fense, \u00e0 la s\u00e9curit\u00e9 publique, au d\u00e9roulement de proc\u00e9dures engag\u00e9es devant les juridictions ou d'op\u00e9rations pr\u00e9liminaires \u00e0 de telles proc\u00e9dures ou au droit des tiers.<br/> Toute personne int\u00e9ress\u00e9e peut saisir la commission d\u00e9partementale de vid\u00e9oprotection ou la Commission nationale de l'informatique et des libert\u00e9s de toute difficult\u00e9 tenant au fonctionnement d'un syst\u00e8me de vid\u00e9oprotection.<br/> Les dispositions du pr\u00e9c\u00e9dent alin\u00e9a ne font pas obstacle au droit de la personne int\u00e9ress\u00e9e de saisir la juridiction comp\u00e9tente, au besoin en la forme du r\u00e9f\u00e9r\u00e9.</p>",
-            "type": "AUTONOME",
-            "dateDebut": "2012-05-01T00:00:00.000Z",
-            "dateFin": "2020-01-01T00:00:00.000Z"
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000031425652",
+                    "textTitle": "D\u00c9CRET n\u00b02015-1423 du 5 novembre 2015 - art. Annexe 1 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "Annexe 1",
+                    "articleId": "LEGIARTI000034754869",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2015-1423",
+                    "datePubli": 1446768000000,
+                    "dateDebut": 1494460800000
+                },
+                {
+                    "textCid": "JORFTEXT000032282279",
+                    "textTitle": "LOI n\u00b02016-339 du 22 mars 2016 - art. 2, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "JORFARTI000032282293",
+                    "natureText": "LOI",
+                    "parentCid": null,
+                    "numTexte": "2016-339",
+                    "datePubli": 1458691200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L223-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L223-3",
+                    "articleId": "LEGIARTI000047569475",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1684627200000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R253-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R253-3",
+                    "articleId": "LEGIARTI000030539117",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1430438400000
+                },
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. R253-4 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R253-4",
+                    "articleId": "LEGIARTI000028285451",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1388534400000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. L2251-4-1 (MMN)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2251-4-1",
+                    "articleId": "LEGIARTI000032284053",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1483228800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000369046",
+                    "textTitle": "Loi n\u00b0 95-73 du 21 janvier 1995 - art. 10 V (VT)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000023721790",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000025505454",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1335830400000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000038791144",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1684627200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000047569413",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1684627200000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L253-5",
+                "253-5"
+            ],
+            "versionPrecedente": null,
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
         }
     ]
 }
