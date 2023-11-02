@@ -3,41 +3,22 @@ import math
 import os
 import subprocess
 from datetime import datetime
-from typing import Callable, Generator
 
 import pytz
 
-from commit_state_to_md import to_one_file_per_article, to_one_file_per_code
-from commits import ArticleJSON, CodeJSON, get_commits
+from commits import ArticleJSON, get_commits, Commit
 from constants import CID_CODE_DU_TRAVAIL_MARITIME
 from fetch_data import CachedLegifranceClient
-from to_commit_state import StateAtCommit, generate_commit_states
 
 OUTPUT_REPO_PATH = "./output"
 DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d'une portée générale"
 
 
-def _process(
-    code_tms: list[CodeJSON], articles_by_code: dict[str, list[ArticleJSON]]
-) -> Generator[StateAtCommit, None, None]:
-    articles = [a for v in articles_by_code.values() for a in v]
-    commits = get_commits(articles)
-    yield from generate_commit_states(code_tms, commits, articles_by_code)
-
-
-def _yield_entries_from_flatten_dict(d: dict | str, paths=[]):
-    if isinstance(d, dict):
-        for path, content in d.items():
-            yield from _yield_entries_from_flatten_dict(content, paths + [path])
-    else:
-        yield os.path.join(*paths), d
-
-
 DATE_DUMP_GENERATED = datetime.now().isoformat()
 
 
-def _build_git_repo_readme():
-    with open(f"{OUTPUT_REPO_PATH}/README.md", "w") as f:
+def _build_git_repo_readme(output_repo_path: str = OUTPUT_REPO_PATH):
+    with open(f"{output_repo_path}/README.md", "w") as f:
         f.write(
             f"""
 # Legifrance Github Clone
@@ -57,28 +38,51 @@ https://piste.gouv.fr/, mise à jour à {DATE_DUMP_GENERATED} »
         )
 
 
-def _build_git_repo(
-    states: list[StateAtCommit],
-    to_files: Callable[[StateAtCommit], dict],
-):
-    subprocess.run(["rm", "-rf", OUTPUT_REPO_PATH])
-    os.makedirs(OUTPUT_REPO_PATH, exist_ok=True)
-    subprocess.run(["git", "init", OUTPUT_REPO_PATH])
+def _ensure_dir_exists(uri: str):
+    parent_path = os.path.dirname(uri)
+    if not os.path.isdir(parent_path):
+        dirs = parent_path.split(os.sep)
+        for i in range(len(dirs)):
+            p = os.path.join(*dirs[: i + 1])
+            if not os.path.isdir(p):
+                os.mkdir(p)
 
+
+def _init_repo(output_repo_path: str = OUTPUT_REPO_PATH):
+    subprocess.run(["rm", "-rf", output_repo_path])
+    os.makedirs(output_repo_path, exist_ok=True)
+    subprocess.run(["git", "init", output_repo_path])
+    _build_git_repo_readme(output_repo_path)
+    subprocess.call(["git", "add", "README.md"], cwd=output_repo_path)
+
+
+def _play_commits(commits: list[Commit], output_repo_path: str = OUTPUT_REPO_PATH):
     tz = pytz.timezone("UTC")
 
-    for s in states:
-        subprocess.run(["git", "rm", "-r", "."], cwd=OUTPUT_REPO_PATH)
-        _build_git_repo_readme()
+    for i, c in enumerate(commits):
+        for uri, text in c.article_changes.items():
+            # update
+            if text is not None:
+                # ensure dir exists or create it
+                full_uri = f"{output_repo_path}/{uri}"
+                _ensure_dir_exists(full_uri)
+                # write file
+                with open(full_uri, "w") as f:
+                    f.write(text)
+                subprocess.run(["git", "add", uri], cwd=output_repo_path)
+            else:
+                subprocess.run(["git", "rm", uri], cwd=output_repo_path)
 
-        for path, text in _yield_entries_from_flatten_dict(to_files(s)):
-            full_path = f"{OUTPUT_REPO_PATH}/{path}"
-            os.makedirs(os.path.dirname(full_path), exist_ok=True)
-            with open(full_path, "w") as f:
-                f.write(text)
+            if uri in c.article_moves:
+                full_uri = os.path.join(output_repo_path, c.article_moves[uri])
+                _ensure_dir_exists(full_uri)
+                subprocess.run(
+                    ["git", "mv", "-f", uri, c.article_moves[uri]],
+                    cwd=output_repo_path,
+                )
 
         # TODO ms vs s
-        date_dt = datetime.fromtimestamp(math.floor(s.timestamp / 1000), tz)
+        date_dt = datetime.fromtimestamp(math.floor(c.timestamp / 1000), tz)
 
         # TODO
         if date_dt.year >= 2038:
@@ -92,7 +96,6 @@ def _build_git_repo(
         env = os.environ.copy()
         env["GIT_COMMITTER_DATE"] = date_with_format_str
 
-        subprocess.run(["git", "add", "."], cwd=OUTPUT_REPO_PATH)
         subprocess.run(
             [
                 "git",
@@ -100,24 +103,16 @@ def _build_git_repo(
                 "--date",
                 date_with_format_str,
                 "-m",
-                s.title or DEFAULT_COMMIT_MESSAGE,
+                c.title or DEFAULT_COMMIT_MESSAGE,
             ],
             env=env,
-            cwd=OUTPUT_REPO_PATH,
+            cwd=output_repo_path,
         )
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="legifrance-bot")
-    parser.add_argument(
-        "-a",
-        "--one-file-per-article",
-        dest="to_files",
-        action="store_const",
-        default=to_one_file_per_code,
-        const=to_one_file_per_article,
-        help="If selected, will build the git repo with one file per article",
-    )
+
     parser.add_argument(
         "-t",
         "--test-code",
@@ -155,9 +150,8 @@ if __name__ == "__main__":
         tm["cid"]: client.fetch_articles(tm) for tm in code_tms
     }
 
-    states = list(_process(code_tms, articles_by_code))
+    articles = [a for v in articles_by_code.values() for a in v]
+    commits = get_commits(articles)
 
-    # Only states which are in the past. We ignore the future for now.
-    states = [s for s in states if s.timestamp <= datetime.now().timestamp() * 1000]
-
-    _build_git_repo(states, args.to_files)
+    _init_repo()
+    _play_commits(commits)
