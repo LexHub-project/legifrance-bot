@@ -3,10 +3,11 @@ import math
 import os
 import subprocess
 from datetime import datetime
+from typing import Generator
 
 import pytz
 
-from commits import ArticleJSON, get_commits, Commit
+from commits import ArticleJSON, Cid, Commit, Uri, get_commits
 from constants import CID_CODE_DU_TRAVAIL_MARITIME
 from fetch_data import CachedLegifranceClient
 
@@ -17,7 +18,7 @@ DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d'une portée générale"
 DATE_DUMP_GENERATED = datetime.now().isoformat()
 
 
-def _build_git_repo_readme(output_repo_path: str = OUTPUT_REPO_PATH):
+def _build_git_repo_readme(output_repo_path: str):
     with open(f"{output_repo_path}/README.md", "w") as f:
         f.write(
             f"""
@@ -38,48 +39,45 @@ https://piste.gouv.fr/, mise à jour à {DATE_DUMP_GENERATED} »
         )
 
 
-def _ensure_dir_exists(uri: str):
-    parent_path = os.path.dirname(uri)
-    if not os.path.isdir(parent_path):
-        dirs = parent_path.split(os.sep)
-        for i in range(len(dirs)):
-            p = os.path.join(*dirs[: i + 1])
-            if not os.path.isdir(p):
-                os.mkdir(p)
-
-
-def _init_repo(output_repo_path: str = OUTPUT_REPO_PATH):
+def _init_repo(output_repo_path: str):
     subprocess.run(["rm", "-rf", output_repo_path])
+
     os.makedirs(output_repo_path, exist_ok=True)
     subprocess.run(["git", "init", output_repo_path])
+
     _build_git_repo_readme(output_repo_path)
     subprocess.call(["git", "add", "README.md"], cwd=output_repo_path)
 
 
-def _play_commits(commits: list[Commit], output_repo_path: str = OUTPUT_REPO_PATH):
+def _play_commits(
+    commits: list[Commit], output_repo_path: str
+) -> Generator[Commit, None, None]:
     tz = pytz.timezone("UTC")
 
+    article_cid_to_uri: dict[Cid, Uri] = {}
+
     for i, c in enumerate(commits):
-        for uri, text in c.article_changes.items():
-            # update
-            if text is not None:
-                # ensure dir exists or create it
-                full_uri = f"{output_repo_path}/{uri}"
-                _ensure_dir_exists(full_uri)
-                # write file
-                with open(full_uri, "w") as f:
+        yield c
+
+        for cid, (uri, text) in c.article_changes.items():
+            if text is None:
+                assert cid in article_cid_to_uri, (i, cid, article_cid_to_uri)
+                del article_cid_to_uri[cid]
+                subprocess.run(["git", "rm", uri], cwd=output_repo_path)
+            else:
+                old_uri = article_cid_to_uri.get(cid, None)
+                if old_uri is not None and uri != old_uri:
+                    subprocess.run(
+                        ["git", "mv", "-f", old_uri, uri], cwd=output_repo_path
+                    )
+
+                article_cid_to_uri[cid] = uri
+
+                abs_path = os.path.abspath(os.path.join(output_repo_path, uri))
+                os.makedirs(os.path.dirname(abs_path), exist_ok=True)
+                with open(abs_path, "w") as f:
                     f.write(text)
                 subprocess.run(["git", "add", uri], cwd=output_repo_path)
-            else:
-                subprocess.run(["git", "rm", uri], cwd=output_repo_path)
-
-            if uri in c.article_moves:
-                full_uri = os.path.join(output_repo_path, c.article_moves[uri])
-                _ensure_dir_exists(full_uri)
-                subprocess.run(
-                    ["git", "mv", "-f", uri, c.article_moves[uri]],
-                    cwd=output_repo_path,
-                )
 
         # TODO ms vs s
         date_dt = datetime.fromtimestamp(math.floor(c.timestamp / 1000), tz)
@@ -153,5 +151,8 @@ if __name__ == "__main__":
     articles = [a for v in articles_by_code.values() for a in v]
     commits = get_commits(articles)
 
-    _init_repo()
-    _play_commits(commits)
+    _init_repo(OUTPUT_REPO_PATH)
+
+    # Play all commits, we used a generator to make testing easier
+    for _ in _play_commits(commits, OUTPUT_REPO_PATH):
+        pass
