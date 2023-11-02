@@ -1,0 +1,280 @@
+{
+    "cid": "LEGIARTI000006832948",
+    "num": "L131-5",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129022",
+                        "id": "LEGISCTA000006129022",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre III : Institutions",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143734",
+                        "id": "LEGISCTA000006143734",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Institutions intervenant dans le domaine de la protection de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159215",
+                        "id": "LEGISCTA000006159215",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-07-02",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Agence de l'environnement et de la ma\u00eetrise de l'\u00e9nergie",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176637",
+                        "id": "LEGISCTA000006176637",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000006832949",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006071190",
+                    "textTitle": "Code de la recherche - art. L335-1 (Ab)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L335-1",
+                    "articleId": "LEGIARTI000006524252",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000525387",
+                    "textTitle": "Loi 90-1130 1990-12-19 art. 3",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000525387",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000525387",
+                    "textTitle": "Loi n\u00b090-1130 du 19 d\u00e9cembre 1990 - art. 3 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006848036",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000803875",
+                    "textTitle": "Ordonnance n\u00b02004-637 du 1 juillet 2004 - art. 27 () JORF 2 juillet 2004",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "27",
+                    "articleId": "LEGIARTI000006452111",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2004-07-02",
+                    "dateSignaTexte": "2004-07-01",
+                    "dateDebutCible": "2004-07-02"
+                }
+            ],
+            "num": "L131-5",
+            "origine": "LEGI",
+            "texte": "L'agence est dot\u00e9e d'un conseil scientifique dont la composition est arr\u00eat\u00e9e conjointement par les ministres charg\u00e9s de l'environnement, de la recherche et de l'industrie.",
+            "texteHtml": "<p></p>   L'agence est dot\u00e9e d'un conseil scientifique dont la composition est arr\u00eat\u00e9e conjointement par les ministres charg\u00e9s de l'environnement, de la recherche et de l'industrie.<p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2004-07-02T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Dispositions communes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129022",
+                        "id": "LEGISCTA000006129022",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre III : Institutions",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143734",
+                        "id": "LEGISCTA000006143734",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Institutions intervenant dans le domaine de la protection de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159215",
+                        "id": "LEGISCTA000006159215",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2004-07-02",
+                        "titre": "Section 2 : Agence de l'environnement et de la ma\u00eetrise de l'\u00e9nergie",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176446",
+                        "id": "LEGISCTA000006176446",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006832948",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006071190",
+                    "textTitle": "Code de la recherche - art. L335-1 (Ab)",
+                    "linkType": "PILOTE_SUIVEUR",
+                    "linkOrientation": "cible",
+                    "articleNum": "L335-1",
+                    "articleId": "LEGIARTI000006524252",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000525387",
+                    "textTitle": "Loi 90-1130 1990-12-19 art. 3",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000525387",
+                    "natureText": "LOI"
+                },
+                {
+                    "textCid": "JORFTEXT000000525387",
+                    "textTitle": "Loi n\u00b090-1130 du 19 d\u00e9cembre 1990 - art. 3 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006848036",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "num": "L131-5",
+            "origine": "LEGI",
+            "texte": "L'agence est dot\u00e9e d'un conseil scientifique dont la composition est arr\u00eat\u00e9e conjointement par les ministres charg\u00e9s de l'environnement, de la recherche et de l'industrie.",
+            "texteHtml": "<p></p>   L'agence est dot\u00e9e d'un conseil scientifique dont la composition est arr\u00eat\u00e9e conjointement par les ministres charg\u00e9s de l'environnement, de la recherche et de l'industrie.<p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2000-09-21T00:00:00.000Z",
+            "dateFin": "2004-07-02T00:00:00.000Z"
+        }
+    ]
+}

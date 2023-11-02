@@ -1,0 +1,117 @@
+{
+    "cid": "LEGIARTI000030937911",
+    "num": "L881-1",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000028275902",
+                        "id": "LEGISCTA000028275902",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2015-10-03",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE VIII : DU RENSEIGNEMENT",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000030934655",
+                        "id": "LEGISCTA000030934655",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2015-10-03",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE VIII : DISPOSITIONS PENALES",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000030937941",
+                        "id": "LEGISCTA000030937951",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 41,
+                "titreTxt": [
+                    {
+                        "debut": "2012-05-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la s\u00e9curit\u00e9 int\u00e9rieure",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000025503132",
+                        "id": "LEGITEXT000025503132",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000030939256",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006070719",
+                    "textTitle": "Code p\u00e9nal - art. 226-13",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "226-13",
+                    "articleId": "LEGIARTI000006417944",
+                    "natureText": "CODE",
+                    "date": 1599864215690,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1009843200000
+                },
+                {
+                    "textCid": "LEGITEXT000006070719",
+                    "textTitle": "Code p\u00e9nal - art. 226-31",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "226-31",
+                    "articleId": "LEGIARTI000006418012",
+                    "natureText": "CODE",
+                    "date": 1599864215691,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 775526400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000025503132",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 int\u00e9rieure - art. L245-1 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L245-1",
+                    "articleId": "LEGIARTI000028345044",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000030931899",
+                    "textTitle": "LOI n\u00b02015-912 du 24 juillet 2015 - art. 13",
+                    "linkType": "CREE",
+                    "linkOrientation": "cible",
+                    "articleNum": "13",
+                    "articleId": "LEGIARTI000030933650",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2015-07-26",
+                    "dateSignaTexte": "2015-07-24",
+                    "dateDebutCible": "2015-07-27"
+                }
+            ],
+            "num": "L881-1",
+            "origine": "LEGI",
+            "texte": "Le fait par une personne concourant, dans les cas pr\u00e9vus par la loi, \u00e0 l'ex\u00e9cution d'une technique de recueil de renseignement, de r\u00e9v\u00e9ler l'existence de la mise en \u0153uvre de cette technique est puni des peines mentionn\u00e9es aux articles 226-13, 226-14 et 226-31 du code p\u00e9nal.",
+            "texteHtml": "<p>Le fait par une personne concourant, dans les cas pr\u00e9vus par la loi, \u00e0 l'ex\u00e9cution d'une technique de recueil de renseignement, de r\u00e9v\u00e9ler l'existence de la mise en \u0153uvre de cette technique est puni des peines mentionn\u00e9es aux <a href='/article/LEGIARTI000006417944'>articles 226-13, 226-14 </a>et <a href='/article/LEGIARTI000006418012'>226-31</a> du code p\u00e9nal.</p>",
+            "type": "AUTONOME",
+            "dateDebut": "2015-10-03T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        }
+    ]
+}

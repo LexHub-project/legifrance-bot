@@ -1,0 +1,975 @@
+{
+    "cid": "LEGIARTI000006812157",
+    "num": "R211-15",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107986",
+                        "id": "LEGISCTA000006107986",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Assurances obligatoires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128518",
+                        "id": "LEGISCTA000006128518",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : L'assurance des v\u00e9hicules terrestres \u00e0 moteur et de leurs remorques et semi-remorques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143130",
+                        "id": "LEGISCTA000006143130",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : L'obligation de s'assurer.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006158281",
+                        "id": "LEGISCTA000006158281",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section IV : Contr\u00f4le de l'obligation d'assurance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006175432",
+                        "id": "LEGISCTA000006175432",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1985-08-23",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : L'attestation d'assurance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006187940",
+                        "id": "LEGISCTA000006187940",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Code des assurances",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006073984",
+                        "id": "LEGITEXT000006073984",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000030066408",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-14 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "R211-14",
+                    "articleId": "LEGIARTI000006812145",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000030005769",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1725 du 30 d\u00e9cembre 2014 - art. 4, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "JORFARTI000030005798",
+                    "natureText": "DECRET",
+                    "date": 1599864287880,
+                    "parentCid": null,
+                    "numTexte": "2014-1725",
+                    "datePubli": 1419984000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000030005769",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1725 du 30 d\u00e9cembre 2014 - art. R3120-4, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3120-4",
+                    "articleId": "JORFARTI000030005922",
+                    "natureText": "DECRET",
+                    "date": 1599864287880,
+                    "parentCid": null,
+                    "numTexte": "2014-1725",
+                    "datePubli": 1419984000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. A211-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A211-4",
+                    "articleId": "LEGIARTI000006786773",
+                    "natureText": "CODE",
+                    "date": 1599864287880,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1184976000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. A211-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A211-6",
+                    "articleId": "LEGIARTI000006786789",
+                    "natureText": "CODE",
+                    "date": 1599864287880,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 527904000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*211-19 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*211-19",
+                    "articleId": "LEGIARTI000006812163",
+                    "natureText": "CODE",
+                    "date": 1599864287880,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 493603200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*211-3",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R*211-3",
+                    "articleId": "LEGIARTI000006812109",
+                    "natureText": "CODE",
+                    "date": 1599864287880,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 206755200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*420-12 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*420-12",
+                    "articleId": "LEGIARTI000006820559",
+                    "natureText": "CODE",
+                    "date": 1599864287880,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 206755200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*420-5 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*420-5",
+                    "articleId": "LEGIARTI000006820543",
+                    "natureText": "CODE",
+                    "date": 1599864287880,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 511315200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R211-14",
+                    "articleId": "LEGIARTI000006812150",
+                    "natureText": "CODE",
+                    "date": 1599864287881,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1184976000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-17 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R211-17",
+                    "articleId": "LEGIARTI000006812155",
+                    "natureText": "CODE",
+                    "date": 1599864287881,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 604195200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R214-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R214-2",
+                    "articleId": "LEGIARTI000006812263",
+                    "natureText": "CODE",
+                    "date": 1599864287881,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 994982400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R421-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R421-5",
+                    "articleId": "LEGIARTI000036769002",
+                    "natureText": "CODE",
+                    "date": 1599864287881,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1522540800000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R3120-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3120-4",
+                    "articleId": "LEGIARTI000030048399",
+                    "natureText": "CODE",
+                    "date": 1599864287881,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1435708800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 59-135 1959-01-07 art. 17",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 59-135 1959-01-07 art. 17",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000507291",
+                    "textTitle": "D\u00e9cret n\u00b0 76-667 du 16 juillet 1976",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000507291",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000030005769",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1725 du 30 d\u00e9cembre 2014 - art. 4",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000030045591",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2014-12-31",
+                    "dateSignaTexte": "2014-12-30",
+                    "dateDebutCible": "2015-01-01"
+                }
+            ],
+            "num": "R211-15",
+            "origine": "LEGI",
+            "texte": "Pour l'application de l'article R. 211-14, l'entreprise d'assurance doit d\u00e9livrer, sans frais, un document justificatif pour chacun des v\u00e9hicules couverts par la police. Si la garantie du contrat s'applique \u00e0 la fois \u00e0 un v\u00e9hicule \u00e0 moteur et \u00e0 ses remorques ou semi-remorques, un seul document justificatif peut \u00eatre d\u00e9livr\u00e9, \u00e0 la condition qu'il pr\u00e9cise le type des remorques ou semi-remorques qui peuvent \u00eatre utilis\u00e9es avec le v\u00e9hicule ainsi que, le cas \u00e9ch\u00e9ant, leur num\u00e9ro d'immatriculation. Pour les v\u00e9hicules utilis\u00e9s dans le cadre d'une activit\u00e9 de transport public particulier de personnes, si le document justificatif ne mentionne pas que la garantie du contrat couvre le transport de personnes effectu\u00e9 \u00e0 titre on\u00e9reux, il est compl\u00e9t\u00e9 d'un justificatif qui en atteste. Pour les contrats d'assurance concernant les personnes mentionn\u00e9es \u00e0 l'article R. 211-3 , le document justificatif doit \u00eatre d\u00e9livr\u00e9 par l'entreprise d'assurance en autant d'exemplaires qu'il est pr\u00e9vu par le contrat. Le document justificatif doit mentionner : a) la d\u00e9nomination et l'adresse de l'entreprise d'assurance ; b) les nom, pr\u00e9noms et adresse du souscripteur du contrat ; c) le num\u00e9ro de la police d'assurance ; d) la p\u00e9riode d'assurance correspondant \u00e0 la prime ou portion de prime pay\u00e9e ; e) les caract\u00e9ristiques du v\u00e9hicule, notamment son num\u00e9ro d'immatriculation ou, \u00e0 d\u00e9faut, et, s'il y a lieu, le num\u00e9ro du moteur. Par d\u00e9rogation aux dispositions ci-dessus, le document justificatif d\u00e9livr\u00e9 aux professionnels de la r\u00e9paration, de la vente ou du contr\u00f4le de l'automobile, ne comporte pas les indications pr\u00e9vues au e. Il mentionne par ailleurs la profession du souscripteur et, en termes apparents, le mot : \" Garage \". Tout conducteur d'un v\u00e9hicule qui pr\u00e9sente aux autorit\u00e9s charg\u00e9es du contr\u00f4le le document justificatif comportant les mentions pr\u00e9cis\u00e9es \u00e0 l'alin\u00e9a pr\u00e9c\u00e9dent doit en outre \u00eatre en mesure de justifier que la conduite du v\u00e9hicule lui a \u00e9t\u00e9 confi\u00e9e par une des personnes mentionn\u00e9es au premier alin\u00e9a de l'article R. 211-3.",
+            "texteHtml": "<p>Pour l'application de l'article R. 211-14, l'entreprise d'assurance doit d\u00e9livrer, sans frais, un document justificatif pour chacun des v\u00e9hicules couverts par la police. </p><p></p><p>Si la garantie du contrat s'applique \u00e0 la fois \u00e0 un v\u00e9hicule \u00e0 moteur et \u00e0 ses remorques ou semi-remorques, un seul document justificatif peut \u00eatre d\u00e9livr\u00e9, \u00e0 la condition qu'il pr\u00e9cise le type des remorques ou semi-remorques qui peuvent \u00eatre utilis\u00e9es avec le v\u00e9hicule ainsi que, le cas \u00e9ch\u00e9ant, leur num\u00e9ro d'immatriculation. </p><p></p><p>Pour les v\u00e9hicules utilis\u00e9s dans le cadre d'une activit\u00e9 de transport public particulier de personnes, si le document justificatif ne mentionne pas que la garantie du contrat couvre le transport de personnes effectu\u00e9 \u00e0 titre on\u00e9reux, il est compl\u00e9t\u00e9 d'un justificatif qui en atteste. </p><p></p><p>Pour les contrats d'assurance concernant les personnes mentionn\u00e9es \u00e0 l'article <a href='/article/LEGIARTI000006812109'>R. 211-3</a>, le document justificatif doit \u00eatre d\u00e9livr\u00e9 par l'entreprise d'assurance en autant d'exemplaires qu'il est pr\u00e9vu par le contrat. </p><p></p><p>Le document justificatif doit mentionner : </p><p></p><p>a) la d\u00e9nomination et l'adresse de l'entreprise d'assurance ; </p><p></p><p>b) les nom, pr\u00e9noms et adresse du souscripteur du contrat ; </p><p></p><p>c) le num\u00e9ro de la police d'assurance ; </p><p></p><p>d) la p\u00e9riode d'assurance correspondant \u00e0 la prime ou portion de prime pay\u00e9e ; </p><p></p><p>e) les caract\u00e9ristiques du v\u00e9hicule, notamment son num\u00e9ro d'immatriculation ou, \u00e0 d\u00e9faut, et, s'il y a lieu, le num\u00e9ro du moteur. </p><p></p><p>Par d\u00e9rogation aux dispositions ci-dessus, le document justificatif d\u00e9livr\u00e9 aux professionnels de la r\u00e9paration, de la vente ou du contr\u00f4le de l'automobile, ne comporte pas les indications pr\u00e9vues au e. Il mentionne par ailleurs la profession du souscripteur et, en termes apparents, le mot : \" Garage \". </p><p></p><p>Tout conducteur d'un v\u00e9hicule qui pr\u00e9sente aux autorit\u00e9s charg\u00e9es du contr\u00f4le le document justificatif comportant les mentions pr\u00e9cis\u00e9es \u00e0 l'alin\u00e9a pr\u00e9c\u00e9dent doit en outre \u00eatre en mesure de justifier que la conduite du v\u00e9hicule lui a \u00e9t\u00e9 confi\u00e9e par une des personnes mentionn\u00e9es au premier alin\u00e9a de l'article R. 211-3.</p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2015-07-01T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107986",
+                        "id": "LEGISCTA000006107986",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Assurances obligatoires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128518",
+                        "id": "LEGISCTA000006128518",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : L'assurance des v\u00e9hicules terrestres \u00e0 moteur et de leurs remorques et semi-remorques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143130",
+                        "id": "LEGISCTA000006143130",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : L'obligation de s'assurer.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006158281",
+                        "id": "LEGISCTA000006158281",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section IV : Contr\u00f4le de l'obligation d'assurance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006175432",
+                        "id": "LEGISCTA000006175432",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1985-08-23",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : L'attestation d'assurance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006187940",
+                        "id": "LEGISCTA000006187940",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Code des assurances",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006073984",
+                        "id": "LEGITEXT000006073984",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006812158",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-14 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "R211-14",
+                    "articleId": "LEGIARTI000006812145",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000030005769",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1725 du 30 d\u00e9cembre 2014 - art. 4, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "JORFARTI000030005798",
+                    "natureText": "DECRET",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "2014-1725",
+                    "datePubli": 1419984000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000030005769",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1725 du 30 d\u00e9cembre 2014 - art. R3120-4, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3120-4",
+                    "articleId": "JORFARTI000030005922",
+                    "natureText": "DECRET",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "2014-1725",
+                    "datePubli": 1419984000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. A211-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A211-4",
+                    "articleId": "LEGIARTI000006786773",
+                    "natureText": "CODE",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1184976000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. A211-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A211-6",
+                    "articleId": "LEGIARTI000006786789",
+                    "natureText": "CODE",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 527904000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*211-19 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*211-19",
+                    "articleId": "LEGIARTI000006812163",
+                    "natureText": "CODE",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 493603200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*420-12 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*420-12",
+                    "articleId": "LEGIARTI000006820559",
+                    "natureText": "CODE",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 206755200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*420-5 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*420-5",
+                    "articleId": "LEGIARTI000006820543",
+                    "natureText": "CODE",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 511315200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R211-14",
+                    "articleId": "LEGIARTI000006812150",
+                    "natureText": "CODE",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1184976000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-17 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R211-17",
+                    "articleId": "LEGIARTI000006812155",
+                    "natureText": "CODE",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 604195200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-3 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R*211-3",
+                    "articleId": "LEGIARTI000006812109",
+                    "natureText": "CODE",
+                    "date": 1599104700686,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 206755200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R214-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R214-2",
+                    "articleId": "LEGIARTI000006812263",
+                    "natureText": "CODE",
+                    "date": 1599104700687,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 994982400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R421-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R421-5",
+                    "articleId": "LEGIARTI000036769002",
+                    "natureText": "CODE",
+                    "date": 1599104700687,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1522540800000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R3120-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3120-4",
+                    "articleId": "LEGIARTI000030048399",
+                    "natureText": "CODE",
+                    "date": 1599104700687,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1435708800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 59-135 1959-01-07 art. 17",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 59-135 1959-01-07 art. 17",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000507291",
+                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000507291",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000792327",
+                    "textTitle": "D\u00e9cret 2007-1118 2007-07-19 art. 2 5\u00b0 JORF 21 juillet 2007",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000792327",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2007-07-21",
+                    "dateSignaTexte": "2007-07-19",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "num": "R211-15",
+            "origine": "LEGI",
+            "texte": "Pour l'application de l'article R. 211-14, l'entreprise d'assurance doit d\u00e9livrer, sans frais, un document justificatif pour chacun des v\u00e9hicules couverts par la police. Si la garantie du contrat s'applique \u00e0 la fois \u00e0 un v\u00e9hicule \u00e0 moteur et \u00e0 ses remorques ou semi-remorques, un seul document justificatif peut \u00eatre d\u00e9livr\u00e9, \u00e0 la condition qu'il pr\u00e9cise le type des remorques ou semi-remorques qui peuvent \u00eatre utilis\u00e9es avec le v\u00e9hicule ainsi que, le cas \u00e9ch\u00e9ant, leur num\u00e9ro d'immatriculation. Pour les contrats d'assurance concernant les personnes mentionn\u00e9es \u00e0 l'article R. 211-3, le document justificatif doit \u00eatre d\u00e9livr\u00e9 par l'entreprise d'assurance en autant d'exemplaires qu'il est pr\u00e9vu par le contrat. Le document justificatif doit mentionner : a) la d\u00e9nomination et l'adresse de l'entreprise d'assurance ; b) les nom, pr\u00e9noms et adresse du souscripteur du contrat ; c) le num\u00e9ro de la police d'assurance ; d) la p\u00e9riode d'assurance correspondant \u00e0 la prime ou portion de prime pay\u00e9e ; e) les caract\u00e9ristiques du v\u00e9hicule, notamment son num\u00e9ro d'immatriculation ou, \u00e0 d\u00e9faut, et, s'il y a lieu, le num\u00e9ro du moteur. Par d\u00e9rogation aux dispositions ci-dessus, le document justificatif d\u00e9livr\u00e9 aux professionnels de la r\u00e9paration, de la vente ou du contr\u00f4le de l'automobile, ne comporte pas les indications pr\u00e9vues au e. Il mentionne par ailleurs la profession du souscripteur et, en termes apparents, le mot : \" Garage \". Tout conducteur d'un v\u00e9hicule qui pr\u00e9sente aux autorit\u00e9s charg\u00e9es du contr\u00f4le le document justificatif comportant les mentions pr\u00e9cis\u00e9es \u00e0 l'alin\u00e9a pr\u00e9c\u00e9dent doit en outre \u00eatre en mesure de justifier que la conduite du v\u00e9hicule lui a \u00e9t\u00e9 confi\u00e9e par une des personnes mentionn\u00e9es au premier alin\u00e9a de l'article R. 211-3.",
+            "texteHtml": "<p></p>Pour l'application de l'article R. 211-14, l'entreprise d'assurance doit d\u00e9livrer, sans frais, un document justificatif pour chacun des v\u00e9hicules couverts par la police. <p></p><p></p>Si la garantie du contrat s'applique \u00e0 la fois \u00e0 un v\u00e9hicule \u00e0 moteur et \u00e0 ses remorques ou semi-remorques, un seul document justificatif peut \u00eatre d\u00e9livr\u00e9, \u00e0 la condition qu'il pr\u00e9cise le type des remorques ou semi-remorques qui peuvent \u00eatre utilis\u00e9es avec le v\u00e9hicule ainsi que, le cas \u00e9ch\u00e9ant, leur num\u00e9ro d'immatriculation. <p></p><p></p>Pour les contrats d'assurance concernant les personnes mentionn\u00e9es \u00e0 <a href='/article/LEGIARTI000006812109' title='Code des assurances - art. R211-3 (V)'>l'article R. 211-3,</a> le document justificatif doit \u00eatre d\u00e9livr\u00e9 par l'entreprise d'assurance en autant d'exemplaires qu'il est pr\u00e9vu par le contrat. <p></p><p></p>Le document justificatif doit mentionner : <p></p><p></p>a) la d\u00e9nomination et l'adresse de l'entreprise d'assurance ; <p></p><p></p>b) les nom, pr\u00e9noms et adresse du souscripteur du contrat ; <p></p><p></p>c) le num\u00e9ro de la police d'assurance ; <p></p><p></p>d) la p\u00e9riode d'assurance correspondant \u00e0 la prime ou portion de prime pay\u00e9e ; <p></p><p></p>e) les caract\u00e9ristiques du v\u00e9hicule, notamment son num\u00e9ro d'immatriculation ou, \u00e0 d\u00e9faut, et, s'il y a lieu, le num\u00e9ro du moteur. <p></p><p></p>Par d\u00e9rogation aux dispositions ci-dessus, le document justificatif d\u00e9livr\u00e9 aux professionnels de la r\u00e9paration, de la vente ou du contr\u00f4le de l'automobile, ne comporte pas les indications pr\u00e9vues au e. Il mentionne par ailleurs la profession du souscripteur et, en termes apparents, le mot : \" Garage \". <p></p><p></p>Tout conducteur d'un v\u00e9hicule qui pr\u00e9sente aux autorit\u00e9s charg\u00e9es du contr\u00f4le le document justificatif comportant les mentions pr\u00e9cis\u00e9es \u00e0 l'alin\u00e9a pr\u00e9c\u00e9dent doit en outre \u00eatre en mesure de justifier que la conduite du v\u00e9hicule lui a \u00e9t\u00e9 confi\u00e9e par une des personnes mentionn\u00e9es au premier alin\u00e9a de l'article R. 211-3.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2007-07-21T00:00:00.000Z",
+            "dateFin": "2015-07-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107986",
+                        "id": "LEGISCTA000006107986",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Assurances obligatoires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128518",
+                        "id": "LEGISCTA000006128518",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : L'assurance des v\u00e9hicules terrestres \u00e0 moteur et de leurs remorques et semi-remorques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143130",
+                        "id": "LEGISCTA000006143130",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : L'obligation de s'assurer.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006158281",
+                        "id": "LEGISCTA000006158281",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1976-07-21",
+                        "fin": "2999-01-01",
+                        "titre": "Section IV : Contr\u00f4le de l'obligation d'assurance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006175432",
+                        "id": "LEGISCTA000006175432",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1985-08-23",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : L'attestation d'assurance.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006187940",
+                        "id": "LEGISCTA000006187940",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "1976-07-11",
+                        "fin": "2999-01-01",
+                        "titre": "Code des assurances",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006073984",
+                        "id": "LEGITEXT000006073984",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006812157",
+            "lienAutres": [
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-14 (M)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "cible",
+                    "articleNum": "R211-14",
+                    "articleId": "LEGIARTI000006812145",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000030005769",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1725 du 30 d\u00e9cembre 2014 - art. 4, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "JORFARTI000030005798",
+                    "natureText": "DECRET",
+                    "date": 1599104699547,
+                    "parentCid": null,
+                    "numTexte": "2014-1725",
+                    "datePubli": 1419984000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000030005769",
+                    "textTitle": "D\u00c9CRET n\u00b02014-1725 du 30 d\u00e9cembre 2014 - art. R3120-4, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3120-4",
+                    "articleId": "JORFARTI000030005922",
+                    "natureText": "DECRET",
+                    "date": 1599104699547,
+                    "parentCid": null,
+                    "numTexte": "2014-1725",
+                    "datePubli": 1419984000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. A211-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A211-4",
+                    "articleId": "LEGIARTI000006786773",
+                    "natureText": "CODE",
+                    "date": 1599104699547,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1184976000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. A211-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "A211-6",
+                    "articleId": "LEGIARTI000006786789",
+                    "natureText": "CODE",
+                    "date": 1599104699547,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 527904000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*211-19 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*211-19",
+                    "articleId": "LEGIARTI000006812163",
+                    "natureText": "CODE",
+                    "date": 1599104699548,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 493603200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*211-3 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "R*211-3",
+                    "articleId": "LEGIARTI000006812109",
+                    "natureText": "CODE",
+                    "date": 1599104699548,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 206755200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*420-12 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*420-12",
+                    "articleId": "LEGIARTI000006820559",
+                    "natureText": "CODE",
+                    "date": 1599104699548,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 206755200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R*420-5 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R*420-5",
+                    "articleId": "LEGIARTI000006820543",
+                    "natureText": "CODE",
+                    "date": 1599104699548,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 511315200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-14 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R211-14",
+                    "articleId": "LEGIARTI000006812150",
+                    "natureText": "CODE",
+                    "date": 1599104699548,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1184976000000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R211-17 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R211-17",
+                    "articleId": "LEGIARTI000006812155",
+                    "natureText": "CODE",
+                    "date": 1599104699548,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 604195200000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R214-2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R214-2",
+                    "articleId": "LEGIARTI000006812263",
+                    "natureText": "CODE",
+                    "date": 1599104699548,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 994982400000
+                },
+                {
+                    "textCid": "LEGITEXT000006073984",
+                    "textTitle": "Code des assurances - art. R421-5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R421-5",
+                    "articleId": "LEGIARTI000036769002",
+                    "natureText": "CODE",
+                    "date": 1599104699548,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1522540800000
+                },
+                {
+                    "textCid": "LEGITEXT000023086525",
+                    "textTitle": "Code des transports - art. R3120-4 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R3120-4",
+                    "articleId": "LEGIARTI000030048399",
+                    "natureText": "CODE",
+                    "date": 1599104699548,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1435708800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 59-135 1959-01-07 art. 17",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 59-135 1959-01-07 art. 17",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000507291",
+                    "textTitle": "D\u00e9cret 76-667 1976-07-16",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000507291",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1976-07-21",
+                    "dateSignaTexte": "1976-07-16",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000871774",
+                    "textTitle": "D\u00e9cret n\u00b085-879 du 22 ao\u00fbt 1985 - art. 1 () JORF 23 ao\u00fbt 1985",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000006843486",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1985-08-23",
+                    "dateSignaTexte": "1985-08-22",
+                    "dateDebutCible": "1985-08-23"
+                }
+            ],
+            "num": "R211-15",
+            "origine": "LEGI",
+            "texte": "Pour l'application de l'article R. 211-14, l'entreprise d'assurance doit d\u00e9livrer, sans frais, un document justificatif pour chacun des v\u00e9hicules couverts par la police. Si la garantie du contrat s'applique \u00e0 la fois \u00e0 un v\u00e9hicule \u00e0 moteur et \u00e0 ses remorques ou semi-remorques, un seul document justificatif peut \u00eatre d\u00e9livr\u00e9, \u00e0 la condition qu'il pr\u00e9cise le type des remorques ou semi-remorques qui peuvent \u00eatre utilis\u00e9es avec le v\u00e9hicule ainsi que, le cas \u00e9ch\u00e9ant, leur num\u00e9ro d'immatriculation. Pour les contrats d'assurance concernant les personnes mentionn\u00e9es \u00e0 l'article R. 211-3, le document justificatif doit \u00eatre d\u00e9livr\u00e9 par l'entreprise d'assurance en autant d'exemplaires qu'il est pr\u00e9vu par le contrat. Le document justificatif doit mentionner : - la d\u00e9nomination et l'adresse de l'entreprise d'assurance ; - les nom, pr\u00e9noms et adresse du souscripteur du contrat ; - le num\u00e9ro de la police d'assurance ; - la p\u00e9riode d'assurance correspondant \u00e0 la prime ou portion de prime pay\u00e9e. En outre, il doit pr\u00e9ciser : - dans le cas pr\u00e9vu au premier alin\u00e9a du pr\u00e9sent article, les caract\u00e9ristiques du v\u00e9hicule, notamment son num\u00e9ro d'immatriculation ou, \u00e0 d\u00e9faut et s'il y a lieu, le num\u00e9ro du moteur ; - dans le cas pr\u00e9vu au troisi\u00e8me alin\u00e9a du pr\u00e9sent article, la profession du souscripteur.",
+            "texteHtml": "<p></p>   Pour l'application de l'article R. 211-14, l'entreprise d'assurance doit d\u00e9livrer, sans frais, un document justificatif pour chacun des v\u00e9hicules couverts par la police.<p></p><p></p>   Si la garantie du contrat s'applique \u00e0 la fois \u00e0 un v\u00e9hicule \u00e0 moteur et \u00e0 ses remorques ou semi-remorques, un seul document justificatif peut \u00eatre d\u00e9livr\u00e9, \u00e0 la condition qu'il pr\u00e9cise le type des remorques ou semi-remorques qui peuvent \u00eatre utilis\u00e9es avec le v\u00e9hicule ainsi que, le cas \u00e9ch\u00e9ant, leur num\u00e9ro d'immatriculation.<p></p><p></p>   Pour les contrats d'assurance concernant les personnes mentionn\u00e9es \u00e0 l'article R. 211-3, le document justificatif doit \u00eatre d\u00e9livr\u00e9 par l'entreprise d'assurance en autant d'exemplaires qu'il est pr\u00e9vu par le contrat.<p></p><p></p>   Le document justificatif doit mentionner :<p></p><p></p>   - la d\u00e9nomination et l'adresse de l'entreprise d'assurance ;<p></p><p></p>   - les nom, pr\u00e9noms et adresse du souscripteur du contrat ;<p></p><p></p>   - le num\u00e9ro de la police d'assurance ;<p></p><p></p>   - la p\u00e9riode d'assurance correspondant \u00e0 la prime ou portion de prime pay\u00e9e.<p></p><p></p>   En outre, il doit pr\u00e9ciser :<p></p><p></p>   - dans le cas pr\u00e9vu au premier alin\u00e9a du pr\u00e9sent article, les caract\u00e9ristiques du v\u00e9hicule, notamment son num\u00e9ro d'immatriculation ou, \u00e0 d\u00e9faut et s'il y a lieu, le num\u00e9ro du moteur ;<p></p><p></p>   - dans le cas pr\u00e9vu au troisi\u00e8me alin\u00e9a du pr\u00e9sent article, la profession du souscripteur.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "1985-08-23T00:00:00.000Z",
+            "dateFin": "2007-07-21T00:00:00.000Z"
+        }
+    ]
+}

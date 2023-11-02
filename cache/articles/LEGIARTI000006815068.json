@@ -1,0 +1,490 @@
+{
+    "cid": "LEGIARTI000006815068",
+    "num": "L211-7",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1973-03-27",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107992",
+                        "id": "LEGISCTA000006107992",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Pr\u00e9emption et r\u00e9serves fonci\u00e8res",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128557",
+                        "id": "LEGISCTA000006128557",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1985-07-19",
+                        "fin": "2999-01-01",
+                        "titre": " Titre Ier : Droits de pr\u00e9emption",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143285",
+                        "id": "LEGISCTA000006143285",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1986-07-19",
+                        "fin": "2999-01-01",
+                        "titre": " Chapitre Ier : Droit de pr\u00e9emption urbain",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006158679",
+                        "id": "LEGISCTA000006158679",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1973-01-03",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074075",
+                        "id": "LEGITEXT000006074075",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000006815070",
+            "lienAutres": [
+                {
+                    "textCid": "JORFTEXT000000517578",
+                    "textTitle": "D\u00e9cret n\u00b087-284 du 22 avril 1987 - art. 5 (V)",
+                    "linkType": "SPEC_APPLI",
+                    "linkOrientation": "source",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000006821645",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000874467",
+                    "textTitle": "Loi n\u00b085-729 du 18 juillet 1985 - art. 9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000006820794",
+                    "natureText": "LOI",
+                    "date": 1599104485216,
+                    "parentCid": null,
+                    "numTexte": "85-729",
+                    "datePubli": 490579200000,
+                    "dateDebut": 618537600000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "CODE GENERAL DES IMPOTS, CGI. - art. 696 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "696",
+                    "articleId": "LEGIARTI000006310242",
+                    "natureText": "CODE",
+                    "date": 1599104485216,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 490579200000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 1594-0 G (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1594-0 G",
+                    "articleId": "LEGIARTI000031219381",
+                    "natureText": "CODE",
+                    "date": 1599104485216,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000684041",
+                    "textTitle": "Loi n\u00b062-848 du 26 juillet 1962 - art. 14, v. init.",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "14",
+                    "articleId": "JORFARTI000001491180",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 73-1022 1973-11-08 JORF 13 novembre 1973",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                },
+                {
+                    "textCid": "JORFTEXT000000874467",
+                    "textTitle": "Loi 85-729 1985-07-18 art. 6 I, V, art. 26 X JORF 19 juillet 1985 en vigueur le 1er juin 1987",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000874467",
+                    "natureText": "LOI",
+                    "datePubliTexte": "1985-07-19",
+                    "dateSignaTexte": "1985-07-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000874467",
+                    "textTitle": "Loi n\u00b085-729 du 18 juillet 1985 - art. 26 (V) JORF 19 juillet 1985 en vigueur le 1er juin 1987",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "26",
+                    "articleId": "LEGIARTI000006820815",
+                    "natureText": "LOI",
+                    "datePubliTexte": "1985-07-19",
+                    "dateSignaTexte": "1985-07-18",
+                    "dateDebutCible": "1985-07-19"
+                },
+                {
+                    "textCid": "JORFTEXT000000874467",
+                    "textTitle": "Loi n\u00b085-729 du 18 juillet 1985 - art. 6 () JORF 19 juillet 1985 en vigueur le 1er juin 1987",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "6",
+                    "articleId": "LEGIARTI000006820788",
+                    "natureText": "LOI",
+                    "datePubliTexte": "1985-07-19",
+                    "dateSignaTexte": "1985-07-18",
+                    "dateDebutCible": "1985-07-19"
+                }
+            ],
+            "num": "L211-7",
+            "origine": "LEGI",
+            "texte": "Un d\u00e9cret en Conseil d'Etat d\u00e9termine, en tant que de besoin, les conditions d'application du pr\u00e9sent chapitre.",
+            "texteHtml": "<p></p>   Un d\u00e9cret en Conseil d'Etat d\u00e9termine, en tant que de besoin, les conditions d'application du pr\u00e9sent chapitre.<p></p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "1987-06-01T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1973-03-27",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107992",
+                        "id": "LEGISCTA000006107992",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "1987-06-01",
+                        "titre": "Droit de pr\u00e9emption",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128558",
+                        "id": "LEGISCTA000006128558",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1976-04-01",
+                        "fin": "1987-06-01",
+                        "titre": "Zones d'intervention fonci\u00e8re.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143290",
+                        "id": "LEGISCTA000006143290",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 41,
+                "titreTxt": [
+                    {
+                        "debut": "1973-01-03",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074075",
+                        "id": "LEGITEXT000006074075",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006815069",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000874467",
+                    "textTitle": "Loi n\u00b085-729 du 18 juillet 1985 - art. 9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000006820794",
+                    "natureText": "LOI",
+                    "date": 1599104484614,
+                    "parentCid": null,
+                    "numTexte": "85-729",
+                    "datePubli": 490579200000,
+                    "dateDebut": 618537600000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "CODE GENERAL DES IMPOTS, CGI. - art. 696 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "696",
+                    "articleId": "LEGIARTI000006310242",
+                    "natureText": "CODE",
+                    "date": 1599104484614,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 490579200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme L321-1 AL. 1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE",
+                    "date": 1599104484615,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 94867200000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 1594-0 G (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1594-0 G",
+                    "articleId": "LEGIARTI000031219381",
+                    "natureText": "CODE",
+                    "date": 1599104484615,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000684041",
+                    "textTitle": "Loi n\u00b062-848 du 26 juillet 1962 - art. 14, v. init.",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "14",
+                    "articleId": "JORFARTI000001491180",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000699207",
+                    "textTitle": "Loi 75-1328 1975-12-31 art. 25 JORF 3 janvier 1976 en vigueur le 1er avril 1976",
+                    "linkType": "CREATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000699207",
+                    "natureText": "LOI",
+                    "datePubliTexte": "1976-01-03",
+                    "dateSignaTexte": "1975-12-31",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 73-1022 1973-11-08 JORF 13 NOVEMBRE 1973",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "num": "L211-7",
+            "origine": "LEGI",
+            "texte": "Le droit de pr\u00e9emption est ouvert de plein droit \u00e0 la commune, ou, s'il en existe un, \u00e0 l'\u00e9tablissement public groupant plusieurs communes et ayant comp\u00e9tence en mati\u00e8re d'urbanisme . La commune ou l'\u00e9tablissement public int\u00e9ress\u00e9 peut d\u00e9l\u00e9guer ce droit \u00e0 l'occasion de l'ali\u00e9nation d'un immeuble ou pour une partie de la zone d'intervention fonci\u00e8re, soit \u00e0 un office public d'habitations \u00e0 loyer mod\u00e9r\u00e9 ou \u00e0 un office d'am\u00e9nagement et de construction, soit \u00e0 un \u00e9tablissement public vis\u00e9 \u00e0 l'article L. 321-1 1er alin\u00e9a, soit \u00e0 une soci\u00e9t\u00e9 d'\u00e9conomie mixte dans laquelle la majorit\u00e9 du capital est d\u00e9tenue par l'Etat, des collectivit\u00e9s locales ou des \u00e9tablissements publics, lorsque cet \u00e9tablissement ou cette soci\u00e9t\u00e9 figure sur une liste fix\u00e9e par d\u00e9cret en Conseil d'Etat.",
+            "texteHtml": "<p>   Le droit de pr\u00e9emption est ouvert de plein droit \u00e0 la commune, ou, s'il en existe un, \u00e0 l'\u00e9tablissement public groupant plusieurs communes et ayant comp\u00e9tence en mati\u00e8re d'urbanisme .</p><p></p><p>   La commune ou l'\u00e9tablissement public int\u00e9ress\u00e9 peut d\u00e9l\u00e9guer ce droit \u00e0 l'occasion de l'ali\u00e9nation d'un immeuble ou pour une partie de la zone d'intervention fonci\u00e8re, soit \u00e0 un office public d'habitations \u00e0 loyer mod\u00e9r\u00e9 ou \u00e0 un office d'am\u00e9nagement et de construction, soit \u00e0 un \u00e9tablissement public vis\u00e9 \u00e0 l'article L. 321-1 1er alin\u00e9a, soit \u00e0 une soci\u00e9t\u00e9 d'\u00e9conomie mixte dans laquelle la majorit\u00e9 du capital est d\u00e9tenue par l'Etat, des collectivit\u00e9s locales ou des \u00e9tablissements publics, lorsque cet \u00e9tablissement ou cette soci\u00e9t\u00e9 figure sur une liste fix\u00e9e par d\u00e9cret en Conseil d'Etat.</p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "1977-01-01T00:00:00.000Z",
+            "dateFin": "1987-06-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1973-03-27",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107992",
+                        "id": "LEGISCTA000006107992",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "1987-06-01",
+                        "titre": "Droit de pr\u00e9emption",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128558",
+                        "id": "LEGISCTA000006128558",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1973-11-13",
+                        "fin": "1976-04-01",
+                        "titre": "Zones \u00e0 urbaniser en priorit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143289",
+                        "id": "LEGISCTA000006143289",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 41,
+                "titreTxt": [
+                    {
+                        "debut": "1973-01-03",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'urbanisme",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074075",
+                        "id": "LEGITEXT000006074075",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006815068",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000874467",
+                    "textTitle": "Loi n\u00b085-729 du 18 juillet 1985 - art. 9 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000006820794",
+                    "natureText": "LOI",
+                    "date": 1599104486578,
+                    "parentCid": null,
+                    "numTexte": "85-729",
+                    "datePubli": 490579200000,
+                    "dateDebut": 618537600000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "CODE GENERAL DES IMPOTS, CGI. - art. 696 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "696",
+                    "articleId": "LEGIARTI000006310242",
+                    "natureText": "CODE",
+                    "date": 1599104486578,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 490579200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme - art. L321-1 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L321-1",
+                    "articleId": "LEGIARTI000006815543",
+                    "natureText": "CODE",
+                    "date": 1599104486578,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1238198400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074075",
+                    "textTitle": "Code de l'urbanisme R321-1",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000006074075",
+                    "natureText": "CODE",
+                    "date": 1599104486578,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 94867200000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 1594-0 G (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1594-0 G",
+                    "articleId": "LEGIARTI000031219381",
+                    "natureText": "CODE",
+                    "date": 1599104486578,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1451606400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000684041",
+                    "textTitle": "Loi n\u00b062-848 du 26 juillet 1962 - art. 14, v. init.",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "14",
+                    "articleId": "JORFARTI000001491180",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 73-1022 1973-11-08 JORF 13 NOVEMBRE 1973",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "num": "L211-7",
+            "origine": "LEGI",
+            "texte": "Chaque ann\u00e9e, le Gouvernement d\u00e9posera, en annexe au projet de loi de finances, un \u00e9tat des cessions de terrains consenties, dans les zones \u00e0 urbaniser en priorit\u00e9 au cours de l'ann\u00e9e civile  \u00e9coul\u00e9e, par les collectivit\u00e9s publiques, les \u00e9tablissements publics  ou les soci\u00e9t\u00e9s d'\u00e9conomie mixte  pr\u00e9vus aux articles L. 321-1 et R. 321-1. Cet \u00e9tat fera appara\u00eetre  la destination donn\u00e9e \u00e0 ces terrains et les superficies c\u00e9d\u00e9es aux diff\u00e9rents organismes constructeurs publics ou priv\u00e9s. Il fera \u00e9galement conna\u00eetre dans la m\u00eame forme les pr\u00e9visions du Gouvernement pour l'ann\u00e9e suivante, notamment en ce qui concerne la r\u00e9partition globale des terrains am\u00e9nag\u00e9s entre les diff\u00e9rentes cat\u00e9gories de constructeurs priv\u00e9s et publics, en proportion des possibilit\u00e9s de financement ouvertes \u00e0 chacun d'eux par la loi de finances.",
+            "texteHtml": "<p>        Chaque ann\u00e9e, le Gouvernement d\u00e9posera, en annexe au projet de loi de finances, un \u00e9tat des cessions de terrains consenties, dans les zones \u00e0 urbaniser en priorit\u00e9 au cours de l'ann\u00e9e civile  \u00e9coul\u00e9e, par les collectivit\u00e9s publiques, les \u00e9tablissements publics  ou les soci\u00e9t\u00e9s d'\u00e9conomie mixte  pr\u00e9vus aux articles L. 321-1 et R. 321-1.</p><p></p><p>        Cet \u00e9tat fera appara\u00eetre  la destination donn\u00e9e \u00e0 ces terrains et les superficies c\u00e9d\u00e9es aux diff\u00e9rents organismes constructeurs publics ou priv\u00e9s. Il fera \u00e9galement conna\u00eetre dans la m\u00eame forme les pr\u00e9visions du Gouvernement pour l'ann\u00e9e suivante, notamment en ce qui concerne la r\u00e9partition globale des terrains am\u00e9nag\u00e9s entre les diff\u00e9rentes cat\u00e9gories de constructeurs priv\u00e9s et publics, en proportion des possibilit\u00e9s de financement ouvertes \u00e0 chacun d'eux par la loi de finances.</p><p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "1973-11-13T00:00:00.000Z",
+            "dateFin": "1976-04-01T00:00:00.000Z"
+        }
+    ]
+}

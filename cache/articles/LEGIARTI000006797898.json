@@ -1,0 +1,790 @@
+{
+    "cid": "LEGIARTI000006797898",
+    "num": "L422-4",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107980",
+                        "id": "LEGISCTA000006107980",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2009-01-01",
+                        "titre": "Livre IV : Professions et activit\u00e9s d'accueil",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128461",
+                        "id": "LEGISCTA000006128461",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2009-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre IV : Professions et activit\u00e9s sociales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128461",
+                        "id": "LEGISCTA000019801447",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-28",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Assistants maternels et assistants familiaux",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142855",
+                        "id": "LEGISCTA000006142855",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-28",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Assistants maternels et assistants familiaux employ\u00e9s par des personnes morales de droit public.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006157694",
+                        "id": "LEGISCTA000006157694",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'action sociale et des familles",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074069",
+                        "id": "LEGITEXT000006074069",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "ABROGE_DIFF",
+            "id": "LEGIARTI000006797901",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000162539",
+                    "textTitle": "D\u00e9cret n\u00b092-1245 du 27 novembre 1992 - art. 3 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006665993",
+                    "natureText": "DECRET",
+                    "date": 1655237205385,
+                    "parentCid": null,
+                    "numTexte": "92-1245",
+                    "datePubli": 722995200000,
+                    "dateDebut": 977529600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. D422-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D422-6",
+                    "articleId": "LEGIARTI000006907599",
+                    "natureText": "CODE",
+                    "date": 1655237205385,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1167609600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L423-20",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L423-20",
+                    "articleId": "LEGIARTI000006798048",
+                    "natureText": "CODE",
+                    "date": 1655237205385,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L544-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L544-2",
+                    "articleId": "LEGIARTI000044405053",
+                    "natureText": "CODE",
+                    "date": 1655237205386,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1703980800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 123-8 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "123-8",
+                    "articleId": "LEGIARTI000006681268",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 123-8 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "123-8",
+                    "articleId": "LEGIARTI000006681269",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000402347",
+                    "textTitle": "Ordonnance 2000-1249 2000-12-21",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000402347",
+                    "natureText": "RAPPORT",
+                    "datePubliTexte": "2000-12-23",
+                    "dateSignaTexte": "2999-01-01",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000215460",
+                    "textTitle": "Loi 2002-2 2002-01-02 art. 87 JORF 3 janvier 2002",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000215460",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2002-01-03",
+                    "dateSignaTexte": "2002-01-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000430707",
+                    "textTitle": "Loi n\u00b02007-308 du 5 mars 2007 - art. 14 () JORF 7 mars 2007 en vigueur le 1er janvier 2009",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "14",
+                    "articleId": "LEGIARTI000006284905",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2007-03-07",
+                    "dateSignaTexte": "2007-03-05",
+                    "dateDebutCible": "2007-03-08"
+                },
+                {
+                    "textCid": "JORFTEXT000045133771",
+                    "textTitle": "LOI n\u00b02022-140 du 7 f\u00e9vrier 2022 - art. 28 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "28",
+                    "articleId": "LEGIARTI000045134354",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2022-02-08",
+                    "dateSignaTexte": "2022-02-07",
+                    "dateDebutCible": "2022-02-09"
+                }
+            ],
+            "num": "L422-4",
+            "origine": "LEGI",
+            "texte": "Afin de pouvoir assurer sans d\u00e9lai des accueils urgents et de courte dur\u00e9e, les services concern\u00e9s peuvent sp\u00e9cialiser dans cette forme d'accueil certains des assistants familiaux qu'ils emploient. Ces personnes s'engagent \u00e0 recevoir imm\u00e9diatement les enfants pr\u00e9sent\u00e9s par le service dans la limite d'un nombre maximum convenu avec lui. En contrepartie, elles per\u00e7oivent, durant les p\u00e9riodes o\u00f9 aucun enfant ne leur est confi\u00e9, une indemnit\u00e9 de disponibilit\u00e9 dont le montant minimum, sup\u00e9rieur \u00e0 celui de l'indemnit\u00e9 pr\u00e9vue par l'article L. 423-20 , est fix\u00e9 par d\u00e9cret en r\u00e9f\u00e9rence au salaire minimum interprofessionnel de croissance.",
+            "texteHtml": "<p></p>Afin de pouvoir assurer sans d\u00e9lai des accueils urgents et de courte dur\u00e9e, les services concern\u00e9s peuvent sp\u00e9cialiser dans cette forme d'accueil certains des assistants familiaux qu'ils emploient. <p></p><p></p>Ces personnes s'engagent \u00e0 recevoir imm\u00e9diatement les enfants pr\u00e9sent\u00e9s par le service dans la limite d'un nombre maximum convenu avec lui. <p></p><p></p>En contrepartie, elles per\u00e7oivent, durant les p\u00e9riodes o\u00f9 aucun enfant ne leur est confi\u00e9, une indemnit\u00e9 de disponibilit\u00e9 dont le montant minimum, sup\u00e9rieur \u00e0 celui de l'indemnit\u00e9 pr\u00e9vue par <a href='/article/LEGIARTI000006798048'>l'article L. 423-20</a>, est fix\u00e9 par d\u00e9cret en r\u00e9f\u00e9rence au salaire minimum interprofessionnel de croissance.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2009-01-01T00:00:00.000Z",
+            "dateFin": "2022-09-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107980",
+                        "id": "LEGISCTA000006107980",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2009-01-01",
+                        "titre": "Livre IV : Professions et activit\u00e9s d'accueil",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128461",
+                        "id": "LEGISCTA000006128461",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2009-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre IV : Professions et activit\u00e9s sociales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128461",
+                        "id": "LEGISCTA000019801447",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-28",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Assistants maternels et assistants familiaux",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142855",
+                        "id": "LEGISCTA000006142855",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-28",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Assistants maternels et assistants familiaux employ\u00e9s par des personnes morales de droit public.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006157694",
+                        "id": "LEGISCTA000006157694",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'action sociale et des familles",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074069",
+                        "id": "LEGITEXT000006074069",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006797900",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000162539",
+                    "textTitle": "D\u00e9cret n\u00b092-1245 du 27 novembre 1992 - art. 3 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006665993",
+                    "natureText": "DECRET",
+                    "date": 1655237205396,
+                    "parentCid": null,
+                    "numTexte": "92-1245",
+                    "datePubli": 722995200000,
+                    "dateDebut": 977529600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. D422-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D422-6",
+                    "articleId": "LEGIARTI000006907599",
+                    "natureText": "CODE",
+                    "date": 1655237205397,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1167609600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L423-20 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L423-20",
+                    "articleId": "LEGIARTI000006798048",
+                    "natureText": "CODE",
+                    "date": 1655237205397,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1209600000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L544-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L544-2",
+                    "articleId": "LEGIARTI000044405053",
+                    "natureText": "CODE",
+                    "date": 1655237205397,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1703980800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 123-8 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "123-8",
+                    "articleId": "LEGIARTI000006681268",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 123-8 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "123-8",
+                    "articleId": "LEGIARTI000006681269",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000402347",
+                    "textTitle": "Ordonnance 2000-1249 2000-12-21",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000402347",
+                    "natureText": "RAPPORT",
+                    "datePubliTexte": "2000-12-23",
+                    "dateSignaTexte": "2999-01-01",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000215460",
+                    "textTitle": "Loi 2002-2 2002-01-02 art. 87 JORF 3 janvier 2002",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000215460",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2002-01-03",
+                    "dateSignaTexte": "2002-01-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000465978",
+                    "textTitle": "Ordonnance 2007-329 2007-03-12 art. 5 5\u00b0 JORF 13 mars 2007 en vigueur au plus tard le 1er mars 2008",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000465978",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2007-03-13",
+                    "dateSignaTexte": "2007-03-12",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "num": "L422-4",
+            "origine": "LEGI",
+            "texte": "Afin de pouvoir assurer sans d\u00e9lai des accueils urgents et de courte dur\u00e9e, les services concern\u00e9s peuvent sp\u00e9cialiser dans cette forme d'accueil certains des assistants familiaux qu'ils emploient. Ces personnes s'engagent \u00e0 recevoir imm\u00e9diatement les enfants pr\u00e9sent\u00e9s par le service dans la limite d'un nombre maximum convenu avec lui. En contrepartie, elles per\u00e7oivent, durant les p\u00e9riodes o\u00f9 aucun enfant ne leur est confi\u00e9, une indemnit\u00e9 de disponibilit\u00e9 dont le montant minimum, sup\u00e9rieur \u00e0 celui de l'indemnit\u00e9 pr\u00e9vue par l'article L. 423-20, est fix\u00e9 par d\u00e9cret en r\u00e9f\u00e9rence au salaire minimum interprofessionnel de croissance.",
+            "texteHtml": "<p></p>   Afin de pouvoir assurer sans d\u00e9lai des accueils urgents et de courte dur\u00e9e, les services concern\u00e9s peuvent sp\u00e9cialiser dans cette forme d'accueil certains des assistants familiaux qu'ils emploient.<p></p><p></p>   Ces personnes s'engagent \u00e0 recevoir imm\u00e9diatement les enfants pr\u00e9sent\u00e9s par le service dans la limite d'un nombre maximum convenu avec lui.<p></p><p></p>   En contrepartie, elles per\u00e7oivent, durant les p\u00e9riodes o\u00f9 aucun enfant ne leur est confi\u00e9, une indemnit\u00e9 de disponibilit\u00e9 dont le montant minimum, sup\u00e9rieur \u00e0 celui de l'indemnit\u00e9 pr\u00e9vue par l'article L. 423-20, est fix\u00e9 par d\u00e9cret en r\u00e9f\u00e9rence au salaire minimum interprofessionnel de croissance.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2008-03-01T00:00:00.000Z",
+            "dateFin": "2009-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107980",
+                        "id": "LEGISCTA000006107980",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2009-01-01",
+                        "titre": "Livre IV : Professions et activit\u00e9s d'accueil",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128461",
+                        "id": "LEGISCTA000006128461",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2009-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre IV : Professions et activit\u00e9s sociales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128461",
+                        "id": "LEGISCTA000019801447",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-28",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Assistants maternels et assistants familiaux",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142855",
+                        "id": "LEGISCTA000006142855",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-28",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Assistants maternels et assistants familiaux employ\u00e9s par des personnes morales de droit public.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006157694",
+                        "id": "LEGISCTA000006157694",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'action sociale et des familles",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074069",
+                        "id": "LEGITEXT000006074069",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006797899",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000162539",
+                    "textTitle": "D\u00e9cret n\u00b092-1245 du 27 novembre 1992 - art. 3 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006665993",
+                    "natureText": "DECRET",
+                    "date": 1655237204735,
+                    "parentCid": null,
+                    "numTexte": "92-1245",
+                    "datePubli": 722995200000,
+                    "dateDebut": 977529600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L773-9 (T)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L773-9",
+                    "articleId": "LEGIARTI000006650743",
+                    "natureText": "CODE",
+                    "date": 1655237204736,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 232761600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. D422-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D422-6",
+                    "articleId": "LEGIARTI000006907599",
+                    "natureText": "CODE",
+                    "date": 1655237204736,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1167609600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L544-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L544-2",
+                    "articleId": "LEGIARTI000044405053",
+                    "natureText": "CODE",
+                    "date": 1655237204736,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1703980800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 123-8 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "123-8",
+                    "articleId": "LEGIARTI000006681268",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 123-8 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "123-8",
+                    "articleId": "LEGIARTI000006681269",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000402347",
+                    "textTitle": "Ordonnance 2000-1249 2000-12-21",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000402347",
+                    "natureText": "RAPPORT",
+                    "datePubliTexte": "2000-12-23",
+                    "dateSignaTexte": "2999-01-01",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000215460",
+                    "textTitle": "Loi 2002-2 2002-01-02 art. 87 JORF 3 janvier 2002",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000215460",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2002-01-03",
+                    "dateSignaTexte": "2002-01-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000812591",
+                    "textTitle": "Loi 2005-706 2005-06-27 art. 5 I, art. 11 IV, VIII JORF 28 juin 2005",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000812591",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2005-06-28",
+                    "dateSignaTexte": "2005-06-27",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000812591",
+                    "textTitle": "Loi n\u00b02005-706 du 27 juin 2005 - art. 11 () JORF 28 juin 2005",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "11",
+                    "articleId": "LEGIARTI000006682352",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2005-06-28",
+                    "dateSignaTexte": "2005-06-27",
+                    "dateDebutCible": "2005-06-28"
+                },
+                {
+                    "textCid": "JORFTEXT000000812591",
+                    "textTitle": "Loi n\u00b02005-706 du 27 juin 2005 - art. 5 () JORF 28 juin 2005",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000006682346",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2005-06-28",
+                    "dateSignaTexte": "2005-06-27",
+                    "dateDebutCible": "2005-06-28"
+                }
+            ],
+            "num": "L422-4",
+            "origine": "LEGI",
+            "texte": "Afin de pouvoir assurer sans d\u00e9lai des accueils urgents et de courte dur\u00e9e, les services concern\u00e9s peuvent sp\u00e9cialiser dans cette forme d'accueil certains des assistants familiaux qu'ils emploient. Ces personnes s'engagent \u00e0 recevoir imm\u00e9diatement les enfants pr\u00e9sent\u00e9s par le service dans la limite d'un nombre maximum convenu avec lui. En contrepartie, elles per\u00e7oivent, durant les p\u00e9riodes o\u00f9 aucun enfant ne leur est confi\u00e9, une indemnit\u00e9 de disponibilit\u00e9 dont le montant minimum, sup\u00e9rieur \u00e0 celui de l'indemnit\u00e9 pr\u00e9vue par l'article L. 773-9 du code du travail, est fix\u00e9 par d\u00e9cret en r\u00e9f\u00e9rence au salaire minimum interprofessionnel de croissance.",
+            "texteHtml": "<p></p>   Afin de pouvoir assurer sans d\u00e9lai des accueils urgents et de courte dur\u00e9e, les services concern\u00e9s peuvent sp\u00e9cialiser dans cette forme d'accueil certains des assistants familiaux qu'ils emploient.<p></p><p></p>   Ces personnes s'engagent \u00e0 recevoir imm\u00e9diatement les enfants pr\u00e9sent\u00e9s par le service dans la limite d'un nombre maximum convenu avec lui.<p></p><p></p>   En contrepartie, elles per\u00e7oivent, durant les p\u00e9riodes o\u00f9 aucun enfant ne leur est confi\u00e9, une indemnit\u00e9 de disponibilit\u00e9 dont le montant minimum, sup\u00e9rieur \u00e0 celui de l'indemnit\u00e9 pr\u00e9vue par l'article L. 773-9 du code du travail, est fix\u00e9 par d\u00e9cret en r\u00e9f\u00e9rence au salaire minimum interprofessionnel de croissance.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2005-06-28T00:00:00.000Z",
+            "dateFin": "2008-03-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006107980",
+                        "id": "LEGISCTA000006107980",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2009-01-01",
+                        "titre": "Livre IV : Professions et activit\u00e9s d'accueil",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128461",
+                        "id": "LEGISCTA000006128461",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2009-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Livre IV : Professions et activit\u00e9s sociales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006128461",
+                        "id": "LEGISCTA000019801447",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-28",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Assistants maternels et assistants familiaux",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006142855",
+                        "id": "LEGISCTA000006142855",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-06-28",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Assistants maternels et assistants familiaux employ\u00e9s par des personnes morales de droit public.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006157694",
+                        "id": "LEGISCTA000006157694",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'action sociale et des familles",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074069",
+                        "id": "LEGITEXT000006074069",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006797898",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000162539",
+                    "textTitle": "D\u00e9cret n\u00b092-1245 du 27 novembre 1992 - art. 3 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "3",
+                    "articleId": "LEGIARTI000006665993",
+                    "natureText": "DECRET",
+                    "date": 1655237204728,
+                    "parentCid": null,
+                    "numTexte": "92-1245",
+                    "datePubli": 722995200000,
+                    "dateDebut": 977529600000
+                },
+                {
+                    "textCid": "LEGITEXT000006072050",
+                    "textTitle": "Code du travail - art. L773-5 (M)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L773-5",
+                    "articleId": "LEGIARTI000006650730",
+                    "natureText": "CODE",
+                    "date": 1655237204728,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 232761600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. D422-6 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D422-6",
+                    "articleId": "LEGIARTI000006907599",
+                    "natureText": "CODE",
+                    "date": 1655237204728,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1167609600000
+                },
+                {
+                    "textCid": "LEGITEXT000006074069",
+                    "textTitle": "Code de l'action sociale et des familles - art. L544-2 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L544-2",
+                    "articleId": "LEGIARTI000044405053",
+                    "natureText": "CODE",
+                    "date": 1655237204728,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1703980800000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 123-8 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "123-8",
+                    "articleId": "LEGIARTI000006681268",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072637",
+                    "textTitle": "Code de la famille et de l'aide sociale. - art. 123-8 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "123-8",
+                    "articleId": "LEGIARTI000006681269",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000402347",
+                    "textTitle": "Ordonnance 2000-1249 2000-12-21",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000402347",
+                    "natureText": "RAPPORT",
+                    "datePubliTexte": "2000-12-23",
+                    "dateSignaTexte": "2999-01-01",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000215460",
+                    "textTitle": "Loi 2002-2 2002-01-02 art. 87 JORF 3 janvier 2002",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000215460",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2002-01-03",
+                    "dateSignaTexte": "2002-01-02",
+                    "dateDebutCible": "2999-01-01"
+                }
+            ],
+            "num": "L422-4",
+            "origine": "LEGI",
+            "texte": "Afin de pouvoir assurer sans d\u00e9lai des accueils urgents et de courte dur\u00e9e, les services concern\u00e9s peuvent sp\u00e9cialiser dans cette forme d'accueil certains des assistants maternels qu'ils emploient. Ces personnes s'engagent \u00e0 recevoir imm\u00e9diatement les enfants pr\u00e9sent\u00e9s par le service dans la limite d'un nombre maximum convenu avec lui. En contrepartie, elles per\u00e7oivent, durant les p\u00e9riodes o\u00f9 aucun enfant ne leur est confi\u00e9, une indemnit\u00e9 de disponibilit\u00e9 dont le montant minimum, sup\u00e9rieur \u00e0 celui de l'indemnit\u00e9 pr\u00e9vue par l'article L. 773-5 du code du travail, est fix\u00e9 par d\u00e9cret en r\u00e9f\u00e9rence au salaire minimum interprofessionnel de croissance.",
+            "texteHtml": "<p></p>   Afin de pouvoir assurer sans d\u00e9lai des accueils urgents et de courte dur\u00e9e, les services concern\u00e9s peuvent sp\u00e9cialiser dans cette forme d'accueil certains des assistants maternels qu'ils emploient.<p></p><p></p>   Ces personnes s'engagent \u00e0 recevoir imm\u00e9diatement les enfants pr\u00e9sent\u00e9s par le service dans la limite d'un nombre maximum convenu avec lui.<p></p><p></p>   En contrepartie, elles per\u00e7oivent, durant les p\u00e9riodes o\u00f9 aucun enfant ne leur est confi\u00e9, une indemnit\u00e9 de disponibilit\u00e9 dont le montant minimum, sup\u00e9rieur \u00e0 celui de l'indemnit\u00e9 pr\u00e9vue par l'article L. 773-5 du code du travail, est fix\u00e9 par d\u00e9cret en r\u00e9f\u00e9rence au salaire minimum interprofessionnel de croissance.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2000-12-23T00:00:00.000Z",
+            "dateFin": "2005-06-28T00:00:00.000Z"
+        }
+    ]
+}

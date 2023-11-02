@@ -1,0 +1,589 @@
+{
+    "cid": "LEGIARTI000006833455",
+    "num": "L229-17",
+    "listArticle": [
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Milieux physiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129023",
+                        "id": "LEGISCTA000006129023",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Air et atmosph\u00e8re",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143738",
+                        "id": "LEGISCTA000006143738",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2003-07-03",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre IX : Effet de serre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159236",
+                        "id": "LEGISCTA000006159236",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-04-17",
+                        "fin": "2999-01-01",
+                        "titre": "Section 2 : Quotas d'\u00e9mission de gaz \u00e0 effet de serre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176492",
+                        "id": "LEGISCTA000006176492",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2019-10-11",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 2 : Dispositions particuli\u00e8res applicables aux installations",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000039198966",
+                        "id": "LEGISCTA000039200667",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "VIGUEUR",
+            "id": "LEGIARTI000039206453",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000807559",
+                    "textTitle": "D\u00e9cret n\u00b02004-832 du 19 ao\u00fbt 2004 - art. 10 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000006868119",
+                    "natureText": "DECRET",
+                    "date": 1599835472065,
+                    "parentCid": null,
+                    "numTexte": "2004-832",
+                    "datePubli": 1093046400000,
+                    "dateDebut": 1109376000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L229-18",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L229-18",
+                    "articleId": "LEGIARTI000006833456",
+                    "natureText": "CODE",
+                    "date": 1599835472066,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1082160000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R229-26 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R229-26",
+                    "articleId": "LEGIARTI000006837194",
+                    "natureText": "CODE",
+                    "date": 1599835472066,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174608000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L229-11 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L229-11",
+                    "articleId": "LEGIARTI000026086876",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L229-9 (V)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "L229-9",
+                    "articleId": "LEGIARTI000039206446",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance n\u00b0 2000-914 du 18 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "LOI n\u00b0 2003-591 du 2 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000039196194",
+                    "textTitle": "Ordonnance n\u00b02019-1034 du 9 octobre 2019 - art. 15",
+                    "linkType": "DEPLACE",
+                    "linkOrientation": "cible",
+                    "articleNum": "15",
+                    "articleId": "LEGIARTI000039196927",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2019-10-10",
+                    "dateSignaTexte": "2019-10-09",
+                    "dateDebutCible": "2019-10-11"
+                },
+                {
+                    "textCid": "JORFTEXT000039196194",
+                    "textTitle": "Ordonnance n\u00b02019-1034 du 9 octobre 2019 - art. 19",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "19",
+                    "articleId": "LEGIARTI000039196935",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2019-10-10",
+                    "dateSignaTexte": "2019-10-09",
+                    "dateDebutCible": "2019-10-11"
+                },
+                {
+                    "textCid": "JORFTEXT000039196194",
+                    "textTitle": "Ordonnance n\u00b02019-1034 du 9 octobre 2019 - art. 2",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000039196911",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2019-10-10",
+                    "dateSignaTexte": "2019-10-09",
+                    "dateDebutCible": "2019-10-11"
+                }
+            ],
+            "num": "L229-17",
+            "origine": "LEGI",
+            "texte": "L'autorit\u00e9 administrative notifie aux exploitants des installations autoris\u00e9es \u00e0 \u00e9mettre des gaz \u00e0 effet de serre le montant total des quotas d'\u00e9mission affect\u00e9s au titre de chaque p\u00e9riode et la quantit\u00e9 d\u00e9livr\u00e9e chaque ann\u00e9e. Un d\u00e9cret en Conseil d'Etat fixe les modalit\u00e9s de notification des d\u00e9cisions d'affectation et de d\u00e9livrance des quotas, les conditions dans lesquelles les informations correspondantes sont rendues accessibles au public, les r\u00e8gles de d\u00e9livrance annuelle des quotas gratuits, les r\u00e8gles applicables en cas de changement d'exploitant ou de cessation ou de transfert d'activit\u00e9 ainsi que les conditions dans lesquelles les d\u00e9cisions d'affectation ou de d\u00e9livrance peuvent \u00eatre contest\u00e9s.",
+            "texteHtml": "<p>L'autorit\u00e9 administrative notifie aux exploitants des installations autoris\u00e9es \u00e0 \u00e9mettre des gaz \u00e0 effet de serre le montant total des quotas d'\u00e9mission affect\u00e9s au titre de chaque p\u00e9riode et la quantit\u00e9 d\u00e9livr\u00e9e chaque ann\u00e9e.</p><p>Un d\u00e9cret en Conseil d'Etat fixe les modalit\u00e9s de notification des d\u00e9cisions d'affectation et de d\u00e9livrance des quotas, les conditions dans lesquelles les informations correspondantes sont rendues accessibles au public, les r\u00e8gles de d\u00e9livrance annuelle des quotas gratuits, les r\u00e8gles applicables en cas de changement d'exploitant ou de cessation ou de transfert d'activit\u00e9 ainsi que les conditions dans lesquelles les d\u00e9cisions d'affectation ou de d\u00e9livrance peuvent \u00eatre contest\u00e9s.</p>",
+            "type": "AUTONOME",
+            "dateDebut": "2019-10-11T00:00:00.000Z",
+            "dateFin": "2999-01-01T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Milieux physiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129023",
+                        "id": "LEGISCTA000006129023",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Air et atmosph\u00e8re",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143738",
+                        "id": "LEGISCTA000006143738",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2003-07-03",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre IX : Effet de serre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159236",
+                        "id": "LEGISCTA000006159236",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-04-17",
+                        "fin": "2999-01-01",
+                        "titre": "Section 2 : Quotas d'\u00e9mission de gaz \u00e0 effet de serre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176492",
+                        "id": "LEGISCTA000006176492",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "TRANSFERE",
+            "id": "LEGIARTI000026086913",
+            "lienAutres": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000807559",
+                    "textTitle": "D\u00e9cret n\u00b02004-832 du 19 ao\u00fbt 2004 - art. 10 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000006868119",
+                    "natureText": "DECRET",
+                    "date": 1599836749705,
+                    "parentCid": null,
+                    "numTexte": "2004-832",
+                    "datePubli": 1093046400000,
+                    "dateDebut": 1109376000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L229-18 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L229-18",
+                    "articleId": "LEGIARTI000039206468",
+                    "natureText": "CODE",
+                    "date": 1599836749705,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1570752000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R229-26 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R229-26",
+                    "articleId": "LEGIARTI000006837194",
+                    "natureText": "CODE",
+                    "date": 1599836749705,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174608000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L229-11 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L229-11",
+                    "articleId": "LEGIARTI000026086876",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L229-9 (V)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "L229-9",
+                    "articleId": "LEGIARTI000039206446",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance n\u00b0 2000-914 du 18 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "LOI n\u00b0 2003-591 du 2 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000026083548",
+                    "textTitle": "Ordonnance n\u00b02012-827\n du 28 juin 2012 - art. 12",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "12",
+                    "articleId": "LEGIARTI000026084051",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2012-06-29",
+                    "dateSignaTexte": "2012-06-28",
+                    "dateDebutCible": "2013-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000039196194",
+                    "textTitle": "Ordonnance n\u00b02019-1034 du 9 octobre 2019 - art. 2",
+                    "linkType": "TRANSFERE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000039196911",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2019-10-10",
+                    "dateSignaTexte": "2019-10-09",
+                    "dateDebutCible": "2019-10-11"
+                }
+            ],
+            "num": "L229-17",
+            "origine": "LEGI",
+            "texte": "L'Etat peut inclure, apr\u00e8s approbation de la Commission europ\u00e9enne, des activit\u00e9s et des gaz \u00e0 effet de serre qui ne sont pas mentionn\u00e9s \u00e0 l'annexe I de la directive 2003/87/CE du 13 octobre 2003. L'application du syst\u00e8me d'\u00e9change de quotas d'\u00e9mission aux activit\u00e9s et gaz ci-dessus ainsi que l'affectation de quotas suppl\u00e9mentaires \u00e9vitent les distorsions potentielles de concurrence et pr\u00e9servent l'int\u00e9grit\u00e9 environnementale de ce syst\u00e8me.",
+            "texteHtml": "<p>L'Etat peut inclure, apr\u00e8s approbation de la Commission europ\u00e9enne, des activit\u00e9s et des gaz \u00e0 effet de serre qui ne sont pas mentionn\u00e9s \u00e0 l'annexe I de la directive 2003/87/CE du 13 octobre 2003.</p><p>L'application du syst\u00e8me d'\u00e9change de quotas d'\u00e9mission aux activit\u00e9s et gaz ci-dessus ainsi que l'affectation de quotas suppl\u00e9mentaires \u00e9vitent les distorsions potentielles de concurrence et pr\u00e9servent l'int\u00e9grit\u00e9 environnementale de ce syst\u00e8me.</p>",
+            "type": "AUTONOME",
+            "dateDebut": "2013-01-01T00:00:00.000Z",
+            "dateFin": "2019-10-11T00:00:00.000Z"
+        },
+        {
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108630",
+                        "id": "LEGISCTA000006108630",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Livre II : Milieux physiques",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129023",
+                        "id": "LEGISCTA000006129023",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Air et atmosph\u00e8re",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006143738",
+                        "id": "LEGISCTA000006143738",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2003-07-03",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre IX : Effet de serre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159236",
+                        "id": "LEGISCTA000006159236",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2004-04-17",
+                        "fin": "2999-01-01",
+                        "titre": "Section 2 : Quotas d'\u00e9mission de gaz \u00e0 effet de serre",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006176492",
+                        "id": "LEGISCTA000006176492",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2000-09-21",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'environnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074220",
+                        "id": "LEGITEXT000006074220",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "etat": "MODIFIE",
+            "id": "LEGIARTI000006833455",
+            "lienAutres": [
+                {
+                    "textCid": "",
+                    "textTitle": "Directive 2003-87 CE 2003-10-13 (Parlement et Conseil)",
+                    "linkType": "TXT_SOURCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000807559",
+                    "textTitle": "D\u00e9cret n\u00b02004-832 du 19 ao\u00fbt 2004 - art. 10 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "10",
+                    "articleId": "LEGIARTI000006868119",
+                    "natureText": "DECRET",
+                    "date": 1599825812828,
+                    "parentCid": null,
+                    "numTexte": "2004-832",
+                    "datePubli": 1093046400000,
+                    "dateDebut": 1109376000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L229-18 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L229-18",
+                    "articleId": "LEGIARTI000006833456",
+                    "natureText": "CODE",
+                    "date": 1599825812828,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1082160000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. R229-26 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R229-26",
+                    "articleId": "LEGIARTI000006837194",
+                    "natureText": "CODE",
+                    "date": 1599825812828,
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1174608000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L229-11 (T)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "L229-11",
+                    "articleId": "LEGIARTI000026086876",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L229-9 (V)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "source",
+                    "articleNum": "L229-9",
+                    "articleId": "LEGIARTI000039206446",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000401865",
+                    "textTitle": "Ordonnance 2000-914 2000-09-18 JORF 21 septembre 2000",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000401865",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2000-09-21",
+                    "dateSignaTexte": "2000-09-18",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000422094",
+                    "textTitle": "Loi 2003-591 2003-07-02 art. 31 I JORF 3 juillet 2003",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000422094",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2003-07-03",
+                    "dateSignaTexte": "2003-07-02",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000000799676",
+                    "textTitle": "Ordonnance n\u00b02004-330 du 15 avril 2004 - art. 1 () JORF 17 avril 2004",
+                    "linkType": "CREATION",
+                    "linkOrientation": "source",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000006230174",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2004-04-17",
+                    "dateSignaTexte": "2004-04-15",
+                    "dateDebutCible": "2004-04-17"
+                }
+            ],
+            "num": "L229-17",
+            "origine": "LEGI",
+            "texte": "L'Etat peut, apr\u00e8s accord de la Commission europ\u00e9enne, autoriser plusieurs exploitants d'installations relevant de la m\u00eame activit\u00e9 \u00e0 mettre en commun, au cours de la p\u00e9riode triennale d\u00e9butant le 1er janvier 2005 et au cours de la p\u00e9riode quinquennale suivante, la gestion des quotas aff\u00e9rents \u00e0 chaque installation. Lorsque l'autorisation est accord\u00e9e \u00e0 plusieurs exploitants, ceux-ci d\u00e9signent un mandataire auquel les dispositions de la pr\u00e9sente section sont applicables. Il est ouvert dans le registre national un compte unique pour les installations dont les quotas d'\u00e9mission sont g\u00e9r\u00e9s en commun. Le mandataire d\u00e9sign\u00e9 par les exploitants a pour mission la gestion des quotas inscrits sur ce compte. Si le mandataire se soustrait aux sanctions pr\u00e9vues au II de l'article L. 229-18 en cas d'absence de restitution de quotas d'\u00e9mission, l'exploitant de chaque installation redevient responsable de la restitution des quotas correspondant aux \u00e9missions provenant de son installation et encourt les sanctions pr\u00e9vues par la pr\u00e9sente section s'il enfreint cette obligation. Un d\u00e9cret en Conseil d'Etat fixe les modalit\u00e9s de mise en oeuvre des dispositions du pr\u00e9sent article.",
+            "texteHtml": "<p></p>L'Etat peut, apr\u00e8s accord de la Commission europ\u00e9enne, autoriser plusieurs exploitants d'installations relevant de la m\u00eame activit\u00e9 \u00e0 mettre en commun, au cours de la p\u00e9riode triennale d\u00e9butant le 1er janvier 2005 et au cours de la p\u00e9riode quinquennale suivante, la gestion des quotas aff\u00e9rents \u00e0 chaque installation. <p></p><p></p>Lorsque l'autorisation est accord\u00e9e \u00e0 plusieurs exploitants, ceux-ci d\u00e9signent un mandataire auquel les dispositions de la pr\u00e9sente section sont applicables. <p></p><p></p>Il est ouvert dans le registre national un compte unique pour les installations dont les quotas d'\u00e9mission sont g\u00e9r\u00e9s en commun. Le mandataire d\u00e9sign\u00e9 par les exploitants a pour mission la gestion des quotas inscrits sur ce compte. Si le mandataire se soustrait aux sanctions pr\u00e9vues au II de <a href='/article/LEGIARTI000006833456' title='Code de l'environnement - art. L229-18 (VT)'>l'article L. 229-18</a> en cas d'absence de restitution de quotas d'\u00e9mission, l'exploitant de chaque installation redevient responsable de la restitution des quotas correspondant aux \u00e9missions provenant de son installation et encourt les sanctions pr\u00e9vues par la pr\u00e9sente section s'il enfreint cette obligation. <p></p><p></p>Un d\u00e9cret en Conseil d'Etat fixe les modalit\u00e9s de mise en oeuvre des dispositions du pr\u00e9sent article.<p></p>",
+            "type": "AUTONOME",
+            "dateDebut": "2004-04-17T00:00:00.000Z",
+            "dateFin": "2013-01-01T00:00:00.000Z"
+        }
+    ]
+}
