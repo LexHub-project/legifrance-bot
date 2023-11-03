@@ -157,6 +157,7 @@ class DataclassJSONEncoder(json.JSONEncoder):
         "LEGIARTI000006652523",
         "LEGIARTI000006652564",
         "LEGIARTI000006652599",
+        "LEGIARTI000006687556",
         "LEGIARTI000006792216",
     ],
 )
