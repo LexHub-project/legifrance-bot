@@ -1,9 +1,10 @@
 import os
-import pytest
-from commits import Commit, get_commits
-
-from constants import DATE_STR_FMT
 from datetime import datetime
+
+import pytest
+
+from commits import Commit, get_commits
+from constants import DATE_STR_FMT
 from fetch_data import CachedLegifranceClient
 from main import CID_CODE_DU_TRAVAIL_MARITIME, _init_repo, _play_commits
 
@@ -52,21 +53,27 @@ def commits() -> list[Commit]:
 
 
 CODE_NAMES = ["code-du-travail-maritime"]
-DATES = ["1926-12-16", "2023-10-20"]
+DATES = [
+    (date, int(datetime.strptime(date, DATE_STR_FMT).timestamp() * 1000))
+    for date in ["1926-12-16", "2023-10-20"]
+]
 
 
 def test_snapshot(snapshot, commits: list[Commit]):
     _init_repo(TEST_OUTPUT_REPO_PATH)
-    snapshots = {t: {} for t in CODE_NAMES}
-    commit = commits[0]
-    for date in DATES:
+    snapshots: dict[str, dict[str, str]] = {t: {} for t in CODE_NAMES}
+
+    player = _play_commits(commits, TEST_OUTPUT_REPO_PATH)
+
+    for date, timestamp in DATES:
         print("@date", date)
-        timestamp = int(datetime.strptime(date, DATE_STR_FMT).timestamp() * 1000)
-        while commit.timestamp <= timestamp and len(commits) > 0:
-            _play_commits([commit], TEST_OUTPUT_REPO_PATH)
-            commit = commits.pop(0)
+
+        while next(player).timestamp <= timestamp:
+            pass
+
         for code_name in CODE_NAMES:
             snapshots[code_name][f"{date}.md"] = _render_repo_to_str(
                 f"{TEST_OUTPUT_REPO_PATH}/{code_name}"
             )
+
     snapshot.assert_match_dir(snapshots, "test_snapshots")
