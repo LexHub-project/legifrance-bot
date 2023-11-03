@@ -44,16 +44,22 @@ class TextCidAndTitle:
             self.title = ""
 
 
-def _dedupe(arr: list[str]):
-    return list(OrderedDict.fromkeys(arr))
-
-
 def _version_uri(version: dict):
+    first_titles = {}
+
+    # TODO titles have a validity period ?
+    for t in version["context"]["titresTM"]:
+        if t["xPath"] not in first_titles:
+            first_titles[t["xPath"]] = t["titre"]
+
     titles: list[str] = [version["textTitles"][0]["titre"]] + [
-        t["titre"] for t in version["context"]["titresTM"]
+        t for _, t in sorted(first_titles.items(), key=lambda i: i[0])
     ]
+
+    trunacted = [t[:255] for t in titles]
+
     file_name = f"{slugify(version['num'])}.md"
-    return "/".join(_dedupe([slugify(t) for t in titles] + [file_name]))
+    return "/".join([slugify(t) for t in trunacted] + [file_name])
 
 
 Uri = str
