@@ -1,0 +1,21 @@
+
+
+*titre-4-des-obligations-de-larmateur-envers-le-marin/chapitre-1-des-salaires-fixes-profits-eventuels-et-autres-remunerations/section-1-des-divers-modes-de-remuneration-des-marins-et-des-regles-qui-servent-de-base-a-la-liquidation-des-salaires/40.md*
+
+# Article 40
+
+En cas de rupture du voyage par le fait de l'armateur ou de son représentant, soit avant le départ, soit après le voyage commencé, le marin rémunéré au profit ou au fret a droit à une indemnité dont le montant est fixé d'un commun accord ou par les tribunaux.    Si la rupture du voyage est le fait des chargeurs, le marin participe aux indemnités qui sont adjugées au navire dans la proportion où il aurait participé au fret.
+
+
+*titre-4-des-obligations-de-larmateur-envers-le-marin/chapitre-2-de-la-nourriture-et-du-couchage/75.md*
+
+# Article 75
+
+Il est interdit à tout armateur de charger à forfait le capitaine ou un membre quelconque de l'état-major de la nourriture de l'équipage.
+
+
+*titre-9-dispositions-diverses/133-1.md*
+
+# Article 133-1
+
+<p>Pour l'application de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072051&idArticle=LEGIARTI000006652418&dateTexte=&categorieLien=cid'>l'article 25-1</a>, à défaut d'accord national professionnel ou d'accord de branche étendus, tels que prévus par cet article, applicables à Mayotte, la durée du travail est calculée sur une base annuelle de deux cent vingt-cinq jours par an, y compris les heures de travail effectuées à terre. Les modalités de prise en compte des heures de travail effectuées à terre, les conditions de dérogation à cette limite, dans le respect d'un plafond de deux cent cinquante jours, compte tenu des modes d'exploitation des navires concernés, les activités de pêche pour lesquelles cette durée peut être calculée sur la moyenne de deux années consécutives sont déterminées par décret. </p><p>Pour l'application de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006072051&idArticle=LEGIARTI000006652505&dateTexte=&categorieLien=cid'>l'article 34,</a> à défaut d'accord national professionnel ou d'accord de branche étendus, tels que prévus par cet article, applicables à Mayotte, la ou les périodes de travail retenues pour le calcul du salaire minimum de croissance des marins rémunérés à la part peuvent être supérieures au mois dans la limite de douze mois consécutifs calculées sur une année civile, indépendamment de la durée de travail effectif. Le contrat d'engagement maritime précise ces périodes.</p><br/><br/><i>NOTA:<p>L'article 25-1 du code du travail maritime a été codifié aux articles L. 5544-6 et L. 5544-7 du code des transports. L'article 34 du code du travail maritime a été codifié aux articles L. 5544-39 et L. 5544-41 du code des transports.</p></i>
