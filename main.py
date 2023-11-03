@@ -1,11 +1,13 @@
 import argparse
 import math
 import os
+import re
 import subprocess
 from datetime import datetime
 from typing import Generator
 
 import pytz
+import tqdm
 
 from commits import ArticleJSON, Cid, Commit, Uri, get_commits
 from constants import CID_CODE_DU_TRAVAIL_MARITIME
@@ -42,10 +44,28 @@ def _init_repo(output_repo_path: str):
     subprocess.run(["rm", "-rf", output_repo_path])
 
     os.makedirs(output_repo_path, exist_ok=True)
-    subprocess.run(["git", "init", output_repo_path])
+    subprocess.run(["git", "init", output_repo_path, "--quiet"])
 
     _build_git_repo_readme(output_repo_path)
     subprocess.call(["git", "add", "README.md"], cwd=output_repo_path)
+
+
+def _resolve_links(html: str | None, article_cid_to_uri: dict[Cid, Uri]):
+    if html is None:
+        return None
+
+    look_for = r"/affichCodeArticle\.do\?cidTexte=(LEGI[A-Z0-9]+)&idArticle=(LEGI[A-Z0-9]+)&dateTexte=&categorieLien=cid"
+    matches = re.finditer(look_for, html)
+    for match in matches:
+        # TODO is this information we really need?
+        # text_cid = match.group(1)
+        article_cid = match.group(2)
+        try:
+            html = html.replace(match.group(0), "/" + article_cid_to_uri[article_cid])
+        except KeyError:
+            pass
+
+    return html
 
 
 def _play_commits(
@@ -55,29 +75,35 @@ def _play_commits(
 
     article_cid_to_uri: dict[Cid, Uri] = {}
 
-    for i, c in enumerate(commits):
+    for c in tqdm.tqdm(commits, desc="Replaying commits"):
         yield c
 
-        for cid, (uri, text) in c.article_changes.items():
-            if text is None:
-                assert cid in article_cid_to_uri, (i, cid, article_cid_to_uri)
+        for cid, (uri, html) in c.article_changes.items():
+            if html is None:
+                assert cid in article_cid_to_uri, (cid, article_cid_to_uri)
                 del article_cid_to_uri[cid]
-                subprocess.run(["git", "rm", uri], cwd=output_repo_path)
+                subprocess.run(["git", "rm", uri, "--quiet"], cwd=output_repo_path)
             else:
+                html = _resolve_links(html, article_cid_to_uri)
+
                 abs_path = os.path.abspath(os.path.join(output_repo_path, uri))
                 os.makedirs(os.path.dirname(abs_path), exist_ok=True)
 
                 old_uri = article_cid_to_uri.get(cid, None)
                 if old_uri is not None and uri != old_uri:
                     subprocess.run(
-                        ["git", "mv", "-f", old_uri, uri], cwd=output_repo_path
+                        ["git", "mv", "-f", old_uri, uri],
+                        cwd=output_repo_path,
                     )
 
                 article_cid_to_uri[cid] = uri
 
                 with open(abs_path, "w") as f:
-                    f.write(text)
-                subprocess.run(["git", "add", uri], cwd=output_repo_path)
+                    f.write(html)
+                subprocess.run(
+                    ["git", "add", uri],
+                    cwd=output_repo_path,
+                )
 
         # TODO ms vs s
         date_dt = datetime.fromtimestamp(math.floor(c.timestamp / 1000), tz)
@@ -102,6 +128,7 @@ def _play_commits(
                 date_with_format_str,
                 "-m",
                 c.title,
+                "--quiet",
             ],
             env=env,
             cwd=output_repo_path,
