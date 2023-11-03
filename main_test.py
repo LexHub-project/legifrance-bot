@@ -1,5 +1,7 @@
+import io
 import os
 from datetime import datetime
+from typing import TextIO
 
 import pytest
 
@@ -13,36 +15,23 @@ TEST_OUTPUT_REPO_PATH = "output_test"
 client = CachedLegifranceClient(only_from_disk=True)
 
 
-def _render_file_name(file_name: str) -> str:
-    return f"\n\n*Article {file_name.replace('.md', '')}*\n"
+def _render_repo(output_dir: str, output_file: TextIO) -> str:
+    for root, dirs, files in os.walk(output_dir):
+        # A bit of a hack but works: https://stackoverflow.com/questions/6670029/can-i-force-os-walk-to-visit-directories-in-alphabetical-order
+        dirs.sort()
+
+        for file in sorted(files):
+            file_path = os.path.join(root, file)
+            relative_path = os.path.relpath(file_path, output_dir)
+            print(f"\n\n*{relative_path}*\n", file=output_file)
+            with open(file_path, "r") as f:
+                print(f.read(), file=output_file)
 
 
-def _render_header(title: str, depth: int):
-    return f"\n\n{'#' * (depth + 1)} {title}\n"
-
-
-def _render_repo_to_str(path: str, depth=0, pending_headers=[], out="") -> str:
-    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
-    if len(files) > 0:
-        for header in pending_headers:
-            out += header
-        pending_headers = []
-    for file in sorted(files):
-        with open(os.path.join(path, file), "r") as f:
-            out += _render_file_name(file)
-            out += f.read()
-    dirs = [
-        d
-        for d in os.listdir(path)
-        if os.path.isdir(os.path.join(path, d)) and not d.startswith(".")
-    ]
-    for dir in sorted(dirs):
-        out += _render_repo_to_str(
-            os.path.join(path, dir),
-            depth + 1,
-            pending_headers + [_render_header(dir, depth)],
-        )
-    return out
+def _render_repo_to_str(output_dir: str) -> str:
+    f = io.StringIO()
+    _render_repo(output_dir, f)
+    return f.getvalue()
 
 
 @pytest.fixture(scope="module")

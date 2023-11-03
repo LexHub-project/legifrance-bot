@@ -501,7 +501,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
                 for lm in v["lienModifications"]
             ]
 
-            html = (
+            html = f"# Article {v['num']}\n" + (
                 v["texteHtml"]
                 if v["notaHtml"] == ""
                 else v["texteHtml"] + "<br/><br/><i>NOTA:" + v["notaHtml"] + "</i>"
@@ -524,7 +524,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
                 article_changes={
                     cid: (
                         uri,
-                        f"⚠️Missing data from [legifrance](https://www.legifrance.gouv.fr/codes/article_lc/{cid})⚠️",
+                        f"# Article {v['num']}\n⚠️Missing data from [legifrance](https://www.legifrance.gouv.fr/codes/article_lc/{cid})⚠️",
                     )
                 },
             )
