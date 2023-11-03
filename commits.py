@@ -37,6 +37,12 @@ class TextCidAndTitle:
     cid: str
     title: str
 
+    def __post_init__(self):
+        if self.cid is None:
+            self.cid = ""
+        if self.title is None:
+            self.title = ""
+
 
 def _dedupe(arr: list[str]):
     return list(OrderedDict.fromkeys(arr))
@@ -70,6 +76,8 @@ class Commit:
 
 
 def _merge_titles(titles: list[str]) -> str:
+    if len(titles) == 0:
+        return ""
     if len(titles) == 1:
         cleaned = re.sub(r"-?\s?art(icle)?\.?", "", titles[0])
         return cleaned.strip()
