@@ -1,10 +1,10 @@
 import itertools
 import re
+import unicodedata
+from collections import OrderedDict
 from dataclasses import dataclass
 from difflib import SequenceMatcher
-from typing import Generator
-from collections import OrderedDict
-import unicodedata
+from typing import Generator, Tuple
 
 ArticleJSON = dict
 CodeJSON = dict
@@ -56,18 +56,26 @@ def _version_uri(version: dict):
     return "/".join(_dedupe([slugify(t) for t in titles] + [file_name]))
 
 
+Uri = str
+Cid = str
+DEFAULT_COMMIT_MESSAGE = "Modifié par un texte d'une portée générale"
+
+
 @dataclass
 class Commit:
     modified_by: list[TextCidAndTitle]
     timestamp: int
 
     # None means abrogated
-    article_changes: dict[str, str | None]
-    article_moves: dict[str, str]
+    article_changes: dict[Cid, Tuple[Uri, str | None]]
 
     @property
     def title(self):
-        return "Modifications par " + " & ".join([t.title for t in self.modified_by])
+        return (
+            "Modifications par " + " & ".join([t.title for t in self.modified_by])
+            if len(self.modified_by) > 0
+            else DEFAULT_COMMIT_MESSAGE
+        )
 
     @property
     def merge_id(self) -> str:
@@ -464,8 +472,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
                 TextCidAndTitle(cid=lm["textCid"], title=lm["textTitle"])
                 for lm in versions[0]["lienModifications"]
             ],
-            article_changes={uri: None},
-            article_moves={},
+            article_changes={cid: (uri, None)},
         )
 
         last_commit_begin = _end(versions[0])
@@ -473,12 +480,6 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     while i < len(versions):
         v = versions[i]
         uri = _version_uri(v)
-        article_moves = {}
-        if i < len(versions) - 1:
-            previous_uri = _version_uri(versions[i + 1])
-            if previous_uri != uri:
-                article_moves[previous_uri] = uri
-                uri = previous_uri
 
         assert _begin(v) < _end(v)
 
@@ -509,8 +510,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
             yield Commit(
                 timestamp=_begin(v),
                 modified_by=modified_by,
-                article_changes={uri: html},
-                article_moves=article_moves,
+                article_changes={cid: (uri, html)},
             )
 
             last_commit_begin = _begin(v)
@@ -522,9 +522,11 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
                 timestamp=_end(v),
                 modified_by=[],
                 article_changes={
-                    uri: f"⚠️Missing data from [legifrance](https://www.legifrance.gouv.fr/codes/article_lc/{cid})⚠️"
+                    cid: (
+                        uri,
+                        f"⚠️Missing data from [legifrance](https://www.legifrance.gouv.fr/codes/article_lc/{cid})⚠️",
+                    )
                 },
-                article_moves=article_moves,
             )
 
             last_commit_begin = _end(v)
@@ -544,27 +546,19 @@ def _merge_commits(all_commits: list[Commit]) -> Generator[Commit, None, None]:
             _dedupe_modified_by([m for c in to_merge for m in c.modified_by])
         )
 
-        article_changes: dict[str, str | None] = {}
-        article_moves: dict[str, str] = {}
+        article_changes: dict[str, Tuple[Uri, str | None]] = {}
         for c in to_merge:
-            for uri, text in c.article_changes.items():
+            for cid, (uri, html) in c.article_changes.items():
                 assert (
-                    uri not in article_changes
-                ), f"several commits change {uri} at timestamp {timestamp}"
+                    cid not in article_changes
+                ), f"several commits change {cid} ({uri}) at timestamp {timestamp}"
 
-                article_changes[uri] = text
-            for from_uri, to_uri in c.article_moves.items():
-                assert (
-                    from_uri not in article_moves
-                ), f"several moves for {from_uri} at timestamp {timestamp}"
-
-                article_moves[from_uri] = to_uri
+                article_changes[cid] = (uri, html)
 
         yield Commit(
             timestamp=timestamp,
             modified_by=modified_by,
             article_changes=article_changes,
-            article_moves=article_moves,
         )
 
 
@@ -581,8 +575,8 @@ def _clean_html(html: str | None) -> str | None:
 
 def _clean_commits(commits: list[Commit]):
     for commit in commits:
-        for uri in commit.article_changes:
-            commit.article_changes[uri] = _clean_html(commit.article_changes[uri])
+        for cid, (uri, text) in commit.article_changes.items():
+            commit.article_changes[cid] = (uri, _clean_html(text))
 
 
 def get_commits(articles: list[ArticleJSON]) -> list[Commit]:

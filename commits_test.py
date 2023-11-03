@@ -147,15 +147,17 @@ class DataclassJSONEncoder(json.JSONEncoder):
 @pytest.mark.parametrize(
     "article_cid",
     [
+        "LEGIARTI000006293330",
         "LEGIARTI000006293595",
+        "LEGIARTI000006313581",
         "LEGIARTI000006465306",
-        "LEGIARTI000006792216",
         "LEGIARTI000006652375",
         "LEGIARTI000006652410",
-        "LEGIARTI000006652564",
-        "LEGIARTI000006293330",
-        "LEGIARTI000006313581",
         "LEGIARTI000006652505",
+        "LEGIARTI000006652523",
+        "LEGIARTI000006652564",
+        "LEGIARTI000006652599",
+        "LEGIARTI000006792216",
     ],
 )
 def test_article_assertion_one_change_per_commit(snapshot, article_cid: str):
