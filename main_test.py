@@ -8,7 +8,7 @@ import pytest
 from commits import Commit, get_commits
 from constants import DATE_STR_FMT
 from fetch_data import CachedLegifranceClient
-from main import CID_CODE_DU_TRAVAIL_MARITIME, _init_repo, _play_commits
+from main import CID_CODE_DU_TRAVAIL_MARITIME, _play_commits
 
 TEST_OUTPUT_REPO_PATH = "output_test"
 
@@ -49,10 +49,9 @@ DATES = [
 
 
 def test_snapshot(snapshot, commits: list[Commit]):
-    _init_repo(TEST_OUTPUT_REPO_PATH)
     snapshots: dict[str, dict[str, str]] = {t: {} for t in CODE_NAMES}
 
-    player = _play_commits(commits, TEST_OUTPUT_REPO_PATH)
+    player = _play_commits(commits, True, TEST_OUTPUT_REPO_PATH)
 
     for date, timestamp in DATES:
         print("@date", date)
@@ -65,4 +64,33 @@ def test_snapshot(snapshot, commits: list[Commit]):
                 f"{TEST_OUTPUT_REPO_PATH}/{code_name}"
             )
 
+    snapshot.assert_match_dir(snapshots, "test_snapshots")
+
+
+def test_partial(snapshot, commits: list[Commit]):
+    snapshots: dict[str, dict[str, str]] = {t: {} for t in CODE_NAMES}
+
+    for _ in _play_commits(commits[:-25], True, TEST_OUTPUT_REPO_PATH):
+        pass
+
+    for code_name in CODE_NAMES:
+        snapshots[f"0-init-{code_name}.md"] = _render_repo_to_str(
+            f"{TEST_OUTPUT_REPO_PATH}/{code_name}"
+        )
+
+    for _ in _play_commits(commits[:-10], False, TEST_OUTPUT_REPO_PATH):
+        pass
+
+    for code_name in CODE_NAMES:
+        snapshots[f"1-partial-{code_name}.md"] = _render_repo_to_str(
+            f"{TEST_OUTPUT_REPO_PATH}/{code_name}"
+        )
+
+    for _ in _play_commits(commits, False, TEST_OUTPUT_REPO_PATH):
+        pass
+
+    for code_name in CODE_NAMES:
+        snapshots[f"2-final-{code_name}.md"] = _render_repo_to_str(
+            f"{TEST_OUTPUT_REPO_PATH}/{code_name}"
+        )
     snapshot.assert_match_dir(snapshots, "test_snapshots")

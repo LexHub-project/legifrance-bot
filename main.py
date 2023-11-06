@@ -1,4 +1,5 @@
 import argparse
+import itertools
 import math
 import os
 import re
@@ -6,6 +7,7 @@ import subprocess
 from datetime import datetime
 from typing import Generator
 
+import git
 import pytz
 import tqdm
 
@@ -69,70 +71,96 @@ def _resolve_links(html: str | None, article_cid_to_uri: dict[Cid, Uri]):
 
 
 def _play_commits(
-    commits: list[Commit], output_repo_path: str
+    commits: list[Commit], init: bool, output_repo_path: str
 ) -> Generator[Commit, None, None]:
+    if init:
+        _init_repo(output_repo_path)
+        repo_commits = []
+    else:
+        repo = git.Repo(output_repo_path)
+        repo_commits = list(reversed(list(repo.iter_commits())))
+
     tz = pytz.timezone("UTC")
+
+    assert len(commits) >= len(
+        repo_commits
+    ), f"len(commits)={len(commits)} len(repo_commits)={len(repo_commits)}"
 
     article_cid_to_uri: dict[Cid, Uri] = {}
 
-    for c in tqdm.tqdm(commits, desc="Replaying commits"):
-        yield c
+    for todo_commit, repo_commit in tqdm.tqdm(
+        itertools.zip_longest(commits, repo_commits), desc="Replaying commits"
+    ):
+        yield todo_commit
 
-        for cid, (uri, html) in c.article_changes.items():
+        should_replay = repo_commit is None
+
+        if not should_replay:
+            assert (
+                repo_commit.message.strip() == todo_commit.title.strip()
+            ), f"repo_commit.message.strip()='{repo_commit.message.strip()}', todo_commit.title.strip()='{todo_commit.title.strip()}'"
+
+        for cid, (uri, html) in todo_commit.article_changes.items():
             if html is None:
                 assert cid in article_cid_to_uri, (cid, article_cid_to_uri)
                 del article_cid_to_uri[cid]
-                subprocess.run(["git", "rm", uri, "--quiet"], cwd=output_repo_path)
+
+                if should_replay:
+                    subprocess.run(["git", "rm", uri, "--quiet"], cwd=output_repo_path)
             else:
-                html = _resolve_links(html, article_cid_to_uri)
-
-                abs_path = os.path.abspath(os.path.join(output_repo_path, uri))
-                os.makedirs(os.path.dirname(abs_path), exist_ok=True)
-
                 old_uri = article_cid_to_uri.get(cid, None)
-                if old_uri is not None and uri != old_uri:
+                article_cid_to_uri[cid] = uri
+
+                if should_replay:
+                    html = _resolve_links(html, article_cid_to_uri)
+
+                    abs_path = os.path.abspath(os.path.join(output_repo_path, uri))
+                    os.makedirs(os.path.dirname(abs_path), exist_ok=True)
+
+                    if old_uri is not None and uri != old_uri:
+                        subprocess.run(
+                            ["git", "mv", "-f", old_uri, uri],
+                            cwd=output_repo_path,
+                        )
+
+                    with open(abs_path, "w") as f:
+                        f.write(html)
                     subprocess.run(
-                        ["git", "mv", "-f", old_uri, uri],
+                        ["git", "add", uri],
                         cwd=output_repo_path,
                     )
 
-                article_cid_to_uri[cid] = uri
+        if should_replay:
+            # TODO ms vs s
+            date_dt = datetime.fromtimestamp(
+                math.floor(todo_commit.timestamp / 1000), tz
+            )
 
-                with open(abs_path, "w") as f:
-                    f.write(html)
-                subprocess.run(
-                    ["git", "add", uri],
-                    cwd=output_repo_path,
-                )
+            # TODO
+            if date_dt.year >= 2038:
+                date_dt = datetime(2038, 1, 1)
+            if date_dt.year <= 1969:
+                date_dt = datetime(1970, 1, 2)  # GitHub doesn't like Jan 1
 
-        # TODO ms vs s
-        date_dt = datetime.fromtimestamp(math.floor(c.timestamp / 1000), tz)
+            date_str = date_dt.isoformat()
+            date_with_format_str = "format:iso8601:" + date_str
 
-        # TODO
-        if date_dt.year >= 2038:
-            date_dt = datetime(2038, 1, 1)
-        if date_dt.year <= 1969:
-            date_dt = datetime(1970, 1, 2)  # GitHub doesn't like Jan 1
+            env = os.environ.copy()
+            env["GIT_COMMITTER_DATE"] = date_with_format_str
 
-        date_str = date_dt.isoformat()
-        date_with_format_str = "format:iso8601:" + date_str
-
-        env = os.environ.copy()
-        env["GIT_COMMITTER_DATE"] = date_with_format_str
-
-        subprocess.run(
-            [
-                "git",
-                "commit",
-                "--date",
-                date_with_format_str,
-                "-m",
-                c.title,
-                "--quiet",
-            ],
-            env=env,
-            cwd=output_repo_path,
-        )
+            subprocess.run(
+                [
+                    "git",
+                    "commit",
+                    "--date",
+                    date_with_format_str,
+                    "-m",
+                    todo_commit.title,
+                    "--quiet",
+                ],
+                env=env,
+                cwd=output_repo_path,
+            )
 
 
 if __name__ == "__main__":
@@ -153,6 +181,11 @@ if __name__ == "__main__":
     parser.add_argument(
         "-n",
         help="Number of codes to use",
+    )
+    parser.add_argument(
+        "--init",
+        help="Start from a fresh output repo",
+        action="store_true",
     )
 
     args = parser.parse_args()
@@ -178,8 +211,6 @@ if __name__ == "__main__":
     articles = [a for v in articles_by_code.values() for a in v]
     commits = get_commits(articles)
 
-    _init_repo(OUTPUT_REPO_PATH)
-
     # Play all commits, we used a generator to make testing easier
-    for _ in _play_commits(commits, OUTPUT_REPO_PATH):
+    for _ in _play_commits(commits, args.init, OUTPUT_REPO_PATH):
         pass

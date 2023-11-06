@@ -1,7 +1,6 @@
 import itertools
 import re
 import unicodedata
-from collections import OrderedDict
 from dataclasses import dataclass
 from difflib import SequenceMatcher
 from typing import Generator, Tuple
@@ -158,9 +157,6 @@ def sorted_versions(article: ArticleJSON):
         versions,
         key=lambda v: (v["dateFin"], v["dateDebut"], float(v["versionArticle"])),
         reverse=True,
-    )
-    has_duplicate_versions = len(versions) != len(
-        {v["versionArticle"] for v in versions}
     )
 
     if cid in ARTICLES_THAT_NEED_TO_BE_RESORTED:
