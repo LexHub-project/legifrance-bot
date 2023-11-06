@@ -71,7 +71,7 @@ def _resolve_links(html: str | None, article_cid_to_uri: dict[Cid, Uri]):
 
 
 def _play_commits(
-    todo_commits: list[Commit], init: bool, output_repo_path: str
+    commits: list[Commit], init: bool, output_repo_path: str
 ) -> Generator[Commit, None, None]:
     if init:
         _init_repo(output_repo_path)
@@ -82,14 +82,14 @@ def _play_commits(
 
     tz = pytz.timezone("UTC")
 
-    assert len(todo_commits) >= len(
+    assert len(commits) >= len(
         repo_commits
-    ), f"len(todo_commits)={len(todo_commits)} len(repo_commits)={len(repo_commits)}"
+    ), f"len(commits)={len(commits)} len(repo_commits)={len(repo_commits)}"
 
     article_cid_to_uri: dict[Cid, Uri] = {}
 
     for todo_commit, repo_commit in tqdm.tqdm(
-        itertools.zip_longest(todo_commits, repo_commits), desc="Replaying commits"
+        itertools.zip_longest(commits, repo_commits), desc="Replaying commits"
     ):
         yield todo_commit
 
@@ -209,8 +209,8 @@ if __name__ == "__main__":
     }
 
     articles = [a for v in articles_by_code.values() for a in v]
-    todo_commits = get_commits(articles)
+    commits = get_commits(articles)
 
     # Play all commits, we used a generator to make testing easier
-    for _ in _play_commits(todo_commits, args.init, OUTPUT_REPO_PATH):
+    for _ in _play_commits(commits, args.init, OUTPUT_REPO_PATH):
         pass
