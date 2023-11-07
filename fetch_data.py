@@ -32,10 +32,10 @@ class CachedLegifranceClient:
 
     def _yield_article_ids(
         self, tm: CodeJSON
-    ) -> Generator[Tuple[str, Tuple[str, str]], None, None]:
+    ) -> Generator[Tuple[str, str, str], None, None]:
         if len(tm["articles"]) > 0:
             for article in tm["articles"]:
-                yield (article["cid"], (article["id"], article["etat"]))
+                yield (article["cid"], article["id"], article["etat"])
 
         if len(tm["sections"]) > 0:
             for section in tm["sections"]:
@@ -80,7 +80,7 @@ class CachedLegifranceClient:
         ids = sorted(list(self._yield_article_ids(tm)), key=lambda x: x[0])
 
         grouped_by_cid = [
-            (cid, {i[1] for i in with_same_cid})
+            (cid, {(i[1], i[2]) for i in with_same_cid})
             for (cid, with_same_cid) in itertools.groupby(ids, key=lambda x: x[0])
         ]
 
