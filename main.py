@@ -11,7 +11,7 @@ import git
 import pytz
 import tqdm
 
-from commits import ArticleJSON, Cid, Commit, Uri, get_commits
+from commits import Cid, Commit, Uri, get_commits
 from constants import CID_CODE_DU_TRAVAIL_MARITIME
 from fetch_data import CachedLegifranceClient
 

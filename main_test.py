@@ -36,8 +36,9 @@ def _render_repo_to_str(output_dir: str) -> str:
 
 @pytest.fixture(scope="module")
 def commits() -> list[Commit]:
-    tm = list(client.fetch_tms([{"cid": CID_CODE_DU_TRAVAIL_MARITIME}]))[0]
-    articles = client.fetch_articles(tm)
+    articles = list(
+        client.fetch_articles_from_codes([{"cid": CID_CODE_DU_TRAVAIL_MARITIME}])
+    )
     return get_commits(articles)
 
 
