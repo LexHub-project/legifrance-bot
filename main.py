@@ -202,13 +202,7 @@ if __name__ == "__main__":
     if args.n:
         code_list = code_list[: int(args.n)]
 
-    code_tms = list(client.fetch_tms(code_list))
-
-    articles_by_code: dict[str, list[ArticleJSON]] = {
-        tm["cid"]: client.fetch_articles(tm) for tm in code_tms
-    }
-
-    articles = [a for v in articles_by_code.values() for a in v]
+    articles = client.fetch_articles_from_codes(code_list)
     commits = get_commits(articles)
 
     # Play all commits, we used a generator to make testing easier
