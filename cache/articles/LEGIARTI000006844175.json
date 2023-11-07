@@ -77,8 +77,8 @@
             "sectionParentId": "LEGISCTA000006159816",
             "sectionParentTitre": "CHAPITRE III : EXPLOITATION.",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE II : AERODROMES &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE &gt; CHAPITRE III : EXPLOITATION.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844175",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844175",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -146,8 +146,21 @@
             ],
             "lienCitations": [
                 {
+                    "textCid": "JORFTEXT000000321862",
+                    "textTitle": "Loi n\u00b072-1090 du 8 d\u00e9cembre 1972 - art. 5 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000019028042",
+                    "natureText": "LOI",
+                    "parentCid": null,
+                    "numTexte": "72-1090",
+                    "datePubli": 92707200000,
+                    "dateDebut": 92793600000
+                },
+                {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D212-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D212-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D212-1",
@@ -183,25 +196,21 @@
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": -86227200000
-                },
-                {
-                    "textCid": "JORFTEXT000000321862",
-                    "textTitle": "Loi n\u00b072-1090 du 8 d\u00e9cembre 1972 - art. 5 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "5",
-                    "articleId": "LEGIARTI000019028042",
-                    "natureText": "LOI",
-                    "parentCid": null,
-                    "numTexte": "72-1090",
-                    "datePubli": 92707200000,
-                    "dateDebut": 92793600000
                 }
             ],
             "lienConcordes": [
                 {
                     "textCid": "",
                     "textTitle": "Ancien code de l'aviation civile 81 alin\u00e9a 1",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": ""
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 53-893 1953-09-24 art. 11, alin\u00e9a 1",
                     "linkType": "CONCORDANCE",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -216,15 +225,6 @@
                     "articleNum": "L6321-4",
                     "articleId": "LEGIARTI000023078180",
                     "natureText": "CODE"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "D\u00e9cret 53-893 1953-09-24 art. 11, alin\u00e9a 1",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": ""
                 }
             ],
             "lienAutres": [],

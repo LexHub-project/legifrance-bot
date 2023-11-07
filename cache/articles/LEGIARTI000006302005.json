@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 299635200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698537600000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -68,8 +68,8 @@
             "sectionParentId": "LEGISCTA000006133827",
             "sectionParentTitre": "I : Imp\u00f4ts directs et taxes assimil\u00e9es",
             "fullSectionsTitre": "Livre II : Recouvrement de l'imp\u00f4t &gt; Chapitre I bis : P\u00e9nalit\u00e9s &gt; I : Imp\u00f4ts directs et taxes assimil\u00e9es",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006302005",
+            "refInjection": "MD-20231030_193805_792_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006302005",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -109,17 +109,30 @@
             "numeroBrochure": [],
             "numeroBo": null,
             "conteneurs": [],
-            "lienModifications": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000048276155",
+                    "textTitle": "Arr\u00eat\u00e9 du 27 octobre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048278239",
+                    "natureText": "ARRETE",
+                    "datePubliTexte": "2023-10-29",
+                    "dateSignaTexte": "2023-10-27",
+                    "dateDebutCible": "2023-10-30"
+                }
+            ],
             "lienCitations": [],
             "lienConcordes": [],
             "lienAutres": [],
             "articleVersions": [
                 {
                     "id": "LEGIARTI000006302005",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 299635200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698537600000,
                     "numero": null,
                     "ordre": null
                 }

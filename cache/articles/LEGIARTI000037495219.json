@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1539475200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,12 +31,12 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
@@ -49,21 +49,21 @@
                     },
                     {
                         "debut": "2018-10-14",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : IMMATRICULATION, NATIONALITE, PROPRIETE ET ENREGISTREMENT DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144059",
                         "id": "LEGISCTA000037496872",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2018-10-14",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE IV : ENREGISTREMENT DES AERONEFS CIVILS CIRCULANT SANS PERSONNE A BORD",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000037495206",
                         "id": "LEGISCTA000037495241",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -85,9 +85,9 @@
             "sectionParentCid": "LEGISCTA000037495206",
             "sectionParentId": "LEGISCTA000037495241",
             "sectionParentTitre": "CHAPITRE IV : ENREGISTREMENT DES AERONEFS CIVILS CIRCULANT SANS PERSONNE A BORD",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE II : IMMATRICULATION, NATIONALITE, PROPRIETE ET ENREGISTREMENT DES AERONEFS. &gt; CHAPITRE IV : ENREGISTREMENT DES AERONEFS CIVILS CIRCULANT SANS PERSONNE A BORD",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000037495219",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000037495219",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -139,6 +139,18 @@
                     "datePubliTexte": "2018-10-13",
                     "dateSignaTexte": "2018-10-11",
                     "dateDebutCible": "2018-10-14"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
@@ -166,7 +178,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1314403200000
+                    "dateDebut": 1530403200000
                 }
             ],
             "lienConcordes": [],
@@ -174,10 +186,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000037495219",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1539475200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

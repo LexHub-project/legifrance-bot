@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "8.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1570233600000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,39 +31,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE IV : REDEVANCES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159872",
                         "id": "LEGISCTA000006159872",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2005-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177259",
                         "id": "LEGISCTA000006177259",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -85,9 +85,9 @@
             "sectionParentCid": "LEGISCTA000006177259",
             "sectionParentId": "LEGISCTA000006177259",
             "sectionParentTitre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE IV : REDEVANCES. &gt; Section 1 : Dispositions g\u00e9n\u00e9rales",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000039191075",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000039191075",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -151,6 +151,18 @@
                     "datePubliTexte": "2019-10-04",
                     "dateSignaTexte": "2019-10-03",
                     "dateDebutCible": "2019-10-05"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
@@ -585,7 +597,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R223-6 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R223-6 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R223-6",
@@ -611,7 +623,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3",
@@ -624,7 +636,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3-1",
@@ -663,7 +675,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R260-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R260-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R260-3",
@@ -769,10 +781,10 @@
                 },
                 {
                     "id": "LEGIARTI000039191075",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1570233600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -821,39 +833,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE IV : REDEVANCES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159872",
                         "id": "LEGISCTA000006159872",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2005-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177259",
                         "id": "LEGISCTA000006177259",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -876,8 +888,8 @@
             "sectionParentId": "LEGISCTA000006177259",
             "sectionParentTitre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE IV : REDEVANCES. &gt; Section 1 : Dispositions g\u00e9n\u00e9rales",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000032773011",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000032773011",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1375,7 +1387,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R223-6 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R223-6 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R223-6",
@@ -1401,7 +1413,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3",
@@ -1414,16 +1426,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3-1",
-                    "articleId": "LEGIARTI000043089402",
+                    "articleId": "LEGIARTI000039191110",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1611792000000
+                    "dateDebut": 1570233600000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -1453,7 +1465,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R260-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R260-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R260-3",
@@ -1559,10 +1571,10 @@
                 },
                 {
                     "id": "LEGIARTI000039191075",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1570233600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1611,39 +1623,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE IV : REDEVANCES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159872",
                         "id": "LEGISCTA000006159872",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2005-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177259",
                         "id": "LEGISCTA000006177259",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -1666,8 +1678,8 @@
             "sectionParentId": "LEGISCTA000006177259",
             "sectionParentTitre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE IV : REDEVANCES. &gt; Section 1 : Dispositions g\u00e9n\u00e9rales",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000025039758",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000025039758",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -2178,7 +2190,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R223-6 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R223-6 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R223-6",
@@ -2204,7 +2216,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3",
@@ -2217,16 +2229,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3-1",
-                    "articleId": "LEGIARTI000043089402",
+                    "articleId": "LEGIARTI000039191110",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1611792000000
+                    "dateDebut": 1570233600000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -2256,7 +2268,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R260-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R260-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R260-3",
@@ -2362,10 +2374,10 @@
                 },
                 {
                     "id": "LEGIARTI000039191075",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1570233600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -2414,39 +2426,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE IV : REDEVANCES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159872",
                         "id": "LEGISCTA000006159872",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2005-07-22",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177259",
                         "id": "LEGISCTA000006177259",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -2469,8 +2481,8 @@
             "sectionParentId": "LEGISCTA000006177259",
             "sectionParentTitre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE IV : REDEVANCES. &gt; Section 1 : Dispositions g\u00e9n\u00e9rales",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844753",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844753",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -2981,7 +2993,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R223-6 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R223-6 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R223-6",
@@ -3007,7 +3019,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3",
@@ -3020,16 +3032,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3-1",
-                    "articleId": "LEGIARTI000043089402",
+                    "articleId": "LEGIARTI000039191110",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1611792000000
+                    "dateDebut": 1570233600000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -3072,7 +3084,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R260-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R260-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R260-3",
@@ -3165,10 +3177,10 @@
                 },
                 {
                     "id": "LEGIARTI000039191075",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1570233600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -3217,30 +3229,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE IV : REDEVANCES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159872",
                         "id": "LEGISCTA000006159872",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -3263,8 +3275,8 @@
             "sectionParentId": "LEGISCTA000006159872",
             "sectionParentTitre": "CHAPITRE IV : REDEVANCES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE IV : REDEVANCES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844752",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844752",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -3762,7 +3774,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R223-6 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R223-6 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R223-6",
@@ -3788,7 +3800,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3",
@@ -3801,16 +3813,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3-1",
-                    "articleId": "LEGIARTI000043089402",
+                    "articleId": "LEGIARTI000039191110",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1611792000000
+                    "dateDebut": 1570233600000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -3827,7 +3839,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R260-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R260-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R260-3",
@@ -3930,10 +3942,10 @@
                 },
                 {
                     "id": "LEGIARTI000039191075",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1570233600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -3982,30 +3994,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE IV : REDEVANCES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159872",
                         "id": "LEGISCTA000006159872",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -4028,8 +4040,8 @@
             "sectionParentId": "LEGISCTA000006159872",
             "sectionParentTitre": "CHAPITRE IV : REDEVANCES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE IV : REDEVANCES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844751",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844751",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -4527,7 +4539,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R223-6 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R223-6 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R223-6",
@@ -4553,7 +4565,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3",
@@ -4566,16 +4578,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3-1",
-                    "articleId": "LEGIARTI000043089402",
+                    "articleId": "LEGIARTI000039191110",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1611792000000
+                    "dateDebut": 1570233600000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -4592,7 +4604,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R260-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R260-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R260-3",
@@ -4685,10 +4697,10 @@
                 },
                 {
                     "id": "LEGIARTI000039191075",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1570233600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -4737,30 +4749,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE IV : REDEVANCES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159872",
                         "id": "LEGISCTA000006159872",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -4783,8 +4795,8 @@
             "sectionParentId": "LEGISCTA000006159872",
             "sectionParentTitre": "CHAPITRE IV : REDEVANCES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE IV : REDEVANCES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844750",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844750",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -5282,7 +5294,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R223-6 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R223-6 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R223-6",
@@ -5308,7 +5320,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3",
@@ -5321,16 +5333,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3-1",
-                    "articleId": "LEGIARTI000043089402",
+                    "articleId": "LEGIARTI000039191110",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1611792000000
+                    "dateDebut": 1570233600000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -5347,7 +5359,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R260-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R260-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R260-3",
@@ -5440,10 +5452,10 @@
                 },
                 {
                     "id": "LEGIARTI000039191075",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1570233600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -5492,30 +5504,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE IV : REDEVANCES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159872",
                         "id": "LEGISCTA000006159872",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -5538,8 +5550,8 @@
             "sectionParentId": "LEGISCTA000006159872",
             "sectionParentTitre": "CHAPITRE IV : REDEVANCES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE IV : REDEVANCES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844749",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844749",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -6049,7 +6061,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R223-6 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R223-6 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R223-6",
@@ -6075,7 +6087,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3",
@@ -6088,16 +6100,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R224-3-1 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R224-3-1",
-                    "articleId": "LEGIARTI000043089402",
+                    "articleId": "LEGIARTI000039191110",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1611792000000
+                    "dateDebut": 1570233600000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -6114,7 +6126,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R260-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R260-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R260-3",
@@ -6217,10 +6229,10 @@
                 },
                 {
                     "id": "LEGIARTI000039191075",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1570233600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

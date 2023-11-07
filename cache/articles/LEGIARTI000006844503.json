@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "3.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 918172800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,30 +31,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144060",
                         "id": "LEGISCTA000006144060",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE III : POLICE DE LA CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159858",
                         "id": "LEGISCTA000006159858",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000006159858",
             "sectionParentId": "LEGISCTA000006159858",
             "sectionParentTitre": "CHAPITRE III : POLICE DE LA CIRCULATION DES AERONEFS.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE III : POLICE DE LA CIRCULATION DES AERONEFS.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844505",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844505",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -142,6 +142,18 @@
                     "datePubliTexte": "1999-02-05",
                     "dateSignaTexte": "1999-02-02",
                     "dateDebutCible": "1999-02-05"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
@@ -264,7 +276,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D133-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D133-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D133-1",
@@ -277,7 +289,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D133-5 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D133-5 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D133-5",
@@ -290,7 +302,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D133-7 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D133-7 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D133-7",
@@ -303,7 +315,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R133-1-2 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R133-1-2 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R133-1-2",
@@ -329,7 +341,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R133-10 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R133-10 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R133-10",
@@ -342,7 +354,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R133-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R133-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R133-3",
@@ -502,10 +514,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844505",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 918172800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -554,30 +566,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144060",
                         "id": "LEGISCTA000006144060",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE III : POLICE DE LA CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159858",
                         "id": "LEGISCTA000006159858",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -600,8 +612,8 @@
             "sectionParentId": "LEGISCTA000006159858",
             "sectionParentTitre": "CHAPITRE III : POLICE DE LA CIRCULATION DES AERONEFS.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE III : POLICE DE LA CIRCULATION DES AERONEFS.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844504",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844504",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -787,7 +799,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D133-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D133-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D133-1",
@@ -800,7 +812,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D133-5 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D133-5 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D133-5",
@@ -813,7 +825,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D133-7 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D133-7 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D133-7",
@@ -826,7 +838,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R133-1-2 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R133-1-2 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R133-1-2",
@@ -852,20 +864,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R133-10 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R133-10",
-                    "articleId": "LEGIARTI000006844528",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 100569600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R133-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R133-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R133-3",
@@ -1016,10 +1015,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844505",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 918172800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1068,30 +1067,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144060",
                         "id": "LEGISCTA000006144060",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE III : POLICE DE LA CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159858",
                         "id": "LEGISCTA000006159858",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -1114,8 +1113,8 @@
             "sectionParentId": "LEGISCTA000006159858",
             "sectionParentTitre": "CHAPITRE III : POLICE DE LA CIRCULATION DES AERONEFS.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE III : POLICE DE LA CIRCULATION DES AERONEFS.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844503",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844503",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1313,7 +1312,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D133-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D133-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D133-1",
@@ -1326,7 +1325,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D133-5 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D133-5 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D133-5",
@@ -1339,7 +1338,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D133-7 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D133-7 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D133-7",
@@ -1365,7 +1364,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R133-1-2 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R133-1-2 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R133-1-2",
@@ -1391,20 +1390,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R133-10 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R133-10",
-                    "articleId": "LEGIARTI000006844528",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 100569600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R133-3 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R133-3 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R133-3",
@@ -1555,10 +1541,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844505",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 918172800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

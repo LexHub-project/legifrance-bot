@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "4.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1134000000000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,30 +31,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144060",
                         "id": "LEGISCTA000006144060",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159856",
                         "id": "LEGISCTA000006159856",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000006159856",
             "sectionParentId": "LEGISCTA000006159856",
             "sectionParentTitre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE Ier : DROIT DE CIRCULATION.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844493",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844493",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -142,12 +142,24 @@
                     "datePubliTexte": "2005-12-08",
                     "dateSignaTexte": "2005-12-06",
                     "dateDebutCible": "2005-12-08"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000636079",
-                    "textTitle": "D\u00e9cret 2005-1514 2005-12-06",
+                    "textTitle": "D\u00e9cret n\u00b02005-1514 du 6 d\u00e9cembre 2005",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -156,6 +168,400 @@
                     "parentCid": null,
                     "numTexte": "2005-1514",
                     "datePubli": 1134000000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000017991869",
+                    "textTitle": "D\u00e9cret du 24 janvier 2008 - art. 11, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "11",
+                    "articleId": "JORFARTI000017991926",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1201392000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000019354715",
+                    "textTitle": "D\u00e9cret du 21 ao\u00fbt 2008 - art. 11, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "11",
+                    "articleId": "JORFARTI000019354764",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1219449600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000019779347",
+                    "textTitle": "Arr\u00eat\u00e9 du 18 novembre 2008, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000019779347",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1227398400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000019917638",
+                    "textTitle": "Arr\u00eat\u00e9 du 5 d\u00e9cembre 2008, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000019917638",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1229126400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000020407365",
+                    "textTitle": "Arr\u00eat\u00e9 du 16 mars 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000020407365",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1237420800000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000020567457",
+                    "textTitle": "Arr\u00eat\u00e9 du 28 avril 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000020567457",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1241222400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000020581615",
+                    "textTitle": "Arr\u00eat\u00e9 du 30 avril 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000020581615",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1241568000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000020665196",
+                    "textTitle": "Arr\u00eat\u00e9 du 18 mai 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000020665196",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1243296000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000020686709",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 mai 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000020686709",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1243987200000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000020876356",
+                    "textTitle": "Arr\u00eat\u00e9 du 10 juillet 2009, v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000020876356",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1248134400000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000045684601",
+                    "textTitle": "D\u00e9lib\u00e9ration n\u00b02021-154 du 16 d\u00e9cembre 2021 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000045684602",
+                    "natureText": "DELIBERATION",
+                    "parentCid": null,
+                    "numTexte": "2021-154",
+                    "datePubli": 1651104000000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "JORFTEXT000045803130",
+                    "textTitle": "Arr\u00eat\u00e9 du 16 mai 2022 - art. 1 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000045805753",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1652745600000,
+                    "dateDebut": 1652832000000
+                },
+                {
+                    "textCid": "JORFTEXT000045803832",
+                    "textTitle": "D\u00e9lib\u00e9ration n\u00b02021-153 du 16 d\u00e9cembre 2021 - art., v. init.",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "JORFARTI000045803833",
+                    "natureText": "DELIBERATION",
+                    "parentCid": null,
+                    "numTexte": "2021-153",
+                    "datePubli": 1652745600000,
+                    "dateDebut": 32472144000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074234",
+                    "textTitle": "Code de l'aviation civile - art. L131-3",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L131-3",
+                    "articleId": "LEGIARTI000006844092",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": -86227200000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006844490",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 318211200000,
+                    "dateFin": 811468800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006844491",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 811468800000,
+                    "dateFin": 994982400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006844492",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 811468800000,
+                    "dateFin": 1134000000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006844493",
+                    "etat": "ABROGE",
+                    "version": "4.0",
+                    "dateDebut": 1134000000000,
+                    "dateFin": 1698796800000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R131-4",
+                "131-4"
+            ],
+            "versionPrecedente": "LEGIARTI000006844492",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006844492",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les mesures d'interdiction de survol pr\u00e9vues au premier alin\u00e9a de l'article L. 131-3 sont prises par arr\u00eat\u00e9 du ministre charg\u00e9 de l'aviation civile et, lorsque des raisons d'ordre militaire sont invoqu\u00e9es, par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de l'aviation civile et du ministre charg\u00e9 de la d\u00e9fense. Toutefois, lorsqu'elles pr\u00e9sentent un caract\u00e8re urgent et qu'en outre la zone interdite ne d\u00e9passe pas une hauteur de 1 000 m\u00e8tres au-dessus du sol, et ne concerne pas les zones d'approche imm\u00e9diate des a\u00e9rodromes, les mesures d'interdiction de survol peuvent \u00eatre d\u00e9cid\u00e9es, pour une dur\u00e9e qui ne peut exc\u00e9der quatre jours cons\u00e9cutifs, \u00e9ventuellement renouvelables une fois pour une dur\u00e9e \u00e9gale : En m\u00e9tropole, par arr\u00eat\u00e9 du pr\u00e9fet ou, en ce qui concerne les eaux territoriales, du pr\u00e9fet maritime, apr\u00e8s consultation du directeur de la r\u00e9gion d'aviation civile ou de son repr\u00e9sentant ; Dans les d\u00e9partements d'outre-mer, par arr\u00eat\u00e9 du pr\u00e9fet, apr\u00e8s consultation du directeur r\u00e9gional de l'aviation civile ou, \u00e0 d\u00e9faut de directeur r\u00e9gional, du chef de service de l'aviation civile dans le d\u00e9partement ou de leurs repr\u00e9sentants ; lorsqu'elles concernent les eaux territoriales au large de ces d\u00e9partements, ces mesures sont prises par le d\u00e9l\u00e9gu\u00e9 du Gouvernement institu\u00e9 par le d\u00e9cret n\u00b0 79-413 du 25 mai 1979, apr\u00e8s, outre les avis ci-dessus mentionn\u00e9s, la consultation du commandant de la zone maritime ou de son repr\u00e9sentant ; Dans les territoires d'outre-mer et \u00e0 Mayotte, par arr\u00eat\u00e9 du d\u00e9l\u00e9gu\u00e9 du Gouvernement apr\u00e8s consultation du chef du service d'Etat de l'aviation civile ou de son repr\u00e9sentant ; lorsqu'elles concernent les eaux territoriales au large de ces territoires, ces mesures sont prises par le d\u00e9l\u00e9gu\u00e9 du Gouvernement institu\u00e9 par le d\u00e9cret pr\u00e9cit\u00e9 du 25 mai 1979, apr\u00e8s consultation du chef du service d'Etat de l'aviation civile et du commandant de zone maritime ou de leurs repr\u00e9sentants.",
+            "texteHtml": "<p></p>   Les mesures d'interdiction de survol pr\u00e9vues au premier alin\u00e9a de l'article L. 131-3 sont prises par arr\u00eat\u00e9 du ministre charg\u00e9 de l'aviation civile et, lorsque des raisons d'ordre militaire sont invoqu\u00e9es, par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de l'aviation civile et du ministre charg\u00e9 de la d\u00e9fense.<p></p><p></p>   Toutefois, lorsqu'elles pr\u00e9sentent un caract\u00e8re urgent et qu'en outre la zone interdite ne d\u00e9passe pas une hauteur de 1 000 m\u00e8tres au-dessus du sol, et ne concerne pas les zones d'approche imm\u00e9diate des a\u00e9rodromes, les mesures d'interdiction de survol peuvent \u00eatre d\u00e9cid\u00e9es, pour une dur\u00e9e qui ne peut exc\u00e9der quatre jours cons\u00e9cutifs, \u00e9ventuellement renouvelables une fois pour une dur\u00e9e \u00e9gale :<p></p><p></p>   En m\u00e9tropole, par arr\u00eat\u00e9 du pr\u00e9fet ou, en ce qui concerne les eaux territoriales, du pr\u00e9fet maritime, apr\u00e8s consultation du directeur de la r\u00e9gion d'aviation civile ou de son repr\u00e9sentant ;<p></p><p></p>   Dans les d\u00e9partements d'outre-mer, par arr\u00eat\u00e9 du pr\u00e9fet, apr\u00e8s consultation du directeur r\u00e9gional de l'aviation civile ou, \u00e0 d\u00e9faut de directeur r\u00e9gional, du chef de service de l'aviation civile dans le d\u00e9partement ou de leurs repr\u00e9sentants ; lorsqu'elles concernent les eaux territoriales au large de ces d\u00e9partements, ces mesures sont prises par le d\u00e9l\u00e9gu\u00e9 du Gouvernement institu\u00e9 par le d\u00e9cret n\u00b0 79-413 du 25 mai 1979, apr\u00e8s, outre les avis ci-dessus mentionn\u00e9s, la consultation du commandant de la zone maritime ou de son repr\u00e9sentant ;<p></p><p></p>   Dans les territoires d'outre-mer et \u00e0 Mayotte, par arr\u00eat\u00e9 du d\u00e9l\u00e9gu\u00e9 du Gouvernement apr\u00e8s consultation du chef du service d'Etat de l'aviation civile ou de son repr\u00e9sentant ; lorsqu'elles concernent les eaux territoriales au large de ces territoires, ces mesures sont prises par le d\u00e9l\u00e9gu\u00e9 du Gouvernement institu\u00e9 par le d\u00e9cret pr\u00e9cit\u00e9 du 25 mai 1979, apr\u00e8s consultation du chef du service d'Etat de l'aviation civile et du commandant de zone maritime ou de leurs repr\u00e9sentants.<p></p>",
+            "num": "R131-4",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 811468800000,
+            "dateFin": 1134000000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 214745,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1967-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108722",
+                        "id": "LEGISCTA000006108722",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1967-04-09",
+                        "fin": "2023-11-01",
+                        "titre": "LIVRE Ier : AERONEFS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129147",
+                        "id": "LEGISCTA000006129147",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1967-04-09",
+                        "fin": "2023-11-01",
+                        "titre": "TITRE III : CIRCULATION DES AERONEFS.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006144060",
+                        "id": "LEGISCTA000006144060",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1967-04-09",
+                        "fin": "2023-11-01",
+                        "titre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006159856",
+                        "id": "LEGISCTA000006159856",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1967-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'aviation civile",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074234",
+                        "id": "LEGITEXT000006074234",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006844490",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006159856",
+            "sectionParentId": "LEGISCTA000006159856",
+            "sectionParentTitre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE Ier : DROIT DE CIRCULATION.",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844492",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074234",
+                    "titre": "Code de l'aviation civile",
+                    "titreLong": "Code de l'aviation civile",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -86227200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074234",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000852674",
+                    "textTitle": "D\u00e9cret 67-334 1967-03-30",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000852674",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "1967-04-09",
+                    "dateSignaTexte": "1967-03-30",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "",
+                    "textTitle": "D\u00e9cret 2001-616 2001-07-11 art. 75 JORF 13 juillet 2001",
+                    "linkType": "MODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000000703095",
+                    "textTitle": "D\u00e9cret 79-413 1979-05-25",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000703095",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "79-413",
+                    "datePubli": 296611200000,
                     "dateDebut": 32472144000000
                 },
                 {
@@ -373,10 +779,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844493",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1134000000000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -385,7 +791,7 @@
                 "R131-4",
                 "131-4"
             ],
-            "versionPrecedente": "LEGIARTI000006844492",
+            "versionPrecedente": "LEGIARTI000006844491",
             "conditionDiffere": null,
             "historique": null,
             "surtitre": null,
@@ -425,30 +831,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144060",
                         "id": "LEGISCTA000006144060",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159856",
                         "id": "LEGISCTA000006159856",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -471,8 +877,8 @@
             "sectionParentId": "LEGISCTA000006159856",
             "sectionParentTitre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE Ier : DROIT DE CIRCULATION.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844491",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844491",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -777,10 +1183,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844493",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1134000000000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -790,400 +1196,6 @@
                 "131-4"
             ],
             "versionPrecedente": "LEGIARTI000006844490",
-            "conditionDiffere": null,
-            "historique": null,
-            "surtitre": null,
-            "renvoi": null,
-            "infosComplementaires": null,
-            "infosComplementairesHtml": null,
-            "infosRestructurationBranche": null,
-            "infosRestructurationBrancheHtml": null
-        },
-        {
-            "id": "LEGIARTI000006844492",
-            "idTexte": null,
-            "type": "AUTONOME",
-            "texte": "Les mesures d'interdiction de survol pr\u00e9vues au premier alin\u00e9a de l'article L. 131-3 sont prises par arr\u00eat\u00e9 du ministre charg\u00e9 de l'aviation civile et, lorsque des raisons d'ordre militaire sont invoqu\u00e9es, par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de l'aviation civile et du ministre charg\u00e9 de la d\u00e9fense. Toutefois, lorsqu'elles pr\u00e9sentent un caract\u00e8re urgent et qu'en outre la zone interdite ne d\u00e9passe pas une hauteur de 1 000 m\u00e8tres au-dessus du sol, et ne concerne pas les zones d'approche imm\u00e9diate des a\u00e9rodromes, les mesures d'interdiction de survol peuvent \u00eatre d\u00e9cid\u00e9es, pour une dur\u00e9e qui ne peut exc\u00e9der quatre jours cons\u00e9cutifs, \u00e9ventuellement renouvelables une fois pour une dur\u00e9e \u00e9gale : En m\u00e9tropole, par arr\u00eat\u00e9 du pr\u00e9fet ou, en ce qui concerne les eaux territoriales, du pr\u00e9fet maritime, apr\u00e8s consultation du directeur de la r\u00e9gion d'aviation civile ou de son repr\u00e9sentant ; Dans les d\u00e9partements d'outre-mer, par arr\u00eat\u00e9 du pr\u00e9fet, apr\u00e8s consultation du directeur r\u00e9gional de l'aviation civile ou, \u00e0 d\u00e9faut de directeur r\u00e9gional, du chef de service de l'aviation civile dans le d\u00e9partement ou de leurs repr\u00e9sentants ; lorsqu'elles concernent les eaux territoriales au large de ces d\u00e9partements, ces mesures sont prises par le d\u00e9l\u00e9gu\u00e9 du Gouvernement institu\u00e9 par le d\u00e9cret n\u00b0 79-413 du 25 mai 1979, apr\u00e8s, outre les avis ci-dessus mentionn\u00e9s, la consultation du commandant de la zone maritime ou de son repr\u00e9sentant ; Dans les territoires d'outre-mer et \u00e0 Mayotte, par arr\u00eat\u00e9 du d\u00e9l\u00e9gu\u00e9 du Gouvernement apr\u00e8s consultation du chef du service d'Etat de l'aviation civile ou de son repr\u00e9sentant ; lorsqu'elles concernent les eaux territoriales au large de ces territoires, ces mesures sont prises par le d\u00e9l\u00e9gu\u00e9 du Gouvernement institu\u00e9 par le d\u00e9cret pr\u00e9cit\u00e9 du 25 mai 1979, apr\u00e8s consultation du chef du service d'Etat de l'aviation civile et du commandant de zone maritime ou de leurs repr\u00e9sentants.",
-            "texteHtml": "<p></p>   Les mesures d'interdiction de survol pr\u00e9vues au premier alin\u00e9a de l'article L. 131-3 sont prises par arr\u00eat\u00e9 du ministre charg\u00e9 de l'aviation civile et, lorsque des raisons d'ordre militaire sont invoqu\u00e9es, par arr\u00eat\u00e9 conjoint du ministre charg\u00e9 de l'aviation civile et du ministre charg\u00e9 de la d\u00e9fense.<p></p><p></p>   Toutefois, lorsqu'elles pr\u00e9sentent un caract\u00e8re urgent et qu'en outre la zone interdite ne d\u00e9passe pas une hauteur de 1 000 m\u00e8tres au-dessus du sol, et ne concerne pas les zones d'approche imm\u00e9diate des a\u00e9rodromes, les mesures d'interdiction de survol peuvent \u00eatre d\u00e9cid\u00e9es, pour une dur\u00e9e qui ne peut exc\u00e9der quatre jours cons\u00e9cutifs, \u00e9ventuellement renouvelables une fois pour une dur\u00e9e \u00e9gale :<p></p><p></p>   En m\u00e9tropole, par arr\u00eat\u00e9 du pr\u00e9fet ou, en ce qui concerne les eaux territoriales, du pr\u00e9fet maritime, apr\u00e8s consultation du directeur de la r\u00e9gion d'aviation civile ou de son repr\u00e9sentant ;<p></p><p></p>   Dans les d\u00e9partements d'outre-mer, par arr\u00eat\u00e9 du pr\u00e9fet, apr\u00e8s consultation du directeur r\u00e9gional de l'aviation civile ou, \u00e0 d\u00e9faut de directeur r\u00e9gional, du chef de service de l'aviation civile dans le d\u00e9partement ou de leurs repr\u00e9sentants ; lorsqu'elles concernent les eaux territoriales au large de ces d\u00e9partements, ces mesures sont prises par le d\u00e9l\u00e9gu\u00e9 du Gouvernement institu\u00e9 par le d\u00e9cret n\u00b0 79-413 du 25 mai 1979, apr\u00e8s, outre les avis ci-dessus mentionn\u00e9s, la consultation du commandant de la zone maritime ou de son repr\u00e9sentant ;<p></p><p></p>   Dans les territoires d'outre-mer et \u00e0 Mayotte, par arr\u00eat\u00e9 du d\u00e9l\u00e9gu\u00e9 du Gouvernement apr\u00e8s consultation du chef du service d'Etat de l'aviation civile ou de son repr\u00e9sentant ; lorsqu'elles concernent les eaux territoriales au large de ces territoires, ces mesures sont prises par le d\u00e9l\u00e9gu\u00e9 du Gouvernement institu\u00e9 par le d\u00e9cret pr\u00e9cit\u00e9 du 25 mai 1979, apr\u00e8s consultation du chef du service d'Etat de l'aviation civile et du commandant de zone maritime ou de leurs repr\u00e9sentants.<p></p>",
-            "num": "R131-4",
-            "origine": "LEGI",
-            "nature": "Article",
-            "versionArticle": "3.0",
-            "etat": "MODIFIE",
-            "dateDebut": 811468800000,
-            "dateFin": 1134000000000,
-            "dateDebutExtension": 32472144000000,
-            "dateFinExtension": 32472144000000,
-            "inap": null,
-            "ordre": 214745,
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "1967-04-09",
-                        "fin": "2999-01-01",
-                        "titre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006108722",
-                        "id": "LEGISCTA000006108722",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1967-04-09",
-                        "fin": "2999-01-01",
-                        "titre": "LIVRE Ier : AERONEFS",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006129147",
-                        "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1967-04-09",
-                        "fin": "2999-01-01",
-                        "titre": "TITRE III : CIRCULATION DES AERONEFS.",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006144060",
-                        "id": "LEGISCTA000006144060",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1967-04-09",
-                        "fin": "2999-01-01",
-                        "titre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006159856",
-                        "id": "LEGISCTA000006159856",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 1,
-                "longeurChemin": 44,
-                "titreTxt": [
-                    {
-                        "debut": "1967-04-09",
-                        "fin": "2999-01-01",
-                        "titre": "Code de l'aviation civile",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074234",
-                        "id": "LEGITEXT000006074234",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "cid": "LEGIARTI000006844490",
-            "cidTexte": null,
-            "sectionParentCid": "LEGISCTA000006159856",
-            "sectionParentId": "LEGISCTA000006159856",
-            "sectionParentTitre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE Ier : DROIT DE CIRCULATION.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844492",
-            "idEli": null,
-            "idEliAlias": null,
-            "calipsos": [],
-            "textTitles": [
-                {
-                    "id": "LEGITEXT000006074234",
-                    "titre": "Code de l'aviation civile",
-                    "titreLong": "Code de l'aviation civile",
-                    "etat": "VIGUEUR",
-                    "dateDebut": -86227200000,
-                    "dateFin": 32472144000000,
-                    "cid": "LEGITEXT000006074234",
-                    "datePubli": 32472144000000,
-                    "datePubliComputed": null,
-                    "dateTexte": 32472144000000,
-                    "dateTexteComputed": null,
-                    "nature": "CODE",
-                    "nor": "",
-                    "num": "",
-                    "numParution": "",
-                    "originePubli": "",
-                    "appliGeo": null,
-                    "codesNomenclatures": [],
-                    "visas": null,
-                    "nota": null,
-                    "notice": null,
-                    "travauxPreparatoires": null,
-                    "signataires": null,
-                    "dossiersLegislatifs": [],
-                    "ancienId": null,
-                    "appellations": null
-                }
-            ],
-            "nota": "",
-            "notaHtml": "",
-            "activitePro": [],
-            "numeroBrochure": [],
-            "numeroBo": null,
-            "conteneurs": [],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000000852674",
-                    "textTitle": "D\u00e9cret 67-334 1967-03-30",
-                    "linkType": "CODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000852674",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "1967-04-09",
-                    "dateSignaTexte": "1967-03-30",
-                    "dateDebutCible": "2999-01-01"
-                },
-                {
-                    "textCid": "",
-                    "textTitle": "D\u00e9cret 2001-616 2001-07-11 art. 75 JORF 13 juillet 2001",
-                    "linkType": "MODIFICATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "",
-                    "natureText": "",
-                    "datePubliTexte": null,
-                    "dateSignaTexte": null,
-                    "dateDebutCible": null
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "JORFTEXT000000703095",
-                    "textTitle": "D\u00e9cret 79-413 1979-05-25",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000703095",
-                    "natureText": "DECRET",
-                    "parentCid": null,
-                    "numTexte": "79-413",
-                    "datePubli": 296611200000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000017991869",
-                    "textTitle": "D\u00e9cret du 24 janvier 2008 - art. 11, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "11",
-                    "articleId": "JORFARTI000017991926",
-                    "natureText": "DECRET",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1201392000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000019354715",
-                    "textTitle": "D\u00e9cret du 21 ao\u00fbt 2008 - art. 11, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "11",
-                    "articleId": "JORFARTI000019354764",
-                    "natureText": "DECRET",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1219449600000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000019779347",
-                    "textTitle": "Arr\u00eat\u00e9 du 18 novembre 2008, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000019779347",
-                    "natureText": "ARRETE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1227398400000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000019917638",
-                    "textTitle": "Arr\u00eat\u00e9 du 5 d\u00e9cembre 2008, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000019917638",
-                    "natureText": "ARRETE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1229126400000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000020407365",
-                    "textTitle": "Arr\u00eat\u00e9 du 16 mars 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000020407365",
-                    "natureText": "ARRETE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1237420800000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000020567457",
-                    "textTitle": "Arr\u00eat\u00e9 du 28 avril 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000020567457",
-                    "natureText": "ARRETE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1241222400000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000020581615",
-                    "textTitle": "Arr\u00eat\u00e9 du 30 avril 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000020581615",
-                    "natureText": "ARRETE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1241568000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000020665196",
-                    "textTitle": "Arr\u00eat\u00e9 du 18 mai 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000020665196",
-                    "natureText": "ARRETE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1243296000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000020686709",
-                    "textTitle": "Arr\u00eat\u00e9 du 26 mai 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000020686709",
-                    "natureText": "ARRETE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1243987200000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000020876356",
-                    "textTitle": "Arr\u00eat\u00e9 du 10 juillet 2009, v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000020876356",
-                    "natureText": "ARRETE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1248134400000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000045684601",
-                    "textTitle": "D\u00e9lib\u00e9ration n\u00b02021-154 du 16 d\u00e9cembre 2021 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000045684602",
-                    "natureText": "DELIBERATION",
-                    "parentCid": null,
-                    "numTexte": "2021-154",
-                    "datePubli": 1651104000000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "JORFTEXT000045803130",
-                    "textTitle": "Arr\u00eat\u00e9 du 16 mai 2022 - art. 1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "1",
-                    "articleId": "LEGIARTI000045805753",
-                    "natureText": "ARRETE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 1652745600000,
-                    "dateDebut": 1652832000000
-                },
-                {
-                    "textCid": "JORFTEXT000045803832",
-                    "textTitle": "D\u00e9lib\u00e9ration n\u00b02021-153 du 16 d\u00e9cembre 2021 - art., v. init.",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "",
-                    "articleId": "JORFARTI000045803833",
-                    "natureText": "DELIBERATION",
-                    "parentCid": null,
-                    "numTexte": "2021-153",
-                    "datePubli": 1652745600000,
-                    "dateDebut": 32472144000000
-                },
-                {
-                    "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. L131-3 (M)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L131-3",
-                    "articleId": "LEGIARTI000006844092",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": -86227200000
-                }
-            ],
-            "lienConcordes": [],
-            "lienAutres": [],
-            "articleVersions": [
-                {
-                    "id": "LEGIARTI000006844490",
-                    "etat": "MODIFIE",
-                    "version": "1.0",
-                    "dateDebut": 318211200000,
-                    "dateFin": 811468800000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000006844491",
-                    "etat": "MODIFIE",
-                    "version": "2.0",
-                    "dateDebut": 811468800000,
-                    "dateFin": 994982400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000006844492",
-                    "etat": "MODIFIE",
-                    "version": "3.0",
-                    "dateDebut": 811468800000,
-                    "dateFin": 1134000000000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000006844493",
-                    "etat": "VIGUEUR",
-                    "version": "4.0",
-                    "dateDebut": 1134000000000,
-                    "dateFin": 32472144000000,
-                    "numero": null,
-                    "ordre": null
-                }
-            ],
-            "computedNums": [
-                "R131-4",
-                "131-4"
-            ],
-            "versionPrecedente": "LEGIARTI000006844491",
             "conditionDiffere": null,
             "historique": null,
             "surtitre": null,
@@ -1223,30 +1235,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144060",
                         "id": "LEGISCTA000006144060",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159856",
                         "id": "LEGISCTA000006159856",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -1269,8 +1281,8 @@
             "sectionParentId": "LEGISCTA000006159856",
             "sectionParentTitre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE Ier : DROIT DE CIRCULATION.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844490",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844490",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1565,10 +1577,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844493",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1134000000000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

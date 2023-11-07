@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "4.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1538611200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,30 +31,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2000-02-17",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VII : ENVIRONNEMENT DES AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159875",
                         "id": "LEGISCTA000006159875",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2004-10-05",
@@ -67,12 +67,12 @@
                     },
                     {
                         "debut": "2010-04-29",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : Autorit\u00e9 de contr\u00f4le des nuisances sonores     a\u00e9roportuaires (ACNUSA)",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177274",
                         "id": "LEGISCTA000022143740",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -94,9 +94,9 @@
             "sectionParentCid": "LEGISCTA000006177274",
             "sectionParentId": "LEGISCTA000022143740",
             "sectionParentTitre": "Section 1 : Autorit\u00e9 de contr\u00f4le des nuisances sonores     a\u00e9roportuaires (ACNUSA)",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE VII : ENVIRONNEMENT DES AERODROMES. &gt; Section 1 : Autorit\u00e9 de contr\u00f4le des nuisances sonores     a\u00e9roportuaires (ACNUSA)",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000037460071",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000037460071",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -148,6 +148,18 @@
                     "datePubliTexte": "2018-10-03",
                     "dateSignaTexte": "2018-10-02",
                     "dateDebutCible": "2018-10-04"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
@@ -179,16 +191,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R227-1",
+                    "textTitle": "Code de l'aviation civile - art. R227-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "R227-1",
-                    "articleId": "LEGIARTI000006844792",
+                    "articleId": "LEGIARTI000037460064",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1096934400000
+                    "dateDebut": 1538611200000
                 }
             ],
             "lienConcordes": [],
@@ -223,10 +235,10 @@
                 },
                 {
                     "id": "LEGIARTI000037460071",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1538611200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -275,30 +287,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2000-02-17",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VII : ENVIRONNEMENT DES AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159875",
                         "id": "LEGISCTA000006159875",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2004-10-05",
@@ -311,12 +323,12 @@
                     },
                     {
                         "debut": "2010-04-29",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : Autorit\u00e9 de contr\u00f4le des nuisances sonores     a\u00e9roportuaires (ACNUSA)",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177274",
                         "id": "LEGISCTA000022143740",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -339,8 +351,8 @@
             "sectionParentId": "LEGISCTA000022143740",
             "sectionParentTitre": "Section 1 : Autorit\u00e9 de contr\u00f4le des nuisances sonores     a\u00e9roportuaires (ACNUSA)",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE VII : ENVIRONNEMENT DES AERODROMES. &gt; Section 1 : Autorit\u00e9 de contr\u00f4le des nuisances sonores     a\u00e9roportuaires (ACNUSA)",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000022143733",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000022143733",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -467,10 +479,10 @@
                 },
                 {
                     "id": "LEGIARTI000037460071",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1538611200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -519,30 +531,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2000-02-17",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VII : ENVIRONNEMENT DES AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159875",
                         "id": "LEGISCTA000006159875",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2004-10-05",
@@ -555,12 +567,12 @@
                     },
                     {
                         "debut": "2010-04-29",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : Autorit\u00e9 de contr\u00f4le des nuisances sonores     a\u00e9roportuaires (ACNUSA)",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177274",
                         "id": "LEGISCTA000022143740",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -583,8 +595,8 @@
             "sectionParentId": "LEGISCTA000022143740",
             "sectionParentTitre": "Section 1 : Autorit\u00e9 de contr\u00f4le des nuisances sonores     a\u00e9roportuaires (ACNUSA)",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE VII : ENVIRONNEMENT DES AERODROMES. &gt; Section 1 : Autorit\u00e9 de contr\u00f4le des nuisances sonores     a\u00e9roportuaires (ACNUSA)",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844796",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844796",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -710,10 +722,10 @@
                 },
                 {
                     "id": "LEGIARTI000037460071",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1538611200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -762,30 +774,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144065",
                         "id": "LEGISCTA000006144065",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2000-02-17",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VII : ENVIRONNEMENT DES AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159875",
                         "id": "LEGISCTA000006159875",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -808,8 +820,8 @@
             "sectionParentId": "LEGISCTA000006159875",
             "sectionParentTitre": "CHAPITRE VII : ENVIRONNEMENT DES AERODROMES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE II : AERODROMES OUVERTS A LA CIRCULATION AERIENNE PUBLIQUE. &gt; CHAPITRE VII : ENVIRONNEMENT DES AERODROMES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844795",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844795",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -945,10 +957,10 @@
                 },
                 {
                     "id": "LEGIARTI000037460071",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1538611200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

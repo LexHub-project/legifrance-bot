@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1539475200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -22,48 +22,48 @@
                 "titresTM": [
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Partie r\u00e9glementaire - D\u00e9crets simples",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
                         "cid": "LEGISCTA000006108720",
                         "id": "LEGISCTA000006108720",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129128",
                         "id": "LEGISCTA000006129128",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144002",
                         "id": "LEGISCTA000006144002",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2018-02-05",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : R\u00c8GLES RELATIVES \u00c0 LA CIRCULATION DES A\u00c9RONEFS OP\u00c9R\u00c9S SANS PERSONNE \u00c0 BORD",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000036572421",
                         "id": "LEGISCTA000036572421",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2018-10-14",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 3 : R\u00e8gles relatives \u00e0 la limitation de capacit\u00e9s des a\u00e9ronefs civils circulant sans personne \u00e0 bord",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000037495319",
                         "id": "LEGISCTA000037495322",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -85,9 +85,9 @@
             "sectionParentCid": "LEGISCTA000037495319",
             "sectionParentId": "LEGISCTA000037495322",
             "sectionParentTitre": "Section 3 : R\u00e8gles relatives \u00e0 la limitation de capacit\u00e9s des a\u00e9ronefs civils circulant sans personne \u00e0 bord",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; LIVRE Ier : AERONEFS. &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE VI : R\u00c8GLES RELATIVES \u00c0 LA CIRCULATION DES A\u00c9RONEFS OP\u00c9R\u00c9S SANS PERSONNE \u00c0 BORD &gt; Section 3 : R\u00e8gles relatives \u00e0 la limitation de capacit\u00e9s des a\u00e9ronefs civils circulant sans personne \u00e0 bord",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000037495336",
+            "fullSectionsTitre": null,
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000037495336",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -139,6 +139,18 @@
                     "datePubliTexte": "2018-10-13",
                     "dateSignaTexte": "2018-10-11",
                     "dateDebutCible": "2018-10-14"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [],
@@ -147,10 +159,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000037495336",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1539475200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

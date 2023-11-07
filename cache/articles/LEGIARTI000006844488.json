@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 668476800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,30 +31,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144060",
                         "id": "LEGISCTA000006144060",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159856",
                         "id": "LEGISCTA000006159856",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000006159856",
             "sectionParentId": "LEGISCTA000006159856",
             "sectionParentTitre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE Ier : DROIT DE CIRCULATION.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844489",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844489",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -121,7 +121,7 @@
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000852674",
-                    "textTitle": "D\u00e9cret 67-334 1967-03-30",
+                    "textTitle": "D\u00e9cret n\u00b0 67-334 du 30 mars 1967",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -142,6 +142,18 @@
                     "datePubliTexte": "1991-03-09",
                     "dateSignaTexte": "1991-03-04",
                     "dateDebutCible": "1991-03-09"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
@@ -289,6 +301,19 @@
                     "dateDebut": 1688342400000
                 },
                 {
+                    "textCid": "JORFTEXT000046847745",
+                    "textTitle": "D\u00e9cret n\u00b02022-1757 du 30 d\u00e9cembre 2022 - art. 25",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "25",
+                    "articleId": "LEGIARTI000046864249",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2022-1757",
+                    "datePubli": 1672444800000,
+                    "dateDebut": 1672531200000
+                },
+                {
                     "textCid": "JORFTEXT000047774245",
                     "textTitle": "Arr\u00eat\u00e9 du 15 mai 2023 - art. 2 (V)",
                     "linkType": "CITATION",
@@ -303,7 +328,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D233-8 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D233-8 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D233-8",
@@ -316,7 +341,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R151-1 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R151-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R151-1",
@@ -338,19 +363,6 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1672531200000
-                },
-                {
-                    "textCid": "JORFTEXT000046847745",
-                    "textTitle": "D\u00e9cret n\u00b02022-1757 du 30 d\u00e9cembre 2022 - art. 25",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "25",
-                    "articleId": "LEGIARTI000046864249",
-                    "natureText": "DECRET",
-                    "parentCid": null,
-                    "numTexte": "2022-1757",
-                    "datePubli": 1672444800000,
                     "dateDebut": 1672531200000
                 }
             ],
@@ -415,10 +427,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844489",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 668476800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -467,30 +479,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144060",
                         "id": "LEGISCTA000006144060",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159856",
                         "id": "LEGISCTA000006159856",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -513,8 +525,8 @@
             "sectionParentId": "LEGISCTA000006159856",
             "sectionParentTitre": "CHAPITRE Ier : DROIT DE CIRCULATION.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE Ier : DROIT DE CIRCULATION.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844488",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844488",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -725,6 +737,19 @@
                     "dateDebut": 1688342400000
                 },
                 {
+                    "textCid": "JORFTEXT000046847745",
+                    "textTitle": "D\u00e9cret n\u00b02022-1757 du 30 d\u00e9cembre 2022 - art. 25",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "25",
+                    "articleId": "LEGIARTI000046864249",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2022-1757",
+                    "datePubli": 1672444800000,
+                    "dateDebut": 1672531200000
+                },
+                {
                     "textCid": "JORFTEXT000047774245",
                     "textTitle": "Arr\u00eat\u00e9 du 15 mai 2023 - art. 2 (V)",
                     "linkType": "CITATION",
@@ -739,7 +764,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D233-8 (V)",
+                    "textTitle": "Code de l'aviation civile - art. D233-8 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "D233-8",
@@ -752,16 +777,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R151-1 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R151-1 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R151-1",
-                    "articleId": "LEGIARTI000046521922",
+                    "articleId": "LEGIARTI000022934466",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1672531200000
+                    "dateDebut": 1287705600000
                 },
                 {
                     "textCid": "LEGITEXT000006074220",
@@ -774,19 +799,6 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1672531200000
-                },
-                {
-                    "textCid": "JORFTEXT000046847745",
-                    "textTitle": "D\u00e9cret n\u00b02022-1757 du 30 d\u00e9cembre 2022 - art. 25",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "25",
-                    "articleId": "LEGIARTI000046864249",
-                    "natureText": "DECRET",
-                    "parentCid": null,
-                    "numTexte": "2022-1757",
-                    "datePubli": 1672444800000,
                     "dateDebut": 1672531200000
                 }
             ],
@@ -841,10 +853,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844489",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 668476800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

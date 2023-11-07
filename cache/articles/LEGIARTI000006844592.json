@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "6.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1661990400000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,30 +31,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1999-06-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144063",
                         "id": "LEGISCTA000006144063",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2022-04-30",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000045810726",
                         "id": "LEGISCTA000045810726",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000045810726",
             "sectionParentId": "LEGISCTA000045810726",
             "sectionParentTitre": "Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES. &gt; Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000046079974",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046079974",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -130,6 +130,245 @@
                     "datePubliTexte": "2022-07-21",
                     "dateSignaTexte": "2022-07-20",
                     "dateDebutCible": "2022-09-01"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006074234",
+                    "textTitle": "Code de l'aviation civile - art. R160-7 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R160-7",
+                    "articleId": "LEGIARTI000045811174",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1651276800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006844592",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 928886400000,
+                    "dateFin": 1075939200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006844593",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1075939200000,
+                    "dateFin": 1179187200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006844594",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1179187200000,
+                    "dateFin": 1230768000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000020044603",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1230768000000,
+                    "dateFin": 1278806400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000022474764",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1278806400000,
+                    "dateFin": 1651276800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000045811187",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1651276800000,
+                    "dateFin": 1661990400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000046079974",
+                    "etat": "ABROGE",
+                    "version": "6.0",
+                    "dateDebut": 1661990400000,
+                    "dateFin": 1698796800000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R160-5",
+                "160-5"
+            ],
+            "versionPrecedente": "LEGIARTI000045811187",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000045811187",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Outre le pr\u00e9sident nomm\u00e9 par d\u00e9cret pris sur le rapport du ministre charg\u00e9 de l'aviation civile parmi les membres ou anciens membres du Conseil d'Etat, le coll\u00e8ge permanent est compos\u00e9 de cinq membres titulaires et d'un nombre \u00e9gal de suppl\u00e9ants nomm\u00e9s par arr\u00eat\u00e9 du ministre charg\u00e9 de l'aviation civile : - quatre membres repr\u00e9sentant l'Etat : un membre du Conseil g\u00e9n\u00e9ral de l'environnement et du d\u00e9veloppement durable, un repr\u00e9sentant du ministre charg\u00e9 de l'aviation civile, un membre de la gendarmerie des transports a\u00e9riens d\u00e9sign\u00e9 sur proposition du ministre de l'int\u00e9rieur et un repr\u00e9sentant du ministre charg\u00e9 de l'\u00e9conomie et des finances d\u00e9sign\u00e9 sur proposition de celui-ci ; - une personnalit\u00e9 qualifi\u00e9e choisie en raison de ses comp\u00e9tences dans le domaine de l'aviation civile. Le vice-pr\u00e9sident, choisi parmi les membres du coll\u00e8ge permanent, est nomm\u00e9 par d\u00e9cret sur le rapport du ministre charg\u00e9 de l'aviation civile.",
+            "texteHtml": "<p>Outre le pr\u00e9sident nomm\u00e9 par d\u00e9cret pris sur le rapport du ministre charg\u00e9 de l'aviation civile parmi les membres ou anciens membres du Conseil d'Etat, le coll\u00e8ge permanent est compos\u00e9 de cinq membres titulaires et d'un nombre \u00e9gal de suppl\u00e9ants nomm\u00e9s par arr\u00eat\u00e9 du ministre charg\u00e9 de l'aviation civile :</p><p>- quatre membres repr\u00e9sentant l'Etat : un membre du Conseil g\u00e9n\u00e9ral de l'environnement et du d\u00e9veloppement durable, un repr\u00e9sentant du ministre charg\u00e9 de l'aviation civile, un membre de la gendarmerie des transports a\u00e9riens d\u00e9sign\u00e9 sur proposition du ministre de l'int\u00e9rieur et un repr\u00e9sentant du ministre charg\u00e9 de l'\u00e9conomie et des finances d\u00e9sign\u00e9 sur proposition de celui-ci ;</p><p>- une personnalit\u00e9 qualifi\u00e9e choisie en raison de ses comp\u00e9tences dans le domaine de l'aviation civile. </p><p>Le vice-pr\u00e9sident, choisi parmi les membres du coll\u00e8ge permanent, est nomm\u00e9 par d\u00e9cret sur le rapport du ministre charg\u00e9 de l'aviation civile.</p>",
+            "num": "R160-5",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "5.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1651276800000,
+            "dateFin": 1661990400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 671088635,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1967-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006108722",
+                        "id": "LEGISCTA000006108722",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1967-04-09",
+                        "fin": "2023-11-01",
+                        "titre": "LIVRE Ier : AERONEFS",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006129147",
+                        "id": "LEGISCTA000006129147",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "1999-06-09",
+                        "fin": "2023-11-01",
+                        "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006144063",
+                        "id": "LEGISCTA000006144063",
+                        "etat": "ABROGE"
+                    },
+                    {
+                        "debut": "2022-04-30",
+                        "fin": "2023-11-01",
+                        "titre": "Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000045810726",
+                        "id": "LEGISCTA000045810726",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 44,
+                "titreTxt": [
+                    {
+                        "debut": "1967-04-09",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'aviation civile",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006074234",
+                        "id": "LEGITEXT000006074234",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006844592",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000045810726",
+            "sectionParentId": "LEGISCTA000045810726",
+            "sectionParentTitre": "Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES. &gt; Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000045811187",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006074234",
+                    "titre": "Code de l'aviation civile",
+                    "titreLong": "Code de l'aviation civile",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -86227200000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006074234",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000045697168",
+                    "textTitle": "D\u00e9cret n\u00b02022-746 du 27 avril 2022 - art. 2",
+                    "linkType": "DEPLACE",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000045810338",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2022-04-29",
+                    "dateSignaTexte": "2022-04-27",
+                    "dateDebutCible": "2022-04-30"
                 }
             ],
             "lienCitations": [
@@ -206,237 +445,10 @@
                 },
                 {
                     "id": "LEGIARTI000046079974",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "6.0",
                     "dateDebut": 1661990400000,
-                    "dateFin": 32472144000000,
-                    "numero": null,
-                    "ordre": null
-                }
-            ],
-            "computedNums": [
-                "R160-5",
-                "160-5"
-            ],
-            "versionPrecedente": "LEGIARTI000045811187",
-            "conditionDiffere": null,
-            "historique": null,
-            "surtitre": null,
-            "renvoi": null,
-            "infosComplementaires": null,
-            "infosComplementairesHtml": null,
-            "infosRestructurationBranche": null,
-            "infosRestructurationBrancheHtml": null
-        },
-        {
-            "id": "LEGIARTI000045811187",
-            "idTexte": null,
-            "type": "AUTONOME",
-            "texte": "Outre le pr\u00e9sident nomm\u00e9 par d\u00e9cret pris sur le rapport du ministre charg\u00e9 de l'aviation civile parmi les membres ou anciens membres du Conseil d'Etat, le coll\u00e8ge permanent est compos\u00e9 de cinq membres titulaires et d'un nombre \u00e9gal de suppl\u00e9ants nomm\u00e9s par arr\u00eat\u00e9 du ministre charg\u00e9 de l'aviation civile : - quatre membres repr\u00e9sentant l'Etat : un membre du Conseil g\u00e9n\u00e9ral de l'environnement et du d\u00e9veloppement durable, un repr\u00e9sentant du ministre charg\u00e9 de l'aviation civile, un membre de la gendarmerie des transports a\u00e9riens d\u00e9sign\u00e9 sur proposition du ministre de l'int\u00e9rieur et un repr\u00e9sentant du ministre charg\u00e9 de l'\u00e9conomie et des finances d\u00e9sign\u00e9 sur proposition de celui-ci ; - une personnalit\u00e9 qualifi\u00e9e choisie en raison de ses comp\u00e9tences dans le domaine de l'aviation civile. Le vice-pr\u00e9sident, choisi parmi les membres du coll\u00e8ge permanent, est nomm\u00e9 par d\u00e9cret sur le rapport du ministre charg\u00e9 de l'aviation civile.",
-            "texteHtml": "<p>Outre le pr\u00e9sident nomm\u00e9 par d\u00e9cret pris sur le rapport du ministre charg\u00e9 de l'aviation civile parmi les membres ou anciens membres du Conseil d'Etat, le coll\u00e8ge permanent est compos\u00e9 de cinq membres titulaires et d'un nombre \u00e9gal de suppl\u00e9ants nomm\u00e9s par arr\u00eat\u00e9 du ministre charg\u00e9 de l'aviation civile :</p><p>- quatre membres repr\u00e9sentant l'Etat : un membre du Conseil g\u00e9n\u00e9ral de l'environnement et du d\u00e9veloppement durable, un repr\u00e9sentant du ministre charg\u00e9 de l'aviation civile, un membre de la gendarmerie des transports a\u00e9riens d\u00e9sign\u00e9 sur proposition du ministre de l'int\u00e9rieur et un repr\u00e9sentant du ministre charg\u00e9 de l'\u00e9conomie et des finances d\u00e9sign\u00e9 sur proposition de celui-ci ;</p><p>- une personnalit\u00e9 qualifi\u00e9e choisie en raison de ses comp\u00e9tences dans le domaine de l'aviation civile. </p><p>Le vice-pr\u00e9sident, choisi parmi les membres du coll\u00e8ge permanent, est nomm\u00e9 par d\u00e9cret sur le rapport du ministre charg\u00e9 de l'aviation civile.</p>",
-            "num": "R160-5",
-            "origine": "LEGI",
-            "nature": "Article",
-            "versionArticle": "5.0",
-            "etat": "MODIFIE",
-            "dateDebut": 1651276800000,
-            "dateFin": 1661990400000,
-            "dateDebutExtension": 32472144000000,
-            "dateFinExtension": 32472144000000,
-            "inap": null,
-            "ordre": 671088635,
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "1967-04-09",
-                        "fin": "2999-01-01",
-                        "titre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006108722",
-                        "id": "LEGISCTA000006108722",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1967-04-09",
-                        "fin": "2999-01-01",
-                        "titre": "LIVRE Ier : AERONEFS",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006129147",
-                        "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1999-06-09",
-                        "fin": "2999-01-01",
-                        "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006144063",
-                        "id": "LEGISCTA000006144063",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2022-04-30",
-                        "fin": "2999-01-01",
-                        "titre": "Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000045810726",
-                        "id": "LEGISCTA000045810726",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 1,
-                "longeurChemin": 44,
-                "titreTxt": [
-                    {
-                        "debut": "1967-04-09",
-                        "fin": "2999-01-01",
-                        "titre": "Code de l'aviation civile",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006074234",
-                        "id": "LEGITEXT000006074234",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "cid": "LEGIARTI000006844592",
-            "cidTexte": null,
-            "sectionParentCid": "LEGISCTA000045810726",
-            "sectionParentId": "LEGISCTA000045810726",
-            "sectionParentTitre": "Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES. &gt; Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000045811187",
-            "idEli": null,
-            "idEliAlias": null,
-            "calipsos": [],
-            "textTitles": [
-                {
-                    "id": "LEGITEXT000006074234",
-                    "titre": "Code de l'aviation civile",
-                    "titreLong": "Code de l'aviation civile",
-                    "etat": "VIGUEUR",
-                    "dateDebut": -86227200000,
-                    "dateFin": 32472144000000,
-                    "cid": "LEGITEXT000006074234",
-                    "datePubli": 32472144000000,
-                    "datePubliComputed": null,
-                    "dateTexte": 32472144000000,
-                    "dateTexteComputed": null,
-                    "nature": "CODE",
-                    "nor": "",
-                    "num": "",
-                    "numParution": "",
-                    "originePubli": "",
-                    "appliGeo": null,
-                    "codesNomenclatures": [],
-                    "visas": null,
-                    "nota": null,
-                    "notice": null,
-                    "travauxPreparatoires": null,
-                    "signataires": null,
-                    "dossiersLegislatifs": [],
-                    "ancienId": null,
-                    "appellations": null
-                }
-            ],
-            "nota": "",
-            "notaHtml": "",
-            "activitePro": [],
-            "numeroBrochure": [],
-            "numeroBo": null,
-            "conteneurs": [],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000045697168",
-                    "textTitle": "D\u00e9cret n\u00b02022-746 du 27 avril 2022 - art. 2",
-                    "linkType": "DEPLACE",
-                    "linkOrientation": "cible",
-                    "articleNum": "2",
-                    "articleId": "LEGIARTI000045810338",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2022-04-29",
-                    "dateSignaTexte": "2022-04-27",
-                    "dateDebutCible": "2022-04-30"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R160-7 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R160-7",
-                    "articleId": "LEGIARTI000045811174",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1651276800000
-                }
-            ],
-            "lienConcordes": [],
-            "lienAutres": [],
-            "articleVersions": [
-                {
-                    "id": "LEGIARTI000006844592",
-                    "etat": "MODIFIE",
-                    "version": "1.0",
-                    "dateDebut": 928886400000,
-                    "dateFin": 1075939200000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000006844593",
-                    "etat": "MODIFIE",
-                    "version": "2.0",
-                    "dateDebut": 1075939200000,
-                    "dateFin": 1179187200000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000006844594",
-                    "etat": "MODIFIE",
-                    "version": "3.0",
-                    "dateDebut": 1179187200000,
-                    "dateFin": 1230768000000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000020044603",
-                    "etat": "MODIFIE",
-                    "version": "4.0",
-                    "dateDebut": 1230768000000,
-                    "dateFin": 1278806400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000022474764",
-                    "etat": "MODIFIE",
-                    "version": "5.0",
-                    "dateDebut": 1278806400000,
-                    "dateFin": 1651276800000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000045811187",
-                    "etat": "MODIFIE",
-                    "version": "5.0",
-                    "dateDebut": 1651276800000,
-                    "dateFin": 1661990400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000046079974",
-                    "etat": "VIGUEUR",
-                    "version": "6.0",
-                    "dateDebut": 1661990400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -485,21 +497,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1999-06-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144063",
                         "id": "LEGISCTA000006144063",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -522,8 +534,8 @@
             "sectionParentId": "LEGISCTA000006144063",
             "sectionParentTitre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000022474764",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000022474764",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -651,10 +663,10 @@
                 },
                 {
                     "id": "LEGIARTI000046079974",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "6.0",
                     "dateDebut": 1661990400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -703,21 +715,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1999-06-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144063",
                         "id": "LEGISCTA000006144063",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -740,8 +752,8 @@
             "sectionParentId": "LEGISCTA000006144063",
             "sectionParentTitre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000020044603",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000020044603",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -869,10 +881,10 @@
                 },
                 {
                     "id": "LEGIARTI000046079974",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "6.0",
                     "dateDebut": 1661990400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -921,21 +933,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1999-06-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144063",
                         "id": "LEGISCTA000006144063",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -958,8 +970,8 @@
             "sectionParentId": "LEGISCTA000006144063",
             "sectionParentTitre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844594",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844594",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1099,10 +1111,10 @@
                 },
                 {
                     "id": "LEGIARTI000046079974",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "6.0",
                     "dateDebut": 1661990400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1151,21 +1163,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1999-06-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144063",
                         "id": "LEGISCTA000006144063",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -1188,8 +1200,8 @@
             "sectionParentId": "LEGISCTA000006144063",
             "sectionParentTitre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844593",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844593",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1329,10 +1341,10 @@
                 },
                 {
                     "id": "LEGIARTI000046079974",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "6.0",
                     "dateDebut": 1661990400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1381,21 +1393,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1999-06-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144063",
                         "id": "LEGISCTA000006144063",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -1418,8 +1430,8 @@
             "sectionParentId": "LEGISCTA000006144063",
             "sectionParentTitre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844592",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844592",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1569,10 +1581,10 @@
                 },
                 {
                     "id": "LEGIARTI000046079974",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "6.0",
                     "dateDebut": 1661990400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "7.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1639612800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,39 +31,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144079",
                         "id": "LEGISCTA000006144079",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : RETRAITES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159905",
                         "id": "LEGISCTA000006159905",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1984-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 5 : Pension de r\u00e9version.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000021846167",
                         "id": "LEGISCTA000021846167",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -85,9 +85,9 @@
             "sectionParentCid": "LEGISCTA000021846167",
             "sectionParentId": "LEGISCTA000021846167",
             "sectionParentTitre": "Section 5 : Pension de r\u00e9version.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL &gt; CHAPITRE VI : RETRAITES. &gt; Section 5 : Pension de r\u00e9version.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000044496221",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000044496221",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -151,12 +151,24 @@
                     "datePubliTexte": "2021-12-15",
                     "dateSignaTexte": "2021-12-13",
                     "dateDebutCible": "2021-12-16"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000381325",
-                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (V)",
+                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
@@ -169,7 +181,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-21 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R426-21 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-21",
@@ -182,7 +194,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-27 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-27 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-27",
@@ -253,10 +265,10 @@
                 },
                 {
                     "id": "LEGIARTI000044496221",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "7.0",
                     "dateDebut": 1639612800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -280,7 +292,7 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "I.-En cas de d\u00e9c\u00e8s d'un affili\u00e9 en activit\u00e9 ou titulaire d'une pension en cours de jouissance ou d'un droit \u00e0 pension diff\u00e9r\u00e9e, le conjoint survivant apte \u00e0 recevoir et chacun des enfants de l'affili\u00e9, \u00e0 charge au sens de l'article R. 426-20 du pr\u00e9sent code, ont respectivement droit \u00e0 pension de r\u00e9version et pension d'orphelin dans les conditions pr\u00e9cis\u00e9es au pr\u00e9sent article. II.-La pension de r\u00e9version au profit du conjoint survivant apte \u00e0 recevoir est \u00e9gale \u00e0 un pourcentage de la pension de l'affili\u00e9 fix\u00e9 \u00e0 60 %. Si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 \u00e9tait en activit\u00e9 ou titulaire d'une pension en cours de jouissance, l'ouverture du droit \u00e0 pension de r\u00e9version est imm\u00e9diate. Dans les autres cas, l'ouverture du droit \u00e0 pension de r\u00e9version est ajourn\u00e9e jusqu'\u00e0 la date \u00e0 laquelle l'affili\u00e9 aurait atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article R. 426-12 . Cette ouverture du droit est imm\u00e9diate si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 avait au moins un enfant \u00e0 charge \u00e0 la date de son d\u00e9c\u00e8s. L'entr\u00e9e en jouissance de la pension de r\u00e9version est fix\u00e9e \u00e0 la date d'ouverture du droit, \u00e0 condition que le b\u00e9n\u00e9ficiaire de la pension ait fait parvenir sa demande \u00e9crite \u00e0 la caisse dans un d\u00e9lai de six mois suivant la date d'ouverture du droit. La pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension de r\u00e9version vis\u00e9e ci-dessus est celle qui est d\u00e9finie aux premier, deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article R. 426-16-1 , major\u00e9e s'il y a lieu, compte tenu des dispositions de l'article R. 426-17 . Si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 \u00e9tait en activit\u00e9 ou titulaire d'une pension en cours de jouissance assortie d'une majoration et n'avait pas atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale au moment de son d\u00e9c\u00e8s, la pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension de r\u00e9version est assortie d'une majoration d'un montant de 0,8 % du plafond mensuel de calcul des cotisations de la s\u00e9curit\u00e9 sociale en vigueur, par annuit\u00e9 valid\u00e9e dans la limite de vingt-cinq. Cette majoration est prise en compte, dans le calcul de la pension, jusqu'\u00e0 la date \u00e0 laquelle l'affili\u00e9 d\u00e9c\u00e9d\u00e9 aurait atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale. III.-La pension d'orphelin vers\u00e9e au profit de chacun des enfants \u00e0 charge, tels que d\u00e9finis \u00e0 l'article R. 426-20, est \u00e9gale \u00e0 12 % de la pension de l'affili\u00e9. outefois, ce taux est port\u00e9 \u00e0 : 1\u00b0 50 % au profit de chaque enfant orphelin de p\u00e8re et de m\u00e8re ; 2\u00b0 72 % au profit de chaque enfant orphelin de p\u00e8re et de m\u00e8re et atteint d'une infirmit\u00e9 permanente telle que d\u00e9finie au second alin\u00e9a de l'article R. 426-20. L'ouverture du droit \u00e0 pension d'orphelin est imm\u00e9diate. L'entr\u00e9e en jouissance de la pension d'orphelin est fix\u00e9e \u00e0 la date d'ouverture du droit, \u00e0 condition que le b\u00e9n\u00e9ficiaire de la pension ou son repr\u00e9sentant l\u00e9gal ait fait parvenir sa demande \u00e9crite \u00e0 la caisse, dans un d\u00e9lai de six mois suivant la date d'ouverture du droit. La pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension d'orphelin vis\u00e9e ci-dessus est celle qui est d\u00e9finie aux premier, deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article R. 426-16-1, major\u00e9e s'il y a lieu, compte tenu des dispositions de l'article R. 426-17. Si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 \u00e9tait en activit\u00e9 ou titulaire d'une pension en cours de jouissance assortie d'une majoration, s'il n'avait pas atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale au moment de son d\u00e9c\u00e8s, la pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension d'orphelin est assortie d'une majoration d'un montant de 0,8 % du plafond mensuel de calcul des cotisations de la s\u00e9curit\u00e9 sociale en vigueur, par annuit\u00e9 valid\u00e9e dans la limite de vingt-cinq. Cette majoration est prise en compte, dans le calcul de la pension, jusqu'\u00e0 la date \u00e0 laquelle l'affili\u00e9 d\u00e9c\u00e9d\u00e9 aurait atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale. IV.-Le total des pensions de r\u00e9version et d'orphelins allou\u00e9es ne peut d\u00e9passer 100 % de la pension de l'affili\u00e9. S'il y a exc\u00e9dent, la pension allou\u00e9e \u00e0 chacun des ayants droit est r\u00e9duite proportionnellement.",
-            "texteHtml": "<p>I.-En cas de d\u00e9c\u00e8s d'un affili\u00e9 en activit\u00e9 ou titulaire d'une pension en cours de jouissance ou d'un droit \u00e0 pension diff\u00e9r\u00e9e, le conjoint survivant apte \u00e0 recevoir et chacun des enfants de l'affili\u00e9, \u00e0 charge au sens de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006845242&dateTexte=&categorieLien=cid'>R. 426-20 </a>du pr\u00e9sent code, ont respectivement droit \u00e0 pension de r\u00e9version et pension d'orphelin dans les conditions pr\u00e9cis\u00e9es au pr\u00e9sent article. </p><p>II.-La pension de r\u00e9version au profit du conjoint survivant apte \u00e0 recevoir est \u00e9gale \u00e0 un pourcentage de la pension de l'affili\u00e9 fix\u00e9 \u00e0 60 %. </p><p>Si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 \u00e9tait en activit\u00e9 ou titulaire d'une pension en cours de jouissance, l'ouverture du droit \u00e0 pension de r\u00e9version est imm\u00e9diate. </p><p>Dans les autres cas, l'ouverture du droit \u00e0 pension de r\u00e9version est ajourn\u00e9e jusqu'\u00e0 la date \u00e0 laquelle l'affili\u00e9 aurait atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006845211&dateTexte=&categorieLien=cid'>R. 426-12</a>. Cette ouverture du droit est imm\u00e9diate si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 avait au moins un enfant \u00e0 charge \u00e0 la date de son d\u00e9c\u00e8s. </p><p>L'entr\u00e9e en jouissance de la pension de r\u00e9version est fix\u00e9e \u00e0 la date d'ouverture du droit, \u00e0 condition que le b\u00e9n\u00e9ficiaire de la pension ait fait parvenir sa demande \u00e9crite \u00e0 la caisse dans un d\u00e9lai de six mois suivant la date d'ouverture du droit. </p><p>La pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension de r\u00e9version vis\u00e9e ci-dessus est celle qui est d\u00e9finie aux premier, deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000036880164&dateTexte=&categorieLien=id' title='Code de l'aviation civile - art. R426-16-1 (V)'>R. 426-16-1</a>, major\u00e9e s'il y a lieu, compte tenu des dispositions de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006845235&dateTexte=&categorieLien=cid'>R. 426-17</a>. </p><p>Si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 \u00e9tait en activit\u00e9 ou titulaire d'une pension en cours de jouissance assortie d'une majoration et n'avait pas atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000023024749&dateTexte=&categorieLien=cid'>L. 161-17-2</a> du code de la s\u00e9curit\u00e9 sociale au moment de son d\u00e9c\u00e8s, la pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension de r\u00e9version est assortie d'une majoration d'un montant de 0,8 % du plafond mensuel de calcul des cotisations de la s\u00e9curit\u00e9 sociale en vigueur, par annuit\u00e9 valid\u00e9e dans la limite de vingt-cinq. </p><p>Cette majoration est prise en compte, dans le calcul de la pension, jusqu'\u00e0 la date \u00e0 laquelle l'affili\u00e9 d\u00e9c\u00e9d\u00e9 aurait atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale. </p><p>III.-La pension d'orphelin vers\u00e9e au profit de chacun des enfants \u00e0 charge, tels que d\u00e9finis \u00e0 l'article R. 426-20, est \u00e9gale \u00e0 12 % de la pension de l'affili\u00e9. outefois, ce taux est port\u00e9 \u00e0 : </p><p>1\u00b0 50 % au profit de chaque enfant orphelin de p\u00e8re et de m\u00e8re ; </p><p>2\u00b0 72 % au profit de chaque enfant orphelin de p\u00e8re et de m\u00e8re et atteint d'une infirmit\u00e9 permanente telle que d\u00e9finie au second alin\u00e9a de l'article R. 426-20. </p><p>L'ouverture du droit \u00e0 pension d'orphelin est imm\u00e9diate. L'entr\u00e9e en jouissance de la pension d'orphelin est fix\u00e9e \u00e0 la date d'ouverture du droit, \u00e0 condition que le b\u00e9n\u00e9ficiaire de la pension ou son repr\u00e9sentant l\u00e9gal ait fait parvenir sa demande \u00e9crite \u00e0 la caisse, dans un d\u00e9lai de six mois suivant la date d'ouverture du droit. </p><p>La pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension d'orphelin vis\u00e9e ci-dessus est celle qui est d\u00e9finie aux premier, deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article R. 426-16-1, major\u00e9e s'il y a lieu, compte tenu des dispositions de l'article R. 426-17. </p><p>Si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 \u00e9tait en activit\u00e9 ou titulaire d'une pension en cours de jouissance assortie d'une majoration, s'il n'avait pas atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale au moment de son d\u00e9c\u00e8s, la pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension d'orphelin est assortie d'une majoration d'un montant de 0,8 % du plafond mensuel de calcul des cotisations de la s\u00e9curit\u00e9 sociale en vigueur, par annuit\u00e9 valid\u00e9e dans la limite de vingt-cinq. </p><p>Cette majoration est prise en compte, dans le calcul de la pension, jusqu'\u00e0 la date \u00e0 laquelle l'affili\u00e9 d\u00e9c\u00e9d\u00e9 aurait atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale. </p><p>IV.-Le total des pensions de r\u00e9version et d'orphelins allou\u00e9es ne peut d\u00e9passer 100 % de la pension de l'affili\u00e9. S'il y a exc\u00e9dent, la pension allou\u00e9e \u00e0 chacun des ayants droit est r\u00e9duite proportionnellement.</p><p></p>",
+            "texteHtml": "<p>I.-En cas de d\u00e9c\u00e8s d'un affili\u00e9 en activit\u00e9 ou titulaire d'une pension en cours de jouissance ou d'un droit \u00e0 pension diff\u00e9r\u00e9e, le conjoint survivant apte \u00e0 recevoir et chacun des enfants de l'affili\u00e9, \u00e0 charge au sens de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006845242&dateTexte=&categorieLien=cid'>R. 426-20 </a>du pr\u00e9sent code, ont respectivement droit \u00e0 pension de r\u00e9version et pension d'orphelin dans les conditions pr\u00e9cis\u00e9es au pr\u00e9sent article. </p><p>II.-La pension de r\u00e9version au profit du conjoint survivant apte \u00e0 recevoir est \u00e9gale \u00e0 un pourcentage de la pension de l'affili\u00e9 fix\u00e9 \u00e0 60 %. </p><p>Si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 \u00e9tait en activit\u00e9 ou titulaire d'une pension en cours de jouissance, l'ouverture du droit \u00e0 pension de r\u00e9version est imm\u00e9diate. </p><p>Dans les autres cas, l'ouverture du droit \u00e0 pension de r\u00e9version est ajourn\u00e9e jusqu'\u00e0 la date \u00e0 laquelle l'affili\u00e9 aurait atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006845211&dateTexte=&categorieLien=cid'>R. 426-12</a>. Cette ouverture du droit est imm\u00e9diate si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 avait au moins un enfant \u00e0 charge \u00e0 la date de son d\u00e9c\u00e8s. </p><p>L'entr\u00e9e en jouissance de la pension de r\u00e9version est fix\u00e9e \u00e0 la date d'ouverture du droit, \u00e0 condition que le b\u00e9n\u00e9ficiaire de la pension ait fait parvenir sa demande \u00e9crite \u00e0 la caisse dans un d\u00e9lai de six mois suivant la date d'ouverture du droit. </p><p>La pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension de r\u00e9version vis\u00e9e ci-dessus est celle qui est d\u00e9finie aux premier, deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000036880164&dateTexte=&categorieLien=id' title='Code de l'aviation civile - art. R426-16-1 (Ab)'>R. 426-16-1</a>, major\u00e9e s'il y a lieu, compte tenu des dispositions de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006845235&dateTexte=&categorieLien=cid'>R. 426-17</a>. </p><p>Si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 \u00e9tait en activit\u00e9 ou titulaire d'une pension en cours de jouissance assortie d'une majoration et n'avait pas atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000023024749&dateTexte=&categorieLien=cid'>L. 161-17-2</a> du code de la s\u00e9curit\u00e9 sociale au moment de son d\u00e9c\u00e8s, la pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension de r\u00e9version est assortie d'une majoration d'un montant de 0,8 % du plafond mensuel de calcul des cotisations de la s\u00e9curit\u00e9 sociale en vigueur, par annuit\u00e9 valid\u00e9e dans la limite de vingt-cinq. </p><p>Cette majoration est prise en compte, dans le calcul de la pension, jusqu'\u00e0 la date \u00e0 laquelle l'affili\u00e9 d\u00e9c\u00e9d\u00e9 aurait atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale. </p><p>III.-La pension d'orphelin vers\u00e9e au profit de chacun des enfants \u00e0 charge, tels que d\u00e9finis \u00e0 l'article R. 426-20, est \u00e9gale \u00e0 12 % de la pension de l'affili\u00e9. outefois, ce taux est port\u00e9 \u00e0 : </p><p>1\u00b0 50 % au profit de chaque enfant orphelin de p\u00e8re et de m\u00e8re ; </p><p>2\u00b0 72 % au profit de chaque enfant orphelin de p\u00e8re et de m\u00e8re et atteint d'une infirmit\u00e9 permanente telle que d\u00e9finie au second alin\u00e9a de l'article R. 426-20. </p><p>L'ouverture du droit \u00e0 pension d'orphelin est imm\u00e9diate. L'entr\u00e9e en jouissance de la pension d'orphelin est fix\u00e9e \u00e0 la date d'ouverture du droit, \u00e0 condition que le b\u00e9n\u00e9ficiaire de la pension ou son repr\u00e9sentant l\u00e9gal ait fait parvenir sa demande \u00e9crite \u00e0 la caisse, dans un d\u00e9lai de six mois suivant la date d'ouverture du droit. </p><p>La pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension d'orphelin vis\u00e9e ci-dessus est celle qui est d\u00e9finie aux premier, deuxi\u00e8me et troisi\u00e8me alin\u00e9as de l'article R. 426-16-1, major\u00e9e s'il y a lieu, compte tenu des dispositions de l'article R. 426-17. </p><p>Si l'affili\u00e9 d\u00e9c\u00e9d\u00e9 \u00e9tait en activit\u00e9 ou titulaire d'une pension en cours de jouissance assortie d'une majoration, s'il n'avait pas atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale au moment de son d\u00e9c\u00e8s, la pension de l'affili\u00e9 servant \u00e0 d\u00e9terminer la pension d'orphelin est assortie d'une majoration d'un montant de 0,8 % du plafond mensuel de calcul des cotisations de la s\u00e9curit\u00e9 sociale en vigueur, par annuit\u00e9 valid\u00e9e dans la limite de vingt-cinq. </p><p>Cette majoration est prise en compte, dans le calcul de la pension, jusqu'\u00e0 la date \u00e0 laquelle l'affili\u00e9 d\u00e9c\u00e9d\u00e9 aurait atteint l'\u00e2ge mentionn\u00e9 \u00e0 l'article L. 161-17-2 du code de la s\u00e9curit\u00e9 sociale. </p><p>IV.-Le total des pensions de r\u00e9version et d'orphelins allou\u00e9es ne peut d\u00e9passer 100 % de la pension de l'affili\u00e9. S'il y a exc\u00e9dent, la pension allou\u00e9e \u00e0 chacun des ayants droit est r\u00e9duite proportionnellement.</p><p></p>",
             "num": "R426-19",
             "origine": "LEGI",
             "nature": "Article",
@@ -305,39 +317,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144079",
                         "id": "LEGISCTA000006144079",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : RETRAITES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159905",
                         "id": "LEGISCTA000006159905",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1984-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 5 : Pension de r\u00e9version.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000021846167",
                         "id": "LEGISCTA000021846167",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -360,8 +372,8 @@
             "sectionParentId": "LEGISCTA000021846167",
             "sectionParentTitre": "Section 5 : Pension de r\u00e9version.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL &gt; CHAPITRE VI : RETRAITES. &gt; Section 5 : Pension de r\u00e9version.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000036880147",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000036880147",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -430,7 +442,7 @@
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000381325",
-                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (V)",
+                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
@@ -452,7 +464,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1309478400000
+                    "dateDebut": 1693526400000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -469,7 +481,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-16-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R426-16-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "R426-16-1",
@@ -508,29 +520,29 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-21 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-21 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-21",
-                    "articleId": "LEGIARTI000024795228",
+                    "articleId": "LEGIARTI000044496197",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1639612800000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-27 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-27 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-27",
-                    "articleId": "LEGIARTI000024795242",
+                    "articleId": "LEGIARTI000006845254",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1009843200000
                 }
             ],
             "lienConcordes": [],
@@ -592,10 +604,10 @@
                 },
                 {
                     "id": "LEGIARTI000044496221",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "7.0",
                     "dateDebut": 1639612800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -644,39 +656,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144079",
                         "id": "LEGISCTA000006144079",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : RETRAITES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159905",
                         "id": "LEGISCTA000006159905",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1984-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 5 : Pension de r\u00e9version.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000021846167",
                         "id": "LEGISCTA000021846167",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -699,8 +711,8 @@
             "sectionParentId": "LEGISCTA000021846167",
             "sectionParentTitre": "Section 5 : Pension de r\u00e9version.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL &gt; CHAPITRE VI : RETRAITES. &gt; Section 5 : Pension de r\u00e9version.",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000026911777",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000026911777",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -769,7 +781,7 @@
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000381325",
-                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (V)",
+                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
@@ -804,7 +816,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1309478400000
+                    "dateDebut": 1693526400000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -830,7 +842,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1525651200000
+                    "dateDebut": 457488000000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -860,29 +872,29 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-21 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-21 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-21",
-                    "articleId": "LEGIARTI000024795228",
+                    "articleId": "LEGIARTI000044496197",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1639612800000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-27 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-27 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-27",
-                    "articleId": "LEGIARTI000024795242",
+                    "articleId": "LEGIARTI000006845254",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1009843200000
                 }
             ],
             "lienConcordes": [],
@@ -944,10 +956,10 @@
                 },
                 {
                     "id": "LEGIARTI000044496221",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "7.0",
                     "dateDebut": 1639612800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -996,39 +1008,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144079",
                         "id": "LEGISCTA000006144079",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : RETRAITES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159905",
                         "id": "LEGISCTA000006159905",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1984-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 5 : Pension de r\u00e9version.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000021846167",
                         "id": "LEGISCTA000021846167",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -1051,8 +1063,8 @@
             "sectionParentId": "LEGISCTA000021846167",
             "sectionParentTitre": "Section 5 : Pension de r\u00e9version.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL &gt; CHAPITRE VI : RETRAITES. &gt; Section 5 : Pension de r\u00e9version.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000024795213",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000024795213",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1121,7 +1133,7 @@
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000381325",
-                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (V)",
+                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
@@ -1156,7 +1168,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1309478400000
+                    "dateDebut": 1693526400000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -1186,29 +1198,29 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-21 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-21 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-21",
-                    "articleId": "LEGIARTI000024795228",
+                    "articleId": "LEGIARTI000044496197",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1639612800000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-27 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-27 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-27",
-                    "articleId": "LEGIARTI000024795242",
+                    "articleId": "LEGIARTI000006845254",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1009843200000
                 }
             ],
             "lienConcordes": [],
@@ -1270,10 +1282,10 @@
                 },
                 {
                     "id": "LEGIARTI000044496221",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "7.0",
                     "dateDebut": 1639612800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1322,39 +1334,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144079",
                         "id": "LEGISCTA000006144079",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : RETRAITES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159905",
                         "id": "LEGISCTA000006159905",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1984-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 5 : Pension de r\u00e9version.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000021846167",
                         "id": "LEGISCTA000021846167",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -1377,8 +1389,8 @@
             "sectionParentId": "LEGISCTA000021846167",
             "sectionParentTitre": "Section 5 : Pension de r\u00e9version.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL &gt; CHAPITRE VI : RETRAITES. &gt; Section 5 : Pension de r\u00e9version.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845241",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845241",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1447,7 +1459,7 @@
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000381325",
-                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (V)",
+                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
@@ -1469,7 +1481,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1525651200000
+                    "dateDebut": 457488000000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -1486,29 +1498,29 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-21 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-21 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-21",
-                    "articleId": "LEGIARTI000024795228",
+                    "articleId": "LEGIARTI000044496197",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1639612800000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-27 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-27 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-27",
-                    "articleId": "LEGIARTI000024795242",
+                    "articleId": "LEGIARTI000006845254",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1009843200000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -1521,7 +1533,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1620864000000
+                    "dateDebut": 457488000000
                 }
             ],
             "lienConcordes": [],
@@ -1583,10 +1595,10 @@
                 },
                 {
                     "id": "LEGIARTI000044496221",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "7.0",
                     "dateDebut": 1639612800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1635,39 +1647,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144079",
                         "id": "LEGISCTA000006144079",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : RETRAITES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159905",
                         "id": "LEGISCTA000006159905",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1984-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 5 : Pension de r\u00e9version.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000021846167",
                         "id": "LEGISCTA000021846167",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -1690,8 +1702,8 @@
             "sectionParentId": "LEGISCTA000021846167",
             "sectionParentTitre": "Section 5 : Pension de r\u00e9version.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL &gt; CHAPITRE VI : RETRAITES. &gt; Section 5 : Pension de r\u00e9version.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845240",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845240",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1760,7 +1772,7 @@
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000381325",
-                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (V)",
+                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
@@ -1782,7 +1794,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1525651200000
+                    "dateDebut": 457488000000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -1799,29 +1811,29 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-21 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-21 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-21",
-                    "articleId": "LEGIARTI000024795228",
+                    "articleId": "LEGIARTI000044496197",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1639612800000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-27 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-27 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-27",
-                    "articleId": "LEGIARTI000024795242",
+                    "articleId": "LEGIARTI000006845254",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1009843200000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -1834,7 +1846,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1620864000000
+                    "dateDebut": 457488000000
                 }
             ],
             "lienConcordes": [],
@@ -1915,10 +1927,10 @@
                 },
                 {
                     "id": "LEGIARTI000044496221",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "7.0",
                     "dateDebut": 1639612800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1967,39 +1979,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144079",
                         "id": "LEGISCTA000006144079",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : RETRAITES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159905",
                         "id": "LEGISCTA000006159905",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1984-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 5 : Pension de r\u00e9version.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000021846167",
                         "id": "LEGISCTA000021846167",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -2022,8 +2034,8 @@
             "sectionParentId": "LEGISCTA000021846167",
             "sectionParentTitre": "Section 5 : Pension de r\u00e9version.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL &gt; CHAPITRE VI : RETRAITES. &gt; Section 5 : Pension de r\u00e9version.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845239",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845239",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -2080,7 +2092,7 @@
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000381325",
-                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (V)",
+                    "textTitle": "D\u00e9cret n\u00b097-124 du 6 f\u00e9vrier 1997 - art. 1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "1",
@@ -2102,7 +2114,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1525651200000
+                    "dateDebut": 457488000000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
@@ -2119,29 +2131,29 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-21 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-21 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-21",
-                    "articleId": "LEGIARTI000024795228",
+                    "articleId": "LEGIARTI000044496197",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1639612800000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-27 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-27 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-27",
-                    "articleId": "LEGIARTI000024795242",
+                    "articleId": "LEGIARTI000006845254",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1325376000000
+                    "dateDebut": 1009843200000
                 }
             ],
             "lienConcordes": [],
@@ -2203,10 +2215,10 @@
                 },
                 {
                     "id": "LEGIARTI000044496221",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "7.0",
                     "dateDebut": 1639612800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
