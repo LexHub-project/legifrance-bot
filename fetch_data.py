@@ -30,16 +30,24 @@ class CachedLegifranceClient:
 
         return LegifranceClient(CLIENT_ID, CLIENT_SECRET)
 
-    def _yield_article_ids(
+    def _yield_entries_from_tm(
         self, tm: CodeJSON
     ) -> Generator[Tuple[str, str, str], None, None]:
         if len(tm["articles"]) > 0:
-            for article in tm["articles"]:
-                yield (article["cid"], article["id"], article["etat"])
+            for entry in tm["articles"]:
+                yield entry
 
         if len(tm["sections"]) > 0:
             for section in tm["sections"]:
-                yield from self._yield_article_ids(section)
+                yield from self._yield_entries_from_tm(section)
+
+    def _entries_grouped_by_cid(self, tm: CodeJSON):
+        entries = sorted(self._yield_entries_from_tm(tm), key=lambda e: e["cid"])
+
+        return {
+            cid: list(entries)
+            for cid, entries in itertools.groupby(entries, key=lambda e: e["cid"])
+        }
 
     def _article_path(self, cid: str) -> str:
         return f"{CACHE_DIR}/articles/{cid}.json"
@@ -57,17 +65,16 @@ class CachedLegifranceClient:
             return json.load(f)
 
     def _fetch_article_with_history(
-        self, cid: str, ids_with_state: set[Tuple[str, str]]
+        self, cid: str, ids: set[str], force_refetch: bool
     ) -> ArticleJSON:
         try:
             article = self._fetch_article_from_disk(cid)
             if self._only_from_disk:
                 return article
-            existing_ids_with_state = {
-                (a["id"], a["etat"]) for a in article["listArticle"]
-            }
 
-            if len(ids_with_state.difference(existing_ids_with_state)) > 0:
+            existing_ids = {a["id"] for a in article["listArticle"]}
+
+            if force_refetch or len(ids.difference(existing_ids)) > 0:
                 print(f"Outdated {cid}, refetching")
                 return self._fetch_and_cache_article_with_history(cid)
 
@@ -76,20 +83,20 @@ class CachedLegifranceClient:
         except (IOError, ValueError):
             return self._fetch_and_cache_article_with_history(cid)
 
-    def fetch_articles(self, tm: CodeJSON) -> list[ArticleJSON]:
-        ids = sorted(list(self._yield_article_ids(tm)), key=lambda x: x[0])
+    def _fetch_articles(
+        self, new_tm: CodeJSON, cached_tm: CodeJSON
+    ) -> list[ArticleJSON]:
+        new_entries = self._entries_grouped_by_cid(new_tm)
+        old_entries = self._entries_grouped_by_cid(cached_tm)
 
-        grouped_by_cid = [
-            (cid, {(i[1], i[2]) for i in with_same_cid})
-            for (cid, with_same_cid) in itertools.groupby(ids, key=lambda x: x[0])
-        ]
+        for cid in tqdm(new_entries, desc=f"{new_tm['cid']} - {new_tm['title']}"):
+            new_article_entries = new_entries[cid]
+            old_article_entries = old_entries[cid]
 
-        return [
-            self._fetch_article_with_history(cid, ids_with_state)
-            for (cid, ids_with_state) in tqdm(
-                grouped_by_cid, desc=f"{tm['cid']} - {tm['title']}"
-            )
-        ]
+            ids = {e["id"] for e in new_article_entries}
+            force_refetch = new_article_entries != old_article_entries
+
+            yield self._fetch_article_with_history(cid, ids, force_refetch)
 
     def _tm_path(self, cid: str) -> str:
         return f"{CACHE_DIR}/codes/{cid}.json"
@@ -114,24 +121,43 @@ class CachedLegifranceClient:
         except FileNotFoundError:
             return None
 
-    def fetch_tms(self, code_list: CodeListJSON) -> Generator[CodeJSON, None, None]:
-        for c in tqdm(code_list, "Getting TM"):
-            value = self._fetch_tm_from_disk(c["cid"])
+    def _fetch_tm(self, code_list_entry: dict) -> Tuple[CodeJSON, CodeJSON]:
+        disk_value = self._fetch_tm_from_disk(code_list_entry["cid"])
 
-            if not self._only_from_disk:
-                cached_date = (
-                    datetime.datetime.strptime(
-                        value["modifDate"], DATE_STR_FMT
-                    ).replace(tzinfo=datetime.timezone.utc)
-                    if value is not None
-                    else None
+        if self._only_from_disk:
+            assert disk_value is not None
+            return (disk_value, disk_value)
+
+        else:
+            cached_date = (
+                datetime.datetime.strptime(
+                    disk_value["modifDate"], DATE_STR_FMT
+                ).replace(tzinfo=datetime.timezone.utc)
+                if disk_value is not None
+                else None
+            )
+            list_date = datetime.datetime.fromisoformat(code_list_entry["lastUpdate"])
+            if cached_date == list_date:
+                assert disk_value is not None
+                return (disk_value, disk_value)
+            else:
+                network_value = self._fetch_tm_from_network_and_cache(
+                    code_list_entry["cid"]
                 )
-                list_date = datetime.datetime.fromisoformat(c["lastUpdate"])
-                if cached_date != list_date:
-                    value = self._fetch_tm_from_network_and_cache(c["cid"])
+                assert network_value is not None
+                return (network_value, disk_value)
 
-            assert value is not None
-            yield value
+    def _fetch_tms(
+        self, code_list: CodeListJSON
+    ) -> Generator[Tuple[CodeJSON, list[str]], None, None]:
+        for c in tqdm(code_list, "Getting TM"):
+            yield self._fetch_tm(c)
+
+    def fetch_articles_from_codes(self, code_list: CodeListJSON):
+        tms = list(self._fetch_tms(code_list))
+
+        for new_tm, cached_tm in tms:
+            yield from self._fetch_articles(new_tm, cached_tm)
 
     def fetch_code_list(self) -> CodeListJSON:
         cache_path = f"{CACHE_DIR}/codelist.json"
