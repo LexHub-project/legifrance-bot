@@ -32,10 +32,10 @@ class CachedLegifranceClient:
 
     def _yield_article_ids(
         self, tm: CodeJSON
-    ) -> Generator[Tuple[str, str], None, None]:
+    ) -> Generator[Tuple[str, str, str], None, None]:
         if len(tm["articles"]) > 0:
             for article in tm["articles"]:
-                yield (article["cid"], article["id"])
+                yield (article["cid"], article["id"], article["etat"])
 
         if len(tm["sections"]) > 0:
             for section in tm["sections"]:
@@ -56,13 +56,18 @@ class CachedLegifranceClient:
         with open(self._article_path(cid), "r") as f:
             return json.load(f)
 
-    def _fetch_article_with_history(self, cid: str, ids: set[str]) -> ArticleJSON:
+    def _fetch_article_with_history(
+        self, cid: str, ids_with_state: set[Tuple[str, str]]
+    ) -> ArticleJSON:
         try:
             article = self._fetch_article_from_disk(cid)
+            if self._only_from_disk:
+                return article
+            existing_ids_with_state = {
+                (a["id"], a["etat"]) for a in article["listArticle"]
+            }
 
-            existing_ids = {a["id"] for a in article["listArticle"]}
-
-            if len(ids.difference(existing_ids)) > 0:
+            if len(ids_with_state.difference(existing_ids_with_state)) > 0:
                 print(f"Outdated {cid}, refetching")
                 return self._fetch_and_cache_article_with_history(cid)
 
@@ -73,14 +78,17 @@ class CachedLegifranceClient:
 
     def fetch_articles(self, tm: CodeJSON) -> list[ArticleJSON]:
         ids = sorted(list(self._yield_article_ids(tm)), key=lambda x: x[0])
+
         grouped_by_cid = [
-            (cid, {i[1] for i in with_same_cid})
+            (cid, {(i[1], i[2]) for i in with_same_cid})
             for (cid, with_same_cid) in itertools.groupby(ids, key=lambda x: x[0])
         ]
 
         return [
-            self._fetch_article_with_history(cid, ids)
-            for (cid, ids) in tqdm(grouped_by_cid, desc=f"{tm['cid']} - {tm['title']}")
+            self._fetch_article_with_history(cid, ids_with_state)
+            for (cid, ids_with_state) in tqdm(
+                grouped_by_cid, desc=f"{tm['cid']} - {tm['title']}"
+            )
         ]
 
     def _tm_path(self, cid: str) -> str:
