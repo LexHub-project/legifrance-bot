@@ -6,14 +6,14 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "Toute personne qui, en vertu de l'article L. 121-7 , veut obtenir l'\u00e9tat des inscriptions existant sur un a\u00e9ronef ou un certificat constatant qu'il n'en existe aucune, pr\u00e9sente au fonctionnaire charg\u00e9 de la tenue du registre d'immatriculation une demande \u00e9crite.",
-            "texteHtml": "<p></p>Toute personne qui, en vertu de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006844059&dateTexte=&categorieLien=cid' title='Code de l'aviation civile - art. L121-7 (Ab)'>l'article L. 121-7</a>, veut obtenir l'\u00e9tat des inscriptions existant sur un a\u00e9ronef ou un certificat constatant qu'il n'en existe aucune, pr\u00e9sente au fonctionnaire charg\u00e9 de la tenue du registre d'immatriculation une demande \u00e9crite.<p></p><p></p>",
+            "texteHtml": "<p></p>Toute personne qui, en vertu de <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006844059&dateTexte=&categorieLien=cid'>l'article L. 121-7</a>, veut obtenir l'\u00e9tat des inscriptions existant sur un a\u00e9ronef ou un certificat constatant qu'il n'en existe aucune, pr\u00e9sente au fonctionnaire charg\u00e9 de la tenue du registre d'immatriculation une demande \u00e9crite.<p></p><p></p>",
             "num": "D121-28",
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 36979200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -22,21 +22,21 @@
                 "titresTM": [
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Partie r\u00e9glementaire - D\u00e9crets simples",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
                         "cid": "LEGISCTA000006108720",
                         "id": "LEGISCTA000006108720",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129128",
                         "id": "LEGISCTA000006129128",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1971-03-05",
@@ -49,21 +49,21 @@
                     },
                     {
                         "debut": "2018-10-14",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : IMMATRICULATION, NATIONALITE, PROPRIETE ET ENREGISTREMENT DES AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144000",
                         "id": "LEGISCTA000037496892",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1971-03-05",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE Ier : IMMATRICULATION ET NATIONALITE DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159759",
                         "id": "LEGISCTA000006159759",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -85,9 +85,9 @@
             "sectionParentCid": "LEGISCTA000006159759",
             "sectionParentId": "LEGISCTA000006159759",
             "sectionParentTitre": "CHAPITRE Ier : IMMATRICULATION ET NATIONALITE DES AERONEFS.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; LIVRE Ier : AERONEFS. &gt; TITRE II : IMMATRICULATION, NATIONALITE ET PROPRIETE DES AERONEFS. &gt; CHAPITRE Ier : IMMATRICULATION ET NATIONALITE DES AERONEFS.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006843613",
+            "fullSectionsTitre": null,
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006843613",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -151,12 +151,24 @@
                     "datePubliTexte": null,
                     "dateSignaTexte": null,
                     "dateDebutCible": null
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. L121-7 (Ab)",
+                    "textTitle": "Code de l'aviation civile - art. L121-7",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L121-7",
@@ -173,10 +185,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000006843613",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 36979200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

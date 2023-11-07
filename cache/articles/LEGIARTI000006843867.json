@@ -6,14 +6,14 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "La comp\u00e9tence de la commission du transport des mati\u00e8res dangereuses et infectes, institu\u00e9e par le d\u00e9cret du 27 f\u00e9vrier 1941 , est \u00e9tendue aux questions de transport des mati\u00e8res dangereuses et infectes par air.",
-            "texteHtml": "<p></p>La comp\u00e9tence de la commission du transport des mati\u00e8res dangereuses et infectes, institu\u00e9e par le <a href='/affichTexte.do?cidTexte=JORFTEXT000000295630&categorieLien=cid' title='D\u00e9cret du 27 f\u00e9vrier 1941, v. init.'>d\u00e9cret du 27 f\u00e9vrier 1941</a>, est \u00e9tendue aux questions de transport des mati\u00e8res dangereuses et infectes par air.<p></p><p></p>",
+            "texteHtml": "<p></p>La comp\u00e9tence de la commission du transport des mati\u00e8res dangereuses et infectes, institu\u00e9e par le <a href='/affichTexte.do?cidTexte=JORFTEXT000000295630&categorieLien=cid'>d\u00e9cret du 27 f\u00e9vrier 1941</a>, est \u00e9tendue aux questions de transport des mati\u00e8res dangereuses et infectes par air.<p></p><p></p>",
             "num": "D321-2",
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": -86227200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -22,39 +22,39 @@
                 "titresTM": [
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Partie r\u00e9glementaire - D\u00e9crets simples",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
                         "cid": "LEGISCTA000006108720",
                         "id": "LEGISCTA000006108720",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129134",
                         "id": "LEGISCTA000006129134",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : CONTRAT DE TRANSPORT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144012",
                         "id": "LEGISCTA000006144012",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE Ier : TRANSPORT DE MARCHANDISES",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159788",
                         "id": "LEGISCTA000006159788",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000006159788",
             "sectionParentId": "LEGISCTA000006159788",
             "sectionParentTitre": "CHAPITRE Ier : TRANSPORT DE MARCHANDISES",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; LIVRE III : TRANSPORT AERIEN. &gt; TITRE II : CONTRAT DE TRANSPORT &gt; CHAPITRE Ier : TRANSPORT DE MARCHANDISES",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006843867",
+            "fullSectionsTitre": null,
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006843867",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -130,12 +130,24 @@
                     "datePubliTexte": "1967-04-09",
                     "dateSignaTexte": "1967-03-30",
                     "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "JORFTEXT000000295630",
-                    "textTitle": "D\u00e9cret du 27 f\u00e9vrier 1941, v. init.",
+                    "textTitle": "D\u00e9cret du 27 f\u00e9vrier 1941",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -162,10 +174,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000006843867",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": -86227200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

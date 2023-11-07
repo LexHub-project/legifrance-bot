@@ -6,14 +6,14 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "Les rapporteurs devant le Conseil sup\u00e9rieur de l'aviation civile sont choisis par le pr\u00e9sident soit parmi les membres du conseil, soit au sein des formations adjointes mentionn\u00e9es \u00e0 l' article D. 370-5 , soit parmi les fonctionnaires de l'Etat ayant au moins un grade \u00e9quivalant \u00e0 celui du premier grade du corps des administrateurs civils.",
-            "texteHtml": "<p>Les rapporteurs devant le Conseil sup\u00e9rieur de l'aviation civile sont choisis par le pr\u00e9sident soit parmi les membres du conseil, soit au sein des formations adjointes mentionn\u00e9es \u00e0 l'<a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006843888&dateTexte=&categorieLien=cid'>article D. 370-5</a>, soit parmi les fonctionnaires de l'Etat ayant au moins un grade \u00e9quivalant \u00e0 celui du premier grade du corps des administrateurs civils.</p>",
+            "texteHtml": "<p>Les rapporteurs devant le Conseil sup\u00e9rieur de l'aviation civile sont choisis par le pr\u00e9sident soit parmi les membres du conseil, soit au sein des formations adjointes mentionn\u00e9es \u00e0 l'<a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000021964880&dateTexte=&categorieLien=id' title='Code de l'aviation civile - art. D370-5 (Ab)'>article D. 370-5</a>, soit parmi les fonctionnaires de l'Etat ayant au moins un grade \u00e9quivalant \u00e0 celui du premier grade du corps des administrateurs civils.</p>",
             "num": "D370-9",
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1268438400000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -22,21 +22,21 @@
                 "titresTM": [
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Partie r\u00e9glementaire - D\u00e9crets simples",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
                         "cid": "LEGISCTA000006108720",
                         "id": "LEGISCTA000006108720",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129134",
                         "id": "LEGISCTA000006129134",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2003-04-05",
@@ -49,12 +49,12 @@
                     },
                     {
                         "debut": "2010-03-13",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VII : CONSEIL SUPERIEUR DE L'AVIATION CIVILE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144016",
                         "id": "LEGISCTA000021964864",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000006144016",
             "sectionParentId": "LEGISCTA000021964864",
             "sectionParentTitre": "TITRE VII : CONSEIL SUPERIEUR DE L'AVIATION CIVILE.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; LIVRE III : TRANSPORT AERIEN. &gt; TITRE VII : CONSEIL SUPERIEUR DE L'AVIATION CIVILE.",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000021964870",
+            "fullSectionsTitre": null,
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000021964870",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -130,21 +130,33 @@
                     "datePubliTexte": "2010-03-12",
                     "dateSignaTexte": "2010-03-10",
                     "dateDebutCible": "2010-03-13"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. D370-5",
+                    "textTitle": "Code de l'aviation civile - art. D370-5 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "D370-5",
-                    "articleId": "LEGIARTI000006843888",
+                    "articleId": "LEGIARTI000021964880",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1049500800000
+                    "dateDebut": 1268438400000
                 }
             ],
             "lienConcordes": [
@@ -180,10 +192,10 @@
                 },
                 {
                     "id": "LEGIARTI000021964870",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1268438400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -223,21 +235,21 @@
                 "titresTM": [
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Partie r\u00e9glementaire - D\u00e9crets simples",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
                         "cid": "LEGISCTA000006108720",
                         "id": "LEGISCTA000006108720",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129134",
                         "id": "LEGISCTA000006129134",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2003-04-05",
@@ -250,12 +262,12 @@
                     },
                     {
                         "debut": "2010-03-13",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VII : CONSEIL SUPERIEUR DE L'AVIATION CIVILE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144016",
                         "id": "LEGISCTA000021964864",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -278,8 +290,8 @@
             "sectionParentId": "LEGISCTA000021964864",
             "sectionParentTitre": "TITRE VII : CONSEIL SUPERIEUR DE L'AVIATION CIVILE.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; LIVRE III : TRANSPORT AERIEN.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006843892",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006843892",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -403,10 +415,10 @@
                 },
                 {
                     "id": "LEGIARTI000021964870",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1268438400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

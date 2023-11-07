@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "8.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1056758400000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,30 +31,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129149",
                         "id": "LEGISCTA000006129149",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1998-07-03",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE IV : SOCIETE AIR FRANCE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144087",
                         "id": "LEGISCTA000006144087",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1998-07-03",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE II : FONCTIONNEMENT.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159912",
                         "id": "LEGISCTA000006159912",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000006159912",
             "sectionParentId": "LEGISCTA000006159912",
             "sectionParentTitre": "CHAPITRE II : FONCTIONNEMENT.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE III : TRANSPORT AERIEN &gt; TITRE IV : SOCIETE AIR FRANCE. &gt; CHAPITRE II : FONCTIONNEMENT.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845063",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845063",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -121,7 +121,7 @@
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000852674",
-                    "textTitle": "D\u00e9cret 67-334 1967-03-30",
+                    "textTitle": "D\u00e9cret n\u00b0 67-334 du 30 mars 1967",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -142,6 +142,18 @@
                     "datePubliTexte": "2003-06-28",
                     "dateSignaTexte": "2003-06-27",
                     "dateDebutCible": "2003-06-28"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
@@ -160,7 +172,7 @@
                 },
                 {
                     "textCid": "JORFTEXT000000183805",
-                    "textTitle": "Loi n\u00b094-640 du 25 juillet 1994 - art. 5 ()",
+                    "textTitle": "Loi n\u00b094-640 du 25 juillet 1994 - art. 5",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "5",
@@ -173,7 +185,7 @@
                 },
                 {
                     "textCid": "JORFTEXT000000183805",
-                    "textTitle": "Loi n\u00b094-640 du 25 juillet 1994 - art. 6 ()",
+                    "textTitle": "Loi n\u00b094-640 du 25 juillet 1994 - art. 6",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "6",
@@ -186,7 +198,7 @@
                 },
                 {
                     "textCid": "JORFTEXT000000552548",
-                    "textTitle": "D\u00e9cret 95-237 1995-03-02",
+                    "textTitle": "D\u00e9cret n\u00b095-237 du 2 mars 1995",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -199,7 +211,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. L342-3 (M)",
+                    "textTitle": "Code de l'aviation civile - art. L342-3",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L342-3",
@@ -279,10 +291,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845063",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1056758400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -331,30 +343,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129149",
                         "id": "LEGISCTA000006129149",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1998-07-03",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE IV : SOCIETE AIR FRANCE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144087",
                         "id": "LEGISCTA000006144087",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1998-07-03",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE II : FONCTIONNEMENT.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159912",
                         "id": "LEGISCTA000006159912",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -377,8 +389,8 @@
             "sectionParentId": "LEGISCTA000006159912",
             "sectionParentTitre": "CHAPITRE II : FONCTIONNEMENT.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE III : TRANSPORT AERIEN &gt; TITRE IV : SOCIETE AIR FRANCE. &gt; CHAPITRE II : FONCTIONNEMENT.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845062",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845062",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -589,10 +601,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845063",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1056758400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -641,30 +653,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129149",
                         "id": "LEGISCTA000006129149",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1998-07-03",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE IV : SOCIETE AIR FRANCE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144087",
                         "id": "LEGISCTA000006144087",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1998-07-03",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE II : FONCTIONNEMENT.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159912",
                         "id": "LEGISCTA000006159912",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -687,8 +699,8 @@
             "sectionParentId": "LEGISCTA000006159912",
             "sectionParentTitre": "CHAPITRE II : FONCTIONNEMENT.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE III : TRANSPORT AERIEN &gt; TITRE IV : SOCIETE AIR FRANCE. &gt; CHAPITRE II : FONCTIONNEMENT.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845061",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845061",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -886,10 +898,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845063",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1056758400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -938,12 +950,12 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129149",
                         "id": "LEGISCTA000006129149",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
@@ -984,8 +996,8 @@
             "sectionParentId": "LEGISCTA000006159897",
             "sectionParentTitre": "CHAPITRE II : FONCTIONNEMENT.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE III : TRANSPORT AERIEN",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845060",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845060",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1183,10 +1195,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845063",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1056758400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1235,12 +1247,12 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129149",
                         "id": "LEGISCTA000006129149",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
@@ -1281,8 +1293,8 @@
             "sectionParentId": "LEGISCTA000006159897",
             "sectionParentTitre": "CHAPITRE II : FONCTIONNEMENT.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE III : TRANSPORT AERIEN &gt; TITRE IV : COMPAGNIE NATIONALE AIR FRANCE &gt; CHAPITRE II : FONCTIONNEMENT.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845059",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845059",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1467,10 +1479,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845063",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1056758400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1519,12 +1531,12 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129149",
                         "id": "LEGISCTA000006129149",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
@@ -1565,8 +1577,8 @@
             "sectionParentId": "LEGISCTA000006159897",
             "sectionParentTitre": "CHAPITRE II : FONCTIONNEMENT.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE III : TRANSPORT AERIEN &gt; TITRE IV : COMPAGNIE NATIONALE AIR FRANCE &gt; CHAPITRE II : FONCTIONNEMENT.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845058",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845058",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1751,10 +1763,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845063",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1056758400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1803,12 +1815,12 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129149",
                         "id": "LEGISCTA000006129149",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
@@ -1849,8 +1861,8 @@
             "sectionParentId": "LEGISCTA000006159897",
             "sectionParentTitre": "CHAPITRE II : FONCTIONNEMENT.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE III : TRANSPORT AERIEN &gt; TITRE IV : COMPAGNIE NATIONALE AIR FRANCE &gt; CHAPITRE II : FONCTIONNEMENT.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845057",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845057",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -2048,10 +2060,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845063",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1056758400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -2100,12 +2112,12 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE III : TRANSPORT AERIEN",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129149",
                         "id": "LEGISCTA000006129149",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
@@ -2146,8 +2158,8 @@
             "sectionParentId": "LEGISCTA000006159897",
             "sectionParentTitre": "CHAPITRE II : FONCTIONNEMENT.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE III : TRANSPORT AERIEN &gt; TITRE IV : COMPAGNIE NATIONALE AIR FRANCE &gt; CHAPITRE II : FONCTIONNEMENT.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845056",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845056",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -2347,10 +2359,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845063",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1056758400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1325376000000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,39 +31,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144079",
                         "id": "LEGISCTA000006144079",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : RETRAITES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159905",
                         "id": "LEGISCTA000006159905",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 2 : Cotisations.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177268",
                         "id": "LEGISCTA000006177268",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -85,9 +85,9 @@
             "sectionParentCid": "LEGISCTA000006177268",
             "sectionParentId": "LEGISCTA000006177268",
             "sectionParentTitre": "Section 2 : Cotisations.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL &gt; CHAPITRE VI : RETRAITES. &gt; Section 2 : Cotisations.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000024795129",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000024795129",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -151,12 +151,24 @@
                     "datePubliTexte": "2011-11-13",
                     "dateSignaTexte": "2011-11-10",
                     "dateDebutCible": "2012-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-14 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R426-14 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-14",
@@ -182,7 +194,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-28 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R426-28 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-28",
@@ -204,11 +216,11 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1620864000000
+                    "dateDebut": 457488000000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-8 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R426-8 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-8",
@@ -221,7 +233,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-9 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-9 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-9",
@@ -257,10 +269,10 @@
                 },
                 {
                     "id": "LEGIARTI000024795129",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1325376000000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -309,39 +321,39 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144079",
                         "id": "LEGISCTA000006144079",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE VI : RETRAITES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159905",
                         "id": "LEGISCTA000006159905",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 2 : Cotisations.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177268",
                         "id": "LEGISCTA000006177268",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -364,8 +376,8 @@
             "sectionParentId": "LEGISCTA000006177268",
             "sectionParentTitre": "Section 2 : Cotisations.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE II : PERSONNEL NAVIGANT PROFESSIONNEL &gt; CHAPITRE VI : RETRAITES. &gt; Section 2 : Cotisations.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006845195",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845195",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -422,7 +434,7 @@
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-14 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R426-14 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-14",
@@ -435,19 +447,6 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-28 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R426-28",
-                    "articleId": "LEGIARTI000006845256",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": -86227200000
-                },
-                {
-                    "textCid": "LEGITEXT000006074234",
                     "textTitle": "Code de l'aviation civile - art. R426-5 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -457,11 +456,11 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1620864000000
+                    "dateDebut": 457488000000
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-8 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R426-8 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-8",
@@ -474,7 +473,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R426-9 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R426-9 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R426-9",
@@ -510,10 +509,10 @@
                 },
                 {
                     "id": "LEGIARTI000024795129",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1325376000000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

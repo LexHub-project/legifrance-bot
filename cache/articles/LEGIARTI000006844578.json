@@ -6,14 +6,14 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "La commission pr\u00e9vue par l'article L. 150-13 est d\u00e9livr\u00e9e par le ministre charg\u00e9 de l'aviation civile ou, pour le personnel plac\u00e9 sous son autorit\u00e9, par le ministre de la d\u00e9fense. Elle mentionne l'objet du commissionnement et la circonscription g\u00e9ographique dans laquelle l'agent commissionn\u00e9 a vocation, en raison de son affectation, \u00e0 constater les infractions.",
-            "texteHtml": "<p></p>La commission pr\u00e9vue par l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006844144&dateTexte=&categorieLien=cid' title='Code de l'aviation civile - art. L150-13 (Ab)'>L. 150-13</a> est d\u00e9livr\u00e9e par le ministre charg\u00e9 de l'aviation civile ou, pour le personnel plac\u00e9 sous son autorit\u00e9, par le ministre de la d\u00e9fense. <p></p><p></p>Elle mentionne l'objet du commissionnement et la circonscription g\u00e9ographique dans laquelle l'agent commissionn\u00e9 a vocation, en raison de son affectation, \u00e0 constater les infractions.<p></p>",
+            "texteHtml": "<p></p>La commission pr\u00e9vue par l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074234&idArticle=LEGIARTI000006844144&dateTexte=&categorieLien=cid'>L. 150-13</a> est d\u00e9livr\u00e9e par le ministre charg\u00e9 de l'aviation civile ou, pour le personnel plac\u00e9 sous son autorit\u00e9, par le ministre de la d\u00e9fense. <p></p><p></p>Elle mentionne l'objet du commissionnement et la circonscription g\u00e9ographique dans laquelle l'agent commissionn\u00e9 a vocation, en raison de son affectation, \u00e0 constater les infractions.<p></p>",
             "num": "R151-5",
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "3.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1075939200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,21 +31,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1980-11-21",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE V : DISPOSITIONS PENALES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144062",
                         "id": "LEGISCTA000006144062",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -67,9 +67,9 @@
             "sectionParentCid": "LEGISCTA000006144062",
             "sectionParentId": "LEGISCTA000006144062",
             "sectionParentTitre": "TITRE V : DISPOSITIONS PENALES.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE V : DISPOSITIONS PENALES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844580",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844580",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -133,6 +133,18 @@
                     "datePubliTexte": "2004-02-05",
                     "dateSignaTexte": "2004-01-29",
                     "dateDebutCible": "2004-02-05"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
@@ -320,7 +332,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. L150-13 (Ab)",
+                    "textTitle": "Code de l'aviation civile - art. L150-13",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L150-13",
@@ -333,7 +345,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R151-6 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R151-6 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R151-6",
@@ -368,10 +380,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844580",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1075939200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -420,21 +432,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1980-11-21",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE V : DISPOSITIONS PENALES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144062",
                         "id": "LEGISCTA000006144062",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -457,8 +469,8 @@
             "sectionParentId": "LEGISCTA000006144062",
             "sectionParentTitre": "TITRE V : DISPOSITIONS PENALES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE V : DISPOSITIONS PENALES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844579",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844579",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -722,16 +734,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R151-6 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R151-6 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R151-6",
-                    "articleId": "LEGIARTI000039344227",
+                    "articleId": "LEGIARTI000006844581",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1577836800000
+                    "dateDebut": 668476800000
                 }
             ],
             "lienConcordes": [],
@@ -767,10 +779,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844580",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1075939200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -819,21 +831,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1980-11-21",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE V : DISPOSITIONS PENALES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144062",
                         "id": "LEGISCTA000006144062",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -856,8 +868,8 @@
             "sectionParentId": "LEGISCTA000006144062",
             "sectionParentTitre": "TITRE V : DISPOSITIONS PENALES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE V : DISPOSITIONS PENALES.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006844578",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844578",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1121,16 +1133,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R151-6 (VD)",
+                    "textTitle": "Code de l'aviation civile - art. R151-6 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R151-6",
-                    "articleId": "LEGIARTI000039344227",
+                    "articleId": "LEGIARTI000006844581",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1577836800000
+                    "dateDebut": 668476800000
                 }
             ],
             "lienConcordes": [],
@@ -1166,10 +1178,10 @@
                 },
                 {
                     "id": "LEGIARTI000006844580",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1075939200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1165536000000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -40,21 +40,21 @@
                     },
                     {
                         "debut": "2013-06-30",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE VII : ENQUETE DE SECURITE RELATIVE AUX ACCIDENTS OU INCIDENTS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129154",
                         "id": "LEGISCTA000027630699",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2006-12-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE Ier : DISPOSITIONS GENERALES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144088",
                         "id": "LEGISCTA000006144088",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000006144088",
             "sectionParentId": "LEGISCTA000006144088",
             "sectionParentTitre": "TITRE Ier : DISPOSITIONS GENERALES.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE VII : ENQUETE TECHNIQUE RELATIVE AUX ACCIDENTS ET INCIDENTS, PROTECTION DE L'INFORMATION &gt; TITRE Ier : DISPOSITIONS GENERALES.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006845290",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845290",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -121,7 +121,7 @@
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000852674",
-                    "textTitle": "D\u00e9cret 67-334 1967-03-30",
+                    "textTitle": "D\u00e9cret n\u00b0 67-334 du 30 mars 1967",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -142,6 +142,18 @@
                     "datePubliTexte": "2006-12-08",
                     "dateSignaTexte": "2006-12-07",
                     "dateDebutCible": "2006-12-08"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [],
@@ -159,10 +171,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845290",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1165536000000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -248,8 +260,8 @@
             "sectionParentId": "LEGISCTA000006144082",
             "sectionParentTitre": "TITRE Ier : DISPOSITIONS G\u00c9N\u00c9RALES",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006845289",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006845289",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -367,10 +379,10 @@
                 },
                 {
                     "id": "LEGIARTI000006845290",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1165536000000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

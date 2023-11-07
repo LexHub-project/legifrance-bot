@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 390700800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -22,39 +22,39 @@
                 "titresTM": [
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Partie r\u00e9glementaire - D\u00e9crets simples",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
                         "cid": "LEGISCTA000006108720",
                         "id": "LEGISCTA000006108720",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1982-05-20",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE V : DISPOSITIONS RELATIVES A LA FORMATION AERONAUTIQUE.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129136",
                         "id": "LEGISCTA000006129136",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1982-05-20",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE II : AIDE AUX JEUNES",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144021",
                         "id": "LEGISCTA000006144021",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1982-05-20",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 2 : Aide \u00e0 la construction amateur.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159798",
                         "id": "LEGISCTA000006159798",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000006159798",
             "sectionParentId": "LEGISCTA000006159798",
             "sectionParentTitre": "Section 2 : Aide \u00e0 la construction amateur.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; LIVRE V : DISPOSITIONS RELATIVES A LA FORMATION AERONAUTIQUE. &gt; TITRE II : AIDE AUX JEUNES &gt; Section 2 : Aide \u00e0 la construction amateur.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844029",
+            "fullSectionsTitre": null,
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844029",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -142,6 +142,18 @@
                     "datePubliTexte": null,
                     "dateSignaTexte": null,
                     "dateDebutCible": null
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [],
@@ -150,10 +162,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000006844029",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 390700800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

@@ -6,14 +6,14 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "Le conseil m\u00e9dical de l'a\u00e9ronautique civile, qui constitue la commission m\u00e9dicale mentionn\u00e9e \u00e0 l'article L. 6511-4 du code des transports, est plac\u00e9 aupr\u00e8s du ministre charg\u00e9 de l'aviation civile.",
-            "texteHtml": "<p>Le conseil m\u00e9dical de l'a\u00e9ronautique civile, qui constitue la commission m\u00e9dicale mentionn\u00e9e \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023086525&idArticle=LEGIARTI000023076086&dateTexte=&categorieLien=cid' title='Code des transports - art. L6511-4 (V)'>L. 6511-4</a> du code des transports, est plac\u00e9 aupr\u00e8s du ministre charg\u00e9 de l'aviation civile.</p>",
+            "texteHtml": "<p>Le conseil m\u00e9dical de l'a\u00e9ronautique civile, qui constitue la commission m\u00e9dicale mentionn\u00e9e \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000023086525&idArticle=LEGIARTI000023076086&dateTexte=&categorieLien=cid'>L. 6511-4</a> du code des transports, est plac\u00e9 aupr\u00e8s du ministre charg\u00e9 de l'aviation civile.</p>",
             "num": "R410-4",
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1451520000000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,21 +31,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE IV : PERSONNEL NAVIGANT",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129150",
                         "id": "LEGISCTA000006129150",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2005-09-18",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE Ier : DISPOSITIONS COMMUNES",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144078",
                         "id": "LEGISCTA000006144078",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -67,9 +67,9 @@
             "sectionParentCid": "LEGISCTA000006144078",
             "sectionParentId": "LEGISCTA000006144078",
             "sectionParentTitre": "TITRE Ier : DISPOSITIONS COMMUNES",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE IV : PERSONNEL NAVIGANT &gt; TITRE Ier : DISPOSITIONS COMMUNES",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000031773463",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000031773463",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -121,12 +121,24 @@
                     "datePubliTexte": "2015-12-30",
                     "dateSignaTexte": "2015-12-28",
                     "dateDebutCible": "2015-12-31"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. L6511-4 (V)",
+                    "textTitle": "Code des transports - art. L6511-4",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L6511-4",
@@ -143,10 +155,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000031773463",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1451520000000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

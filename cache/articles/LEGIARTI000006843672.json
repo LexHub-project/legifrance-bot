@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1276387200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -22,57 +22,57 @@
                 "titresTM": [
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Partie r\u00e9glementaire - D\u00e9crets simples",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
                         "cid": "LEGISCTA000006108720",
                         "id": "LEGISCTA000006108720",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129128",
                         "id": "LEGISCTA000006129128",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144002",
                         "id": "LEGISCTA000006144002",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE Ier : DROIT DE CIRCULATION",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159763",
                         "id": "LEGISCTA000006159763",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : R\u00e8gles relatives \u00e0 la navigation a\u00e9rienne et \u00e0 la m\u00e9t\u00e9orologie",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177213",
                         "id": "LEGISCTA000006177213",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Paragraphe 3 : M\u00e9t\u00e9orologie.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006189143",
                         "id": "LEGISCTA000006189143",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -94,9 +94,9 @@
             "sectionParentCid": "LEGISCTA000006189143",
             "sectionParentId": "LEGISCTA000006189143",
             "sectionParentTitre": "Paragraphe 3 : M\u00e9t\u00e9orologie.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; LIVRE Ier : AERONEFS. &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE Ier : DROIT DE CIRCULATION &gt; Section 1 : R\u00e8gles relatives \u00e0 la navigation a\u00e9rienne et \u00e0 la m\u00e9t\u00e9orologie &gt; Paragraphe 3 : M\u00e9t\u00e9orologie.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000022346182",
+            "fullSectionsTitre": null,
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000022346182",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -148,6 +148,18 @@
                     "datePubliTexte": "2010-06-12",
                     "dateSignaTexte": "2010-06-10",
                     "dateDebutCible": "2010-06-13"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [],
@@ -175,10 +187,10 @@
                 },
                 {
                     "id": "LEGIARTI000022346182",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1276387200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -218,57 +230,57 @@
                 "titresTM": [
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Partie r\u00e9glementaire - D\u00e9crets simples",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
                         "cid": "LEGISCTA000006108720",
                         "id": "LEGISCTA000006108720",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129128",
                         "id": "LEGISCTA000006129128",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE III : CIRCULATION DES AERONEFS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144002",
                         "id": "LEGISCTA000006144002",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "CHAPITRE Ier : DROIT DE CIRCULATION",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006159763",
                         "id": "LEGISCTA000006159763",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : R\u00e8gles relatives \u00e0 la navigation a\u00e9rienne et \u00e0 la m\u00e9t\u00e9orologie",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006177213",
                         "id": "LEGISCTA000006177213",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Paragraphe 3 : M\u00e9t\u00e9orologie.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006189143",
                         "id": "LEGISCTA000006189143",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -291,8 +303,8 @@
             "sectionParentId": "LEGISCTA000006189143",
             "sectionParentTitre": "Paragraphe 3 : M\u00e9t\u00e9orologie.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets simples &gt; LIVRE Ier : AERONEFS. &gt; TITRE III : CIRCULATION DES AERONEFS. &gt; CHAPITRE Ier : DROIT DE CIRCULATION &gt; Section 1 : R\u00e8gles relatives \u00e0 la navigation a\u00e9rienne et \u00e0 la m\u00e9t\u00e9orologie &gt; Paragraphe 3 : M\u00e9t\u00e9orologie.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006843672",
+            "refInjection": "MD-20231103_195348_944_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006843672",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -371,10 +383,10 @@
                 },
                 {
                     "id": "LEGIARTI000022346182",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1276387200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

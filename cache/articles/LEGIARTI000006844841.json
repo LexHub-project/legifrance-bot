@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1121990400000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,21 +31,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE II : AERODROMES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129148",
                         "id": "LEGISCTA000006129148",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE V : AEROPORTS DE PARIS.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144068",
                         "id": "LEGISCTA000006144068",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -67,9 +67,9 @@
             "sectionParentCid": "LEGISCTA000006144068",
             "sectionParentId": "LEGISCTA000006144068",
             "sectionParentTitre": "TITRE V : AEROPORTS DE PARIS.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE II : AERODROMES. &gt; TITRE V : AEROPORTS DE PARIS.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844841",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844841",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -112,7 +112,7 @@
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000852674",
-                    "textTitle": "D\u00e9cret 67-334 1967-03-30",
+                    "textTitle": "D\u00e9cret n\u00b0 67-334 du 30 mars 1967",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -133,6 +133,18 @@
                     "datePubliTexte": "2005-07-22",
                     "dateSignaTexte": "2005-07-20",
                     "dateDebutCible": "2005-07-22"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [],
@@ -141,10 +153,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000006844841",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1121990400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1698796800000,
                     "numero": null,
                     "ordre": null
                 }

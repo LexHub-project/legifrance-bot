@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1651276800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1698796800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -31,30 +31,30 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1999-06-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144063",
                         "id": "LEGISCTA000006144063",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2022-04-30",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000045810726",
                         "id": "LEGISCTA000045810726",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -76,9 +76,9 @@
             "sectionParentCid": "LEGISCTA000045810726",
             "sectionParentId": "LEGISCTA000045810726",
             "sectionParentTitre": "Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES. &gt; Section 1 : Sanctions relevant de la comp\u00e9tence du ministre charg\u00e9 de l'aviation civile ",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000045811135",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000045811135",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -142,6 +142,18 @@
                     "datePubliTexte": "2022-04-29",
                     "dateSignaTexte": "2022-04-27",
                     "dateDebutCible": "2022-04-30"
+                },
+                {
+                    "textCid": "JORFTEXT000048313483",
+                    "textTitle": "D\u00e9cret n\u00b02023-1008 du 31 octobre 2023 - art. 5 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "5",
+                    "articleId": "LEGIARTI000048316697",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-01",
+                    "dateSignaTexte": "2023-10-31",
+                    "dateDebutCible": "2023-11-01"
                 }
             ],
             "lienCitations": [
@@ -160,7 +172,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R217-4-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R217-4-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R217-4-1",
@@ -173,7 +185,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R217-5-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R217-5-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R217-5-1",
@@ -199,7 +211,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R330-21 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R330-21 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R330-21",
@@ -215,20 +227,20 @@
             "lienAutres": [],
             "articleVersions": [
                 {
+                    "id": "LEGIARTI000045811135",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1651276800000,
+                    "dateFin": 1698796800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
                     "id": "LEGIARTI000006844607",
                     "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 928886400000,
                     "dateFin": 1651276800000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000045811135",
-                    "etat": "VIGUEUR",
-                    "version": "1.0",
-                    "dateDebut": 1651276800000,
-                    "dateFin": 32472144000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -277,21 +289,21 @@
                     },
                     {
                         "debut": "1967-04-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "LIVRE Ier : AERONEFS",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006129147",
                         "id": "LEGISCTA000006129147",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "1999-06-09",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-01",
                         "titre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006144063",
                         "id": "LEGISCTA000006144063",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -314,8 +326,8 @@
             "sectionParentId": "LEGISCTA000006144063",
             "sectionParentTitre": "TITRE VI : SANCTIONS ADMINISTRATIVES.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; LIVRE Ier : AERONEFS &gt; TITRE VI : SANCTIONS ADMINISTRATIVES.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006844607",
+            "refInjection": "MD-20231103_195351_782_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006844607",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -397,24 +409,11 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R217-4-1 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R217-4-1 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R217-4-1",
                     "articleId": "LEGIARTI000030264986",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1424649600000
-                },
-                {
-                    "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R217-5-1 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R217-5-1",
-                    "articleId": "LEGIARTI000030263721",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
@@ -436,7 +435,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006074234",
-                    "textTitle": "Code de l'aviation civile - art. R330-21 (V)",
+                    "textTitle": "Code de l'aviation civile - art. R330-21 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R330-21",
@@ -462,20 +461,20 @@
             ],
             "articleVersions": [
                 {
+                    "id": "LEGIARTI000045811135",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 1651276800000,
+                    "dateFin": 1698796800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
                     "id": "LEGIARTI000006844607",
                     "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 928886400000,
                     "dateFin": 1651276800000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000045811135",
-                    "etat": "VIGUEUR",
-                    "version": "1.0",
-                    "dateDebut": 1651276800000,
-                    "dateFin": 32472144000000,
                     "numero": null,
                     "ordre": null
                 }
