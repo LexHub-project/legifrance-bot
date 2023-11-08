@@ -28,6 +28,10 @@ jobs:
           git config --global user.email 'OzieGamma@users.noreply.github.com'
           git config --global init.defaultBranch main
 
+      - name: push to `legifrance` repo
+        run: |
+          git clone https://OzieGamma:${{ secrets.PAT_PUSH_LEGIFRANCE }}@github.com/LexHub-project/legifrance.git ./output
+
       - run: python main.py -t
         env:
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
@@ -36,7 +40,6 @@ jobs:
       - name: push to `legifrance` repo
         working-directory: ./output
         run: |
-          git remote add origin https://OzieGamma:${{ secrets.PAT_PUSH_LEGIFRANCE }}@github.com/LexHub-project/legifrance.git
           git push origin main -f
 
       - run: git status
