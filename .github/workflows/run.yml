@@ -32,7 +32,7 @@ jobs:
         run: |
           git clone https://OzieGamma:${{ secrets.PAT_PUSH_LEGIFRANCE }}@github.com/LexHub-project/legifrance.git ./output
 
-      - run: python main.py -t
+      - run: python main.py
         env:
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
@@ -40,7 +40,7 @@ jobs:
       - name: push to `legifrance` repo
         working-directory: ./output
         run: |
-          git push origin main -f
+          git push origin main
 
       - run: git status
       - name: Commit cache
