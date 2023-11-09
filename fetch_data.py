@@ -91,7 +91,7 @@ class CachedLegifranceClient:
 
         for cid in tqdm(new_entries, desc=f"{new_tm['cid']} - {new_tm['title']}"):
             new_article_entries = new_entries[cid]
-            old_article_entries = old_entries[cid]
+            old_article_entries = old_entries.get(cid, None)
 
             ids = {e["id"] for e in new_article_entries}
             force_refetch = new_article_entries != old_article_entries
