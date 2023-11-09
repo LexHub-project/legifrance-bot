@@ -7,7 +7,6 @@ import subprocess
 from datetime import datetime
 from typing import Generator
 
-import git
 import pytz
 import tqdm
 
@@ -70,35 +69,45 @@ def _resolve_links(html: str | None, article_cid_to_uri: dict[Cid, Uri]):
     return html
 
 
+def _clean_msg(m: str) -> str:
+    return re.sub("['\\s]", "", m)
+
+
 def _play_commits(
     commits: list[Commit], init: bool, output_repo_path: str
 ) -> Generator[Commit, None, None]:
     if init:
         _init_repo(output_repo_path)
-        repo_commits = []
+        repo_commit_messages = []
     else:
-        repo = git.Repo(output_repo_path)
-        repo_commits = list(reversed(list(repo.iter_commits())))
+        git_log = subprocess.run(
+            ["git", "log", "--pretty=format:'%s'"],
+            cwd=output_repo_path,
+            capture_output=True,
+            text=True,
+        )
+
+        repo_commit_messages = list(reversed(git_log.stdout.split("\n")))
 
     tz = pytz.timezone("UTC")
 
     assert len(commits) >= len(
-        repo_commits
-    ), f"len(commits)={len(commits)} len(repo_commits)={len(repo_commits)}"
+        repo_commit_messages
+    ), f"len(commits)={len(commits)} len(repo_commits)={len(repo_commit_messages)}"
 
     article_cid_to_uri: dict[Cid, Uri] = {}
 
-    for todo_commit, repo_commit in tqdm.tqdm(
-        itertools.zip_longest(commits, repo_commits), desc="Replaying commits"
+    for todo_commit, repo_commit_message in tqdm.tqdm(
+        itertools.zip_longest(commits, repo_commit_messages), desc="Replaying commits"
     ):
         yield todo_commit
 
-        should_replay = repo_commit is None
+        should_replay = repo_commit_message is None
 
         if not should_replay:
-            assert (
-                repo_commit.message.strip() == todo_commit.title.strip()
-            ), f"repo_commit.message.strip()='{repo_commit.message.strip()}', todo_commit.title.strip()='{todo_commit.title.strip()}'"
+            assert _clean_msg(repo_commit_message) == _clean_msg(
+                todo_commit.title
+            ), f"_clean_msg(repo_commit_message)='{_clean_msg(repo_commit_message)}', _clean_msg(todo_commit.title)='{_clean_msg(todo_commit.title)}'"
 
         for cid, (uri, html) in todo_commit.article_changes.items():
             if html is None:
