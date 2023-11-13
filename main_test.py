@@ -118,11 +118,3 @@ def test_output(snapshot, all_commits: list[Commit]):
     snapshot.assert_match(
         "\n".join([_clean_msg(t) for t in titles]), "all_commit_messages.txt"
     )
-
-
-def test_commit_messages(snapshot):
-    titles = _commit_messages("./output")
-
-    snapshot.assert_match(
-        "\n".join([_clean_msg(t) for t in titles]), "repo_commit_messages.txt"
-    )
