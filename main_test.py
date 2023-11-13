@@ -8,12 +8,7 @@ import pytest
 from commits import Commit, get_commits
 from constants import DATE_STR_FMT
 from fetch_data import CachedLegifranceClient
-from main import (
-    CID_CODE_DU_TRAVAIL_MARITIME,
-    _clean_msg,
-    _commit_messages,
-    _play_commits,
-)
+from main import CID_CODE_DU_TRAVAIL_MARITIME, _clean_msg, _play_commits
 
 TEST_OUTPUT_REPO_PATH = "output_test"
 
