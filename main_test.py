@@ -8,7 +8,12 @@ import pytest
 from commits import Commit, get_commits
 from constants import DATE_STR_FMT
 from fetch_data import CachedLegifranceClient
-from main import CID_CODE_DU_TRAVAIL_MARITIME, _play_commits
+from main import (
+    CID_CODE_DU_TRAVAIL_MARITIME,
+    _clean_msg,
+    _commit_messages,
+    _play_commits,
+)
 
 TEST_OUTPUT_REPO_PATH = "output_test"
 
@@ -39,6 +44,15 @@ def commits() -> list[Commit]:
     articles = list(
         client.fetch_articles_from_codes([{"cid": CID_CODE_DU_TRAVAIL_MARITIME}])
     )
+    return get_commits(articles)
+
+
+@pytest.fixture(scope="module")
+def all_commits() -> list[Commit]:
+    code_list = client.fetch_code_list()
+
+    articles = list(client.fetch_articles_from_codes(code_list))
+
     return get_commits(articles)
 
 
@@ -94,4 +108,21 @@ def test_partial(snapshot, commits: list[Commit]):
         snapshots[f"2-final-{code_name}.md"] = _render_repo_to_str(
             f"{TEST_OUTPUT_REPO_PATH}/{code_name}"
         )
+
     snapshot.assert_match_dir(snapshots, "test_snapshots")
+
+
+def test_output(snapshot, all_commits: list[Commit]):
+    titles = [c.title for c in all_commits]
+
+    snapshot.assert_match(
+        "\n".join([_clean_msg(t) for t in titles]), "all_commit_messages.txt"
+    )
+
+
+def test_commit_messages(snapshot):
+    titles = _commit_messages("./output")
+
+    snapshot.assert_match(
+        "\n".join([_clean_msg(t) for t in titles]), "repo_commit_messages.txt"
+    )
