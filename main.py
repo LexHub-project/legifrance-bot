@@ -73,6 +73,17 @@ def _clean_msg(m: str) -> str:
     return re.sub("['\\s]", "", m)
 
 
+def _commit_messages(output_repo_path: str) -> list[str]:
+    git_log = subprocess.run(
+        ["git", "log", "--pretty=format:'%s'"],
+        cwd=output_repo_path,
+        capture_output=True,
+        text=True,
+    )
+
+    return list(reversed(git_log.stdout.split("\n")))
+
+
 def _play_commits(
     commits: list[Commit], init: bool, output_repo_path: str
 ) -> Generator[Commit, None, None]:
@@ -80,14 +91,7 @@ def _play_commits(
         _init_repo(output_repo_path)
         repo_commit_messages = []
     else:
-        git_log = subprocess.run(
-            ["git", "log", "--pretty=format:'%s'"],
-            cwd=output_repo_path,
-            capture_output=True,
-            text=True,
-        )
-
-        repo_commit_messages = list(reversed(git_log.stdout.split("\n")))
+        repo_commit_messages = _commit_messages(output_repo_path)
 
     tz = pytz.timezone("UTC")
 

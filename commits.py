@@ -77,7 +77,8 @@ class Commit:
     @property
     def title(self):
         return (
-            "Modifications par " + " & ".join([t.title for t in self.modified_by])
+            "Modifications par "
+            + " & ".join(sorted({t.title for t in self.modified_by}))
             if len(self.modified_by) > 0
             else DEFAULT_COMMIT_MESSAGE
         )
@@ -108,7 +109,7 @@ def _dedupe_modified_by(
 
     for cid, group in itertools.groupby(sorted_by_cid, key=lambda m: m.cid):
         yield TextCidAndTitle(
-            cid=cid, title=_merge_titles(list({m.title for m in group}))
+            cid=cid, title=_merge_titles(sorted(list({m.title for m in group})))
         )
 
 

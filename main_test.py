@@ -42,6 +42,15 @@ def commits() -> list[Commit]:
     return get_commits(articles)
 
 
+@pytest.fixture(scope="module")
+def all_commits() -> list[Commit]:
+    code_list = client.fetch_code_list()
+
+    articles = list(client.fetch_articles_from_codes(code_list))
+
+    return get_commits(articles)
+
+
 CODE_NAMES = ["code-du-travail-maritime"]
 DATES = [
     (date, int(datetime.strptime(date, DATE_STR_FMT).timestamp() * 1000))
@@ -94,4 +103,5 @@ def test_partial(snapshot, commits: list[Commit]):
         snapshots[f"2-final-{code_name}.md"] = _render_repo_to_str(
             f"{TEST_OUTPUT_REPO_PATH}/{code_name}"
         )
+
     snapshot.assert_match_dir(snapshots, "test_snapshots")
