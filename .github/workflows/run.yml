@@ -10,10 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@main
         with:
           python-version: "3.11"
-          architecture: x64
       - uses: actions/checkout@master
       - uses: actions/cache@v3
         with:
