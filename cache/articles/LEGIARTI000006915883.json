@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "3.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1302739200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1700870400000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -67,15 +67,24 @@
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Section 4 : Enregistrement des m\u00e9dicaments hom\u00e9opathiques.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190721",
                         "id": "LEGISCTA000006190721",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 4 : Dispositions sp\u00e9cifiques \u00e0 certains m\u00e9dicaments v\u00e9t\u00e9rinaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190721",
+                        "id": "LEGISCTA000048457233",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -92,11 +101,11 @@
             "cid": "LEGIARTI000006915883",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006190721",
-            "sectionParentId": "LEGISCTA000006190721",
-            "sectionParentTitre": "Section 4 : Enregistrement des m\u00e9dicaments hom\u00e9opathiques.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 4 : Enregistrement des m\u00e9dicaments hom\u00e9opathiques.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000023860124",
+            "sectionParentId": "LEGISCTA000048457233",
+            "sectionParentTitre": "Section 4 : Dispositions sp\u00e9cifiques \u00e0 certains m\u00e9dicaments v\u00e9t\u00e9rinaires",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 4 : Dispositions sp\u00e9cifiques \u00e0 certains m\u00e9dicaments v\u00e9t\u00e9rinaires",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000023860124",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -148,6 +157,18 @@
                     "datePubliTexte": "2011-04-13",
                     "dateSignaTexte": "2011-04-11",
                     "dateDebutCible": "2011-04-14"
+                },
+                {
+                    "textCid": "JORFTEXT000048453209",
+                    "textTitle": "D\u00e9cret n\u00b02023-1079 du 22 novembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048454147",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-24",
+                    "dateSignaTexte": "2023-11-22",
+                    "dateDebutCible": "2023-11-25"
                 }
             ],
             "lienCitations": [
@@ -207,10 +228,10 @@
                 },
                 {
                     "id": "LEGIARTI000023860124",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1302739200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700870400000,
                     "numero": null,
                     "ordre": null
                 }
@@ -295,15 +316,24 @@
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Section 4 : Enregistrement des m\u00e9dicaments hom\u00e9opathiques.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190721",
                         "id": "LEGISCTA000006190721",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 4 : Dispositions sp\u00e9cifiques \u00e0 certains m\u00e9dicaments v\u00e9t\u00e9rinaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190721",
+                        "id": "LEGISCTA000048457233",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -320,11 +350,11 @@
             "cid": "LEGIARTI000006915883",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006190721",
-            "sectionParentId": "LEGISCTA000006190721",
-            "sectionParentTitre": "Section 4 : Enregistrement des m\u00e9dicaments hom\u00e9opathiques.",
+            "sectionParentId": "LEGISCTA000048457233",
+            "sectionParentTitre": "Section 4 : Dispositions sp\u00e9cifiques \u00e0 certains m\u00e9dicaments v\u00e9t\u00e9rinaires",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 4 : Enregistrement des m\u00e9dicaments hom\u00e9opathiques.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000018776108",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000018776108",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -435,10 +465,10 @@
                 },
                 {
                     "id": "LEGIARTI000023860124",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1302739200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700870400000,
                     "numero": null,
                     "ordre": null
                 }
@@ -523,15 +553,24 @@
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Section 4 : Enregistrement des m\u00e9dicaments hom\u00e9opathiques.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190721",
                         "id": "LEGISCTA000006190721",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 4 : Dispositions sp\u00e9cifiques \u00e0 certains m\u00e9dicaments v\u00e9t\u00e9rinaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190721",
+                        "id": "LEGISCTA000048457233",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -548,11 +587,11 @@
             "cid": "LEGIARTI000006915883",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006190721",
-            "sectionParentId": "LEGISCTA000006190721",
-            "sectionParentTitre": "Section 4 : Enregistrement des m\u00e9dicaments hom\u00e9opathiques.",
+            "sectionParentId": "LEGISCTA000048457233",
+            "sectionParentTitre": "Section 4 : Dispositions sp\u00e9cifiques \u00e0 certains m\u00e9dicaments v\u00e9t\u00e9rinaires",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 4 : Enregistrement des m\u00e9dicaments hom\u00e9opathiques.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006915883",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006915883",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -631,7 +670,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1302739200000
+                    "dateDebut": 1091923200000
                 }
             ],
             "lienConcordes": [
@@ -676,10 +715,10 @@
                 },
                 {
                     "id": "LEGIARTI000023860124",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1302739200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700870400000,
                     "numero": null,
                     "ordre": null
                 }

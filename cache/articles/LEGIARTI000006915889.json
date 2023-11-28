@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1091923200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1700870400000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -67,15 +67,24 @@
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Section 5 : Etiquetage.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190722",
                         "id": "LEGISCTA000006190722",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 5 : Mise \u00e0 disposition de la notice",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190722",
+                        "id": "LEGISCTA000048457196",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 50,
                 "titreTxt": [
                     {
@@ -92,11 +101,11 @@
             "cid": "LEGIARTI000006915889",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006190722",
-            "sectionParentId": "LEGISCTA000006190722",
-            "sectionParentTitre": "Section 5 : Etiquetage.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 5 : Etiquetage.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006915889",
+            "sectionParentId": "LEGISCTA000048457196",
+            "sectionParentTitre": "Section 5 : Mise \u00e0 disposition de la notice",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 5 : Mise \u00e0 disposition de la notice",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006915889",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -139,7 +148,7 @@
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000787339",
-                    "textTitle": "D\u00e9cret 2004-802 2004-07-29",
+                    "textTitle": "D\u00e9cret n\u00b02004-802 du 29 juillet 2004",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -148,6 +157,18 @@
                     "datePubliTexte": "2004-08-08",
                     "dateSignaTexte": "2004-07-29",
                     "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000048453209",
+                    "textTitle": "D\u00e9cret n\u00b02023-1079 du 22 novembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048454147",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-24",
+                    "dateSignaTexte": "2023-11-22",
+                    "dateDebutCible": "2023-11-25"
                 }
             ],
             "lienCitations": [
@@ -166,16 +187,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-73 (V)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-73 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "R5141-73",
-                    "articleId": "LEGIARTI000006915887",
+                    "articleId": "LEGIARTI000023860640",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1091923200000
+                    "dateDebut": 1302739200000
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
@@ -183,12 +204,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "R5141-74",
-                    "articleId": "LEGIARTI000006915888",
+                    "articleId": "LEGIARTI000048457189",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1091923200000
+                    "dateDebut": 1700870400000
                 }
             ],
             "lienConcordes": [
@@ -215,10 +236,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000006915889",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1091923200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700870400000,
                     "numero": null,
                     "ordre": null
                 }

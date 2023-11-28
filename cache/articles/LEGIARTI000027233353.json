@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1364428800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1700697600000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -67,12 +67,12 @@
                     },
                     {
                         "debut": "2013-03-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-23",
                         "titre": "Section 4 : Commissions territoriales",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000027233351",
                         "id": "LEGISCTA000027233351",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -94,9 +94,9 @@
             "sectionParentCid": "LEGISCTA000027233351",
             "sectionParentId": "LEGISCTA000027233351",
             "sectionParentTitre": "Section 4 : Commissions territoriales",
-            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; QUATRI\u00c8ME PARTIE : NAVIGATION INT\u00c9RIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE III : VOIES NAVIGABLES DE FRANCE  ET PORTS FLUVIAUX &gt; TITRE Ier : VOIES NAVIGABLES DE FRANCE &gt; Chapitre II : Organisation administrative &gt; Section 4 : Commissions territoriales",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000027233353",
+            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; QUATRI\u00c8ME PARTIE : NAVIGATION INT\u00c9RIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE III : VOIES NAVIGABLES DE FRANCE  ET PORTS FLUVIAUX &gt; TITRE Ier : VOIES NAVIGABLES DE FRANCE &gt; Chapitre II : Organisation administrative",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000027233353",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -143,11 +143,11 @@
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "LEGITEXT000027228197",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2013-03-27",
-                    "dateSignaTexte": "2013-03-25",
-                    "dateDebutCible": "2013-03-28"
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
                 },
                 {
                     "textCid": "JORFTEXT000027226799",
@@ -160,12 +160,24 @@
                     "datePubliTexte": "2013-03-27",
                     "dateSignaTexte": "2013-03-25",
                     "dateDebutCible": "2013-03-28"
+                },
+                {
+                    "textCid": "JORFTEXT000048443593",
+                    "textTitle": "D\u00e9cret n\u00b02023-1068 du 20 novembre 2023 - art. 13",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "13",
+                    "articleId": "LEGIARTI000048444447",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-22",
+                    "dateSignaTexte": "2023-11-20",
+                    "dateDebutCible": "2023-11-23"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000023086525",
-                    "textTitle": "Code des transports - art. R4312-11 (V)",
+                    "textTitle": "Code des transports - art. R4312-11 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R4312-11",
@@ -192,10 +204,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000027233353",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1364428800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700697600000,
                     "numero": null,
                     "ordre": null
                 }

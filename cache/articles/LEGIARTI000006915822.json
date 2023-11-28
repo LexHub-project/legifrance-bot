@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1210204800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1700870400000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -67,24 +67,42 @@
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Section 3 : Autorisation de mise sur le march\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190718",
                         "id": "LEGISCTA000006190718",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Dispositions communes aux m\u00e9dicaments v\u00e9t\u00e9rinaires autoris\u00e9s et enregistr\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190718",
+                        "id": "LEGISCTA000048457262",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Sous-section 2 : Qualification des experts.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196627",
                         "id": "LEGISCTA000006196627",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 2 : Publicit\u00e9 des d\u00e9cisions et recours pr\u00e9alable obligatoire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006196627",
+                        "id": "LEGISCTA000048457258",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 53,
                 "titreTxt": [
                     {
@@ -101,11 +119,11 @@
             "cid": "LEGIARTI000006915822",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006196627",
-            "sectionParentId": "LEGISCTA000006196627",
-            "sectionParentTitre": "Sous-section 2 : Qualification des experts.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 3 : Autorisation de mise sur le march\u00e9 &gt; Sous-section 2 : Qualification des experts.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000018776037",
+            "sectionParentId": "LEGISCTA000048457258",
+            "sectionParentTitre": "Sous-section 2 : Publicit\u00e9 des d\u00e9cisions et recours pr\u00e9alable obligatoire",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 3 : Dispositions communes aux m\u00e9dicaments v\u00e9t\u00e9rinaires autoris\u00e9s et enregistr\u00e9s &gt; Sous-section 2 : Publicit\u00e9 des d\u00e9cisions et recours pr\u00e9alable obligatoire",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000018776037",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -157,6 +175,18 @@
                     "datePubliTexte": "2008-05-07",
                     "dateSignaTexte": "2008-05-06",
                     "dateDebutCible": "2008-05-08"
+                },
+                {
+                    "textCid": "JORFTEXT000048453209",
+                    "textTitle": "D\u00e9cret n\u00b02023-1079 du 22 novembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048454147",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-24",
+                    "dateSignaTexte": "2023-11-22",
+                    "dateDebutCible": "2023-11-25"
                 }
             ],
             "lienCitations": [
@@ -179,12 +209,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-3",
-                    "articleId": "LEGIARTI000020775652",
+                    "articleId": "LEGIARTI000048457310",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1245542400000
+                    "dateDebut": 1700870400000
                 }
             ],
             "lienConcordes": [
@@ -220,10 +250,10 @@
                 },
                 {
                     "id": "LEGIARTI000018776037",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1210204800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700870400000,
                     "numero": null,
                     "ordre": null
                 }
@@ -308,24 +338,42 @@
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Section 3 : Autorisation de mise sur le march\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190718",
                         "id": "LEGISCTA000006190718",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Dispositions communes aux m\u00e9dicaments v\u00e9t\u00e9rinaires autoris\u00e9s et enregistr\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190718",
+                        "id": "LEGISCTA000048457262",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Sous-section 2 : Qualification des experts.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196627",
                         "id": "LEGISCTA000006196627",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 2 : Publicit\u00e9 des d\u00e9cisions et recours pr\u00e9alable obligatoire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006196627",
+                        "id": "LEGISCTA000048457258",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 53,
                 "titreTxt": [
                     {
@@ -342,11 +390,11 @@
             "cid": "LEGIARTI000006915822",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006196627",
-            "sectionParentId": "LEGISCTA000006196627",
-            "sectionParentTitre": "Sous-section 2 : Qualification des experts.",
+            "sectionParentId": "LEGISCTA000048457258",
+            "sectionParentTitre": "Sous-section 2 : Publicit\u00e9 des d\u00e9cisions et recours pr\u00e9alable obligatoire",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 3 : Autorisation de mise sur le march\u00e9 &gt; Sous-section 2 : Qualification des experts.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006915822",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006915822",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -407,12 +455,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-3",
-                    "articleId": "LEGIARTI000020775652",
+                    "articleId": "LEGIARTI000048457310",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1245542400000
+                    "dateDebut": 1700870400000
                 }
             ],
             "lienConcordes": [
@@ -448,10 +496,10 @@
                 },
                 {
                     "id": "LEGIARTI000018776037",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1210204800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700870400000,
                     "numero": null,
                     "ordre": null
                 }

@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1149811200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1700611200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -94,9 +94,9 @@
             "sectionParentCid": "LEGISCTA000006167300",
             "sectionParentId": "LEGISCTA000006167300",
             "sectionParentTitre": "Section 1 : Le tribunal de premi\u00e8re instance",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE V : DISPOSITIONS PARTICULI\u00c8RES \u00c0 SAINT-PIERRE-ET-MIQUELON, \u00c0 MAYOTTE, \u00c0 WALLIS-ET-FUTUNA, AUX TERRES AUSTRALES ET ANTARCTIQUES FRAN\u00e7AISES, \u00c0 LA POLYN\u00c9SIE FRAN\u00e7AISE ET \u00c0 LA NOUVELLE-CAL\u00c9DONIE &gt; TITRE Ier : DISPOSITIONS PARTICULI\u00c8RES \u00c0 SAINT-PIERRE-ET-MIQUELON &gt; Chapitre III : Des juridictions &gt; Section 1 : Le tribunal de premi\u00e8re instance",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006572243",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE V : DISPOSITIONS PARTICULI\u00c8RES \u00c0 SAINT-PIERRE-ET-MIQUELON, \u00c0 WALLIS-ET-FUTUNA, AUX TERRES AUSTRALES ET ANTARCTIQUES FRANCAISES, \u00c0 LA POLYN\u00c9SIE FRANCAISE ET \u00c0 LA NOUVELLE-CAL\u00c9DONIE &gt; TITRE Ier : DISPOSITIONS PARTICULI\u00c8RES \u00c0 SAINT-PIERRE-ET-MIQUELON &gt; Chapitre III : Des juridictions &gt; Section 1 : Le tribunal de premi\u00e8re instance",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006572243",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -139,7 +139,7 @@
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000460012",
-                    "textTitle": "Ordonnance 2006-673 2006-06-08 JORF 9 juin 2006",
+                    "textTitle": "Ordonnance n\u00b0 2006-673 du 8 juin 2006",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -160,22 +160,21 @@
                     "datePubliTexte": "2006-06-09",
                     "dateSignaTexte": "2006-06-08",
                     "dateDebutCible": "2006-06-09"
+                },
+                {
+                    "textCid": "JORFTEXT000048430497",
+                    "textTitle": "LOI n\u00b02023-1058 du 20 novembre 2023 - art. 6",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "6",
+                    "articleId": "LEGIARTI000048431588",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2023-11-21",
+                    "dateSignaTexte": "2023-11-20",
+                    "dateDebutCible": "2023-11-22"
                 }
             ],
             "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006071164",
-                    "textTitle": "CODE DE L'ORGANISATION JUDICIAIRE. - art. L513-4 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L513-4",
-                    "articleId": "LEGIARTI000006572245",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1149811200000
-                },
                 {
                     "textCid": "LEGITEXT000006071164",
                     "textTitle": "CODE DE L'ORGANISATION JUDICIAIRE. - art. R423-1 (M)",
@@ -188,6 +187,19 @@
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 1154390400000
+                },
+                {
+                    "textCid": "LEGITEXT000006071164",
+                    "textTitle": "Code de l'organisation judiciaire - art. L513-4 (Ab)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L513-4",
+                    "articleId": "LEGIARTI000006572245",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1149811200000
                 }
             ],
             "lienConcordes": [
@@ -205,10 +217,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000006572243",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1149811200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700611200000,
                     "numero": null,
                     "ordre": null
                 }

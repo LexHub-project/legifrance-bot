@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "3.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1435190400000,
-            "dateFin": 32472144000000,
+            "dateFin": 1700870400000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -67,30 +67,39 @@
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Section 3 : Autorisation de mise sur le march\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190718",
                         "id": "LEGISCTA000006190718",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Dispositions communes aux m\u00e9dicaments v\u00e9t\u00e9rinaires autoris\u00e9s et enregistr\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190718",
+                        "id": "LEGISCTA000048457262",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2008-02-10",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Sous-section 3 bis : Proc\u00e9dure de reconnaissance mutuelle et proc\u00e9dure d\u00e9centralis\u00e9e.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018091725",
                         "id": "LEGISCTA000018093430",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2008-02-10",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018091741",
                         "id": "LEGISCTA000018093428",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -112,9 +121,9 @@
             "sectionParentCid": "LEGISCTA000018091741",
             "sectionParentId": "LEGISCTA000018093428",
             "sectionParentTitre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 3 : Autorisation de mise sur le march\u00e9 &gt; Sous-section 3 bis : Proc\u00e9dure de reconnaissance mutuelle et proc\u00e9dure d\u00e9centralis\u00e9e. &gt; Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000030773977",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 3 : Dispositions communes aux m\u00e9dicaments v\u00e9t\u00e9rinaires autoris\u00e9s et enregistr\u00e9s",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000030773977",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -166,12 +175,24 @@
                     "datePubliTexte": "2015-06-24",
                     "dateSignaTexte": "2015-06-22",
                     "dateDebutCible": "2015-06-25"
+                },
+                {
+                    "textCid": "JORFTEXT000048453209",
+                    "textTitle": "D\u00e9cret n\u00b02023-1079 du 22 novembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048454147",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-24",
+                    "dateSignaTexte": "2023-11-22",
+                    "dateDebutCible": "2023-11-25"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-104 (VD)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-104 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-104",
@@ -184,7 +205,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-47-8 (V)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-47-8 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-47-8",
@@ -197,7 +218,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-77 (V)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-77 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-77",
@@ -210,7 +231,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-96 (VD)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-96 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-96",
@@ -258,10 +279,10 @@
                 },
                 {
                     "id": "LEGIARTI000030773977",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1435190400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700870400000,
                     "numero": null,
                     "ordre": null
                 }
@@ -346,30 +367,39 @@
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Section 3 : Autorisation de mise sur le march\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190718",
                         "id": "LEGISCTA000006190718",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Dispositions communes aux m\u00e9dicaments v\u00e9t\u00e9rinaires autoris\u00e9s et enregistr\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190718",
+                        "id": "LEGISCTA000048457262",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2008-02-10",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Sous-section 3 bis : Proc\u00e9dure de reconnaissance mutuelle et proc\u00e9dure d\u00e9centralis\u00e9e.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018091725",
                         "id": "LEGISCTA000018093430",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2008-02-10",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018091741",
                         "id": "LEGISCTA000018093428",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -392,8 +422,8 @@
             "sectionParentId": "LEGISCTA000018093428",
             "sectionParentTitre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 3 : Autorisation de mise sur le march\u00e9 &gt; Sous-section 3 bis : Proc\u00e9dure de reconnaissance mutuelle et proc\u00e9dure d\u00e9centralis\u00e9e. &gt; Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000027859940",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000027859940",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -450,7 +480,7 @@
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-104 (VD)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-104 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-104",
@@ -463,20 +493,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-47-8 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5141-47-8",
-                    "articleId": "LEGIARTI000018093399",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1202601600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-77 (V)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-77 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-77",
@@ -489,7 +506,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-96 (VD)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-96 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-96",
@@ -537,10 +554,10 @@
                 },
                 {
                     "id": "LEGIARTI000030773977",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1435190400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700870400000,
                     "numero": null,
                     "ordre": null
                 }
@@ -625,30 +642,39 @@
                     },
                     {
                         "debut": "2004-08-08",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Section 3 : Autorisation de mise sur le march\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006190718",
                         "id": "LEGISCTA000006190718",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-25",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Dispositions communes aux m\u00e9dicaments v\u00e9t\u00e9rinaires autoris\u00e9s et enregistr\u00e9s",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190718",
+                        "id": "LEGISCTA000048457262",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2008-02-10",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Sous-section 3 bis : Proc\u00e9dure de reconnaissance mutuelle et proc\u00e9dure d\u00e9centralis\u00e9e.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018091725",
                         "id": "LEGISCTA000018093430",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     },
                     {
                         "debut": "2008-02-10",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-25",
                         "titre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000018091741",
                         "id": "LEGISCTA000018093428",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -671,8 +697,8 @@
             "sectionParentId": "LEGISCTA000018093428",
             "sectionParentTitre": "Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Cinqui\u00e8me partie : Produits de sant\u00e9 &gt; Livre Ier : Produits pharmaceutiques &gt; Titre IV : M\u00e9dicaments v\u00e9t\u00e9rinaires &gt; Chapitre Ier : Dispositions g\u00e9n\u00e9rales &gt; Section 3 : Autorisation de mise sur le march\u00e9 &gt; Sous-section 3 bis : Proc\u00e9dure de reconnaissance mutuelle et proc\u00e9dure d\u00e9centralis\u00e9e. &gt; Paragraphe 1 : Dispositions g\u00e9n\u00e9rales.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000018093426",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000018093426",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -729,7 +755,7 @@
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-104 (VD)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-104 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-104",
@@ -742,20 +768,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-47-8 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R5141-47-8",
-                    "articleId": "LEGIARTI000018093399",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1202601600000
-                },
-                {
-                    "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-77 (V)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-77 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-77",
@@ -768,7 +781,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006072665",
-                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-96 (VD)",
+                    "textTitle": "Code de la sant\u00e9 publique - art. R5141-96 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R5141-96",
@@ -816,10 +829,10 @@
                 },
                 {
                     "id": "LEGIARTI000030773977",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1435190400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1700870400000,
                     "numero": null,
                     "ordre": null
                 }

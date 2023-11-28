@@ -2,17 +2,17 @@
     "executionTime": 0,
     "listArticle": [
         {
-            "id": "LEGIARTI000027233339",
+            "id": "LEGIARTI000048445632",
             "idTexte": null,
             "type": "AUTONOME",
-            "texte": "La publication des actes r\u00e9glementaires pris par l'\u00e9tablissement est assur\u00e9e par une insertion au Bulletin officiel des actes de Voies navigables de France, \u00e9dit\u00e9 sous forme papier. Ce bulletin est tenu \u00e0 la disposition du public au si\u00e8ge de l'\u00e9tablissement et aupr\u00e8s de ses repr\u00e9sentants locaux. Il peut \u00eatre adress\u00e9 \u00e0 toute personne qui en fait la demande. Ce bulletin est \u00e9galement mis \u00e0 la disposition du public sous forme \u00e9lectronique de fa\u00e7on permanente et gratuite.",
-            "texteHtml": "<p><br/>La publication des actes r\u00e9glementaires pris par l'\u00e9tablissement est assur\u00e9e par une insertion au Bulletin officiel des actes de Voies navigables de France, \u00e9dit\u00e9 sous forme papier.<br/> Ce bulletin est tenu \u00e0 la disposition du public au si\u00e8ge de l'\u00e9tablissement et aupr\u00e8s de ses repr\u00e9sentants locaux. Il peut \u00eatre adress\u00e9 \u00e0 toute personne qui en fait la demande.<br/> Ce bulletin est \u00e9galement mis \u00e0 la disposition du public sous forme \u00e9lectronique de fa\u00e7on permanente et gratuite.</p>",
+            "texte": "Les actes r\u00e9glementaires pris par l'\u00e9tablissement sont publi\u00e9s au Bulletin officiel d\u00e9mat\u00e9rialis\u00e9 des actes de Voies navigables de France. Ce bulletin est \u00e9dit\u00e9 dans des conditions de nature \u00e0 garantir son authenticit\u00e9. Il est consultable de fa\u00e7on permanente et gratuite sur le site de l'\u00e9tablissement.",
+            "texteHtml": "<p>Les actes r\u00e9glementaires pris par l'\u00e9tablissement sont publi\u00e9s au Bulletin officiel d\u00e9mat\u00e9rialis\u00e9 des actes de Voies navigables de France.</p><p>Ce bulletin est \u00e9dit\u00e9 dans des conditions de nature \u00e0 garantir son authenticit\u00e9. Il est consultable de fa\u00e7on permanente et gratuite sur le site de l'\u00e9tablissement.</p>",
             "num": "R4312-15",
             "origine": "LEGI",
             "nature": "Article",
-            "versionArticle": "1.0",
+            "versionArticle": "2.0",
             "etat": "VIGUEUR",
-            "dateDebut": 1364428800000,
+            "dateDebut": 1700697600000,
             "dateFin": 32472144000000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
@@ -76,15 +76,24 @@
                     },
                     {
                         "debut": "2013-03-28",
-                        "fin": "2999-01-01",
+                        "fin": "2023-11-23",
                         "titre": "Sous-section 2 : Fonctionnement",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000027233319",
                         "id": "LEGISCTA000027233319",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-23",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 3 : Fonctionnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000027233319",
+                        "id": "LEGISCTA000048445570",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 53,
                 "titreTxt": [
                     {
@@ -101,11 +110,237 @@
             "cid": "LEGIARTI000027233339",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000027233319",
-            "sectionParentId": "LEGISCTA000027233319",
-            "sectionParentTitre": "Sous-section 2 : Fonctionnement",
-            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; QUATRI\u00c8ME PARTIE : NAVIGATION INT\u00c9RIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE III : VOIES NAVIGABLES DE FRANCE  ET PORTS FLUVIAUX &gt; TITRE Ier : VOIES NAVIGABLES DE FRANCE &gt; Chapitre II : Organisation administrative &gt; Section 1 : Conseil d'administration &gt; Sous-section 2 : Fonctionnement",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000027233339",
+            "sectionParentId": "LEGISCTA000048445570",
+            "sectionParentTitre": "Sous-section 3 : Fonctionnement",
+            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; QUATRI\u00c8ME PARTIE : NAVIGATION INT\u00c9RIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE III : VOIES NAVIGABLES DE FRANCE  ET PORTS FLUVIAUX &gt; TITRE Ier : VOIES NAVIGABLES DE FRANCE &gt; Chapitre II : Organisation administrative &gt; Section 1 : Conseil d'administration &gt; Sous-section 3 : Fonctionnement",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000048445632",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023086525",
+                    "titre": "Code des transports",
+                    "titreLong": "Code des transports",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1291161600000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023086525",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000027226799",
+                    "textTitle": "D\u00e9cret n\u00b02013-253 du 25 mars 2013",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
+                },
+                {
+                    "textCid": "JORFTEXT000048443593",
+                    "textTitle": "D\u00e9cret n\u00b02023-1068 du 20 novembre 2023 - art. 12",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "12",
+                    "articleId": "LEGIARTI000048444445",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-22",
+                    "dateSignaTexte": "2023-11-20",
+                    "dateDebutCible": "2023-11-23"
+                }
+            ],
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000338010",
+                    "textTitle": "D\u00e9cret n\u00b060-1441 du 26 d\u00e9cembre 1960 - art. 15-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "15-1",
+                    "articleId": "LEGIARTI000019964880",
+                    "natureText": "DECRET"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000027233339",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1364428800000,
+                    "dateFin": 1700697600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048445632",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1700697600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "R4312-15",
+                "4312-15"
+            ],
+            "versionPrecedente": "LEGIARTI000027233339",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000027233339",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La publication des actes r\u00e9glementaires pris par l'\u00e9tablissement est assur\u00e9e par une insertion au Bulletin officiel des actes de Voies navigables de France, \u00e9dit\u00e9 sous forme papier. Ce bulletin est tenu \u00e0 la disposition du public au si\u00e8ge de l'\u00e9tablissement et aupr\u00e8s de ses repr\u00e9sentants locaux. Il peut \u00eatre adress\u00e9 \u00e0 toute personne qui en fait la demande. Ce bulletin est \u00e9galement mis \u00e0 la disposition du public sous forme \u00e9lectronique de fa\u00e7on permanente et gratuite.",
+            "texteHtml": "<p><br/>La publication des actes r\u00e9glementaires pris par l'\u00e9tablissement est assur\u00e9e par une insertion au Bulletin officiel des actes de Voies navigables de France, \u00e9dit\u00e9 sous forme papier.<br/> Ce bulletin est tenu \u00e0 la disposition du public au si\u00e8ge de l'\u00e9tablissement et aupr\u00e8s de ses repr\u00e9sentants locaux. Il peut \u00eatre adress\u00e9 \u00e0 toute personne qui en fait la demande.<br/> Ce bulletin est \u00e9galement mis \u00e0 la disposition du public sous forme \u00e9lectronique de fa\u00e7on permanente et gratuite.</p>",
+            "num": "R4312-15",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "1.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1364428800000,
+            "dateFin": 1700697600000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2145386495,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2013-03-28",
+                        "fin": "2999-01-01",
+                        "titre": "PARTIE REGLEMENTAIRE",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000027232261",
+                        "id": "LEGISCTA000027232261",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2013-03-28",
+                        "fin": "2999-01-01",
+                        "titre": "QUATRI\u00c8ME PARTIE : NAVIGATION INT\u00c9RIEURE  ET TRANSPORT FLUVIAL",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000027232263",
+                        "id": "LEGISCTA000027232263",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2013-03-28",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE III : VOIES NAVIGABLES DE FRANCE  ET PORTS FLUVIAUX",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000027233287",
+                        "id": "LEGISCTA000027233287",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2013-03-28",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE Ier : VOIES NAVIGABLES DE FRANCE",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000027233289",
+                        "id": "LEGISCTA000027233289",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2013-03-28",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Organisation administrative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000027233303",
+                        "id": "LEGISCTA000027233303",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2013-03-28",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Conseil d'administration",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000027233305",
+                        "id": "LEGISCTA000027233305",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2013-03-28",
+                        "fin": "2023-11-23",
+                        "titre": "Sous-section 2 : Fonctionnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000027233319",
+                        "id": "LEGISCTA000027233319",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-11-23",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 3 : Fonctionnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000027233319",
+                        "id": "LEGISCTA000048445570",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 53,
+                "titreTxt": [
+                    {
+                        "debut": "2010-12-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code des transports",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000023086525",
+                        "id": "LEGITEXT000023086525",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000027233339",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000027233319",
+            "sectionParentId": "LEGISCTA000048445570",
+            "sectionParentTitre": "Sous-section 3 : Fonctionnement",
+            "fullSectionsTitre": "PARTIE REGLEMENTAIRE &gt; QUATRI\u00c8ME PARTIE : NAVIGATION INT\u00c9RIEURE  ET TRANSPORT FLUVIAL &gt; LIVRE III : VOIES NAVIGABLES DE FRANCE  ET PORTS FLUVIAUX &gt; TITRE Ier : VOIES NAVIGABLES DE FRANCE &gt; Chapitre II : Organisation administrative &gt; Section 1 : Conseil d'administration &gt; Sous-section 3 : Fonctionnement",
+            "refInjection": "MD-20231125_183150_187_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000027233339",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -187,9 +422,18 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000027233339",
-                    "etat": "VIGUEUR",
+                    "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 1364428800000,
+                    "dateFin": 1700697600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048445632",
+                    "etat": "VIGUEUR",
+                    "version": "2.0",
+                    "dateDebut": 1700697600000,
                     "dateFin": 32472144000000,
                     "numero": null,
                     "ordre": null
