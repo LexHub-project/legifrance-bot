@@ -233,6 +233,7 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
         "LEGIARTI000006918472",
         "LEGIARTI000042501924",
         "LEGIARTI000044598833",
+        "LEGIARTI000025025824",
     }
 
     last_commit_begin: int = END_TIME
