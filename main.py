@@ -102,7 +102,8 @@ def _play_commits(
     article_cid_to_uri: dict[Cid, Uri] = {}
 
     for todo_commit, repo_commit_message in tqdm.tqdm(
-        itertools.zip_longest(commits, repo_commit_messages), desc="Replaying commits"
+        list(itertools.zip_longest(commits, repo_commit_messages)),
+        desc="Replaying commits",
     ):
         yield todo_commit
 
@@ -170,6 +171,7 @@ def _play_commits(
                     "-m",
                     todo_commit.title,
                     "--quiet",
+                    "--allow-empty",
                 ],
                 env=env,
                 cwd=output_repo_path,
