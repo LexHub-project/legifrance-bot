@@ -2,7 +2,7 @@
     "executionTime": 0,
     "listArticle": [
         {
-            "id": "LEGIARTI000043350048",
+            "id": "LEGIARTI000048476910",
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "Cat\u00e9gories de sites \u00e9ligibles Taux de r\u00e9duction accord\u00e9 (*) Profil stable [\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 10 GWh ; dur\u00e9e d'utilisation du r\u00e9seau sup\u00e9rieure ou \u00e9gale \u00e0 7 000 heures ; hors sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau] 81 % Profil anti-cyclique [\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 10 GWh ; taux d'utilisation du r\u00e9seau en heures creuses sup\u00e9rieur ou \u00e9gal \u00e0 0.44 ; hors sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau] 74 % Grand consommateur d'\u00e9lectricit\u00e9 [\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 500 GWh ; taux d'utilisation du r\u00e9seau en heures creuses sup\u00e9rieur ou \u00e9gal \u00e0 0.40 et inf\u00e9rieur \u00e0 0.44 ; hors sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau] 76 % Sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau (**) [\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 10 GWh ; taux d'utilisation du r\u00e9seau en heures creuses sup\u00e9rieur ou \u00e9gal \u00e0 0.44] 50 % (*) Sous r\u00e9serve d'assurer individuellement pour chaque site la couverture des co\u00fbts directement imputables \u00e0 son utilisation du r\u00e9seau \u00e9valu\u00e9s selon les modalit\u00e9s d\u00e9finies \u00e0 l'article D. 341-9-2. (**) Pour les sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau, si, au cours de la p\u00e9riode consid\u00e9r\u00e9e pour le calcul des crit\u00e8res susmentionn\u00e9s, la moyenne sur trois ans du rapport entre la quantit\u00e9 d'\u00e9nergie inject\u00e9e par le site et celle de l'\u00e9nergie soutir\u00e9e par lui sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 est inf\u00e9rieure \u00e0 70 %, le taux de r\u00e9duction dont il b\u00e9n\u00e9ficie est diminu\u00e9 de 10 points de pourcentage.",
@@ -12,8 +12,211 @@
             "nature": "Article",
             "versionArticle": "3.0",
             "etat": "VIGUEUR",
-            "dateDebut": 1618185600000,
+            "dateDebut": 1701302400000,
             "dateFin": 32472144000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 536870910,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031747285",
+                        "id": "LEGISCTA000031747285",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE III : LES DISPOSITIONS RELATIVES \u00c0 L'\u00c9LECTRICIT\u00c9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031748265",
+                        "id": "LEGISCTA000031748265",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE IV : L'ACC\u00c8S ET LE RACCORDEMENT AUX R\u00c9SEAUX",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031749051",
+                        "id": "LEGISCTA000031749051",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : L'acc\u00e8s aux r\u00e9seaux",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000031749053",
+                        "id": "LEGISCTA000031749053",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2016-02-13",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : R\u00e9duction de tarif d'utilisation du r\u00e9seau public de transport accord\u00e9e aux sites fortement consommateurs d'\u00e9lectricit\u00e9 ",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000032045346",
+                        "id": "LEGISCTA000032045346",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2023-11-30",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000048475140",
+                        "id": "LEGISCTA000048475140",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "2011-06-01",
+                        "fin": "2999-01-01",
+                        "titre": "Code de l'\u00e9nergie",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000023983208",
+                        "id": "LEGITEXT000023983208",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000032045478",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000048475140",
+            "sectionParentId": "LEGISCTA000048475140",
+            "sectionParentTitre": "Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie r\u00e9glementaire  &gt; LIVRE III : LES DISPOSITIONS RELATIVES \u00c0 L'\u00c9LECTRICIT\u00c9 &gt; TITRE IV : L'ACC\u00c8S ET LE RACCORDEMENT AUX R\u00c9SEAUX &gt; Chapitre Ier : L'acc\u00e8s aux r\u00e9seaux &gt; Section 3 : R\u00e9duction de tarif d'utilisation du r\u00e9seau public de transport accord\u00e9e aux sites fortement consommateurs d'\u00e9lectricit\u00e9  &gt; Sous-section 1 : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "MD-20231129_200930_441_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000048476910",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000023983208",
+                    "titre": "Code de l'\u00e9nergie",
+                    "titreLong": "Code de l'\u00e9nergie",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1306886400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000023983208",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000048473695",
+                    "textTitle": "D\u00e9cret n\u00b02023-1105 du 28 novembre 2023 - art. 1",
+                    "linkType": "DEPLACE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048474943",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-11-29",
+                    "dateSignaTexte": "2023-11-28",
+                    "dateDebutCible": "2023-11-30"
+                }
+            ],
+            "lienCitations": [],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000032045485",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1455321600000,
+                    "dateFin": 1513814400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036238421",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1513814400000,
+                    "dateFin": 1618185600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048476910",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1701302400000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043350048",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1618185600000,
+                    "dateFin": 1701302400000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "Annexe article D341-9"
+            ],
+            "versionPrecedente": "LEGIARTI000043350048",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000043350048",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Cat\u00e9gories de sites \u00e9ligibles Taux de r\u00e9duction accord\u00e9 (*) Profil stable [\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 10 GWh ; dur\u00e9e d'utilisation du r\u00e9seau sup\u00e9rieure ou \u00e9gale \u00e0 7 000 heures ; hors sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau] 81 % Profil anti-cyclique [\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 10 GWh ; taux d'utilisation du r\u00e9seau en heures creuses sup\u00e9rieur ou \u00e9gal \u00e0 0.44 ; hors sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau] 74 % Grand consommateur d'\u00e9lectricit\u00e9 [\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 500 GWh ; taux d'utilisation du r\u00e9seau en heures creuses sup\u00e9rieur ou \u00e9gal \u00e0 0.40 et inf\u00e9rieur \u00e0 0.44 ; hors sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau] 76 % Sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau (**) [\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 10 GWh ; taux d'utilisation du r\u00e9seau en heures creuses sup\u00e9rieur ou \u00e9gal \u00e0 0.44] 50 % (*) Sous r\u00e9serve d'assurer individuellement pour chaque site la couverture des co\u00fbts directement imputables \u00e0 son utilisation du r\u00e9seau \u00e9valu\u00e9s selon les modalit\u00e9s d\u00e9finies \u00e0 l'article D. 341-9-2. (**) Pour les sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau, si, au cours de la p\u00e9riode consid\u00e9r\u00e9e pour le calcul des crit\u00e8res susmentionn\u00e9s, la moyenne sur trois ans du rapport entre la quantit\u00e9 d'\u00e9nergie inject\u00e9e par le site et celle de l'\u00e9nergie soutir\u00e9e par lui sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 est inf\u00e9rieure \u00e0 70 %, le taux de r\u00e9duction dont il b\u00e9n\u00e9ficie est diminu\u00e9 de 10 points de pourcentage.",
+            "texteHtml": "<center><table border='1'><tbody><tr><th><br/>\n\t\t\tCat\u00e9gories de sites \u00e9ligibles</th><th><br/>\n\t\t\tTaux de r\u00e9duction accord\u00e9 (*)</th></tr><tr><td align='justify'><br/>\n\t\t\tProfil stable<br/><br/>\n\t\t\t[\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 10 GWh ; dur\u00e9e d'utilisation du r\u00e9seau sup\u00e9rieure ou \u00e9gale \u00e0 7 000 heures ; hors sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau]</td><td align='center'><br/>\n\t\t\t81 %</td></tr><tr><td align='justify'><br/>\n\t\t\tProfil anti-cyclique<br/><br/>\n\t\t\t[\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 10 GWh ; taux d'utilisation du r\u00e9seau en heures creuses sup\u00e9rieur ou \u00e9gal \u00e0 0.44 ; hors sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau]</td><td align='center'><br/>\n\t\t\t74 %</td></tr><tr><td align='justify'><br/>\n\t\t\tGrand consommateur d'\u00e9lectricit\u00e9<br/><br/>\n\t\t\t[\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 500 GWh ; taux d'utilisation du r\u00e9seau en heures creuses sup\u00e9rieur ou \u00e9gal \u00e0 0.40 et inf\u00e9rieur \u00e0 0.44 ; hors sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau]</td><td align='center'><br/>\n\t\t\t76 %</td></tr><tr><td align='justify'><br/>\n\t\t\tSites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau (**)<br/><br/>\n\t\t\t[\u00e9lectricit\u00e9 annuelle soutir\u00e9e sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 sup\u00e9rieure \u00e0 10 GWh ; taux d'utilisation du r\u00e9seau en heures creuses sup\u00e9rieur ou \u00e9gal \u00e0 0.44]</td><td align='center'><br/>\n\t\t\t50 %</td></tr></tbody></table></center><p>(*) Sous r\u00e9serve d'assurer individuellement pour chaque site la couverture des co\u00fbts directement imputables \u00e0 son utilisation du r\u00e9seau \u00e9valu\u00e9s selon les modalit\u00e9s d\u00e9finies \u00e0 l'article D. 341-9-2.<br/><br/>\n(**) Pour les sites permettant le stockage de l'\u00e9nergie en vue de sa restitution ult\u00e9rieure au r\u00e9seau, si, au cours de la p\u00e9riode consid\u00e9r\u00e9e pour le calcul des crit\u00e8res susmentionn\u00e9s, la moyenne sur trois ans du rapport entre la quantit\u00e9 d'\u00e9nergie inject\u00e9e par le site et celle de l'\u00e9nergie soutir\u00e9e par lui sur le r\u00e9seau de transport d'\u00e9lectricit\u00e9 est inf\u00e9rieure \u00e0 70 %, le taux de r\u00e9duction dont il b\u00e9n\u00e9ficie est diminu\u00e9 de 10 points de pourcentage.</p>",
+            "num": "Annexe article D341-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "3.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1618185600000,
+            "dateFin": 1701302400000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -86,8 +289,8 @@
             "sectionParentId": "LEGISCTA000032045346",
             "sectionParentTitre": "Section 3 : R\u00e9duction de tarif d'utilisation du r\u00e9seau public de transport accord\u00e9e aux sites fortement consommateurs d'\u00e9lectricit\u00e9 ",
             "fullSectionsTitre": "Partie r\u00e9glementaire  &gt; LIVRE III : LES DISPOSITIONS RELATIVES \u00c0 L'\u00c9LECTRICIT\u00c9 &gt; TITRE IV : L'ACC\u00c8S ET LE RACCORDEMENT AUX R\u00c9SEAUX &gt; Chapitre Ier : L'acc\u00e8s aux r\u00e9seaux &gt; Section 3 : R\u00e9duction de tarif d'utilisation du r\u00e9seau public de transport accord\u00e9e aux sites fortement consommateurs d'\u00e9lectricit\u00e9 ",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000043350048",
+            "refInjection": "MD-20231129_200930_441_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000043350048",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -164,11 +367,20 @@
                     "ordre": null
                 },
                 {
-                    "id": "LEGIARTI000043350048",
+                    "id": "LEGIARTI000048476910",
                     "etat": "VIGUEUR",
                     "version": "3.0",
-                    "dateDebut": 1618185600000,
+                    "dateDebut": 1701302400000,
                     "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043350048",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1618185600000,
+                    "dateFin": 1701302400000,
                     "numero": null,
                     "ordre": null
                 }
@@ -271,8 +483,8 @@
             "sectionParentId": "LEGISCTA000032045346",
             "sectionParentTitre": "Section 3 : R\u00e9duction de tarif d'utilisation du r\u00e9seau public de transport accord\u00e9e aux sites fortement consommateurs d'\u00e9lectricit\u00e9 ",
             "fullSectionsTitre": "Partie r\u00e9glementaire  &gt; LIVRE III : LES DISPOSITIONS RELATIVES \u00c0 L'\u00c9LECTRICIT\u00c9 &gt; TITRE IV : L'ACC\u00c8S ET LE RACCORDEMENT AUX R\u00c9SEAUX &gt; Chapitre Ier : L'acc\u00e8s aux r\u00e9seaux &gt; Section 3 : R\u00e9duction de tarif d'utilisation du r\u00e9seau public de transport accord\u00e9e aux sites fortement consommateurs d'\u00e9lectricit\u00e9 ",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000036238421",
+            "refInjection": "MD-20231129_200930_441_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000036238421",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -349,11 +561,20 @@
                     "ordre": null
                 },
                 {
-                    "id": "LEGIARTI000043350048",
+                    "id": "LEGIARTI000048476910",
                     "etat": "VIGUEUR",
                     "version": "3.0",
-                    "dateDebut": 1618185600000,
+                    "dateDebut": 1701302400000,
                     "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043350048",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1618185600000,
+                    "dateFin": 1701302400000,
                     "numero": null,
                     "ordre": null
                 }
@@ -456,8 +677,8 @@
             "sectionParentId": "LEGISCTA000032045346",
             "sectionParentTitre": "Section 3 : R\u00e9duction de tarif d'utilisation du r\u00e9seau public de transport accord\u00e9e aux sites fortement consommateurs d'\u00e9lectricit\u00e9 ",
             "fullSectionsTitre": "Partie r\u00e9glementaire  &gt; LIVRE III : LES DISPOSITIONS RELATIVES \u00c0 L'\u00c9LECTRICIT\u00c9 &gt; TITRE IV : L'ACC\u00c8S ET LE RACCORDEMENT AUX R\u00c9SEAUX &gt; Chapitre Ier : L'acc\u00e8s aux r\u00e9seaux &gt; Section 3 : R\u00e9duction de tarif d'utilisation du r\u00e9seau public de transport accord\u00e9e aux sites fortement consommateurs d'\u00e9lectricit\u00e9 ",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000032045485",
+            "refInjection": "MD-20231129_200930_441_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000032045485",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -534,11 +755,20 @@
                     "ordre": null
                 },
                 {
-                    "id": "LEGIARTI000043350048",
+                    "id": "LEGIARTI000048476910",
                     "etat": "VIGUEUR",
                     "version": "3.0",
-                    "dateDebut": 1618185600000,
+                    "dateDebut": 1701302400000,
                     "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000043350048",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1618185600000,
+                    "dateFin": 1701302400000,
                     "numero": null,
                     "ordre": null
                 }
