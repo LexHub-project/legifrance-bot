@@ -1,5 +1,4 @@
 import argparse
-import itertools
 import math
 import os
 import re
@@ -18,6 +17,8 @@ OUTPUT_REPO_PATH = "./output"
 
 
 DATE_DUMP_GENERATED = datetime.now().isoformat()
+
+COMMITS_MATCH_SPAN = 10
 
 
 def _build_git_repo_readme(output_repo_path: str):
@@ -69,6 +70,14 @@ def _resolve_links(html: str | None, article_cid_to_uri: dict[Cid, Uri]):
     return html
 
 
+def _find_list_max_overlap_end_index(arr: list[str], seq: list[str]) -> int | None:
+    assert len(seq) > 0
+    for i in range(len(arr), len(seq) - 1, -1):
+        if arr[i - len(seq) : i] == seq:
+            return i - 1
+    return None
+
+
 def _clean_msg(m: str) -> str:
     return re.sub("['\\s]", "", m)
 
@@ -90,8 +99,16 @@ def _play_commits(
     if init:
         _init_repo(output_repo_path)
         repo_commit_messages = []
+        commits_match_index = -1
     else:
         repo_commit_messages = _commit_messages(output_repo_path)
+        if len(repo_commit_messages) >= COMMITS_MATCH_SPAN:
+            commits_match_index = _find_list_max_overlap_end_index(
+                [_clean_msg(c.title) for c in commits],
+                [_clean_msg(t) for t in repo_commit_messages[-COMMITS_MATCH_SPAN:]],
+            )
+        else:
+            commits_match_index = -1
 
     tz = pytz.timezone("UTC")
 
@@ -101,20 +118,17 @@ def _play_commits(
 
     article_cid_to_uri: dict[Cid, Uri] = {}
 
-    for todo_commit, repo_commit_message in tqdm.tqdm(
-        list(itertools.zip_longest(commits, repo_commit_messages)),
-        desc="Replaying commits",
+    for i, commit in enumerate(
+        tqdm.tqdm(
+            commits,
+            desc=f"Replaying commits ({len(commits)-commits_match_index-1} new commits)",
+        )
     ):
-        yield todo_commit
+        yield commit
 
-        should_replay = repo_commit_message is None
+        should_replay = (commits_match_index is None) or i > commits_match_index
 
-        if not should_replay:
-            assert _clean_msg(repo_commit_message) == _clean_msg(
-                todo_commit.title
-            ), f"_clean_msg(repo_commit_message)='{_clean_msg(repo_commit_message)}', _clean_msg(todo_commit.title)='{_clean_msg(todo_commit.title)}'"
-
-        for cid, (uri, html) in todo_commit.article_changes.items():
+        for cid, (uri, html) in commit.article_changes.items():
             if html is None:
                 assert cid in article_cid_to_uri, (cid, article_cid_to_uri)
                 del article_cid_to_uri[cid]
@@ -146,9 +160,7 @@ def _play_commits(
 
         if should_replay:
             # TODO ms vs s
-            date_dt = datetime.fromtimestamp(
-                math.floor(todo_commit.timestamp / 1000), tz
-            )
+            date_dt = datetime.fromtimestamp(math.floor(commit.timestamp / 1000), tz)
 
             # TODO
             if date_dt.year >= 2038:
@@ -169,7 +181,7 @@ def _play_commits(
                     "--date",
                     date_with_format_str,
                     "-m",
-                    todo_commit.title,
+                    commit.title,
                     "--quiet",
                     "--allow-empty",
                 ],

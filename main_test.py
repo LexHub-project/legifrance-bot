@@ -8,7 +8,11 @@ import pytest
 from commits import Commit, get_commits
 from constants import DATE_STR_FMT
 from fetch_data import CachedLegifranceClient
-from main import CID_CODE_DU_TRAVAIL_MARITIME, _play_commits
+from main import (
+    CID_CODE_DU_TRAVAIL_MARITIME,
+    _play_commits,
+    _find_list_max_overlap_end_index,
+)
 
 TEST_OUTPUT_REPO_PATH = "output_test"
 
@@ -105,3 +109,22 @@ def test_partial(snapshot, commits: list[Commit]):
         )
 
     snapshot.assert_match_dir(snapshots, "test_snapshots")
+
+
+@pytest.mark.parametrize(
+    "arr,seq,expected",
+    [
+        (
+            ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"],
+            ["d", "e", "f", "g", "h"],
+            7,
+        ),
+        (
+            ["a", "b", "c", "d", "xx", "f", "g", "h", "i", "j"],
+            ["d", "e", "f", "g", "h"],
+            None,
+        ),
+    ],
+)
+def test_find_list_max_overlap_end_index(arr, seq, expected):
+    assert _find_list_max_overlap_end_index(arr, seq) == expected
