@@ -99,8 +99,16 @@ def _play_commits(
     if init:
         _init_repo(output_repo_path)
         repo_commit_messages = []
+        commits_match_index = -1
     else:
         repo_commit_messages = _commit_messages(output_repo_path)
+        if len(repo_commit_messages) >= COMMITS_MATCH_SPAN:
+            commits_match_index = _find_list_max_overlap_end_index(
+                [_clean_msg(c.title) for c in commits],
+                [_clean_msg(t) for t in repo_commit_messages[-COMMITS_MATCH_SPAN:]],
+            )
+        else:
+            commits_match_index = -1
 
     tz = pytz.timezone("UTC")
 
@@ -109,13 +117,6 @@ def _play_commits(
     ), f"len(commits)={len(commits)} len(repo_commits)={len(repo_commit_messages)}"
 
     article_cid_to_uri: dict[Cid, Uri] = {}
-
-    commits_match_index = None
-    if len(repo_commit_messages) >= COMMITS_MATCH_SPAN:
-        commits_match_index = _find_list_max_overlap_end_index(
-            [_clean_msg(c.title) for c in commits],
-            [_clean_msg(t) for t in repo_commit_messages[-COMMITS_MATCH_SPAN:]],
-        )
 
     for i, commit in enumerate(
         tqdm.tqdm(
