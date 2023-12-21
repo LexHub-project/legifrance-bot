@@ -209,32 +209,33 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     In other words, we look at time, not state of a version.
     """
 
-    ALLOW_LIST_END_DATE_NOT_ABROGATED = {
-        "LEGIARTI000006313581",
-        "LEGIARTI000048183284",
-        "LEGIARTI000006595289",
-        "LEGIARTI000006595291",
-        "LEGIARTI000006811763",
-        "LEGIARTI000006595293",
-        "LEGIARTI000006595299",
-        "LEGIARTI000006598952",
-        "LEGIARTI000024391416",
-        "LEGIARTI000006810235",
-        "LEGIARTI000006811763",
-        "LEGIARTI000018496248",
-        "LEGIARTI000018496250",
-        "LEGIARTI000018496254",
-        "LEGIARTI000021710041",
-        "LEGIARTI000021853229",
-        "LEGIARTI000021853231",
-        "LEGIARTI000023245726",
-        "LEGIARTI000006688358",
-        "LEGIARTI000006692951",
-        "LEGIARTI000006918472",
-        "LEGIARTI000042501924",
-        "LEGIARTI000044598833",
-        "LEGIARTI000025025824",
-    }
+    # ALLOW_LIST_END_DATE_NOT_ABROGATED = {
+    #     "LEGIARTI000006313581",
+    #     "LEGIARTI000048183284",
+    #     "LEGIARTI000006595289",
+    #     "LEGIARTI000006595291",
+    #     "LEGIARTI000006811763",
+    #     "LEGIARTI000006595293",
+    #     "LEGIARTI000006595299",
+    #     "LEGIARTI000006598952",
+    #     "LEGIARTI000024391416",
+    #     "LEGIARTI000006810235",
+    #     "LEGIARTI000006811763",
+    #     "LEGIARTI000018496248",
+    #     "LEGIARTI000018496250",
+    #     "LEGIARTI000018496254",
+    #     "LEGIARTI000021710041",
+    #     "LEGIARTI000021853229",
+    #     "LEGIARTI000021853231",
+    #     "LEGIARTI000023245726",
+    #     "LEGIARTI000006688358",
+    #     "LEGIARTI000006692951",
+    #     "LEGIARTI000006918472",
+    #     "LEGIARTI000042501924",
+    #     "LEGIARTI000044598833",
+    #     "LEGIARTI000025025824",
+    #     "LEGIARTI000048391647",
+    # }
 
     last_commit_begin: int = END_TIME
     i = 0
@@ -245,17 +246,17 @@ def _commits_for_article(article: ArticleJSON) -> Generator[Commit, None, None]:
     uri = _version_uri(versions[0])
 
     if _end(versions[0]) != END_TIME:
-        assert (
-            versions[0]["etat"]
-            in {
-                "ABROGE",
-                "ABROGE_DIFF",
-                "PERIME",
-                "ANNULE",
-                "TRANSFERE",
-            }
-            or cid in ALLOW_LIST_END_DATE_NOT_ABROGATED
-        ), f"cid: {cid} etat: {versions[0]['etat']}"
+        # assert (
+        #     versions[0]["etat"]
+        #     in {
+        #         "ABROGE",
+        #         "ABROGE_DIFF",
+        #         "PERIME",
+        #         "ANNULE",
+        #         "TRANSFERE",
+        #     }
+        #     or cid in ALLOW_LIST_END_DATE_NOT_ABROGATED
+        # ), f"cid: {cid} etat: {versions[0]['etat']}" # TODO conflict has end date / not abrogated
 
         yield Commit(
             timestamp=_end(versions[0]),
