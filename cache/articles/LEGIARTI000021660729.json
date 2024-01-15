@@ -11,13 +11,13 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "3.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1514764800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
-            "ordre": 1952257860,
+            "ordre": 1768515938,
             "context": {
                 "titresTM": [
                     {
@@ -40,33 +40,60 @@
                     },
                     {
                         "debut": "2001-05-16",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133216",
+                        "id": "LEGISCTA000048535295",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2003-08-02",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre Ier : De l'organisation et du contr\u00f4le de la profession.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146152",
                         "id": "LEGISCTA000006146152",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Des commissaires aux comptes.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146152",
+                        "id": "LEGISCTA000048535401",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2016-06-17",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 1 : De l'organisation de la profession",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000032253377",
                         "id": "LEGISCTA000032253388",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000032253377",
+                        "id": "LEGISCTA000048535399",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
@@ -83,11 +110,11 @@
             "cid": "LEGIARTI000021660729",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000032253377",
-            "sectionParentId": "LEGISCTA000032253388",
-            "sectionParentTitre": "Section 1 : De l'organisation de la profession",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre Ier : De l'organisation et du contr\u00f4le de la profession. &gt; Section 1 : De l'organisation de la profession",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000036432945",
+            "sectionParentId": "LEGISCTA000048535399",
+            "sectionParentTitre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9. &gt; Chapitre Ier : Des commissaires aux comptes. &gt; Section 1 : Dispositions g\u00e9n\u00e9rales",
+            "refInjection": "MD-20240110_203341_549_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000036432945",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -139,6 +166,18 @@
                     "datePubliTexte": "2017-12-31",
                     "dateSignaTexte": "2017-12-30",
                     "dateDebutCible": "2018-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000048519395",
+                    "textTitle": "Ordonnance n\u00b02023-1142 du 6 d\u00e9cembre 2023 - art. 15",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "15",
+                    "articleId": "LEGIARTI000048520388",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2023-12-07",
+                    "dateSignaTexte": "2023-12-06",
+                    "dateDebutCible": "2023-12-08"
                 }
             ],
             "lienCitations": [
@@ -235,16 +274,16 @@
                 },
                 {
                     "textCid": "JORFTEXT000036735897",
-                    "textTitle": "D\u00e9cret n\u00b02018-196 du 21 mars 2018 (V)",
+                    "textTitle": "D\u00e9cret n\u00b02018-196 du 21 mars 2018 (VD)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "",
-                    "articleId": "LEGITEXT000036736679",
+                    "articleId": "LEGITEXT000048540166",
                     "natureText": "DECRET",
                     "parentCid": null,
                     "numTexte": "2018-196",
                     "datePubli": 1521763200000,
-                    "dateDebut": 1521849600000
+                    "dateDebut": 1704067200000
                 },
                 {
                     "textCid": "JORFTEXT000036974873",
@@ -287,7 +326,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-11 (VD)",
+                    "textTitle": "Code de commerce - art. R821-14-11 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-11",
@@ -300,7 +339,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-4 (VD)",
+                    "textTitle": "Code de commerce - art. R821-14-4 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-4",
@@ -339,7 +378,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-8 (V)",
+                    "textTitle": "Code de commerce - art. R821-14-8 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-8",
@@ -352,7 +391,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-9 (V)",
+                    "textTitle": "Code de commerce - art. R821-14-9 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-9",
@@ -409,10 +448,10 @@
                 },
                 {
                     "id": "LEGIARTI000036432945",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1514764800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -447,7 +486,7 @@
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
-            "ordre": 1952257860,
+            "ordre": 1768515938,
             "context": {
                 "titresTM": [
                     {
@@ -470,33 +509,60 @@
                     },
                     {
                         "debut": "2001-05-16",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133216",
+                        "id": "LEGISCTA000048535295",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2003-08-02",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre Ier : De l'organisation et du contr\u00f4le de la profession.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146152",
                         "id": "LEGISCTA000006146152",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Des commissaires aux comptes.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146152",
+                        "id": "LEGISCTA000048535401",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2016-06-17",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 1 : De l'organisation de la profession",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000032253377",
                         "id": "LEGISCTA000032253388",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000032253377",
+                        "id": "LEGISCTA000048535399",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
@@ -513,11 +579,11 @@
             "cid": "LEGIARTI000021660729",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000032253377",
-            "sectionParentId": "LEGISCTA000032253388",
-            "sectionParentTitre": "Section 1 : De l'organisation de la profession",
+            "sectionParentId": "LEGISCTA000048535399",
+            "sectionParentTitre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre Ier : De l'organisation et du contr\u00f4le de la profession. &gt; Section 1 : De l'organisation de la profession",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000032258463",
+            "refInjection": "MD-20240110_203341_549_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000032258463",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -665,16 +731,16 @@
                 },
                 {
                     "textCid": "JORFTEXT000036735897",
-                    "textTitle": "D\u00e9cret n\u00b02018-196 du 21 mars 2018 (V)",
+                    "textTitle": "D\u00e9cret n\u00b02018-196 du 21 mars 2018 (VD)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "",
-                    "articleId": "LEGITEXT000036736679",
+                    "articleId": "LEGITEXT000048540166",
                     "natureText": "DECRET",
                     "parentCid": null,
                     "numTexte": "2018-196",
                     "datePubli": 1521763200000,
-                    "dateDebut": 1521849600000
+                    "dateDebut": 1704067200000
                 },
                 {
                     "textCid": "JORFTEXT000036974873",
@@ -717,7 +783,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-11 (VD)",
+                    "textTitle": "Code de commerce - art. R821-14-11 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-11",
@@ -730,7 +796,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-4 (VD)",
+                    "textTitle": "Code de commerce - art. R821-14-4 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-4",
@@ -769,7 +835,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-8 (V)",
+                    "textTitle": "Code de commerce - art. R821-14-8 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-8",
@@ -782,7 +848,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-9 (V)",
+                    "textTitle": "Code de commerce - art. R821-14-9 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-9",
@@ -817,7 +883,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1498867200000
+                    "dateDebut": 1135036800000
                 }
             ],
             "lienConcordes": [],
@@ -852,10 +918,10 @@
                 },
                 {
                     "id": "LEGIARTI000036432945",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1514764800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -890,7 +956,7 @@
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
-            "ordre": 1952257860,
+            "ordre": 1768515938,
             "context": {
                 "titresTM": [
                     {
@@ -913,24 +979,42 @@
                     },
                     {
                         "debut": "2001-05-16",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133216",
+                        "id": "LEGISCTA000048535295",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2003-08-02",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre Ier : De l'organisation et du contr\u00f4le de la profession.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146152",
                         "id": "LEGISCTA000006146152",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Des commissaires aux comptes.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146152",
+                        "id": "LEGISCTA000048535401",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 44,
                 "titreTxt": [
                     {
@@ -947,11 +1031,11 @@
             "cid": "LEGIARTI000021660729",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006146152",
-            "sectionParentId": "LEGISCTA000006146152",
-            "sectionParentTitre": "Chapitre Ier : De l'organisation et du contr\u00f4le de la profession.",
+            "sectionParentId": "LEGISCTA000048535401",
+            "sectionParentTitre": "Chapitre Ier : Des commissaires aux comptes.",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre Ier : De l'organisation et du contr\u00f4le de la profession.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000027653690",
+            "refInjection": "MD-20240110_203341_549_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000027653690",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1099,16 +1183,16 @@
                 },
                 {
                     "textCid": "JORFTEXT000036735897",
-                    "textTitle": "D\u00e9cret n\u00b02018-196 du 21 mars 2018 (V)",
+                    "textTitle": "D\u00e9cret n\u00b02018-196 du 21 mars 2018 (VD)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "",
-                    "articleId": "LEGITEXT000036736679",
+                    "articleId": "LEGITEXT000048540166",
                     "natureText": "DECRET",
                     "parentCid": null,
                     "numTexte": "2018-196",
                     "datePubli": 1521763200000,
-                    "dateDebut": 1521849600000
+                    "dateDebut": 1704067200000
                 },
                 {
                     "textCid": "JORFTEXT000036974873",
@@ -1151,7 +1235,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-11 (VD)",
+                    "textTitle": "Code de commerce - art. R821-14-11 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-11",
@@ -1164,7 +1248,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-4 (VD)",
+                    "textTitle": "Code de commerce - art. R821-14-4 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-4",
@@ -1203,7 +1287,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-8 (V)",
+                    "textTitle": "Code de commerce - art. R821-14-8 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-8",
@@ -1216,7 +1300,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-9 (V)",
+                    "textTitle": "Code de commerce - art. R821-14-9 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-9",
@@ -1251,7 +1335,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1498867200000
+                    "dateDebut": 1135036800000
                 }
             ],
             "lienConcordes": [],
@@ -1286,10 +1370,10 @@
                 },
                 {
                     "id": "LEGIARTI000036432945",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1514764800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1311,7 +1395,7 @@
         {
             "id": "LEGIARTI000021664546",
             "idTexte": null,
-            "type": null,
+            "type": "AUTONOME",
             "texte": "Il est institu\u00e9 une cotisation \u00e0 la charge de la Compagnie nationale des commissaires aux comptes dont le taux, d\u00e9termin\u00e9 par d\u00e9cret, est sup\u00e9rieur ou \u00e9gal \u00e0 0, 65 % et inf\u00e9rieur ou \u00e9gal \u00e0 1 % du montant total des honoraires factur\u00e9s au cours de l'ann\u00e9e pr\u00e9c\u00e9dente par ses membres dans l'exercice de leurs fonctions de contr\u00f4le l\u00e9gal des comptes aupr\u00e8s de personnes ou d'entit\u00e9s dont les titres financiers sont admis aux n\u00e9gociations sur un march\u00e9 r\u00e9glement\u00e9 ou faisant appel \u00e0 la g\u00e9n\u00e9rosit\u00e9 publique, d'organismes de s\u00e9curit\u00e9 sociale mentionn\u00e9s \u00e0 l'article L. 114-8 du code de la s\u00e9curit\u00e9 sociale, d'\u00e9tablissements de cr\u00e9dits, d'entreprises r\u00e9gies par le code des assurances, d'institutions de pr\u00e9voyance r\u00e9gies par le titre III du livre IX du code de la s\u00e9curit\u00e9 sociale, de mutuelles ou d'unions de mutuelles r\u00e9gies par le livre II du code de la mutualit\u00e9. Cette cotisation est liquid\u00e9e, ordonnanc\u00e9e et recouvr\u00e9e selon les modalit\u00e9s pr\u00e9vues pour les recettes des \u00e9tablissements administratifs de l'Etat. La cotisation est vers\u00e9e au haut conseil, \u00e0 raison de 50 % de son montant avant le 30 avril de chaque ann\u00e9e, le solde \u00e9tant d\u00fb au 30 septembre de la m\u00eame ann\u00e9e. Les conditions d'application du pr\u00e9sent article sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat.",
             "texteHtml": "<p>Il est institu\u00e9 une cotisation \u00e0 la charge de la Compagnie nationale des commissaires aux comptes dont le taux, d\u00e9termin\u00e9 par d\u00e9cret, est sup\u00e9rieur ou \u00e9gal \u00e0 0, 65 % et inf\u00e9rieur ou \u00e9gal \u00e0 1 % du montant total des honoraires factur\u00e9s au cours de l'ann\u00e9e pr\u00e9c\u00e9dente par ses membres dans l'exercice de leurs fonctions de contr\u00f4le l\u00e9gal des comptes aupr\u00e8s de personnes ou d'entit\u00e9s dont les titres financiers sont admis aux n\u00e9gociations sur un march\u00e9 r\u00e9glement\u00e9 ou faisant appel \u00e0 la g\u00e9n\u00e9rosit\u00e9 publique, d'organismes de s\u00e9curit\u00e9 sociale mentionn\u00e9s \u00e0 l'article L. 114-8 du code de la s\u00e9curit\u00e9 sociale, d'\u00e9tablissements de cr\u00e9dits, d'entreprises r\u00e9gies par le code des assurances, d'institutions de pr\u00e9voyance r\u00e9gies par le titre III du livre IX du code de la s\u00e9curit\u00e9 sociale, de mutuelles ou d'unions de mutuelles r\u00e9gies par le livre II du code de la mutualit\u00e9. </p><p> Cette cotisation est liquid\u00e9e, ordonnanc\u00e9e et recouvr\u00e9e selon les modalit\u00e9s pr\u00e9vues pour les recettes des \u00e9tablissements administratifs de l'Etat. </p><p> La cotisation est vers\u00e9e au haut conseil, \u00e0 raison de 50 % de son montant avant le 30 avril de chaque ann\u00e9e, le solde \u00e9tant d\u00fb au 30 septembre de la m\u00eame ann\u00e9e. </p><p> Les conditions d'application du pr\u00e9sent article sont d\u00e9termin\u00e9es par d\u00e9cret en Conseil d'Etat. </p><p></p>",
             "num": "L821-6-1",
@@ -1324,7 +1408,7 @@
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
-            "ordre": 1952257860,
+            "ordre": 1768515938,
             "context": {
                 "titresTM": [
                     {
@@ -1347,24 +1431,42 @@
                     },
                     {
                         "debut": "2001-05-16",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133216",
+                        "id": "LEGISCTA000048535295",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2003-08-02",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre Ier : De l'organisation et du contr\u00f4le de la profession.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146152",
                         "id": "LEGISCTA000006146152",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Des commissaires aux comptes.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146152",
+                        "id": "LEGISCTA000048535401",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 44,
                 "titreTxt": [
                     {
@@ -1381,11 +1483,11 @@
             "cid": "LEGIARTI000021660729",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006146152",
-            "sectionParentId": "LEGISCTA000006146152",
-            "sectionParentTitre": "Chapitre Ier : De l'organisation et du contr\u00f4le de la profession.",
+            "sectionParentId": "LEGISCTA000048535401",
+            "sectionParentTitre": "Chapitre Ier : Des commissaires aux comptes.",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre Ier : De l'organisation et du contr\u00f4le de la profession.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000021664546",
+            "refInjection": "MD-20240110_203341_549_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000021664546",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1533,16 +1635,16 @@
                 },
                 {
                     "textCid": "JORFTEXT000036735897",
-                    "textTitle": "D\u00e9cret n\u00b02018-196 du 21 mars 2018 (V)",
+                    "textTitle": "D\u00e9cret n\u00b02018-196 du 21 mars 2018 (VD)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "",
-                    "articleId": "LEGITEXT000036736679",
+                    "articleId": "LEGITEXT000048540166",
                     "natureText": "DECRET",
                     "parentCid": null,
                     "numTexte": "2018-196",
                     "datePubli": 1521763200000,
-                    "dateDebut": 1521849600000
+                    "dateDebut": 1704067200000
                 },
                 {
                     "textCid": "JORFTEXT000036974873",
@@ -1585,7 +1687,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-11 (VD)",
+                    "textTitle": "Code de commerce - art. R821-14-11 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-11",
@@ -1598,7 +1700,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-4 (VD)",
+                    "textTitle": "Code de commerce - art. R821-14-4 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-4",
@@ -1637,7 +1739,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-8 (V)",
+                    "textTitle": "Code de commerce - art. R821-14-8 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-8",
@@ -1650,7 +1752,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. R821-14-9 (V)",
+                    "textTitle": "Code de commerce - art. R821-14-9 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R821-14-9",
@@ -1707,10 +1809,10 @@
                 },
                 {
                     "id": "LEGIARTI000036432945",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1514764800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }

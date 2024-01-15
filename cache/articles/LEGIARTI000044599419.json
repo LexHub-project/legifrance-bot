@@ -6,14 +6,14 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "Le montant de la taxe est \u00e9gal au produit du taux mentionn\u00e9 \u00e0 l'article L. 421-184 par les sommes per\u00e7ues par le concessionnaire, au titre de l'exercice comptable, en contrepartie de l'exploitation du service public autoroutier, minor\u00e9es de 200 millions d'euros.",
-            "texteHtml": "<p><br/>Le montant de la taxe est \u00e9gal au produit du taux mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000044595989&idArticle=LEGIARTI000044599421&dateTexte=&categorieLien=cid' title='Code des impositions sur les biens et services - art. L421-184 (V)'>L. 421-184</a> par les sommes per\u00e7ues par le concessionnaire, au titre de l'exercice comptable, en contrepartie de l'exploitation du service public autoroutier, minor\u00e9es de 200 millions d'euros.</p>",
+            "texteHtml": "<p><br/>Le montant de la taxe est \u00e9gal au produit du taux mentionn\u00e9 \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000044595989&idArticle=LEGIARTI000044599421&dateTexte=&categorieLien=cid'>L. 421-184</a> par les sommes per\u00e7ues par le concessionnaire, au titre de l'exercice comptable, en contrepartie de l'exploitation du service public autoroutier, minor\u00e9es de 200 millions d'euros.</p>",
             "num": "L421-183",
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1640995200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1703980800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -67,12 +67,12 @@
                     },
                     {
                         "debut": "2022-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-12-31",
                         "titre": "Sous-section 2 : Taxe sur les recettes de l'exploitation du r\u00e9seau autoroutier conc\u00e9d\u00e9",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000044599413",
                         "id": "LEGISCTA000044602807",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -94,9 +94,9 @@
             "sectionParentCid": "LEGISCTA000044599413",
             "sectionParentId": "LEGISCTA000044602807",
             "sectionParentTitre": "Sous-section 2 : Taxe sur les recettes de l'exploitation du r\u00e9seau autoroutier conc\u00e9d\u00e9",
-            "fullSectionsTitre": "PARTIE L\u00c9GISLATIVE &gt; Livre IV : AUTRES IMPOSITIONS SECTORIELLES &gt; Titre II : MOBILIT\u00c9S &gt; Chapitre Ier : D\u00c9PLACEMENTS ROUTIERS &gt; Section 5 : Taxes sur les autoroutes conc\u00e9d\u00e9es &gt; Sous-section 2 : Taxe sur les recettes de l'exploitation du r\u00e9seau autoroutier conc\u00e9d\u00e9",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000044602801",
+            "fullSectionsTitre": "PARTIE L\u00c9GISLATIVE &gt; Livre IV : AUTRES IMPOSITIONS SECTORIELLES &gt; Titre II : MOBILIT\u00c9S &gt; Chapitre Ier : D\u00c9PLACEMENTS ROUTIERS &gt; Section 5 : Taxes sur les autoroutes conc\u00e9d\u00e9es",
+            "refInjection": "MD-20240104_212428_965_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000044602801",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -143,11 +143,11 @@
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "LEGIARTI000044595168",
-                    "natureText": "ORDONNANCE",
-                    "datePubliTexte": "2021-12-29",
-                    "dateSignaTexte": "2021-12-22",
-                    "dateDebutCible": "2021-12-30"
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
                 },
                 {
                     "textCid": "JORFTEXT000044590225",
@@ -160,12 +160,24 @@
                     "datePubliTexte": "2021-12-29",
                     "dateSignaTexte": "2021-12-22",
                     "dateDebutCible": "2021-12-30"
+                },
+                {
+                    "textCid": "JORFTEXT000048727345",
+                    "textTitle": "LOI n\u00b02023-1322 du 29 d\u00e9cembre 2023 - art. 100 (V)",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "100",
+                    "articleId": "LEGIARTI000048769097",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2023-12-30",
+                    "dateSignaTexte": "2023-12-29",
+                    "dateDebutCible": "2023-12-31"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000044595989",
-                    "textTitle": "Code des impositions sur les biens et services - art. L421-184 (V)",
+                    "textTitle": "Code des impositions sur les biens et services - art. L421-184",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L421-184",
@@ -192,10 +204,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000044602801",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1640995200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703980800000,
                     "numero": null,
                     "ordre": null
                 }

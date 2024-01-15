@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "9.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1577836800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -49,11 +49,20 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -67,12 +76,12 @@
                     },
                     {
                         "debut": "2017-12-30",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907759",
                         "id": "LEGISCTA000036364823",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -94,9 +103,9 @@
             "sectionParentCid": "LEGISCTA000020907759",
             "sectionParentId": "LEGISCTA000036364823",
             "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000041472736",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Comp\u00e9tences fiscales",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000041472736",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -148,6 +157,18 @@
                     "datePubliTexte": "2019-12-29",
                     "dateSignaTexte": "2019-12-28",
                     "dateDebutCible": "2019-12-30"
+                },
+                {
+                    "textCid": "JORFTEXT000048603839",
+                    "textTitle": "Ordonnance n\u00b02023-1210 du 20 d\u00e9cembre 2023 - art. 9",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000048624910",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2023-12-21",
+                    "dateSignaTexte": "2023-12-20",
+                    "dateDebutCible": "2023-12-22"
                 }
             ],
             "lienCitations": [
@@ -162,7 +183,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1458172800000
+                    "dateDebut": 1262304000000
                 }
             ],
             "lienConcordes": [
@@ -252,10 +273,10 @@
                 },
                 {
                     "id": "LEGIARTI000041472736",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "9.0",
                     "dateDebut": 1577836800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -322,11 +343,20 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -340,12 +370,12 @@
                     },
                     {
                         "debut": "2017-12-30",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907759",
                         "id": "LEGISCTA000036364823",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -368,8 +398,8 @@
             "sectionParentId": "LEGISCTA000036364823",
             "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000036364831",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000036364831",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -447,7 +477,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1458172800000
+                    "dateDebut": 1262304000000
                 }
             ],
             "lienConcordes": [
@@ -537,10 +567,10 @@
                 },
                 {
                     "id": "LEGIARTI000041472736",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "9.0",
                     "dateDebut": 1577836800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -607,11 +637,20 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -625,12 +664,12 @@
                     },
                     {
                         "debut": "2017-12-30",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907759",
                         "id": "LEGISCTA000036364823",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -653,8 +692,8 @@
             "sectionParentId": "LEGISCTA000036364823",
             "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000031782048",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000031782048",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -822,10 +861,10 @@
                 },
                 {
                     "id": "LEGIARTI000041472736",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "9.0",
                     "dateDebut": 1577836800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -892,11 +931,20 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -910,12 +958,12 @@
                     },
                     {
                         "debut": "2017-12-30",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907759",
                         "id": "LEGISCTA000036364823",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -938,8 +986,8 @@
             "sectionParentId": "LEGISCTA000036364823",
             "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000028448154",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000028448154",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1005,7 +1053,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1458172800000
+                    "dateDebut": 1262304000000
                 }
             ],
             "lienConcordes": [
@@ -1095,10 +1143,10 @@
                 },
                 {
                     "id": "LEGIARTI000041472736",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "9.0",
                     "dateDebut": 1577836800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1108,6 +1156,275 @@
                 "115-9"
             ],
             "versionPrecedente": "LEGIARTI000026975763",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000026975763",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "La taxe est calcul\u00e9e comme suit : 1\u00b0 Pour les \u00e9diteurs de services de t\u00e9l\u00e9vision, la taxe est calcul\u00e9e en appliquant un taux de 5,5 % \u00e0 la fraction du montant des versements et encaissements annuels, hors taxe sur la valeur ajout\u00e9e, aff\u00e9rent \u00e0 chaque service, qui exc\u00e8de 11 000 000 \u20ac. Ce seuil est fix\u00e9 \u00e0 16 000 000 \u20ac pour les \u00e9diteurs de services de t\u00e9l\u00e9vision qui ne b\u00e9n\u00e9ficient pas de ressources procur\u00e9es par la diffusion de messages publicitaires. Le montant de la taxe r\u00e9sultant de l'application des dispositions pr\u00e9c\u00e9dentes est r\u00e9duit de 50 % pour la soci\u00e9t\u00e9 nationale de programme France T\u00e9l\u00e9visions au titre de ses services de t\u00e9l\u00e9vision sp\u00e9cifiques \u00e0 l'outre-mer et pour les services de t\u00e9l\u00e9vision dont l'\u00e9diteur est \u00e9tabli dans les d\u00e9partements d'outre-mer. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s en haute d\u00e9finition, le taux qui pr\u00e9c\u00e8de est major\u00e9 de 0,2. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s en t\u00e9l\u00e9vision mobile personnelle, il est major\u00e9 de 0,1. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s \u00e0 la fois en haute d\u00e9finition et en t\u00e9l\u00e9vision mobile personnelle, le taux applicable est celui applicable aux services diffus\u00e9s en haute d\u00e9finition. Au titre de la premi\u00e8re ann\u00e9e de diffusion en haute d\u00e9finition ou en t\u00e9l\u00e9vision mobile personnelle, le taux major\u00e9 s'applique \u00e0 proportion de la part du montant des versements et encaissements intervenus \u00e0 compter du mois au cours duquel a d\u00e9but\u00e9 la diffusion en haute d\u00e9finition ou en t\u00e9l\u00e9vision mobile personnelle dans le montant total des versements et encaissements de l'ann\u00e9e consid\u00e9r\u00e9e. 2\u00b0 Pour les distributeurs de services, la taxe est calcul\u00e9e en appliquant \u00e0 la fraction de chaque part du montant des encaissements annuels, hors taxe sur la valeur ajout\u00e9e, qui exc\u00e8de 10 000 000 euros les taux de : a) (1) 0,5 % pour la fraction sup\u00e9rieure \u00e0 10 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 250 000 000 \u20ac ; b) 2,10 % pour la fraction sup\u00e9rieure \u00e0 250 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 500 000 000 \u20ac ; c) 2,80 % pour la fraction sup\u00e9rieure \u00e0 500 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 750 000 000 \u20ac ; d) 3,50 % pour la fraction sup\u00e9rieure \u00e0 750 000 000 \u20ac ; 3\u00b0 Dans le cas mentionn\u00e9 au deuxi\u00e8me alin\u00e9a de l'article L. 115-6 , la taxe due en tant qu'\u00e9diteur de services est calcul\u00e9e selon les modalit\u00e9s mentionn\u00e9es au 1\u00b0 et la taxe due en tant que distributeur de services selon les modalit\u00e9s mentionn\u00e9es au 2\u00b0. Toutefois, le taux mentionn\u00e9 au d du 2\u00b0 est major\u00e9 de 5,25.",
+            "texteHtml": "<p>La taxe est calcul\u00e9e comme suit : </p><p>1\u00b0 Pour les \u00e9diteurs de services de t\u00e9l\u00e9vision, la taxe est calcul\u00e9e en appliquant un taux de 5,5 % \u00e0 la fraction du montant des versements et encaissements annuels, hors taxe sur la valeur ajout\u00e9e, aff\u00e9rent \u00e0 chaque service, qui exc\u00e8de 11 000 000 \u20ac. Ce seuil est fix\u00e9 \u00e0 16 000 000 \u20ac pour les \u00e9diteurs de services de t\u00e9l\u00e9vision qui ne b\u00e9n\u00e9ficient pas de ressources procur\u00e9es par la diffusion de messages publicitaires.</p><p>Le montant de la taxe r\u00e9sultant de l'application des dispositions pr\u00e9c\u00e9dentes est r\u00e9duit de 50 % pour la soci\u00e9t\u00e9 nationale de programme France T\u00e9l\u00e9visions au titre de ses services de t\u00e9l\u00e9vision sp\u00e9cifiques \u00e0 l'outre-mer et pour les services de t\u00e9l\u00e9vision dont l'\u00e9diteur est \u00e9tabli dans les d\u00e9partements d'outre-mer. </p><p>Pour les services de t\u00e9l\u00e9vision diffus\u00e9s en haute d\u00e9finition, le taux qui pr\u00e9c\u00e8de est major\u00e9 de 0,2. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s en t\u00e9l\u00e9vision mobile personnelle, il est major\u00e9 de 0,1. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s \u00e0 la fois en haute d\u00e9finition et en t\u00e9l\u00e9vision mobile personnelle, le taux applicable est celui applicable aux services diffus\u00e9s en haute d\u00e9finition. Au titre de la premi\u00e8re ann\u00e9e de diffusion en haute d\u00e9finition ou en t\u00e9l\u00e9vision mobile personnelle, le taux major\u00e9 s'applique \u00e0 proportion de la part du montant des versements et encaissements intervenus \u00e0 compter du mois au cours duquel a d\u00e9but\u00e9 la diffusion en haute d\u00e9finition ou en t\u00e9l\u00e9vision mobile personnelle dans le montant total des versements et encaissements de l'ann\u00e9e consid\u00e9r\u00e9e. </p><p>2\u00b0 Pour les distributeurs de services, la taxe est calcul\u00e9e en appliquant \u00e0 la fraction de chaque part du montant des encaissements annuels, hors taxe sur la valeur ajout\u00e9e, qui exc\u00e8de 10 000 000 euros les taux de : </p><p>a) (1) 0,5 % pour la fraction sup\u00e9rieure \u00e0 10 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 250 000 000 \u20ac ; </p><p>b) 2,10 % pour la fraction sup\u00e9rieure \u00e0 250 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 500 000 000 \u20ac ; </p><p>c) 2,80 % pour la fraction sup\u00e9rieure \u00e0 500 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 750 000 000 \u20ac ; </p><p>d) 3,50 % pour la fraction sup\u00e9rieure \u00e0 750 000 000 \u20ac ; </p><p>3\u00b0 Dans le cas mentionn\u00e9 au deuxi\u00e8me alin\u00e9a de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000020908868&idArticle=LEGIARTI000020907761&dateTexte=&categorieLien=cid'>L. 115-6</a>, la taxe due en tant qu'\u00e9diteur de services est calcul\u00e9e selon les modalit\u00e9s mentionn\u00e9es au 1\u00b0 et la taxe due en tant que distributeur de services selon les modalit\u00e9s mentionn\u00e9es au 2\u00b0. Toutefois, le taux mentionn\u00e9 au d du 2\u00b0 est major\u00e9 de 5,25.</p>",
+            "num": "L115-9",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "5.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1356998400000,
+            "dateFin": 1388534400000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 2013265919,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2009-07-26",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907712",
+                        "id": "LEGISCTA000020908866",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2009-07-26",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Organisation administrative\r\n",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907714",
+                        "id": "LEGISCTA000020908864",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2009-07-26",
+                        "fin": "2999-01-01",
+                        "titre": "Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907716",
+                        "id": "LEGISCTA000020908862",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2010-01-01",
+                        "fin": "2024-01-01",
+                        "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2010-01-01",
+                        "fin": "2017-12-30",
+                        "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907759",
+                        "id": "LEGISCTA000020908819",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2017-12-30",
+                        "fin": "2024-01-01",
+                        "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907759",
+                        "id": "LEGISCTA000036364823",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 47,
+                "titreTxt": [
+                    {
+                        "debut": "2009-07-26",
+                        "fin": "2999-01-01",
+                        "titre": "Code du cin\u00e9ma et de l'image anim\u00e9e",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000020908868",
+                        "id": "LEGITEXT000020908868",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000020907767",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000020907759",
+            "sectionParentId": "LEGISCTA000036364823",
+            "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000026975763",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000020908868",
+                    "titre": "Code du cin\u00e9ma et de l'image anim\u00e9e",
+                    "titreLong": "Code du cin\u00e9ma et de l'image anim\u00e9e",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 1248566400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000020908868",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "(1) Conform\u00e9ment \u00e0 la loi n\u00b0 2011-1977 du 28 d\u00e9cembre 2011, article 20 II, modifi\u00e9 par la loi n\u00b0 2012-1510 du 29 d\u00e9cembre 2012, article 79, les dispositions des a) \u00e0 d) entrent en vigueur \u00e0 une date fix\u00e9e par d\u00e9cret qui ne peut \u00eatre post\u00e9rieure au 1er janvier 2014.",
+            "notaHtml": "<p>(1) Conform\u00e9ment \u00e0 la loi n\u00b0 2011-1977 du 28 d\u00e9cembre 2011, article 20 II, modifi\u00e9 par la loi n\u00b0 2012-1510 du 29 d\u00e9cembre 2012, article 79, les dispositions des a) \u00e0 d) entrent en vigueur \u00e0 une date fix\u00e9e par d\u00e9cret qui ne peut \u00eatre post\u00e9rieure au 1er janvier 2014. </p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000020908868",
+                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. L115-6",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L115-6",
+                    "articleId": "LEGIARTI000020907761",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1262304000000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 1609 sexdecies A (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "1609 sexdecies A",
+                    "articleId": "LEGIARTI000020549517",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000020908811",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1262304000000,
+                    "dateFin": 1293840000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000023378346",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1293840000000,
+                    "dateFin": 1325030400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025201536",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1325030400000,
+                    "dateFin": 1356998400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025073993",
+                    "etat": "MODIFIE_MORT_NE",
+                    "version": "4.0",
+                    "dateDebut": 1356998400000,
+                    "dateFin": 1356825600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000026975763",
+                    "etat": "MODIFIE",
+                    "version": "5.0",
+                    "dateDebut": 1356998400000,
+                    "dateFin": 1388534400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000028448154",
+                    "etat": "MODIFIE",
+                    "version": "6.0",
+                    "dateDebut": 1388534400000,
+                    "dateFin": 1451606400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000031782048",
+                    "etat": "MODIFIE",
+                    "version": "7.0",
+                    "dateDebut": 1458172800000,
+                    "dateFin": 1514764800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000036364831",
+                    "etat": "MODIFIE",
+                    "version": "8.0",
+                    "dateDebut": 1514764800000,
+                    "dateFin": 1577836800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041472736",
+                    "etat": "ABROGE",
+                    "version": "9.0",
+                    "dateDebut": 1577836800000,
+                    "dateFin": 1704067200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L115-9",
+                "115-9"
+            ],
+            "versionPrecedente": "LEGIARTI000025073993",
             "conditionDiffere": null,
             "historique": null,
             "surtitre": null,
@@ -1165,11 +1482,20 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -1183,12 +1509,12 @@
                     },
                     {
                         "debut": "2017-12-30",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907759",
                         "id": "LEGISCTA000036364823",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -1210,9 +1536,9 @@
             "sectionParentCid": "LEGISCTA000020907759",
             "sectionParentId": "LEGISCTA000036364823",
             "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000025073993",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Chapitre V : Comp\u00e9tences fiscales &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000025073993",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1278,7 +1604,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1458172800000
+                    "dateDebut": 1262304000000
                 }
             ],
             "lienConcordes": [
@@ -1368,10 +1694,10 @@
                 },
                 {
                     "id": "LEGIARTI000041472736",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "9.0",
                     "dateDebut": 1577836800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1381,266 +1707,6 @@
                 "115-9"
             ],
             "versionPrecedente": "LEGIARTI000025201536",
-            "conditionDiffere": null,
-            "historique": null,
-            "surtitre": null,
-            "renvoi": null,
-            "infosComplementaires": null,
-            "infosComplementairesHtml": null,
-            "infosRestructurationBranche": null,
-            "infosRestructurationBrancheHtml": null
-        },
-        {
-            "id": "LEGIARTI000026975763",
-            "idTexte": null,
-            "type": "AUTONOME",
-            "texte": "La taxe est calcul\u00e9e comme suit : 1\u00b0 Pour les \u00e9diteurs de services de t\u00e9l\u00e9vision, la taxe est calcul\u00e9e en appliquant un taux de 5,5 % \u00e0 la fraction du montant des versements et encaissements annuels, hors taxe sur la valeur ajout\u00e9e, aff\u00e9rent \u00e0 chaque service, qui exc\u00e8de 11 000 000 \u20ac. Ce seuil est fix\u00e9 \u00e0 16 000 000 \u20ac pour les \u00e9diteurs de services de t\u00e9l\u00e9vision qui ne b\u00e9n\u00e9ficient pas de ressources procur\u00e9es par la diffusion de messages publicitaires. Le montant de la taxe r\u00e9sultant de l'application des dispositions pr\u00e9c\u00e9dentes est r\u00e9duit de 50 % pour la soci\u00e9t\u00e9 nationale de programme France T\u00e9l\u00e9visions au titre de ses services de t\u00e9l\u00e9vision sp\u00e9cifiques \u00e0 l'outre-mer et pour les services de t\u00e9l\u00e9vision dont l'\u00e9diteur est \u00e9tabli dans les d\u00e9partements d'outre-mer. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s en haute d\u00e9finition, le taux qui pr\u00e9c\u00e8de est major\u00e9 de 0,2. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s en t\u00e9l\u00e9vision mobile personnelle, il est major\u00e9 de 0,1. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s \u00e0 la fois en haute d\u00e9finition et en t\u00e9l\u00e9vision mobile personnelle, le taux applicable est celui applicable aux services diffus\u00e9s en haute d\u00e9finition. Au titre de la premi\u00e8re ann\u00e9e de diffusion en haute d\u00e9finition ou en t\u00e9l\u00e9vision mobile personnelle, le taux major\u00e9 s'applique \u00e0 proportion de la part du montant des versements et encaissements intervenus \u00e0 compter du mois au cours duquel a d\u00e9but\u00e9 la diffusion en haute d\u00e9finition ou en t\u00e9l\u00e9vision mobile personnelle dans le montant total des versements et encaissements de l'ann\u00e9e consid\u00e9r\u00e9e. 2\u00b0 Pour les distributeurs de services, la taxe est calcul\u00e9e en appliquant \u00e0 la fraction de chaque part du montant des encaissements annuels, hors taxe sur la valeur ajout\u00e9e, qui exc\u00e8de 10 000 000 euros les taux de : a) (1) 0,5 % pour la fraction sup\u00e9rieure \u00e0 10 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 250 000 000 \u20ac ; b) 2,10 % pour la fraction sup\u00e9rieure \u00e0 250 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 500 000 000 \u20ac ; c) 2,80 % pour la fraction sup\u00e9rieure \u00e0 500 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 750 000 000 \u20ac ; d) 3,50 % pour la fraction sup\u00e9rieure \u00e0 750 000 000 \u20ac ; 3\u00b0 Dans le cas mentionn\u00e9 au deuxi\u00e8me alin\u00e9a de l'article L. 115-6 , la taxe due en tant qu'\u00e9diteur de services est calcul\u00e9e selon les modalit\u00e9s mentionn\u00e9es au 1\u00b0 et la taxe due en tant que distributeur de services selon les modalit\u00e9s mentionn\u00e9es au 2\u00b0. Toutefois, le taux mentionn\u00e9 au d du 2\u00b0 est major\u00e9 de 5,25.",
-            "texteHtml": "<p>La taxe est calcul\u00e9e comme suit : </p><p>1\u00b0 Pour les \u00e9diteurs de services de t\u00e9l\u00e9vision, la taxe est calcul\u00e9e en appliquant un taux de 5,5 % \u00e0 la fraction du montant des versements et encaissements annuels, hors taxe sur la valeur ajout\u00e9e, aff\u00e9rent \u00e0 chaque service, qui exc\u00e8de 11 000 000 \u20ac. Ce seuil est fix\u00e9 \u00e0 16 000 000 \u20ac pour les \u00e9diteurs de services de t\u00e9l\u00e9vision qui ne b\u00e9n\u00e9ficient pas de ressources procur\u00e9es par la diffusion de messages publicitaires.</p><p>Le montant de la taxe r\u00e9sultant de l'application des dispositions pr\u00e9c\u00e9dentes est r\u00e9duit de 50 % pour la soci\u00e9t\u00e9 nationale de programme France T\u00e9l\u00e9visions au titre de ses services de t\u00e9l\u00e9vision sp\u00e9cifiques \u00e0 l'outre-mer et pour les services de t\u00e9l\u00e9vision dont l'\u00e9diteur est \u00e9tabli dans les d\u00e9partements d'outre-mer. </p><p>Pour les services de t\u00e9l\u00e9vision diffus\u00e9s en haute d\u00e9finition, le taux qui pr\u00e9c\u00e8de est major\u00e9 de 0,2. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s en t\u00e9l\u00e9vision mobile personnelle, il est major\u00e9 de 0,1. Pour les services de t\u00e9l\u00e9vision diffus\u00e9s \u00e0 la fois en haute d\u00e9finition et en t\u00e9l\u00e9vision mobile personnelle, le taux applicable est celui applicable aux services diffus\u00e9s en haute d\u00e9finition. Au titre de la premi\u00e8re ann\u00e9e de diffusion en haute d\u00e9finition ou en t\u00e9l\u00e9vision mobile personnelle, le taux major\u00e9 s'applique \u00e0 proportion de la part du montant des versements et encaissements intervenus \u00e0 compter du mois au cours duquel a d\u00e9but\u00e9 la diffusion en haute d\u00e9finition ou en t\u00e9l\u00e9vision mobile personnelle dans le montant total des versements et encaissements de l'ann\u00e9e consid\u00e9r\u00e9e. </p><p>2\u00b0 Pour les distributeurs de services, la taxe est calcul\u00e9e en appliquant \u00e0 la fraction de chaque part du montant des encaissements annuels, hors taxe sur la valeur ajout\u00e9e, qui exc\u00e8de 10 000 000 euros les taux de : </p><p>a) (1) 0,5 % pour la fraction sup\u00e9rieure \u00e0 10 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 250 000 000 \u20ac ; </p><p>b) 2,10 % pour la fraction sup\u00e9rieure \u00e0 250 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 500 000 000 \u20ac ; </p><p>c) 2,80 % pour la fraction sup\u00e9rieure \u00e0 500 000 000 \u20ac et inf\u00e9rieure ou \u00e9gale \u00e0 750 000 000 \u20ac ; </p><p>d) 3,50 % pour la fraction sup\u00e9rieure \u00e0 750 000 000 \u20ac ; </p><p>3\u00b0 Dans le cas mentionn\u00e9 au deuxi\u00e8me alin\u00e9a de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000020908868&idArticle=LEGIARTI000020907761&dateTexte=&categorieLien=cid'>L. 115-6</a>, la taxe due en tant qu'\u00e9diteur de services est calcul\u00e9e selon les modalit\u00e9s mentionn\u00e9es au 1\u00b0 et la taxe due en tant que distributeur de services selon les modalit\u00e9s mentionn\u00e9es au 2\u00b0. Toutefois, le taux mentionn\u00e9 au d du 2\u00b0 est major\u00e9 de 5,25.</p>",
-            "num": "L115-9",
-            "origine": "LEGI",
-            "nature": "Article",
-            "versionArticle": "5.0",
-            "etat": "MODIFIE",
-            "dateDebut": 1356998400000,
-            "dateFin": 1388534400000,
-            "dateDebutExtension": 32472144000000,
-            "dateFinExtension": 32472144000000,
-            "inap": null,
-            "ordre": 2013265919,
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "2009-07-26",
-                        "fin": "2999-01-01",
-                        "titre": "Partie l\u00e9gislative",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000020907712",
-                        "id": "LEGISCTA000020908866",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2009-07-26",
-                        "fin": "2999-01-01",
-                        "titre": "Livre Ier : Organisation administrative\r\n",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000020907714",
-                        "id": "LEGISCTA000020908864",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2009-07-26",
-                        "fin": "2999-01-01",
-                        "titre": "Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000020907716",
-                        "id": "LEGISCTA000020908862",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2010-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000020907745",
-                        "id": "LEGISCTA000020908833",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "2010-01-01",
-                        "fin": "2017-12-30",
-                        "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000020907759",
-                        "id": "LEGISCTA000020908819",
-                        "etat": "MODIFIE"
-                    },
-                    {
-                        "debut": "2017-12-30",
-                        "fin": "2999-01-01",
-                        "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000020907759",
-                        "id": "LEGISCTA000036364823",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 2,
-                "longeurChemin": 47,
-                "titreTxt": [
-                    {
-                        "debut": "2009-07-26",
-                        "fin": "2999-01-01",
-                        "titre": "Code du cin\u00e9ma et de l'image anim\u00e9e",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000020908868",
-                        "id": "LEGITEXT000020908868",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "cid": "LEGIARTI000020907767",
-            "cidTexte": null,
-            "sectionParentCid": "LEGISCTA000020907759",
-            "sectionParentId": "LEGISCTA000036364823",
-            "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000026975763",
-            "idEli": null,
-            "idEliAlias": null,
-            "calipsos": [],
-            "textTitles": [
-                {
-                    "id": "LEGITEXT000020908868",
-                    "titre": "Code du cin\u00e9ma et de l'image anim\u00e9e",
-                    "titreLong": "Code du cin\u00e9ma et de l'image anim\u00e9e",
-                    "etat": "VIGUEUR",
-                    "dateDebut": 1248566400000,
-                    "dateFin": 32472144000000,
-                    "cid": "LEGITEXT000020908868",
-                    "datePubli": 32472144000000,
-                    "datePubliComputed": null,
-                    "dateTexte": 32472144000000,
-                    "dateTexteComputed": null,
-                    "nature": "CODE",
-                    "nor": "",
-                    "num": "",
-                    "numParution": "",
-                    "originePubli": "",
-                    "appliGeo": null,
-                    "codesNomenclatures": [],
-                    "visas": null,
-                    "nota": null,
-                    "notice": null,
-                    "travauxPreparatoires": null,
-                    "signataires": null,
-                    "dossiersLegislatifs": [],
-                    "ancienId": null,
-                    "appellations": null
-                }
-            ],
-            "nota": "(1) Conform\u00e9ment \u00e0 la loi n\u00b0 2011-1977 du 28 d\u00e9cembre 2011, article 20 II, modifi\u00e9 par la loi n\u00b0 2012-1510 du 29 d\u00e9cembre 2012, article 79, les dispositions des a) \u00e0 d) entrent en vigueur \u00e0 une date fix\u00e9e par d\u00e9cret qui ne peut \u00eatre post\u00e9rieure au 1er janvier 2014.",
-            "notaHtml": "<p>(1) Conform\u00e9ment \u00e0 la loi n\u00b0 2011-1977 du 28 d\u00e9cembre 2011, article 20 II, modifi\u00e9 par la loi n\u00b0 2012-1510 du 29 d\u00e9cembre 2012, article 79, les dispositions des a) \u00e0 d) entrent en vigueur \u00e0 une date fix\u00e9e par d\u00e9cret qui ne peut \u00eatre post\u00e9rieure au 1er janvier 2014. </p>",
-            "activitePro": [],
-            "numeroBrochure": [],
-            "numeroBo": null,
-            "conteneurs": [],
-            "lienModifications": [],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000020908868",
-                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. L115-6",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L115-6",
-                    "articleId": "LEGIARTI000020907761",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1458172800000
-                }
-            ],
-            "lienConcordes": [
-                {
-                    "textCid": "LEGITEXT000006069577",
-                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 1609 sexdecies A (Ab)",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "1609 sexdecies A",
-                    "articleId": "LEGIARTI000020549517",
-                    "natureText": "CODE"
-                }
-            ],
-            "lienAutres": [],
-            "articleVersions": [
-                {
-                    "id": "LEGIARTI000020908811",
-                    "etat": "MODIFIE",
-                    "version": "1.0",
-                    "dateDebut": 1262304000000,
-                    "dateFin": 1293840000000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000023378346",
-                    "etat": "MODIFIE",
-                    "version": "2.0",
-                    "dateDebut": 1293840000000,
-                    "dateFin": 1325030400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000025201536",
-                    "etat": "MODIFIE",
-                    "version": "3.0",
-                    "dateDebut": 1325030400000,
-                    "dateFin": 1356998400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000025073993",
-                    "etat": "MODIFIE_MORT_NE",
-                    "version": "4.0",
-                    "dateDebut": 1356998400000,
-                    "dateFin": 1356825600000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000026975763",
-                    "etat": "MODIFIE",
-                    "version": "5.0",
-                    "dateDebut": 1356998400000,
-                    "dateFin": 1388534400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000028448154",
-                    "etat": "MODIFIE",
-                    "version": "6.0",
-                    "dateDebut": 1388534400000,
-                    "dateFin": 1451606400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000031782048",
-                    "etat": "MODIFIE",
-                    "version": "7.0",
-                    "dateDebut": 1458172800000,
-                    "dateFin": 1514764800000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000036364831",
-                    "etat": "MODIFIE",
-                    "version": "8.0",
-                    "dateDebut": 1514764800000,
-                    "dateFin": 1577836800000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000041472736",
-                    "etat": "VIGUEUR",
-                    "version": "9.0",
-                    "dateDebut": 1577836800000,
-                    "dateFin": 32472144000000,
-                    "numero": null,
-                    "ordre": null
-                }
-            ],
-            "computedNums": [
-                "L115-9",
-                "115-9"
-            ],
-            "versionPrecedente": "LEGIARTI000025073993",
             "conditionDiffere": null,
             "historique": null,
             "surtitre": null,
@@ -1698,11 +1764,20 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -1716,12 +1791,12 @@
                     },
                     {
                         "debut": "2017-12-30",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907759",
                         "id": "LEGISCTA000036364823",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -1744,8 +1819,8 @@
             "sectionParentId": "LEGISCTA000036364823",
             "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000025201536",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000025201536",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1811,7 +1886,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1458172800000
+                    "dateDebut": 1262304000000
                 }
             ],
             "lienConcordes": [
@@ -1901,10 +1976,10 @@
                 },
                 {
                     "id": "LEGIARTI000041472736",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "9.0",
                     "dateDebut": 1577836800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1971,11 +2046,20 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -1989,12 +2073,12 @@
                     },
                     {
                         "debut": "2017-12-30",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907759",
                         "id": "LEGISCTA000036364823",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -2017,8 +2101,8 @@
             "sectionParentId": "LEGISCTA000036364823",
             "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000023378346",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000023378346",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -2160,10 +2244,10 @@
                 },
                 {
                     "id": "LEGIARTI000041472736",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "9.0",
                     "dateDebut": 1577836800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -2230,11 +2314,20 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -2248,12 +2341,12 @@
                     },
                     {
                         "debut": "2017-12-30",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907759",
                         "id": "LEGISCTA000036364823",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -2276,8 +2369,8 @@
             "sectionParentId": "LEGISCTA000036364823",
             "sectionParentTitre": "Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 2 : Taxe sur les \u00e9diteurs et distributeurs de services de t\u00e9l\u00e9vision\r\n",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000020908811",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000020908811",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -2419,10 +2512,10 @@
                 },
                 {
                     "id": "LEGIARTI000041472736",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "9.0",
                     "dateDebut": 1577836800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }

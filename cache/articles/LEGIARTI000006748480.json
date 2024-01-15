@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "3.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1538265600000,
-            "dateFin": 32472144000000,
+            "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -67,21 +67,30 @@
                     },
                     {
                         "debut": "1985-12-21",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Sous-section 3 : Recouvrement des cotisations d'assurance maladie, maternit\u00e9, invalidit\u00e9 et d\u00e9c\u00e8s assises sur les avantages de retraite",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006186438",
                         "id": "LEGISCTA000006186438",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 3 : Recouvrement des cotisations et contributions sociales dues sur les sommes d\u00e9clar\u00e9es dans les conditions pr\u00e9vues au II bis de l'article L. 133-5-3",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006186438",
+                        "id": "LEGISCTA000048864012",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "1985-12-21",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Paragraphe 3 : Cotisations sur les avantages de retraite servis par d'autres organismes au titre d'une activit\u00e9 professionnelle relevant du r\u00e9gime g\u00e9n\u00e9ral",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006194711",
                         "id": "LEGISCTA000006194711",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -103,9 +112,9 @@
             "sectionParentCid": "LEGISCTA000006194711",
             "sectionParentId": "LEGISCTA000006194711",
             "sectionParentTitre": "Paragraphe 3 : Cotisations sur les avantages de retraite servis par d'autres organismes au titre d'une activit\u00e9 professionnelle relevant du r\u00e9gime g\u00e9n\u00e9ral",
-            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre II : Organisation du r\u00e9gime g\u00e9n\u00e9ral - Action de pr\u00e9vention - Action sanitaire et sociale des caisses &gt; Titre IV : Ressources &gt; Chapitre 3 : Recouvrement - S\u00fbret\u00e9s - Prescription - Contr\u00f4le &gt; Section 1 : Recouvrement &gt; Sous-section 3 : Recouvrement des cotisations d'assurance maladie, maternit\u00e9, invalidit\u00e9 et d\u00e9c\u00e8s assises sur les avantages de retraite &gt; Paragraphe 3 : Cotisations sur les avantages de retraite servis par d'autres organismes au titre d'une activit\u00e9 professionnelle relevant du r\u00e9gime g\u00e9n\u00e9ral",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000037456467",
+            "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre II : Organisation du r\u00e9gime g\u00e9n\u00e9ral - Action de pr\u00e9vention - Action sanitaire et sociale des caisses &gt; Titre IV : Ressources &gt; Chapitre 3 : Recouvrement - S\u00fbret\u00e9s - Prescription - Contr\u00f4le &gt; Section 1 : Recouvrement &gt; Sous-section 3 : Recouvrement des cotisations et contributions sociales dues sur les sommes d\u00e9clar\u00e9es dans les conditions pr\u00e9vues au II bis de l'article L. 133-5-3",
+            "refInjection": "MD-20240105_204018_879_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000037456467",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -169,6 +178,18 @@
                     "datePubliTexte": "2018-09-29",
                     "dateSignaTexte": "2018-09-27",
                     "dateDebutCible": "2018-09-30"
+                },
+                {
+                    "textCid": "JORFTEXT000048734759",
+                    "textTitle": "D\u00e9cret n\u00b02023-1384 du 29 d\u00e9cembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048846407",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-12-31",
+                    "dateSignaTexte": "2023-12-29",
+                    "dateDebutCible": "2024-01-01"
                 }
             ],
             "lienCitations": [
@@ -209,7 +230,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1535760000000
+                    "dateDebut": 503971200000
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
@@ -226,7 +247,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R243-31 (V)",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R243-31 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R243-31",
@@ -239,7 +260,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R243-34 (V)",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R243-34 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R243-34",
@@ -319,10 +340,10 @@
                 },
                 {
                     "id": "LEGIARTI000037456467",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1538265600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -407,21 +428,30 @@
                     },
                     {
                         "debut": "1985-12-21",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Sous-section 3 : Recouvrement des cotisations d'assurance maladie, maternit\u00e9, invalidit\u00e9 et d\u00e9c\u00e8s assises sur les avantages de retraite",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006186438",
                         "id": "LEGISCTA000006186438",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 3 : Recouvrement des cotisations et contributions sociales dues sur les sommes d\u00e9clar\u00e9es dans les conditions pr\u00e9vues au II bis de l'article L. 133-5-3",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006186438",
+                        "id": "LEGISCTA000048864012",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "1985-12-21",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Paragraphe 3 : Cotisations sur les avantages de retraite servis par d'autres organismes au titre d'une activit\u00e9 professionnelle relevant du r\u00e9gime g\u00e9n\u00e9ral",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006194711",
                         "id": "LEGISCTA000006194711",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -444,8 +474,8 @@
             "sectionParentId": "LEGISCTA000006194711",
             "sectionParentTitre": "Paragraphe 3 : Cotisations sur les avantages de retraite servis par d'autres organismes au titre d'une activit\u00e9 professionnelle relevant du r\u00e9gime g\u00e9n\u00e9ral",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre II : Organisation du r\u00e9gime g\u00e9n\u00e9ral - Action de pr\u00e9vention - Action sanitaire et sociale des caisses &gt; Titre IV : Ressources &gt; Chapitre 3 : Recouvrement - S\u00fbret\u00e9s - Prescription - Contr\u00f4le &gt; Section 1 : Recouvrement &gt; Sous-section 3 : Recouvrement des cotisations d'assurance maladie, maternit\u00e9, invalidit\u00e9 et d\u00e9c\u00e8s assises sur les avantages de retraite &gt; Paragraphe 3 : Cotisations sur les avantages de retraite servis par d'autres organismes au titre d'une activit\u00e9 professionnelle relevant du r\u00e9gime g\u00e9n\u00e9ral",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006748481",
+            "refInjection": "MD-20240105_204018_879_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006748481",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -553,7 +583,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R243-31 (V)",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R243-31 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R243-31",
@@ -570,12 +600,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R243-34",
-                    "articleId": "LEGIARTI000021508282",
+                    "articleId": "LEGIARTI000006748821",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1262304000000
+                    "dateDebut": 573264000000
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
@@ -665,10 +695,10 @@
                 },
                 {
                     "id": "LEGIARTI000037456467",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1538265600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -826,8 +856,8 @@
             "sectionParentId": "LEGISCTA000006199703",
             "sectionParentTitre": "Paragraphe 3 : Cotisations sur les avantages de retraite servis par d'autres organismes au titre d'une activit\u00e9 professionnelle relevant du r\u00e9gime g\u00e9n\u00e9ral.",
             "fullSectionsTitre": "Partie r\u00e9glementaire - D\u00e9crets en Conseil d'Etat &gt; Livre 2 : Organisation du r\u00e9gime g\u00e9n\u00e9ral &gt; Action sanitaire et sociale des caisses &gt; Titre 4 : Ressources &gt; Chapitre 3 : Recouvrement &gt; S\u00fbret\u00e9s &gt; Prescription &gt; Contr\u00f4le",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006748480",
+            "refInjection": "MD-20240105_204018_879_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006748480",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -935,7 +965,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
-                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R243-31 (V)",
+                    "textTitle": "Code de la s\u00e9curit\u00e9 sociale. - art. R243-31 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R243-31",
@@ -952,12 +982,12 @@
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R243-34",
-                    "articleId": "LEGIARTI000021508282",
+                    "articleId": "LEGIARTI000006748821",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1262304000000
+                    "dateDebut": 573264000000
                 },
                 {
                     "textCid": "LEGITEXT000006073189",
@@ -1038,10 +1068,10 @@
                 },
                 {
                     "id": "LEGIARTI000037456467",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "3.0",
                     "dateDebut": 1538265600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }

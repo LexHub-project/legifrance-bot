@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1519862400000,
-            "dateFin": 32472144000000,
+            "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -40,20 +40,38 @@
                     },
                     {
                         "debut": "2009-01-21",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020163034",
                         "id": "LEGISCTA000020163597",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020163034",
+                        "id": "LEGISCTA000048932974",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2009-01-21",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre II : Du statut des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020163060",
                         "id": "LEGISCTA000020163571",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Des commissaires aux comptes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020163060",
+                        "id": "LEGISCTA000048933008",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -67,15 +85,24 @@
                     },
                     {
                         "debut": "2009-05-15",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : De la d\u00e9ontologie et de l'ind\u00e9pendance des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020163137",
                         "id": "LEGISCTA000020632412",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 2 : Du statut des commissaires aux comptes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020163137",
+                        "id": "LEGISCTA000048933940",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
@@ -92,11 +119,11 @@
             "cid": "LEGIARTI000020620079",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000020163137",
-            "sectionParentId": "LEGISCTA000020632412",
-            "sectionParentTitre": "Section 2 : De la d\u00e9ontologie et de l'ind\u00e9pendance des commissaires aux comptes",
-            "fullSectionsTitre": "Partie Arr\u00eat\u00e9s &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre II : Du statut des commissaires aux comptes &gt; Section 2 : De la d\u00e9ontologie et de l'ind\u00e9pendance des commissaires aux comptes",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000036655103",
+            "sectionParentId": "LEGISCTA000048933940",
+            "sectionParentTitre": "Section 2 : Du statut des commissaires aux comptes",
+            "fullSectionsTitre": "Partie Arr\u00eat\u00e9s &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9. &gt; Chapitre Ier : Des commissaires aux comptes &gt; Section 2 : Du statut des commissaires aux comptes",
+            "refInjection": "MD-20240112_202145_010_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000036655103",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -148,6 +175,18 @@
                     "datePubliTexte": "2018-02-28",
                     "dateSignaTexte": "2018-02-20",
                     "dateDebutCible": "2018-03-01"
+                },
+                {
+                    "textCid": "JORFTEXT000048735742",
+                    "textTitle": "Arr\u00eat\u00e9 du 28 d\u00e9cembre 2023 - art. 4",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "4",
+                    "articleId": "LEGIARTI000048870610",
+                    "natureText": "ARRETE",
+                    "datePubliTexte": "2023-12-31",
+                    "dateSignaTexte": "2023-12-28",
+                    "dateDebutCible": "2024-01-01"
                 }
             ],
             "lienCitations": [],
@@ -165,10 +204,10 @@
                 },
                 {
                     "id": "LEGIARTI000036655103",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1519862400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -226,20 +265,38 @@
                     },
                     {
                         "debut": "2009-01-21",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020163034",
                         "id": "LEGISCTA000020163597",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020163034",
+                        "id": "LEGISCTA000048932974",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2009-01-21",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre II : Du statut des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020163060",
                         "id": "LEGISCTA000020163571",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Des commissaires aux comptes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020163060",
+                        "id": "LEGISCTA000048933008",
                         "etat": "VIGUEUR"
                     },
                     {
@@ -253,15 +310,24 @@
                     },
                     {
                         "debut": "2009-05-15",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : De la d\u00e9ontologie et de l'ind\u00e9pendance des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020163137",
                         "id": "LEGISCTA000020632412",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 2 : Du statut des commissaires aux comptes",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020163137",
+                        "id": "LEGISCTA000048933940",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 2,
+                "nombreVersionParent": 3,
                 "longeurChemin": 47,
                 "titreTxt": [
                     {
@@ -278,11 +344,11 @@
             "cid": "LEGIARTI000020620079",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000020163137",
-            "sectionParentId": "LEGISCTA000020632412",
-            "sectionParentTitre": "Section 2 : De la d\u00e9ontologie et de l'ind\u00e9pendance des commissaires aux comptes",
+            "sectionParentId": "LEGISCTA000048933940",
+            "sectionParentTitre": "Section 2 : Du statut des commissaires aux comptes",
             "fullSectionsTitre": "Partie Arr\u00eat\u00e9s &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre II : Du statut des commissaires aux comptes &gt; Section 2 : De la d\u00e9ontologie et de l'ind\u00e9pendance des commissaires aux comptes",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000020632408",
+            "refInjection": "MD-20240112_202145_010_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000020632408",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -351,10 +417,10 @@
                 },
                 {
                     "id": "LEGIARTI000036655103",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1519862400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }

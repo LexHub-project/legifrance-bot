@@ -11,13 +11,13 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE_DIFF",
             "dateDebut": 1504224000000,
-            "dateFin": 32472144000000,
+            "dateFin": 1725148800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
-            "ordre": 365066,
+            "ordre": 805306362,
             "context": {
                 "titresTM": [
                     {
@@ -95,8 +95,8 @@
             "sectionParentId": "LEGISCTA000006181698",
             "sectionParentTitre": "Sous-section I : La proc\u00e9dure ordinaire.",
             "fullSectionsTitre": "Livre II : Dispositions particuli\u00e8res \u00e0 chaque juridiction. &gt; Titre VI : Dispositions particuli\u00e8res \u00e0 la cour d'appel. &gt; Sous-titre Ier : La proc\u00e9dure devant la formation coll\u00e9giale. &gt; Chapitre Ier : La proc\u00e9dure en mati\u00e8re contentieuse. &gt; Section I : La proc\u00e9dure avec repr\u00e9sentation obligatoire. &gt; Sous-section I : La proc\u00e9dure ordinaire.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000034686555",
+            "refInjection": "MD-20240108_202254_155_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000034686555",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -148,6 +148,18 @@
                     "datePubliTexte": "2017-05-10",
                     "dateSignaTexte": "2017-05-06",
                     "dateDebutCible": "2017-05-11"
+                },
+                {
+                    "textCid": "JORFTEXT000048735106",
+                    "textTitle": "D\u00e9cret n\u00b02023-1391 du 29 d\u00e9cembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048850748",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-12-31",
+                    "dateSignaTexte": "2023-12-29",
+                    "dateDebutCible": "2024-01-01"
                 }
             ],
             "lienCitations": [],
@@ -156,10 +168,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000034686555",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE_DIFF",
                     "version": "1.0",
                     "dateDebut": 1504224000000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1725148800000,
                     "numero": null,
                     "ordre": null
                 }

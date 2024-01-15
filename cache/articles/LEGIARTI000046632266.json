@@ -11,7 +11,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR_DIFF",
+            "etat": "VIGUEUR",
             "dateDebut": 1704067200000,
             "dateFin": 32472144000000,
             "dateDebutExtension": 32472144000000,
@@ -95,8 +95,8 @@
             "sectionParentId": "LEGISCTA000046632264",
             "sectionParentTitre": "Sous-section 4 : Obligations de d\u00e9clarations des comptes \u00e0 Saint-Barth\u00e9lemy, Saint-Martin et Saint-Pierre-et-Miquelon",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VII : Dispositions relatives \u00e0 l'Outre-mer &gt; Titre II : Organisation sp\u00e9cifique en Outre-mer de la politique mon\u00e9taire, des op\u00e9rations de paiement et des obligations de d\u00e9clarations &gt; Chapitre Ier : Politique mon\u00e9taire en outre-mer &gt; Section 2 : Institut d'\u00e9mission des d\u00e9partements d'outre-mer (IEDOM) &gt; Sous-section 4 : Obligations de d\u00e9clarations des comptes \u00e0 Saint-Barth\u00e9lemy, Saint-Martin et Saint-Pierre-et-Miquelon",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000046645591",
+            "refInjection": "MD-20231231_203543_780_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046645591",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -177,12 +177,22 @@
                     "dateDebut": 1704067200000
                 }
             ],
-            "lienConcordes": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R711-21 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R711-21",
+                    "articleId": "LEGIARTI000041592742",
+                    "natureText": "CODE"
+                }
+            ],
             "lienAutres": [],
             "articleVersions": [
                 {
                     "id": "LEGIARTI000046632266",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 1669334400000,
                     "dateFin": 1704067200000,
@@ -191,7 +201,7 @@
                 },
                 {
                     "id": "LEGIARTI000046645591",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "2.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -223,7 +233,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "ABROGE_DIFF",
+            "etat": "MODIFIE",
             "dateDebut": 1669334400000,
             "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
@@ -307,8 +317,8 @@
             "sectionParentId": "LEGISCTA000046632264",
             "sectionParentTitre": "Sous-section 4 : Obligations de d\u00e9clarations des comptes \u00e0 Saint-Barth\u00e9lemy, Saint-Martin et Saint-Pierre-et-Miquelon",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VII : Dispositions relatives \u00e0 l'Outre-mer &gt; Titre II : Organisation sp\u00e9cifique en Outre-mer de la politique mon\u00e9taire, des op\u00e9rations de paiement et des obligations de d\u00e9clarations &gt; Chapitre Ier : Politique mon\u00e9taire en outre-mer &gt; Section 2 : Institut d'\u00e9mission des d\u00e9partements d'outre-mer (IEDOM) &gt; Sous-section 4 : Obligations de d\u00e9clarations des comptes \u00e0 Saint-Barth\u00e9lemy, Saint-Martin et Saint-Pierre-et-Miquelon",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000046632266",
+            "refInjection": "MD-20231231_203543_780_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046632266",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -404,7 +414,7 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000046632266",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 1669334400000,
                     "dateFin": 1704067200000,
@@ -413,7 +423,7 @@
                 },
                 {
                     "id": "LEGIARTI000046645591",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "2.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,

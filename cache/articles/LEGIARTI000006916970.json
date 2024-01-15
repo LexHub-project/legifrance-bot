@@ -2,17 +2,17 @@
     "executionTime": 0,
     "listArticle": [
         {
-            "id": "LEGIARTI000006916971",
+            "id": "LEGIARTI000048840173",
             "idTexte": null,
             "type": "AUTONOME",
-            "texte": "L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.",
-            "texteHtml": "<p></p>   L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.<p></p><p></p>",
+            "texte": "L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences ou de l'antenne de m\u00e9decine d'urgence sur sa plage horaire d'ouverture comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.",
+            "texteHtml": "<p>L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences ou de l'antenne de m\u00e9decine d'urgence sur sa plage horaire d'ouverture comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.</p>",
             "num": "D6124-17",
             "origine": "LEGI",
             "nature": "Article",
-            "versionArticle": "2.0",
+            "versionArticle": "3.0",
             "etat": "VIGUEUR",
-            "dateDebut": 1148342400000,
+            "dateDebut": 1703980800000,
             "dateFin": 32472144000000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
@@ -85,15 +85,24 @@
                     },
                     {
                         "debut": "2006-05-23",
-                        "fin": "2999-01-01",
+                        "fin": "2023-12-31",
                         "titre": "Paragraphe 3 : Structure des urgences",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006198992",
                         "id": "LEGISCTA000006198992",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 3 : Structure des urgences et antenne de m\u00e9decine d'urgence",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006198992",
+                        "id": "LEGISCTA000048840179",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 56,
                 "titreTxt": [
                     {
@@ -110,11 +119,264 @@
             "cid": "LEGIARTI000006916970",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006198992",
-            "sectionParentId": "LEGISCTA000006198992",
-            "sectionParentTitre": "Paragraphe 3 : Structure des urgences",
-            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 1 : M\u00e9decine d'urgence &gt; Paragraphe 3 : Structure des urgences",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006916971",
+            "sectionParentId": "LEGISCTA000048840179",
+            "sectionParentTitre": "Paragraphe 3 : Structure des urgences et antenne de m\u00e9decine d'urgence",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 1 : M\u00e9decine d'urgence &gt; Paragraphe 3 : Structure des urgences et antenne de m\u00e9decine d'urgence",
+            "refInjection": "MD-20240104_212428_965_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000048840173",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006072665",
+                    "titre": "Code de la sant\u00e9 publique",
+                    "titreLong": "Code de la sant\u00e9 publique",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -512352000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006072665",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000000814956",
+                    "textTitle": "D\u00e9cret n\u00b02005-840 du 20 juillet 2005",
+                    "linkType": "CODIFICATION",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000814956",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2005-07-26",
+                    "dateSignaTexte": "2005-07-20",
+                    "dateDebutCible": "2999-01-01"
+                },
+                {
+                    "textCid": "JORFTEXT000048730410",
+                    "textTitle": "D\u00e9cret n\u00b02023-1376 du 29 d\u00e9cembre 2023 - art. 1",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048837739",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-12-30",
+                    "dateSignaTexte": "2023-12-29",
+                    "dateDebutCible": "2023-12-31"
+                }
+            ],
+            "lienCitations": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D712-65-4 (Ab)",
+                    "linkType": "CONCORDE",
+                    "linkOrientation": "cible",
+                    "articleNum": "D712-65-4",
+                    "articleId": "LEGIARTI000006691951",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072665",
+                    "textTitle": "Code de la sant\u00e9 publique - art. D712-65-4 (M)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "D712-65-4",
+                    "articleId": "LEGIARTI000006691950",
+                    "natureText": "CODE"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006916970",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 1122336000000,
+                    "dateFin": 1148342400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006916971",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1148342400000,
+                    "dateFin": 1703980800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048840173",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1703980800000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "D6124-17",
+                "6124-17"
+            ],
+            "versionPrecedente": "LEGIARTI000006916971",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000006916971",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.",
+            "texteHtml": "<p></p>   L'effectif de l'\u00e9quipe m\u00e9dicale de la structure des urgences comprend un nombre d'infirmiers suffisant pour qu'au moins l'un d'entre eux soit pr\u00e9sent en permanence.<p></p><p></p>",
+            "num": "D6124-17",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1148342400000,
+            "dateFin": 1703980800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 42949,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "2000-12-23",
+                        "fin": "2999-01-01",
+                        "titre": "Partie r\u00e9glementaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006112927",
+                        "id": "LEGISCTA000006112927",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-07-26",
+                        "fin": "2999-01-01",
+                        "titre": "Sixi\u00e8me partie : Etablissements et services de sant\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006132400",
+                        "id": "LEGISCTA000006132400",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-07-26",
+                        "fin": "2999-01-01",
+                        "titre": "Livre Ier : Etablissements de sant\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006145493",
+                        "id": "LEGISCTA000006145493",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-07-26",
+                        "fin": "2999-01-01",
+                        "titre": "Titre II : Equipement sanitaire",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006161025",
+                        "id": "LEGISCTA000006161025",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-07-26",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre IV : Conditions techniques de fonctionnement",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006178695",
+                        "id": "LEGISCTA000006178695",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2005-07-26",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Activit\u00e9s de soins",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006190819",
+                        "id": "LEGISCTA000006190819",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2006-05-23",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 1 : M\u00e9decine d'urgence",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006196698",
+                        "id": "LEGISCTA000006196698",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "2006-05-23",
+                        "fin": "2023-12-31",
+                        "titre": "Paragraphe 3 : Structure des urgences",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006198992",
+                        "id": "LEGISCTA000006198992",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 3 : Structure des urgences et antenne de m\u00e9decine d'urgence",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006198992",
+                        "id": "LEGISCTA000048840179",
+                        "etat": "VIGUEUR"
+                    }
+                ],
+                "nombreVersionParent": 2,
+                "longeurChemin": 56,
+                "titreTxt": [
+                    {
+                        "debut": "1953-10-07",
+                        "fin": "2999-01-01",
+                        "titre": "Code de la sant\u00e9 publique",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006072665",
+                        "id": "LEGITEXT000006072665",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006916970",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006198992",
+            "sectionParentId": "LEGISCTA000048840179",
+            "sectionParentTitre": "Paragraphe 3 : Structure des urgences et antenne de m\u00e9decine d'urgence",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins &gt; Sous-section 1 : M\u00e9decine d'urgence &gt; Paragraphe 3 : Structure des urgences et antenne de m\u00e9decine d'urgence",
+            "refInjection": "MD-20240104_212428_965_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006916971",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -214,9 +476,18 @@
                 },
                 {
                     "id": "LEGIARTI000006916971",
-                    "etat": "VIGUEUR",
+                    "etat": "MODIFIE",
                     "version": "2.0",
                     "dateDebut": 1148342400000,
+                    "dateFin": 1703980800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048840173",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1703980800000,
                     "dateFin": 32472144000000,
                     "numero": null,
                     "ordre": null
@@ -339,8 +610,8 @@
             "sectionParentId": "LEGISCTA000006196697",
             "sectionParentTitre": "Sous-section 1 : Accueil et traitement des urgences.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre IV : Conditions techniques de fonctionnement &gt; Section 1 : Activit\u00e9s de soins",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006916970",
+            "refInjection": "MD-20240104_212428_965_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006916970",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -481,9 +752,18 @@
                 },
                 {
                     "id": "LEGIARTI000006916971",
-                    "etat": "VIGUEUR",
+                    "etat": "MODIFIE",
                     "version": "2.0",
                     "dateDebut": 1148342400000,
+                    "dateFin": 1703980800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048840173",
+                    "etat": "VIGUEUR",
+                    "version": "3.0",
+                    "dateDebut": 1703980800000,
                     "dateFin": 32472144000000,
                     "numero": null,
                     "ordre": null

@@ -10,7 +10,7 @@
             "num": "575 M",
             "origine": "LEGI",
             "nature": "Article",
-            "versionArticle": "5.0",
+            "versionArticle": "6.0",
             "etat": "VIGUEUR_DIFF",
             "dateDebut": 1767225600000,
             "dateFin": 32472144000000,
@@ -67,12 +67,12 @@
                     },
                     {
                         "debut": "1979-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2025-07-01",
                         "titre": "III : Circulation, d\u00e9tention et commerce des tabacs",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006179712",
                         "id": "LEGISCTA000006179712",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -94,9 +94,9 @@
             "sectionParentCid": "LEGISCTA000006179712",
             "sectionParentId": "LEGISCTA000006179712",
             "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs",
-            "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et taxes diverses &gt; Chapitre IV : Tabacs &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000041472799",
+            "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et taxes diverses &gt; Chapitre IV : Tabacs &gt; Section I : Tabacs",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000041472799",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -174,7 +174,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 299635200000
+                    "dateDebut": -620870400000
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
@@ -200,11 +200,11 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1577836800000
+                    "dateDebut": 299635200000
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
-                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VD)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "575 E bis",
@@ -248,17 +248,26 @@
                 },
                 {
                     "id": "LEGIARTI000044873256",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "4.0",
                     "dateDebut": 1640995200000,
-                    "dateFin": 1767225600000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638180",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1751328000000,
                     "numero": null,
                     "ordre": null
                 },
                 {
                     "id": "LEGIARTI000041472799",
                     "etat": "VIGUEUR_DIFF",
-                    "version": "5.0",
+                    "version": "6.0",
                     "dateDebut": 1767225600000,
                     "dateFin": 32472144000000,
                     "numero": null,
@@ -269,7 +278,7 @@
                 "575 M",
                 "575"
             ],
-            "versionPrecedente": "LEGIARTI000044873256",
+            "versionPrecedente": "LEGIARTI000048638180",
             "conditionDiffere": null,
             "historique": null,
             "surtitre": null,
@@ -280,7 +289,7 @@
             "infosRestructurationBrancheHtml": null
         },
         {
-            "id": "LEGIARTI000044873256",
+            "id": "LEGIARTI000048638180",
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "En ce qui concerne les tabacs manufactur\u00e9s import\u00e9s dans les d\u00e9partements de France m\u00e9tropolitaine, les infractions aux dispositions des articles 571 et 575 E bis son recherch\u00e9es, constat\u00e9es, poursuivies et r\u00e9prim\u00e9es comme en mati\u00e8re de douane (1). (1) Modifications de la loi.",
@@ -288,10 +297,10 @@
             "num": "575 M",
             "origine": "LEGI",
             "nature": "Article",
-            "versionArticle": "4.0",
+            "versionArticle": "5.0",
             "etat": "ABROGE_DIFF",
             "dateDebut": 1640995200000,
-            "dateFin": 1767225600000,
+            "dateFin": 1751328000000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -345,12 +354,12 @@
                     },
                     {
                         "debut": "1979-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2025-07-01",
                         "titre": "III : Circulation, d\u00e9tention et commerce des tabacs",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006179712",
                         "id": "LEGISCTA000006179712",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -373,8 +382,296 @@
             "sectionParentId": "LEGISCTA000006179712",
             "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs",
             "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et taxes diverses &gt; Chapitre IV : Tabacs &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000044873256",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000048638180",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069577",
+                    "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI.",
+                    "titreLong": "Code g\u00e9n\u00e9ral des imp\u00f4ts",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -564278400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069577",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "Conform\u00e9ment \u00e0 l'article 40 de l'ordonnance n\u00b0 2021-1843 du 22 d\u00e9cembre 2021, ces dispositions entrent en vigueur le 1er janvier 2022.",
+            "notaHtml": "<p>Conform\u00e9ment \u00e0 l'article 40 de l'ordonnance n\u00b0 2021-1843 du 22 d\u00e9cembre 2021, ces dispositions entrent en vigueur le 1er janvier 2022.</p><p></p>",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000048603839",
+                    "textTitle": "Ordonnance n\u00b02023-1210 du 20 d\u00e9cembre 2023 - art. 25",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "25",
+                    "articleId": "LEGIARTI000048624942",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2023-12-21",
+                    "dateSignaTexte": "2023-12-20",
+                    "dateDebutCible": "2023-12-22"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 1793 A (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "1793 A",
+                    "articleId": "LEGIARTI000047861271",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1689811200000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 571 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "571",
+                    "articleId": "LEGIARTI000006310094",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 745632000000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "575",
+                    "articleId": "LEGIARTI000048638213",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1640995200000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "575 E",
+                    "articleId": "LEGIARTI000006304959",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 299635200000
+                },
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "575 E bis",
+                    "articleId": "LEGIARTI000046805467",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1677628800000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006304972",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 299635200000,
+                    "dateFin": 725846400000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006304973",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 725846400000,
+                    "dateFin": 778464000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000006304974",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 778464000000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000044873256",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638180",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1751328000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000041472799",
+                    "etat": "VIGUEUR_DIFF",
+                    "version": "6.0",
+                    "dateDebut": 1767225600000,
+                    "dateFin": 32472144000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "575 M",
+                "575"
+            ],
+            "versionPrecedente": "LEGIARTI000044873256",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000044873256",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "En ce qui concerne les tabacs manufactur\u00e9s import\u00e9s dans les d\u00e9partements de France m\u00e9tropolitaine, les infractions aux dispositions des articles 571 et 575 E bis son recherch\u00e9es, constat\u00e9es, poursuivies et r\u00e9prim\u00e9es comme en mati\u00e8re de douane (1). (1) Modifications de la loi.",
+            "texteHtml": "<p>En ce qui concerne les tabacs manufactur\u00e9s import\u00e9s dans les d\u00e9partements de France m\u00e9tropolitaine, les infractions aux dispositions des articles 571 et 575 E bis son recherch\u00e9es, constat\u00e9es, poursuivies et r\u00e9prim\u00e9es comme en mati\u00e8re de douane (1).</p><p>(1) Modifications de la loi.</p><p></p>",
+            "num": "575 M",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "4.0",
+            "etat": "MODIFIE",
+            "dateDebut": 1640995200000,
+            "dateFin": 1640995200000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 429490,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1952-02-14",
+                        "fin": "2999-01-01",
+                        "titre": "Livre premier : Assiette et liquidation de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084232",
+                        "id": "LEGISCTA000006084232",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1952-02-14",
+                        "fin": "2999-01-01",
+                        "titre": "Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114494",
+                        "id": "LEGISCTA000006114494",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1970-07-05",
+                        "fin": "2999-01-01",
+                        "titre": "Titre III : Contributions indirectes et taxes diverses",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133849",
+                        "id": "LEGISCTA000006133849",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre IV : Tabacs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006147062",
+                        "id": "LEGISCTA000006147062",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section I : Tabacs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006162624",
+                        "id": "LEGISCTA000006162624",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2025-07-01",
+                        "titre": "III : Circulation, d\u00e9tention et commerce des tabacs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006179712",
+                        "id": "LEGISCTA000006179712",
+                        "etat": "ABROGE_DIFF"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "1952-02-14",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069577",
+                        "id": "LEGITEXT000006069577",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006304972",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006179712",
+            "sectionParentId": "LEGISCTA000006179712",
+            "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs",
+            "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et taxes diverses &gt; Chapitre IV : Tabacs &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000044873256",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -453,7 +750,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 299635200000
+                    "dateDebut": -620870400000
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
@@ -466,7 +763,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "dateDebut": 299635200000
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
@@ -483,7 +780,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
-                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VD)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "575 E bis",
@@ -537,17 +834,26 @@
                 },
                 {
                     "id": "LEGIARTI000044873256",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "4.0",
                     "dateDebut": 1640995200000,
-                    "dateFin": 1767225600000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638180",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1751328000000,
                     "numero": null,
                     "ordre": null
                 },
                 {
                     "id": "LEGIARTI000041472799",
                     "etat": "VIGUEUR_DIFF",
-                    "version": "5.0",
+                    "version": "6.0",
                     "dateDebut": 1767225600000,
                     "dateFin": 32472144000000,
                     "numero": null,
@@ -573,7 +879,7 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "En ce qui concerne les tabacs manufactur\u00e9s import\u00e9s dans les d\u00e9partements de France m\u00e9tropolitaine, les infractions aux dispositions des articles 571 , 575 \u00e0 575 D et 575 E bis son recherch\u00e9es, constat\u00e9es, poursuivies et r\u00e9prim\u00e9es comme en mati\u00e8re de douane (1). Les infractions \u00e0 l'article 575 E sont recherch\u00e9es, constat\u00e9es, poursuivies et r\u00e9prim\u00e9es comme en mati\u00e8re de douane. (1) Modifications de la loi. (2) Voir art. 1793 A .",
-            "texteHtml": "<p>En ce qui concerne les tabacs manufactur\u00e9s import\u00e9s dans les d\u00e9partements de France m\u00e9tropolitaine, les infractions aux dispositions des articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006310092&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 571 (V)'>571</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006310095&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 (V)'>575 \u00e0 575 D </a>et 575 E bis son recherch\u00e9es, constat\u00e9es, poursuivies et r\u00e9prim\u00e9es comme en mati\u00e8re de douane (1).</p><p>Les infractions \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006304959&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E (V)'>575 E </a>sont recherch\u00e9es, constat\u00e9es, poursuivies et r\u00e9prim\u00e9es comme en mati\u00e8re de douane.</p><p>(1) Modifications de la loi.</p><p>(2) Voir art. <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006313149&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 1793 A (V)'>1793 A</a>.</p>",
+            "texteHtml": "<p>En ce qui concerne les tabacs manufactur\u00e9s import\u00e9s dans les d\u00e9partements de France m\u00e9tropolitaine, les infractions aux dispositions des articles <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006310092&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 571 (V)'>571</a>, <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006310095&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 (V)'>575 \u00e0 575 D </a>et <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006304962&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VT)'>575 E bis </a>son recherch\u00e9es, constat\u00e9es, poursuivies et r\u00e9prim\u00e9es comme en mati\u00e8re de douane (1).</p><p>Les infractions \u00e0 l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006304959&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E (V)'>575 E </a>sont recherch\u00e9es, constat\u00e9es, poursuivies et r\u00e9prim\u00e9es comme en mati\u00e8re de douane.</p><p>(1) Modifications de la loi.</p><p>(2) Voir art. <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006313149&dateTexte=&categorieLien=cid' title='Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 1793 A (V)'>1793 A</a>.</p>",
             "num": "575 M",
             "origine": "LEGI",
             "nature": "Article",
@@ -634,12 +940,12 @@
                     },
                     {
                         "debut": "1979-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2025-07-01",
                         "titre": "III : Circulation, d\u00e9tention et commerce des tabacs",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006179712",
                         "id": "LEGISCTA000006179712",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -662,8 +968,8 @@
             "sectionParentId": "LEGISCTA000006179712",
             "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs",
             "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et taxes diverses &gt; Chapitre IV : Tabacs &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006304974",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006304974",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -729,7 +1035,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 299635200000
+                    "dateDebut": -620870400000
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
@@ -742,7 +1048,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "dateDebut": 299635200000
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
@@ -755,11 +1061,11 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1577836800000
+                    "dateDebut": 299635200000
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
-                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VD)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "575 E bis",
@@ -803,17 +1109,26 @@
                 },
                 {
                     "id": "LEGIARTI000044873256",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "4.0",
                     "dateDebut": 1640995200000,
-                    "dateFin": 1767225600000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638180",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1751328000000,
                     "numero": null,
                     "ordre": null
                 },
                 {
                     "id": "LEGIARTI000041472799",
                     "etat": "VIGUEUR_DIFF",
-                    "version": "5.0",
+                    "version": "6.0",
                     "dateDebut": 1767225600000,
                     "dateFin": 32472144000000,
                     "numero": null,
@@ -928,8 +1243,8 @@
             "sectionParentId": "LEGISCTA000006179689",
             "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs.",
             "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et monopoles fiscaux - taxes diverses &gt; Chapitre IV : Monopoles &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006304973",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006304973",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1011,7 +1326,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
-                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VD)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "575 E bis",
@@ -1055,17 +1370,26 @@
                 },
                 {
                     "id": "LEGIARTI000044873256",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "4.0",
                     "dateDebut": 1640995200000,
-                    "dateFin": 1767225600000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638180",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1751328000000,
                     "numero": null,
                     "ordre": null
                 },
                 {
                     "id": "LEGIARTI000041472799",
                     "etat": "VIGUEUR_DIFF",
-                    "version": "5.0",
+                    "version": "6.0",
                     "dateDebut": 1767225600000,
                     "dateFin": 32472144000000,
                     "numero": null,
@@ -1180,8 +1504,8 @@
             "sectionParentId": "LEGISCTA000006179689",
             "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs.",
             "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et monopoles fiscaux - taxes diverses &gt; Chapitre IV : Monopoles &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs.",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000006304972",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006304972",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1264,7 +1588,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006069577",
-                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VD)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 575 E bis (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "575 E bis",
@@ -1318,17 +1642,26 @@
                 },
                 {
                     "id": "LEGIARTI000044873256",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "4.0",
                     "dateDebut": 1640995200000,
-                    "dateFin": 1767225600000,
+                    "dateFin": 1640995200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638180",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1640995200000,
+                    "dateFin": 1751328000000,
                     "numero": null,
                     "ordre": null
                 },
                 {
                     "id": "LEGIARTI000041472799",
                     "etat": "VIGUEUR_DIFF",
-                    "version": "5.0",
+                    "version": "6.0",
                     "dateDebut": 1767225600000,
                     "dateFin": 32472144000000,
                     "numero": null,

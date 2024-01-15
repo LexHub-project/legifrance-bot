@@ -6,14 +6,14 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "La personne qui \u00e9tablit l'attestation pr\u00e9vue \u00e0 l'article R. 122-32 doit justifier aupr\u00e8s du ma\u00eetre d'ouvrage de comp\u00e9tences en acoustique. Elle peut \u00eatre notamment : a) Un architecte ; b) Un contr\u00f4leur technique au sens de l'article L. 125-1 , titulaire d'un agr\u00e9ment l'autorisant \u00e0 intervenir sur les b\u00e2timents ; c) Un bureau d'\u00e9tudes ou un ing\u00e9nieur-conseil ; d) En l'absence de ma\u00eetre d'\u0153uvre, le ma\u00eetre d'ouvrage de l'op\u00e9ration.",
-            "texteHtml": "<p><br/>La personne qui \u00e9tablit l'attestation pr\u00e9vue \u00e0 l'article R. 122-32 doit justifier aupr\u00e8s du ma\u00eetre d'ouvrage de comp\u00e9tences en acoustique. Elle peut \u00eatre notamment : <br/>a) Un architecte ; <br/>b) Un contr\u00f4leur technique au sens de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000006824255&dateTexte=&categorieLien=cid' title='Code de la construction et de l'habitation. - art. L125-1 (V)'>L. 125-1</a>, titulaire d'un agr\u00e9ment l'autorisant \u00e0 intervenir sur les b\u00e2timents ; <br/>c) Un bureau d'\u00e9tudes ou un ing\u00e9nieur-conseil ; <br/>d) En l'absence de ma\u00eetre d'\u0153uvre, le ma\u00eetre d'ouvrage de l'op\u00e9ration.</p>",
+            "texteHtml": "<p><br/>La personne qui \u00e9tablit l'attestation pr\u00e9vue \u00e0 l'article R. 122-32 doit justifier aupr\u00e8s du ma\u00eetre d'ouvrage de comp\u00e9tences en acoustique. Elle peut \u00eatre notamment : <br/>a) Un architecte ; <br/>b) Un contr\u00f4leur technique au sens de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000006824255&dateTexte=&categorieLien=cid'>L. 125-1</a>, titulaire d'un agr\u00e9ment l'autorisant \u00e0 intervenir sur les b\u00e2timents ; <br/>c) Un bureau d'\u00e9tudes ou un ing\u00e9nieur-conseil ; <br/>d) En l'absence de ma\u00eetre d'\u0153uvre, le ma\u00eetre d'ouvrage de l'op\u00e9ration.</p>",
             "num": "R122-33",
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1625097600000,
-            "dateFin": 32472144000000,
+            "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -86,8 +86,8 @@
             "sectionParentId": "LEGISCTA000043818465",
             "sectionParentTitre": "Section 3 : Attestations",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre II : ENCADREMENT DE LA CONCEPTION, DE LA R\u00c9ALISATION ET DE L'EXPLOITATION DES B\u00c2TIMENTS &gt; Chapitre II : Proc\u00e9dures administratives &gt; Section 3 : Attestations",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000043818489",
+            "refInjection": "MD-20231231_203543_780_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000043818489",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -134,11 +134,11 @@
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "LEGIARTI000043816034",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2021-07-01",
-                    "dateSignaTexte": "2021-06-30",
-                    "dateDebutCible": "2021-07-01"
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
                 },
                 {
                     "textCid": "JORFTEXT000043808633",
@@ -151,12 +151,24 @@
                     "datePubliTexte": "2021-07-01",
                     "dateSignaTexte": "2021-06-30",
                     "dateDebutCible": "2021-07-01"
+                },
+                {
+                    "textCid": "JORFTEXT000048560412",
+                    "textTitle": "D\u00e9cret n\u00b02023-1175 du 12 d\u00e9cembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048561895",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-12-14",
+                    "dateSignaTexte": "2023-12-12",
+                    "dateDebutCible": "2023-12-15"
                 }
             ],
             "lienCitations": [
                 {
                     "textCid": "LEGITEXT000006074096",
-                    "textTitle": "Code de la construction et de l'habitation. - art. L125-1 (V)",
+                    "textTitle": "Code de la construction et de l'habitation. - art. L125-1",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L125-1",
@@ -165,7 +177,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1485648000000
+                    "dateDebut": 615081600000
                 },
                 {
                     "textCid": "LEGITEXT000006074096",
@@ -196,10 +208,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000043818489",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1625097600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }

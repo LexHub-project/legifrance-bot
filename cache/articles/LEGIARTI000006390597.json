@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "4.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1325203200000,
-            "dateFin": 32472144000000,
+            "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -112,15 +112,24 @@
                     },
                     {
                         "debut": "2009-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Sous-section 3 : Paiement et recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006192280",
                         "id": "LEGISCTA000019306551",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 3 : Recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006192280",
+                        "id": "LEGISCTA000048637279",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 3,
+                "nombreVersionParent": 4,
                 "longeurChemin": 53,
                 "titreTxt": [
                     {
@@ -137,11 +146,11 @@
             "cid": "LEGIARTI000006390597",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006192280",
-            "sectionParentId": "LEGISCTA000019306551",
-            "sectionParentTitre": "Sous-section 3 : Paiement et recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; DEUXI\u00c8ME PARTIE : LA COMMUNE &gt; LIVRE III : FINANCES COMMUNALES &gt; TITRE III : RECETTES &gt; CHAPITRE III : Taxes, redevances ou versements non pr\u00e9vus par le code g\u00e9n\u00e9ral des imp\u00f4ts &gt; Section 3 : Taxe locale sur la publicit\u00e9 ext\u00e9rieure &gt; Sous-section 3 : Paiement et recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000025068940",
+            "sectionParentId": "LEGISCTA000048637279",
+            "sectionParentTitre": "Sous-section 3 : Recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; DEUXI\u00c8ME PARTIE : LA COMMUNE &gt; LIVRE III : FINANCES COMMUNALES &gt; TITRE III : RECETTES &gt; CHAPITRE III : Taxes, redevances ou versements non pr\u00e9vus par le code g\u00e9n\u00e9ral des imp\u00f4ts &gt; Section 3 : Taxe locale sur la publicit\u00e9 ext\u00e9rieure &gt; Sous-section 3 : Recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000025068940",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -193,6 +202,18 @@
                     "datePubliTexte": "2011-12-29",
                     "dateSignaTexte": "2011-12-28",
                     "dateDebutCible": "2011-12-30"
+                },
+                {
+                    "textCid": "JORFTEXT000048603839",
+                    "textTitle": "Ordonnance n\u00b02023-1210 du 20 d\u00e9cembre 2023 - art. 17",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "17",
+                    "articleId": "LEGIARTI000048624926",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2023-12-21",
+                    "dateSignaTexte": "2023-12-20",
+                    "dateDebutCible": "2023-12-22"
                 }
             ],
             "lienCitations": [
@@ -208,6 +229,19 @@
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 1230768000000
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-14 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000019306545",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": null
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
@@ -278,10 +312,10 @@
                 },
                 {
                     "id": "LEGIARTI000025068940",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1325203200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -291,318 +325,6 @@
                 "2333-13"
             ],
             "versionPrecedente": "LEGIARTI000025200518",
-            "conditionDiffere": null,
-            "historique": null,
-            "surtitre": null,
-            "renvoi": null,
-            "infosComplementaires": null,
-            "infosComplementairesHtml": null,
-            "infosRestructurationBranche": null,
-            "infosRestructurationBrancheHtml": null
-        },
-        {
-            "id": "LEGIARTI000018036275",
-            "idTexte": null,
-            "type": "AUTONOME",
-            "texte": "Les communes peuvent, par d\u00e9lib\u00e9ration du conseil municipal, pour les enseignes, et pour les pr\u00e9enseignes vis\u00e9es au troisi\u00e8me alin\u00e9a de l'article L. 581-19 du code de l'environnement, fixer des tarifs inf\u00e9rieurs \u00e0 ceux des autres types de supports. Elles peuvent en outre, dans les m\u00eames conditions, instituer une tarification variable selon les rues.",
-            "texteHtml": "<p>Les communes peuvent, par d\u00e9lib\u00e9ration du conseil municipal, pour les enseignes, et pour les pr\u00e9enseignes vis\u00e9es au troisi\u00e8me alin\u00e9a de l'article L. 581-19 du code de l'environnement, fixer des tarifs inf\u00e9rieurs \u00e0 ceux des autres types de supports. </p><p>Elles peuvent en outre, dans les m\u00eames conditions, instituer une tarification variable selon les rues.</p>",
-            "num": "L2333-13",
-            "origine": "LEGI",
-            "nature": "Article",
-            "versionArticle": "2.0",
-            "etat": "MODIFIE_MORT_NE",
-            "dateDebut": 1230768000000,
-            "dateFin": 1217980800000,
-            "dateDebutExtension": 32472144000000,
-            "dateFinExtension": 32472144000000,
-            "inap": null,
-            "ordre": 1908888668,
-            "context": {
-                "titresTM": [
-                    {
-                        "debut": "1996-02-24",
-                        "fin": "2999-01-01",
-                        "titre": "Partie l\u00e9gislative",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006088000",
-                        "id": "LEGISCTA000006088000",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1996-02-24",
-                        "fin": "2999-01-01",
-                        "titre": "DEUXI\u00c8ME PARTIE : LA COMMUNE",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006116628",
-                        "id": "LEGISCTA000006116628",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1996-02-24",
-                        "fin": "2999-01-01",
-                        "titre": "LIVRE III : FINANCES COMMUNALES",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006135493",
-                        "id": "LEGISCTA000006135493",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1996-02-24",
-                        "fin": "2999-01-01",
-                        "titre": "TITRE III : RECETTES",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006149245",
-                        "id": "LEGISCTA000006149245",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1996-02-24",
-                        "fin": "2999-01-01",
-                        "titre": "CHAPITRE III : Taxes, redevances ou versements non pr\u00e9vus par le code g\u00e9n\u00e9ral des imp\u00f4ts",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006164579",
-                        "id": "LEGISCTA000006164579",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1996-02-24",
-                        "fin": "2009-01-01",
-                        "titre": "Section 3 : Taxe sur la publicit\u00e9 frappant les affiches, r\u00e9clames et enseignes lumineuses",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006181006",
-                        "id": "LEGISCTA000006181006",
-                        "etat": "MODIFIE"
-                    },
-                    {
-                        "debut": "2009-01-01",
-                        "fin": "2009-01-01",
-                        "titre": "Section 3 : Taxes communales sur la publicit\u00e9",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006181006",
-                        "id": "LEGISCTA000018036309",
-                        "etat": "MODIFIE"
-                    },
-                    {
-                        "debut": "2009-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Section 3 : Taxe locale sur la publicit\u00e9 ext\u00e9rieure",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006181006",
-                        "id": "LEGISCTA000019306581",
-                        "etat": "VIGUEUR"
-                    },
-                    {
-                        "debut": "1996-02-24",
-                        "fin": "2009-01-01",
-                        "titre": "Sous-section 2 : Assiette de la taxe et exon\u00e9rations.",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006192279",
-                        "id": "LEGISCTA000006192279",
-                        "etat": "MODIFIE"
-                    },
-                    {
-                        "debut": "2009-01-01",
-                        "fin": "2009-01-01",
-                        "titre": "Sous-section 2 : Tarifs de la taxe sur les emplacements publicitaires et de la taxe sur les affiches publicitaires",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006192279",
-                        "id": "LEGISCTA000018036295",
-                        "etat": "MODIFIE_MORT_NE"
-                    },
-                    {
-                        "debut": "2009-01-01",
-                        "fin": "2999-01-01",
-                        "titre": "Sous-section 2 : Tarifs de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
-                        "cid": "LEGISCTA000006192279",
-                        "id": "LEGISCTA000019306568",
-                        "etat": "VIGUEUR"
-                    }
-                ],
-                "nombreVersionParent": 3,
-                "longeurChemin": 53,
-                "titreTxt": [
-                    {
-                        "debut": "1996-02-24",
-                        "fin": "2999-01-01",
-                        "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
-                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
-                        "cid": "LEGITEXT000006070633",
-                        "id": "LEGITEXT000006070633",
-                        "etat": "VIGUEUR"
-                    }
-                ]
-            },
-            "cid": "LEGIARTI000006390597",
-            "cidTexte": null,
-            "sectionParentCid": "LEGISCTA000006192279",
-            "sectionParentId": "LEGISCTA000019306568",
-            "sectionParentTitre": "Sous-section 2 : Tarifs de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; DEUXI\u00c8ME PARTIE : LA COMMUNE &gt; LIVRE III : FINANCES COMMUNALES &gt; TITRE III : RECETTES &gt; CHAPITRE III : Taxes, redevances ou versements non pr\u00e9vus par le code g\u00e9n\u00e9ral des imp\u00f4ts &gt; Section 3 : Taxe sur la publicit\u00e9 frappant les affiches, r\u00e9clames et enseignes lumineuses &gt; Section 3 : Taxes communales sur la publicit\u00e9 &gt; Section 3 : Taxe locale sur la publicit\u00e9 ext\u00e9rieure &gt; Sous-section 2 : Assiette de la taxe et exon\u00e9rations. &gt; Sous-section 2 : Tarifs de la taxe sur les emplacements publicitaires et de la taxe sur les affiches publicitaires &gt; Sous-section 2 : Tarifs de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000018036275",
-            "idEli": null,
-            "idEliAlias": null,
-            "calipsos": [],
-            "textTitles": [
-                {
-                    "id": "LEGITEXT000006070633",
-                    "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
-                    "titreLong": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
-                    "etat": "VIGUEUR",
-                    "dateDebut": 825120000000,
-                    "dateFin": 32472144000000,
-                    "cid": "LEGITEXT000006070633",
-                    "datePubli": 32472144000000,
-                    "datePubliComputed": null,
-                    "dateTexte": 32472144000000,
-                    "dateTexteComputed": null,
-                    "nature": "CODE",
-                    "nor": "",
-                    "num": "",
-                    "numParution": "",
-                    "originePubli": "",
-                    "appliGeo": null,
-                    "codesNomenclatures": [],
-                    "visas": null,
-                    "nota": null,
-                    "notice": null,
-                    "travauxPreparatoires": null,
-                    "signataires": null,
-                    "dossiersLegislatifs": [],
-                    "ancienId": null,
-                    "appellations": null
-                }
-            ],
-            "nota": "",
-            "notaHtml": "",
-            "activitePro": [],
-            "numeroBrochure": [],
-            "numeroBo": null,
-            "conteneurs": [],
-            "lienModifications": [
-                {
-                    "textCid": "JORFTEXT000017839505",
-                    "textTitle": "LOI n\u00b02007-1824\n du 25 d\u00e9cembre 2007 - art. 73",
-                    "linkType": "MODIFIE",
-                    "linkOrientation": "cible",
-                    "articleNum": "73",
-                    "articleId": "LEGIARTI000017885166",
-                    "natureText": "LOI",
-                    "datePubliTexte": "2007-12-28",
-                    "dateSignaTexte": "2007-12-25",
-                    "dateDebutCible": "2007-12-29"
-                }
-            ],
-            "lienCitations": [
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-10 (VT)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L2333-10",
-                    "articleId": "LEGIARTI000018036288",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1230768000000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-15 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L2333-15",
-                    "articleId": "LEGIARTI000029736750",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1415404800000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-24 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "L2333-24",
-                    "articleId": "LEGIARTI000006390615",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 825120000000
-                },
-                {
-                    "textCid": "LEGITEXT000006074220",
-                    "textTitle": "Code de l'environnement - art. L581-19",
-                    "linkType": "CITATION",
-                    "linkOrientation": "source",
-                    "articleNum": "L581-19",
-                    "articleId": "LEGIARTI000006834719",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 969494400000
-                }
-            ],
-            "lienConcordes": [
-                {
-                    "textCid": "JORFTEXT000000705313",
-                    "textTitle": "Loi 50-939 1950-08-08 art. 3 par. G al. 1 et 2",
-                    "linkType": "CONCORDANCE",
-                    "linkOrientation": "source",
-                    "articleNum": "",
-                    "articleId": "JORFTEXT000000705313",
-                    "natureText": "LOI"
-                }
-            ],
-            "lienAutres": [],
-            "articleVersions": [
-                {
-                    "id": "LEGIARTI000006390597",
-                    "etat": "MODIFIE",
-                    "version": "1.0",
-                    "dateDebut": 825120000000,
-                    "dateFin": 1230768000000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000018036275",
-                    "etat": "MODIFIE_MORT_NE",
-                    "version": "2.0",
-                    "dateDebut": 1230768000000,
-                    "dateFin": 1217980800000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000025200518",
-                    "etat": "MODIFIE",
-                    "version": "3.0",
-                    "dateDebut": 1230768000000,
-                    "dateFin": 1325203200000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000025068940",
-                    "etat": "VIGUEUR",
-                    "version": "4.0",
-                    "dateDebut": 1325203200000,
-                    "dateFin": 32472144000000,
-                    "numero": null,
-                    "ordre": null
-                }
-            ],
-            "computedNums": [
-                "L2333-13",
-                "2333-13"
-            ],
-            "versionPrecedente": "LEGIARTI000006390597",
             "conditionDiffere": null,
             "historique": null,
             "surtitre": null,
@@ -723,15 +445,24 @@
                     },
                     {
                         "debut": "2009-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Sous-section 3 : Paiement et recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006192280",
                         "id": "LEGISCTA000019306551",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 3 : Recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006192280",
+                        "id": "LEGISCTA000048637279",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 3,
+                "nombreVersionParent": 4,
                 "longeurChemin": 53,
                 "titreTxt": [
                     {
@@ -748,11 +479,11 @@
             "cid": "LEGIARTI000006390597",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006192280",
-            "sectionParentId": "LEGISCTA000019306551",
-            "sectionParentTitre": "Sous-section 3 : Paiement et recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
+            "sectionParentId": "LEGISCTA000048637279",
+            "sectionParentTitre": "Sous-section 3 : Recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; DEUXI\u00c8ME PARTIE : LA COMMUNE &gt; LIVRE III : FINANCES COMMUNALES &gt; TITRE III : RECETTES &gt; CHAPITRE III : Taxes, redevances ou versements non pr\u00e9vus par le code g\u00e9n\u00e9ral des imp\u00f4ts &gt; Section 3 : Taxe locale sur la publicit\u00e9 ext\u00e9rieure &gt; Sous-section 3 : Paiement et recouvrement de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000025200518",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000025200518",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -834,6 +565,19 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-14 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000019306545",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": null
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
                     "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-15 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
@@ -901,10 +645,10 @@
                 },
                 {
                     "id": "LEGIARTI000025068940",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1325203200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -914,6 +658,331 @@
                 "2333-13"
             ],
             "versionPrecedente": "LEGIARTI000018036275",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000018036275",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "Les communes peuvent, par d\u00e9lib\u00e9ration du conseil municipal, pour les enseignes, et pour les pr\u00e9enseignes vis\u00e9es au troisi\u00e8me alin\u00e9a de l'article L. 581-19 du code de l'environnement, fixer des tarifs inf\u00e9rieurs \u00e0 ceux des autres types de supports. Elles peuvent en outre, dans les m\u00eames conditions, instituer une tarification variable selon les rues.",
+            "texteHtml": "<p>Les communes peuvent, par d\u00e9lib\u00e9ration du conseil municipal, pour les enseignes, et pour les pr\u00e9enseignes vis\u00e9es au troisi\u00e8me alin\u00e9a de l'article L. 581-19 du code de l'environnement, fixer des tarifs inf\u00e9rieurs \u00e0 ceux des autres types de supports. </p><p>Elles peuvent en outre, dans les m\u00eames conditions, instituer une tarification variable selon les rues.</p>",
+            "num": "L2333-13",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "2.0",
+            "etat": "MODIFIE_MORT_NE",
+            "dateDebut": 1230768000000,
+            "dateFin": 1217980800000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 1908888668,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Partie l\u00e9gislative",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006088000",
+                        "id": "LEGISCTA000006088000",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "DEUXI\u00c8ME PARTIE : LA COMMUNE",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006116628",
+                        "id": "LEGISCTA000006116628",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "LIVRE III : FINANCES COMMUNALES",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006135493",
+                        "id": "LEGISCTA000006135493",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE III : RECETTES",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006149245",
+                        "id": "LEGISCTA000006149245",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "CHAPITRE III : Taxes, redevances ou versements non pr\u00e9vus par le code g\u00e9n\u00e9ral des imp\u00f4ts",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006164579",
+                        "id": "LEGISCTA000006164579",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2009-01-01",
+                        "titre": "Section 3 : Taxe sur la publicit\u00e9 frappant les affiches, r\u00e9clames et enseignes lumineuses",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006181006",
+                        "id": "LEGISCTA000006181006",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2009-01-01",
+                        "fin": "2009-01-01",
+                        "titre": "Section 3 : Taxes communales sur la publicit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006181006",
+                        "id": "LEGISCTA000018036309",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2009-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 3 : Taxe locale sur la publicit\u00e9 ext\u00e9rieure",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006181006",
+                        "id": "LEGISCTA000019306581",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2009-01-01",
+                        "titre": "Sous-section 2 : Assiette de la taxe et exon\u00e9rations.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006192279",
+                        "id": "LEGISCTA000006192279",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2009-01-01",
+                        "fin": "2009-01-01",
+                        "titre": "Sous-section 2 : Tarifs de la taxe sur les emplacements publicitaires et de la taxe sur les affiches publicitaires",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006192279",
+                        "id": "LEGISCTA000018036295",
+                        "etat": "MODIFIE_MORT_NE"
+                    },
+                    {
+                        "debut": "2009-01-01",
+                        "fin": "2024-01-01",
+                        "titre": "Sous-section 2 : Tarifs de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006192279",
+                        "id": "LEGISCTA000019306568",
+                        "etat": "ABROGE"
+                    }
+                ],
+                "nombreVersionParent": 3,
+                "longeurChemin": 53,
+                "titreTxt": [
+                    {
+                        "debut": "1996-02-24",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006070633",
+                        "id": "LEGITEXT000006070633",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006390597",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006192279",
+            "sectionParentId": "LEGISCTA000019306568",
+            "sectionParentTitre": "Sous-section 2 : Tarifs de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; DEUXI\u00c8ME PARTIE : LA COMMUNE &gt; LIVRE III : FINANCES COMMUNALES &gt; TITRE III : RECETTES &gt; CHAPITRE III : Taxes, redevances ou versements non pr\u00e9vus par le code g\u00e9n\u00e9ral des imp\u00f4ts &gt; Section 3 : Taxe sur la publicit\u00e9 frappant les affiches, r\u00e9clames et enseignes lumineuses &gt; Section 3 : Taxes communales sur la publicit\u00e9 &gt; Section 3 : Taxe locale sur la publicit\u00e9 ext\u00e9rieure &gt; Sous-section 2 : Assiette de la taxe et exon\u00e9rations. &gt; Sous-section 2 : Tarifs de la taxe sur les emplacements publicitaires et de la taxe sur les affiches publicitaires &gt; Sous-section 2 : Tarifs de la taxe locale sur la publicit\u00e9 ext\u00e9rieure",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000018036275",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006070633",
+                    "titre": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                    "titreLong": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales",
+                    "etat": "VIGUEUR",
+                    "dateDebut": 825120000000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006070633",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000017839505",
+                    "textTitle": "LOI n\u00b02007-1824\n du 25 d\u00e9cembre 2007 - art. 73",
+                    "linkType": "MODIFIE",
+                    "linkOrientation": "cible",
+                    "articleNum": "73",
+                    "articleId": "LEGIARTI000017885166",
+                    "natureText": "LOI",
+                    "datePubliTexte": "2007-12-28",
+                    "dateSignaTexte": "2007-12-25",
+                    "dateDebutCible": "2007-12-29"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-10 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2333-10",
+                    "articleId": "LEGIARTI000018036288",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1230768000000
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-14 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000019306545",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": null
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-15 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2333-15",
+                    "articleId": "LEGIARTI000029736750",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1415404800000
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-24 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "L2333-24",
+                    "articleId": "LEGIARTI000006390615",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 825120000000
+                },
+                {
+                    "textCid": "LEGITEXT000006074220",
+                    "textTitle": "Code de l'environnement - art. L581-19",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "L581-19",
+                    "articleId": "LEGIARTI000006834719",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 969494400000
+                }
+            ],
+            "lienConcordes": [
+                {
+                    "textCid": "JORFTEXT000000705313",
+                    "textTitle": "Loi 50-939 1950-08-08 art. 3 par. G al. 1 et 2",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "",
+                    "articleId": "JORFTEXT000000705313",
+                    "natureText": "LOI"
+                }
+            ],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006390597",
+                    "etat": "MODIFIE",
+                    "version": "1.0",
+                    "dateDebut": 825120000000,
+                    "dateFin": 1230768000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000018036275",
+                    "etat": "MODIFIE_MORT_NE",
+                    "version": "2.0",
+                    "dateDebut": 1230768000000,
+                    "dateFin": 1217980800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025200518",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1230768000000,
+                    "dateFin": 1325203200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000025068940",
+                    "etat": "ABROGE",
+                    "version": "4.0",
+                    "dateDebut": 1325203200000,
+                    "dateFin": 1704067200000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "L2333-13",
+                "2333-13"
+            ],
+            "versionPrecedente": "LEGIARTI000006390597",
             "conditionDiffere": null,
             "historique": null,
             "surtitre": null,
@@ -1025,12 +1094,12 @@
                     },
                     {
                         "debut": "2009-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Sous-section 5 : Dispositions transitoires",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006192282",
                         "id": "LEGISCTA000019306534",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -1053,8 +1122,8 @@
             "sectionParentId": "LEGISCTA000019306534",
             "sectionParentTitre": "Sous-section 5 : Dispositions transitoires",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; DEUXI\u00c8ME PARTIE : LA COMMUNE &gt; LIVRE III : FINANCES COMMUNALES &gt; TITRE III : RECETTES &gt; CHAPITRE III : Taxes, redevances ou versements non pr\u00e9vus par le code g\u00e9n\u00e9ral des imp\u00f4ts &gt; Section 3 : Taxe locale sur la publicit\u00e9 ext\u00e9rieure &gt; Sous-section 5 : Dispositions transitoires",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006390597",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006390597",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1136,6 +1205,19 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-14 (VT)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000019306545",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": null
+                },
+                {
+                    "textCid": "LEGITEXT000006070633",
                     "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. L2333-15 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
@@ -1203,10 +1285,10 @@
                 },
                 {
                     "id": "LEGIARTI000025068940",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "4.0",
                     "dateDebut": 1325203200000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }

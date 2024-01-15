@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "8.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1656806400000,
-            "dateFin": 32472144000000,
+            "dateFin": 1703808000000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -85,12 +85,12 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-12-29",
                         "titre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006192614",
                         "id": "LEGISCTA000021636827",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -112,9 +112,9 @@
             "sectionParentCid": "LEGISCTA000006192614",
             "sectionParentId": "LEGISCTA000021636827",
             "sectionParentTitre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; PREMIERE PARTIE : DISPOSITIONS G\u00c9N\u00c9RALES &gt; LIVRE V : DISPOSITIONS \u00c9CONOMIQUES &gt; TITRE Ier : AIDES AUX ENTREPRISES &gt; CHAPITRE UNIQUE &gt; Section 2 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises &gt; Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000046011256",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; PREMIERE PARTIE : DISPOSITIONS G\u00c9N\u00c9RALES &gt; LIVRE V : DISPOSITIONS \u00c9CONOMIQUES &gt; TITRE Ier : AIDES AUX ENTREPRISES &gt; CHAPITRE UNIQUE &gt; Section 2 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises",
+            "refInjection": "MD-20231229_210203_164_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046011256",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -166,6 +166,18 @@
                     "datePubliTexte": "2022-07-02",
                     "dateSignaTexte": "2022-06-30",
                     "dateDebutCible": "2022-07-03"
+                },
+                {
+                    "textCid": "JORFTEXT000048679603",
+                    "textTitle": "D\u00e9cret n\u00b02023-1286 du 26 d\u00e9cembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048701577",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-12-28",
+                    "dateSignaTexte": "2023-12-26",
+                    "dateDebutCible": "2023-12-29"
                 }
             ],
             "lienCitations": [
@@ -184,7 +196,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-12",
@@ -197,7 +209,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-13",
@@ -210,7 +222,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-15",
@@ -223,7 +235,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-16 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-16 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-16",
@@ -313,10 +325,10 @@
                 },
                 {
                     "id": "LEGIARTI000046011256",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1656806400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703808000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -419,12 +431,12 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-12-29",
                         "titre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006192614",
                         "id": "LEGISCTA000021636827",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -447,8 +459,8 @@
             "sectionParentId": "LEGISCTA000021636827",
             "sectionParentTitre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; PREMIERE PARTIE : DISPOSITIONS G\u00c9N\u00c9RALES &gt; LIVRE V : DISPOSITIONS \u00c9CONOMIQUES &gt; TITRE Ier : AIDES AUX ENTREPRISES &gt; CHAPITRE UNIQUE &gt; Section 2 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises &gt; Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000042985070",
+            "refInjection": "MD-20231229_210203_164_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000042985070",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -518,7 +530,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-12",
@@ -531,7 +543,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-13",
@@ -544,7 +556,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-15",
@@ -554,19 +566,6 @@
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 1404432000000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-16 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1511-16",
-                    "articleId": "LEGIARTI000021636799",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1262304000000
                 }
             ],
             "lienConcordes": [
@@ -647,10 +646,10 @@
                 },
                 {
                     "id": "LEGIARTI000046011256",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1656806400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703808000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -753,12 +752,12 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-12-29",
                         "titre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006192614",
                         "id": "LEGISCTA000021636827",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -781,8 +780,8 @@
             "sectionParentId": "LEGISCTA000021636827",
             "sectionParentTitre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; PREMIERE PARTIE : DISPOSITIONS G\u00c9N\u00c9RALES &gt; LIVRE V : DISPOSITIONS \u00c9CONOMIQUES &gt; TITRE Ier : AIDES AUX ENTREPRISES &gt; CHAPITRE UNIQUE &gt; Section 2 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises &gt; Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000029185547",
+            "refInjection": "MD-20231229_210203_164_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000029185547",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -878,7 +877,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-12",
@@ -891,7 +890,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-13",
@@ -904,7 +903,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-15",
@@ -917,19 +916,6 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-16 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1511-16",
-                    "articleId": "LEGIARTI000021636799",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1262304000000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
                     "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-5",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -939,7 +925,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1465084800000
+                    "dateDebut": 955238400000
                 }
             ],
             "lienConcordes": [
@@ -1020,10 +1006,10 @@
                 },
                 {
                     "id": "LEGIARTI000046011256",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1656806400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703808000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1126,12 +1112,12 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-12-29",
                         "titre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006192614",
                         "id": "LEGISCTA000021636827",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -1154,8 +1140,8 @@
             "sectionParentId": "LEGISCTA000021636827",
             "sectionParentTitre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; PREMIERE PARTIE : DISPOSITIONS G\u00c9N\u00c9RALES &gt; LIVRE V : DISPOSITIONS \u00c9CONOMIQUES &gt; TITRE Ier : AIDES AUX ENTREPRISES &gt; CHAPITRE UNIQUE &gt; Section 2 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises &gt; Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000021636823",
+            "refInjection": "MD-20231229_210203_164_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000021636823",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1251,7 +1237,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-12",
@@ -1264,7 +1250,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-13",
@@ -1277,7 +1263,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-15",
@@ -1290,19 +1276,6 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-16 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1511-16",
-                    "articleId": "LEGIARTI000021636799",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1262304000000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
                     "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-5 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -1312,7 +1285,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1465084800000
+                    "dateDebut": 955238400000
                 }
             ],
             "lienConcordes": [
@@ -1393,10 +1366,10 @@
                 },
                 {
                     "id": "LEGIARTI000046011256",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1656806400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703808000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1499,12 +1472,12 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2023-12-29",
                         "titre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006192614",
                         "id": "LEGISCTA000021636827",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -1527,8 +1500,8 @@
             "sectionParentId": "LEGISCTA000021636827",
             "sectionParentTitre": "Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; PREMIERE PARTIE : DISPOSITIONS G\u00c9N\u00c9RALES &gt; LIVRE V : DISPOSITIONS \u00c9CONOMIQUES &gt; TITRE Ier : AIDES AUX ENTREPRISES &gt; CHAPITRE UNIQUE &gt; Section 2 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises &gt; Sous-section 3 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones d'aides \u00e0 finalit\u00e9 r\u00e9gionale.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006395202",
+            "refInjection": "MD-20231229_210203_164_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006395202",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1623,7 +1596,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-12",
@@ -1636,7 +1609,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-13",
@@ -1649,7 +1622,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-15",
@@ -1662,19 +1635,6 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-16 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1511-16",
-                    "articleId": "LEGIARTI000021636799",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1262304000000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
                     "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-5 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -1684,7 +1644,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1465084800000
+                    "dateDebut": 955238400000
                 }
             ],
             "lienConcordes": [
@@ -1765,10 +1725,10 @@
                 },
                 {
                     "id": "LEGIARTI000046011256",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1656806400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703808000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -1890,8 +1850,8 @@
             "sectionParentId": "LEGISCTA000006192613",
             "sectionParentTitre": "Sous-section 2 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises dans les zones \u00e9num\u00e9r\u00e9es \u00e0 l'annexe I du d\u00e9cret du 11 avril 2001 relatif \u00e0 la prime d'am\u00e9nagement du territoire et dans les d\u00e9partements d'outre-mer.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; PREMIERE PARTIE : DISPOSITIONS G\u00c9N\u00c9RALES &gt; LIVRE V : DISPOSITIONS \u00c9CONOMIQUES &gt; TITRE Ier : AIDES AUX ENTREPRISES &gt; CHAPITRE UNIQUE &gt; Section 2 : Aides \u00e0 l'investissement immobilier et \u00e0 la location d'immeubles accord\u00e9es aux entreprises",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006395201",
+            "refInjection": "MD-20231229_210203_164_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006395201",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1982,7 +1942,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1129161600000
+                    "dateDebut": 1104537600000
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
@@ -1999,7 +1959,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-12",
@@ -2012,7 +1972,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-13",
@@ -2025,7 +1985,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-15",
@@ -2035,19 +1995,6 @@
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 1404432000000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-16 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1511-16",
-                    "articleId": "LEGIARTI000021636799",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1262304000000
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
@@ -2141,10 +2088,10 @@
                 },
                 {
                     "id": "LEGIARTI000046011256",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1656806400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703808000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -2266,8 +2213,8 @@
             "sectionParentId": "LEGISCTA000006192827",
             "sectionParentTitre": "Sous-section 3 : Prime r\u00e9gionale \u00e0 l'emploi (R).",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; PREMIERE PARTIE : DISPOSITIONS G\u00c9N\u00c9RALES &gt; LIVRE V : DISPOSITIONS \u00c9CONOMIQUES &gt; TITRE Ier : AIDES AUX ENTREPRISES &gt; CHAPITRE UNIQUE",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006395200",
+            "refInjection": "MD-20231229_210203_164_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006395200",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -2361,7 +2308,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-12",
@@ -2374,7 +2321,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-13",
@@ -2387,7 +2334,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-15",
@@ -2397,19 +2344,6 @@
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 1404432000000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-16 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1511-16",
-                    "articleId": "LEGIARTI000021636799",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1262304000000
                 }
             ],
             "lienConcordes": [
@@ -2490,10 +2424,10 @@
                 },
                 {
                     "id": "LEGIARTI000046011256",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1656806400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703808000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -2606,8 +2540,8 @@
             "sectionParentId": "LEGISCTA000006181391",
             "sectionParentTitre": "Sous-section 3 : Prime r\u00e9gionale \u00e0 l'emploi (R).",
             "fullSectionsTitre": "Partie r\u00e9glementaire",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006395199",
+            "refInjection": "MD-20231229_210203_164_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006395199",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -2689,7 +2623,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-12 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-12",
@@ -2702,7 +2636,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-13 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-13",
@@ -2715,7 +2649,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (V)",
+                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-15 (Ab)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "R1511-15",
@@ -2725,19 +2659,6 @@
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 1404432000000
-                },
-                {
-                    "textCid": "LEGITEXT000006070633",
-                    "textTitle": "Code g\u00e9n\u00e9ral des collectivit\u00e9s territoriales - art. R1511-16 (V)",
-                    "linkType": "CITATION",
-                    "linkOrientation": "cible",
-                    "articleNum": "R1511-16",
-                    "articleId": "LEGIARTI000021636799",
-                    "natureText": "CODE",
-                    "parentCid": null,
-                    "numTexte": "",
-                    "datePubli": 32472144000000,
-                    "dateDebut": 1262304000000
                 }
             ],
             "lienConcordes": [
@@ -2818,10 +2739,10 @@
                 },
                 {
                     "id": "LEGIARTI000046011256",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "8.0",
                     "dateDebut": 1656806400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703808000000,
                     "numero": null,
                     "ordre": null
                 }

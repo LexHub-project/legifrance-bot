@@ -11,7 +11,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "6.0",
-            "etat": "VIGUEUR_DIFF",
+            "etat": "VIGUEUR",
             "dateDebut": 1704067200000,
             "dateFin": 32472144000000,
             "dateDebutExtension": 32472144000000,
@@ -45,7 +45,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -54,7 +54,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000048535295",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2003-08-02",
@@ -63,7 +63,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146151",
                         "id": "LEGISCTA000006146151",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -72,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146151",
                         "id": "LEGISCTA000048535297",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2024-01-01",
@@ -81,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000048521843",
                         "id": "LEGISCTA000048527684",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -104,7 +104,7 @@
             "sectionParentId": "LEGISCTA000048527684",
             "sectionParentTitre": "Section 1 : De l'organisation",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9. &gt; Chapitre pr\u00e9liminaire : De la Haute autorit\u00e9 de l'audit. &gt; Section 1 : De l'organisation",
-            "refInjection": "MD-20231208_204026_766_BDJQUOT",
+            "refInjection": "MD-20240109_202639_673_BDJQUOT",
             "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000048535319",
             "idEli": null,
             "idEliAlias": null,
@@ -238,6 +238,19 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. D821-25 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D821-25",
+                    "articleId": "LEGIARTI000048873077",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
                     "textTitle": "Code de commerce - art. L223-37",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -261,6 +274,32 @@
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-1",
+                    "articleId": "LEGIARTI000048871266",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-52 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-52",
+                    "articleId": "LEGIARTI000048871888",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
                 },
                 {
                     "textCid": "LEGITEXT000006072026",
@@ -317,7 +356,7 @@
                 },
                 {
                     "id": "LEGIARTI000024041578",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "5.0",
                     "dateDebut": 1305763200000,
                     "dateFin": 1704067200000,
@@ -326,7 +365,7 @@
                 },
                 {
                     "id": "LEGIARTI000048535319",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "6.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -358,7 +397,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "5.0",
-            "etat": "ABROGE_DIFF",
+            "etat": "MODIFIE",
             "dateDebut": 1305763200000,
             "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
@@ -392,7 +431,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -401,7 +440,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000048535295",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2003-08-02",
@@ -410,7 +449,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146151",
                         "id": "LEGISCTA000006146151",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -419,7 +458,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146151",
                         "id": "LEGISCTA000048535297",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -441,8 +480,8 @@
             "sectionParentCid": "LEGISCTA000006146151",
             "sectionParentId": "LEGISCTA000048535297",
             "sectionParentTitre": "Chapitre pr\u00e9liminaire : De la Haute autorit\u00e9 de l'audit.",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre pr\u00e9liminaire : Dispositions g\u00e9n\u00e9rales.",
-            "refInjection": "MD-20231208_204026_766_BDJQUOT",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9. &gt; Chapitre pr\u00e9liminaire : De la Haute autorit\u00e9 de l'audit.",
+            "refInjection": "MD-20240109_202639_673_BDJQUOT",
             "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000024041578",
             "idEli": null,
             "idEliAlias": null,
@@ -576,6 +615,19 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. D821-25 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D821-25",
+                    "articleId": "LEGIARTI000048873077",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
                     "textTitle": "Code de commerce - art. L223-37",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -599,6 +651,32 @@
                     "numTexte": "",
                     "datePubli": 32472144000000,
                     "dateDebut": 969494400000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-1",
+                    "articleId": "LEGIARTI000048871266",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-52 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-52",
+                    "articleId": "LEGIARTI000048871888",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
                 },
                 {
                     "textCid": "LEGITEXT000006072026",
@@ -655,7 +733,7 @@
                 },
                 {
                     "id": "LEGIARTI000024041578",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "5.0",
                     "dateDebut": 1305763200000,
                     "dateFin": 1704067200000,
@@ -664,7 +742,7 @@
                 },
                 {
                     "id": "LEGIARTI000048535319",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "6.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -730,7 +808,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -739,7 +817,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000048535295",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2003-08-02",
@@ -748,7 +826,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146151",
                         "id": "LEGISCTA000006146151",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -757,7 +835,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146151",
                         "id": "LEGISCTA000048535297",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -780,7 +858,7 @@
             "sectionParentId": "LEGISCTA000048535297",
             "sectionParentTitre": "Chapitre pr\u00e9liminaire : De la Haute autorit\u00e9 de l'audit.",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre pr\u00e9liminaire : Dispositions g\u00e9n\u00e9rales.",
-            "refInjection": "MD-20231208_204026_766_BDJQUOT",
+            "refInjection": "MD-20240109_202639_673_BDJQUOT",
             "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006242406",
             "idEli": null,
             "idEliAlias": null,
@@ -914,6 +992,45 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. D821-25 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D821-25",
+                    "articleId": "LEGIARTI000048873077",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-1",
+                    "articleId": "LEGIARTI000048871266",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-52 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-52",
+                    "articleId": "LEGIARTI000048871888",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
                     "textTitle": "Code de commerce. - art. L223-37 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -993,7 +1110,7 @@
                 },
                 {
                     "id": "LEGIARTI000024041578",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "5.0",
                     "dateDebut": 1305763200000,
                     "dateFin": 1704067200000,
@@ -1002,7 +1119,7 @@
                 },
                 {
                     "id": "LEGIARTI000048535319",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "6.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -1068,7 +1185,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -1077,7 +1194,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000048535295",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2003-08-02",
@@ -1086,7 +1203,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146151",
                         "id": "LEGISCTA000006146151",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -1095,7 +1212,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146151",
                         "id": "LEGISCTA000048535297",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -1118,7 +1235,7 @@
             "sectionParentId": "LEGISCTA000048535297",
             "sectionParentTitre": "Chapitre pr\u00e9liminaire : De la Haute autorit\u00e9 de l'audit.",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre pr\u00e9liminaire : Dispositions g\u00e9n\u00e9rales.",
-            "refInjection": "MD-20231208_204026_766_BDJQUOT",
+            "refInjection": "MD-20240109_202639_673_BDJQUOT",
             "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006242405",
             "idEli": null,
             "idEliAlias": null,
@@ -1252,6 +1369,45 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. D821-25 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D821-25",
+                    "articleId": "LEGIARTI000048873077",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-1",
+                    "articleId": "LEGIARTI000048871266",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-52 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-52",
+                    "articleId": "LEGIARTI000048871888",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
                     "textTitle": "Code de commerce. - art. L223-37 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -1331,7 +1487,7 @@
                 },
                 {
                     "id": "LEGIARTI000024041578",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "5.0",
                     "dateDebut": 1305763200000,
                     "dateFin": 1704067200000,
@@ -1340,7 +1496,7 @@
                 },
                 {
                     "id": "LEGIARTI000048535319",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "6.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -1406,7 +1562,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -1415,7 +1571,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000048535295",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -1438,7 +1594,7 @@
             "sectionParentId": "LEGISCTA000048535295",
             "sectionParentTitre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes.",
-            "refInjection": "MD-20231208_204026_766_BDJQUOT",
+            "refInjection": "MD-20240109_202639_673_BDJQUOT",
             "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006242404",
             "idEli": null,
             "idEliAlias": null,
@@ -1572,6 +1728,45 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. D821-25 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D821-25",
+                    "articleId": "LEGIARTI000048873077",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-1",
+                    "articleId": "LEGIARTI000048871266",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-52 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-52",
+                    "articleId": "LEGIARTI000048871888",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
                     "textTitle": "Code de commerce. - art. L223-37 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -1661,7 +1856,7 @@
                 },
                 {
                     "id": "LEGIARTI000024041578",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "5.0",
                     "dateDebut": 1305763200000,
                     "dateFin": 1704067200000,
@@ -1670,7 +1865,7 @@
                 },
                 {
                     "id": "LEGIARTI000048535319",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "6.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -1736,7 +1931,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -1745,7 +1940,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000048535295",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -1768,7 +1963,7 @@
             "sectionParentId": "LEGISCTA000048535295",
             "sectionParentTitre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes.",
-            "refInjection": "MD-20231208_204026_766_BDJQUOT",
+            "refInjection": "MD-20240109_202639_673_BDJQUOT",
             "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006242403",
             "idEli": null,
             "idEliAlias": null,
@@ -1902,6 +2097,45 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. D821-25 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "D821-25",
+                    "articleId": "LEGIARTI000048873077",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-1",
+                    "articleId": "LEGIARTI000048871266",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
+                    "textTitle": "Code de commerce - art. R820-52 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R820-52",
+                    "articleId": "LEGIARTI000048871888",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1735689600000
+                },
+                {
+                    "textCid": "LEGITEXT000005634379",
                     "textTitle": "Code de commerce. - art. L223-37 (V)",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
@@ -1991,7 +2225,7 @@
                 },
                 {
                     "id": "LEGIARTI000024041578",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "5.0",
                     "dateDebut": 1305763200000,
                     "dateFin": 1704067200000,
@@ -2000,7 +2234,7 @@
                 },
                 {
                     "id": "LEGIARTI000048535319",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "6.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,

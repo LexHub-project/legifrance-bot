@@ -11,7 +11,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR_DIFF",
+            "etat": "VIGUEUR",
             "dateDebut": 1704067200000,
             "dateFin": 32472144000000,
             "dateDebutExtension": 32472144000000,
@@ -108,7 +108,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000046118643",
                         "id": "LEGISCTA000046118799",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -131,8 +131,8 @@
             "sectionParentId": "LEGISCTA000046118799",
             "sectionParentTitre": "Sous-section 1 : Attestations d\u00e9livr\u00e9es au moment du d\u00e9p\u00f4t de demande de permis de construire ",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre II : Encadrement de la conception, de la r\u00e9alisation, de l'exploitation et des mutations des b\u00e2timents &gt; Chapitre II : Proc\u00e9dures administratives &gt; Section 3 : Attestations  &gt; Sous-section 1 : Attestations d\u00e9livr\u00e9es au moment du d\u00e9p\u00f4t de demande de permis de construire ",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000046123677",
+            "refInjection": "MD-20240110_203341_549_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046123677",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -186,13 +186,53 @@
                     "dateDebutCible": "2022-07-31"
                 }
             ],
-            "lienCitations": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000048560371",
+                    "textTitle": "D\u00e9cret n\u00b02023-1173 du 12 d\u00e9cembre 2023 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000048561569",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2023-1173",
+                    "datePubli": 1702512000000,
+                    "dateDebut": 1702598400000
+                },
+                {
+                    "textCid": "JORFTEXT000048707471",
+                    "textTitle": "Arr\u00eat\u00e9 du 22 d\u00e9cembre 2023 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000048904420",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1703894400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R122-36 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-36",
+                    "articleId": "LEGIARTI000048561829",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                }
+            ],
             "lienConcordes": [],
             "lienAutres": [],
             "articleVersions": [
                 {
                     "id": "LEGIARTI000041564733",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 1625097600000,
                     "dateFin": 1704067200000,
@@ -201,7 +241,7 @@
                 },
                 {
                     "id": "LEGIARTI000046123677",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "2.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -233,7 +273,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "ABROGE_DIFF",
+            "etat": "MODIFIE",
             "dateDebut": 1625097600000,
             "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
@@ -344,8 +384,8 @@
             "sectionParentId": "LEGISCTA000041564729",
             "sectionParentTitre": "Section 3 : Attestations ",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre II : Encadrement de la conception, de la r\u00e9alisation, de l'exploitation et des mutations des b\u00e2timents &gt; Chapitre II : Proc\u00e9dures administratives &gt; Section 3 : Attestations ",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000041564733",
+            "refInjection": "MD-20240110_203341_549_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000041564733",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -399,13 +439,53 @@
                     "dateDebutCible": "2021-07-01"
                 }
             ],
-            "lienCitations": [],
+            "lienCitations": [
+                {
+                    "textCid": "JORFTEXT000048560371",
+                    "textTitle": "D\u00e9cret n\u00b02023-1173 du 12 d\u00e9cembre 2023 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGITEXT000048561569",
+                    "natureText": "DECRET",
+                    "parentCid": null,
+                    "numTexte": "2023-1173",
+                    "datePubli": 1702512000000,
+                    "dateDebut": 1702598400000
+                },
+                {
+                    "textCid": "JORFTEXT000048707471",
+                    "textTitle": "Arr\u00eat\u00e9 du 22 d\u00e9cembre 2023 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000048904420",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1703894400000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R122-36 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-36",
+                    "articleId": "LEGIARTI000048561829",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                }
+            ],
             "lienConcordes": [],
             "lienAutres": [],
             "articleVersions": [
                 {
                     "id": "LEGIARTI000041564733",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 1625097600000,
                     "dateFin": 1704067200000,
@@ -414,7 +494,7 @@
                 },
                 {
                     "id": "LEGIARTI000046123677",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "2.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,

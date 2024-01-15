@@ -6,14 +6,14 @@
             "idTexte": null,
             "type": "AUTONOME",
             "texte": "Les cotisations mentionn\u00e9es \u00e0 l'article L. 115-14 sont fond\u00e9es, en ce qui concerne les exploitants d'\u00e9tablissements de spectacles cin\u00e9matographiques, sur les d\u00e9clarations hebdomadaires de recettes mentionn\u00e9es au 3\u00b0 de l'article L. 212-32 et, pour les autres cat\u00e9gories d'entreprises, sur des d\u00e9clarations trimestrielles d'encaissements.",
-            "texteHtml": "<p>Les cotisations mentionn\u00e9es \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000020908868&idArticle=LEGIARTI000020907779&dateTexte=&categorieLien=cid'>l'article L. 115-14 </a>sont fond\u00e9es, en ce qui concerne les exploitants d'\u00e9tablissements de spectacles cin\u00e9matographiques, sur les d\u00e9clarations hebdomadaires de recettes mentionn\u00e9es au 3\u00b0 de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000020908868&idArticle=LEGIARTI000021239235&dateTexte=&categorieLien=cid' title='Code du cin\u00e9ma et de l'image anim\u00e9e - art. L212-32 (V)'>L. 212-32</a> et, pour les autres cat\u00e9gories d'entreprises, sur des d\u00e9clarations trimestrielles d'encaissements.</p>",
+            "texteHtml": "<p>Les cotisations mentionn\u00e9es \u00e0 <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000020908868&idArticle=LEGIARTI000020907779&dateTexte=&categorieLien=cid'>l'article L. 115-14 </a>sont fond\u00e9es, en ce qui concerne les exploitants d'\u00e9tablissements de spectacles cin\u00e9matographiques, sur les d\u00e9clarations hebdomadaires de recettes mentionn\u00e9es au 3\u00b0 de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000020908868&idArticle=LEGIARTI000021239235&dateTexte=&categorieLien=cid'>L. 212-32</a> et, pour les autres cat\u00e9gories d'entreprises, sur des d\u00e9clarations trimestrielles d'encaissements.</p>",
             "num": "L115-15",
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1494028800000,
-            "dateFin": 32472144000000,
+            "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -49,21 +49,30 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 3 : Cotisations professionnelles\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907777",
                         "id": "LEGISCTA000020908801",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -85,9 +94,9 @@
             "sectionParentCid": "LEGISCTA000020907777",
             "sectionParentId": "LEGISCTA000020908801",
             "sectionParentTitre": "Section 3 : Cotisations professionnelles\r\n",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 3 : Cotisations professionnelles\r\n",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000034592341",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Comp\u00e9tences fiscales",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000034592341",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -139,6 +148,18 @@
                     "datePubliTexte": "2017-05-05",
                     "dateSignaTexte": "2017-05-04",
                     "dateDebutCible": "2017-05-06"
+                },
+                {
+                    "textCid": "JORFTEXT000048603839",
+                    "textTitle": "Ordonnance n\u00b02023-1210 du 20 d\u00e9cembre 2023 - art. 9",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "9",
+                    "articleId": "LEGIARTI000048624910",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2023-12-21",
+                    "dateSignaTexte": "2023-12-20",
+                    "dateDebutCible": "2023-12-22"
                 }
             ],
             "lienCitations": [
@@ -157,7 +178,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000020908868",
-                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. L115-16 (V)",
+                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. L115-16 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "L115-16",
@@ -170,7 +191,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000020908868",
-                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. L212-32 (V)",
+                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. L212-32",
                     "linkType": "CITATION",
                     "linkOrientation": "source",
                     "articleNum": "L212-32",
@@ -179,7 +200,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1468022400000
+                    "dateDebut": 1257552000000
                 }
             ],
             "lienConcordes": [],
@@ -196,10 +217,10 @@
                 },
                 {
                     "id": "LEGIARTI000034592341",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1494028800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }
@@ -266,21 +287,30 @@
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907745",
                         "id": "LEGISCTA000020908833",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre V : Comp\u00e9tences fiscales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000020907745",
+                        "id": "LEGISCTA000048637814",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2010-01-01",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 3 : Cotisations professionnelles\r\n",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000020907777",
                         "id": "LEGISCTA000020908801",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -303,8 +333,8 @@
             "sectionParentId": "LEGISCTA000020908801",
             "sectionParentTitre": "Section 3 : Cotisations professionnelles\r\n",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Organisation administrative\r\n &gt; Titre Ier : Centre national du cin\u00e9ma et de l'image anim\u00e9e &gt; Chapitre V : Impositions affect\u00e9es au Centre national du cin\u00e9ma et de l'image anim\u00e9e et per\u00e7ues par lui\r\n &gt; Section 3 : Cotisations professionnelles\r\n",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000020908797",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000020908797",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -374,16 +404,16 @@
                 },
                 {
                     "textCid": "LEGITEXT000020908868",
-                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. L115-16 (V)",
+                    "textTitle": "Code du cin\u00e9ma et de l'image anim\u00e9e - art. L115-16 (M)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "L115-16",
-                    "articleId": "LEGIARTI000033816225",
+                    "articleId": "LEGIARTI000021660909",
                     "natureText": "CODE",
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1483228800000
+                    "dateDebut": 1262304000000
                 },
                 {
                     "textCid": "LEGITEXT000020908868",
@@ -413,10 +443,10 @@
                 },
                 {
                     "id": "LEGIARTI000034592341",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1494028800000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }

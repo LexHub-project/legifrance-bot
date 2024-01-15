@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1625097600000,
-            "dateFin": 32472144000000,
+            "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -86,8 +86,8 @@
             "sectionParentId": "LEGISCTA000043818465",
             "sectionParentTitre": "Section 3 : Attestations",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre II : ENCADREMENT DE LA CONCEPTION, DE LA R\u00c9ALISATION ET DE L'EXPLOITATION DES B\u00c2TIMENTS &gt; Chapitre II : Proc\u00e9dures administratives &gt; Section 3 : Attestations",
-            "refInjection": "IG-20230918",
-            "idTechInjection": "LEGIARTI000043818491",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000043818491",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -134,11 +134,11 @@
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
-                    "articleId": "LEGIARTI000043816034",
-                    "natureText": "DECRET",
-                    "datePubliTexte": "2021-07-01",
-                    "dateSignaTexte": "2021-06-30",
-                    "dateDebutCible": "2021-07-01"
+                    "articleId": "",
+                    "natureText": "",
+                    "datePubliTexte": null,
+                    "dateSignaTexte": null,
+                    "dateDebutCible": null
                 },
                 {
                     "textCid": "JORFTEXT000043808633",
@@ -151,6 +151,18 @@
                     "datePubliTexte": "2021-07-01",
                     "dateSignaTexte": "2021-06-30",
                     "dateDebutCible": "2021-07-01"
+                },
+                {
+                    "textCid": "JORFTEXT000048560412",
+                    "textTitle": "D\u00e9cret n\u00b02023-1175 du 12 d\u00e9cembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048561895",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-12-14",
+                    "dateSignaTexte": "2023-12-12",
+                    "dateDebutCible": "2023-12-15"
                 }
             ],
             "lienCitations": [],
@@ -169,10 +181,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000043818491",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1625097600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }

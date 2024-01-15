@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1466121600000,
-            "dateFin": 32472144000000,
+            "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -40,30 +40,48 @@
                     },
                     {
                         "debut": "2001-05-16",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133216",
                         "id": "LEGISCTA000006133216",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133216",
+                        "id": "LEGISCTA000048535295",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2003-08-02",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Chapitre Ier : De l'organisation et du contr\u00f4le de la profession.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146152",
                         "id": "LEGISCTA000006146152",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2024-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre Ier : Des commissaires aux comptes.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146152",
+                        "id": "LEGISCTA000048535401",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2016-06-17",
-                        "fin": "2999-01-01",
+                        "fin": "2024-01-01",
                         "titre": "Section 2 : Du contr\u00f4le de la profession",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000032253451",
                         "id": "LEGISCTA000032253457",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -85,9 +103,9 @@
             "sectionParentCid": "LEGISCTA000032253451",
             "sectionParentId": "LEGISCTA000032253457",
             "sectionParentTitre": "Section 2 : Du contr\u00f4le de la profession",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre Ier : De l'organisation et du contr\u00f4le de la profession. &gt; Section 2 : Du contr\u00f4le de la profession",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000032254461",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9. &gt; Chapitre Ier : Des commissaires aux comptes.",
+            "refInjection": "MD-20231231_203543_780_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000032254461",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -139,6 +157,18 @@
                     "datePubliTexte": "2016-03-18",
                     "dateSignaTexte": "2016-03-17",
                     "dateDebutCible": "2016-06-17"
+                },
+                {
+                    "textCid": "JORFTEXT000048519395",
+                    "textTitle": "Ordonnance n\u00b02023-1142 du 6 d\u00e9cembre 2023 - art. 15",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "15",
+                    "articleId": "LEGIARTI000048520388",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2023-12-07",
+                    "dateSignaTexte": "2023-12-06",
+                    "dateDebutCible": "2023-12-08"
                 }
             ],
             "lienCitations": [
@@ -157,7 +187,7 @@
                 },
                 {
                     "textCid": "LEGITEXT000005634379",
-                    "textTitle": "Code de commerce - art. L821-3-3 (V)",
+                    "textTitle": "Code de commerce - art. L821-3-3 (VT)",
                     "linkType": "CITATION",
                     "linkOrientation": "cible",
                     "articleNum": "L821-3-3",
@@ -174,10 +204,10 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000032254461",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "1.0",
                     "dateDebut": 1466121600000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1704067200000,
                     "numero": null,
                     "ordre": null
                 }

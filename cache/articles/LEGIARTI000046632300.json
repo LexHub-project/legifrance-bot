@@ -11,7 +11,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR_DIFF",
+            "etat": "VIGUEUR",
             "dateDebut": 1704067200000,
             "dateFin": 32472144000000,
             "dateDebutExtension": 32472144000000,
@@ -104,8 +104,8 @@
             "sectionParentId": "LEGISCTA000046632298",
             "sectionParentTitre": "Paragraphe 1 : Centralisation des d\u00e9clarations relatives aux comptes ch\u00e8ques et FICOM",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VII : Dispositions relatives \u00e0 l'Outre-mer &gt; Titre II : Organisation sp\u00e9cifique en Outre-mer de la politique mon\u00e9taire, des op\u00e9rations de paiement et des obligations de d\u00e9clarations &gt; Chapitre Ier : Politique mon\u00e9taire en outre-mer &gt; Section 3 : Institut d'\u00e9mission d'outre-mer (IEOM) &gt; Sous-section 3 : Identification des comptes et traitement du surendettement &gt; Paragraphe 1 : Centralisation des d\u00e9clarations relatives aux comptes ch\u00e8ques et FICOM",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000046645585",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046645585",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -196,7 +196,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1704067200000
+                    "dateDebut": 1669334400000
                 },
                 {
                     "textCid": "LEGITEXT000006072026",
@@ -212,12 +212,22 @@
                     "dateDebut": 1669334400000
                 }
             ],
-            "lienConcordes": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R712-10 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R712-10",
+                    "articleId": "LEGIARTI000041592725",
+                    "natureText": "CODE"
+                }
+            ],
             "lienAutres": [],
             "articleVersions": [
                 {
                     "id": "LEGIARTI000046632300",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 1669334400000,
                     "dateFin": 1704067200000,
@@ -226,7 +236,7 @@
                 },
                 {
                     "id": "LEGIARTI000046645585",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "2.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -258,7 +268,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "ABROGE_DIFF",
+            "etat": "MODIFIE",
             "dateDebut": 1669334400000,
             "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
@@ -351,8 +361,8 @@
             "sectionParentId": "LEGISCTA000046632298",
             "sectionParentTitre": "Paragraphe 1 : Centralisation des d\u00e9clarations relatives aux comptes ch\u00e8ques et FICOM",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VII : Dispositions relatives \u00e0 l'Outre-mer &gt; Titre II : Organisation sp\u00e9cifique en Outre-mer de la politique mon\u00e9taire, des op\u00e9rations de paiement et des obligations de d\u00e9clarations &gt; Chapitre Ier : Politique mon\u00e9taire en outre-mer &gt; Section 3 : Institut d'\u00e9mission d'outre-mer (IEOM) &gt; Sous-section 3 : Identification des comptes et traitement du surendettement &gt; Paragraphe 1 : Centralisation des d\u00e9clarations relatives aux comptes ch\u00e8ques et FICOM",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000046632300",
+            "refInjection": "MD-20231231_203538_600_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046632300",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -434,7 +444,7 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000046632300",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 1669334400000,
                     "dateFin": 1704067200000,
@@ -443,7 +453,7 @@
                 },
                 {
                     "id": "LEGIARTI000046645585",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "2.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,

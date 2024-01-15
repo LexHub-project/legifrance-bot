@@ -11,7 +11,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "3.0",
-            "etat": "VIGUEUR_DIFF",
+            "etat": "VIGUEUR",
             "dateDebut": 1704067200000,
             "dateFin": 32472144000000,
             "dateDebutExtension": 32472144000000,
@@ -63,7 +63,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570110",
                         "id": "LEGISCTA000041570110",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -72,7 +72,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570110",
                         "id": "LEGISCTA000046123684",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2021-07-01",
@@ -81,7 +81,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570112",
                         "id": "LEGISCTA000041570112",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -90,7 +90,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570112",
                         "id": "LEGISCTA000046123692",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -113,8 +113,8 @@
             "sectionParentId": "LEGISCTA000046123692",
             "sectionParentTitre": "Section 1 : Contr\u00f4les administratifs",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre VIII : Contr\u00f4le et sanctions  &gt; Chapitre Ier : Contr\u00f4les administratifs et sanctions administratives &gt; Section 1 : Contr\u00f4les administratifs",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000046123690",
+            "refInjection": "MD-20240110_203341_549_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046123690",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -170,6 +170,58 @@
             ],
             "lienCitations": [
                 {
+                    "textCid": "JORFTEXT000048707658",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 d\u00e9cembre 2023 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000048904587",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "JORFTEXT000048707658",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 d\u00e9cembre 2023 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000048904589",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "JORFTEXT000048707658",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 d\u00e9cembre 2023 - art. 2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000048904577",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R122-24-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-24-1",
+                    "articleId": "LEGIARTI000048562975",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                },
+                {
                     "textCid": "LEGITEXT000006074096",
                     "textTitle": "Code de la construction et de l'habitation. - art. R172-3 (VT)",
                     "linkType": "CITATION",
@@ -210,7 +262,7 @@
                 },
                 {
                     "id": "LEGIARTI000043978166",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "2.0",
                     "dateDebut": 1629849600000,
                     "dateFin": 1704067200000,
@@ -219,7 +271,7 @@
                 },
                 {
                     "id": "LEGIARTI000046123690",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "3.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -251,7 +303,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "ABROGE_DIFF",
+            "etat": "MODIFIE",
             "dateDebut": 1629849600000,
             "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
@@ -303,7 +355,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570110",
                         "id": "LEGISCTA000041570110",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -312,7 +364,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570110",
                         "id": "LEGISCTA000046123684",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2021-07-01",
@@ -321,7 +373,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570112",
                         "id": "LEGISCTA000041570112",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -330,7 +382,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570112",
                         "id": "LEGISCTA000046123692",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -352,9 +404,9 @@
             "sectionParentCid": "LEGISCTA000041570112",
             "sectionParentId": "LEGISCTA000046123692",
             "sectionParentTitre": "Section 1 : Contr\u00f4les administratifs",
-            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre VIII : Contr\u00f4le et sanctions  &gt; Chapitre Ier : Droit de visite des b\u00e2timents et de communication des documents  &gt; Section 1 : Dispositions g\u00e9n\u00e9rales ",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000043978166",
+            "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre VIII : Contr\u00f4le et sanctions  &gt; Chapitre Ier : Contr\u00f4les administratifs et sanctions administratives &gt; Section 1 : Contr\u00f4les administratifs",
+            "refInjection": "MD-20240110_203341_549_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000043978166",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -410,6 +462,58 @@
             ],
             "lienCitations": [
                 {
+                    "textCid": "JORFTEXT000048707658",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 d\u00e9cembre 2023 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000048904587",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "JORFTEXT000048707658",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 d\u00e9cembre 2023 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000048904589",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "JORFTEXT000048707658",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 d\u00e9cembre 2023 - art. 2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000048904577",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R122-24-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-24-1",
+                    "articleId": "LEGIARTI000048562975",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                },
+                {
                     "textCid": "LEGITEXT000006074096",
                     "textTitle": "Code de la construction et de l'habitation. - art. R172-3 (VT)",
                     "linkType": "CITATION",
@@ -450,7 +554,7 @@
                 },
                 {
                     "id": "LEGIARTI000043978166",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "2.0",
                     "dateDebut": 1629849600000,
                     "dateFin": 1704067200000,
@@ -459,7 +563,7 @@
                 },
                 {
                     "id": "LEGIARTI000046123690",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "3.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -543,7 +647,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570110",
                         "id": "LEGISCTA000041570110",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -552,7 +656,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570110",
                         "id": "LEGISCTA000046123684",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2021-07-01",
@@ -561,7 +665,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570112",
                         "id": "LEGISCTA000041570112",
-                        "etat": "ABROGE_DIFF"
+                        "etat": "MODIFIE"
                     },
                     {
                         "debut": "2024-01-01",
@@ -570,7 +674,7 @@
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000041570112",
                         "id": "LEGISCTA000046123692",
-                        "etat": "VIGUEUR_DIFF"
+                        "etat": "VIGUEUR"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -593,8 +697,8 @@
             "sectionParentId": "LEGISCTA000046123692",
             "sectionParentTitre": "Section 1 : Contr\u00f4les administratifs",
             "fullSectionsTitre": "Partie l\u00e9gislative &gt; Livre Ier : Construction, entretien et r\u00e9novation des b\u00e2timents &gt; Titre VIII : Contr\u00f4le et sanctions  &gt; Chapitre Ier : Droit de visite des b\u00e2timents et de communication des documents  &gt; Section 1 : Dispositions g\u00e9n\u00e9rales ",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000041570114",
+            "refInjection": "MD-20240110_203341_549_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000041570114",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -650,6 +754,58 @@
             ],
             "lienCitations": [
                 {
+                    "textCid": "JORFTEXT000048707658",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 d\u00e9cembre 2023 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000048904587",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "JORFTEXT000048707658",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 d\u00e9cembre 2023 - art. (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "",
+                    "articleId": "LEGIARTI000048904589",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "JORFTEXT000048707658",
+                    "textTitle": "Arr\u00eat\u00e9 du 26 d\u00e9cembre 2023 - art. 2 (V)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "2",
+                    "articleId": "LEGIARTI000048904577",
+                    "natureText": "ARRETE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 1703808000000,
+                    "dateDebut": 1704067200000
+                },
+                {
+                    "textCid": "LEGITEXT000006074096",
+                    "textTitle": "Code de la construction et de l'habitation. - art. R122-24-1 (VD)",
+                    "linkType": "CITATION",
+                    "linkOrientation": "cible",
+                    "articleNum": "R122-24-1",
+                    "articleId": "LEGIARTI000048562975",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 1704067200000
+                },
+                {
                     "textCid": "LEGITEXT000006074096",
                     "textTitle": "Code de la construction et de l'habitation. - art. R172-3 (VT)",
                     "linkType": "CITATION",
@@ -690,7 +846,7 @@
                 },
                 {
                     "id": "LEGIARTI000043978166",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "2.0",
                     "dateDebut": 1629849600000,
                     "dateFin": 1704067200000,
@@ -699,7 +855,7 @@
                 },
                 {
                     "id": "LEGIARTI000046123690",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "3.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,

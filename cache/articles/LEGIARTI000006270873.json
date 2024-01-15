@@ -11,13 +11,13 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE_DIFF",
             "dateDebut": 1469750400000,
-            "dateFin": 32472144000000,
+            "dateFin": 1735689600000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
-            "ordre": 590558002,
+            "ordre": 2120640101,
             "context": {
                 "titresTM": [
                     {
@@ -40,21 +40,39 @@
                     },
                     {
                         "debut": "2007-03-27",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133281",
                         "id": "LEGISCTA000006133281",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2025-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133281",
+                        "id": "LEGISCTA000048877419",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "Chapitre II : Du statut des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146308",
                         "id": "LEGISCTA000006146308",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2025-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146308",
+                        "id": "LEGISCTA000048891194",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
@@ -67,12 +85,21 @@
                     },
                     {
                         "debut": "2016-07-29",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "Section 1 : De l'inscription",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006161620",
                         "id": "LEGISCTA000032956339",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2025-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006161620",
+                        "id": "LEGISCTA000048891191",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
@@ -85,12 +112,12 @@
                     },
                     {
                         "debut": "2016-07-29",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "Sous-section 1 : Des conditions d'inscription sur la liste des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006179033",
                         "id": "LEGISCTA000032956337",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     }
                 ],
                 "nombreVersionParent": 2,
@@ -113,8 +140,8 @@
             "sectionParentId": "LEGISCTA000032956337",
             "sectionParentTitre": "Sous-section 1 : Des conditions d'inscription sur la liste des commissaires aux comptes",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre II : Du statut des commissaires aux comptes &gt; Section 1 : De l'inscription &gt; Sous-section 1 : Des conditions d'inscription sur la liste des commissaires aux comptes",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000032956319",
+            "refInjection": "MD-20240112_202145_010_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000032956319",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -178,6 +205,18 @@
                     "datePubliTexte": "2016-07-28",
                     "dateSignaTexte": "2016-07-26",
                     "dateDebutCible": "2016-07-29"
+                },
+                {
+                    "textCid": "JORFTEXT000048735301",
+                    "textTitle": "D\u00e9cret n\u00b02023-1394 du 30 d\u00e9cembre 2023 - art. 11",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "11",
+                    "articleId": "LEGIARTI000048870047",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-12-31",
+                    "dateSignaTexte": "2023-12-30",
+                    "dateDebutCible": "2024-01-01"
                 }
             ],
             "lienCitations": [
@@ -400,7 +439,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1469750400000
+                    "dateDebut": 1174953600000
                 }
             ],
             "lienConcordes": [],
@@ -416,20 +455,20 @@
                     "ordre": null
                 },
                 {
+                    "id": "LEGIARTI000032956319",
+                    "etat": "ABROGE_DIFF",
+                    "version": "2.0",
+                    "dateDebut": 1469750400000,
+                    "dateFin": 1735689600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
                     "id": "LEGIARTI000027146020",
                     "etat": "MODIFIE",
                     "version": "2.0",
                     "dateDebut": 1372636800000,
                     "dateFin": 1469750400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000032956319",
-                    "etat": "VIGUEUR",
-                    "version": "2.0",
-                    "dateDebut": 1469750400000,
-                    "dateFin": 32472144000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -487,21 +526,39 @@
                     },
                     {
                         "debut": "2007-03-27",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133281",
                         "id": "LEGISCTA000006133281",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2025-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133281",
+                        "id": "LEGISCTA000048877419",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "Chapitre II : Du statut des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146308",
                         "id": "LEGISCTA000006146308",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2025-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146308",
+                        "id": "LEGISCTA000048891194",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
@@ -514,12 +571,21 @@
                     },
                     {
                         "debut": "2016-07-29",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "Section 1 : De l'inscription",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006161620",
                         "id": "LEGISCTA000032956339",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2025-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006161620",
+                        "id": "LEGISCTA000048891191",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
@@ -532,12 +598,12 @@
                     },
                     {
                         "debut": "2016-07-29",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "Sous-section 1 : Des conditions d'inscription sur la liste des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006179033",
                         "id": "LEGISCTA000032956337",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
@@ -569,8 +635,8 @@
             "sectionParentId": "LEGISCTA000006191126",
             "sectionParentTitre": "Paragraphe 1 : Des conditions d'inscription sur la liste.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre II : Du statut des commissaires aux comptes &gt; Section 1 : De l'inscription &gt; Sous-section 1 : Des conditions d'inscription sur la liste des commissaires aux comptes",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000027146020",
+            "refInjection": "MD-20240112_202145_010_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000027146020",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -868,7 +934,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1469750400000
+                    "dateDebut": 1174953600000
                 }
             ],
             "lienConcordes": [],
@@ -884,20 +950,20 @@
                     "ordre": null
                 },
                 {
+                    "id": "LEGIARTI000032956319",
+                    "etat": "ABROGE_DIFF",
+                    "version": "2.0",
+                    "dateDebut": 1469750400000,
+                    "dateFin": 1735689600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
                     "id": "LEGIARTI000027146020",
                     "etat": "MODIFIE",
                     "version": "2.0",
                     "dateDebut": 1372636800000,
                     "dateFin": 1469750400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000032956319",
-                    "etat": "VIGUEUR",
-                    "version": "2.0",
-                    "dateDebut": 1469750400000,
-                    "dateFin": 32472144000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -955,21 +1021,39 @@
                     },
                     {
                         "debut": "2007-03-27",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "TITRE II : Des commissaires aux comptes.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006133281",
                         "id": "LEGISCTA000006133281",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2025-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "TITRE II : Des commissaires aux comptes, des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133281",
+                        "id": "LEGISCTA000048877419",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "Chapitre II : Du statut des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006146308",
                         "id": "LEGISCTA000006146308",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2025-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre II : Des organismes tiers ind\u00e9pendants et des auditeurs des informations en mati\u00e8re de durabilit\u00e9",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006146308",
+                        "id": "LEGISCTA000048891194",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
@@ -982,12 +1066,21 @@
                     },
                     {
                         "debut": "2016-07-29",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "Section 1 : De l'inscription",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006161620",
                         "id": "LEGISCTA000032956339",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
+                    },
+                    {
+                        "debut": "2025-01-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section 1 : Dispositions g\u00e9n\u00e9rales",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006161620",
+                        "id": "LEGISCTA000048891191",
+                        "etat": "VIGUEUR_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
@@ -1000,12 +1093,12 @@
                     },
                     {
                         "debut": "2016-07-29",
-                        "fin": "2999-01-01",
+                        "fin": "2025-01-01",
                         "titre": "Sous-section 1 : Des conditions d'inscription sur la liste des commissaires aux comptes",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006179033",
                         "id": "LEGISCTA000032956337",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     },
                     {
                         "debut": "2007-03-27",
@@ -1037,8 +1130,8 @@
             "sectionParentId": "LEGISCTA000006191126",
             "sectionParentTitre": "Paragraphe 1 : Des conditions d'inscription sur la liste.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; LIVRE VIII : De quelques professions r\u00e9glement\u00e9es. &gt; TITRE II : Des commissaires aux comptes. &gt; Chapitre II : Du statut des commissaires aux comptes &gt; Section 1 : De l'inscription et de la discipline &gt; Sous-section 1 : De l'inscription. &gt; Paragraphe 1 : Des conditions d'inscription sur la liste.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006270873",
+            "refInjection": "MD-20240112_202145_010_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006270873",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -1312,7 +1405,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1469750400000
+                    "dateDebut": 1174953600000
                 }
             ],
             "lienConcordes": [],
@@ -1328,20 +1421,20 @@
                     "ordre": null
                 },
                 {
+                    "id": "LEGIARTI000032956319",
+                    "etat": "ABROGE_DIFF",
+                    "version": "2.0",
+                    "dateDebut": 1469750400000,
+                    "dateFin": 1735689600000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
                     "id": "LEGIARTI000027146020",
                     "etat": "MODIFIE",
                     "version": "2.0",
                     "dateDebut": 1372636800000,
                     "dateFin": 1469750400000,
-                    "numero": null,
-                    "ordre": null
-                },
-                {
-                    "id": "LEGIARTI000032956319",
-                    "etat": "VIGUEUR",
-                    "version": "2.0",
-                    "dateDebut": 1469750400000,
-                    "dateFin": 32472144000000,
                     "numero": null,
                     "ordre": null
                 }

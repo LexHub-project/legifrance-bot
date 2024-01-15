@@ -11,7 +11,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR_DIFF",
+            "etat": "VIGUEUR",
             "dateDebut": 1704067200000,
             "dateFin": 32472144000000,
             "dateDebutExtension": 32472144000000,
@@ -104,8 +104,8 @@
             "sectionParentId": "LEGISCTA000046632298",
             "sectionParentTitre": "Paragraphe 1 : Centralisation des d\u00e9clarations relatives aux comptes ch\u00e8ques et FICOM",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VII : Dispositions relatives \u00e0 l'Outre-mer &gt; Titre II : Organisation sp\u00e9cifique en Outre-mer de la politique mon\u00e9taire, des op\u00e9rations de paiement et des obligations de d\u00e9clarations &gt; Chapitre Ier : Politique mon\u00e9taire en outre-mer &gt; Section 3 : Institut d'\u00e9mission d'outre-mer (IEOM) &gt; Sous-section 3 : Identification des comptes et traitement du surendettement &gt; Paragraphe 1 : Centralisation des d\u00e9clarations relatives aux comptes ch\u00e8ques et FICOM",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000046645577",
+            "refInjection": "MD-20231231_203543_780_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046645577",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -251,12 +251,94 @@
                     "dateDebut": 1669334400000
                 }
             ],
-            "lienConcordes": [],
+            "lienConcordes": [
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R741-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R741-1",
+                    "articleId": "LEGIARTI000041592720",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R741-1-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R741-1-1",
+                    "articleId": "LEGIARTI000023798754",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R741-2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R741-2",
+                    "articleId": "LEGIARTI000006690331",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R751-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R751-1",
+                    "articleId": "LEGIARTI000041592715",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R751-1-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R751-1-1",
+                    "articleId": "LEGIARTI000023798808",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R751-2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R751-2",
+                    "articleId": "LEGIARTI000006691154",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R761-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R761-1",
+                    "articleId": "LEGIARTI000041592710",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R761-1-1 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R761-1-1",
+                    "articleId": "LEGIARTI000023798826",
+                    "natureText": "CODE"
+                },
+                {
+                    "textCid": "LEGITEXT000006072026",
+                    "textTitle": "Code mon\u00e9taire et financier - art. R761-2 (Ab)",
+                    "linkType": "CONCORDANCE",
+                    "linkOrientation": "source",
+                    "articleNum": "R761-2",
+                    "articleId": "LEGIARTI000006691613",
+                    "natureText": "CODE"
+                }
+            ],
             "lienAutres": [],
             "articleVersions": [
                 {
                     "id": "LEGIARTI000046632302",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 1669334400000,
                     "dateFin": 1704067200000,
@@ -265,7 +347,7 @@
                 },
                 {
                     "id": "LEGIARTI000046645577",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "2.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,
@@ -297,7 +379,7 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "1.0",
-            "etat": "ABROGE_DIFF",
+            "etat": "MODIFIE",
             "dateDebut": 1669334400000,
             "dateFin": 1704067200000,
             "dateDebutExtension": 32472144000000,
@@ -390,8 +472,8 @@
             "sectionParentId": "LEGISCTA000046632298",
             "sectionParentTitre": "Paragraphe 1 : Centralisation des d\u00e9clarations relatives aux comptes ch\u00e8ques et FICOM",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Livre VII : Dispositions relatives \u00e0 l'Outre-mer &gt; Titre II : Organisation sp\u00e9cifique en Outre-mer de la politique mon\u00e9taire, des op\u00e9rations de paiement et des obligations de d\u00e9clarations &gt; Chapitre Ier : Politique mon\u00e9taire en outre-mer &gt; Section 3 : Institut d'\u00e9mission d'outre-mer (IEOM) &gt; Sous-section 3 : Identification des comptes et traitement du surendettement &gt; Paragraphe 1 : Centralisation des d\u00e9clarations relatives aux comptes ch\u00e8ques et FICOM",
-            "refInjection": "IG-20230919",
-            "idTechInjection": "LEGIARTI000046632302",
+            "refInjection": "MD-20231231_203543_780_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000046632302",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -559,7 +641,7 @@
             "articleVersions": [
                 {
                     "id": "LEGIARTI000046632302",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "1.0",
                     "dateDebut": 1669334400000,
                     "dateFin": 1704067200000,
@@ -568,7 +650,7 @@
                 },
                 {
                     "id": "LEGIARTI000046645577",
-                    "etat": "VIGUEUR_DIFF",
+                    "etat": "VIGUEUR",
                     "version": "2.0",
                     "dateDebut": 1704067200000,
                     "dateFin": 32472144000000,

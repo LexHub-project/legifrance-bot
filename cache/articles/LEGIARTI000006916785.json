@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "2.0",
-            "etat": "VIGUEUR",
+            "etat": "ABROGE",
             "dateDebut": 1148342400000,
-            "dateFin": 32472144000000,
+            "dateFin": 1703980800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -76,24 +76,42 @@
                     },
                     {
                         "debut": "2006-05-23",
-                        "fin": "2999-01-01",
+                        "fin": "2023-12-31",
                         "titre": "Sous-section 4 : Prise en charge des patients accueillis dans la structure des urgences",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006196959",
                         "id": "LEGISCTA000006196959",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Sous-section 4 : Prise en charge des patients accueillis dans la structure des urgences et dans l'antenne de m\u00e9decine d'urgence",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006196959",
+                        "id": "LEGISCTA000048839481",
                         "etat": "VIGUEUR"
                     },
                     {
                         "debut": "2006-05-23",
-                        "fin": "2999-01-01",
+                        "fin": "2023-12-31",
                         "titre": "Paragraphe 1 : Structure des urgences.",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006198988",
                         "id": "LEGISCTA000006198988",
+                        "etat": "MODIFIE"
+                    },
+                    {
+                        "debut": "2023-12-31",
+                        "fin": "2999-01-01",
+                        "titre": "Paragraphe 1 : Structure des urgences et antenne de m\u00e9decine d'urgence.",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006198988",
+                        "id": "LEGISCTA000048839479",
                         "etat": "VIGUEUR"
                     }
                 ],
-                "nombreVersionParent": 1,
+                "nombreVersionParent": 2,
                 "longeurChemin": 56,
                 "titreTxt": [
                     {
@@ -110,11 +128,11 @@
             "cid": "LEGIARTI000006916785",
             "cidTexte": null,
             "sectionParentCid": "LEGISCTA000006198988",
-            "sectionParentId": "LEGISCTA000006198988",
-            "sectionParentTitre": "Paragraphe 1 : Structure des urgences.",
-            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 1 : M\u00e9decine d'urgence &gt; Sous-section 4 : Prise en charge des patients accueillis dans la structure des urgences &gt; Paragraphe 1 : Structure des urgences.",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006916786",
+            "sectionParentId": "LEGISCTA000048839479",
+            "sectionParentTitre": "Paragraphe 1 : Structure des urgences et antenne de m\u00e9decine d'urgence.",
+            "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds &gt; Section 1 : M\u00e9decine d'urgence &gt; Sous-section 4 : Prise en charge des patients accueillis dans la structure des urgences et dans l'antenne de m\u00e9decine d'urgence &gt; Paragraphe 1 : Structure des urgences et antenne de m\u00e9decine d'urgence.",
+            "refInjection": "MD-20240104_212428_965_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006916786",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -157,7 +175,7 @@
             "lienModifications": [
                 {
                     "textCid": "JORFTEXT000000814956",
-                    "textTitle": "D\u00e9cret 2005-840 2005-07-20",
+                    "textTitle": "D\u00e9cret n\u00b02005-840 du 20 juillet 2005",
                     "linkType": "CODIFICATION",
                     "linkOrientation": "source",
                     "articleNum": "",
@@ -178,6 +196,18 @@
                     "datePubliTexte": "2006-05-23",
                     "dateSignaTexte": "2006-05-22",
                     "dateDebutCible": "2006-05-23"
+                },
+                {
+                    "textCid": "JORFTEXT000048730260",
+                    "textTitle": "D\u00e9cret n\u00b02023-1374 du 29 d\u00e9cembre 2023 - art. 1",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "1",
+                    "articleId": "LEGIARTI000048834563",
+                    "natureText": "DECRET",
+                    "datePubliTexte": "2023-12-30",
+                    "dateSignaTexte": "2023-12-29",
+                    "dateDebutCible": "2023-12-31"
                 }
             ],
             "lienCitations": [],
@@ -214,10 +244,10 @@
                 },
                 {
                     "id": "LEGIARTI000006916786",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1148342400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703980800000,
                     "numero": null,
                     "ordre": null
                 }
@@ -330,8 +360,8 @@
             "sectionParentId": "LEGISCTA000006190808",
             "sectionParentTitre": "Section 1 : Accueil et traitement des urgences.",
             "fullSectionsTitre": "Partie r\u00e9glementaire &gt; Sixi\u00e8me partie : Etablissements et services de sant\u00e9 &gt; Livre Ier : Etablissements de sant\u00e9 &gt; Titre II : Equipement sanitaire &gt; Chapitre III : Conditions d'implantation de certaines activit\u00e9s de soins et des \u00e9quipements mat\u00e9riels lourds",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006916785",
+            "refInjection": "MD-20240104_212428_965_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006916785",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -446,10 +476,10 @@
                 },
                 {
                     "id": "LEGIARTI000006916786",
-                    "etat": "VIGUEUR",
+                    "etat": "ABROGE",
                     "version": "2.0",
                     "dateDebut": 1148342400000,
-                    "dateFin": 32472144000000,
+                    "dateFin": 1703980800000,
                     "numero": null,
                     "ordre": null
                 }

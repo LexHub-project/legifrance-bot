@@ -11,9 +11,9 @@
             "origine": "LEGI",
             "nature": "Article",
             "versionArticle": "4.0",
-            "etat": "ABROGE_DIFF",
+            "etat": "MODIFIE",
             "dateDebut": 1609372800000,
-            "dateFin": 7956835200000,
+            "dateFin": 1609372800000,
             "dateDebutExtension": 32472144000000,
             "dateFinExtension": 32472144000000,
             "inap": null,
@@ -67,12 +67,12 @@
                     },
                     {
                         "debut": "1979-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2025-07-01",
                         "titre": "III : Circulation, d\u00e9tention et commerce des tabacs",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006179712",
                         "id": "LEGISCTA000006179712",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -95,8 +95,8 @@
             "sectionParentId": "LEGISCTA000006179712",
             "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs",
             "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et taxes diverses &gt; Chapitre IV : Tabacs &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000042915207",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000042915207",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -174,7 +174,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "dateDebut": 778464000000
                 }
             ],
             "lienConcordes": [],
@@ -209,10 +209,19 @@
                 },
                 {
                     "id": "LEGIARTI000042915207",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "4.0",
                     "dateDebut": 1609372800000,
-                    "dateFin": 7956835200000,
+                    "dateFin": 1609372800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638198",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1609372800000,
+                    "dateFin": 1751328000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -222,6 +231,233 @@
                 "575"
             ],
             "versionPrecedente": "LEGIARTI000042194978",
+            "conditionDiffere": null,
+            "historique": null,
+            "surtitre": null,
+            "renvoi": null,
+            "infosComplementaires": null,
+            "infosComplementairesHtml": null,
+            "infosRestructurationBranche": null,
+            "infosRestructurationBrancheHtml": null
+        },
+        {
+            "id": "LEGIARTI000048638198",
+            "idTexte": null,
+            "type": "AUTONOME",
+            "texte": "1. Est r\u00e9put\u00e9e d\u00e9tenir des tabacs manufactur\u00e9s \u00e0 des fins commerciales au sens du 4\u00b0 du 1 du I de l'article 302 D toute personne qui transporte dans un moyen de transport individuel affect\u00e9 au transport de personnes plus de : 1\u00b0 Deux cents cigarettes ; 2\u00b0 Cent cigarillos, c'est-\u00e0-dire de cigares d'un poids maximal de trois grammes par pi\u00e8ce ; 3\u00b0 Cinquante cigares, autres que les cigarillos ; 4\u00b0 Deux cent cinquante grammes de tabac \u00e0 fumer. Ces dispositions s'appliquent \u00e9galement \u00e0 toute personne qui transporte ces quantit\u00e9s \u00e0 bord d'un moyen de transport collectif. 2. Le 1 s'applique \u00e0 toute personne qui introduit en France des tabacs manufactur\u00e9s en provenance d'un autre Etat membre de l'Union europ\u00e9enne.",
+            "texteHtml": "<p>1. Est r\u00e9put\u00e9e d\u00e9tenir des tabacs manufactur\u00e9s \u00e0 des fins commerciales au sens du 4\u00b0 du 1 du I de l'article <a href='/affichCodeArticle.do?cidTexte=LEGITEXT000006069577&idArticle=LEGIARTI000006304673&dateTexte=&categorieLien=cid'>302 D</a> toute personne qui transporte dans un moyen de transport individuel affect\u00e9 au transport de personnes plus de :</p><p>1\u00b0 Deux cents cigarettes ;</p><p>2\u00b0 Cent cigarillos, c'est-\u00e0-dire de cigares d'un poids maximal de trois grammes par pi\u00e8ce ;</p><p>3\u00b0 Cinquante cigares, autres que les cigarillos ;</p><p>4\u00b0 Deux cent cinquante grammes de tabac \u00e0 fumer.</p><p>Ces dispositions s'appliquent \u00e9galement \u00e0 toute personne qui transporte ces quantit\u00e9s \u00e0 bord d'un moyen de transport collectif.</p><p>2. Le 1 s'applique \u00e0 toute personne qui introduit en France des tabacs manufactur\u00e9s en provenance d'un autre Etat membre de l'Union europ\u00e9enne.</p>",
+            "num": "575 I",
+            "origine": "LEGI",
+            "nature": "Article",
+            "versionArticle": "5.0",
+            "etat": "ABROGE_DIFF",
+            "dateDebut": 1609372800000,
+            "dateFin": 1751328000000,
+            "dateDebutExtension": 32472144000000,
+            "dateFinExtension": 32472144000000,
+            "inap": null,
+            "ordre": 236219,
+            "context": {
+                "titresTM": [
+                    {
+                        "debut": "1952-02-14",
+                        "fin": "2999-01-01",
+                        "titre": "Livre premier : Assiette et liquidation de l'imp\u00f4t",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006084232",
+                        "id": "LEGISCTA000006084232",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1952-02-14",
+                        "fin": "2999-01-01",
+                        "titre": "Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006114494",
+                        "id": "LEGISCTA000006114494",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1970-07-05",
+                        "fin": "2999-01-01",
+                        "titre": "Titre III : Contributions indirectes et taxes diverses",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006133849",
+                        "id": "LEGISCTA000006133849",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Chapitre IV : Tabacs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006147062",
+                        "id": "LEGISCTA000006147062",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2999-01-01",
+                        "titre": "Section I : Tabacs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006162624",
+                        "id": "LEGISCTA000006162624",
+                        "etat": "VIGUEUR"
+                    },
+                    {
+                        "debut": "1979-07-01",
+                        "fin": "2025-07-01",
+                        "titre": "III : Circulation, d\u00e9tention et commerce des tabacs",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
+                        "cid": "LEGISCTA000006179712",
+                        "id": "LEGISCTA000006179712",
+                        "etat": "ABROGE_DIFF"
+                    }
+                ],
+                "nombreVersionParent": 1,
+                "longeurChemin": 50,
+                "titreTxt": [
+                    {
+                        "debut": "1952-02-14",
+                        "fin": "2999-01-01",
+                        "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts",
+                        "xPath": "/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                        "cid": "LEGITEXT000006069577",
+                        "id": "LEGITEXT000006069577",
+                        "etat": "VIGUEUR"
+                    }
+                ]
+            },
+            "cid": "LEGIARTI000006310128",
+            "cidTexte": null,
+            "sectionParentCid": "LEGISCTA000006179712",
+            "sectionParentId": "LEGISCTA000006179712",
+            "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs",
+            "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et taxes diverses &gt; Chapitre IV : Tabacs &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000048638198",
+            "idEli": null,
+            "idEliAlias": null,
+            "calipsos": [],
+            "textTitles": [
+                {
+                    "id": "LEGITEXT000006069577",
+                    "titre": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI.",
+                    "titreLong": "Code g\u00e9n\u00e9ral des imp\u00f4ts",
+                    "etat": "VIGUEUR",
+                    "dateDebut": -564278400000,
+                    "dateFin": 32472144000000,
+                    "cid": "LEGITEXT000006069577",
+                    "datePubli": 32472144000000,
+                    "datePubliComputed": null,
+                    "dateTexte": 32472144000000,
+                    "dateTexteComputed": null,
+                    "nature": "CODE",
+                    "nor": "",
+                    "num": "",
+                    "numParution": "",
+                    "originePubli": "",
+                    "appliGeo": null,
+                    "codesNomenclatures": [],
+                    "visas": null,
+                    "nota": null,
+                    "notice": null,
+                    "travauxPreparatoires": null,
+                    "signataires": null,
+                    "dossiersLegislatifs": [],
+                    "ancienId": null,
+                    "appellations": null
+                }
+            ],
+            "nota": "",
+            "notaHtml": "",
+            "activitePro": [],
+            "numeroBrochure": [],
+            "numeroBo": null,
+            "conteneurs": [],
+            "lienModifications": [
+                {
+                    "textCid": "JORFTEXT000048603839",
+                    "textTitle": "Ordonnance n\u00b02023-1210 du 20 d\u00e9cembre 2023 - art. 25",
+                    "linkType": "ABROGE",
+                    "linkOrientation": "cible",
+                    "articleNum": "25",
+                    "articleId": "LEGIARTI000048624942",
+                    "natureText": "ORDONNANCE",
+                    "datePubliTexte": "2023-12-21",
+                    "dateSignaTexte": "2023-12-20",
+                    "dateDebutCible": "2023-12-22"
+                }
+            ],
+            "lienCitations": [
+                {
+                    "textCid": "LEGITEXT000006069577",
+                    "textTitle": "Code g\u00e9n\u00e9ral des imp\u00f4ts, CGI. - art. 302 D",
+                    "linkType": "CITATION",
+                    "linkOrientation": "source",
+                    "articleNum": "302 D",
+                    "articleId": "LEGIARTI000006304673",
+                    "natureText": "CODE",
+                    "parentCid": null,
+                    "numTexte": "",
+                    "datePubli": 32472144000000,
+                    "dateDebut": 778464000000
+                }
+            ],
+            "lienConcordes": [],
+            "lienAutres": [],
+            "articleVersions": [
+                {
+                    "id": "LEGIARTI000006310128",
+                    "etat": "ABROGE",
+                    "version": "1.0",
+                    "dateDebut": 299635200000,
+                    "dateFin": 541555200000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000037526480",
+                    "etat": "MODIFIE",
+                    "version": "2.0",
+                    "dateDebut": 1540425600000,
+                    "dateFin": 1596240000000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042194978",
+                    "etat": "MODIFIE",
+                    "version": "3.0",
+                    "dateDebut": 1596240000000,
+                    "dateFin": 1609372800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000042915207",
+                    "etat": "MODIFIE",
+                    "version": "4.0",
+                    "dateDebut": 1609372800000,
+                    "dateFin": 1609372800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638198",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1609372800000,
+                    "dateFin": 1751328000000,
+                    "numero": null,
+                    "ordre": null
+                }
+            ],
+            "computedNums": [
+                "575 I",
+                "575"
+            ],
+            "versionPrecedente": "LEGIARTI000042915207",
             "conditionDiffere": null,
             "historique": null,
             "surtitre": null,
@@ -297,12 +533,12 @@
                     },
                     {
                         "debut": "1979-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2025-07-01",
                         "titre": "III : Circulation, d\u00e9tention et commerce des tabacs",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006179712",
                         "id": "LEGISCTA000006179712",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -325,8 +561,8 @@
             "sectionParentId": "LEGISCTA000006179712",
             "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs",
             "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et taxes diverses &gt; Chapitre IV : Tabacs &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000042194978",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000042194978",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -392,7 +628,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "dateDebut": 778464000000
                 }
             ],
             "lienConcordes": [],
@@ -427,10 +663,19 @@
                 },
                 {
                     "id": "LEGIARTI000042915207",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "4.0",
                     "dateDebut": 1609372800000,
-                    "dateFin": 7956835200000,
+                    "dateFin": 1609372800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638198",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1609372800000,
+                    "dateFin": 1751328000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -515,12 +760,12 @@
                     },
                     {
                         "debut": "1979-07-01",
-                        "fin": "2999-01-01",
+                        "fin": "2025-07-01",
                         "titre": "III : Circulation, d\u00e9tention et commerce des tabacs",
                         "xPath": "/ARTICLE/CONTEXTE/TEXTE/TM/TM/TM/TM/TM/TM/TITRE_TM",
                         "cid": "LEGISCTA000006179712",
                         "id": "LEGISCTA000006179712",
-                        "etat": "VIGUEUR"
+                        "etat": "ABROGE_DIFF"
                     }
                 ],
                 "nombreVersionParent": 1,
@@ -543,8 +788,8 @@
             "sectionParentId": "LEGISCTA000006179712",
             "sectionParentTitre": "III : Circulation, d\u00e9tention et commerce des tabacs",
             "fullSectionsTitre": "Livre premier : Assiette et liquidation de l'imp\u00f4t &gt; Premi\u00e8re Partie : Imp\u00f4ts d'\u00c9tat &gt; Titre III : Contributions indirectes et taxes diverses &gt; Chapitre IV : Tabacs &gt; Section I : Tabacs &gt; III : Circulation, d\u00e9tention et commerce des tabacs",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000037526480",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000037526480",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -610,7 +855,7 @@
                     "parentCid": null,
                     "numTexte": "",
                     "datePubli": 32472144000000,
-                    "dateDebut": 1451606400000
+                    "dateDebut": 778464000000
                 }
             ],
             "lienConcordes": [],
@@ -645,10 +890,19 @@
                 },
                 {
                     "id": "LEGIARTI000042915207",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "4.0",
                     "dateDebut": 1609372800000,
-                    "dateFin": 7956835200000,
+                    "dateFin": 1609372800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638198",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1609372800000,
+                    "dateFin": 1751328000000,
                     "numero": null,
                     "ordre": null
                 }
@@ -743,8 +997,8 @@
             "sectionParentId": "LEGISCTA000006147141",
             "sectionParentTitre": "TABACS",
             "fullSectionsTitre": "MONOPOLES FISCAUX &gt; TABACS",
-            "refInjection": "IG-20230926",
-            "idTechInjection": "LEGIARTI000006310128",
+            "refInjection": "MD-20231221_203925_527_BDJQUOT",
+            "idTechInjection": "index_DATA_ARTICLE_LEGIARTI000006310128",
             "idEli": null,
             "idEliAlias": null,
             "calipsos": [],
@@ -841,10 +1095,19 @@
                 },
                 {
                     "id": "LEGIARTI000042915207",
-                    "etat": "ABROGE_DIFF",
+                    "etat": "MODIFIE",
                     "version": "4.0",
                     "dateDebut": 1609372800000,
-                    "dateFin": 7956835200000,
+                    "dateFin": 1609372800000,
+                    "numero": null,
+                    "ordre": null
+                },
+                {
+                    "id": "LEGIARTI000048638198",
+                    "etat": "ABROGE_DIFF",
+                    "version": "5.0",
+                    "dateDebut": 1609372800000,
+                    "dateFin": 1751328000000,
                     "numero": null,
                     "ordre": null
                 }
